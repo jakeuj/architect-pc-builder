@@ -1,0 +1,5 @@
+# 原價屋頁面原始 HTML (1MB+, 每次抓取都會變) 不進版控
+evaluate*.php
+.claude/
+__pycache__/
+.DS_Store

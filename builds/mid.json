@@ -1,0 +1,14 @@
+{
+  "name": "中階 — AM5 / DDR5，1440p 高畫質",
+  "note": "不含 OS、螢幕、週邊。R5 7500F 搭板價 (需與主機板同購)，內附風扇但另加塔散求安靜。",
+  "items": [
+    {"cat": 4,  "role": "CPU",    "match": "[搭板專案 ]｛AMD R5 7500F MPK｝"},
+    {"cat": 5,  "role": "MB",     "match": "｛華擎 B850M-X｝"},
+    {"cat": 6,  "role": "RAM",    "match": "｛UMAX 16GB(雙通8GB*2) DDR5 5600｝"},
+    {"cat": 7,  "role": "SSD",    "match": "｛致態 ZhiTai TiPlus7100s 1TB｝"},
+    {"cat": 12, "role": "VGA",    "match": "｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝"},
+    {"cat": 15, "role": "PSU",    "match": "｛保銳 CyberG II 750W｝"},
+    {"cat": 14, "role": "CASE",   "match": "｛Montech Air 903 BASE 黑｝"},
+    {"cat": 10, "role": "COOLER", "match": "｛利民 Assassin King 120 SE｝"}
+  ]
+}

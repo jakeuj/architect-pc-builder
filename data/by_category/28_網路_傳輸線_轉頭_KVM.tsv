@@ -1,0 +1,299 @@
+# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/9/18 9:33)
+# price	id	flags	name
+
+## RJ-45 網路線材
+15	2		CAT.5E 1米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+30	3		CAT.5E 3米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+50	4		CAT.5E 5米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+100	5		CAT.5E 10米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+180	6		CAT.5E 20米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+240	7		CAT.5E 30米 支援10/100 Mbps快速傳輸 / 穩定性高 / 30天保固
+799	8		CAT.5E 100米(箱) 支援10/100Mbps快速傳輸 / 穩定性高 / 不含接頭 / 30天保固
+2190	9		CAT.5E 305米(箱) 支援10/100 Mbps快速傳輸 / 穩定性高 / 不含接頭 / 30天保固
+70	10		CAT.6 2米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+100	11		CAT.6 3米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+110	12		CAT.6 5米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+190	13		CAT.6 10米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+250	14		CAT.6 15米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+350	15		CAT.6 20米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+450	16		CAT.6 30米 支援10/100/1000 Mbps(Gigabit)超高速傳輸 / 抗干擾 / 30天保
+1590	17		3C Pig CAT.6 100米(箱) 支援到1Gbps UTP / 白 / 不含接頭 / 30天保
+2790	18		3C Pig CAT.6 300米(箱) 支援到1Gbps UTP / 白 / 不含接頭 / 30天保
+99	20		｛LINDY 林帝 47590｝CAT.6A 0.3米 支援到1Gbps U/FTP純銅鍍金接點 / 極細線 / 灰
+119	21		｛LINDY 林帝 47591｝CAT.6A 0.5米 支援到1Gbps U/FTP純銅鍍金接點 / 極細線 / 灰
+139	22		｛LINDY 林帝 47592｝CAT.6A 1米 支援到1Gbps U/FTP純銅鍍金接點 / 極細線 / 灰
+179	23		｛LINDY 林帝 47594｝CAT.6A 2米 支援到1Gbps U/FTP純銅鍍金接點 / 極細線 / 灰
+119	24		｛LINDY 林帝 47175｝CAT.6A 0.3米 支援到1Gbps S/FTP純銅鍍金接點 / 黑
+139	25		｛LINDY 林帝 47176｝CAT.6A 0.5米 支援到1Gbps S/FTP純銅鍍金接點 / 黑
+169	26		｛LINDY 林帝 47177｝CAT.6A 1米 支援到1Gbps S/FTP純銅鍍金接點 / 黑
+209	27		｛LINDY 林帝 47179｝CAT.6A 2米 支援到1Gbps S/FTP純銅鍍金接點 / 黑
+269	28		｛LINDY 林帝 47180｝CAT.6A 3米 支援到1Gbps S/FTP純銅鍍金接點 / 黑
+129	29		｛LINDY 林帝 47440｝CAT8.1 0.3米 支援到40Gbps S/FTP純銅鍍金接點 / 灰
+179	30		｛LINDY 林帝 47442｝CAT8.1 1米 支援到40Gbps S/FTP純銅鍍金接點 / 灰
+279	31		｛LINDY 林帝 47445｝CAT8.1 3米 支援到40Gbps S/FTP純銅鍍金接點 / 灰
+129	33		｛UNITEK C1811GBK｝CAT6 3米 支援10/100/1000 Mbps(1 Gb) UTP / 扁線 / 黑
+209	34		｛UNITEK C1812GBK｝CAT6 5米 支援10/100/1000 Mbps(1 Gb) UTP / 扁線 / 黑
+239	35		｛UNITEK C1813GBK｝CAT6 10米 支援10/100/1000 Mbps(1 Gb) UTP / 扁線 / 黑
+319	36		｛UNITEK C1814GBK｝CAT6 15米 支援10/100/1000 Mbps(1 Gb) UTP / 扁線 / 黑
+399	37		｛UNITEK C1815GBK｝CAT6 20米 支援10/100/1000 Mbps(1 Gb) UTP / 扁線 / 黑
+299	38		｛UNITEK C1811EBK｝CAT7 3米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
+339	39		｛UNITEK C1812EBK｝CAT7 5米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
+499	40		｛UNITEK C1813EBK｝CAT7 10米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
+259	42		群加 CAT7 1.5米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
+299	43		群加 CAT7 2米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
+399	44		群加 CAT7 3米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
+588	46		華碩 ROG CAT7 1.5米 支援10/100/1000/10000 Mbps(10 Gbps) 純銅鍍金頭/編織線
+
+## 硬碟排線
+50	48		SATA 硬碟排線 ( 黑 )
+
+## Type-C 轉接/線材
+688	50		｛ASUS ROG LCR50｝240W USB-C to C 充電線 / 編織線 / 1.5米
+260	51		｛伽利略 C460HD｝Type-C(公) to HDMI(母) 轉接線
+199	52		｛3C Pig TCUSB Plus｝Type-C(母) to Type-A(公) 轉接頭 10Gbps / 120W / 鋅合金
+199	53		｛3C Pig PD-401｝Type-C + A to Type-C + Lightning 四合一彈簧線 / 2M
+249	54		｛3C Pig CA-001｝Type-A to C 磁吸式 / 60W充電線 / 黑 / 1M
+249	55		｛3C Pig CC-001｝Type-C to C 磁吸式 / 100W充電線 / 黑 / 1M
+299	56		｛3C Pig TC-C+｝Type-C 公-公 USB10G 傳輸線 / 最高支援5A100W / 1M
+350	57		｛3C Pig TC-C+200｝Type-C 公-公 USB20G 傳輸線 / 最高支援5A100W / 2M
+399	58		｛3C Pig TC-R1000｝Type-C 轉接器 USB-C to RJ-45 1Gb LAN / 支援Mac
+699	59		｛3C Pig TC-R2500｝Type-C 轉接器 USB-C to RJ-45 2.5Gb LAN / 支援Mac
+699	60		｛3C Pig TC-DP200｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 2M
+799	61		｛3C Pig TC-DP300｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 3M
+799	62		｛3C Pig TC-H200｝Type-C to HDMI 轉接線 / 4K60Hz / 2M
+899	63		｛3C Pig TC-H300｝Type-C to HDMI 轉接線 / 4K60Hz / 3M
+149	65		｛Gigastone GC-6800B｝Type-A to C USB5G / 鋁合金 / 黑 / 1.2M
+199	66		｛Gigastone CC-7600W｝Type-C to C 60W充電線 / 白 / 1.5M
+399	67		｛Gigastone CC-7800B｝Type-C to C USB10G / 100W充電傳輸線 / 黑 / 1.5M
+499	68		｛Gigastone CC-8800B｝Type-C to C 磁吸式 / 240W充電線 / 黑 / 1M
+998	69		【買一送一】｛Gigastone CC-8800B｝Type-C to C 磁吸式 / 240W充電線 / 黑 / 1M 兩條
+499	70		｛Gigastone CC-8800W｝Type-C to C 磁吸式 / 240W充電線 / 白 / 1M
+998	71		【買一送一】｛Gigastone CC-8800W｝Type-C to C 磁吸式 / 240W充電線 / 白 / 1M 兩條
+399	72		｛Gigastone HC-2100B｝Type-C to HDMI2.0 轉接線 / 4K60Hz / 1M
+749(原798)	73	價格異動 下殺	【兩件優惠】｛Gigastone HC-2100B｝Type-C to HDMI2.0 轉接線 / 4K60Hz / 1M【兩條】▼下殺到 9/30 23:59
+499	74		｛Gigastone HC-2300B｝Type-C to HDMI2.0 轉接線 / 4K60Hz / 2M
+899(原998)	75	價格異動 下殺	【兩件優惠】｛Gigastone HC-2300B｝Type-C to HDMI2.0 轉接線 / 4K60Hz / 2M【兩條】▼下殺到 9/30 23:59
+249	76	訂購	｛LINDY 林帝 36666｝Type-C to Type-B USB5G 傳輸線 / 1M【訂】
+299	77	訂購	｛LINDY 林帝 36667｝Type-C to Type-B USB5G 傳輸線 / 2M【訂】
+279	78		｛LINDY 林帝 36620｝Type-C to Micro-B USB5G 傳輸線 / 0.5M (可接外接硬碟)
+329	79	訂購	｛LINDY 林帝 36621｝Type-C to Micro-B USB5G 傳輸線 / 1M (可接外接硬碟)【訂】
+379	80	訂購	｛LINDY 林帝 36622｝Type-C to Micro-B USB5G 傳輸線 / 2M (可接外接硬碟)【訂】
+429	81		｛LINDY 林帝 36623｝Type-C to Micro-B USB5G 傳輸線 / 3M (可接外接硬碟)
+199	82		｛LINDY 林帝 41904｝Type-C(母) to Type-A(公) USB10G 轉接頭
+199	83		｛LINDY 林帝 41899_A｝Type-C(公) to Type-A(母) USB10G OTG轉接頭
+249	84		｛LINDY 林帝 36895｝Type-C(公) to Type-A(母) USB5G OTG傳輸線 / 0.15M
+179	85		｛LINDY 林帝 36915｝Type-C to A 公-公 USB10G 傳輸線 最大60W / 0.5M
+199	86		｛LINDY 林帝 36916｝Type-C to A 公-公 USB10G 傳輸線 最大60W / 1M
+419	87		｛LINDY 林帝 32019｝Type-C to C 公-公 L型 10Gbps 傳輸線 最大60W / DP Alt Mode / 1.5M
+349	88		｛LINDY 林帝 36906｝Type-C to C 公-公 20Gbps 傳輸線 最大60W / DP Alt Mode / 1M
+549	89		｛LINDY 林帝 36903｝Type-C to C 公-公 20Gbps 傳輸線 最大100W / DP Alt Mode / 2M
+749	90	訂購	｛LINDY 林帝 43245｝Type-C to DP 主動式轉接器 / 支援Thunderbolt 3 / 4K144Hz【訂】
+699	91		｛LINDY 林帝 37000｝BLACK Type-C to C 公-公 40Gbps / PD240W / 0.5M
+749	92		｛LINDY 林帝 37001｝BLACK Type-C to C 公-公 40Gbps / PD240W / 1M
+799	93		｛LINDY 林帝 37002｝BLACK Type-C to C 公-公 40Gbps / PD240W / 2M
+799	94		｛LINDY 林帝 36947｝ANTHRA Type-C to C 公-公 40Gbps / 智能電流晶片100W / 0.8M
+699	95		｛LINDY 林帝 43242｝Type-C to VGA 轉接頭
+849	96	訂購	｛LINDY 林帝 43302｝Type-C to DP 主動式轉接線 / 支援TB / 4K144Hz / 2M【訂】
+1180	97	訂購	｛LINDY 林帝 43292｝Type-C to HDMI 2.0 主動式轉接線 / 支援TB / 4K60Hz / 2M【訂】
+899	98		Wavesplitter 威世波 Type-C to HDMI HDR主動式轉接器 / 支援8K60Hz
+159	99		｛UNITEK A1034NI｝Type-C(母) to Type-A(公) USB5G 轉接頭
+159	100		｛UNITEK A1025GNI｝Type-A(母) to Type-C(公) USB5G OTG轉接頭
+159	101		｛UNITEK Y-C476BK｝Type-A(母) to Type-C(公) USB5G OTG傳輸線 / 0.2米
+169	102		｛UNITEK Y-C474BK｝Type-A to C USB5G / 充電傳輸線 / 1米
+239	103		｛UNITEK C14103BK-2M｝Type-A to C USB5G / 充電傳輸線 / 2米
+299	104		｛UNITEK C14103BK-3M｝Type-A to C USB5G / 充電傳輸線 / 3米
+199	105		｛UNITEK Y-C477BK｝Type-C to C USB5G / 充電傳輸線 / 1米
+596	106		｛UNITEK V1409A｝Type-C to DP 1.2 轉接線 / 4K60Hz / 2米
+769	107		｛NITEK V1423A｝Type-C to HDMI 2.0 轉接線 / 4K60Hz / 1.8米
+1299	108		｛UNITEK V1423B｝Type-C to HDMI 2.1 轉接線 / 8K60Hz / 1.8米
+
+## Thunderbolt 線材
+1380	110	訂購	｛LINDY 林帝 31120｝被動式TB4 傳輸線 / 40Gbps / 100W / Intel 原廠認證 / 1米【訂】
+
+## HDMI 轉接/線材
+100	112		｛伽利略 HDTVGA1｝HDMI(公) to VGA(母) 轉接線 / 不含3.5音源孔
+210	113		｛伽利略 HDTVGA｝HDMI (公) to VGA(母) 轉接線 / 含3.5音源孔
+99	114		｛伽利略 CABLE401P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 1米
+128	115		｛伽利略 CABLE402P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 2米
+200	116		｛伽利略 CABLE403P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 3米
+300	117		｛伽利略 CABLE405P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 5米
+480	118		｛伽利略 CABLE410P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 10米
+179	119		｛伽利略 CABLE801P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 1米
+209	120		｛伽利略 CABLE802P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 2米
+269	121		｛伽利略 CABLE803P｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 3米
+289	122		｛伽利略 CABLE801｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 1米
+319	123		｛伽利略 CABLE802｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 2米
+439	124		｛伽利略 CABLE803｝HDMI 公-公 / 鍍金頭 / 認證 / 支援8K60Hz / 3米
+130	125		｛3C Pig HD-V｝HDMI(公) to VGA(母) 轉接線
+270	126		｛3C Pig DV-H｝HDMI(公) to DVI-D(公) 雙向 / 抗干擾 / 1.5米
+95(原150)	127	價格異動 下殺	｛3C Pig HDMI-100｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 1米▼下殺到 9/30 23:59
+125(原199)	128	價格異動 下殺	｛3C Pig HDMI-200｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 2米▼下殺到 9/30 23:59
+165(原299)	129	價格異動 下殺	｛3C Pig HDMI-300｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 3米▼下殺到 9/30 23:59
+215(原359)	130	價格異動 下殺	｛3C Pig HDMI-500｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 5米▼下殺到 9/30 23:59
+255(原459)	131	價格異動 下殺	｛3C Pig HDMI-800｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 8米▼下殺到 9/30 23:59
+340(原399)	132	價格異動 下殺	｛3C Pig HDMI-280｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 2米▼下殺到 9/30 23:59
+350(原499)	133	價格異動 下殺	｛3C Pig HDMI-380｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 3米▼下殺到 9/30 23:59
+139	135		｛Gigastone HH-2100B｝HDMI 2.0 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 1.2米
+249(原278)	136	價格異動 下殺	【兩件優惠】｛Gigastone HH-2100B｝HDMI 2.0 公-公 / 1.2米【兩條】▼下殺到 9/30 23:59
+199	137		｛Gigastone HH-2300B｝HDMI 2.0 公-公 / 鍍金頭 / 認證 / 支援4K60Hz / 2米
+349(原398)	138	價格異動 下殺	【兩件優惠】｛Gigastone HH-2300B｝HDMI 2.0 公-公 / 2米【兩條】▼下殺到 9/30 23:59
+149	139		｛LINDY 林帝 41232｝HDMI 4K60Hz 公-母 CEC阻斷器
+299	140		｛LINDY 林帝 41509｝CROMO HDMI 2.0 母-母 延長對接頭 / 鋅合金鍍金頭
+249	141		｛LINDY 林帝 36475｝ANTHRA HDMI 2.0 公-母 延長線 / 鍍金頭 / 0.5米
+199	142		｛LINDY 林帝 37315｝HDMI 公-公 耐彎曲傳輸線 / 鍍金頭 / 支援4K60Hz / 0.5米
+229	143		｛LINDY 林帝 37316｝HDMI 公-公 耐彎曲傳輸線 / 鍍金頭 / 支援4K60Hz / 1米
+329	144		｛LINDY 林帝 37317｝HDMI 公-公 耐彎曲傳輸線 / 鍍金頭 / 支援4K60Hz / 2米
+399	145		｛LINDY 林帝 37318｝HDMI 公-公 耐彎曲傳輸線 / 鍍金頭 / 支援4K60Hz / 3米
+599	146		｛LINDY 林帝 37319｝HDMI 公-公 耐彎曲傳輸線 / 鍍金頭 / 支援4K60Hz / 5米
+379	147		｛LINDY 林帝 41669｝CROMO HDMI 2.0 公-公 極細傳輸線 / 鍍金頭 / 0.3米
+399	148		｛LINDY 林帝 41670｝CROMO HDMI 2.0 公-公 極細傳輸線 / 鍍金頭 / 0.5米
+449	149		｛LINDY 林帝 41671｝CROMO HDMI 2.0 公-公 極細傳輸線 / 鍍金頭 / 1米
+499	150		｛LINDY 林帝 41672｝CROMO HDMI 2.0 公-公 極細傳輸線 / 鍍金頭 / 2米
+449	151		｛LINDY 林帝 37871｝CROMO HDMI 2.0 公-公 / 鍍金頭 / 支援8K60Hz / 1米
+549	152		｛LINDY 林帝 37872｝CROMO HDMI 2.0 公-公 / 鍍金頭 / 支援8K60Hz / 2米
+649	153		｛LINDY 林帝 37873｝CROMO HDMI 2.0 公-公 / 鍍金頭 / 支援8K60Hz / 3米
+199	154		｛LINDY 林帝 36771｝BLACK HDMI 公-公 / 鍍金頭 / 支援8K60Hz / 1米
+249	155		｛LINDY 林帝 36772｝BLACK HDMI 公-公 / 鍍金頭 / 支援8K60Hz / 2米
+299	156		｛LINDY 林帝 36773｝BLACK HDMI 公-公 / 鍍金頭 / 支援8K60Hz / 3米
+549	157		｛LINDY 林帝 36774｝BLACK HDMI 公-公 / 鍍金頭 / 支援8K60Hz / 5米
+899	158		｛LINDY 林帝 37255｝BLACK HDMI 公-公 / 鍍金頭 / 支援8K60Hz / 7.5米
+649	159		｛LINDY 林帝 36952｝ANTHRA HDMI 2.1 公-公 / 鍍金頭 / 認證 / 支援10K120Hz / 1米
+749	160		｛LINDY 林帝 36953｝ANTHRA HDMI 2.1 公-公 / 鍍金頭 / 認證 / 支援10K120Hz / 2米
+699	161	訂購	｛LINDY 林帝 36775｝CROMO HDMI 2.1 公-公 極細傳輸線 / 鍍金頭 / 0.5米【訂】
+749	162	訂購	｛LINDY 林帝 36776｝CROMO HDMI 2.1 公-公 極細傳輸線 / 鍍金頭 / 1米【訂】
+1480	163	訂購	｛LINDY 林帝 38289｝HDMI2.0(公) to DP1.2(母) 帶USB電源轉接器 / 支援4K60Hz【訂】
+349	165		Wavesplitter 威世波 HDMI 2.1 公-公 / 鍍金頭 / 認證 / 支援10K120Hz / 0.9米
+399	166		Wavesplitter 威世波 HDMI 2.1 公-公 / 鍍金頭 / 認證 / 支援10K120Hz / 1.8米
+449	167		Wavesplitter 威世波 HDMI 2.1 公-公 / 鍍金頭 / 認證 / 支援10K120Hz / 3米
+339	168		｛UNITEK Y-6333｝HDMI(公) to VGA(母) 轉接線 / 含3.5mm 音源孔
+299	169		｛UNITEK Y-C166K｝HDMI 2.0 公-母 延長線 / 鍍金頭 / 支援4K60Hz / 3米
+179	170		｛UNITEK Y-C138M｝HDMI 2.0 公-公 / 鍍金頭 / 支援4K60Hz / 2米
+219	171		｛UNITEK Y-C139M｝HDMI 2.0 公-公 / 鍍金頭 / 支援4K60Hz / 3米
+230	172		｛UNITEK Y-C140M｝HDMI 1.4 公-公 / 鍍金頭 / 支援4K30Hz / 5米
+309	173		｛UNITEK C11060BK-1M｝HDMI 2.1 公-公 / 鍍金頭 / 支援8K60Hz / 1米
+399	174		｛UNITEK C11060BK-2M｝HDMI 2.1 公-公 / 鍍金頭 / 支援8K60Hz / 2米
+220	175		力祥 HDMI(公) to mini HDMI(公) 傳輸線 / 1.8米
+
+## Display port 轉接/線材
+230	177		｛伽利略 DPTHD3｝DP(公) to HDMI (母)轉接器
+258	178		｛伽利略 CABLE518D｝DP 5K 公-公 / 鍍金頭 / 無卡榫 / 支援5K / 1.8米
+388	179		｛伽利略 CABLE818D｝DP 8K 公-公 / 鍍金頭 / 無卡榫 / 支援8K / 1.8米
+370	180		｛3C Pig DP-V｝DP(公) to VGA (母)轉接器 / Display Port支援1.1＆1.2版
+390	181		｛3C Pig DP-H母｝DP(公-電腦) to HDMI(母) 轉接頭 / 支援4K
+290	182	熱賣	｛3C Pig DP-DP(5K)｝DP 1.3版 公-公 / 最高可達 5120*2280 (60Hz) / 1.8米
+430	183	熱賣	｛3C Pig DP-DP(8K)｝DP 1.4版 公-公 / 最高可達 7680*4320 (60Hz) / 1.8米
+499	184		｛3C Pig DP-DP(16K)2M｝DP 2.1版 公-公 / 最高可達 15360*8460 (60Hz) / 2米
+599	185		｛3C Pig DP-DP(16K)3M｝DP 2.1版 公-公 / 最高可達 15360*8460 (60Hz) / 3米
+290	186		｛3C Pig DP-H｝DP 1.2(電腦) to HDMI 1.4(螢幕)單向 / 支援4K / 1.8米
+239	187		｛CyberSLIM MDP-V｝MINI DP(公) to VGA(母) 轉接器【適用繪圖卡】
+299	189		｛LINDY 林帝 36495｝ANTHRA DP 1.4版 公-母 延長線 / 鍍金頭 / 0.5米
+349	190		｛LINDY 林帝 41014｝MINI DP(公) to HDMI(母) 轉接器 / 鍍金頭 / 支援Thunderbolt
+249	191		｛LINDY 林帝 41333｝DP 1.4版 公-母 轉接頭 / 向右角度
+249	192		｛LINDY 林帝 41334｝DP 1.4版 公-母 轉接頭 / 向左角度
+349	193		｛LINDY 林帝 41365｝DP 1.2版 公-母 轉接頭 / 向上角度
+349	194	訂購	｛LINDY 林帝 41366｝DP 1.2版 公-母 轉接頭 / 向下角度【訂】
+599	195		｛LINDY 林帝 41718｝DP(公) to HDMI(母) 轉接器
+349	196		｛LINDY 林帝 36492｝BLACK DP 1.2版 公-公 / 2米
+399	197		｛LINDY 林帝 36493｝BLACK DP 1.2版 公-公 / 3米
+449	198		｛LINDY 林帝 36481｝ANTHRA DP 1.4版 公-公 / 1米
+549	199		｛LINDY 林帝 36482｝ANTHRA DP 1.4版 公-公 / 2米
+599	200		｛LINDY 林帝 36301｝CROMO DP 1.4版 公-公 / 1米
+699	201		｛LINDY 林帝 36302｝CROMO DP 1.4版 公-公 / 2米
+999	202	訂購	｛LINDY 林帝 36463｝SLIM DP 1.4版 公-公 / 窄身 / 3米【訂】
+899	203		Wavesplitter 威世波 DP 1.4 to HDMI HDR主動式轉接器 / 8K60Hz
+599	204		Wavesplitter 威世波 DP 2.1 DP40 / 公-公 / 鍍金頭 / 支援16K30Hz / 2米
+849	205		Wavesplitter 威世波 DP 2.1 DP40 / 公-公 / 鍍金頭 / 支援16K30Hz / 3米
+799	206		Wavesplitter 威世波 DP 2.1 DP80 / 公-公 / 鍍金頭 / 支援16K60Hz / 2米
+349	207		｛UNITEK Y-5118E｝DP(公) to VGA(母) 轉接線
+299	208		｛UNITEK Y-C607BK｝DP 1.2版 公-公 / 鍍金頭 / 4K60Hz / 1.5米
+319	209		｛UNITEK Y-C608BK｝DP 1.2版 公-公 / 鍍金頭 / 4K60Hz / 2米
+389	210		｛UNITEK Y-C609BK｝DP 1.2版 公-公 / 鍍金頭 / 4K60Hz / 3米
+399	211		｛UNITEK Y-C610BK｝DP 1.2版 公-公 / 鍍金頭 / 4K60Hz / 5米
+399	212		｛UNITEK C1624BK-1M｝DP 1.4版 公-公 / 鍍金頭 / 8K60Hz / 1米
+350	213	熱賣	｛力祥 SU4006｝DP(電腦) to DVI-D(螢幕) 公-公 / 支援1080P / 單向傳輸 / 1.8米
+290	214		｛力祥 SU4011｝Mini DP to DP 公-公 / 1.8米
+
+## DVI 頭/線材
+90	216		｛3C Pig D-H｝DVI-D(公) to HDMI(母) 轉接頭 / 鍍金頭 / 1080P
+220	217	熱賣	｛3C Pig DV-V｝DVI-D(公) to VGA(母) 主動式轉接頭 / 轉換數位DVI為類比VGA訊號
+270	218		｛3C Pig DV-H｝DVI-D to HDMI 雙向傳輸線 / 抗干擾磁環 / 1.5米
+190	219		力祥 DVI-D 公-公 / 1.8米
+45	220		力祥 DVI-I(公) to VGA(母) 被動式轉接頭
+
+## 其他 轉接/線材
+269	222		｛伽利略 VGATHD｝VGA(公) to HDMI(母) 轉接頭 / USB供電 / 音源線
+140	223		力祥 D-sub 公-公 / UL2919 / 1.8米
+140	224		力祥 D-sub 公-母 延長線 / UL2919 / 1.8米
+100	225		變壓器電源線 3孔AC線 / 梅花型 / 1.2M
+25	226		Ktnet 電源3Pin 轉 2Pin 轉接頭 15A / AC125V / 1650W
+249	227		｛LINDY 林帝 35327｝CROMO 3.5mm 音源延長線 公-母 / 鍍金頭 / 1米
+299	228		｛LINDY 林帝 35322｝CROMO 3.5mm 音源線 公-公 / 鍍金頭 / 2米
+349	229		｛LINDY 林帝 35323｝CROMO 3.5mm 音源線 公-公 / 鍍金頭 / 3米
+499	230		｛LINDY 林帝 37882｝Premium Gold TosLink 光纖傳輸線 公-公 / 鍍金頭 / 2米
+139	231		｛UNITEK Y-C503G｝D-sub 公-公 / 鍍金頭 / 1080P / 1.5米
+199	232		｛UNITEK Y-C504G｝D-sub 公-公 / 鍍金頭 / 1080P / 3米
+249	233		｛UNITEK Y-C505G｝D-sub 公-公 / 鍍金頭 / 1080P / 5米
+179	234		｛UNITEK Y-C926ABK｝3.5mm 音源線 公-公 / 鍍金頭 / 1米
+179	235		｛UNITEK Y-C932ABK｝3.5mm 音源線 公-母 延長線 / 鍍金頭 / 1米
+199	236		｛UNITEK Y-C957ABK｝3.5mm 音源線 1母-2公 / 鍍金頭 / 轉接線
+780	237		｛登昌恆 SHI401｝SFF8643 to 4SAS 1米
+
+## 外接轉接線
+320	239		｛伽利略 CABLE-008｝USB to PRINTER 25pin / 支援WIN/Mac/Linux
+290	240		｛伽利略 USB232H2｝USB to RS232線
+460	241		｛伽利略 U3I-672｝光速線-精裝版 SATA to USB5G
+635	242		｛伽利略 U3I-683｝光速線-簡配版 IDE+SATA to USB5G
+730	243		｛伽利略 U3ISC-691｝光速線-尊爵版 IDE+SATA to USB5G / 搭送硬碟盒 / USB-A、C
+980	244		｛伽利略 U3I-693｝光速線-專業加強版 IDE+SATA to USB5G / 自動鏡像
+965	245		｛伽利略 SMNVCCA｝SATA + M.2 NVMe對烤 / USB10G / USB-A、C
+699	246		｛UNITEK Y-1039｝USB5G 轉 SATA 轉接線 / 附電源轉接器
+
+## USB延長線
+190	248		｛力祥 SU0108｝USB5G Type-A 公-母 延長線 / 1.8米
+229	249		｛UNITEK Y-C459GBK｝USB5G Type-A 公-母 延長線 / 鍍金頭 / 2米
+349	250		｛UNITEK C14086BK｝USB10G Type-C 公-母 延長線 / 100W / 0.5米
+399	251		｛UNITEK C14086BK-1M｝USB10G Type-C 公-母 延長線 / 100W / 1米
+439	252		｛UNITEK C14086BK-1.5M｝USB10G Type-C 公-母 延長線 / 100W / 1.5米
+
+## 電源多孔排插
+490	254		｛ASUS ROG LPR01｝電源延長線 1.5M 相容ROG ALLY / 部分 ROG筆電
+488	255		保護傘 安全插座延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 耐燃材質 / 1.8米
+548	256		保護傘 安全插座延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 耐燃材質 / 2.7米
+668	257		保護傘 安全插座延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 耐燃材質 / 4.5米
+449	258		PowerSync 群加 滑蓋防塵防雷擊延長線 / 1切6座獨立開關 / 過載自動斷電保護 / 1.8米(白)
+559	259		PowerSync 群加 滑蓋防塵防雷擊延長線 / 1切6座獨立開關 / 過載自動斷電保護 / 2.7米(白)
+499	260		PowerSync 群加 滑蓋防塵防雷擊延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 1.8米(黑)
+599	261		PowerSync 群加 滑蓋防塵防雷擊延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 2.7米(黑)
+699	262		PowerSync 群加 磁吸式防雷擊延長線 / 6切6座獨立開關 / 過載自動斷電保護 / 1.8米(白)
+799	263		AGM 台製防火耐燃延長線 / 6切6座獨立開關 / 省力拉環輕鬆插拔 / 1.8米(黑)
+
+## KVM SWITCH 切換器
+880	265		｛伽利略 HKVM2S｝【2埠-USB】HDMI*2 二進一出(2K/4K@30Hz)/內附USB電腦連接線*2
+1225	266		｛伽利略 HKVM4S｝【4埠-USB】HDMI*4 四進一出(2K/4K@30Hz)/內附USB電腦連接線*4
+659	267	熱賣	｛ATEN CS22U｝【2埠-USB】D-SUB 二進一出 / 外接式切換鍵 (帶線式0.9M)
+899	268		｛ATEN CS22HF｝【2埠-USB】HDMI 二進一出 / 1080p60Hz (帶線式1.2M)
+1939	269		｛ATEN CS22H｝【2埠-USB】HDMI 二進一出 / 4K60Hz / 含音效 (帶線式1.2M)
+1588	270		｛ATEN CS692｝【2埠-USB】HDMI 二進一出 / 1080P / 含音效 / 外接式切換鍵 (帶線式1.2M)
+1390	271		｛ATEN CS72U｝【2埠-USB】D-SUB 二進一出 / 含音效 / 面板切換 (附線1.2M*2條)
+2000	272		｛ATEN CS82U｝【2埠-USB+PS2】D-SUB 二進一出 / 面板切換 (附線1.2M*2條)
+2800	273		｛ATEN CS74U｝【4埠-USB】D-SUB 四進一出 / 含音效 / 面板切換 (附線1.2M*2、1.8M*2)
+2000	274		｛ATEN CS64US｝【4埠-USB】D-SUB 四進一出 / 含音效 (帶線式0.9m*2條、1.2m*2條)
+4095	275		｛ATEN CS84U｝【4埠-USB+PS2】D-SUB 四進一出 / 面板切換 (附線1.2M*2條、1.8M*2條)
+
+## 影音分配器
+799	277		｛LINDY 38157｝迷你型 HDMI1.4 10.2G 一進二出分配器 HDMI 一進二出/需外接USB充電
+899	278		｛LINDY 38339_A｝HDMI 8K@60Hz 雙向影像切換器 HDMI 二進一出/手動按鍵切換
+700	279		｛伽利略 HDS102EAS｝【2埠-HDMI】一進二出/4K60Hz/可音源分離
+950	280		｛伽利略 HDS104EAS｝【4埠-HDMI】一進四出/4K60Hz/可音源分離
+934	281		｛ATEN VS4812｝【2埠-HDMI】/一進二出/4K60Hz/True 4K+HDR/一鍵即開關畫面
+1020	282		｛ATEN VS4814｝【4埠-HDMI】/一進四出/4K60Hz/True 4K+HDR/一鍵即開關畫面
+1190	283		｛ATEN VS5812｝【2埠-HDMI】/一進二出/8K 60Hz/4K 120Hz/48Gpbs超高速影音傳輸
+1000	284		｛銀欣 HS12｝【2埠-HDMI】HDMI2.0 一進二出/4K 60Hz/支援HDCP 2.2/USB Type-C 供電
+1750	285		｛銀欣 HS14｝【4埠-HDMI】HDMI2.0 一進四出/4K 60Hz/支援HDCP 2.2/支援HDR10 Dolby Vision
+
+## 影音切換器
+249	287		｛伽利略 H4301R｝HDMI 1.4b【3埠-HDMI】支援4K2K/附遙控器/紅外線延長線接收器
+490	288		｛銀欣 HSW21｝【2埠-HDMI】HDMI2.0 4K 二進一出/4K 60Hz/支援HDCP 2.2
+990	289		｛銀欣 HSW41｝【4埠-HDMI】HDMI2.0 4K 四進一出/4K 60Hz/支援HDCP 2.2/紅外線遙控
+774	290		｛ATEN VS5821｝【2埠-HDMI】8K 影音切換器/二進一出/8K 60Hz/4K 120Hz/自動低延遲模式
+950	291		｛ATEN VS4841｝【4埠-HDMI】4K 影音切換器/四進一出/60Hz/附紅外線搖控器

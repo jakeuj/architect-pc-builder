@@ -1,0 +1,37 @@
+# 27 介面擴充卡｜專業Raid卡  (報價日期 2026/9/18 9:33)
+# price	id	flags	name
+
+## M.2 SSD PCI-E 擴充卡
+310	2		｛伽利略 M2PE42｝【PCI-E 1X】NVMe / 1埠
+340	3		｛伽利略 M2PE41｝【PCI-E 4X】NVMe / 1埠
+450	4		｛伽利略 M2PE51｝【PCI-E 5.0 X1】NVMe / 1埠
+480	5		｛伽利略 M2PE54｝【PCI-E 5.0 X4】NVMe / 1埠
+2490	6		｛華碩 HYPER M.2 X16 GEN 4 CARD｝NVMe / 4埠
+2990	8		｛華碩 HYPER M.2 X16 GEN 5 CARD｝NVMe / 4埠
+567	9		｛銀欣 ECM21-E｝【PCI-E 4X】NVMe / 1埠
+
+## Thunderbolt 擴充卡
+3490	12		｛華碩 ThunderboltEX 4｝【PCI-E 4X】40 Gbps雙向頻寬 / TB4 *2 / Mini DP1.4 *2
+3990	13		｛華碩 ThunderboltEX 5｝【PCI-E 4X】120 Gbps / TB5 *2 / Mini DP2.1 *3
+
+## USB40G 擴充卡
+2990	15		｛華碩 USB4 PCIe Gen4 Card｝【PCI-E 4X】USB(40G*2C) / DisplayPort 1.4*2
+
+## USB20G 擴充卡
+1782	17		｛銀欣 ECU06｝【PCI-E 4X】1埠USB20G(1C) / ASM 3242晶片 / 內附短擋片
+
+## USB10G 擴充卡
+1080	19		｛銀欣 ECU02-E｝【PCI-E 4X】主板20Pin USB-C(10G) / ASM 3142 / 內附短擋片
+
+## USB5G 擴充卡
+590	21		｛伽利略 PEN219｝【PCI-E 1X】USB(5G*2A) / 主板19Pin USB5G*1 / Renesas晶片
+749	22		｛伽利略 PTU314C｝【PCI-E】USB(5G*4A1C) / 主板19Pin USB5G*1
+850	23		｛伽利略 PE3117｝【PCI-E 1X】USB(5G*7A )
+
+## SATA 擴充卡
+600	25		｛伽利略 PES320A｝【PCI-E 1X】2埠
+1090	26		｛伽利略 PES340A｝【PCI-E 4X】4埠
+
+## RS-232 / Parallel (印表機埠) 擴充卡
+590	28		｛伽利略 PEP01A｝【PCI-E X1】Parallel 1埠
+590	29		｛伽利略 PETR02A｝【PCI-E 1X】RS-232 2埠
