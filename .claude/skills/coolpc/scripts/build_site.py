@@ -2,7 +2,7 @@
 """把 data/coolpc_prices.json + builds/*.json 整理成 docs/data.json, 給 GitHub Pages 靜態估價頁 (templates/index.html) 使用。
 
 用法:
-  python3 build_site.py --init            # 在專案內建立 site.json / docs/index.html / docs/.nojekyll / workflow (已存在的不覆寫)
+  python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/.nojekyll / workflow (已存在的不覆寫)
   python3 build_site.py [--config site.json]
 
 site.json 欄位:
@@ -60,7 +60,17 @@ EXCLUDE_ITEMS = r"限搭NAS|限搭購QNAP|套裝加購"
 
 
 def init(root: Path, force: bool):
-    """從 templates/ 建立網站骨架。"""
+    """把技能複製到目標專案 .claude/skills/coolpc/，再從 templates/ 建立網站骨架。"""
+    skill_src = HERE.parent
+    skill_dst = root / ".claude" / "skills" / "coolpc"
+    if skill_src.resolve() != skill_dst.resolve():
+        if skill_dst.exists() and not force:
+            print("  略過 (已存在) .claude/skills/coolpc/")
+        else:
+            if skill_dst.exists():
+                shutil.rmtree(skill_dst)
+            shutil.copytree(skill_src, skill_dst, ignore=shutil.ignore_patterns("__pycache__", ".DS_Store"))
+            print("  複製技能 -> .claude/skills/coolpc/")
     targets = {
         "site.json": TEMPLATES / "site.json",
         "docs/index.html": TEMPLATES / "index.html",

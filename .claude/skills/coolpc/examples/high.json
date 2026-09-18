@@ -1,0 +1,14 @@
+{
+  "name": "高階 — AM5 X3D / DDR5，1440p 極致 / 4K",
+  "note": "不含 OS、螢幕、週邊。R7 9800X3D 搭板價 (需與主機板同購)，CPU 不附風扇故配雙塔散熱。",
+  "items": [
+    {"cat": 4,  "role": "CPU",    "match": "[搭板專案 ]｛AMD R7 9800X3D｝"},
+    {"cat": 5,  "role": "MB",     "match": "｛技嘉 B850 AORUS ELITE WIFI7｝/ATX"},
+    {"cat": 6,  "role": "RAM",    "match": "｛UMAX 16GB(雙通8GB*2) DDR5 5600｝"},
+    {"cat": 7,  "role": "SSD",    "match": "｛致態 ZhiTai TiPlus7100s 2TB｝"},
+    {"cat": 12, "role": "VGA",    "match": "｛藍寶石 脈動 PULSE RX9070XT GAMING 16GB｝"},
+    {"cat": 15, "role": "PSU",    "match": "｛保銳 CyberG II 850W｝"},
+    {"cat": 14, "role": "CASE",   "match": "｛聯力 LANCOOL 216 RGB 黑｝"},
+    {"cat": 10, "role": "COOLER", "match": "｛利民 Phantom Spirit 120｝"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "低階 — AM4 / DDR4，1080p 高畫質",
+  "note": "不含 OS、螢幕、週邊。目標: 以最低成本超過遊戲建議配備 (R5 5600 / RTX 3060 / RX 6600XT)。CPU 內附風扇。",
+  "items": [
+    {"cat": 4,  "role": "CPU",  "match": "｛AMD R5 5600X MPK｝(含風扇)"},
+    {"cat": 5,  "role": "MB",   "match": "裝機價｛華碩 PRIME B550M-K ARGB-CSM｝"},
+    {"cat": 6,  "role": "RAM",  "match": "｛UMAX 16GB(雙通8GB*2) DDR4-3200｝超頻CL16"},
+    {"cat": 7,  "role": "SSD",  "match": "WD 藍標｛SN5100 1TB｝/Gen4 PCIe 4.0/讀7100/寫6700/QLC【五年保】~組裝價~"},
+    {"cat": 12, "role": "VGA",  "match": "｛技嘉 RX9060XT GAMING OC 8G｝"},
+    {"cat": 15, "role": "PSU",  "match": "｛Montech BETA 2 650W｝"},
+    {"cat": 14, "role": "CASE", "match": "｛Montech Air 100 LITE 黑｝"}
+  ]
+}

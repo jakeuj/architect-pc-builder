@@ -1,5 +1,7 @@
 # 原價屋頁面原始 HTML (1MB+, 每次抓取都會變) 不進版控
 evaluate*.php
-.claude/
+# 本機工具設定
+.claude/launch.json
+.claude/settings.local.json
 __pycache__/
 .DS_Store
