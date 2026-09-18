@@ -19,7 +19,8 @@ jobs:
 
       - name: 重新產出估價單與網頁資料
         run: |
-          python3 scripts/quote.py builds/low.json builds/mid.json builds/high.json > quote.md
+          BUILDS=$(python3 -c "import json;print(' '.join(f'builds/{k}.json' for k in json.load(open('site.json'))['builds']))")
+          python3 scripts/quote.py --summary $BUILDS > quote.md
           python3 scripts/build_site.py
 
       - name: 提交變更

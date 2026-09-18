@@ -1,0 +1,14 @@
+{
+  "title": "締造者：放逐之境 — PC 組裝估價",
+  "repo": "https://github.com/jakeuj/architect-pc-builder",
+  "game": {
+    "name": "締造者：放逐之境",
+    "url": "https://architectgb.drimage.com/zh-tw/download",
+    "min": {"CPU": "Intel Core i5-10400 / AMD Ryzen 5 3600", "GPU": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600XT",
+            "RAM": "16GB", "儲存": "30GB", "OS": "Windows 10 (64bit) / Windows 11", "API": "DirectX 12"},
+    "rec": {"CPU": "Intel Core i7-11700 / AMD Ryzen 5 5600", "GPU": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 6600XT",
+            "RAM": "16GB", "儲存": "30GB", "OS": "Windows 10 (64bit) / Windows 11", "API": "DirectX 12"}
+  },
+  "builds": ["low", "mid", "high"],
+  "notes": ["三套預設配置皆超過遊戲建議配備：低階 1080p、中階 1440p、高階 1440p 極致／4K。"]
+}

@@ -1,5 +1,16 @@
 # 原價屋估價單 (報價日期 2026/9/18 9:33)
 
+| | 低階 — AM4 / DDR4，1080p 高畫質<br>**30,900** | 中階 — AM5 / DDR5，1440p 高畫質<br>**45,749** | 高階 — AM5 X3D / DDR5，1440p 極致 / 4K<br>**72,779** |
+|---|---|---|---|
+| CPU | AMD R5 5600X MPK 4,790 | AMD R5 7500F MPK 4,490 | AMD R7 9800X3D 15,000 |
+| MB | 華碩 PRIME B550M-K ARGB-CSM 2,490 | 華擎 B850M-X 3,590 | 技嘉 B850 AORUS ELITE WIFI7 7,990 |
+| RAM | UMAX 16GB(雙通8GB*2) DDR4-3200 4,450 | UMAX 16GB(雙通8GB*2) DDR5 5600 8,200 | UMAX 16GB(雙通8GB*2) DDR5 5600 8,200 |
+| SSD | SN5100 1TB 4,990 | 致態 ZhiTai TiPlus7100s 1TB 5,399 | 致態 ZhiTai TiPlus7100s 2TB 9,399 |
+| VGA | 技嘉 RX9060XT GAMING OC 8G 11,490 | 藍寶石 脈動 PULSE RX9070GRE GAMING 12GB 19,990 | 藍寶石 脈動 PULSE RX9070XT GAMING 16GB 25,990 |
+| PSU | Montech BETA 2 650W 1,690 | 保銳 CyberG II 750W 2,090 | 保銳 CyberG II 850W 2,390 |
+| CASE | Montech Air 100 LITE 黑 1,190 | Montech Air 903 BASE 黑 1,590 | 聯力 LANCOOL 216 RGB 黑 2,700 |
+| COOLER | — | 利民 Assassin King 120 SE 690 | 利民 Phantom Spirit 120 1,490 |
+
 ## 低階 — AM4 / DDR4，1080p 高畫質
 > 不含 OS、螢幕、週邊。目標: 以最低成本超過遊戲建議配備 (R5 5600 / RTX 3060 / RX 6600XT)。CPU 內附風扇。
 

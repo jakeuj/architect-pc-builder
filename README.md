@@ -21,7 +21,7 @@
    - `coolpc_prices.csv` — 扁平版
    - `by_category/NN_*.tsv` — 每分類一檔，方便 grep
 2. `scripts/quote.py` 依 `builds/*.json` 產出 [quote.md](quote.md)
-3. `scripts/build_site.py` 只取主機相關分類，連同三套預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染
+3. `scripts/build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），只取主機相關分類，連同預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染
 
 GitHub Actions（`.github/workflows/update-prices.yml`）每天台灣時間 11:30 跑一次上述流程並自動 commit；也可在 Actions 頁手動觸發。
 
@@ -30,7 +30,7 @@ GitHub Actions（`.github/workflows/update-prices.yml`）每天台灣時間 11:3
 ```bash
 python3 scripts/fetch_coolpc.py --out .                                   # 抓最新報價 + 解析
 python3 scripts/search_coolpc.py 12 'RTX5060Ti-16GB'                       # 查價 (分類編號 + regex)
-python3 scripts/quote.py builds/low.json builds/mid.json builds/high.json  # 估價單
+python3 scripts/quote.py --summary builds/low.json builds/mid.json builds/high.json  # 估價單 (含並列比較表)
 python3 scripts/build_site.py                                              # 更新網頁資料
 python3 -m http.server 8765 --directory docs                               # 本機預覽
 ```
@@ -40,6 +40,7 @@ python3 -m http.server 8765 --directory docs                               # 本
 ## 改配置
 
 編輯 `builds/low.json / mid.json / high.json`，`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
+要換遊戲或加減分頁，改 `site.json` 的 `game` / `title` / `builds`。
 若某零件下架，`build_site.py` 會自動改選同群組最便宜的替代品並在網頁上提示。
 
 ## 標籤說明

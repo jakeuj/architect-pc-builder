@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>締造者 PC 估價</title>
-<meta name="description" content="締造者：放逐之境 PC 組裝估價 — 以原價屋含稅報價配的低／中／高三套主機，可自行替換零件重新計價。">
+<title>PC 組裝估價</title>
+<meta name="description" content="以原價屋含稅報價配的多套主機，可自行替換零件重新計價。">
 <style>
 :root{
   --bg:#f6f7f9;--card:#fff;--text:#1f2328;--muted:#6b7280;--line:#e5e7eb;
@@ -81,7 +81,7 @@ summary{cursor:pointer;font-weight:600}
 </head>
 <body>
 <div class="wrap">
-  <h1 id="title">締造者：放逐之境 — PC 組裝估價</h1>
+  <h1 id="title">PC 組裝估價</h1>
   <div class="meta" id="meta">載入中…</div>
 
   <div class="tabs" id="tabs"></div>
@@ -107,16 +107,15 @@ summary{cursor:pointer;font-weight:600}
   </div>
 
   <div class="card">
-    <details open>
+    <details open id="reqbox">
       <summary>遊戲官方系統需求</summary>
       <table class="req" id="req"></table>
       <p class="small" id="reqsrc"></p>
     </details>
     <details>
       <summary>說明</summary>
-      <ul class="small">
+      <ul class="small" id="notes">
         <li>價格為原價屋線上估價頁的<b>含稅價</b>，不含作業系統、螢幕、鍵盤滑鼠等週邊；原價屋購買整機組裝免費。</li>
-        <li>三套預設配置皆超過遊戲建議配備：低階 1080p、中階 1440p、高階 1440p 極致／4K。</li>
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
         <li>每天自動抓取原價屋最新報價；若某零件缺貨下架，會自動改選同群組中最便宜的替代品並提示。</li>
@@ -138,12 +137,16 @@ summary{cursor:pointer;font-weight:600}
   for (const c of Object.values(CAT)) for (const g of c.groups) for (const it of g.items) { it.cat = c.id; it.group = g.label; IDX[c.id + ':' + it.id] = it; }
 
   $('#meta').innerHTML = `原價屋含稅報價，報價日期 <b>${D.quote_date}</b>（頁面更新 ${D.generated.slice(0,16).replace('T',' ')}）· 資料來源 <a href="${D.source}" target="_blank" rel="noopener">coolpc.com.tw</a> · 不含 OS／螢幕／週邊`;
-  $('#repo').href = D.repo;
+  $('#repo').href = D.repo || '#';
+  document.title = D.title; $('#title').textContent = D.title;
+  for (const n of [...(D.notes || [])].reverse()) $('#notes').insertAdjacentHTML('afterbegin', `<li>${n}</li>`);
 
   // 遊戲需求
-  const keys = ['CPU','GPU','RAM','儲存','OS','API'];
-  $('#req').innerHTML = '<tr><th></th><th>最低配備</th><th>建議配備</th></tr>' + keys.map(k => `<tr><th>${k}</th><td>${D.game.min[k]}</td><td>${D.game.rec[k]}</td></tr>`).join('');
-  $('#reqsrc').innerHTML = `來源：<a href="${D.game.url}" target="_blank" rel="noopener">${D.game.name} 官方下載頁</a>`;
+  if (D.game) {
+    const keys = Object.keys(D.game.min || {});
+    $('#req').innerHTML = '<tr><th></th><th>最低配備</th><th>建議配備</th></tr>' + keys.map(k => `<tr><th>${k}</th><td>${D.game.min[k]}</td><td>${(D.game.rec || {})[k] || ''}</td></tr>`).join('');
+    $('#reqsrc').innerHTML = `來源：<a href="${D.game.url}" target="_blank" rel="noopener">${D.game.name} 官方頁面</a>`;
+  } else { $('#reqbox').hidden = true; }
 
   // 狀態
   let cur = null; // {build, sel:{slot:{cat,id,qty}}}
