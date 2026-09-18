@@ -3,7 +3,7 @@
 以 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價，為《締造者：放逐之境》配的低／中／高三套主機，
 不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價，並產生分享連結。
 
-**網頁：https://jakeuj.github.io/architect-pc-builder/**
+**網頁：https://blog.jakeuj.com/architect-pc-builder/**（`jakeuj.github.io/architect-pc-builder/` 會自動轉過去）
 
 | | 低階 | 中階 | 高階 |
 |---|---|---|---|

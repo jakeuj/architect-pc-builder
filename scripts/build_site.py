@@ -6,6 +6,7 @@
 """
 import datetime
 import json
+from zoneinfo import ZoneInfo
 import re
 import sys
 from pathlib import Path
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "coolpc_prices.json"
 OUT = ROOT / "docs" / "data.json"
 REPO = "https://github.com/jakeuj/architect-pc-builder"
+TAIPEI = ZoneInfo("Asia/Taipei")
 
 # 估價頁欄位 -> 分類編號 (可多個, 例如散熱器同時放風冷與水冷)
 SLOTS = [
@@ -115,7 +117,7 @@ for key in ("low", "mid", "high"):
 
 out = {
     "quote_date": db["quote_date"],
-    "generated": datetime.datetime.now(datetime.timezone.utc).astimezone().isoformat(timespec="minutes"),
+    "generated": datetime.datetime.now(TAIPEI).isoformat(timespec="minutes"),
     "source": "https://www.coolpc.com.tw/evaluate.php",
     "repo": REPO,
     "game": GAME,
