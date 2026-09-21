@@ -1,4 +1,4 @@
-# 14 CASE 機殼(+電源)  (報價日期 2026/9/20 16:20)
+# 14 CASE 機殼(+電源)  (報價日期 2026/9/21 14:51)
 # price	id	flags	name
 
 ## 特價 or 活動專區
@@ -141,7 +141,7 @@
 1590	138		｛Montech Air 1000 LITE 白｝顯卡長34/CPU高16.5/玻璃透側/ATX
 1690	139		｛Montech Air 1000 Silent｝靜音版 顯卡長34/CPU高16.5/上抽式防塵網/ATX
 1990	140		｛Montech Air 1000 PREMIUM 黑｝顯卡長34/U高16.5/玻璃透側/雙面板(玻璃/網孔)/ATX
-2190	141		｛Montech Air 1000 PREMIUM 白｝顯卡長34/U高16.5/玻璃透側/雙面板(玻璃/網孔)/ATX
+2190	141	熱賣 下殺	｛Montech Air 1000 PREMIUM 白｝玻璃透側/ATX 加贈Montech NX600 ARGB(白) 散熱器▼下殺到 9/30 20:00
 1290	142		｛Montech SKY ONE LITE 黑｝顯卡長35/CPU高17/前置Type-C/玻璃透側/ATX
 1490	143		｛Montech SKY ONE LITE 白｝顯卡長35/CPU高17/前置Type-C/玻璃透側/ATX
 2090	144		｛Montech SKY TWO 白｝顯卡長40/CPU高16.8/創新風流設計/玻璃透側/ATX
@@ -151,8 +151,8 @@
 2389	149	熱賣	Montech SKY 3 黑 /全景玻璃/背插/ATX+MONTECH RX120 PRO(黑)反向扇*2 現省$399
 2290	150		｛Montech SKY 3 白｝顯卡長44.5/CPU高18.5/全景玻璃透側/模組化可調底艙/背插/ATX
 2489	151	熱賣	Montech SKY 3 白 /全景玻璃/背插/ATX+MONTECH RX120 PRO(白)反向扇*2 現省$399
-2790	152		｛Montech KING 15 PRO 黑｝卡43.5/U高18.7/傾斜風扇基座/全景曲面玻璃/背插/M-ATX
-2890	153		｛Montech KING 15 PRO 白｝卡43.5/U高18.7/傾斜風扇基座/全景曲面玻璃/背插/M-ATX
+1990(原2790)	152	價格異動 下殺	｛Montech KING 15 PRO 黑｝卡43.5/U高18.7/全景曲面玻璃/背插/M-ATX(WireForce限時優惠)▼下殺到 9/30 20:00
+1990(原2890)	153	價格異動 下殺	｛Montech KING 15 PRO 白｝卡43.5/U高18.7/全景曲面玻璃/背插/M-ATX(WireForce限時優惠)▼下殺到 9/30 20:00
 2890	154		｛Montech KING 45 PRO 黑｝顯卡長43.5/U高18.7/傾斜風扇基座/全景曲面玻璃/ATX
 2990	155		｛Montech KING 45 PRO 白｝顯卡長43.5/U高18.7/傾斜風扇基座/全景曲面玻璃/ATX
 2690	156		｛Montech KING 65 PRO 黑｝顯卡長42/CPU高17.5/分艙設計/全景玻璃透側/ATX
@@ -760,8 +760,8 @@
 7500	744		｛聯力 O11 Dynamic EVO XL 白｝顯卡46/CPU高16.7/雙向翻轉設計/玻璃透側/E-ATX
 
 ## 創氪星系 TRYX
-5690	746		｛TRYX FLOVA F50 黑｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
-5690	747		｛TRYX FLOVA F50 白｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
+3990(原5690)	746	價格異動 下殺	｛TRYX FLOVA F50 黑｝玻璃透側/布面織材/貫流風機/背插(限ATX) WireForce限時優惠▼下殺到 9/30 20:00
+3990(原5690)	747	價格異動 下殺	｛TRYX FLOVA F50 白｝玻璃透側/布面織材/貫流風機/背插(限ATX) WireForce限時優惠▼下殺到 9/30 20:00
 5690	748		｛TRYX FLOVA F50 粉｝顯卡長(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
 7990	749		｛TRYX LUCA L70 黑｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
 7990	750		｛TRYX LUCA L70 白｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
