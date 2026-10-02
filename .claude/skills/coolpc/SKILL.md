@@ -103,7 +103,7 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 
 - 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、每一格都能選「— 無 —」(沒有必選欄位，只換幾個零件的單也能分享)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (整張估價單快照編進 URL，見下)、手機版、深色模式、即時報價 (有 `live_url` 才有：載入時自動 + 「更新最新報價」按鈕)。
 - 只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。
-- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照，標出現價漲跌 / 已下架；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
+- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
 - 部署：`gh repo create <name> --public --source . --push`，再 `gh api -X POST repos/<owner>/<name>/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/docs'`。使用者的 Pages 綁了自訂網域，實際網址是 `https://blog.jakeuj.com/<name>/`（`jakeuj.github.io/<name>/` 會 301 過去），README 要寫這個。
 - workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。
