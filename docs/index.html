@@ -62,6 +62,14 @@ tfoot td.sub{font-weight:400;color:var(--muted)}
 .d.up,.d.gone{color:var(--warn)}
 .d.down{color:var(--ok)}
 .d.renamed{color:var(--accent)}
+.chg{margin:0 0 12px;padding:8px 12px;border:1px solid var(--accent);border-radius:8px;font-size:14px}
+.chg.same{border-color:var(--line)}
+.chg b{font-weight:600}
+.chg .small{display:block}
+.chg ul{margin:4px 0 0;padding:0;list-style:none}
+.chg li{padding:1px 0;font-variant-numeric:tabular-nums}
+.chg .up,.chg .gone{color:var(--warn)}
+.chg .down{color:var(--ok)}
 .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 button.b{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:7px 12px;cursor:pointer}
 button.b:hover{border-color:var(--text)}
@@ -95,6 +103,7 @@ summary{cursor:pointer;font-weight:600}
 
   <div class="card">
     <p class="note" id="bnote"></p>
+    <div class="chg" id="chg" hidden></div>
     <table id="tbl">
       <thead><tr><th>項目</th><th>選件（可替換，下方欄位可篩選）</th><th class="num">數量</th><th class="num">單價</th><th class="num">小計</th></tr></thead>
       <tbody id="rows"></tbody>
@@ -127,6 +136,7 @@ summary{cursor:pointer;font-weight:600}
       <ul class="small" id="notes">
         <li>價格為原價屋線上估價頁的<b>含稅價</b>，不含作業系統、螢幕、鍵盤滑鼠等週邊；原價屋購買整機組裝免費。</li>
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
+        <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請從下拉選單改選。</li>
@@ -142,12 +152,15 @@ summary{cursor:pointer;font-weight:600}
 (async function(){
   const $ = s => document.querySelector(s);
   const fmt = n => n.toLocaleString('zh-Hant-TW');
+  const arrow = n => (n > 0 ? '▲' : '▼') + fmt(Math.abs(n));
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   const C = CoolPC;
   const D = await fetch('data.json?' + Date.now()).then(r => r.json());
   let CAT = D.categories;          // 現行型錄；即時更新時整個換掉
   let IDX = C.indexCatalog(CAT);   // 分類 + 品名 -> 品項 (option id 每次抓價都會變，不能當鍵)
   const find = r => C.reconcile(r, IDX);
+  // 列跟現行型錄比：dv = 現價 − 鎖定的報價 (分享當時的價格)；it 為 null = 已下架
+  const cmp = r => { const { item: it, how } = find(r); return { it, how, dv: it && r.pin ? it.price - r.pin.price : 0 }; };
 
   // 目前型錄來源：快照 (data.json) 或即時抓取
   const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
@@ -195,7 +208,7 @@ summary{cursor:pointer;font-weight:600}
       for (const r of q.rows) rows[r.slot] = mkRow(r.cat, r.name, r.qty, { price: r.price, d: r.d });
       const base = presets.find(t => t.key === q.b);
       cur = { kind: 'shared', key: '_q', label: '分享的估價單', sub: q.n || (base ? base.label : ''), d: q.d, base: q.b, raw: P.get('q'), rows, orig: clone(rows),
-        note: `這是 ${q.d || '先前'} 的估價單快照：單價是當時的報價，底下標出原價屋現價的漲跌與已下架品項。可以直接改選零件（下拉選單是原價屋目前的品項），改過的以現價計；按「複製分享連結」會產生新的連結。` };
+        note: `這是 ${q.d || '先前'} 的估價單快照：單價是當時的報價，上方列出跟原價屋現價比的漲跌與已下架品項。可以直接改選零件（下拉選單是原價屋目前的品項），改過的以現價計；按「複製分享連結」會產生新的連結。` };
       tabs.unshift(cur);
       if (q.dropped) startMsg = `連結裡有 ${q.dropped} 個品項格式不符，已略過`;
     } catch (e) { startMsg = `分享連結無法讀取（${e.message}），先顯示預設配置`; }
@@ -210,9 +223,9 @@ summary{cursor:pointer;font-weight:600}
   function buildTabs(){
     tabsEl.innerHTML = '';
     for (const t of tabs) {
-      const total = C.totals(Object.values(t.orig).filter(Boolean), IDX).quoted;
+      const T = C.totals(Object.values(t.orig).filter(Boolean), IDX);
       const el = document.createElement('button'); el.className = 'tab' + (t.kind === 'shared' ? ' shared' : '') + (t === cur ? ' on' : '');
-      el.innerHTML = `${esc(t.label)}<small>${t.sub ? esc(t.sub) + ' · ' : ''}${t.kind === 'shared' ? '報價' : '預設'} $${fmt(total)}</small>`;
+      el.innerHTML = `${esc(t.label)}<small>${t.sub ? esc(t.sub) + ' · ' : ''}${t.kind === 'shared' ? '報價' : '預設'} $${fmt(T.quoted)}${t.kind === 'shared' && T.diff ? ' · 現價 ' + arrow(T.diff) : ''}</small>`;
       el.onclick = () => select(t);
       tabsEl.appendChild(el);
     }
@@ -270,25 +283,45 @@ summary{cursor:pointer;font-weight:600}
     return w;
   }
 
+  // 分享單上方的漲跌摘要：每個鎖價列 (分享當時的價格) 跟現行型錄比。改選過的列已用現價，不列入
+  function changes(pinned, T){
+    const el = $('#chg');
+    if (cur.kind !== 'shared' || !pinned.length) { el.hidden = true; return; }
+    const moved = pinned.filter(x => !x.it || x.dv);
+    const head = `<b>跟分享時的報價（${esc(cur.d || '先前')}）比</b><span class="small">現價取自原價屋 ${esc(SRC.quote_date)}（${SRC.live ? '即時' : '快照'}）；▲▼ 是跟這張單的報價比，不是原價屋品名裡的「▼下殺」或「價格異動」</span>`;
+    el.hidden = false; el.classList.toggle('same', !moved.length);
+    if (!moved.length) { el.innerHTML = head + '<ul><li>價格都一樣，沒有漲跌</li></ul>'; return; }
+    const li = moved.map(({ s, r, it, dv }) => {
+      const when = r.pin.d !== cur.d ? `（${esc(shortDate(r.pin.d))} 報價）` : '';
+      if (!it) return `<li>${esc(s.label)}：<span class="gone">${esc(goneText(r))}</span>，仍以報價 $${fmt(r.pin.price)} 計${when}</li>`;
+      const c = dv > 0 ? 'up' : 'down';
+      const q = r.qty > 1 ? ` ×${r.qty}，小計 <span class="${c}">${arrow(dv * r.qty)}</span>` : '';
+      return `<li>${esc(s.label)}：$${fmt(r.pin.price)} → $${fmt(it.price)} <span class="${c}">${arrow(dv)}</span>${q}${when}</li>`;
+    });
+    if (T.diff) li.push(`<li><b>合計 <span class="${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span></b>（$${fmt(T.quoted)} → $${fmt(T.current)}）</li>`);
+    el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
+  }
+
   function render(){
     const rowsEl = $('#rows'); rowsEl.innerHTML = '';
     let canRequote = false;
+    const pinned = [];  // 鎖價列，給上方的漲跌摘要
     for (const s of D.slots) {
       const r = cur.rows[s.key];
-      const { item: it, how } = r ? find(r) : { item: null, how: null };
+      const { it, how, dv } = r ? cmp(r) : { it: null, how: null, dv: 0 };
       const price = r ? (r.pin ? r.pin.price : it ? it.price : null) : null;
-      // 單價欄：主數字是估價單上的價格，底下標日期 (與這張單的日期不同時)、現價漲跌、已下架
+      if (r && r.pin) pinned.push({ s, r, it, dv });
+      // 單價欄：主數字是估價單上的價格，底下標日期 (與這張單的日期不同時)、比報價日的漲跌、已下架
       let sub = '';
-      if (r && r.pin && r.pin.d !== cur.d) sub += `<span class="d">${esc(shortDate(r.pin.d))} 報價</span>`;
+      if (r && r.pin && r.pin.d !== cur.d && !dv) sub += `<span class="d">${esc(shortDate(r.pin.d))} 報價</span>`;
       if (r && !it) sub += `<span class="d gone">${esc(goneText(r))}</span>`;
       else if (r && r.pin) {
-        const dv = it.price - r.pin.price;
         if (how === 'model') sub += '<span class="d renamed">同型號・品名有變</span>';
-        if (dv) sub += `<span class="d ${dv > 0 ? 'up' : 'down'}">現價 ${fmt(it.price)} ${dv > 0 ? '▲' : '▼'}${fmt(Math.abs(dv))}</span>`;
+        if (dv) sub += `<span class="d ${dv > 0 ? 'up' : 'down'}">現價 ${fmt(it.price)}（比 ${esc(shortDate(r.pin.d))} ${arrow(dv)}）</span>`;
         if (dv || how === 'model') canRequote = true;
       }
-      const flags = it ? it.flags.map(f => `<span class="flag ${f === '熱賣' ? 'hot' : /搭板|組裝價|裝機價|限搭機|限組裝|訂購/.test(f) ? 'cond' : ''}">${esc(f)}</span>`).join('') : '';
-      const lp = it && it.list_price ? `<span class="flag">原價 ${fmt(it.list_price)}</span>` : '';
+      const flags = it ? it.flags.map(f => `<span title="原價屋的標示" class="flag ${f === '熱賣' ? 'hot' : /搭板|組裝價|裝機價|限搭機|限組裝|訂購/.test(f) ? 'cond' : ''}">${esc(f)}</span>`).join('') : '';
+      const lp = it && it.list_price ? `<span title="原價屋的標示" class="flag">原價 ${fmt(it.list_price)}</span>` : '';
       const tr = document.createElement('tr');
       tr.innerHTML = `<td class="role">${esc(s.label)}</td>
         <td><select></select><input type="text" placeholder="輸入關鍵字篩選，例如 5060、B850、白" autocomplete="off"><div class="flags">${flags}${lp}</div></td>
@@ -315,10 +348,11 @@ summary{cursor:pointer;font-weight:600}
     $('#total').textContent = '$' + fmt(T.quoted);
     $('#nowrow').hidden = !T.diff;  // 沒有漲跌時現價 = 報價，不用多一行
     $('#nowlbl').textContent = `以原價屋現價計（${SRC.quote_date}）` + (T.goneCount ? `，${T.goneCount} 項已下架以報價計` : '');
-    $('#now').innerHTML = '$' + fmt(T.current) + (T.diff ? `<span class="d inl ${T.diff > 0 ? 'up' : 'down'}">${T.diff > 0 ? '▲' : '▼'}${fmt(Math.abs(T.diff))}</span>` : '');
+    $('#now').innerHTML = '$' + fmt(T.current) + (T.diff ? `<span class="d inl ${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span>` : '');
     $('#offrow').hidden = $('#netrow').hidden = !T.off;
     $('#off').textContent = '-' + fmt(T.off); $('#net').textContent = '$' + fmt(T.current - T.off);
     $('#requote').hidden = !canRequote;
+    changes(pinned, T);
     const w = warnings(), ul = $('#warns'); ul.innerHTML = '';
     for (const x of w.length ? w : ['未偵測到相容性問題（自動判讀，僅供參考）']) {
       const li = document.createElement('li'); li.textContent = x;
@@ -366,12 +400,12 @@ summary{cursor:pointer;font-weight:600}
     const lines = [cur.kind === 'shared' ? `【${cur.label}${cur.sub ? '：' + cur.sub : ''}】報價日期 ${cur.d}（現價資料 ${SRC.quote_date}）` : `【${cur.label}${cur.sub ? ' — ' + cur.sub : ''}】原價屋含稅報價 ${SRC.quote_date}`];
     for (const s of D.slots) {
       const r = cur.rows[s.key]; if (!r) continue;
-      const it = find(r).item, price = r.pin ? r.pin.price : it ? it.price : 0;
-      const tail = !it ? `（${goneText(r)}）` : r.pin && it.price !== r.pin.price ? `（現價 $${fmt(it.price)}）` : '';
+      const { it, dv } = cmp(r), price = r.pin ? r.pin.price : it ? it.price : 0;
+      const tail = !it ? `（${goneText(r)}）` : dv ? `（現價 $${fmt(it.price)} ${arrow(dv)}）` : '';
       lines.push(`${s.label}：${r.pin || !it ? r.name : it.name}  $${fmt(price)}${r.qty > 1 ? ' ×' + r.qty : ''}${tail}`);
     }
     const T = C.totals(Object.values(cur.rows).filter(Boolean), IDX);
-    lines.push(`總計 $${fmt(T.quoted)}` + (T.diff ? `（以現價計 $${fmt(T.current)}）` : '') + (T.goneCount ? `（${T.goneCount} 項已下架）` : '') + (T.off ? `（任搭折 -${fmt(T.off)} → 約 $${fmt(T.current - T.off)}）` : ''));
+    lines.push(`總計 $${fmt(T.quoted)}` + (T.diff ? `（以現價計 $${fmt(T.current)} ${arrow(T.diff)}）` : '') + (T.goneCount ? `（${T.goneCount} 項已下架）` : '') + (T.off ? `（任搭折 -${fmt(T.off)} → 約 $${fmt(T.current - T.off)}）` : ''));
     lines.push(shareUrl(cur));
     copyText(lines.join('\n'), '已複製清單');
   };
