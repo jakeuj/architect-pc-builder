@@ -11,7 +11,7 @@ description: "從原價屋線上估價頁 https://www.coolpc.com.tw/evaluate.php
 - 查件 regex 配方、品名裡可直接讀的相容性資訊、條件價規則、行情筆記：`references/recipes.md`（配單前先看）。
 - 估價網頁 (GitHub Pages) 的做法、資料格式、部署與已知坑：`references/site.md`；模板在 `templates/`。
 - 可直接複製當模板的三套配置：`examples/low.json`、`mid.json`、`high.json`。
-- 本 repo（已上線）：GitHub `jakeuj/architect-pc-builder`，網頁 https://blog.jakeuj.com/architect-pc-builder/ ；本機在 `/Users/jakeuj/claude/evaluate`。
+- 本 repo（已上線）：泛用的「原價屋估價單分享」網站，沒有綁遊戲；GitHub `jakeuj/architect-pc-builder`，網頁 https://blog.jakeuj.com/architect-pc-builder/ （repo 名稱沿用早期的遊戲專案，為了舊分享連結不改）；本機在 `/Users/jakeuj/claude/evaluate`。
 - 要在別的專案 / repo 用：在新專案根目錄跑 `python3 /Users/jakeuj/claude/evaluate/.claude/skills/coolpc/scripts/build_site.py --init`，會把整個技能複製到新專案的 `.claude/skills/coolpc/` 並建骨架；之後兩邊各自獨立，改了要自己同步。
 
 ## 1. 更新報價 (最常用)
@@ -96,7 +96,7 @@ python3 .claude/skills/coolpc/scripts/quote.py --summary builds/low.json builds/
 ```bash
 # 新專案：在其根目錄執行 (路徑指向本 repo 的技能)，會複製技能到新專案 .claude/skills/coolpc/ 並建 site.json / docs/index.html / docs/.nojekyll / workflow
 python3 /Users/jakeuj/claude/evaluate/.claude/skills/coolpc/scripts/build_site.py --init
-# 編輯 site.json (title / repo / game 需求 / builds 分頁 / notes)，準備 builds/*.json
+# 編輯 site.json (title / repo / builds 分頁 / notes；遊戲專屬網站再加 game 需求)，準備 builds/*.json
 python3 .claude/skills/coolpc/scripts/build_site.py             # 產出 docs/data.json
 python3 -m http.server 8765 --directory docs                    # 本機預覽 (或用 preview_start)
 ```

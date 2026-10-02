@@ -1,7 +1,7 @@
-# 締造者：放逐之境 — PC 組裝估價
+# 原價屋估價單分享
 
-以 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價，為《締造者：放逐之境》配的低／中／高三套主機，
-不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價，每一格都能清空，只換幾個零件也行；價格是 GitHub Actions 定時抓的原價屋快照。
+用 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價配電腦、改單、把整張估價單存成一條連結分享。
+預設放了低／中／高三套主機當起點（不含作業系統、螢幕與週邊），每個零件都能換，每一格都能清空，只估幾個零件也行；價格是 GitHub Actions 定時抓的原價屋快照。
 「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，任何時候打開都看得到當初的報價；最上方會列出每個零件「分享時 → 現價」的漲跌（▲▼）、合計與已下架品項，可以改單再分享。▲▼ 是跟連結裡的當時價格比，不是原價屋自己的調價標示。
 
 **網頁：https://blog.jakeuj.com/architect-pc-builder/**（`jakeuj.github.io/architect-pc-builder/` 會自動轉過去）
@@ -13,7 +13,7 @@
 | 顯示卡 | RX 9060XT 8G | RX 9070 GRE 12G | RX 9070XT 16G |
 | 記憶體 | 16GB DDR4-3200 | 16GB DDR5-5600 | 16GB DDR5-5600 |
 
-完整清單與價格見 [quote.md](quote.md)（每小時自動更新）。遊戲官方需求見 [game_requirements.md](game_requirements.md)。
+完整清單與價格見 [quote.md](quote.md)（每小時自動更新）。
 
 ## 資料怎麼來的
 
@@ -57,10 +57,10 @@ python3 -m http.server 8765 --directory docs                               # 本
 ## 改配置
 
 編輯 `builds/low.json / mid.json / high.json`，`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
-要換遊戲或加減分頁，改 `site.json` 的 `game` / `title` / `builds`。
+要改標題或加減分頁，改 `site.json` 的 `title` / `builds`；要做成某款遊戲專用的網站，可以再加 `game`（官方最低／建議配備，網頁會多一個需求表，格式見 `build_site.py` 開頭說明）。
 若某零件下架，排程不會中斷：`quote.py` 標「已下架」不計價，網頁保留最後的品名與價格並標示「已下架」讓訪客改選；記得再找替代品更新 `builds/*.json`。
 
-要為另一個遊戲另開 repo：在新目錄跑 `python3 <本 repo>/.claude/skills/coolpc/scripts/build_site.py --init`，技能與網頁骨架會一起複製過去。
+要另開一個估價網站（例如某款遊戲專用）：在新目錄跑 `python3 <本 repo>/.claude/skills/coolpc/scripts/build_site.py --init`，技能與網頁骨架會一起複製過去。
 
 ## 標籤說明
 

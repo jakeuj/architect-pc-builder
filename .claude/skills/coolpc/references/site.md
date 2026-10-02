@@ -1,13 +1,13 @@
 # 估價網頁 (GitHub Pages) 參考
 
 模板：`templates/index.html`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
-已上線範例：`jakeuj/architect-pc-builder` → https://blog.jakeuj.com/architect-pc-builder/
+已上線範例：`jakeuj/architect-pc-builder` → https://blog.jakeuj.com/architect-pc-builder/ （泛用的「原價屋估價單分享」，沒有 `game`；repo 名稱是早期為單一遊戲建的，為了不讓舊分享連結失效而保留）
 
 ## 專案結構 (repo 形式)
 
 ```
 README.md            給朋友 / 公開看的說明: 網址、三套摘要表、資料來源、本機指令
-site.json            網頁設定 (title, repo, game{name,url,min,rec}, builds[], notes[], slots?, live_url?)
+site.json            網頁設定 (title, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?)；game 只有遊戲專屬網站才填
 builds/*.json        配置定義檔 (與 quote.py 共用)
 .claude/skills/coolpc/ 技能本體 (SKILL.md, scripts/, templates/, references/, examples/) — 唯一來源
 data/                parse 產出 (json / csv / by_category tsv), 進版控當快照
@@ -19,7 +19,7 @@ docs/.nojekyll
 quote.md             quote.py --summary 產出
 .github/workflows/update-prices.yml
 .gitignore           evaluate*.php, .claude/launch.json, .claude/settings.local.json, __pycache__/, .DS_Store
-game_requirements.md 遊戲需求 (可選)
+game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 ```
 
 ## docs/data.json 格式
