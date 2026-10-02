@@ -1,6 +1,6 @@
 ---
 name: coolpc
-description: "從原價屋線上估價頁 https://www.coolpc.com.tw/evaluate.php 自動下載最新含稅報價 (Big5 轉 UTF-8)，解析成結構化資料 (JSON / CSV / 分類 TSV)，並依 build 定義檔產出 Markdown 估價單、搜尋零件價格；也能用內建模板產出可替換零件的 GitHub Pages 估價網頁 (site.json + docs/ + 每小時自動更新 workflow + Cloudflare Worker 即時報價代理)。遇到「更新原價屋報價」、「抓最新原價屋價格」、「原價屋估價單」、「幫我配一台電腦 / 低中高配置」、「查某零件在原價屋多少錢」、「重新產出估價單」、「做一個估價網頁給朋友」、「為某遊戲配電腦並做成網頁」這類需求時使用。Trigger: /coolpc"
+description: "從原價屋線上估價頁 https://www.coolpc.com.tw/evaluate.php 自動下載最新含稅報價 (Big5 轉 UTF-8)，解析成結構化資料 (JSON / CSV / 分類 TSV)，並依 build 定義檔產出 Markdown 估價單、搜尋零件價格；也能用內建模板產出可替換零件的 GitHub Pages 估價網頁 (site.json + docs/ + 每小時自動更新 workflow + 可選的 Cloudflare Worker 即時報價代理)。遇到「更新原價屋報價」、「抓最新原價屋價格」、「原價屋估價單」、「幫我配一台電腦 / 低中高配置」、「查某零件在原價屋多少錢」、「重新產出估價單」、「做一個估價網頁給朋友」、「為某遊戲配電腦並做成網頁」、「把這張估價單／截圖做成分享連結」這類需求時使用。Trigger: /coolpc"
 ---
 
 # 原價屋報價自動更新與估價單
@@ -101,13 +101,13 @@ python3 .claude/skills/coolpc/scripts/build_site.py             # 產出 docs/da
 python3 -m http.server 8765 --directory docs                    # 本機預覽 (或用 preview_start)
 ```
 
-- 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (整張估價單快照編進 URL，見下)、手機版、深色模式、即時報價 (載入時自動 + 「更新最新報價」按鈕)。
+- 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、每一格都能選「— 無 —」(沒有必選欄位，只換幾個零件的單也能分享)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (整張估價單快照編進 URL，見下)、手機版、深色模式、即時報價 (有 `live_url` 才有：載入時自動 + 「更新最新報價」按鈕)。
 - 只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。
-- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照，標出現價漲跌 / 已下架；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。
+- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照，標出現價漲跌 / 已下架；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
 - 部署：`gh repo create <name> --public --source . --push`，再 `gh api -X POST repos/<owner>/<name>/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/docs'`。使用者的 Pages 綁了自訂網域，實際網址是 `https://blog.jakeuj.com/<name>/`（`jakeuj.github.io/<name>/` 會 301 過去），README 要寫這個。
-- workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。
-- 即時報價：原價屋沒有 CORS，網頁要透過 `worker/` (Cloudflare Worker) 代理抓現頁；`docs/coolpc-live.js` 是 `parse_coolpc.py` 的 JS 版，在瀏覽器解析。`site.json` 的 `live_url` 留空就只用快照。本 repo 的代理是 `https://coolpc.jakeuj.com/evaluate.php`（`jakeuj.com` DNS 在 Cloudflare）。部署與坑見 `references/site.md`。
+- workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。
+- 即時報價 (可選)：原價屋沒有 CORS，網頁要透過 `worker/` (Cloudflare Worker) 代理抓現頁；`docs/coolpc-live.js` 是 `parse_coolpc.py` 的 JS 版，在瀏覽器解析。`site.json` 的 `live_url` 留空就只用 workflow 的快照。**本 repo 目前停用** (2026-10-02 起 `live_url` = `""`)：worker 程式寫好了但沒部署，`coolpc.jakeuj.com` 沒有 DNS 紀錄；使用者目前不要即時查價，價格只靠 workflow。要開的順序是先部署、curl 驗證，再把網址填回 `live_url` 跑 `build_site.py`；別在沒部署前填網址，也別主動叫使用者部署。部署與坑見 `references/site.md`。
 - `.gitignore` 排除 `evaluate*.php`（1MB+ 原始 HTML）與 `.claude/launch.json`、`.claude/settings.local.json`；`.claude/skills/` 要進版控。
 - 細節與坑見 `references/site.md`。
 
