@@ -10,7 +10,7 @@ const C = globalThis.CoolPC;
 const SLOTS = [
   { key: 'cpu', label: 'CPU', cats: [4] },
   { key: 'vga', label: '顯示卡', cats: [12] },
-  { key: 'cooler', label: '散熱器', cats: [10, 11], optional: true },
+  { key: 'cooler', label: '散熱器', cats: [10, 11] },
 ];
 const item = (id, name, price, flags = []) => ({ id, name, price, list_price: null, flags });
 const CATS = {

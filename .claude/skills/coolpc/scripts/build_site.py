@@ -42,9 +42,9 @@ DEFAULT_SLOTS = [
     {"key": "vga",    "label": "顯示卡",   "cats": [12]},
     {"key": "psu",    "label": "電源",     "cats": [15]},
     {"key": "case",   "label": "機殼",     "cats": [14]},
-    {"key": "cooler", "label": "散熱器",   "cats": [10, 11], "optional": True},
-    {"key": "hdd",    "label": "HDD",      "cats": [8],      "optional": True},
-    {"key": "fan",    "label": "機殼風扇", "cats": [16],     "optional": True},
+    {"key": "cooler", "label": "散熱器",   "cats": [10, 11]},
+    {"key": "hdd",    "label": "HDD",      "cats": [8]},
+    {"key": "fan",    "label": "機殼風扇", "cats": [16]},
 ]
 # builds/*.json 的 role -> slot key
 ROLE_TO_SLOT = {"CPU": "cpu", "MB": "mb", "RAM": "ram", "SSD": "ssd", "VGA": "vga",

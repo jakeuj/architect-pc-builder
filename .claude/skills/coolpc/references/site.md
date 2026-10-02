@@ -28,7 +28,7 @@ game_requirements.md 遊戲需求 (可選)
 { title, quote_date, generated (Asia/Taipei ISO), source, repo,
   game: {name, url, min:{...}, rec:{...}} | null,
   notes: [str],
-  slots: [{key, label, cats:[int], optional?}],
+  slots: [{key, label, cats:[int]}],   # 每一格都可空著
   live_url: str ("" = 不用即時),
   filters: {exclude_groups: {"<cat_id>": regex}, exclude_items: regex},   # 給 coolpc-live.js 套同一套剔除規則
   categories: { "<cat_id>": {id, name, groups:[{label, items:[{id, name, price, list_price, flags}]}]} },

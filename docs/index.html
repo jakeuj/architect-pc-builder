@@ -232,7 +232,7 @@ summary{cursor:pointer;font-weight:600}
   function fillSelect(selEl, slot, r, filter){
     selEl.innerHTML = '';
     const opt = (value, text, on) => { const o = document.createElement('option'); o.value = value; o.textContent = text; o.selected = !!on; return o; };
-    if (slot.optional) selEl.appendChild(opt('', '— 無 —', !r));
+    selEl.appendChild(opt('', '— 無 —', !r));  // 每一格都能空著：有人只換幾個零件
     const it = r ? find(r).item : null;
     if (r && !it) selEl.appendChild(opt('!keep', `（${goneText(r)}）$${fmt(r.pin ? r.pin.price : 0)}　${r.name}`, true));
     const f = (filter || '').trim().toLowerCase();
@@ -261,8 +261,11 @@ summary{cursor:pointer;font-weight:600}
     if (ram && /單條/.test(ram.group) && cur.rows.ram.qty === 1) w.push('記憶體為單條，僅單通道；建議選雙通道套裝或數量 2');
     if (vga && cs) { const L = num(/\/(\d+(?:\.\d+)?)cm/, vga.name), M = num(/顯卡長?(\d+(?:\.\d+)?)/, cs.name); if (L && M && L > M) w.push(`顯示卡長 ${L}cm 超過機殼限制 ${M}cm`); }
     if (cl && cs && cl.cat === 10) { const H = num(/高(\d+(?:\.\d+)?)cm/, cl.name), M = num(/(?:CPU|U)高(\d+(?:\.\d+)?)/, cs.name); if (H && M && H > M) w.push(`散熱器高 ${H}cm 超過機殼限制 ${M}cm`); }
-    if (cpu && !cl && !/含風扇|MPK|附.*扇/.test(cpu.name)) w.push('此 CPU 不附風扇，請選一顆散熱器');
-    if (cpu && cpu.flags.includes('搭板專案')) w.push('CPU 為搭板專案價，需與主機板同一張單購買（本配置有主機板，OK）');
+    if (cpu && !cl && !/含風扇|MPK|附.*扇/.test(cpu.name)) w.push('此 CPU 不附風扇；沒有沿用舊散熱器的話，請選一顆');
+    // 已下架的 CPU 查不到 flags，改看品名 (同 coolpc-live.js parse 的搭板判斷)
+    const cr = cur.rows.cpu;
+    if (cr && (cpu ? cpu.flags.includes('搭板專案') : /搭板|任搭|搭主機板/.test(cr.name)))
+      w.push(cur.rows.mb ? 'CPU 為搭板專案價，需與主機板同一張單購買（本配置有主機板，OK）' : 'CPU 為搭板專案價，需與主機板同一張單購買；這張單沒有主機板，單買不是這個價');
     for (const s of D.slots) { const it = g(s.key); if (it && it.flags.some(f => /組裝價|裝機價|限搭機|限組裝/.test(f))) w.push(`${s.label}「${it.name.slice(0, 28)}…」為整機組裝價，單買零件不適用`); }
     return w;
   }
@@ -287,7 +290,7 @@ summary{cursor:pointer;font-weight:600}
       const flags = it ? it.flags.map(f => `<span class="flag ${f === '熱賣' ? 'hot' : /搭板|組裝價|裝機價|限搭機|限組裝|訂購/.test(f) ? 'cond' : ''}">${esc(f)}</span>`).join('') : '';
       const lp = it && it.list_price ? `<span class="flag">原價 ${fmt(it.list_price)}</span>` : '';
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td class="role">${esc(s.label)}${s.optional ? '<small>選配</small>' : ''}</td>
+      tr.innerHTML = `<td class="role">${esc(s.label)}</td>
         <td><select></select><input type="text" placeholder="輸入關鍵字篩選，例如 5060、B850、白" autocomplete="off"><div class="flags">${flags}${lp}</div></td>
         <td class="num" data-l="數量"><input type="number" min="1" max="9" value="${r ? r.qty : 1}" ${r ? '' : 'disabled'}></td>
         <td class="num" data-l="單價">${price != null ? fmt(price) : '–'}${sub}</td>
@@ -298,7 +301,7 @@ summary{cursor:pointer;font-weight:600}
       selEl.onchange = () => {
         const v = selEl.value;
         if (v === '!keep') return;
-        if (!v) { if (s.optional) { cur.rows[s.key] = null; render(); } return; }
+        if (!v) { cur.rows[s.key] = null; render(); return; }
         const i = v.indexOf('|'), cat = +v.slice(0, i), name = v.slice(i + 1);
         const o = cur.orig[s.key], qty = cur.rows[s.key] ? cur.rows[s.key].qty : 1;
         // 改回原本那件就恢復原報價；改成別件就跟著現價 (分享時才定價)
@@ -338,10 +341,12 @@ summary{cursor:pointer;font-weight:600}
     return { n: t.kind === 'shared' ? t.sub : t.label, b: t.kind === 'shared' ? t.base : t.key, rows };
   }
   // 沒動過的分享單原樣保留 (不重新編碼)；沒動過的預設配置用 #b= 跟著每小時更新；其餘存成快照
-  const hashFor = t => !dirty(t) ? (t.kind === 'shared' ? '#q=' + t.raw : '#b=' + t.key) : '#q=' + C.encodeQuote(quoteOf(t));
+  // 全部清空的單沒有東西可存 (decodeQuote 也不收)，網址就不帶 #
+  const isEmpty = t => !Object.values(t.rows).some(Boolean);
+  const hashFor = t => !dirty(t) ? (t.kind === 'shared' ? '#q=' + t.raw : '#b=' + t.key) : isEmpty(t) ? '' : '#q=' + C.encodeQuote(quoteOf(t));
   const shareUrl = t => location.href.split('#')[0] + (t.kind === 'shared' && !dirty(t) ? '#q=' + t.raw : '#q=' + C.encodeQuote(quoteOf(t)));
   let lastHash = location.hash;
-  function syncHash(){ const h = hashFor(cur); if (h !== location.hash) history.replaceState(null, '', h); lastHash = location.hash; }
+  function syncHash(){ const h = hashFor(cur); if (h !== location.hash) history.replaceState(null, '', h || location.pathname + location.search); lastHash = location.hash; }
   // 在同一個分頁貼上別的連結 (只改 # 後面) 時重新載入
   window.addEventListener('hashchange', () => { if (location.hash !== lastHash && /[#&][qb]=/.test(location.hash)) location.reload(); });
 
@@ -355,7 +360,9 @@ summary{cursor:pointer;font-weight:600}
     for (const k in cur.rows) { const r = cur.rows[k]; if (!r || !r.pin) continue; const it = find(r).item; if (it) cur.rows[k] = mkRow(it.cat, it.name, r.qty, null); }
     render(); toast('已改用原價屋現價');
   };
+  const emptyMsg = '估價單是空的，先選幾個零件';
   $('#copy').onclick = () => {
+    if (isEmpty(cur)) return toast(emptyMsg);
     const lines = [cur.kind === 'shared' ? `【${cur.label}${cur.sub ? '：' + cur.sub : ''}】報價日期 ${cur.d}（現價資料 ${SRC.quote_date}）` : `【${cur.label}${cur.sub ? ' — ' + cur.sub : ''}】原價屋含稅報價 ${SRC.quote_date}`];
     for (const s of D.slots) {
       const r = cur.rows[s.key]; if (!r) continue;
@@ -368,7 +375,7 @@ summary{cursor:pointer;font-weight:600}
     lines.push(shareUrl(cur));
     copyText(lines.join('\n'), '已複製清單');
   };
-  $('#share').onclick = () => copyText(shareUrl(cur), '已複製估價單連結');
+  $('#share').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur), '已複製估價單連結');
 
   buildTabs();
   select(cur);
