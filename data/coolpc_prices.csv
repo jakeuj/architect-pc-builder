@@ -436,7 +436,7 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,370,微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝,59900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,371,微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身),32900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,372,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝,34900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,373,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝,39900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,373,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝,34999,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,374,微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝,59900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,375,微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身),34900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,376,微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝,35900,,
@@ -651,18 +651,17 @@ cat_id,category,group,id,name,price,list_price,flags
 3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,164,酷！PC【鬼武者-雷斬刀】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/750W電供,35900,,
 3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,165,酷！PC【鬼武者-雷斬刀】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/750W電供,37900,,
 3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,166,酷！PC【鬼武者-地烈斬】U5 225F/B860/16G DDR5/1TB SSD/RX9060XT/750W電供,35900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,171,酷！PC【智多星】Ultra 5 225/H810/16G/512GB SSD/原廠機殼/500W原廠電供,16490,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,172,酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供,33900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,173,酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供,36900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,174,[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供,93900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,175,[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供,92900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,176,[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供,87900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,179,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供,38900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,180,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,41900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,181,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,48500,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,182,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供,37900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,183,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,40900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,184,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,47500,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,171,酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供,33900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,172,酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供,36900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,173,[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供,93900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,174,[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供,92900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,175,[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供,87900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,178,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供,38900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,179,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,41900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,180,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,48500,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,181,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供,37900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,182,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,40900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,183,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,47500,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,2,｛Intel Core Ultra 5 225F｝【10核】3.3G(↑4.9G) /20M /無內顯【代理盒裝】,4880,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,3,｛Intel Core Ultra 5 225｝【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】,5800,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,4,｛Intel Core Ultra 5 225｝【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】~組裝價~,5280,,組裝價
@@ -921,7 +920,7 @@ cat_id,category,group,id,name,price,list_price,flags
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),235,｛華碩 TUF GAMING B650-PLUS WIFI｝/ATX/2.5G+無線/12+2相*活動到10/31,4990,,任搭折100
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),236,｛華碩 ROG STRIX B650-A GAMING WIFI｝/ATX/Intel2.5G+無線/12+2+1相,5490,,
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),237,｛技嘉 B650M H｝M-ATX/LAN 1G/註四年/2DIMM/5+2+2相,2990,,
-5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),238,｛技嘉 B650EM FORCE WIFI6E｝M-ATX/2.5G+無線/註五年/8+2+2相,3990,,熱賣
+5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),238,｛技嘉 B650EM FORCE WIFI6E｝M-ATX/2.5G+無線/註五年/8+2+2相,4490,,熱賣 任搭折100
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),239,｛技嘉 B650E EAGLE WIFI6E｝/ATX/2.5G+無線/註四年/8+2+2相,4990,,任搭折100
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),240,｛微星 MPG B650I EDGE WIFI｝Mini-ITX/2.5G+無線/註五年/8+2+1相,4990,,
 5,主機板 MB,AMD B650E & B650 / AM5腳位(DDR5),241,｛微星 PRO B650M-B｝M-ATX/2.5G/註四年/2DIMM/6+2+1相,2690,,
@@ -1489,25 +1488,24 @@ cat_id,category,group,id,name,price,list_price,flags
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,76,Seagate 8TB【EXOS企業碟】256MB/7200轉/5年保｛ST8000NM017B｝【限搭機】,15390,,限搭機
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,77,Seagate 10TB【EXOS企業碟】256MB/7200轉/5年保｛ST10000NM0017B｝【少量到貨】,17390,,
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,78,Seagate 12TB【EXOS企業碟】512MB/7200轉/5年保｛ST12000NM002H｝【少量到貨】,19890,,
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,79,Seagate 16TB【EXOS企業碟】512MB/7200轉/5年保｛ST16000NM002H｝【限搭機】,25390,,熱賣 限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,80,Seagate 20TB【EXOS企業碟】512MB/7200轉/5年保｛ST20000NM002H｝【限搭機】,30890,,熱賣 限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,81,Seagate 24TB【EXOS企業碟】512MB/7200轉/5年保｛ST24000NM002H｝【少量到貨】,36390,,熱賣
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,82,Seagate 30TB【EXOS企業碟】512MB/7200轉/5年保｛ST30000NM004K｝【限搭機】,43890,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,83,Seagate 32TB【EXOS企業碟】512MB/7200轉/5年保｛ST32000NM004K｝【限搭機】,45890,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,85,WD 8TB【Ultrastar DC HA340】256MB/7200轉/5年保｛WUS721208BLE6L4｝【限搭機】,15290,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,86,WD 20TB【Ultrastar DC HC560】512MB/7200轉/5年保｛WUH722020BLE6L4｝【限搭機】,33490,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,87,WD 26TB【Ultrastar DC HC590】512MB/7200轉/5年保｛WUH722626ALE6L4｝【限搭機】,43490,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,88,WD 8TB【金標】256MB/7200轉/5年保｛WD8005FRYZ｝【限搭機】,15290,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,89,WD 10TB【金標】512MB/7200轉/5年保｛WD103KRYZ｝【限搭機】,18490,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,90,WD 12TB【金標】512MB/7200轉/5年保｛WD122KRYZ｝【限搭機】,21490,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,91,WD 16TB【金標】512MB/7200轉/5年保｛WD161KRYZ｝【限搭機】,28490,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,92,WD 18TB【金標】512MB/7200轉/5年保｛WD181KRYZ｝【限搭機】,29890,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,93,WD 20TB【金標】512MB/7200轉/5年保｛WD203KRYZ｝,33490,,
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,94,WD 24TB【金標】512MB/7200轉/5年保｛WD242KRYZ｝【限搭機】,39890,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,95,WD 26TB【金標】512MB/7200轉/5年保｛WD261KRYZ｝,43490,,
-8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,97,Toshiba 2TB (2.5吋/5400轉/128M/9.5mm/2年保)｛MQ04ABD200｝【限搭機】,6790,,熱賣 限搭機
-8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,98,Seagate 2TB【新梭魚】(2.5吋/5400轉/128M/7mm/2年保)｛ST2000LM015｝【限搭機】,4390,,限搭機
-8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,99,WD 2TB【藍標】(2.5吋/5400轉/128M/7mm/2年保)｛WD20SPZX｝【限搭機】,6690,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,79,Seagate 20TB【EXOS企業碟】512MB/7200轉/5年保｛ST20000NM002H｝【限搭機】,30890,,熱賣 限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,80,Seagate 24TB【EXOS企業碟】512MB/7200轉/5年保｛ST24000NM002H｝【少量到貨】,36390,,熱賣
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,81,Seagate 30TB【EXOS企業碟】512MB/7200轉/5年保｛ST30000NM004K｝【限搭機】,43890,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,82,Seagate 32TB【EXOS企業碟】512MB/7200轉/5年保｛ST32000NM004K｝【限搭機】,45890,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,84,WD 8TB【Ultrastar DC HA340】256MB/7200轉/5年保｛WUS721208BLE6L4｝【限搭機】,15290,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,85,WD 20TB【Ultrastar DC HC560】512MB/7200轉/5年保｛WUH722020BLE6L4｝【限搭機】,33490,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,86,WD 26TB【Ultrastar DC HC590】512MB/7200轉/5年保｛WUH722626ALE6L4｝【限搭機】,43490,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,87,WD 8TB【金標】256MB/7200轉/5年保｛WD8005FRYZ｝【限搭機】,15290,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,88,WD 10TB【金標】512MB/7200轉/5年保｛WD103KRYZ｝【限搭機】,18490,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,89,WD 12TB【金標】512MB/7200轉/5年保｛WD122KRYZ｝【限搭機】,21490,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,90,WD 16TB【金標】512MB/7200轉/5年保｛WD161KRYZ｝【限搭機】,28490,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,91,WD 18TB【金標】512MB/7200轉/5年保｛WD181KRYZ｝【限搭機】,29890,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,92,WD 20TB【金標】512MB/7200轉/5年保｛WD203KRYZ｝,33490,,
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,93,WD 24TB【金標】512MB/7200轉/5年保｛WD242KRYZ｝【限搭機】,39890,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 企業碟,94,WD 26TB【金標】512MB/7200轉/5年保｛WD261KRYZ｝,43490,,
+8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,96,Toshiba 2TB (2.5吋/5400轉/128M/9.5mm/2年保)｛MQ04ABD200｝【限搭機】,6790,,熱賣 限搭機
+8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,97,Seagate 2TB【新梭魚】(2.5吋/5400轉/128M/7mm/2年保)｛ST2000LM015｝【限搭機】,4390,,限搭機
+8,2.5/3.5 傳統內接硬碟HDD,2.5吋 SATA3 筆記型,98,WD 2TB【藍標】(2.5吋/5400轉/128M/7mm/2年保)｛WD20SPZX｝【限搭機】,6690,,限搭機
 9,隨身碟｜隨身硬碟｜記憶卡,隨身碟 Type-C,3,金士頓 DT 70 64G / Type-C / USB3.2 G1 / 5年保｛DT70/64GB｝,215,,
 9,隨身碟｜隨身硬碟｜記憶卡,隨身碟 Type-C,4,創見JF790C 64G 推蓋式 / 黑色 / Type-C / USB3.2 G1 / 5年保｛TS64GJF790C｝,555,,
 9,隨身碟｜隨身硬碟｜記憶卡,隨身碟 Type-C,5,創見JF790C 128G 推蓋式 / 黑色 / Type-C / USB3.2 G1 / 5年保｛TS128GJF790C｝,695,,
@@ -2306,62 +2304,60 @@ cat_id,category,group,id,name,price,list_price,flags
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),203,｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年,53888,,任搭折1000
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),204,｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪,53888,,任搭折1000
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),205,｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,54888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5090-32GB(GDDR7),212,限搭機｛華碩 ROG-ASTRAL-RTX5090-P32G-EDITION｝20週年紀念版/曲面AMOLED螢幕/少量.先詢問,229990,,限搭機
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,220,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,221,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,222,｛麗臺 NVIDIA RTX 2000 Ada｝16GB GDDR6/CUDA:2816/16.76cm/三年保固,29300,,任搭折1000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,223,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,224,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,225,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,226,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,227,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,228,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,229,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,230,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,231,｛麗臺 NVIDIA RTX PRO 6000 Blackwell 96GB GDDR7｝工作站繪圖卡 *請先詢問,585000,,
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,232,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,234,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,9990,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,235,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,236,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,238,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,239,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,240,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,242,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,244,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,245,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,246,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,247,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,248,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,249,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,250,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,251,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,252,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,253,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,255,限組裝｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],18990,,限組裝 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,256,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,257,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,258,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,259,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,260,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,261,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,262,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,264,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
-12,顯示卡VGA,AMD Radeon RX9070-16G,265,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,266,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,268,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,269,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,270,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,271,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,272,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,273,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,274,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,275,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,276,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,277,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,278,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,279,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,280,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
-12,顯示卡VGA,AMD 專業級/工作站級 顯卡,282,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,219,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,220,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,221,｛麗臺 NVIDIA RTX 2000 Ada｝16GB GDDR6/CUDA:2816/16.76cm/三年保固,29300,,任搭折1000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,222,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,223,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,224,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,225,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,226,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,227,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,228,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,229,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,230,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,232,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,9990,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,233,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,234,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,236,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,237,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,238,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,240,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,242,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,243,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,244,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,245,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,246,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,247,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,248,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,249,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,250,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,251,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,253,｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,254,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,255,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,256,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,257,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,258,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,259,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,260,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,262,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
+12,顯示卡VGA,AMD Radeon RX9070-16G,263,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,264,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,266,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,267,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,268,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,269,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,270,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,271,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,272,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,273,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,274,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,275,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,276,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,277,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,278,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
+12,顯示卡VGA,AMD 專業級/工作站級 顯卡,280,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,7,銀欣 SST-ARM13 (單螢幕 / 機械彈簧 / 穿夾兩用 / 最大32吋or9公斤) 省$1000,990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,8,銀欣 SST-ARM14 白色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,9,銀欣 SST-ARM14B 黑色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
@@ -4491,7 +4487,7 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,8,｛華碩 ROG Falchion Ace 75 HE｝磁軸鍵盤(黑)/有線/8000Hz/V2磁軸/霍爾感應器/六層消音結構,7490,,熱賣 酷幣300
 17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,10,｛亞碩 GM37 標準版 電競椅-網椅+亞碩 GM37-S 標準版 電競椅-網椅(組合優惠),8990,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,11,｛SONY DualSense｝無線控制器(午夜黑)/藍牙+Type-c連接線/觸覺回饋/自適應扳機,2041,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,13,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb,2490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,13,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb,1990,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,【周邊活動熱賣專區】,15,｛海盜船 K70 Core Se｝ 機械式鍵盤(白)/有線/線性紅軸/中文/自定義多功能旋鈕/Rgb,1890,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,【超級CP電競組合包】,17,微星 超值三件組組合包(GK30鍵盤+GM08滑鼠+GD21鼠墊)原價2219,1190,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,【超級CP電競組合包】,18,亞碩(Power Master)超優質組合套餐(Km-11天蠍座 +G502 滑鼠鼠墊組)原價1980,1190,,熱賣
@@ -4693,10 +4689,10 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,258,｛Keychron R6｝QMK 無線機械鍵盤/有線/無線/藍牙/紅軸/中文/熱插拔/Rgb/Mac可用,2690,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,259,｛Keychron R6｝QMK 無線機械鍵盤/有線/無線/藍牙/茶軸/中文/熱插拔/Rgb/Mac可用,2690,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,260,｛Keychron R6｝QMK 無線機械鍵盤/有線/無線/藍牙/香蕉軸/中文/熱插拔/Rgb/Mac可用,2690,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,261,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/紅軸/中文/96%/熱插拔/Rgb,2490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,263,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb,2490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,265,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/香蕉軸/中文/96%/熱插拔/Rgb,2490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,267,｛Keychron V6 Max｝QMK 無線機械式鍵盤(碳黑色)/2.4g/藍牙/靜音紅軸/中文/熱插拔/Rgb,2990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,261,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/紅軸/中文/96%/熱插拔/Rgb,1990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,263,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb,1990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,265,｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/香蕉軸/中文/96%/熱插拔/Rgb,1990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,267,｛Keychron V6 Max｝QMK 無線機械式鍵盤(碳黑色)/2.4g/藍牙/靜音紅軸/中文/熱插拔/Rgb,2490,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,269,｛Keychron K5 Max｝QMK 無線機械式鍵盤/有線/2.4g/藍牙/矮軸(紅)/中文/白色背光,3490,,
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,270,｛Keychron K5 Max｝QMK 無線機械式鍵盤/有線/2.4g/藍牙/矮軸(茶)/中文/白色背光,3490,,
 17,鍵盤+鼠｜搖桿｜桌+椅,Keychron 鍵盤,271,｛Keychron K10 Max｝QMK 無線機械式鍵盤(黑色)/有線/2.4g/藍牙/紅軸/中文/熱插拔/Rgb,3490,,熱賣
@@ -5465,50 +5461,51 @@ cat_id,category,group,id,name,price,list_price,flags
 18,滑鼠｜鼠墊｜數位板,鼠墊 系列,371,｛羅技 G840｝ 大尺寸遊戲鼠墊(桃紅色)(900x400x3mm),590,,
 18,滑鼠｜鼠墊｜數位板,鼠墊 系列,372,｛羅技 桌上滑鼠墊｝(玫瑰粉)(700x300x2)/布質/防潑濺設計,499,,
 18,滑鼠｜鼠墊｜數位板,鼠墊 系列,373,｛羅技 桌上滑鼠墊｝(沉穩灰)(700x300x2)/布質/防潑濺設計,499,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,374,｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊,3690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,375,｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊,39,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,376,｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm,490,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,377,｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊,790,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,378,｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm,590,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,379,｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400,1290,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,380,｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,381,｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm,1690,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,382,｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm,1690,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,383,｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm,590,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,384,｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm,439,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,385,｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm,499,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,386,｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm,1690,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,387,｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3,890,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,388,｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,389,｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410,1090,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,390,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3,490,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,391,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,392,｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,393,｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410,3090,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,394,｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530,3790,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,395,｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,396,｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,397,｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410,3090,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,398,｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530,3790,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,399,｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,400,｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉,3399,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,401,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,402,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,403,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,404,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,405,｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送),1990,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,406,｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送),1980,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,407,｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版,1190,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,408,｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1290,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,409,｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,410,｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1190,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,411,｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,412,｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1590,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),414,｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定,1266,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),415,｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定,3136,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),416,｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換,4241,,
-18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),418,｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版,2890,,熱賣
-18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),419,｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙,4690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,374,｛羅技 G Pro X Control｝加厚編織遊戲鼠墊/全向布料/460x400x6mm,2290,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,375,｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊,3690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,376,｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊,39,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,377,｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm,490,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,378,｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊,790,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,379,｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm,590,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,380,｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400,1290,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,381,｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,382,｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm,1690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,383,｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm,1690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,384,｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm,590,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,385,｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm,439,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,386,｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm,499,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,387,｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm,1690,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,388,｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3,890,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,389,｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,390,｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410,1090,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,391,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3,490,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,392,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,393,｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,394,｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410,3090,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,395,｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530,3790,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,396,｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,397,｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,398,｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410,3090,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,399,｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530,3790,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,400,｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,401,｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉,3399,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,402,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,403,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,404,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,405,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,406,｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送),1990,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,407,｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送),1980,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,408,｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版,1190,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,409,｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1290,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,410,｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,411,｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1190,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,412,｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,413,｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1590,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),415,｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定,1266,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),416,｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定,3136,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),417,｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換,4241,,
+18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),419,｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版,2890,,熱賣
+18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),420,｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙,4690,,熱賣
 19,IP分享器｜網卡｜網通設備,【網通促銷專區】,2,｛TP-LINK Archer GE230｝ (BE3600 / Wi-Fi 7 / 雙頻 / 3*1Gb / 1*2.5Gb / 遊戲加速技術),2999,,熱賣
 19,IP分享器｜網卡｜網通設備,【網通促銷專區】,3,｛TP-LINK Archer BE550｝ (BE9300/Wi-Fi 7/三頻/320MHz頻道/5*2.5Gb/高通晶片),5599,,熱賣
 19,IP分享器｜網卡｜網通設備,智慧家庭 (Tapo T110 T100 須搭配 Tapo 智慧網關),5,｛ TP-LINK Tapo P105｝ 迷你型智慧 Wi-Fi 插座 (遠端控制/設定排程/語音控制),329,,

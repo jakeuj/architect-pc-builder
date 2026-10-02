@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/2 14:55",
+ "quote_date": "2026/10/2 17:20",
  "categories": [
   {
    "id": 1,
@@ -3713,7 +3713,7 @@
       {
        "id": 373,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝",
-       "price": 39900,
+       "price": 34999,
        "list_price": null,
        "flags": []
       },
@@ -5411,83 +5411,76 @@
      "items": [
       {
        "id": 171,
-       "name": "酷！PC【智多星】Ultra 5 225/H810/16G/512GB SSD/原廠機殼/500W原廠電供",
-       "price": 16490,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 172,
        "name": "酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 172,
        "name": "酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 173,
        "name": "[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供",
        "price": 93900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 174,
        "name": "[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供",
        "price": 92900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 175,
        "name": "[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供",
        "price": 87900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 179,
+       "id": 178,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供",
        "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 179,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供",
        "price": 41900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 180,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 48500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 181,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 183,
+       "id": 182,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 183,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 47500,
        "list_price": null,
@@ -7808,10 +7801,11 @@
       {
        "id": 238,
        "name": "｛技嘉 B650EM FORCE WIFI6E｝M-ATX/2.5G+無線/註五年/8+2+2相",
-       "price": 3990,
+       "price": 4490,
        "list_price": null,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "任搭折100"
        ]
       },
       {
@@ -12405,16 +12399,6 @@
       },
       {
        "id": 79,
-       "name": "Seagate 16TB【EXOS企業碟】512MB/7200轉/5年保｛ST16000NM002H｝【限搭機】",
-       "price": 25390,
-       "list_price": null,
-       "flags": [
-        "熱賣",
-        "限搭機"
-       ]
-      },
-      {
-       "id": 80,
        "name": "Seagate 20TB【EXOS企業碟】512MB/7200轉/5年保｛ST20000NM002H｝【限搭機】",
        "price": 30890,
        "list_price": null,
@@ -12424,7 +12408,7 @@
        ]
       },
       {
-       "id": 81,
+       "id": 80,
        "name": "Seagate 24TB【EXOS企業碟】512MB/7200轉/5年保｛ST24000NM002H｝【少量到貨】",
        "price": 36390,
        "list_price": null,
@@ -12433,7 +12417,7 @@
        ]
       },
       {
-       "id": 82,
+       "id": 81,
        "name": "Seagate 30TB【EXOS企業碟】512MB/7200轉/5年保｛ST30000NM004K｝【限搭機】",
        "price": 43890,
        "list_price": null,
@@ -12442,7 +12426,7 @@
        ]
       },
       {
-       "id": 83,
+       "id": 82,
        "name": "Seagate 32TB【EXOS企業碟】512MB/7200轉/5年保｛ST32000NM004K｝【限搭機】",
        "price": 45890,
        "list_price": null,
@@ -12451,7 +12435,7 @@
        ]
       },
       {
-       "id": 85,
+       "id": 84,
        "name": "WD 8TB【Ultrastar DC HA340】256MB/7200轉/5年保｛WUS721208BLE6L4｝【限搭機】",
        "price": 15290,
        "list_price": null,
@@ -12460,7 +12444,7 @@
        ]
       },
       {
-       "id": 86,
+       "id": 85,
        "name": "WD 20TB【Ultrastar DC HC560】512MB/7200轉/5年保｛WUH722020BLE6L4｝【限搭機】",
        "price": 33490,
        "list_price": null,
@@ -12469,7 +12453,7 @@
        ]
       },
       {
-       "id": 87,
+       "id": 86,
        "name": "WD 26TB【Ultrastar DC HC590】512MB/7200轉/5年保｛WUH722626ALE6L4｝【限搭機】",
        "price": 43490,
        "list_price": null,
@@ -12478,7 +12462,7 @@
        ]
       },
       {
-       "id": 88,
+       "id": 87,
        "name": "WD 8TB【金標】256MB/7200轉/5年保｛WD8005FRYZ｝【限搭機】",
        "price": 15290,
        "list_price": null,
@@ -12487,7 +12471,7 @@
        ]
       },
       {
-       "id": 89,
+       "id": 88,
        "name": "WD 10TB【金標】512MB/7200轉/5年保｛WD103KRYZ｝【限搭機】",
        "price": 18490,
        "list_price": null,
@@ -12496,7 +12480,7 @@
        ]
       },
       {
-       "id": 90,
+       "id": 89,
        "name": "WD 12TB【金標】512MB/7200轉/5年保｛WD122KRYZ｝【限搭機】",
        "price": 21490,
        "list_price": null,
@@ -12505,7 +12489,7 @@
        ]
       },
       {
-       "id": 91,
+       "id": 90,
        "name": "WD 16TB【金標】512MB/7200轉/5年保｛WD161KRYZ｝【限搭機】",
        "price": 28490,
        "list_price": null,
@@ -12514,7 +12498,7 @@
        ]
       },
       {
-       "id": 92,
+       "id": 91,
        "name": "WD 18TB【金標】512MB/7200轉/5年保｛WD181KRYZ｝【限搭機】",
        "price": 29890,
        "list_price": null,
@@ -12523,14 +12507,14 @@
        ]
       },
       {
-       "id": 93,
+       "id": 92,
        "name": "WD 20TB【金標】512MB/7200轉/5年保｛WD203KRYZ｝",
        "price": 33490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 94,
+       "id": 93,
        "name": "WD 24TB【金標】512MB/7200轉/5年保｛WD242KRYZ｝【限搭機】",
        "price": 39890,
        "list_price": null,
@@ -12539,7 +12523,7 @@
        ]
       },
       {
-       "id": 95,
+       "id": 94,
        "name": "WD 26TB【金標】512MB/7200轉/5年保｛WD261KRYZ｝",
        "price": 43490,
        "list_price": null,
@@ -12551,7 +12535,7 @@
      "label": "2.5吋 SATA3 筆記型",
      "items": [
       {
-       "id": 97,
+       "id": 96,
        "name": "Toshiba 2TB (2.5吋/5400轉/128M/9.5mm/2年保)｛MQ04ABD200｝【限搭機】",
        "price": 6790,
        "list_price": null,
@@ -12561,7 +12545,7 @@
        ]
       },
       {
-       "id": 98,
+       "id": 97,
        "name": "Seagate 2TB【新梭魚】(2.5吋/5400轉/128M/7mm/2年保)｛ST2000LM015｝【限搭機】",
        "price": 4390,
        "list_price": null,
@@ -12570,7 +12554,7 @@
        ]
       },
       {
-       "id": 99,
+       "id": 98,
        "name": "WD 2TB【藍標】(2.5吋/5400轉/128M/7mm/2年保)｛WD20SPZX｝【限搭機】",
        "price": 6690,
        "list_price": null,
@@ -19091,23 +19075,13 @@
     },
     {
      "label": "NVIDIA RTX5090-32GB(GDDR7)",
-     "items": [
-      {
-       "id": 212,
-       "name": "限搭機｛華碩 ROG-ASTRAL-RTX5090-P32G-EDITION｝20週年紀念版/曲面AMOLED螢幕/少量.先詢問",
-       "price": 229990,
-       "list_price": null,
-       "flags": [
-        "限搭機"
-       ]
-      }
-     ]
+     "items": []
     },
     {
      "label": "NVIDIA 專業工作站繪圖卡",
      "items": [
       {
-       "id": 220,
+       "id": 219,
        "name": "｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固",
        "price": 9100,
        "list_price": null,
@@ -19116,7 +19090,7 @@
        ]
       },
       {
-       "id": 221,
+       "id": 220,
        "name": "｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固",
        "price": 20600,
        "list_price": null,
@@ -19125,7 +19099,7 @@
        ]
       },
       {
-       "id": 222,
+       "id": 221,
        "name": "｛麗臺 NVIDIA RTX 2000 Ada｝16GB GDDR6/CUDA:2816/16.76cm/三年保固",
        "price": 29300,
        "list_price": null,
@@ -19134,7 +19108,7 @@
        ]
       },
       {
-       "id": 223,
+       "id": 222,
        "name": "｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固",
        "price": 289900,
        "list_price": null,
@@ -19143,7 +19117,7 @@
        ]
       },
       {
-       "id": 224,
+       "id": 223,
        "name": "｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡",
        "price": 66300,
        "list_price": null,
@@ -19152,7 +19126,7 @@
        ]
       },
       {
-       "id": 225,
+       "id": 224,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19161,7 +19135,7 @@
        ]
       },
       {
-       "id": 226,
+       "id": 225,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19170,7 +19144,7 @@
        ]
       },
       {
-       "id": 227,
+       "id": 226,
        "name": "｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡",
        "price": 189000,
        "list_price": null,
@@ -19179,7 +19153,7 @@
        ]
       },
       {
-       "id": 228,
+       "id": 227,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡",
        "price": 325000,
        "list_price": null,
@@ -19188,7 +19162,7 @@
        ]
       },
       {
-       "id": 229,
+       "id": 228,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡",
        "price": 435000,
        "list_price": null,
@@ -19197,7 +19171,7 @@
        ]
       },
       {
-       "id": 230,
+       "id": 229,
        "name": "｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級",
        "price": 575000,
        "list_price": null,
@@ -19206,14 +19180,7 @@
        ]
       },
       {
-       "id": 231,
-       "name": "｛麗臺 NVIDIA RTX PRO 6000 Blackwell 96GB GDDR7｝工作站繪圖卡 *請先詢問",
-       "price": 585000,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 232,
+       "id": 230,
        "name": "[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝",
        "price": 190,
        "list_price": null,
@@ -19225,21 +19192,21 @@
      "label": "AMD Radeon RX7650GRE-8G",
      "items": [
       {
-       "id": 234,
+       "id": 232,
        "name": "｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 235,
+       "id": 233,
        "name": "｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 10390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 236,
+       "id": 234,
        "name": "｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年",
        "price": 11990,
        "list_price": null,
@@ -19251,7 +19218,7 @@
      "label": "AMD Radeon RX9060XT-8G",
      "items": [
       {
-       "id": 238,
+       "id": 236,
        "name": "｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保",
        "price": 14890,
        "list_price": null,
@@ -19260,7 +19227,7 @@
        ]
       },
       {
-       "id": 239,
+       "id": 237,
        "name": "｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固)",
        "price": 13990,
        "list_price": null,
@@ -19269,7 +19236,7 @@
        ]
       },
       {
-       "id": 240,
+       "id": 238,
        "name": "｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製",
        "price": 15290,
        "list_price": null,
@@ -19283,7 +19250,7 @@
      "label": "AMD Radeon RX9060XT-16G",
      "items": [
       {
-       "id": 242,
+       "id": 240,
        "name": "｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保",
        "price": 21000,
        "list_price": null,
@@ -19292,7 +19259,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 242,
        "name": "｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保",
        "price": 20900,
        "list_price": null,
@@ -19301,7 +19268,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 243,
        "name": "｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保",
        "price": 20890,
        "list_price": null,
@@ -19310,7 +19277,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 244,
        "name": "｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保",
        "price": 20990,
        "list_price": null,
@@ -19319,7 +19286,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 245,
        "name": "｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白",
        "price": 21890,
        "list_price": null,
@@ -19328,7 +19295,7 @@
        ]
       },
       {
-       "id": 248,
+       "id": 246,
        "name": "｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保",
        "price": 19490,
        "list_price": null,
@@ -19337,7 +19304,7 @@
        ]
       },
       {
-       "id": 249,
+       "id": 247,
        "name": "｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固",
        "price": 19990,
        "list_price": null,
@@ -19346,7 +19313,7 @@
        ]
       },
       {
-       "id": 250,
+       "id": 248,
        "name": "｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板",
        "price": 20490,
        "list_price": null,
@@ -19355,7 +19322,7 @@
        ]
       },
       {
-       "id": 251,
+       "id": 249,
        "name": "｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 20990,
        "list_price": null,
@@ -19364,7 +19331,7 @@
        ]
       },
       {
-       "id": 252,
+       "id": 250,
        "name": "｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板",
        "price": 21490,
        "list_price": null,
@@ -19373,7 +19340,7 @@
        ]
       },
       {
-       "id": 253,
+       "id": 251,
        "name": "｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製",
        "price": 20990,
        "list_price": null,
@@ -19388,17 +19355,16 @@
      "label": "AMD Radeon RX9070GRE-12G",
      "items": [
       {
-       "id": 255,
-       "name": "限組裝｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊]",
-       "price": 18990,
+       "id": 253,
+       "name": "｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊]",
+       "price": 22000,
        "list_price": null,
        "flags": [
-        "限組裝",
         "任搭折190"
        ]
       },
       {
-       "id": 256,
+       "id": 254,
        "name": "｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保",
        "price": 21990,
        "list_price": null,
@@ -19407,7 +19373,7 @@
        ]
       },
       {
-       "id": 257,
+       "id": 255,
        "name": "｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保",
        "price": 22000,
        "list_price": null,
@@ -19416,7 +19382,7 @@
        ]
       },
       {
-       "id": 258,
+       "id": 256,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19426,7 +19392,7 @@
        ]
       },
       {
-       "id": 259,
+       "id": 257,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19435,7 +19401,7 @@
        ]
       },
       {
-       "id": 260,
+       "id": 258,
        "name": "｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板",
        "price": 21990,
        "list_price": null,
@@ -19444,7 +19410,7 @@
        ]
       },
       {
-       "id": 261,
+       "id": 259,
        "name": "｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固",
        "price": 21990,
        "list_price": null,
@@ -19453,7 +19419,7 @@
        ]
       },
       {
-       "id": 262,
+       "id": 260,
        "name": "｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年",
        "price": 22090,
        "list_price": null,
@@ -19467,7 +19433,7 @@
      "label": "AMD Radeon RX9070-16G",
      "items": [
       {
-       "id": 264,
+       "id": 262,
        "name": "｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保",
        "price": 24900,
        "list_price": null,
@@ -19476,7 +19442,7 @@
        ]
       },
       {
-       "id": 265,
+       "id": 263,
        "name": "｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保",
        "price": 25990,
        "list_price": null,
@@ -19485,7 +19451,7 @@
        ]
       },
       {
-       "id": 266,
+       "id": 264,
        "name": "｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保",
        "price": 24590,
        "list_price": null,
@@ -19499,7 +19465,7 @@
      "label": "AMD Radeon RX9070XT-16G",
      "items": [
       {
-       "id": 268,
+       "id": 266,
        "name": "｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白",
        "price": 31390,
        "list_price": null,
@@ -19508,7 +19474,7 @@
        ]
       },
       {
-       "id": 269,
+       "id": 267,
        "name": "｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保",
        "price": 32890,
        "list_price": null,
@@ -19517,7 +19483,7 @@
        ]
       },
       {
-       "id": 270,
+       "id": 268,
        "name": "｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 31290,
        "list_price": null,
@@ -19527,7 +19493,7 @@
        ]
       },
       {
-       "id": 271,
+       "id": 269,
        "name": "任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 29990,
        "list_price": null,
@@ -19537,7 +19503,7 @@
        ]
       },
       {
-       "id": 272,
+       "id": 270,
        "name": "｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板",
        "price": 31490,
        "list_price": null,
@@ -19546,7 +19512,7 @@
        ]
       },
       {
-       "id": 273,
+       "id": 271,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計",
        "price": 32990,
        "list_price": null,
@@ -19556,7 +19522,7 @@
        ]
       },
       {
-       "id": 274,
+       "id": 272,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板",
        "price": 32990,
        "list_price": null,
@@ -19565,7 +19531,7 @@
        ]
       },
       {
-       "id": 275,
+       "id": 273,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年",
        "price": 33990,
        "list_price": null,
@@ -19574,7 +19540,7 @@
        ]
       },
       {
-       "id": 276,
+       "id": 274,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白",
        "price": 34490,
        "list_price": null,
@@ -19583,7 +19549,7 @@
        ]
       },
       {
-       "id": 277,
+       "id": 275,
        "name": "｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製",
        "price": 30990,
        "list_price": null,
@@ -19592,7 +19558,7 @@
        ]
       },
       {
-       "id": 278,
+       "id": 276,
        "name": "｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製",
        "price": 31490,
        "list_price": null,
@@ -19601,7 +19567,7 @@
        ]
       },
       {
-       "id": 279,
+       "id": 277,
        "name": "｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板",
        "price": 31490,
        "list_price": null,
@@ -19610,7 +19576,7 @@
        ]
       },
       {
-       "id": 280,
+       "id": 278,
        "name": "｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製",
        "price": 32990,
        "list_price": null,
@@ -19624,7 +19590,7 @@
      "label": "AMD 專業級/工作站級 顯卡",
      "items": [
       {
-       "id": 282,
+       "id": 280,
        "name": "｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡",
        "price": 59990,
        "list_price": null,
@@ -35629,7 +35595,7 @@
       {
        "id": 13,
        "name": "｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb",
-       "price": 2490,
+       "price": 1990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -37387,7 +37353,7 @@
       {
        "id": 261,
        "name": "｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/紅軸/中文/96%/熱插拔/Rgb",
-       "price": 2490,
+       "price": 1990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -37396,7 +37362,7 @@
       {
        "id": 263,
        "name": "｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/茶軸/中文/96%/熱插拔/Rgb",
-       "price": 2490,
+       "price": 1990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -37405,7 +37371,7 @@
       {
        "id": 265,
        "name": "｛Keychron V5 Max｝QMK 無線機械式鍵盤(白色)/2.4g/藍牙/香蕉軸/中文/96%/熱插拔/Rgb",
-       "price": 2490,
+       "price": 1990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -37414,7 +37380,7 @@
       {
        "id": 267,
        "name": "｛Keychron V6 Max｝QMK 無線機械式鍵盤(碳黑色)/2.4g/藍牙/靜音紅軸/中文/熱插拔/Rgb",
-       "price": 2990,
+       "price": 2490,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -44094,6 +44060,13 @@
       },
       {
        "id": 374,
+       "name": "｛羅技 G Pro X Control｝加厚編織遊戲鼠墊/全向布料/460x400x6mm",
+       "price": 2290,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 375,
        "name": "｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊",
        "price": 3690,
        "list_price": null,
@@ -44102,21 +44075,21 @@
        ]
       },
       {
-       "id": 375,
+       "id": 376,
        "name": "｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊",
        "price": 39,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 376,
+       "id": 377,
        "name": "｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm",
        "price": 490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 377,
+       "id": 378,
        "name": "｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊",
        "price": 790,
        "list_price": null,
@@ -44125,14 +44098,14 @@
        ]
       },
       {
-       "id": 378,
+       "id": 379,
        "name": "｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 379,
+       "id": 380,
        "name": "｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400",
        "price": 1290,
        "list_price": null,
@@ -44141,7 +44114,7 @@
        ]
       },
       {
-       "id": 380,
+       "id": 381,
        "name": "｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm",
        "price": 990,
        "list_price": null,
@@ -44150,7 +44123,7 @@
        ]
       },
       {
-       "id": 381,
+       "id": 382,
        "name": "｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm",
        "price": 1690,
        "list_price": null,
@@ -44159,7 +44132,7 @@
        ]
       },
       {
-       "id": 382,
+       "id": 383,
        "name": "｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm",
        "price": 1690,
        "list_price": null,
@@ -44168,35 +44141,35 @@
        ]
       },
       {
-       "id": 383,
+       "id": 384,
        "name": "｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 384,
+       "id": 385,
        "name": "｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm",
        "price": 439,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 385,
+       "id": 386,
        "name": "｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 387,
        "name": "｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 388,
        "name": "｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3",
        "price": 890,
        "list_price": null,
@@ -44205,7 +44178,7 @@
        ]
       },
       {
-       "id": 388,
+       "id": 389,
        "name": "｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm",
        "price": 990,
        "list_price": null,
@@ -44214,7 +44187,7 @@
        ]
       },
       {
-       "id": 389,
+       "id": 390,
        "name": "｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410",
        "price": 1090,
        "list_price": null,
@@ -44223,7 +44196,7 @@
        ]
       },
       {
-       "id": 390,
+       "id": 391,
        "name": "｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3",
        "price": 490,
        "list_price": null,
@@ -44232,7 +44205,7 @@
        ]
       },
       {
-       "id": 391,
+       "id": 392,
        "name": "｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4",
        "price": 990,
        "list_price": null,
@@ -44241,63 +44214,63 @@
        ]
       },
       {
-       "id": 392,
+       "id": 393,
        "name": "｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 394,
        "name": "｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 395,
        "name": "｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 395,
+       "id": 396,
        "name": "｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 396,
+       "id": 397,
        "name": "｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 397,
+       "id": 398,
        "name": "｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 398,
+       "id": 399,
        "name": "｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 399,
+       "id": 400,
        "name": "｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 400,
+       "id": 401,
        "name": "｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉",
        "price": 3399,
        "list_price": null,
@@ -44306,7 +44279,7 @@
        ]
       },
       {
-       "id": 401,
+       "id": 402,
        "name": "｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400",
        "price": 4590,
        "list_price": null,
@@ -44315,7 +44288,7 @@
        ]
       },
       {
-       "id": 402,
+       "id": 403,
        "name": "｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400",
        "price": 4590,
        "list_price": null,
@@ -44324,28 +44297,28 @@
        ]
       },
       {
-       "id": 403,
+       "id": 404,
        "name": "｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 404,
+       "id": 405,
        "name": "｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 405,
+       "id": 406,
        "name": "｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送)",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 406,
+       "id": 407,
        "name": "｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送)",
        "price": 1980,
        "list_price": null,
@@ -44354,42 +44327,42 @@
        ]
       },
       {
-       "id": 407,
+       "id": 408,
        "name": "｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 408,
+       "id": 409,
        "name": "｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 409,
+       "id": 410,
        "name": "｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 410,
+       "id": 411,
        "name": "｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 411,
+       "id": 412,
        "name": "｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 412,
+       "id": 413,
        "name": "｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm",
        "price": 1590,
        "list_price": null,
@@ -44401,21 +44374,21 @@
      "label": "XP-PEN 數位繪圖板(1年保固)",
      "items": [
       {
-       "id": 414,
+       "id": 415,
        "name": "｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定",
        "price": 1266,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 415,
+       "id": 416,
        "name": "｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定",
        "price": 3136,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 416,
+       "id": 417,
        "name": "｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換",
        "price": 4241,
        "list_price": null,
@@ -44427,7 +44400,7 @@
      "label": "Wacom 數位繪圖板(1年保固)",
      "items": [
       {
-       "id": 418,
+       "id": 419,
        "name": "｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版",
        "price": 2890,
        "list_price": null,
@@ -44436,7 +44409,7 @@
        ]
       },
       {
-       "id": 419,
+       "id": 420,
        "name": "｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙",
        "price": 4690,
        "list_price": null,
