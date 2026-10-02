@@ -14,6 +14,7 @@ build 檔格式:
 }
   cat   : 分類編號 (見 data/by_category/)
   match : 品名子字串, 需唯一命中 (或與某品名完全相等); 與 id 二選一, 兩者皆給時以 match 驗證 id
+          找不到 (下架) 或不唯一時該列標「已下架／不唯一」、不計入總計, 只在 stderr 警告, 不會中斷
   id    : option value (重新下載後可能變動, 建議搭配 match)
   qty   : 數量, 預設 1
   role  : 顯示用角色名稱 (CPU/MB/RAM/...), 可省略
@@ -21,7 +22,10 @@ build 檔格式:
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
+
+from coolpc_match import resolve
 
 
 def load(data_path):
@@ -30,24 +34,27 @@ def load(data_path):
 
 
 def find(cats, cat_id, match=None, iid=None):
+    """回傳 (item, status)。找不到或不唯一時 item 為 None, 只在 stderr 警告:
+    排程不能因為一個品項下架就整個中斷 (> quote.md 也不能只寫一半)。"""
     cat = cats[cat_id]
-    items = [(g["label"], it) for g in cat["groups"] for it in g["items"]]
+    items = [it for g in cat["groups"] for it in g["items"]]
     if iid is not None:
-        hit = [(g, it) for g, it in items if it["id"] == iid]
-        if hit and (match is None or match in hit[0][1]["name"]):
-            return hit[0]
+        hit = [it for it in items if it["id"] == iid]
+        if hit and (match is None or match in hit[0]["name"]):
+            return hit[0], "ok"
     if match is None:
-        raise SystemExit(f"[{cat_id}] id={iid} 找不到且無 match 可用")
-    hit = [(g, it) for g, it in items if match in it["name"]]
-    if len(hit) == 1:
-        return hit[0]
-    if not hit:
-        raise SystemExit(f"[{cat_id} {cat['name']}] 找不到: {match}")
-    exact = [(g, it) for g, it in hit if it["name"] == match]
-    if len(exact) == 1:
-        return exact[0]
-    msg = "\n".join(f"  id={it['id']} ${it['price']} {it['name']}" for _, it in hit)
-    raise SystemExit(f"[{cat_id} {cat['name']}] '{match}' 命中 {len(hit)} 筆, 請縮小範圍:\n{msg}")
+        print(f"! [{cat_id}] id={iid} 找不到且無 match 可用", file=sys.stderr)
+        return None, "missing"
+    it, status, cands = resolve(items, match)
+    if status == "missing":
+        print(f"! [{cat_id} {cat['name']}] 找不到 (可能已下架): {match}", file=sys.stderr)
+    elif status == "ambiguous":
+        msg = "\n".join(f"    id={c['id']} ${c['price']} {c['name']}" for c in cands)
+        print(f"! [{cat_id} {cat['name']}] '{match}' 命中 {len(cands)} 筆, 請縮小範圍:\n{msg}", file=sys.stderr)
+    return it, status
+
+
+MISSING = {"missing": "已下架", "ambiguous": "不唯一"}
 
 
 def render(cats, build):
@@ -58,8 +65,12 @@ def render(cats, build):
         lines.append(f"> {build['note']}")
     lines += ["", "| 項目 | 品名 | 單價 | 數量 | 小計 | 備註 |", "|---|---|---:|---:|---:|---|"]
     for spec in build["items"]:
-        _, it = find(cats, spec["cat"], spec.get("match"), spec.get("id"))
+        it, status = find(cats, spec["cat"], spec.get("match"), spec.get("id"))
         qty = spec.get("qty", 1)
+        role = spec.get("role") or cats[spec["cat"]]["name"]
+        if it is None:
+            lines.append(f"| {role} | （{MISSING[status]}）{spec.get('match') or spec.get('id')} | – | {qty} | – | 不計入總計 |")
+            continue
         sub = it["price"] * qty
         total += sub
         note = " ".join(it["flags"])
@@ -68,7 +79,6 @@ def render(cats, build):
                 bundle_off += int(f[3:]) * qty
         if it.get("list_price"):
             note += f" (原價{it['list_price']})"
-        role = spec.get("role") or cats[spec["cat"]]["name"]
         lines.append(f"| {role} | {it['name']} | {it['price']:,} | {qty} | {sub:,} | {note.strip()} |")
     lines.append(f"| **總計** | | | | **{total:,}** | |")
     if bundle_off:
@@ -89,9 +99,13 @@ def summary(cats, builds):
     for b in builds:
         rows, total, off = {}, 0, 0
         for spec in b["items"]:
-            _, it = find(cats, spec["cat"], spec.get("match"), spec.get("id"))
+            it, status = find(cats, spec["cat"], spec.get("match"), spec.get("id"))
             qty = spec.get("qty", 1)
             role = spec.get("role") or cats[spec["cat"]]["name"]
+            if it is None:
+                cell = f"（{MISSING[status]}）{short_name(spec.get('match') or str(spec.get('id')))}"
+                rows[role] = (rows[role] + "<br>" + cell) if role in rows else cell
+                continue
             cell = f"{short_name(it['name'])} {it['price'] * qty:,}" + (f" ×{qty}" if qty > 1 else "")
             rows[role] = (rows[role] + "<br>" + cell) if role in rows else cell
             total += it["price"] * qty

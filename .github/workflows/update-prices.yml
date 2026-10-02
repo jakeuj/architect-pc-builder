@@ -27,10 +27,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # 只有原價屋資料真的變了才提交 (docs/data.json 的 generated 時間戳每次都會變, 不算)
-          if git diff --quiet -- data quote.md; then
+          # 只有內容真的變了才提交 (build_site.py 在內容沒變時會沿用上次的 generated 時間戳)
+          if git diff --quiet -- data quote.md docs/data.json; then
             echo "報價無變化"
-            git checkout -- docs/data.json
           else
             git add data docs/data.json quote.md
             QD=$(python3 -c "import json;print(json.load(open('data/coolpc_prices.json'))['quote_date'])")

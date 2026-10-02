@@ -1,7 +1,8 @@
 # 締造者：放逐之境 — PC 組裝估價
 
 以 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價，為《締造者：放逐之境》配的低／中／高三套主機，
-不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價，並產生分享連結；開頁面時會直接向原價屋抓現價，也有「更新最新報價」按鈕。
+不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價；開頁面時會直接向原價屋抓現價，也有「更新最新報價」按鈕。
+「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，任何時候打開都看得到當初的報價，並標出現價漲跌與已下架品項，可以改單再分享。
 
 **網頁：https://blog.jakeuj.com/architect-pc-builder/**（`jakeuj.github.io/architect-pc-builder/` 會自動轉過去）
 
@@ -32,7 +33,7 @@ GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上�
 原價屋沒有 CORS，網頁不能直接抓，所以 [`worker/`](worker/) 放了一個 Cloudflare Worker 當代理（`https://coolpc.jakeuj.com/evaluate.php`）：
 原樣轉送 Big5 頁面、加 CORS header、邊緣快取 5 分鐘。網頁載入時與按「更新最新報價」會透過它抓現頁，
 用 [`docs/coolpc-live.js`](docs/coolpc-live.js)（`parse_coolpc.py` 的 JS 版）在瀏覽器解析後整份換掉快照；抓不到就退回 `data.json`。
-零件 id 每次抓價可能變，換資料時用「分類＋品名」對照，品名消失就改選同群組最便宜的並提示。
+原價屋的零件 id 只是清單位置、每次抓價都可能變，所以估價單一律用「分類＋品名」對照，品名消失就標示「已下架」。
 
 ```bash
 cd worker && npx wrangler deploy          # 首次先 npx wrangler login
@@ -54,7 +55,7 @@ python3 -m http.server 8765 --directory docs                               # 本
 
 編輯 `builds/low.json / mid.json / high.json`，`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
 要換遊戲或加減分頁，改 `site.json` 的 `game` / `title` / `builds`。
-若某零件下架，`build_site.py` 會自動改選同群組最便宜的替代品並在網頁上提示。
+若某零件下架，排程不會中斷：`quote.py` 標「已下架」不計價，網頁保留最後的品名與價格並標示「已下架」讓訪客改選；記得再找替代品更新 `builds/*.json`。
 
 要為另一個遊戲另開 repo：在新目錄跑 `python3 <本 repo>/.claude/skills/coolpc/scripts/build_site.py --init`，技能與網頁骨架會一起複製過去。
 

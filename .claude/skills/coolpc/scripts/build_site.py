@@ -15,7 +15,8 @@ site.json 欄位:
   live_url 即時報價代理網址 (可省略; 見 templates/worker/), 有給的話網頁載入時與按「更新最新報價」會直接抓原價屋現價
 
 只保留主機相關分類, 並剔除與組機無關的群組 (筆記型記憶體、散熱膏、線材...)。
-若 build 裡的零件已下架, 改選同群組最便宜的替代品並在 data.json 標 fallback (網頁會提示)。
+build 裡的零件對不到 (下架或命中多筆) 時, 沿用上一版 docs/data.json 對到的品名與價格並標 gone,
+網頁顯示「已下架」讓訪客自行改選; 不自動換品項, 也不讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才報錯。
 """
 import argparse
 import datetime
@@ -25,6 +26,8 @@ import shutil
 import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from coolpc_match import resolve
 
 HERE = Path(__file__).resolve().parent
 TEMPLATES = HERE.parent / "templates"
@@ -131,34 +134,21 @@ def main():
                 groups.append({"label": g["label"], "items": items})
         categories[str(cid)] = {"id": cid, "name": c["name"], "groups": groups}
 
-    # 上一版 data.json: 零件下架時用來查它原本所屬群組, 改選該群組最便宜的替代品
-    prev_group = {}
+    # 上一版 data.json: 零件對不到時沿用上次的品名 / 價格 / 報價日期
+    prev, prev_rows = None, {}
     if out_path.exists():
         try:
             prev = json.loads(out_path.read_text(encoding="utf-8"))
-            for c in prev["categories"].values():
-                for g in c["groups"]:
-                    for it in g["items"]:
-                        prev_group[(c["id"], it["name"])] = g["label"]
-        except Exception:
-            pass
-
-    def find(cid, match):
-        """回傳 (item, fallback_note)。找不到時退回同群組最便宜的商品。"""
-        groups = categories[str(cid)]["groups"]
-        hits = [it for g in groups for it in g["items"] if match in it["name"]]
-        exact = [it for it in hits if it["name"] == match]
-        if len(hits) == 1 or len(exact) == 1:
-            return (exact or hits)[0], None
-        if len(hits) > 1:
-            sys.exit(f"[{cid}] '{match}' 命中 {len(hits)} 筆 (需唯一)")
-        label = next((lbl for (c, name), lbl in prev_group.items() if c == cid and match in name), None)
-        pool = [it for g in groups if label is None or g["label"] == label for it in g["items"]]
-        if not pool:
-            sys.exit(f"[{cid}] '{match}' 找不到, 也無同群組替代品")
-        alt = min(pool, key=lambda it: it["price"])
-        print(f"  ! [{cid}] 找不到 '{match}', 改用同群組最便宜: {alt['name']} ${alt['price']}", file=sys.stderr)
-        return alt, f"原設定「{match}」已下架，改為同群組最便宜品項"
+            prev_price = {(c["id"], it["name"]): it["price"]
+                          for c in prev["categories"].values() for g in c["groups"] for it in g["items"]}
+            for b in prev["builds"]:
+                for slot, it in b["items"].items():
+                    price = it.get("price", prev_price.get((it["cat"], it["name"])))  # 舊格式沒有 price
+                    if price is not None:
+                        prev_rows[(b["key"], slot)] = {"cat": it["cat"], "name": it["name"], "price": price,
+                                                       "d": it.get("d", prev["quote_date"])}
+        except Exception as e:
+            print(f"  ! 讀不到上一版 {a.out}: {e}", file=sys.stderr)
 
     builds = []
     for key in build_keys:
@@ -166,10 +156,22 @@ def main():
         items = {}
         for spec in b["items"]:
             slot = ROLE_TO_SLOT.get(spec["role"], spec["role"].lower())
-            it, note = find(spec["cat"], spec["match"])
-            items[slot] = {"cat": spec["cat"], "id": it["id"], "name": it["name"], "qty": spec.get("qty", 1)}
-            if note:
-                items[slot]["fallback"] = note
+            cid, match, qty = spec["cat"], spec["match"], spec.get("qty", 1)
+            pr = prev_rows.get((key, slot))
+            if pr and (pr["cat"] != cid or match not in pr["name"]):
+                pr = None  # build 檔改過這一列, 上一版的不算數
+            pool = [it for g in categories[str(cid)]["groups"] for it in g["items"]]
+            it, status, cands = resolve(pool, match, pr and pr["name"])
+            if it:
+                # id 只為相容快取中的舊版網頁 (約 10 分鐘), 新版網頁只用 name
+                items[slot] = {"cat": cid, "id": it["id"], "name": it["name"], "price": it["price"], "qty": qty}
+            elif pr:
+                print(f"::warning::{key}/{slot} [{cid}] '{match}' {'找不到' if status == 'missing' else f'命中 {len(cands)} 筆'}, "
+                      f"沿用上一版 {pr['name']} ${pr['price']} ({pr['d']}) 並標示已下架", file=sys.stderr)
+                items[slot] = {"cat": cid, "name": pr["name"], "price": pr["price"], "qty": qty, "d": pr["d"], "gone": True}
+            else:
+                lst = "".join(f"\n    ${c['price']} {c['name']}" for c in cands)
+                sys.exit(f"{key}/{slot} [{cid}] '{match}' " + ("找不到" if status == "missing" else f"命中 {len(cands)} 筆 (需唯一):{lst}"))
         builds.append({"key": key, "name": b["name"], "note": b.get("note", ""), "items": items})
 
     out = {
@@ -186,12 +188,16 @@ def main():
         "categories": categories,
         "builds": builds,
     }
+    # 內容沒變就沿用上次的 generated, 讓排程能直接用 git diff 判斷要不要提交
+    if prev and {**prev, "generated": None} == {**out, "generated": None}:
+        out["generated"] = prev["generated"]
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     n = sum(len(g["items"]) for c in categories.values() for g in c["groups"])
     print(f"{a.out}: 報價日期 {db['quote_date']}, {len(categories)} 分類 {n} 項, {out_path.stat().st_size/1024:.0f} KB")
     for b in builds:
-        print(f"  {b['key']}: {len(b['items'])} 件")
+        gone = sum(1 for it in b["items"].values() if it.get("gone"))
+        print(f"  {b['key']}: {len(b['items'])} 件" + (f" ({gone} 件已下架)" if gone else ""))
 
 
 if __name__ == "__main__":

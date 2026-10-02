@@ -1,6 +1,7 @@
 // 原價屋估價頁 (evaluate.php) 的瀏覽器端解析器。
 // 邏輯對應 .claude/skills/coolpc/scripts/parse_coolpc.py (解析) 與 build_site.py (只留主機相關分類、剔除無關群組)；
-// 原價屋改版時兩邊要一起改。純函式、不碰 DOM，也能在 Node 跑 (node -e 'require("./docs/coolpc-live.js")')。
+// 原價屋改版時兩邊要一起改。後半段是估價單快照 (分享連結) 的品名對照與編解碼。
+// 純函式、不碰 DOM，也能在 Node 跑 (node -e 'require("./docs/coolpc-live.js")'；測試見 tests/)。
 (function (root) {
   const CAT_RE = /<TD class=w>(\d+)<TD class=t>([^<]*)<[\s\S]*?<SELECT[^>]*name=n\1[^>]*>([\s\S]*?)<\/SELECT>/g;
   const OPT_RE = /<(OPTGROUP|OPTION)([^>]*)>([^<]*)/gi;
@@ -96,5 +97,114 @@
     return new TextDecoder('big5').decode(buf);
   }
 
-  root.CoolPC = { parse, select, decode };
+  // ---- 估價單快照：品名對照、合計、分享連結編解碼 ----
+  // option value 只是清單位置、每次抓價都會變，所以一律用「分類 + 品名」當鍵。
+  const key = (cat, name) => cat + '|' + name;
+  const modelOf = name => { const m = name.match(/｛([^｝]+)｝/); return m ? m[1].trim() : null; };
+  // 影響價格條件的標記 (與 parse() 的判讀一致)；型號相同但條件不同 (搭板價 vs 零售) 不算同一件
+  const cond = name => [/搭板|任搭|搭主機板/, /組裝價/, /裝機價/, /限搭機/, /限組裝/].map(re => re.test(name) ? 1 : 0).join('');
+
+  // 型錄索引：byKey 同品名重複上架 (特價區 + 品牌群組) 取第一筆；byModel 供品名小改時退而求其次
+  function indexCatalog(cats) {
+    const byKey = new Map(), byModel = new Map();
+    for (const c of Object.values(cats)) for (const g of c.groups) for (const it of g.items) {
+      it.cat = c.id; it.group = g.label;
+      const k = key(c.id, it.name);
+      if (byKey.has(k)) continue;
+      byKey.set(k, it);
+      const m = modelOf(it.name); if (!m) continue;
+      const mk = c.id + '|' + m + '|' + cond(it.name);
+      if (!byModel.has(mk)) byModel.set(mk, []);
+      byModel.get(mk).push(it);
+    }
+    return { byKey, byModel };
+  }
+
+  // 快照列 {cat, name} 對到現行型錄 -> {item, how: 'exact' | 'model' | null}
+  function reconcile(row, idx) {
+    const hit = idx.byKey.get(key(row.cat, row.name));
+    if (hit) return { item: hit, how: 'exact' };
+    const m = modelOf(row.name);
+    const c = m && idx.byModel.get(row.cat + '|' + m + '|' + cond(row.name));
+    if (c && c.length === 1) return { item: c[0], how: 'model' };
+    return { item: null, how: null };
+  }
+
+  // rows: [{cat, name, qty, pin: null | {price, d}}]；pin = 鎖定的報價，null = 跟著現行型錄
+  // quoted 估價單總計；current 以現價計 (已下架的查不到現價，仍以報價計)；diff = current - quoted，即對得到的列的漲跌
+  function totals(rows, idx) {
+    let quoted = 0, current = 0, off = 0, goneCount = 0;
+    for (const r of rows) {
+      const it = reconcile(r, idx).item;
+      const q = r.pin ? r.pin.price : it ? it.price : 0;
+      quoted += q * r.qty;
+      if (!it) { goneCount++; current += q * r.qty; continue; }
+      current += it.price * r.qty;
+      for (const f of it.flags) if (f.startsWith('任搭折')) off += parseInt(f.slice(3), 10) * r.qty;
+    }
+    return { quoted, current, diff: current - quoted, off, goneCount };
+  }
+
+  // "2026/9/18 14:19" -> 可比較大小的數字 (字串直接比會把 9/18 排在 10/2 後面)
+  function parseQD(s) {
+    const m = String(s || '').match(/(\d{4})\/(\d{1,2})\/(\d{1,2})(?:\s+(\d{1,2}):(\d{2}))?/);
+    return m ? +m[1] * 1e8 + +m[2] * 1e6 + +m[3] * 1e4 + (+m[4] || 0) * 100 + (+m[5] || 0) : 0;
+  }
+
+  // 分享連結：'1' + base64url(UTF-8 JSON)。'1' 是格式版本 (日後要壓縮可用別的字首)
+  // JSON = {d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}；d 取最多列共用的報價日期，同 d / qty=1 的尾欄省略
+  function b64urlEncode(str) {
+    let bin = ''; for (const b of new TextEncoder().encode(str)) bin += String.fromCharCode(b);
+    return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function b64urlDecode(s) {
+    if (!/^[A-Za-z0-9_-]*$/.test(s)) throw new Error('連結含有非法字元');
+    const bin = atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4));
+    return new TextDecoder('utf-8', { fatal: true }).decode(Uint8Array.from(bin, c => c.charCodeAt(0)));
+  }
+
+  // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}]}
+  function encodeQuote(q) {
+    const cnt = {}; for (const r of q.rows) cnt[r.d] = (cnt[r.d] || 0) + 1;
+    const d = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a])[0] || '';
+    const o = { d };
+    if (q.n) o.n = q.n;
+    if (q.b) o.b = q.b;
+    o.r = q.rows.map(r => {
+      const a = [r.slot, r.cat, r.name, r.price, r.qty, r.d];
+      if (a[5] === d) a.pop(); else return a;
+      if (a[4] === 1) a.pop();
+      return a;
+    });
+    return '1' + b64urlEncode(JSON.stringify(o));
+  }
+
+  // 解析分享連結；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類。
+  // 回傳 {d, n, b, rows: [{slot, cat, name, price, qty, d}], dropped}
+  function decodeQuote(s, slots) {
+    if (!s || s.length > 8000) throw new Error('連結長度不對');
+    if (s[0] !== '1') throw new Error('不支援的連結版本');
+    let o;
+    try { o = JSON.parse(b64urlDecode(s.slice(1))); } catch (e) { throw new Error('連結不完整，可能在複製時被截斷'); }
+    if (!o || !Array.isArray(o.r) || !o.r.length || o.r.length > 20) throw new Error('連結內容不完整');
+    const str = (v, max) => typeof v === 'string' && v.length <= max ? v : '';
+    const d = str(o.d, 32);
+    const slotMap = Object.fromEntries(slots.map(x => [x.key, x]));
+    const rows = [], seen = new Set();
+    let dropped = 0;
+    for (const a of o.r) {
+      const ok = Array.isArray(a) && slotMap[a[0]] && !seen.has(a[0])
+        && Number.isInteger(a[1]) && slotMap[a[0]].cats.includes(a[1])
+        && typeof a[2] === 'string' && a[2].length > 0 && a[2].length <= 200
+        && Number.isInteger(a[3]) && a[3] >= 0 && a[3] <= 1e7;
+      if (!ok) { dropped++; continue; }
+      seen.add(a[0]);
+      const qty = Number.isInteger(a[4]) ? Math.max(1, Math.min(9, a[4])) : 1;
+      rows.push({ slot: a[0], cat: a[1], name: a[2], price: a[3], qty, d: str(a[5], 32) || d });
+    }
+    if (!rows.length) throw new Error('連結裡沒有可用的品項');
+    return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
+  }
+
+  root.CoolPC = { parse, select, decode, key, modelOf, indexCatalog, reconcile, totals, parseQD, encodeQuote, decodeQuote };
 })(typeof window !== 'undefined' ? window : globalThis);

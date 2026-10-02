@@ -32,21 +32,36 @@ game_requirements.md 遊戲需求 (可選)
   live_url: str ("" = 不用即時),
   filters: {exclude_groups: {"<cat_id>": regex}, exclude_items: regex},   # 給 coolpc-live.js 套同一套剔除規則
   categories: { "<cat_id>": {id, name, groups:[{label, items:[{id, name, price, list_price, flags}]}]} },
-  builds: [{key, name, note, items: {<slot>: {cat, id, name, qty, fallback?}}}] }
+  builds: [{key, name, note, items: {<slot>: {cat, id?, name, price, qty, d?, gone?}}}] }
 ```
 
-- `builds[].items` 以 `name` 為穩定鍵；`id` 每次抓價可能變，所以 build_site.py 每次都用 `builds/*.json` 的 `match` 重新解析。
-- 網頁的分享連結格式 `#b=<build>&<slot>=<cat>:<id>&q_<slot>=<qty>&<slot>=0`（0 = 選配設為無）。抓價後 id 變了連結會失效回預設，可接受。
+- 原價屋的 option value (`id`) 只是清單位置，相隔幾小時就有一半會變；**分類 + 品名是唯一穩定鍵**。build_site.py 每次用 `builds/*.json` 的 `match` 重新解析 (`scripts/coolpc_match.py`，quote.py 共用)。
+- 對不到 (下架) 或命中多個不同品名時，沿用上一版 data.json 同 build / 同欄位的品名、價格，`d` = 當時的報價日期，標 `gone: true`；上一版是舊格式 (沒有 price) 就從舊 `categories` 查價。沒有上一版才 exit (新 build 打錯)。
+- `id` 只為相容 Pages 快取中的舊版網頁，新版網頁不用；之後可拿掉。
+- 內容沒變時沿用上次的 `generated`，workflow 才能用 `git diff -- docs/data.json` 判斷要不要提交。
+
+## 分享連結 (估價單快照)
+
+- `#q=1<base64url(UTF-8 JSON)>`，`1` 是格式版本 (日後要壓縮可用別的字首；實測 deflate 只省約 20%，中文品名壓不太動)。一套 8 件約 1.1–1.3K 字元。
+- JSON = `{d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}`：`d` 是最多列共用的報價日期，列的日期與 `d` 相同就省略；qty = 1 且後面沒欄位就省略；`n` 標籤、`b` 來源 build。
+- 解碼 (`CoolPC.decodeQuote`) 逐列驗證：最多 20 列、slot 要在 `D.slots`、cat 要屬於該 slot、品名 ≤ 200 字、價格 0–10⁷ 整數、qty 夾 1–9、同 slot 取第一列。整個壞掉 (截斷) 就 toast 後回預設。
+- 連結內容任何人都能捏造：品名、標籤、日期一律 `textContent` 或 `esc()` 後才放進 DOM。
+- 舊格式 `#b=mid&cpu=4:22` 只採用 `b`，其餘參數忽略並 toast (舊 id 可能指到別的商品)。
+- 對照 (`CoolPC.reconcile`)：先比完全相同的 `分類|品名`；再退而比同分類唯一的 ｛型號｝ 且價格條件標記 (搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝) 相同 → 「同型號・品名有變」；都不行就是已下架。搭板價下架不會被換成零售品。
 
 ## index.html 內部重點
 
-- `IDX["cat:id"]` 快速查件；`state[buildKey]` 保存各分頁的使用者修改；`render()` 每次整表重畫。
+- `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel`)；`find(row)` = `CoolPC.reconcile(row, IDX)`；`render()` 每次整表重畫。
+- 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, d?, base?, raw?, rows, orig}`；`rows[slot] = {cat, name, qty, pin}`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。
+- 改選品項 → 該列 `pin = null` (分享時才以現價定價)；改回原品項還原 `orig` 的 pin；只改數量保留 pin。「全部改用現價」把對得到的列 unpin。
+- 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、其餘 `#q=`；`hashchange` (貼上別的連結) 會重新載入。分享按鈕一律產生 `#q=`。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
+- 合計 (`CoolPC.totals`)：估價單總計 = 報價；以現價計 = 對得到的用現價、已下架以報價計，所以差額只反映漲跌；任搭折只看對得到的列。
 - 下拉用 `<optgroup>` = 原價屋群組名；多分類欄位 (散熱器 = 10+11) 群組前綴分類名。
 - 篩選框重建 options，若目前選件被濾掉會插在最前面保留。
 - 必填欄位 select 值為空時忽略 (避免程式化改值誤清)。
 - 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
-- 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」或「已下架」。
-- 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉。id 每次抓價可能變，所以預設配置與 `state` 裡的選件都用「分類 + 品名」對照到新 id；品名不見就改同群組最便宜並記到 `liveNotes` (顯示在提示區)。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。
+- 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」。已下架是要處理的警告 (紅色)。
+- 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉。因為估價單都用分類 + 品名對照，換型錄只要重畫；換之前把「跟著型錄」但新型錄找不到的列用舊型錄價格 pin 住 (之後顯示已下架)。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。
 
 ## 即時報價代理 (worker/)
 

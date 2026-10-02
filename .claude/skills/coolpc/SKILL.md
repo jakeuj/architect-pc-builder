@@ -101,11 +101,12 @@ python3 .claude/skills/coolpc/scripts/build_site.py             # 產出 docs/da
 python3 -m http.server 8765 --directory docs                    # 本機預覽 (或用 preview_start)
 ```
 
-- 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (選件編進 URL hash)、手機版、深色模式、即時報價 (載入時自動 + 「更新最新報價」按鈕)。
+- 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (整張估價單快照編進 URL，見下)、手機版、深色模式、即時報價 (載入時自動 + 「更新最新報價」按鈕)。
 - 只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。
-- 零件下架時 `build_site.py` 自動改選同群組最便宜品並在頁面提示，不會讓 CI 掛掉。
+- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照，標出現價漲跌 / 已下架；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。
+- 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
 - 部署：`gh repo create <name> --public --source . --push`，再 `gh api -X POST repos/<owner>/<name>/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/docs'`。使用者的 Pages 綁了自訂網域，實際網址是 `https://blog.jakeuj.com/<name>/`（`jakeuj.github.io/<name>/` 會 301 過去），README 要寫這個。
-- workflow 每小時 :30 抓價、只在 `data/` 或 `quote.md` 真的變動時 commit（`docs/data.json` 的 `generated` 時間戳每次都變，不能拿來判斷）。GitHub 的 runner 抓得到 coolpc，已驗證。
+- workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。
 - 即時報價：原價屋沒有 CORS，網頁要透過 `worker/` (Cloudflare Worker) 代理抓現頁；`docs/coolpc-live.js` 是 `parse_coolpc.py` 的 JS 版，在瀏覽器解析。`site.json` 的 `live_url` 留空就只用快照。本 repo 的代理是 `https://coolpc.jakeuj.com/evaluate.php`（`jakeuj.com` DNS 在 Cloudflare）。部署與坑見 `references/site.md`。
 - `.gitignore` 排除 `evaluate*.php`（1MB+ 原始 HTML）與 `.claude/launch.json`、`.claude/settings.local.json`；`.claude/skills/` 要進版控。
 - 細節與坑見 `references/site.md`。
@@ -114,4 +115,5 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 
 - 頁面結構假設：每分類為 `<TD class=w>N<TD class=t>名稱` 後接 `<SELECT name=nN>`，商品為 `<OPTION value=N>品名, $價格[↘$下殺價] 符號</OPTION>`，`disabled` 的 OPTION 是說明列。若解析出的商品數與頁面「共有商品 N 樣」不符，優先檢查 `parse_coolpc.py` 的 `cat_re` / `price_re`。
 - `parse_coolpc.py` 改了規則，`templates/coolpc-live.js`（與各專案 `docs/coolpc-live.js`）要一起改；驗證：`node` 載入 coolpc-live.js 解析同一份 evaluate.php，`JSON.stringify` 結果應與 `data/coolpc_prices.json` 的 `categories` 完全相同（見 site.md）。
+- 測試：`node --test .claude/skills/coolpc/tests/` (快照對照、連結編解碼、parse 一致性) 與 `python3 -m unittest discover -s .claude/skills/coolpc/tests` (下架時排程不中斷)。
 - 驗證方式：`parse_coolpc.py` 印出的各分類數量應等於該分類第一列「共有商品 N 樣」的 N。
