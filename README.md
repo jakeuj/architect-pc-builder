@@ -1,7 +1,7 @@
 # 締造者：放逐之境 — PC 組裝估價
 
 以 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價，為《締造者：放逐之境》配的低／中／高三套主機，
-不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價，並產生分享連結。
+不含作業系統、螢幕與週邊。網頁上可以直接替換零件重新計價，並產生分享連結；開頁面時會直接向原價屋抓現價，也有「更新最新報價」按鈕。
 
 **網頁：https://blog.jakeuj.com/architect-pc-builder/**（`jakeuj.github.io/architect-pc-builder/` 會自動轉過去）
 
@@ -12,7 +12,7 @@
 | 顯示卡 | RX 9060XT 8G | RX 9070 GRE 12G | RX 9070XT 16G |
 | 記憶體 | 16GB DDR4-3200 | 16GB DDR5-5600 | 16GB DDR5-5600 |
 
-完整清單與價格見 [quote.md](quote.md)（每天自動更新）。遊戲官方需求見 [game_requirements.md](game_requirements.md)。
+完整清單與價格見 [quote.md](quote.md)（每小時自動更新）。遊戲官方需求見 [game_requirements.md](game_requirements.md)。
 
 ## 資料怎麼來的
 
@@ -25,7 +25,18 @@
 2. `quote.py` 依 `builds/*.json` 產出 [quote.md](quote.md)
 3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），只取主機相關分類，連同預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染
 
-GitHub Actions（`.github/workflows/update-prices.yml`）每天台灣時間 11:30 跑一次上述流程並自動 commit；也可在 Actions 頁手動觸發。
+GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上述流程，報價有變才 commit；也可在 Actions 頁手動觸發。
+
+### 即時報價
+
+原價屋沒有 CORS，網頁不能直接抓，所以 [`worker/`](worker/) 放了一個 Cloudflare Worker 當代理（`https://coolpc.jakeuj.com/evaluate.php`）：
+原樣轉送 Big5 頁面、加 CORS header、邊緣快取 5 分鐘。網頁載入時與按「更新最新報價」會透過它抓現頁，
+用 [`docs/coolpc-live.js`](docs/coolpc-live.js)（`parse_coolpc.py` 的 JS 版）在瀏覽器解析後整份換掉快照；抓不到就退回 `data.json`。
+零件 id 每次抓價可能變，換資料時用「分類＋品名」對照，品名消失就改選同群組最便宜的並提示。
+
+```bash
+cd worker && npx wrangler deploy          # 首次先 npx wrangler login
+```
 
 ## 本機使用
 

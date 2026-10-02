@@ -5,3 +5,6 @@ evaluate*.php
 .claude/settings.local.json
 __pycache__/
 .DS_Store
+# wrangler 本機狀態 / 相依
+worker/.wrangler/
+worker/node_modules/

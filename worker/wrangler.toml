@@ -1,0 +1,17 @@
+# 原價屋估價頁代理 (見 src/index.js)。部署：cd worker && npx wrangler deploy
+# 首次需 npx wrangler login；自訂網域需該 zone 的 DNS 在 Cloudflare (Worker 會自動建 DNS 紀錄)。
+name = "coolpc-proxy"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+# Cache API 只在自訂網域上有效，所以不用 *.workers.dev
+routes = [
+  { pattern = "coolpc.jakeuj.com", custom_domain = true }
+]
+
+[vars]
+# 允許的網頁來源 (逗號分隔)；"*" 表示不限制
+ALLOW_ORIGINS = "https://blog.jakeuj.com,https://jakeuj.github.io,http://localhost:8765,http://127.0.0.1:8765"
+# 邊緣快取秒數；原價屋一天只更新幾次，5 分鐘夠即時了
+CACHE_TTL = "300"

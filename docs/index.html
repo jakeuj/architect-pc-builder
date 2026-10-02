@@ -102,6 +102,7 @@ summary{cursor:pointer;font-weight:600}
       <button class="b" id="reset">重設為預設</button>
       <button class="b" id="copy">複製零件清單</button>
       <button class="b" id="share">複製分享連結</button>
+      <button class="b" id="live" hidden>更新最新報價</button>
       <a class="b" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener"><button class="b">到原價屋線上估價 ↗</button></a>
     </div>
   </div>
@@ -118,7 +119,7 @@ summary{cursor:pointer;font-weight:600}
         <li>價格為原價屋線上估價頁的<b>含稅價</b>，不含作業系統、螢幕、鍵盤滑鼠等週邊；原價屋購買整機組裝免費。</li>
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
-        <li>每天自動抓取原價屋最新報價；若某零件缺貨下架，會自動改選同群組中最便宜的替代品並提示。</li>
+        <li id="note-live">每小時自動抓取原價屋報價快照；若某零件缺貨下架，會自動改選同群組中最便宜的替代品並提示。</li>
       </ul>
     </details>
   </div>
@@ -126,17 +127,25 @@ summary{cursor:pointer;font-weight:600}
 </div>
 <div id="toast"></div>
 
+<script src="coolpc-live.js"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
   const fmt = n => n.toLocaleString('zh-Hant-TW');
   const D = await fetch('data.json?' + Date.now()).then(r => r.json());
-  const CAT = D.categories;
+  let CAT = D.categories;      // 即時更新時整個換掉
   const SLOT = Object.fromEntries(D.slots.map(s => [s.key, s]));
   const IDX = {}; // "cat:id" -> item
-  for (const c of Object.values(CAT)) for (const g of c.groups) for (const it of g.items) { it.cat = c.id; it.group = g.label; IDX[c.id + ':' + it.id] = it; }
+  function index(cats){ for (const k in IDX) delete IDX[k]; for (const c of Object.values(cats)) for (const g of c.groups) for (const it of g.items) { it.cat = c.id; it.group = g.label; IDX[c.id + ':' + it.id] = it; } }
+  index(CAT);
 
-  $('#meta').innerHTML = `原價屋含稅報價，報價日期 <b>${D.quote_date}</b>（頁面更新 ${D.generated.slice(0,16).replace('T',' ')}）· 資料來源 <a href="${D.source}" target="_blank" rel="noopener">coolpc.com.tw</a> · 不含 OS／螢幕／週邊`;
+  // 目前資料來源：快照 (data.json) 或即時抓取
+  const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
+  let liveNotes = []; // 即時更新時被迫替換的選件提示
+  function meta(status){
+    $('#meta').innerHTML = `原價屋含稅報價，報價日期 <b>${SRC.quote_date}</b>（${SRC.live ? '即時抓取 ' + SRC.at : '快照 ' + SRC.at}）· 資料來源 <a href="${D.source}" target="_blank" rel="noopener">coolpc.com.tw</a> · 不含 OS／螢幕／週邊` + (status ? `<br>${status}` : '');
+  }
+  meta();
   $('#repo').href = D.repo || '#';
   document.title = D.title; $('#title').textContent = D.title;
   for (const n of [...(D.notes || [])].reverse()) $('#notes').insertAdjacentHTML('afterbegin', `<li>${n}</li>`);
@@ -169,13 +178,18 @@ summary{cursor:pointer;font-weight:600}
 
   // Tabs
   const tabs = $('#tabs');
-  for (const b of D.builds) {
-    const t = calc(defaults(b)).total;
-    const el = document.createElement('button'); el.className = 'tab'; el.dataset.key = b.key;
-    el.innerHTML = `${b.name.split(' — ')[0]}<small>${b.name.split(' — ')[1] || ''} · 預設 $${fmt(t)}</small>`;
-    el.onclick = () => select(b.key);
-    tabs.appendChild(el);
+  function buildTabs(){
+    tabs.innerHTML = '';
+    for (const b of D.builds) {
+      const t = calc(defaults(b)).total;
+      const el = document.createElement('button'); el.className = 'tab'; el.dataset.key = b.key;
+      el.innerHTML = `${b.name.split(' — ')[0]}<small>${b.name.split(' — ')[1] || ''} · 預設 $${fmt(t)}</small>`;
+      el.onclick = () => select(b.key);
+      if (cur && cur.build.key === b.key) el.classList.add('on');
+      tabs.appendChild(el);
+    }
   }
+  buildTabs();
 
   function select(key, override){
     const b = D.builds.find(x => x.key === key);
@@ -228,6 +242,7 @@ summary{cursor:pointer;font-weight:600}
     if (cpu && cpu.flags.includes('搭板專案')) w.push('CPU 為搭板專案價，需與主機板同一張單購買（本配置有主機板，OK）');
     for (const k in sel) { const d = cur.build.items[k]; if (d && d.fallback && sel[k] && sel[k].id === d.id && sel[k].cat === d.cat) w.push(`${SLOT[k].label}：${d.fallback}`); }
     for (const k in sel) { const it = g(k); if (it && it.flags.some(f => /組裝價|裝機價|限搭機|限組裝/.test(f))) w.push(`${SLOT[k].label}「${it.name.slice(0, 28)}…」為整機組裝價，單買零件不適用`); }
+    w.push(...liveNotes);
     return w;
   }
 
@@ -268,7 +283,7 @@ summary{cursor:pointer;font-weight:600}
   function toast(m){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1600); }
   $('#reset').onclick = () => { state[cur.build.key] = defaults(cur.build); select(cur.build.key); toast('已重設'); };
   $('#copy').onclick = async () => {
-    const lines = [`【${cur.build.name}】原價屋含稅報價 ${D.quote_date}`];
+    const lines = [`【${cur.build.name}】原價屋含稅報價 ${SRC.quote_date}`];
     for (const s of D.slots) { const v = cur.sel[s.key]; if (!v) continue; const it = IDX[v.cat + ':' + v.id]; lines.push(`${s.label}：${it.name}  $${fmt(it.price)}${v.qty > 1 ? ' ×' + v.qty : ''}`); }
     const { total, off } = calc(cur.sel); lines.push(`總計 $${fmt(total)}` + (off ? `（任搭折 -${fmt(off)} → 約 $${fmt(total - off)}）` : ''));
     lines.push(location.href);
@@ -284,6 +299,59 @@ summary{cursor:pointer;font-weight:600}
     if (v === '0') ov[s.key] = null; else if (v && IDX[v]) ov[s.key] = { cat: +v.split(':')[0], id: +v.split(':')[1], qty: 1 };
     const q = parseInt(p.get('q_' + s.key)); if (q) { (ov[s.key] || (ov[s.key] = d0[s.key]) ) && (ov[s.key].qty = q); } }
   select(key, ov);
+
+  // ---- 即時報價：透過 live_url (Cloudflare Worker 代理) 抓原價屋現頁，瀏覽器端解析後整份換掉 ----
+  function applyLive(parsed, at){
+    const cats = CoolPC.select(parsed, D.slots, D.filters);
+    const oldIdx = { ...IDX };                     // 舊 id -> 舊 item (有 cat / name / group)
+    CAT = cats; index(CAT);
+    const byName = {}; for (const k in IDX) { const it = IDX[k]; byName[it.cat + '|' + it.name] = it; }
+    const cheapest = (cat, label) => { const pool = CAT[cat].groups.filter(g => label == null || g.label === label).flatMap(g => g.items); return pool.length ? pool.reduce((a, b) => b.price < a.price ? b : a) : null; };
+    // id 每次抓價可能變，用「分類 + 品名」對照；品名不見了就退回同群組最便宜的
+    const resolve = old => {
+      const hit = byName[old.cat + '|' + old.name]; if (hit) return { it: hit };
+      const alt = cheapest(old.cat, old.group) || cheapest(old.cat, null);
+      return { it: alt, note: alt ? `「${old.name.slice(0, 30)}…」已下架，改為同群組最便宜品項` : null };
+    };
+    for (const b of D.builds) for (const k in b.items) {
+      const d = b.items[k]; const r = resolve(oldIdx[d.cat + ':' + d.id] || { cat: d.cat, name: d.name, group: null });
+      if (r.it) { d.id = r.it.id; d.name = r.it.name; if (r.note) d.fallback = r.note; }
+    }
+    liveNotes = [];
+    for (const key in state) for (const k in state[key]) {
+      const s = state[key][k]; if (!s) continue;
+      const old = oldIdx[s.cat + ':' + s.id]; const r = old ? resolve(old) : { it: null };
+      if (r.it) { s.cat = r.it.cat; s.id = r.it.id; if (r.note && key === cur.build.key) liveNotes.push(`${SLOT[k].label}：${r.note}`); }
+      else state[key][k] = null;
+    }
+    SRC.live = true; SRC.quote_date = parsed.quote_date; SRC.at = at;
+    buildTabs(); select(cur.build.key); meta();
+  }
+
+  let busy = false;
+  async function refreshLive(manual){
+    if (!D.live_url || busy) return; busy = true;
+    const btn = $('#live'); btn.disabled = true; btn.textContent = '更新中…';
+    meta('<span class="small">正在向原價屋抓現價…</span>');
+    try {
+      const r = await fetch(D.live_url + (D.live_url.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const parsed = CoolPC.parse(CoolPC.decode(await r.arrayBuffer()));
+      if (!parsed.quote_date || !parsed.categories.length) throw new Error('內容不像估價頁');
+      const fa = r.headers.get('X-Fetched-At');
+      const at = new Date(fa || Date.now()).toLocaleString('zh-Hant-TW', { timeZone: 'Asia/Taipei', hour12: false, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      applyLive(parsed, at);
+      if (manual) toast('已更新為原價屋現價（' + parsed.quote_date + '）');
+    } catch (e) {
+      meta(`<span class="small">即時報價暫時抓不到（${e.message}）${SRC.live ? '' : '，先顯示快照'}</span>`);
+      if (manual) toast('無法取得即時報價');
+    } finally { busy = false; btn.disabled = false; btn.textContent = '更新最新報價'; }
+  }
+  if (D.live_url) {
+    $('#live').hidden = false; $('#live').onclick = () => refreshLive(true);
+    $('#note-live').textContent = '載入時會直接向原價屋抓現價（經代理，約 5 分鐘快取），抓不到時顯示每小時更新的快照；若某零件缺貨下架，會自動改選同群組中最便宜的替代品並提示。';
+    refreshLive(false);
+  }
 })();
 </script>
 </body>

@@ -2,7 +2,7 @@ name: 更新原價屋報價
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # 每天 11:30 (台灣時間) 抓一次
+    - cron: "30 * * * *"   # 每小時 :30 抓一次 (報價沒變就不會 commit)
   workflow_dispatch:
 
 permissions:

@@ -1,18 +1,20 @@
 # 估價網頁 (GitHub Pages) 參考
 
-模板：`templates/index.html`、`templates/site.json`、`templates/update-prices.yml`；產生器：`scripts/build_site.py`。
+模板：`templates/index.html`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
 已上線範例：`jakeuj/architect-pc-builder` → https://blog.jakeuj.com/architect-pc-builder/
 
 ## 專案結構 (repo 形式)
 
 ```
 README.md            給朋友 / 公開看的說明: 網址、三套摘要表、資料來源、本機指令
-site.json            網頁設定 (title, repo, game{name,url,min,rec}, builds[], notes[], slots?)
+site.json            網頁設定 (title, repo, game{name,url,min,rec}, builds[], notes[], slots?, live_url?)
 builds/*.json        配置定義檔 (與 quote.py 共用)
 .claude/skills/coolpc/ 技能本體 (SKILL.md, scripts/, templates/, references/, examples/) — 唯一來源
 data/                parse 產出 (json / csv / by_category tsv), 進版控當快照
 docs/index.html      網頁 (從模板複製, 可再客製)
-docs/data.json       build_site.py 產出, 網頁唯一的資料來源
+docs/coolpc-live.js  瀏覽器端解析器 (parse_coolpc.py + build_site.py 剔除規則的 JS 版)
+docs/data.json       build_site.py 產出, 網頁的快照資料 (有 live_url 時載入後會被即時資料換掉)
+worker/              Cloudflare Worker 代理 (wrangler.toml + src/index.js), 可選
 docs/.nojekyll
 quote.md             quote.py --summary 產出
 .github/workflows/update-prices.yml
@@ -27,6 +29,8 @@ game_requirements.md 遊戲需求 (可選)
   game: {name, url, min:{...}, rec:{...}} | null,
   notes: [str],
   slots: [{key, label, cats:[int], optional?}],
+  live_url: str ("" = 不用即時),
+  filters: {exclude_groups: {"<cat_id>": regex}, exclude_items: regex},   # 給 coolpc-live.js 套同一套剔除規則
   categories: { "<cat_id>": {id, name, groups:[{label, items:[{id, name, price, list_price, flags}]}]} },
   builds: [{key, name, note, items: {<slot>: {cat, id, name, qty, fallback?}}}] }
 ```
@@ -42,12 +46,24 @@ game_requirements.md 遊戲需求 (可選)
 - 必填欄位 select 值為空時忽略 (避免程式化改值誤清)。
 - 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
 - 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」或「已下架」。
+- 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉。id 每次抓價可能變，所以預設配置與 `state` 裡的選件都用「分類 + 品名」對照到新 id；品名不見就改同群組最便宜並記到 `liveNotes` (顯示在提示區)。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。
+
+## 即時報價代理 (worker/)
+
+- 原價屋回應沒有 `Access-Control-Allow-Origin`，Pages 上的 JS 不能直接 fetch，一定要代理。Worker 只做三件事：抓 evaluate.php 原始 Big5 位元組、加 CORS、`caches.default` 快取 `CACHE_TTL` 秒 (預設 300)。不解碼、不解析，內容檢查只看 `id=Mdy` 與 Big5 的「共有商品」位元組。
+- **Cache API 只在自訂網域上有效，`*.workers.dev` 不會快取**，所以 wrangler.toml 用 `routes = [{ pattern = "coolpc.<domain>", custom_domain = true }]`；該 zone 的 DNS 必須在 Cloudflare，部署時會自動建 DNS 紀錄。
+- 回給瀏覽器的 `Cache-Control` 改成 `no-store`（快取只在邊緣），另帶 `X-Fetched-At` (實際抓取時間) 與 `X-Cache` HIT/MISS，並用 `Access-Control-Expose-Headers` 露出。前端 `?t=` 防瀏覽器快取，但 Worker 的 cache key 固定，不會打穿邊緣快取。
+- `ALLOW_ORIGINS` 逗號分隔白名單，Origin 不在名單就回第一個 (等於擋掉其他站的瀏覽器)；curl 當然擋不住，只是避免被當免費鏡像。
+- 瀏覽器端：`Response.text()` 永遠當 UTF-8，要 `arrayBuffer()` 再 `new TextDecoder('big5')`；三大瀏覽器都支援 big5。1MB 頁面經 Cloudflare 壓縮後約 200KB，解析 < 10ms。
+- 部署：`cd worker && npx wrangler login`（OAuth，一次）→ `npx wrangler deploy`。Keychain 裡 `cloudflare-api-token-jakeuj-com` 那把 token 只有 DNS 權限，不能部署 Worker；要用 token 的話另建 `Workers Scripts:Edit` + `Zone:Read` + `DNS:Edit` 的 token 放 `CLOUDFLARE_API_TOKEN`。
+- 驗證：`curl -sI https://coolpc.<domain>/evaluate.php` 看 `access-control-allow-origin`、`x-cache`、`x-fetched-at`；連打兩次第二次應 HIT。JS 解析器要跟 Python 對齊：`node -e 'require("./docs/coolpc-live.js"); ...'` 對同一份 evaluate.php 解析，`JSON.stringify(parse(html).categories)` 應等於 `data/coolpc_prices.json` 的 `categories`，`select()` 結果應等於 `docs/data.json` 的 `categories`。
+- 本機測試不必真的部署：寫個小 http.server 同時提供 docs/ 與 `/evaluate.php`（把 UTF-8 的 evaluate.php 用 cp950 編回 Big5 + CORS header），並在回 data.json 時把 `live_url` 改指本機。
 
 ## 部署與 CI 的坑
 
 - `gh api ... /pages` 回的 `html_url` 若是自訂網域 (blog.jakeuj.com)，就用它；github.io 網址會 301。
 - Pages 首次部署約 30 秒；用 `curl -s <url>/data.json | python3 -c ...` 驗證，比截圖可靠（頁面 fetch 409KB 需要一下，截太早會看到「載入中」）。
-- workflow 用 `git diff --quiet -- data quote.md` 判斷是否提交；`docs/data.json` 若只有 `generated` 變化就 `git checkout` 回去。
+- workflow 每小時 :30 跑，用 `git diff --quiet -- data quote.md` 判斷是否提交；`docs/data.json` 若只有 `generated` 變化就 `git checkout` 回去。
 - runner 是 UTC，時間戳一律在 build_site.py 用 `ZoneInfo("Asia/Taipei")` 產生。
 - `csv.DictWriter` 要 `lineterminator="\n"`，否則 CSV 進 git 會有 CRLF 警告。
 - 本機預覽可放 `.claude/launch.json`（python3 -m http.server 8765 --directory docs），已在 .gitignore。
