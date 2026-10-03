@@ -1,4 +1,4 @@
-# 08 2.5/3.5 傳統內接硬碟HDD  (報價日期 2026/10/2 17:20)
+# 08 2.5/3.5 傳統內接硬碟HDD  (報價日期 2026/10/3 12:32)
 # price	id	flags	name
 
 ## 3.5吋 SATA3 傳統碟
@@ -7,8 +7,8 @@
 6890	4		Toshiba 4TB【P300系列】(128M/5400轉/3年保)｛HDWD240UZSVA｝
 8890	5	限搭機	Toshiba 4TB【X300系列】(512M/7200轉/3年保)｛HDWR740UZSVA｝【限搭機】
 10990	6	限搭機	Toshiba 6TB【X300系列】(512M/7200轉/3年保)｛HDWR760UZSVA｝【限搭機】
-5550	7	限搭機	Seagate 2TB【新梭魚】(256M/7200轉/3年保)｛ST2000DM008｝【限搭機】
-6750	8	限搭機	Seagate 4TB【新梭魚】(256M/5400轉/3年保)｛ST4000DM004｝【限搭機】
+4950	7	限搭機	Seagate 2TB【新梭魚】(256M/7200轉/3年保)｛ST2000DM008｝【限搭機】
+6250	8	限搭機	Seagate 4TB【新梭魚】(256M/5400轉/3年保)｛ST4000DM004｝【限搭機】
 10890	9	限搭機	Seagate 8TB【新梭魚】(256M/5400轉/3年保)｛ST8000DM004｝【限搭機】
 18890	10	限搭機	Seagate 16TB【新梭魚】(512M/7200轉/2年保)｛ST16000DM001｝【限搭機】
 23390	11	限搭機	Seagate 20TB【新梭魚】(512M/7200轉/2年保)｛ST20000DM001｝【限搭機】
@@ -28,11 +28,11 @@
 9900	24		Toshiba 4TB【S300 Pro系列】【監控型】512MB/7200轉/5年保｛HDWTA40UZSVA｝
 12490	25		Toshiba 6TB【S300 Pro系列】【監控型】512MB/7200轉/5年保｛HDWTA60UZSVA｝
 13900	26		Toshiba 8TB【S300 Pro系列】【監控型】512MB/7200轉/5年保｛HDWTA80UZSVA｝
-7450	28	限搭機	Seagate 4TB【監控鷹】(256M/5400轉/3年保/3年 Rescue)｛ST4000VX016｝【限搭機】
-11150	29		Seagate 6TB【監控鷹】(256M/5400轉/3年保/3年 Rescue)｛ST6000VX009｝【少量到貨】
-14390	30	限搭機	Seagate 8TB【監控鷹AI】(256M/7200轉/5年保/3年 Rescue)｛ST8000VE001｝【限搭機】
-16390	31	限搭機	Seagate 10TB【監控鷹AI】(256M/7200轉/5年保/3年 Rescue)｛ST10000VE001｝【限搭機】
-29890	32	限搭機	Seagate 20TB【監控鷹AI】(512M/7200轉/5年保/3年 Rescue)｛ST20000VE003｝【限搭機】
+6850	28	限搭機	Seagate 4TB【監控鷹】(256M/5400轉/3年保/3年 Rescue)｛ST4000VX016｝【限搭機】
+10350	29		Seagate 6TB【監控鷹】(256M/5400轉/3年保/3年 Rescue)｛ST6000VX009｝【少量到貨】
+13390	30	限搭機	Seagate 8TB【監控鷹AI】(256M/7200轉/5年保/3年 Rescue)｛ST8000VE001｝【限搭機】
+15390	31	限搭機	Seagate 10TB【監控鷹AI】(256M/7200轉/5年保/3年 Rescue)｛ST10000VE001｝【限搭機】
+27890	32	限搭機	Seagate 20TB【監控鷹AI】(512M/7200轉/5年保/3年 Rescue)｛ST20000VE003｝【限搭機】
 6090	33	限搭機	WD 2TB【紫標】64M/5400轉/3年保｛WD23PURZ｝【限搭機】
 6690	34	限搭機	WD 3TB【紫標】128M/5400轉/3年保｛WD34PURZ｝【限搭機】
 9890	35	限搭機	WD 6TB【紫標】256M/5400轉/3年保｛WD64PURZ｝【限搭機】
@@ -51,21 +51,21 @@
 27700	47	熱賣 限搭機	Toshiba 18TB【NAS碟】512M/7200轉/3年保｛HDWG51JAZSTA｝【限搭機】
 31900	48	熱賣 限搭機	Toshiba 20TB【NAS碟】512M/7200轉/3年保｛HDWG62AAZSTA｝【限搭機】
 35300	49	限搭機	Toshiba 22TB【NAS碟】512M/7200轉/3年保｛HDWG62CAZSTA｝【限搭機】
-6150	51	限搭機	Seagate 2TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST2000VN003｝【限搭機】
-7550	52	限搭機	Seagate 4TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST4000VN006｝【限搭機】
+5550	51	限搭機	Seagate 2TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST2000VN003｝【限搭機】
+6950	52	限搭機	Seagate 4TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST4000VN006｝【限搭機】
 10450	53	限搭機	Seagate 6TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST6000VN006｝【限搭機】
-12890	54	熱賣 限搭機	Seagate 8TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST8000VN002｝【限搭機】
-14890	55	熱賣 限搭機	Seagate 10TB【那嘶狼】256M/7200轉/3年保/3年 Rescue｛ST10000VN000｝【限搭機】
-17390	56	熱賣 限搭機	Seagate 12TB【那嘶狼】256M/7200轉/3年保3年 Rescue｛ST12000VN0008｝【限搭機】
-8950	57	限搭機	Seagate 4TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST4000NT001｝【限搭機】
-14390	58	限搭機	Seagate 8TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST8000NT001｝【限搭機】
-18890	59	熱賣 限搭機	Seagate 12TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST12000NT001｝【限搭機】
-24390	60	限搭機	Seagate 16TB【那嘶狼 PRO】256M/7200轉/5年/3年 Rescue｛ST16000NT001｝【限搭機】
-29890	61	限搭機	Seagate 20TB【那嘶狼 PRO】256M/7200轉/5年/3年 Rescue｛ST20000NT001｝【限搭機】
-35390	62		Seagate 24TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST24000NT002｝
-40890	63	熱賣 限搭機	Seagate 28TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST28000NT000｝【限搭機】
-42890	64	限搭機	Seagate 30TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST30000NT011｝【限搭機】
-44890	65	限搭機	Seagate 32TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST32000NT000｝【限搭機】
+11890	54	熱賣 限搭機	Seagate 8TB【那嘶狼】256M/5400轉/3年保/3年 Rescue｛ST8000VN002｝【限搭機】
+13890	55	熱賣 限搭機	Seagate 10TB【那嘶狼】256M/7200轉/3年保/3年 Rescue｛ST10000VN000｝【限搭機】
+16390	56	熱賣 限搭機	Seagate 12TB【那嘶狼】256M/7200轉/3年保3年 Rescue｛ST12000VN0008｝【限搭機】
+8450	57	限搭機	Seagate 4TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST4000NT001｝【限搭機】
+13390	58	限搭機	Seagate 8TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST8000NT001｝【限搭機】
+17890	59	熱賣 限搭機	Seagate 12TB【那嘶狼 PRO】256M/7200轉/5年保/3年 Rescue｛ST12000NT001｝【限搭機】
+22890	60	限搭機	Seagate 16TB【那嘶狼 PRO】256M/7200轉/5年/3年 Rescue｛ST16000NT001｝【限搭機】
+27890	61	限搭機	Seagate 20TB【那嘶狼 PRO】256M/7200轉/5年/3年 Rescue｛ST20000NT001｝【限搭機】
+32890	62		Seagate 24TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST24000NT002｝
+37890	63	熱賣 限搭機	Seagate 28TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST28000NT000｝【限搭機】
+39890	64	限搭機	Seagate 30TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST30000NT011｝【限搭機】
+41890	65	限搭機	Seagate 32TB【那嘶狼 PRO】512M/7200轉/5年/3年 Rescue｛ST32000NT000｝【限搭機】
 6190	66		WD 2TB【紅標Plus】64M/5400轉/3年保｛WD20EFPX｝
 7890	67		WD 4TB【紅標Plus】128M/5400轉/3年保｛WD40EFZZ｝
 13490	68		WD 8TB【紅標Plus】256M/5640轉/3年保｛WD80EFPX｝
@@ -76,14 +76,14 @@
 13200	72	限搭機	Toshiba 4TB【企業級】512M/7200轉/5年保｛MG10ADA400E｝【限搭機】
 17100	73	限搭機	Toshiba 8TB【企業級】512MB/7200轉/5年保｛MG10ADA800E｝【限搭機】
 23900	74	限搭機	Toshiba 12TB【企業級】512MB/7200轉/5年保｛MG09ACA12TE｝【限搭機】
-9950	75	限搭機	Seagate 4TB【EXOS企業碟】256MB/7200轉/5年保｛ST4000NM024B｝【限搭機】
-15390	76	限搭機	Seagate 8TB【EXOS企業碟】256MB/7200轉/5年保｛ST8000NM017B｝【限搭機】
-17390	77		Seagate 10TB【EXOS企業碟】256MB/7200轉/5年保｛ST10000NM0017B｝【少量到貨】
-19890	78		Seagate 12TB【EXOS企業碟】512MB/7200轉/5年保｛ST12000NM002H｝【少量到貨】
-30890	79	熱賣 限搭機	Seagate 20TB【EXOS企業碟】512MB/7200轉/5年保｛ST20000NM002H｝【限搭機】
-36390	80	熱賣	Seagate 24TB【EXOS企業碟】512MB/7200轉/5年保｛ST24000NM002H｝【少量到貨】
-43890	81	限搭機	Seagate 30TB【EXOS企業碟】512MB/7200轉/5年保｛ST30000NM004K｝【限搭機】
-45890	82	限搭機	Seagate 32TB【EXOS企業碟】512MB/7200轉/5年保｛ST32000NM004K｝【限搭機】
+9450	75	限搭機	Seagate 4TB【EXOS企業碟】256MB/7200轉/5年保｛ST4000NM024B｝【限搭機】
+14390	76	限搭機	Seagate 8TB【EXOS企業碟】256MB/7200轉/5年保｛ST8000NM017B｝【限搭機】
+16390	77		Seagate 10TB【EXOS企業碟】256MB/7200轉/5年保｛ST10000NM0017B｝【少量到貨】
+18890	78		Seagate 12TB【EXOS企業碟】512MB/7200轉/5年保｛ST12000NM002H｝【少量到貨】
+28890	79	熱賣 限搭機	Seagate 20TB【EXOS企業碟】512MB/7200轉/5年保｛ST20000NM002H｝【限搭機】
+33890	80	熱賣	Seagate 24TB【EXOS企業碟】512MB/7200轉/5年保｛ST24000NM002H｝【少量到貨】
+40890	81	限搭機	Seagate 30TB【EXOS企業碟】512MB/7200轉/5年保｛ST30000NM004K｝【限搭機】
+42890	82	限搭機	Seagate 32TB【EXOS企業碟】512MB/7200轉/5年保｛ST32000NM004K｝【限搭機】
 15290	84	限搭機	WD 8TB【Ultrastar DC HA340】256MB/7200轉/5年保｛WUS721208BLE6L4｝【限搭機】
 33490	85	限搭機	WD 20TB【Ultrastar DC HC560】512MB/7200轉/5年保｛WUH722020BLE6L4｝【限搭機】
 43490	86	限搭機	WD 26TB【Ultrastar DC HC590】512MB/7200轉/5年保｛WUH722626ALE6L4｝【限搭機】
