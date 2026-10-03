@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/3 12:32",
+ "quote_date": "2026/10/3 16:49",
  "categories": [
   {
    "id": 1,
@@ -1218,8 +1218,9 @@
        "id": 234,
        "name": "｛ASUS V440VAK-10UWPC001W｝23.8吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 10/31 23:59",
        "price": 28990,
-       "list_price": null,
+       "list_price": 29990,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
@@ -3616,6 +3617,13 @@
       },
       {
        "id": 359,
+       "name": "微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝",
+       "price": 64900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 360,
        "name": "微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝",
        "price": 74900,
        "list_price": null,
@@ -3627,7 +3635,7 @@
      "label": "15吋 微星 - 輕薄商務系列 Modern / Venture Pro",
      "items": [
       {
-       "id": 361,
+       "id": 362,
        "name": "微星 Modern 15 i3-1315U/16G/512G/15.6吋 灰｛F13MXG-1025TW｝▼下殺到 11/1 23:59",
        "price": 16999,
        "list_price": 21900,
@@ -3637,21 +3645,21 @@
        ]
       },
       {
-       "id": 362,
+       "id": 363,
        "name": "微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝",
        "price": 31900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 363,
+       "id": 364,
        "name": "微星 Modern 15 Core 7-150U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1041TW｝",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 364,
+       "id": 365,
        "name": "微星 VenturePro 15 Core 7-240H/16G/512G/RTX5050/15.6吋/WIN11 Pro 灰｛A2RWEG-1246TW｝",
        "price": 52900,
        "list_price": null,
@@ -3663,14 +3671,14 @@
      "label": "16吋 微星 - 輕薄商務系列 Prestige / Modern S",
      "items": [
       {
-       "id": 366,
+       "id": 367,
        "name": "微星 Modern 16S AI+ Ultra 7-355/16G/1T/16吋 灰｛G3MG-030TW｝",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 367,
+       "id": 368,
        "name": "微星 Prestige 16 AI+ Ultra X7-358H/32G/1T/16吋 金｛C3MG-233TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 69900,
@@ -3680,7 +3688,7 @@
        ]
       },
       {
-       "id": 368,
+       "id": 369,
        "name": "微星 Prestige 16 Flip AI+ Ultra X9-388H/32G/1T/16吋 灰｛C3MTG-041TW｝【翻轉觸控】",
        "price": 74900,
        "list_price": null,
@@ -3692,7 +3700,7 @@
      "label": "15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX",
      "items": [
       {
-       "id": 370,
+       "id": 371,
        "name": "微星 Katana 15 i7-14650HX/RTX5060/16G/1T/15.6吋 黑｛B14WGK-1071TW｝▼下殺到 11/1 23:59",
        "price": 52999,
        "list_price": 54900,
@@ -3702,7 +3710,7 @@
        ]
       },
       {
-       "id": 371,
+       "id": 372,
        "name": "微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝▼下殺到 11/1 23:59",
        "price": 56999,
        "list_price": 59900,
@@ -3712,14 +3720,14 @@
        ]
       },
       {
-       "id": 372,
+       "id": 373,
        "name": "微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身)",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 374,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝▼下殺到 11/1 23:59",
        "price": 33999,
        "list_price": 34900,
@@ -3729,7 +3737,7 @@
        ]
       },
       {
-       "id": 374,
+       "id": 375,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝▼下殺到 11/1 23:59",
        "price": 34999,
        "list_price": 39900,
@@ -3739,14 +3747,14 @@
        ]
       },
       {
-       "id": 375,
+       "id": 376,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 376,
+       "id": 377,
        "name": "微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身)▼下殺到 11/1 23:59",
        "price": 33999,
        "list_price": 34900,
@@ -3756,7 +3764,7 @@
        ]
       },
       {
-       "id": 377,
+       "id": 378,
        "name": "微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝▼下殺到 11/1 23:59",
        "price": 29999,
        "list_price": 35900,
@@ -3766,7 +3774,7 @@
        ]
       },
       {
-       "id": 378,
+       "id": 379,
        "name": "微星 Cyborg 15 Core 5-210H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-891TW｝▼下殺到 11/1 23:59",
        "price": 37999,
        "list_price": 46900,
@@ -3776,7 +3784,7 @@
        ]
       },
       {
-       "id": 379,
+       "id": 380,
        "name": "微星 Cyborg 15 Core 7-240H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2095TW｝",
        "price": 33900,
        "list_price": null,
@@ -3785,14 +3793,14 @@
        ]
       },
       {
-       "id": 380,
+       "id": 381,
        "name": "微星 Cyborg 15 Core 7-240H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-1242TW｝",
        "price": 39999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 381,
+       "id": 382,
        "name": "微星 Cyborg 15 MAX i7-13620H/RTX5050/16G/512G/15.6吋 灰｛C13WE-054TW｝▼下殺到 11/1 23:59",
        "price": 42999,
        "list_price": 44900,
@@ -3802,7 +3810,7 @@
        ]
       },
       {
-       "id": 382,
+       "id": 383,
        "name": "微星 Cyborg 15 MAX Core 7-240H/RTX5060/16G/512G/15.6吋 灰｛C2WF-007TW｝▼下殺到 11/1 23:59",
        "price": 46999,
        "list_price": 49900,
@@ -3812,7 +3820,7 @@
        ]
       },
       {
-       "id": 383,
+       "id": 384,
        "name": "微星 Cyborg 15 MAX Core 7-240H/RTX5070/16G/512G/15.6吋 灰｛C2WG-006TW｝▼下殺到 11/1 23:59",
        "price": 49999,
        "list_price": 52900,
@@ -3828,7 +3836,7 @@
      "label": "16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX",
      "items": [
       {
-       "id": 385,
+       "id": 386,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5060/16G/1T/16吋 黑｛E8WFK-015TW｝",
        "price": 53900,
        "list_price": null,
@@ -3837,14 +3845,14 @@
        ]
       },
       {
-       "id": 386,
+       "id": 387,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5070/16G/1T/16吋｛E8WGK-017TW｝",
        "price": 65900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 388,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5060/16G/1T/16吋 黑｛E14WFK-013TW｝▼下殺到 11/1 23:59",
        "price": 57999,
        "list_price": 59900,
@@ -3854,7 +3862,7 @@
        ]
       },
       {
-       "id": 388,
+       "id": 389,
        "name": "微星 Crosshair 16 HX i9-14900HX/RTX5060/16G/1T/16吋 黑｛E14WFK-014TW｝▼下殺到 11/1 23:59",
        "price": 62999,
        "list_price": 64900,
@@ -3864,7 +3872,7 @@
        ]
       },
       {
-       "id": 389,
+       "id": 390,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5070/16G/1T/16吋 黑｛E14WGK-002TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 67900,
@@ -3874,7 +3882,7 @@
        ]
       },
       {
-       "id": 390,
+       "id": 391,
        "name": "微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5060/16G/512G/16吋 黑｛E2WFK-024TW｝",
        "price": 62900,
        "list_price": null,
@@ -3883,28 +3891,28 @@
        ]
       },
       {
-       "id": 391,
+       "id": 392,
        "name": "微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5070/16G/1T/16吋 黑｛E2WGXK-016TW｝",
        "price": 74900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 392,
+       "id": 393,
        "name": "微星 Stealth 16 AI Ultra 7-255H/RTX5070/16G/1T/16吋 黑｛A2HWGG-093TW｝",
        "price": 64900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 394,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5060/16G/1T/16吋 黑｛B3WF-005TW｝",
        "price": 85490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 395,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5080/32G/1T/16吋 黑｛B3WI-006TW｝",
        "price": 129000,
        "list_price": null,
@@ -3913,14 +3921,14 @@
        ]
       },
       {
-       "id": 395,
+       "id": 396,
        "name": "微星 Raider 16 Ultra 9-275HX/RTX5080/16G/1T/16吋 黑｛B2WI-025TW｝",
        "price": 119000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 396,
+       "id": 397,
        "name": "微星 Raider 16 MAX Ultra 9-290HX+/RTX5080/32G/2T/16吋 黑｛B2WI-028TW｝",
        "price": 144900,
        "list_price": null,
@@ -3929,7 +3937,7 @@
        ]
       },
       {
-       "id": 397,
+       "id": 398,
        "name": "微星 Raider 16 MAX Ultra 9-290HX+/RTX5090/32G/2T/16吋 黑｛B2WJ-027TW｝",
        "price": 159900,
        "list_price": null,
@@ -3943,7 +3951,7 @@
      "label": "17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair",
      "items": [
       {
-       "id": 399,
+       "id": 400,
        "name": "微星 Katana 17 i7-14700HX/RTX5060/16G/1T/17.3吋 黑｛B14WFK-288TW｝▼下殺到 11/1 23:59",
        "price": 49999,
        "list_price": 59900,
@@ -3953,21 +3961,21 @@
        ]
       },
       {
-       "id": 400,
+       "id": 401,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5050/16G/512G/17.3吋 黑｛B2RWEKG-425TW｝",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 401,
+       "id": 402,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5060/16G/512G/17.3吋 黑｛B2RWFKG-426TW｝",
        "price": 46900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 402,
+       "id": 403,
        "name": "微星 Crosshair 17 HX AI Ultra 7-255HX/RTX5060/16G/1T/17.3吋 黑｛D2XWFKG-010TW｝▼下殺到 11/1 23:59",
        "price": 57999,
        "list_price": 62900,
@@ -3982,7 +3990,7 @@
      "label": "18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主",
      "items": [
       {
-       "id": 404,
+       "id": 405,
        "name": "微星 Crosshair 18 HX AI Ultra 9-275HX/RTX5060/16G/1T/18吋 黑｛A2XWFKG-058TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 67900,
@@ -3992,7 +4000,7 @@
        ]
       },
       {
-       "id": 405,
+       "id": 406,
        "name": "微星 Raider A18 HX Ryzen 9-9955HX3D/RTX5090/64G/2T/18吋 黑｛A9WJG-043TW｝",
        "price": 168000,
        "list_price": null,
@@ -4001,7 +4009,7 @@
        ]
       },
       {
-       "id": 406,
+       "id": 407,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/64G/2T/18吋 黑｛A2WJ-1041TW｝",
        "price": 199900,
        "list_price": null,
@@ -4010,7 +4018,7 @@
        ]
       },
       {
-       "id": 407,
+       "id": 408,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/96G/4T/18吋 天龍座｛A2WJ-1215TW｝",
        "price": 229900,
        "list_price": null,
@@ -4026,7 +4034,7 @@
      "label": "16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電",
      "items": [
       {
-       "id": 410,
+       "id": 411,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 白｛16Z90TL-G.AS54C2｝",
        "price": 36300,
        "list_price": null,
@@ -4035,7 +4043,7 @@
        ]
       },
       {
-       "id": 411,
+       "id": 412,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 黑｛16Z90TL-G.AS55C2｝",
        "price": 36300,
        "list_price": null,
@@ -4049,21 +4057,21 @@
      "label": "16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅",
      "items": [
       {
-       "id": 413,
+       "id": 414,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/16吋 純淨白｛16Z90U-G.AU87C2｝",
        "price": 102500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 414,
+       "id": 415,
        "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝",
        "price": 111500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 415,
+       "id": 416,
        "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 星曜黑｛16Z90U-K.AUB8C2｝",
        "price": 111500,
        "list_price": null,
@@ -4075,7 +4083,7 @@
      "label": "17 吋 LG Gram 高科技奈米碳鎂通過美國軍規測試",
      "items": [
       {
-       "id": 417,
+       "id": 418,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/17吋 曜石黑｛17Z90U-G.AU88C2｝",
        "price": 106500,
        "list_price": null,
@@ -4091,7 +4099,7 @@
      "label": "14 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 420,
+       "id": 421,
        "name": "HP OmniBook 3 U5-325/16G/512G/14吋 冰川銀｛14-hs0018TU｝",
        "price": 39900,
        "list_price": null,
@@ -4103,7 +4111,7 @@
      "label": "16 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 422,
+       "id": 423,
        "name": "HP OmniBook 3 C5-120U/16G/512G/16吋 冰川銀｛16-bu0029TU｝",
        "price": 34900,
        "list_price": null,
@@ -4115,7 +4123,7 @@
      "label": "17 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 424,
+       "id": 425,
        "name": "HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝",
        "price": 36900,
        "list_price": null,
@@ -4127,7 +4135,7 @@
      "label": "14 吋 HP OmniBook 5 Flip 翻轉觸控筆電",
      "items": [
       {
-       "id": 426,
+       "id": 427,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝",
        "price": 32900,
        "list_price": null,
@@ -4136,7 +4144,7 @@
        ]
       },
       {
-       "id": 427,
+       "id": 428,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝",
        "price": 32900,
        "list_price": null,
@@ -4145,14 +4153,14 @@
        ]
       },
       {
-       "id": 428,
+       "id": 429,
        "name": "HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 429,
+       "id": 430,
        "name": "HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝",
        "price": 41900,
        "list_price": null,
@@ -4164,7 +4172,7 @@
      "label": "13 吋 HP OmniBook 7系列",
      "items": [
       {
-       "id": 431,
+       "id": 432,
        "name": "HP OmniBook 7 Ryzen AI 5 340/16G/1T/13吋 匠心銀｛13-bg1090AU｝",
        "price": 33900,
        "list_price": null,
@@ -4176,7 +4184,7 @@
      "label": "14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列",
      "items": [
       {
-       "id": 434,
+       "id": 435,
        "name": "HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝",
        "price": 54900,
        "list_price": null,
@@ -4188,7 +4196,7 @@
      "label": "14 吋 HP OmniBook UltraNGAI 觸控系列",
      "items": [
       {
-       "id": 436,
+       "id": 437,
        "name": "HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝",
        "price": 74900,
        "list_price": null,
@@ -4200,28 +4208,28 @@
      "label": "15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列",
      "items": [
       {
-       "id": 438,
+       "id": 439,
        "name": "HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 439,
+       "id": 440,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝",
        "price": 61888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 441,
+       "id": 442,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝",
        "price": 72900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 442,
+       "id": 443,
        "name": "HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝",
        "price": 79900,
        "list_price": null,
@@ -4237,14 +4245,14 @@
      "label": "14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉",
      "items": [
       {
-       "id": 446,
+       "id": 447,
        "name": "HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 447,
+       "id": 448,
        "name": "【升級延保加價購】HP ZBook Firefly G11A 升級3年保",
        "price": 36899,
        "list_price": null,
@@ -4256,7 +4264,7 @@
      "label": "16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列",
      "items": [
       {
-       "id": 450,
+       "id": 451,
        "name": "HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保",
        "price": 57900,
        "list_price": null,
@@ -4268,7 +4276,7 @@
      "label": "筆電周邊",
      "items": [
       {
-       "id": 453,
+       "id": 454,
        "name": "3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒",
        "price": 390,
        "list_price": null,
@@ -4280,70 +4288,70 @@
      "label": "快速充電器",
      "items": [
       {
-       "id": 455,
+       "id": 456,
        "name": "｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 456,
+       "id": 457,
        "name": "Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966)",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 457,
+       "id": 458,
        "name": "台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固)",
        "price": 299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 458,
+       "id": 459,
        "name": "｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 461,
+       "id": 462,
        "name": "｛Gigastone 33W PD-6330W｝急速雙孔充電器 USB(1A1C) / PD / QC",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 462,
+       "id": 463,
        "name": "｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 463,
+       "id": 464,
        "name": "｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 549,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 464,
+       "id": 465,
        "name": "｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 465,
+       "id": 466,
        "name": "｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白)",
        "price": 899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 466,
+       "id": 467,
        "name": "【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝▼下殺到 10/13 23:59",
        "price": 999,
        "list_price": 1398,
@@ -4353,56 +4361,56 @@
        ]
       },
       {
-       "id": 467,
+       "id": 468,
        "name": "｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 1499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 468,
+       "id": 469,
        "name": "｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 1699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 469,
+       "id": 470,
        "name": "｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 470,
+       "id": 471,
        "name": "｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座",
        "price": 1299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 471,
+       "id": 472,
        "name": "【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器",
        "price": 1848,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 472,
+       "id": 473,
        "name": "【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】",
        "price": 2598,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 473,
+       "id": 474,
        "name": "｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座",
        "price": 1399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 474,
+       "id": 475,
        "name": "｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑)",
        "price": 599,
        "list_price": null,
@@ -4414,49 +4422,49 @@
      "label": "行動電源",
      "items": [
       {
-       "id": 477,
+       "id": 478,
        "name": "｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 429,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 478,
+       "id": 479,
        "name": "｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 479,
+       "id": 480,
        "name": "｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 481,
+       "id": 482,
        "name": "｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 482,
+       "id": 483,
        "name": "【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 483,
+       "id": 484,
        "name": "【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 484,
+       "id": 485,
        "name": "｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】▼下殺到 10/31 23:59",
        "price": 499,
        "list_price": 599,
@@ -4466,49 +4474,49 @@
        ]
       },
       {
-       "id": 485,
+       "id": 486,
        "name": "【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 486,
+       "id": 487,
        "name": "【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 487,
+       "id": 488,
        "name": "｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 488,
+       "id": 489,
        "name": "｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】",
        "price": 659,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 489,
+       "id": 490,
        "name": "【兩件優惠】｛Gigastone QP-10200B｝【兩件】",
        "price": 1318,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 490,
+       "id": 491,
        "name": "｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 491,
+       "id": 492,
        "name": "｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線",
        "price": 1299,
        "list_price": null,
@@ -7703,7 +7711,7 @@
       {
        "id": 220,
        "name": "｛微星 PRO B550M-P WIFI6E｝M-ATX/LAN 1G+無線/註四年/4DIMM/4+2+1相",
-       "price": 3090,
+       "price": 2990,
        "list_price": null,
        "flags": []
       },
@@ -8174,11 +8182,11 @@
       {
        "id": 280,
        "name": "｛技嘉 B850 AORUS STEALTH ICE｝背插/ATX/5G+Wi-Fi7/白/註五年/白/14+2+2相",
-       "price": 8290,
+       "price": 7990,
        "list_price": null,
        "flags": [
         "熱賣",
-        "任搭折500"
+        "任搭折200"
        ]
       },
       {
@@ -12995,125 +13003,132 @@
       },
       {
        "id": 57,
+       "name": "金士頓 Canvas Go 512G micro SDXC / R:200 W:160 / 終保 / 附轉卡｛SDCG4/512GB｝",
+       "price": 5099,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 58,
        "name": "｛威剛 Premier 32G micro SDHC｝R:100 / 終保 / 附轉卡",
        "price": 305,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 58,
+       "id": 59,
        "name": "｛威剛 Premier 64G micro SDXC｝R:100 / 終保 / 附轉卡",
        "price": 389,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 59,
+       "id": 60,
        "name": "｛威剛 Premier 128G micro SDXC｝R:100 / 終保 / 附轉卡",
        "price": 589,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 60,
+       "id": 61,
        "name": "｛威剛 Premier 256G micro SDXC｝R:100 / 終保 / 附轉卡",
        "price": 1088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 62,
+       "id": 63,
        "name": "｛威剛 High Endurance 64G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 63,
+       "id": 64,
        "name": "｛威剛 High Endurance 128G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡",
        "price": 1499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 64,
+       "id": 65,
        "name": "｛威剛 High Endurance 256G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡",
        "price": 2099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 65,
+       "id": 66,
        "name": "｛威剛 High Endurance 512G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 66,
+       "id": 67,
        "name": "創見 300S 32G micro SDHC / R:100 / 5年保 / 附轉卡｛TS32GUSD300S-A｝",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 67,
+       "id": 68,
        "name": "創見 300S 64G micro SDXC / R:100 / 5年保 / 附轉卡｛TS64GUSD300S-A｝",
        "price": 680,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 68,
+       "id": 69,
        "name": "｛Lexar 633x 64G｝High-Performance micro SDXC / R:100 / 10年保 / 附轉卡",
        "price": 489,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 69,
+       "id": 70,
        "name": "｛Lexar 633x 128G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡",
        "price": 899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 70,
+       "id": 71,
        "name": "｛Lexar 633x 256G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡",
        "price": 1579,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 71,
+       "id": 72,
        "name": "｛Lexar Professional Silver Plus microSDXC 64G｝R:205 W:100 / 終保 / 附轉卡",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 72,
+       "id": 73,
        "name": "｛Lexar Professional Silver Plus microSDXC 128G｝R:205 W:150 / 終保 / 附轉卡",
        "price": 1349,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 74,
+       "id": 75,
        "name": "｛GIGASTONE Gaming Plus 32G｝micro SDHC / R:90 W:20 / 5年保 / 附轉卡",
        "price": 258,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 75,
+       "id": 76,
        "name": "｛GIGASTONE Gaming Plus 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡",
        "price": 358,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 76,
+       "id": 77,
        "name": "｛GIGASTONE Gaming Plus 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡",
        "price": 578,
        "list_price": null,
@@ -13122,21 +13137,21 @@
        ]
       },
       {
-       "id": 77,
+       "id": 78,
        "name": "｛GIGASTONE Gaming Plus 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡",
        "price": 1058,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 78,
+       "id": 79,
        "name": "｛GIGASTONE Gaming Plus 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡",
        "price": 2288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 79,
+       "id": 80,
        "name": "｛GIGASTONE Gaming Plus 1TB｝micro SDXC / R:150 W:120 / 5年保 / 附轉卡",
        "price": 4988,
        "list_price": null,
@@ -13145,7 +13160,7 @@
        ]
       },
       {
-       "id": 81,
+       "id": 82,
        "name": "｛GIGASTONE Data Recovery 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡",
        "price": 498,
        "list_price": null,
@@ -13154,7 +13169,7 @@
        ]
       },
       {
-       "id": 82,
+       "id": 83,
        "name": "｛GIGASTONE Data Recovery 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡",
        "price": 898,
        "list_price": null,
@@ -13163,7 +13178,7 @@
        ]
       },
       {
-       "id": 83,
+       "id": 84,
        "name": "｛GIGASTONE Data Recovery 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡",
        "price": 1638,
        "list_price": null,
@@ -13172,7 +13187,7 @@
        ]
       },
       {
-       "id": 84,
+       "id": 85,
        "name": "｛GIGASTONE Data Recovery 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡",
        "price": 3088,
        "list_price": null,
@@ -13181,7 +13196,7 @@
        ]
       },
       {
-       "id": 85,
+       "id": 86,
        "name": "｛GIGASTONE Data Recovery 1TB｝micro SDXC / R:160 W:140 / 5年保 / 附轉卡",
        "price": 5788,
        "list_price": null,
@@ -13195,7 +13210,7 @@
      "label": "MicroSDXC Express 記憶卡(Switch 2專用)",
      "items": [
       {
-       "id": 87,
+       "id": 88,
        "name": "｛Lexar PLAY PRO Express 512G｝超高速記憶卡 / R:900 W:600 / 終保",
        "price": 3550,
        "list_price": null,
@@ -13204,7 +13219,7 @@
        ]
       },
       {
-       "id": 88,
+       "id": 89,
        "name": "｛Lexar PLAY PRO Express 1TB｝超高速記憶卡 / R:900 W:600 / 終保",
        "price": 7299,
        "list_price": null,
@@ -13218,42 +13233,42 @@
      "label": "SD 記憶卡",
      "items": [
       {
-       "id": 91,
+       "id": 92,
        "name": "｛威剛 32G SDHC｝U1 C10 V10 / R:100 / 終保",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 92,
+       "id": 93,
        "name": "｛威剛 64G SDXC｝U1 C10 V10 / R:100 / 終保",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 93,
+       "id": 94,
        "name": "｛Lexar Professional Silver Plus SDXC 128G｝R:205 W:150 / 終保",
        "price": 1399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 94,
+       "id": 95,
        "name": "創見 300S 32G SDHC / R:100 / 5年保｛TS32GSDC300S｝",
        "price": 789,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 96,
        "name": "創見 300S 64G SDXC / R:100 / 5年保｛TS64GSDC300S｝",
        "price": 850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 96,
+       "id": 97,
        "name": "金士頓 Canvas Go 256G SDXC / R:200 W:160 / 終保｛SDG4/256GB｝",
        "price": 2040,
        "list_price": null,
@@ -13265,14 +13280,14 @@
      "label": "CFexpress記憶卡",
      "items": [
       {
-       "id": 98,
+       "id": 99,
        "name": "｛GIGASTONE 512G CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】",
        "price": 9999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 99,
+       "id": 100,
        "name": "｛GIGASTONE 1TB CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】",
        "price": 22999,
        "list_price": null,
@@ -13284,7 +13299,7 @@
      "label": "威剛 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 101,
+       "id": 102,
        "name": "｛威剛 SC750 SSD碟 500G｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟",
        "price": 2690,
        "list_price": null,
@@ -13293,7 +13308,7 @@
        ]
       },
       {
-       "id": 102,
+       "id": 103,
        "name": "｛威剛 SC750 SSD碟 1TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟",
        "price": 4800,
        "list_price": null,
@@ -13302,7 +13317,7 @@
        ]
       },
       {
-       "id": 103,
+       "id": 104,
        "name": "｛威剛 SC750 SSD碟 2TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟",
        "price": 9200,
        "list_price": null,
@@ -13311,140 +13326,140 @@
        ]
       },
       {
-       "id": 104,
+       "id": 105,
        "name": "｛威剛 SC735 SSD碟 1TB｝黑藍/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟",
        "price": 4850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 106,
        "name": "｛威剛 SC735 SSD碟 1TB｝黑灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟",
        "price": 4850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 106,
+       "id": 107,
        "name": "｛威剛 SE880 SSD碟 500G｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 2688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 107,
+       "id": 108,
        "name": "｛威剛 SE880 SSD碟 500G｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 2688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 109,
        "name": "｛威剛 SE880 SSD碟 1TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 4880,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 110,
        "name": "｛威剛 SE880 SSD碟 1TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 4880,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 111,
        "name": "｛威剛 SE880 SSD碟 2TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 9400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 112,
        "name": "｛威剛 SE880 SSD碟 2TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 9400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 113,
        "name": "｛威剛 SE880 SSD碟 4TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 18500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 113,
+       "id": 114,
        "name": "｛威剛 SE880 SSD碟 4TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年",
        "price": 18500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 114,
+       "id": 115,
        "name": "｛威剛 SD810 SSD碟 500G｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 116,
        "name": "｛威剛 SD810 SSD碟 500G｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 117,
        "name": "｛威剛 SD810 SSD碟 1TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 4888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 118,
        "name": "｛威剛 SD810 SSD碟 1TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 4888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 118,
+       "id": 119,
        "name": "｛威剛 SD810 SSD碟 2TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 9600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 119,
+       "id": 120,
        "name": "｛威剛 SD810 SSD碟 2TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 9600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 120,
+       "id": 121,
        "name": "｛威剛 SD810 SSD碟 4TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 19000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 121,
+       "id": 122,
        "name": "｛威剛 SD810 SSD碟 4TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔",
        "price": 19000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 122,
+       "id": 123,
        "name": "｛威剛 SD820 SSD碟 1TB｝藍/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟",
        "price": 5199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 123,
+       "id": 124,
        "name": "｛威剛 SD820 SSD碟 1TB｝灰/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟",
        "price": 5199,
        "list_price": null,
@@ -13456,21 +13471,21 @@
      "label": "金士頓 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 126,
+       "id": 127,
        "name": "金士頓 XS1000 SSD碟 1TB Type-C傳輸速度(附C TO A傳輸線)讀取1050MB/s",
        "price": 4650,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 127,
+       "id": 128,
        "name": "金士頓 XS1000R(紅色) SSD碟 1TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s",
        "price": 4650,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 129,
        "name": "金士頓 XS1000R(紅色) SSD碟 2TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s",
        "price": 6800,
        "list_price": null,
@@ -13479,7 +13494,7 @@
        ]
       },
       {
-       "id": 129,
+       "id": 130,
        "name": "金士頓 雙頭 SSD碟 1TB Type-A/C雙介面 讀取1050MB/s行動固態硬碟",
        "price": 4450,
        "list_price": null,
@@ -13491,63 +13506,63 @@
      "label": "海盜船 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 131,
+       "id": 132,
        "name": "海盜船 EX300U 1TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟 (CSSD-EX300U1TB)",
        "price": 4200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 132,
+       "id": 133,
        "name": "海盜船 EX300U 2TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U2TB)",
        "price": 8400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 133,
+       "id": 134,
        "name": "海盜船 EX300U 4TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U4TB)",
        "price": 14700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 134,
+       "id": 135,
        "name": "海盜船 EX400U 1TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U1TB)",
        "price": 8300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 136,
        "name": "海盜船 EX400U 2TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U2TB)",
        "price": 12000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 136,
+       "id": 137,
        "name": "海盜船 EX400U 4TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U4TB)",
        "price": 18500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 138,
        "name": "海盜船 EX400US 1TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US1TB)",
        "price": 8800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 138,
+       "id": 139,
        "name": "海盜船 EX400US 2TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US2TB)",
        "price": 12500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 139,
+       "id": 140,
        "name": "海盜船 EX400US 4TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US4TB)",
        "price": 18800,
        "list_price": null,
@@ -13559,7 +13574,7 @@
      "label": "致態 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 141,
+       "id": 142,
        "name": "致態ZhiTai 致態靈·潮流版SSD碟 1TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震",
        "price": 3899,
        "list_price": 4299,
@@ -13569,7 +13584,7 @@
        ]
       },
       {
-       "id": 142,
+       "id": 143,
        "name": "致態ZhiTai 致態靈·潮流版SSD碟 1TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震",
        "price": 3899,
        "list_price": 4299,
@@ -13579,7 +13594,7 @@
        ]
       },
       {
-       "id": 143,
+       "id": 144,
        "name": "致態ZhiTai 致態靈·潮流版SSD碟 2TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震",
        "price": 6799,
        "list_price": 8899,
@@ -13589,7 +13604,7 @@
        ]
       },
       {
-       "id": 144,
+       "id": 145,
        "name": "致態ZhiTai 致態靈·潮流版SSD碟 2TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震",
        "price": 6799,
        "list_price": 8899,
@@ -13604,14 +13619,14 @@
      "label": "Micron 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 146,
+       "id": 147,
        "name": "Micron Crucial X9 SSD碟 1TB Type-C傳輸速度 讀取1050MB/s 三年保",
        "price": 3399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 148,
        "name": "Micron Crucial X9 SSD碟 2TB Type-C傳輸速度 讀取1050MB/s 三年保",
        "price": 5999,
        "list_price": null,
@@ -13620,7 +13635,7 @@
        ]
       },
       {
-       "id": 148,
+       "id": 149,
        "name": "Micron Crucial X9 SSD碟 4TB Type-C傳輸速度 讀取1050MB/s 三年保",
        "price": 11500,
        "list_price": null,
@@ -13629,56 +13644,56 @@
        ]
       },
       {
-       "id": 149,
+       "id": 150,
        "name": "Micron Crucial X10 SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵",
        "price": 4475,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 150,
+       "id": 151,
        "name": "Micron Crucial X10 SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵",
        "price": 7888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 151,
+       "id": 152,
        "name": "Micron Crucial X10 SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵",
        "price": 15500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 152,
+       "id": 153,
        "name": "Micron Crucial X10 SSD碟 6TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵",
        "price": 22380,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 153,
+       "id": 154,
        "name": "Micron Crucial X10 SSD碟 8TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵",
        "price": 28800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 154,
+       "id": 155,
        "name": "Micron Crucial X10 Pro SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 五年保",
        "price": 5200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 155,
+       "id": 156,
        "name": "Micron Crucial X10 Pro SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 五年保",
        "price": 8450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 156,
+       "id": 157,
        "name": "Micron Crucial X10 Pro SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 五年保",
        "price": 17800,
        "list_price": null,
@@ -13690,7 +13705,7 @@
      "label": "Seagate 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 159,
+       "id": 160,
        "name": "Seagate OneTouch SSD碟 1TB(星鑽銀)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援",
        "price": 4888,
        "list_price": null,
@@ -13699,7 +13714,7 @@
        ]
       },
       {
-       "id": 160,
+       "id": 161,
        "name": "Seagate OneTouch SSD碟 1TB(冰川藍)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援",
        "price": 4888,
        "list_price": null,
@@ -13713,14 +13728,14 @@
      "label": "三星 Samsung 隨身SSD碟 Type-C介面",
      "items": [
       {
-       "id": 165,
+       "id": 166,
        "name": "三星 Samsung T7 SSD碟 1TB(靛青藍)Type-C傳輸速度 讀取1050MB/s 三年保",
        "price": 7588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 167,
        "name": "三星 Samsung T7 Shield SSD碟 1TB(奶茶棕)Type-C傳輸 讀取1050MB/s防塵/防水/耐震",
        "price": 6988,
        "list_price": null,
@@ -13729,7 +13744,7 @@
        ]
       },
       {
-       "id": 167,
+       "id": 168,
        "name": "三星 Samsung T7 Shield SSD碟 1TB(靛青藍)Type-C傳輸 讀取1050MB/s防塵/防水/耐震",
        "price": 6988,
        "list_price": null,
@@ -13738,7 +13753,7 @@
        ]
       },
       {
-       "id": 168,
+       "id": 169,
        "name": "三星 Samsung T7 Shield SSD碟 1TB(星空黑)Type-C傳輸 讀取1050MB/s防塵/防水/耐震",
        "price": 6988,
        "list_price": null,
@@ -13747,21 +13762,21 @@
        ]
       },
       {
-       "id": 169,
+       "id": 170,
        "name": "三星 Samsung T7 Shield SSD碟 2TB(奶茶棕)Type-C傳輸 讀取1050MB/s~加送玻璃杯~",
        "price": 11988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 170,
+       "id": 171,
        "name": "三星 Samsung T7 Shield SSD碟 2TB(靛青藍)Type-C傳輸 讀取1050MB/s~加送玻璃杯~",
        "price": 11988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 171,
+       "id": 172,
        "name": "三星 Samsung T7 Shield SSD碟 2TB(星空黑)Type-C傳輸 讀取1050MB/s~加送玻璃杯~",
        "price": 11988,
        "list_price": null,
@@ -13773,112 +13788,112 @@
      "label": "2.5吋 - Toshiba 隨身2.5吋硬碟",
      "items": [
       {
-       "id": 173,
+       "id": 174,
        "name": "｛Toshiba Canvio Ready 4TB｝Type-A / 3年保",
        "price": 7290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 175,
        "name": "｛Toshiba Canvio Advance V10 1TB(綠)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 176,
        "name": "｛Toshiba Canvio Advance V10 1TB(黑)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 177,
        "name": "｛Toshiba Canvio Advance V10 1TB(紅)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 177,
+       "id": 178,
        "name": "｛Toshiba Canvio Advance V10 1TB(米白)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 179,
        "name": "｛Toshiba Canvio Advance V10 2TB(綠)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 179,
+       "id": 180,
        "name": "｛Toshiba Canvio Advance V10 2TB(黑)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 181,
        "name": "｛Toshiba Canvio Advance V10 2TB(紅)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 182,
        "name": "｛Toshiba Canvio Advance V10 2TB(米白)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 183,
        "name": "｛Toshiba Canvio Advance V10 4TB(綠)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 183,
+       "id": 184,
        "name": "｛Toshiba Canvio Advance V10 4TB(黑)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 185,
        "name": "｛Toshiba Canvio Advance V10 4TB(紅)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 185,
+       "id": 186,
        "name": "｛Toshiba Canvio Advance V10 4TB(米白)｝Type-A / 3年保 / 加密.備份軟體",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 186,
+       "id": 187,
        "name": "｛Toshiba Canvio Flex X2 1TB(銀)｝Type-C / 3年 / PC、行動裝置適用",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 187,
+       "id": 188,
        "name": "｛Toshiba Canvio Flex X2 2TB(銀)｝Type-C / 3年 / PC、行動裝置適用",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 188,
+       "id": 189,
        "name": "｛Toshiba Canvio Flex X2 4TB(銀)｝Type-C / 3年 / PC、行動裝置適用",
        "price": 7690,
        "list_price": null,
@@ -13890,84 +13905,84 @@
      "label": "2.5吋 - 威剛 隨身2.5吋硬碟",
      "items": [
       {
-       "id": 191,
+       "id": 192,
        "name": "｛威剛 HD710Pro 2TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保",
        "price": 4090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 192,
+       "id": 193,
        "name": "｛威剛 HD710Pro 2TB(藍)｝Type-A / 軍規 / IP68防護 / 3年保",
        "price": 4090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 193,
+       "id": 194,
        "name": "｛威剛 HD710Pro 2TB(紅)｝Type-A / 軍規 / IP68防護 / 3年保",
        "price": 4090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 194,
+       "id": 195,
        "name": "｛威剛 HD710Pro 4TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保",
        "price": 7190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 195,
+       "id": 196,
        "name": "｛威剛 HV300 1TB(黑)｝Type-A / 極輕薄 / 3年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 196,
+       "id": 197,
        "name": "｛威剛 HV300 1TB(藍)｝Type-A / 極輕薄 / 3年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 197,
+       "id": 198,
        "name": "｛威剛 HV300 1TB(白)｝Type-A / 極輕薄 / 3年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 198,
+       "id": 199,
        "name": "｛威剛 HV300 1TB(紅)｝Type-A / 極輕薄 / 3年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 199,
+       "id": 200,
        "name": "｛威剛 HV300 2TB(黑)｝Type-A / 極輕薄 / 3年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 200,
+       "id": 201,
        "name": "｛威剛 HV300 2TB(藍)｝Type-A / 極輕薄 / 3年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 201,
+       "id": 202,
        "name": "｛威剛 HV300 2TB(白)｝Type-A / 極輕薄 / 3年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 203,
        "name": "｛威剛 HV300 2TB(紅)｝Type-A / 極輕薄 / 3年保",
        "price": 3790,
        "list_price": null,
@@ -13981,14 +13996,14 @@
      "label": "2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請)",
      "items": [
       {
-       "id": 205,
+       "id": 206,
        "name": "｛Seagate Expansion 2T黑｝Type-A / 3年保",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 206,
+       "id": 207,
        "name": "｛Seagate One Touch 2T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 4188,
        "list_price": null,
@@ -13997,42 +14012,42 @@
        ]
       },
       {
-       "id": 207,
+       "id": 208,
        "name": "｛Seagate One Touch 2T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 4188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 208,
+       "id": 209,
        "name": "｛Seagate One Touch 2T太空灰｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 4188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 209,
+       "id": 210,
        "name": "｛Seagate One Touch 4T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 5888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 210,
+       "id": 211,
        "name": "｛Seagate One Touch 4T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 5888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 211,
+       "id": 212,
        "name": "｛Seagate One Touch 4T太空灰｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 5888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 212,
+       "id": 213,
        "name": "｛Seagate One Touch 5T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 6688,
        "list_price": null,
@@ -14041,7 +14056,7 @@
        ]
       },
       {
-       "id": 213,
+       "id": 214,
        "name": "｛Seagate One Touch 5T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 6688,
        "list_price": null,
@@ -14050,7 +14065,7 @@
        ]
       },
       {
-       "id": 214,
+       "id": 215,
        "name": "｛Seagate One Touch 5T太空灰｝Type-A / 硬體加密、自動備份 / 3年保",
        "price": 6688,
        "list_price": null,
@@ -14063,15 +14078,6 @@
     {
      "label": "2.5吋 - 創見 隨身2.5吋硬碟",
      "items": [
-      {
-       "id": 216,
-       "name": "創見 1TB(鐵灰) 25M3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25M3S｝",
-       "price": 3350,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
       {
        "id": 217,
        "name": "創見 1TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3P｝",
@@ -18921,24 +18927,6 @@
      "items": [
       {
        "id": 186,
-       "name": "｛華碩 ROG-ASTRAL-RTX5080-O16G-GAMING｝2790MHz/36cm/四風扇/註五年",
-       "price": 67990,
-       "list_price": null,
-       "flags": [
-        "任搭折490"
-       ]
-      },
-      {
-       "id": 187,
-       "name": "｛華碩 ROG-ASTRAL-RTX5080-O16G-WHITE｝2790MHz/36cm/四風扇/註五年/白",
-       "price": 69990,
-       "list_price": null,
-       "flags": [
-        "任搭折490"
-       ]
-      },
-      {
-       "id": 188,
        "name": "｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保",
        "price": 53990,
        "list_price": null,
@@ -18947,14 +18935,14 @@
        ]
       },
       {
-       "id": 189,
+       "id": 187,
        "name": "｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保",
        "price": 53990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 190,
+       "id": 188,
        "name": "｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保",
        "price": 54990,
        "list_price": null,
@@ -18964,7 +18952,7 @@
        ]
       },
       {
-       "id": 191,
+       "id": 189,
        "name": "｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保",
        "price": 55990,
        "list_price": null,
@@ -18973,7 +18961,7 @@
        ]
       },
       {
-       "id": 192,
+       "id": 190,
        "name": "｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年",
        "price": 61990,
        "list_price": null,
@@ -18982,7 +18970,7 @@
        ]
       },
       {
-       "id": 193,
+       "id": 191,
        "name": "｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白",
        "price": 63990,
        "list_price": null,
@@ -18991,7 +18979,7 @@
        ]
       },
       {
-       "id": 195,
+       "id": 193,
        "name": "｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -19000,7 +18988,7 @@
        ]
       },
       {
-       "id": 196,
+       "id": 194,
        "name": "｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -19009,7 +18997,7 @@
        ]
       },
       {
-       "id": 197,
+       "id": 195,
        "name": "｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保",
        "price": 55990,
        "list_price": null,
@@ -19018,7 +19006,7 @@
        ]
       },
       {
-       "id": 199,
+       "id": 197,
        "name": "｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -19028,7 +19016,7 @@
        ]
       },
       {
-       "id": 200,
+       "id": 198,
        "name": "｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色",
        "price": 54990,
        "list_price": null,
@@ -19037,14 +19025,14 @@
        ]
       },
       {
-       "id": 201,
+       "id": 199,
        "name": "｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版",
        "price": 55990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 200,
        "name": "｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年",
        "price": 52888,
        "list_price": null,
@@ -19053,7 +19041,7 @@
        ]
       },
       {
-       "id": 203,
+       "id": 201,
        "name": "｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年",
        "price": 53888,
        "list_price": null,
@@ -19062,7 +19050,7 @@
        ]
       },
       {
-       "id": 204,
+       "id": 202,
        "name": "｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪",
        "price": 53888,
        "list_price": null,
@@ -19071,7 +19059,7 @@
        ]
       },
       {
-       "id": 205,
+       "id": 203,
        "name": "｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年",
        "price": 54888,
        "list_price": null,
@@ -19089,7 +19077,7 @@
      "label": "NVIDIA 專業工作站繪圖卡",
      "items": [
       {
-       "id": 219,
+       "id": 217,
        "name": "｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固",
        "price": 9100,
        "list_price": null,
@@ -19098,7 +19086,7 @@
        ]
       },
       {
-       "id": 220,
+       "id": 218,
        "name": "｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固",
        "price": 20600,
        "list_price": null,
@@ -19107,7 +19095,7 @@
        ]
       },
       {
-       "id": 221,
+       "id": 219,
        "name": "｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固",
        "price": 289900,
        "list_price": null,
@@ -19116,7 +19104,7 @@
        ]
       },
       {
-       "id": 222,
+       "id": 220,
        "name": "｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡",
        "price": 66300,
        "list_price": null,
@@ -19125,7 +19113,7 @@
        ]
       },
       {
-       "id": 223,
+       "id": 221,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19134,7 +19122,7 @@
        ]
       },
       {
-       "id": 224,
+       "id": 222,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19143,7 +19131,7 @@
        ]
       },
       {
-       "id": 225,
+       "id": 223,
        "name": "｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡",
        "price": 189000,
        "list_price": null,
@@ -19152,7 +19140,7 @@
        ]
       },
       {
-       "id": 226,
+       "id": 224,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡",
        "price": 325000,
        "list_price": null,
@@ -19161,7 +19149,7 @@
        ]
       },
       {
-       "id": 227,
+       "id": 225,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡",
        "price": 435000,
        "list_price": null,
@@ -19170,7 +19158,7 @@
        ]
       },
       {
-       "id": 228,
+       "id": 226,
        "name": "｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級",
        "price": 575000,
        "list_price": null,
@@ -19179,7 +19167,7 @@
        ]
       },
       {
-       "id": 229,
+       "id": 227,
        "name": "[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝",
        "price": 190,
        "list_price": null,
@@ -19191,21 +19179,21 @@
      "label": "AMD Radeon RX7650GRE-8G",
      "items": [
       {
-       "id": 231,
+       "id": 229,
        "name": "｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 232,
+       "id": 230,
        "name": "｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 10390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 233,
+       "id": 231,
        "name": "｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年",
        "price": 11990,
        "list_price": null,
@@ -19217,7 +19205,7 @@
      "label": "AMD Radeon RX9060XT-8G",
      "items": [
       {
-       "id": 235,
+       "id": 233,
        "name": "｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保",
        "price": 14890,
        "list_price": null,
@@ -19226,7 +19214,7 @@
        ]
       },
       {
-       "id": 236,
+       "id": 234,
        "name": "｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固)",
        "price": 13990,
        "list_price": null,
@@ -19235,7 +19223,7 @@
        ]
       },
       {
-       "id": 237,
+       "id": 235,
        "name": "｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製",
        "price": 15290,
        "list_price": null,
@@ -19249,7 +19237,7 @@
      "label": "AMD Radeon RX9060XT-16G",
      "items": [
       {
-       "id": 239,
+       "id": 237,
        "name": "｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保",
        "price": 21000,
        "list_price": null,
@@ -19258,7 +19246,7 @@
        ]
       },
       {
-       "id": 241,
+       "id": 239,
        "name": "｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保",
        "price": 20900,
        "list_price": null,
@@ -19267,7 +19255,7 @@
        ]
       },
       {
-       "id": 242,
+       "id": 240,
        "name": "｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保",
        "price": 20890,
        "list_price": null,
@@ -19276,7 +19264,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 241,
        "name": "｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保",
        "price": 20990,
        "list_price": null,
@@ -19285,7 +19273,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 242,
        "name": "｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白",
        "price": 21890,
        "list_price": null,
@@ -19294,7 +19282,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 243,
        "name": "｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保",
        "price": 19490,
        "list_price": null,
@@ -19303,7 +19291,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 244,
        "name": "｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固",
        "price": 19990,
        "list_price": null,
@@ -19312,7 +19300,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 245,
        "name": "｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板",
        "price": 20490,
        "list_price": null,
@@ -19321,7 +19309,7 @@
        ]
       },
       {
-       "id": 248,
+       "id": 246,
        "name": "｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 20990,
        "list_price": null,
@@ -19330,7 +19318,7 @@
        ]
       },
       {
-       "id": 249,
+       "id": 247,
        "name": "｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板",
        "price": 21490,
        "list_price": null,
@@ -19339,7 +19327,7 @@
        ]
       },
       {
-       "id": 250,
+       "id": 248,
        "name": "｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製",
        "price": 20990,
        "list_price": null,
@@ -19354,7 +19342,7 @@
      "label": "AMD Radeon RX9070GRE-12G",
      "items": [
       {
-       "id": 252,
+       "id": 250,
        "name": "｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊]",
        "price": 22000,
        "list_price": null,
@@ -19363,7 +19351,7 @@
        ]
       },
       {
-       "id": 253,
+       "id": 251,
        "name": "｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保",
        "price": 21990,
        "list_price": null,
@@ -19372,7 +19360,7 @@
        ]
       },
       {
-       "id": 254,
+       "id": 252,
        "name": "｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保",
        "price": 22000,
        "list_price": null,
@@ -19381,7 +19369,7 @@
        ]
       },
       {
-       "id": 255,
+       "id": 253,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19391,7 +19379,7 @@
        ]
       },
       {
-       "id": 256,
+       "id": 254,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19400,7 +19388,7 @@
        ]
       },
       {
-       "id": 257,
+       "id": 255,
        "name": "｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板",
        "price": 21990,
        "list_price": null,
@@ -19409,7 +19397,7 @@
        ]
       },
       {
-       "id": 258,
+       "id": 256,
        "name": "｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固",
        "price": 21990,
        "list_price": null,
@@ -19418,7 +19406,7 @@
        ]
       },
       {
-       "id": 259,
+       "id": 257,
        "name": "｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年",
        "price": 22090,
        "list_price": null,
@@ -19432,7 +19420,7 @@
      "label": "AMD Radeon RX9070-16G",
      "items": [
       {
-       "id": 261,
+       "id": 259,
        "name": "｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保",
        "price": 24900,
        "list_price": null,
@@ -19441,7 +19429,7 @@
        ]
       },
       {
-       "id": 262,
+       "id": 260,
        "name": "｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保",
        "price": 25990,
        "list_price": null,
@@ -19450,7 +19438,7 @@
        ]
       },
       {
-       "id": 263,
+       "id": 261,
        "name": "｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保",
        "price": 24590,
        "list_price": null,
@@ -19464,7 +19452,7 @@
      "label": "AMD Radeon RX9070XT-16G",
      "items": [
       {
-       "id": 265,
+       "id": 263,
        "name": "｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白",
        "price": 31390,
        "list_price": null,
@@ -19473,7 +19461,7 @@
        ]
       },
       {
-       "id": 266,
+       "id": 264,
        "name": "｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保",
        "price": 32890,
        "list_price": null,
@@ -19482,7 +19470,7 @@
        ]
       },
       {
-       "id": 267,
+       "id": 265,
        "name": "｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 31290,
        "list_price": null,
@@ -19492,7 +19480,7 @@
        ]
       },
       {
-       "id": 268,
+       "id": 266,
        "name": "任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 29990,
        "list_price": null,
@@ -19502,7 +19490,7 @@
        ]
       },
       {
-       "id": 269,
+       "id": 267,
        "name": "｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板",
        "price": 31490,
        "list_price": null,
@@ -19511,7 +19499,7 @@
        ]
       },
       {
-       "id": 270,
+       "id": 268,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計",
        "price": 32990,
        "list_price": null,
@@ -19521,7 +19509,7 @@
        ]
       },
       {
-       "id": 271,
+       "id": 269,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板",
        "price": 32990,
        "list_price": null,
@@ -19530,7 +19518,7 @@
        ]
       },
       {
-       "id": 272,
+       "id": 270,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年",
        "price": 33990,
        "list_price": null,
@@ -19539,7 +19527,7 @@
        ]
       },
       {
-       "id": 273,
+       "id": 271,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白",
        "price": 34490,
        "list_price": null,
@@ -19548,7 +19536,7 @@
        ]
       },
       {
-       "id": 274,
+       "id": 272,
        "name": "｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製",
        "price": 30990,
        "list_price": null,
@@ -19557,7 +19545,7 @@
        ]
       },
       {
-       "id": 275,
+       "id": 273,
        "name": "｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製",
        "price": 31490,
        "list_price": null,
@@ -19566,7 +19554,7 @@
        ]
       },
       {
-       "id": 276,
+       "id": 274,
        "name": "｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板",
        "price": 31490,
        "list_price": null,
@@ -19575,7 +19563,7 @@
        ]
       },
       {
-       "id": 277,
+       "id": 275,
        "name": "｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製",
        "price": 32990,
        "list_price": null,
@@ -19589,7 +19577,7 @@
      "label": "AMD 專業級/工作站級 顯卡",
      "items": [
       {
-       "id": 279,
+       "id": 277,
        "name": "｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡",
        "price": 59990,
        "list_price": null,

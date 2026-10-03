@@ -151,7 +151,7 @@ cat_id,category,group,id,name,price,list_price,flags
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,228,｛MSI PRO AP272P 14M 632TW｝27吋 / i5-14400 / 8G / 512G / WIN11 / 黑,30900,,
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,229,｛MSI PRO AP272P 14M 497TW｝27吋 / i7-14700 / 16G / 1TB / WIN11 Pro / 白,40900,,
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,231,｛MSI PRO AP222T 14MA 660TW｝21.5吋 / G7400 / 8G / 128G / WIN11 Pro / 白,22900,,
-1,品牌小主機、AIO｜VR虛擬,華碩 ASUS AIO 主機,234,｛ASUS V440VAK-10UWPC001W｝23.8吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 10/31 23:59,28990,,下殺
+1,品牌小主機、AIO｜VR虛擬,華碩 ASUS AIO 主機,234,｛ASUS V440VAK-10UWPC001W｝23.8吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 10/31 23:59,28990,29990,價格異動 下殺
 1,品牌小主機、AIO｜VR虛擬,華碩 ASUS AIO 主機,235,｛ASUS V440VAK-210HWPC002W｝23.8吋 / Core 5 210H / 16G / 1T / WIN11 / 白▼下殺到 10/31 23:59,35990,,下殺
 1,品牌小主機、AIO｜VR虛擬,華碩 ASUS AIO 主機,236,｛ASUS V470VAK-10UWPE004W｝27吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 10/31 23:59,29990,,下殺
 1,品牌小主機、AIO｜VR虛擬,華碩 ASUS AIO 主機,237,｛ASUS V470VAK-210HWPE001W｝27吋 / Core 5 210H / 16G / 1T / WIN11 / 白,37990,,
@@ -424,105 +424,106 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,356,微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝,36900,,
 2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,357,微星 Modern 14S AI+ Ultra 5-322/16G/512G/14吋 銀｛G3MG-026TW｝,34900,,
 2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,358,微星 Prestige 14 AI+ Ultra 7-355/32G/1T/14吋/WIN11 Pro 黑｛D3MG-031TW｝,56000,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,359,微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝,74900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,361,微星 Modern 15 i3-1315U/16G/512G/15.6吋 灰｛F13MXG-1025TW｝▼下殺到 11/1 23:59,16999,21900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,362,微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝,31900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,363,微星 Modern 15 Core 7-150U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1041TW｝,33900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,364,微星 VenturePro 15 Core 7-240H/16G/512G/RTX5050/15.6吋/WIN11 Pro 灰｛A2RWEG-1246TW｝,52900,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,366,微星 Modern 16S AI+ Ultra 7-355/16G/1T/16吋 灰｛G3MG-030TW｝,40900,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,367,微星 Prestige 16 AI+ Ultra X7-358H/32G/1T/16吋 金｛C3MG-233TW｝▼下殺到 11/1 23:59,64999,69900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,368,微星 Prestige 16 Flip AI+ Ultra X9-388H/32G/1T/16吋 灰｛C3MTG-041TW｝【翻轉觸控】,74900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,370,微星 Katana 15 i7-14650HX/RTX5060/16G/1T/15.6吋 黑｛B14WGK-1071TW｝▼下殺到 11/1 23:59,52999,54900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,371,微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝▼下殺到 11/1 23:59,56999,59900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,372,微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身),32900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,373,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝▼下殺到 11/1 23:59,33999,34900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,374,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝▼下殺到 11/1 23:59,34999,39900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,375,微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝,59900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,376,微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身)▼下殺到 11/1 23:59,33999,34900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,377,微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝▼下殺到 11/1 23:59,29999,35900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,378,微星 Cyborg 15 Core 5-210H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-891TW｝▼下殺到 11/1 23:59,37999,46900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,379,微星 Cyborg 15 Core 7-240H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2095TW｝,33900,,熱賣
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,380,微星 Cyborg 15 Core 7-240H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-1242TW｝,39999,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,381,微星 Cyborg 15 MAX i7-13620H/RTX5050/16G/512G/15.6吋 灰｛C13WE-054TW｝▼下殺到 11/1 23:59,42999,44900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,382,微星 Cyborg 15 MAX Core 7-240H/RTX5060/16G/512G/15.6吋 灰｛C2WF-007TW｝▼下殺到 11/1 23:59,46999,49900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,383,微星 Cyborg 15 MAX Core 7-240H/RTX5070/16G/512G/15.6吋 灰｛C2WG-006TW｝▼下殺到 11/1 23:59,49999,52900,熱賣 價格異動 下殺
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,385,微星 Crosshair A16 HX R9-8940HX/RTX5060/16G/1T/16吋 黑｛E8WFK-015TW｝,53900,,熱賣
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,386,微星 Crosshair A16 HX R9-8940HX/RTX5070/16G/1T/16吋｛E8WGK-017TW｝,65900,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,387,微星 Crosshair 16 HX i7-14650HX/RTX5060/16G/1T/16吋 黑｛E14WFK-013TW｝▼下殺到 11/1 23:59,57999,59900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,388,微星 Crosshair 16 HX i9-14900HX/RTX5060/16G/1T/16吋 黑｛E14WFK-014TW｝▼下殺到 11/1 23:59,62999,64900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,389,微星 Crosshair 16 HX i7-14650HX/RTX5070/16G/1T/16吋 黑｛E14WGK-002TW｝▼下殺到 11/1 23:59,64999,67900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,390,微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5060/16G/512G/16吋 黑｛E2WFK-024TW｝,62900,,熱賣
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,391,微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5070/16G/1T/16吋 黑｛E2WGXK-016TW｝,74900,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,392,微星 Stealth 16 AI Ultra 7-255H/RTX5070/16G/1T/16吋 黑｛A2HWGG-093TW｝,64900,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,393,微星 Stealth 16 AI+ Ultra 9-386H/RTX5060/16G/1T/16吋 黑｛B3WF-005TW｝,85490,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,394,微星 Stealth 16 AI+ Ultra 9-386H/RTX5080/32G/1T/16吋 黑｛B3WI-006TW｝,129000,,酷幣5000
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,395,微星 Raider 16 Ultra 9-275HX/RTX5080/16G/1T/16吋 黑｛B2WI-025TW｝,119000,,
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,396,微星 Raider 16 MAX Ultra 9-290HX+/RTX5080/32G/2T/16吋 黑｛B2WI-028TW｝,144900,,熱賣
-2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,397,微星 Raider 16 MAX Ultra 9-290HX+/RTX5090/32G/2T/16吋 黑｛B2WJ-027TW｝,159900,,熱賣
-2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,399,微星 Katana 17 i7-14700HX/RTX5060/16G/1T/17.3吋 黑｛B14WFK-288TW｝▼下殺到 11/1 23:59,49999,59900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,400,微星 Cyborg 17 Core 7-240H/RTX5050/16G/512G/17.3吋 黑｛B2RWEKG-425TW｝,43900,,
-2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,401,微星 Cyborg 17 Core 7-240H/RTX5060/16G/512G/17.3吋 黑｛B2RWFKG-426TW｝,46900,,
-2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,402,微星 Crosshair 17 HX AI Ultra 7-255HX/RTX5060/16G/1T/17.3吋 黑｛D2XWFKG-010TW｝▼下殺到 11/1 23:59,57999,62900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,404,微星 Crosshair 18 HX AI Ultra 9-275HX/RTX5060/16G/1T/18吋 黑｛A2XWFKG-058TW｝▼下殺到 11/1 23:59,64999,67900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,405,微星 Raider A18 HX Ryzen 9-9955HX3D/RTX5090/64G/2T/18吋 黑｛A9WJG-043TW｝,168000,,酷幣8000
-2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,406,微星 Titan 18 HX Ultra 9-290HX+/RTX5090/64G/2T/18吋 黑｛A2WJ-1041TW｝,199900,,酷幣3900
-2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,407,微星 Titan 18 HX Ultra 9-290HX+/RTX5090/96G/4T/18吋 天龍座｛A2WJ-1215TW｝,229900,,
-2,筆電｜平板｜穿戴配件,16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電,410,LG Gram Ultra 5-226V/16G/512G/16吋 白｛16Z90TL-G.AS54C2｝,36300,,熱賣
-2,筆電｜平板｜穿戴配件,16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電,411,LG Gram Ultra 5-226V/16G/512G/16吋 黑｛16Z90TL-G.AS55C2｝,36300,,熱賣
-2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,413,LG Gram Pro Ultra 7-355/32G/1T/16吋 純淨白｛16Z90U-G.AU87C2｝,102500,,
-2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,414,LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝,111500,,
-2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,415,LG Gram Pro Ultra X7-358H/32G/1T/16吋 星曜黑｛16Z90U-K.AUB8C2｝,111500,,
-2,筆電｜平板｜穿戴配件,17 吋 LG Gram 高科技奈米碳鎂通過美國軍規測試,417,LG Gram Pro Ultra 7-355/32G/1T/17吋 曜石黑｛17Z90U-G.AU88C2｝,106500,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 3,420,HP OmniBook 3 U5-325/16G/512G/14吋 冰川銀｛14-hs0018TU｝,39900,,
-2,筆電｜平板｜穿戴配件,16 吋 HP OmniBook 3,422,HP OmniBook 3 C5-120U/16G/512G/16吋 冰川銀｛16-bu0029TU｝,34900,,
-2,筆電｜平板｜穿戴配件,17 吋 HP OmniBook 3,424,HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝,36900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,426,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝,32900,,熱賣
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,427,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝,32900,,熱賣
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,428,HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝,37900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,429,HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝,41900,,
-2,筆電｜平板｜穿戴配件,13 吋 HP OmniBook 7系列,431,HP OmniBook 7 Ryzen AI 5 340/16G/1T/13吋 匠心銀｛13-bg1090AU｝,33900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列,434,HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝,54900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook UltraNGAI 觸控系列,436,HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝,74900,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,438,HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝,35999,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,439,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝,61888,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,441,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝,72900,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,442,HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝,79900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,446,HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝,35900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,447,【升級延保加價購】HP ZBook Firefly G11A 升級3年保,36899,,
-2,筆電｜平板｜穿戴配件,16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列,450,HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保,57900,,
-2,筆電｜平板｜穿戴配件,筆電周邊,453,3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒,390,,
-2,筆電｜平板｜穿戴配件,快速充電器,455,｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線,3390,,
-2,筆電｜平板｜穿戴配件,快速充電器,456,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
-2,筆電｜平板｜穿戴配件,快速充電器,457,台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固),299,,
-2,筆電｜平板｜穿戴配件,快速充電器,458,｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0,990,,
-2,筆電｜平板｜穿戴配件,快速充電器,461,｛Gigastone 33W PD-6330W｝急速雙孔充電器 USB(1A1C) / PD / QC,399,,
-2,筆電｜平板｜穿戴配件,快速充電器,462,｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線,599,,
-2,筆電｜平板｜穿戴配件,快速充電器,463,｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),549,,
-2,筆電｜平板｜穿戴配件,快速充電器,464,｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),699,,
-2,筆電｜平板｜穿戴配件,快速充電器,465,｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白),899,,
-2,筆電｜平板｜穿戴配件,快速充電器,466,【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝▼下殺到 10/13 23:59,999,1398,價格異動 下殺
-2,筆電｜平板｜穿戴配件,快速充電器,467,｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線,1499,,
-2,筆電｜平板｜穿戴配件,快速充電器,468,｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線,1699,,
-2,筆電｜平板｜穿戴配件,快速充電器,469,｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線,2499,,
-2,筆電｜平板｜穿戴配件,快速充電器,470,｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座,1299,,
-2,筆電｜平板｜穿戴配件,快速充電器,471,【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器,1848,,
-2,筆電｜平板｜穿戴配件,快速充電器,472,【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】,2598,,
-2,筆電｜平板｜穿戴配件,快速充電器,473,｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座,1399,,
-2,筆電｜平板｜穿戴配件,快速充電器,474,｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑),599,,
-2,筆電｜平板｜穿戴配件,行動電源,477,｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,429,,
-2,筆電｜平板｜穿戴配件,行動電源,478,｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】,599,,
-2,筆電｜平板｜穿戴配件,行動電源,479,｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】,999,,
-2,筆電｜平板｜穿戴配件,行動電源,481,｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
-2,筆電｜平板｜穿戴配件,行動電源,482,【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,483,【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,484,｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】▼下殺到 10/31 23:59,499,599,價格異動 下殺
-2,筆電｜平板｜穿戴配件,行動電源,485,【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,486,【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,487,｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,499,,
-2,筆電｜平板｜穿戴配件,行動電源,488,｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】,659,,
-2,筆電｜平板｜穿戴配件,行動電源,489,【兩件優惠】｛Gigastone QP-10200B｝【兩件】,1318,,
-2,筆電｜平板｜穿戴配件,行動電源,490,｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】,399,,
-2,筆電｜平板｜穿戴配件,行動電源,491,｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線,1299,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,359,微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝,64900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,360,微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝,74900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,362,微星 Modern 15 i3-1315U/16G/512G/15.6吋 灰｛F13MXG-1025TW｝▼下殺到 11/1 23:59,16999,21900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,363,微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝,31900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,364,微星 Modern 15 Core 7-150U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1041TW｝,33900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,365,微星 VenturePro 15 Core 7-240H/16G/512G/RTX5050/15.6吋/WIN11 Pro 灰｛A2RWEG-1246TW｝,52900,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,367,微星 Modern 16S AI+ Ultra 7-355/16G/1T/16吋 灰｛G3MG-030TW｝,40900,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,368,微星 Prestige 16 AI+ Ultra X7-358H/32G/1T/16吋 金｛C3MG-233TW｝▼下殺到 11/1 23:59,64999,69900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 微星 - 輕薄商務系列 Prestige / Modern S,369,微星 Prestige 16 Flip AI+ Ultra X9-388H/32G/1T/16吋 灰｛C3MTG-041TW｝【翻轉觸控】,74900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,371,微星 Katana 15 i7-14650HX/RTX5060/16G/1T/15.6吋 黑｛B14WGK-1071TW｝▼下殺到 11/1 23:59,52999,54900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,372,微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝▼下殺到 11/1 23:59,56999,59900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,373,微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身),32900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,374,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝▼下殺到 11/1 23:59,33999,34900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,375,微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝▼下殺到 11/1 23:59,34999,39900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,376,微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝,59900,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,377,微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身)▼下殺到 11/1 23:59,33999,34900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,378,微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝▼下殺到 11/1 23:59,29999,35900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,379,微星 Cyborg 15 Core 5-210H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-891TW｝▼下殺到 11/1 23:59,37999,46900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,380,微星 Cyborg 15 Core 7-240H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2095TW｝,33900,,熱賣
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,381,微星 Cyborg 15 Core 7-240H/RTX5060/16G/512G/15.6吋 黑｛B2RWFKG-1242TW｝,39999,,
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,382,微星 Cyborg 15 MAX i7-13620H/RTX5050/16G/512G/15.6吋 灰｛C13WE-054TW｝▼下殺到 11/1 23:59,42999,44900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,383,微星 Cyborg 15 MAX Core 7-240H/RTX5060/16G/512G/15.6吋 灰｛C2WF-007TW｝▼下殺到 11/1 23:59,46999,49900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX,384,微星 Cyborg 15 MAX Core 7-240H/RTX5070/16G/512G/15.6吋 灰｛C2WG-006TW｝▼下殺到 11/1 23:59,49999,52900,熱賣 價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,386,微星 Crosshair A16 HX R9-8940HX/RTX5060/16G/1T/16吋 黑｛E8WFK-015TW｝,53900,,熱賣
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,387,微星 Crosshair A16 HX R9-8940HX/RTX5070/16G/1T/16吋｛E8WGK-017TW｝,65900,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,388,微星 Crosshair 16 HX i7-14650HX/RTX5060/16G/1T/16吋 黑｛E14WFK-013TW｝▼下殺到 11/1 23:59,57999,59900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,389,微星 Crosshair 16 HX i9-14900HX/RTX5060/16G/1T/16吋 黑｛E14WFK-014TW｝▼下殺到 11/1 23:59,62999,64900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,390,微星 Crosshair 16 HX i7-14650HX/RTX5070/16G/1T/16吋 黑｛E14WGK-002TW｝▼下殺到 11/1 23:59,64999,67900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,391,微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5060/16G/512G/16吋 黑｛E2WFK-024TW｝,62900,,熱賣
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,392,微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5070/16G/1T/16吋 黑｛E2WGXK-016TW｝,74900,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,393,微星 Stealth 16 AI Ultra 7-255H/RTX5070/16G/1T/16吋 黑｛A2HWGG-093TW｝,64900,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,394,微星 Stealth 16 AI+ Ultra 9-386H/RTX5060/16G/1T/16吋 黑｛B3WF-005TW｝,85490,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,395,微星 Stealth 16 AI+ Ultra 9-386H/RTX5080/32G/1T/16吋 黑｛B3WI-006TW｝,129000,,酷幣5000
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,396,微星 Raider 16 Ultra 9-275HX/RTX5080/16G/1T/16吋 黑｛B2WI-025TW｝,119000,,
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,397,微星 Raider 16 MAX Ultra 9-290HX+/RTX5080/32G/2T/16吋 黑｛B2WI-028TW｝,144900,,熱賣
+2,筆電｜平板｜穿戴配件,16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX,398,微星 Raider 16 MAX Ultra 9-290HX+/RTX5090/32G/2T/16吋 黑｛B2WJ-027TW｝,159900,,熱賣
+2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,400,微星 Katana 17 i7-14700HX/RTX5060/16G/1T/17.3吋 黑｛B14WFK-288TW｝▼下殺到 11/1 23:59,49999,59900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,401,微星 Cyborg 17 Core 7-240H/RTX5050/16G/512G/17.3吋 黑｛B2RWEKG-425TW｝,43900,,
+2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,402,微星 Cyborg 17 Core 7-240H/RTX5060/16G/512G/17.3吋 黑｛B2RWFKG-426TW｝,46900,,
+2,筆電｜平板｜穿戴配件,17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair,403,微星 Crosshair 17 HX AI Ultra 7-255HX/RTX5060/16G/1T/17.3吋 黑｛D2XWFKG-010TW｝▼下殺到 11/1 23:59,57999,62900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,405,微星 Crosshair 18 HX AI Ultra 9-275HX/RTX5060/16G/1T/18吋 黑｛A2XWFKG-058TW｝▼下殺到 11/1 23:59,64999,67900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,406,微星 Raider A18 HX Ryzen 9-9955HX3D/RTX5090/64G/2T/18吋 黑｛A9WJG-043TW｝,168000,,酷幣8000
+2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,407,微星 Titan 18 HX Ultra 9-290HX+/RTX5090/64G/2T/18吋 黑｛A2WJ-1041TW｝,199900,,酷幣3900
+2,筆電｜平板｜穿戴配件,18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主,408,微星 Titan 18 HX Ultra 9-290HX+/RTX5090/96G/4T/18吋 天龍座｛A2WJ-1215TW｝,229900,,
+2,筆電｜平板｜穿戴配件,16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電,411,LG Gram Ultra 5-226V/16G/512G/16吋 白｛16Z90TL-G.AS54C2｝,36300,,熱賣
+2,筆電｜平板｜穿戴配件,16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電,412,LG Gram Ultra 5-226V/16G/512G/16吋 黑｛16Z90TL-G.AS55C2｝,36300,,熱賣
+2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,414,LG Gram Pro Ultra 7-355/32G/1T/16吋 純淨白｛16Z90U-G.AU87C2｝,102500,,
+2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,415,LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝,111500,,
+2,筆電｜平板｜穿戴配件,16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅,416,LG Gram Pro Ultra X7-358H/32G/1T/16吋 星曜黑｛16Z90U-K.AUB8C2｝,111500,,
+2,筆電｜平板｜穿戴配件,17 吋 LG Gram 高科技奈米碳鎂通過美國軍規測試,418,LG Gram Pro Ultra 7-355/32G/1T/17吋 曜石黑｛17Z90U-G.AU88C2｝,106500,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 3,421,HP OmniBook 3 U5-325/16G/512G/14吋 冰川銀｛14-hs0018TU｝,39900,,
+2,筆電｜平板｜穿戴配件,16 吋 HP OmniBook 3,423,HP OmniBook 3 C5-120U/16G/512G/16吋 冰川銀｛16-bu0029TU｝,34900,,
+2,筆電｜平板｜穿戴配件,17 吋 HP OmniBook 3,425,HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝,36900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,427,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝,32900,,熱賣
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,428,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝,32900,,熱賣
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,429,HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝,37900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,430,HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝,41900,,
+2,筆電｜平板｜穿戴配件,13 吋 HP OmniBook 7系列,432,HP OmniBook 7 Ryzen AI 5 340/16G/1T/13吋 匠心銀｛13-bg1090AU｝,33900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列,435,HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝,54900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook UltraNGAI 觸控系列,437,HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝,74900,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,439,HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝,35999,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,440,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝,61888,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,442,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝,72900,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,443,HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝,79900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,447,HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝,35900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,448,【升級延保加價購】HP ZBook Firefly G11A 升級3年保,36899,,
+2,筆電｜平板｜穿戴配件,16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列,451,HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保,57900,,
+2,筆電｜平板｜穿戴配件,筆電周邊,454,3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒,390,,
+2,筆電｜平板｜穿戴配件,快速充電器,456,｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線,3390,,
+2,筆電｜平板｜穿戴配件,快速充電器,457,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
+2,筆電｜平板｜穿戴配件,快速充電器,458,台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固),299,,
+2,筆電｜平板｜穿戴配件,快速充電器,459,｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0,990,,
+2,筆電｜平板｜穿戴配件,快速充電器,462,｛Gigastone 33W PD-6330W｝急速雙孔充電器 USB(1A1C) / PD / QC,399,,
+2,筆電｜平板｜穿戴配件,快速充電器,463,｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線,599,,
+2,筆電｜平板｜穿戴配件,快速充電器,464,｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),549,,
+2,筆電｜平板｜穿戴配件,快速充電器,465,｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),699,,
+2,筆電｜平板｜穿戴配件,快速充電器,466,｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白),899,,
+2,筆電｜平板｜穿戴配件,快速充電器,467,【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝▼下殺到 10/13 23:59,999,1398,價格異動 下殺
+2,筆電｜平板｜穿戴配件,快速充電器,468,｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線,1499,,
+2,筆電｜平板｜穿戴配件,快速充電器,469,｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線,1699,,
+2,筆電｜平板｜穿戴配件,快速充電器,470,｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線,2499,,
+2,筆電｜平板｜穿戴配件,快速充電器,471,｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座,1299,,
+2,筆電｜平板｜穿戴配件,快速充電器,472,【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器,1848,,
+2,筆電｜平板｜穿戴配件,快速充電器,473,【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】,2598,,
+2,筆電｜平板｜穿戴配件,快速充電器,474,｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座,1399,,
+2,筆電｜平板｜穿戴配件,快速充電器,475,｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑),599,,
+2,筆電｜平板｜穿戴配件,行動電源,478,｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,429,,
+2,筆電｜平板｜穿戴配件,行動電源,479,｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】,599,,
+2,筆電｜平板｜穿戴配件,行動電源,480,｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】,999,,
+2,筆電｜平板｜穿戴配件,行動電源,482,｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
+2,筆電｜平板｜穿戴配件,行動電源,483,【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,484,【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,485,｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】▼下殺到 10/31 23:59,499,599,價格異動 下殺
+2,筆電｜平板｜穿戴配件,行動電源,486,【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,487,【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,488,｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,499,,
+2,筆電｜平板｜穿戴配件,行動電源,489,｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】,659,,
+2,筆電｜平板｜穿戴配件,行動電源,490,【兩件優惠】｛Gigastone QP-10200B｝【兩件】,1318,,
+2,筆電｜平板｜穿戴配件,行動電源,491,｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】,399,,
+2,筆電｜平板｜穿戴配件,行動電源,492,｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線,1299,,
 3,酷！PC 套裝產線,套裝必搭優惠專區,2,【套裝加購1台限購1】海盜船 Vengeance 16G D4-3200 (CMK16GX4M1E3200C16),4299,,限購
 3,酷！PC 套裝產線,套裝必搭優惠專區,3,【套裝加購1台限購1】海盜船 Vengeance 16G D5-6000 (CMK16GX5M1D6000Z38),8500,,限購
 3,酷！PC 套裝產線,套裝必搭優惠專區,4,微星 戰略組合包(GK20鍵盤+Versa 300無線滑鼠+GD21鼠墊+Maestro 300耳機)原價5109,2890,,
@@ -902,7 +903,7 @@ cat_id,category,group,id,name,price,list_price,flags
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),217,｛微星 B550M-A PRO｝M-ATX/1D1H/LAN 1G/註四年/2DIMM/4+2相*尾盤,2390,,
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),218,｛微星 PRO B550M-B｝M-ATX/LAN 1G/註四年/2DIMM/4+2相,2690,,任搭折190
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),219,｛微星 PRO B550M-P｝M-ATX/LAN 1G/註四年/4DIMM/4+2+1相,2790,,
-5,主機板 MB,AMD B550 / AM4腳位(DDR4),220,｛微星 PRO B550M-P WIFI6E｝M-ATX/LAN 1G+無線/註四年/4DIMM/4+2+1相,3090,,
+5,主機板 MB,AMD B550 / AM4腳位(DDR4),220,｛微星 PRO B550M-P WIFI6E｝M-ATX/LAN 1G+無線/註四年/4DIMM/4+2+1相,2990,,
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),221,｛微星 B550M PRO-VDH WIFI｝M-ATX/Realtek LAN+ac/註四年/4+2+1相,3390,,
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),222,｛微星 B550M GAMING PLUS WIFI6E｝M-ATX/LAN 1G+無線/註五年/4+2+1相,3990,,
 5,主機板 MB,AMD B550 / AM4腳位(DDR4),223,｛華擎 B550M-ITX/ac｝ITX/1H1P/LAN 1G/ac+BT/註四年/8相,3990,,任搭折100
@@ -958,7 +959,7 @@ cat_id,category,group,id,name,price,list_price,flags
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),277,｛技嘉 B850 AORUS ELITE WIFI7｝/ATX/2.5G+Wi-Fi7/註五年/14+2+2相,7990,,任搭折500
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),278,｛技嘉 B850 AORUS ELITE WIFI7 ICE｝冰魄白 ATX/2.5G+Wi-Fi7/註五年/14+2+2相,7990,,任搭折500
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),279,｛技嘉 B850 AORUS STEALTH｝背插/ATX/5G+Wi-Fi7/註五年/14+2+2相,7990,,任搭折500
-5,主機板 MB,AMD B850 / AM5腳位(DDR5),280,｛技嘉 B850 AORUS STEALTH ICE｝背插/ATX/5G+Wi-Fi7/白/註五年/白/14+2+2相,8290,,熱賣 任搭折500
+5,主機板 MB,AMD B850 / AM5腳位(DDR5),280,｛技嘉 B850 AORUS STEALTH ICE｝背插/ATX/5G+Wi-Fi7/白/註五年/白/14+2+2相,7990,,熱賣 任搭折200
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),281,｛技嘉 B850 AORUS ELITE-P ICE｝雕妹/ATX/5G+Wi-Fi7/16+2+2相,8490,,任搭折500
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),282,｛微星 MPG B850I EDGE TI WIFI｝Mini-ITX/5G+Wi-Fi7/註五年/8+2+1相,8990,,任搭折100
 5,主機板 MB,AMD B850 / AM5腳位(DDR5),283,｛微星 PRO B850M-G｝M-ATX/5G/註四年/2DIMM/7+2+1相,3790,,
@@ -1554,141 +1555,141 @@ cat_id,category,group,id,name,price,list_price,flags
 9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,54,金士頓 Canvas Select+ 512G micro SDXC / R:150 / 終保 / 附轉卡｛SDCS3/512GB｝,2780,,
 9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,55,金士頓 Canvas Go 128G micro SDXC / R:200 / 終保 / 附轉卡｛SDCG4/128GB｝,1250,,
 9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,56,金士頓 Canvas Go 256G micro SDXC / R:200 W:160 / 終保 / 附轉卡｛SDCG4/256GB｝,2449,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,57,｛威剛 Premier 32G micro SDHC｝R:100 / 終保 / 附轉卡,305,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,58,｛威剛 Premier 64G micro SDXC｝R:100 / 終保 / 附轉卡,389,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,59,｛威剛 Premier 128G micro SDXC｝R:100 / 終保 / 附轉卡,589,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,60,｛威剛 Premier 256G micro SDXC｝R:100 / 終保 / 附轉卡,1088,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,62,｛威剛 High Endurance 64G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,799,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,63,｛威剛 High Endurance 128G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,1499,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,64,｛威剛 High Endurance 256G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,2099,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,65,｛威剛 High Endurance 512G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,3999,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,66,創見 300S 32G micro SDHC / R:100 / 5年保 / 附轉卡｛TS32GUSD300S-A｝,599,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,67,創見 300S 64G micro SDXC / R:100 / 5年保 / 附轉卡｛TS64GUSD300S-A｝,680,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,68,｛Lexar 633x 64G｝High-Performance micro SDXC / R:100 / 10年保 / 附轉卡,489,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,69,｛Lexar 633x 128G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡,899,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,70,｛Lexar 633x 256G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡,1579,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,71,｛Lexar Professional Silver Plus microSDXC 64G｝R:205 W:100 / 終保 / 附轉卡,799,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,72,｛Lexar Professional Silver Plus microSDXC 128G｝R:205 W:150 / 終保 / 附轉卡,1349,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,74,｛GIGASTONE Gaming Plus 32G｝micro SDHC / R:90 W:20 / 5年保 / 附轉卡,258,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,75,｛GIGASTONE Gaming Plus 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡,358,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,76,｛GIGASTONE Gaming Plus 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡,578,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,77,｛GIGASTONE Gaming Plus 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,1058,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,78,｛GIGASTONE Gaming Plus 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,2288,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,79,｛GIGASTONE Gaming Plus 1TB｝micro SDXC / R:150 W:120 / 5年保 / 附轉卡,4988,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,81,｛GIGASTONE Data Recovery 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡,498,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,82,｛GIGASTONE Data Recovery 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡,898,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,83,｛GIGASTONE Data Recovery 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,1638,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,84,｛GIGASTONE Data Recovery 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,3088,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,85,｛GIGASTONE Data Recovery 1TB｝micro SDXC / R:160 W:140 / 5年保 / 附轉卡,5788,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,MicroSDXC Express 記憶卡(Switch 2專用),87,｛Lexar PLAY PRO Express 512G｝超高速記憶卡 / R:900 W:600 / 終保,3550,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,MicroSDXC Express 記憶卡(Switch 2專用),88,｛Lexar PLAY PRO Express 1TB｝超高速記憶卡 / R:900 W:600 / 終保,7299,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,91,｛威剛 32G SDHC｝U1 C10 V10 / R:100 / 終保,399,,
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,92,｛威剛 64G SDXC｝U1 C10 V10 / R:100 / 終保,499,,
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,93,｛Lexar Professional Silver Plus SDXC 128G｝R:205 W:150 / 終保,1399,,
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,94,創見 300S 32G SDHC / R:100 / 5年保｛TS32GSDC300S｝,789,,
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,95,創見 300S 64G SDXC / R:100 / 5年保｛TS64GSDC300S｝,850,,
-9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,96,金士頓 Canvas Go 256G SDXC / R:200 W:160 / 終保｛SDG4/256GB｝,2040,,
-9,隨身碟｜隨身硬碟｜記憶卡,CFexpress記憶卡,98,｛GIGASTONE 512G CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】,9999,,
-9,隨身碟｜隨身硬碟｜記憶卡,CFexpress記憶卡,99,｛GIGASTONE 1TB CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】,22999,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,101,｛威剛 SC750 SSD碟 500G｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,2690,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,102,｛威剛 SC750 SSD碟 1TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4800,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,103,｛威剛 SC750 SSD碟 2TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,9200,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,104,｛威剛 SC735 SSD碟 1TB｝黑藍/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4850,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,105,｛威剛 SC735 SSD碟 1TB｝黑灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4850,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,106,｛威剛 SE880 SSD碟 500G｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,2688,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,107,｛威剛 SE880 SSD碟 500G｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,2688,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,108,｛威剛 SE880 SSD碟 1TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,4880,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,109,｛威剛 SE880 SSD碟 1TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,4880,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,110,｛威剛 SE880 SSD碟 2TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,9400,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,111,｛威剛 SE880 SSD碟 2TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,9400,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,112,｛威剛 SE880 SSD碟 4TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,18500,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,113,｛威剛 SE880 SSD碟 4TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,18500,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,114,｛威剛 SD810 SSD碟 500G｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,115,｛威剛 SD810 SSD碟 500G｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,116,｛威剛 SD810 SSD碟 1TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,4888,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,117,｛威剛 SD810 SSD碟 1TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,4888,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,118,｛威剛 SD810 SSD碟 2TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,9600,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,119,｛威剛 SD810 SSD碟 2TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,9600,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,120,｛威剛 SD810 SSD碟 4TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,19000,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,121,｛威剛 SD810 SSD碟 4TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,19000,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,122,｛威剛 SD820 SSD碟 1TB｝藍/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟,5199,,
-9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,123,｛威剛 SD820 SSD碟 1TB｝灰/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟,5199,,
-9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,126,金士頓 XS1000 SSD碟 1TB Type-C傳輸速度(附C TO A傳輸線)讀取1050MB/s,4650,,
-9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,127,金士頓 XS1000R(紅色) SSD碟 1TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s,4650,,
-9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,128,金士頓 XS1000R(紅色) SSD碟 2TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s,6800,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,129,金士頓 雙頭 SSD碟 1TB Type-A/C雙介面 讀取1050MB/s行動固態硬碟,4450,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,131,海盜船 EX300U 1TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟 (CSSD-EX300U1TB),4200,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,132,海盜船 EX300U 2TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U2TB),8400,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,133,海盜船 EX300U 4TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U4TB),14700,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,134,海盜船 EX400U 1TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U1TB),8300,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,135,海盜船 EX400U 2TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U2TB),12000,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,136,海盜船 EX400U 4TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U4TB),18500,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,137,海盜船 EX400US 1TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US1TB),8800,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,138,海盜船 EX400US 2TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US2TB),12500,,
-9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,139,海盜船 EX400US 4TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US4TB),18800,,
-9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,141,致態ZhiTai 致態靈·潮流版SSD碟 1TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震,3899,4299,價格異動 下殺
-9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,142,致態ZhiTai 致態靈·潮流版SSD碟 1TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震,3899,4299,價格異動 下殺
-9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,143,致態ZhiTai 致態靈·潮流版SSD碟 2TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震,6799,8899,價格異動 下殺
-9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,144,致態ZhiTai 致態靈·潮流版SSD碟 2TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震,6799,8899,價格異動 下殺
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,146,Micron Crucial X9 SSD碟 1TB Type-C傳輸速度 讀取1050MB/s 三年保,3399,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,147,Micron Crucial X9 SSD碟 2TB Type-C傳輸速度 讀取1050MB/s 三年保,5999,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,148,Micron Crucial X9 SSD碟 4TB Type-C傳輸速度 讀取1050MB/s 三年保,11500,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,149,Micron Crucial X10 SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,4475,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,150,Micron Crucial X10 SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,7888,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,151,Micron Crucial X10 SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,15500,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,152,Micron Crucial X10 SSD碟 6TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,22380,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,153,Micron Crucial X10 SSD碟 8TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,28800,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,154,Micron Crucial X10 Pro SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 五年保,5200,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,155,Micron Crucial X10 Pro SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 五年保,8450,,
-9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,156,Micron Crucial X10 Pro SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 五年保,17800,,
-9,隨身碟｜隨身硬碟｜記憶卡,Seagate 隨身SSD碟 Type-C介面,159,Seagate OneTouch SSD碟 1TB(星鑽銀)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援,4888,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,Seagate 隨身SSD碟 Type-C介面,160,Seagate OneTouch SSD碟 1TB(冰川藍)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援,4888,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,165,三星 Samsung T7 SSD碟 1TB(靛青藍)Type-C傳輸速度 讀取1050MB/s 三年保,7588,,
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,166,三星 Samsung T7 Shield SSD碟 1TB(奶茶棕)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,167,三星 Samsung T7 Shield SSD碟 1TB(靛青藍)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,168,三星 Samsung T7 Shield SSD碟 1TB(星空黑)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,169,三星 Samsung T7 Shield SSD碟 2TB(奶茶棕)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,170,三星 Samsung T7 Shield SSD碟 2TB(靛青藍)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
-9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,171,三星 Samsung T7 Shield SSD碟 2TB(星空黑)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,173,｛Toshiba Canvio Ready 4TB｝Type-A / 3年保,7290,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,174,｛Toshiba Canvio Advance V10 1TB(綠)｝Type-A / 3年保 / 加密.備份軟體,3590,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,175,｛Toshiba Canvio Advance V10 1TB(黑)｝Type-A / 3年保 / 加密.備份軟體,3590,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,176,｛Toshiba Canvio Advance V10 1TB(紅)｝Type-A / 3年保 / 加密.備份軟體,3590,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,177,｛Toshiba Canvio Advance V10 1TB(米白)｝Type-A / 3年保 / 加密.備份軟體,3590,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,178,｛Toshiba Canvio Advance V10 2TB(綠)｝Type-A / 3年保 / 加密.備份軟體,4790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,179,｛Toshiba Canvio Advance V10 2TB(黑)｝Type-A / 3年保 / 加密.備份軟體,4790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,180,｛Toshiba Canvio Advance V10 2TB(紅)｝Type-A / 3年保 / 加密.備份軟體,4790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,181,｛Toshiba Canvio Advance V10 2TB(米白)｝Type-A / 3年保 / 加密.備份軟體,4790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,182,｛Toshiba Canvio Advance V10 4TB(綠)｝Type-A / 3年保 / 加密.備份軟體,7390,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,183,｛Toshiba Canvio Advance V10 4TB(黑)｝Type-A / 3年保 / 加密.備份軟體,7390,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,184,｛Toshiba Canvio Advance V10 4TB(紅)｝Type-A / 3年保 / 加密.備份軟體,7390,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,185,｛Toshiba Canvio Advance V10 4TB(米白)｝Type-A / 3年保 / 加密.備份軟體,7390,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,186,｛Toshiba Canvio Flex X2 1TB(銀)｝Type-C / 3年 / PC、行動裝置適用,3890,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,187,｛Toshiba Canvio Flex X2 2TB(銀)｝Type-C / 3年 / PC、行動裝置適用,4990,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,188,｛Toshiba Canvio Flex X2 4TB(銀)｝Type-C / 3年 / PC、行動裝置適用,7690,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,191,｛威剛 HD710Pro 2TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,192,｛威剛 HD710Pro 2TB(藍)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,193,｛威剛 HD710Pro 2TB(紅)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,194,｛威剛 HD710Pro 4TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保,7190,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,195,｛威剛 HV300 1TB(黑)｝Type-A / 極輕薄 / 3年保,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,196,｛威剛 HV300 1TB(藍)｝Type-A / 極輕薄 / 3年保,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,197,｛威剛 HV300 1TB(白)｝Type-A / 極輕薄 / 3年保,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,198,｛威剛 HV300 1TB(紅)｝Type-A / 極輕薄 / 3年保,3090,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,199,｛威剛 HV300 2TB(黑)｝Type-A / 極輕薄 / 3年保,3790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,200,｛威剛 HV300 2TB(藍)｝Type-A / 極輕薄 / 3年保,3790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,201,｛威剛 HV300 2TB(白)｝Type-A / 極輕薄 / 3年保,3790,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,202,｛威剛 HV300 2TB(紅)｝Type-A / 極輕薄 / 3年保,3790,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),205,｛Seagate Expansion 2T黑｝Type-A / 3年保,3990,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),206,｛Seagate One Touch 2T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,4188,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),207,｛Seagate One Touch 2T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,4188,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),208,｛Seagate One Touch 2T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,4188,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),209,｛Seagate One Touch 4T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),210,｛Seagate One Touch 4T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),211,｛Seagate One Touch 4T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),212,｛Seagate One Touch 5T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),213,｛Seagate One Touch 5T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),214,｛Seagate One Touch 5T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
-9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 創見 隨身2.5吋硬碟,216,創見 1TB(鐵灰) 25M3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25M3S｝,3350,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,57,金士頓 Canvas Go 512G micro SDXC / R:200 W:160 / 終保 / 附轉卡｛SDCG4/512GB｝,5099,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,58,｛威剛 Premier 32G micro SDHC｝R:100 / 終保 / 附轉卡,305,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,59,｛威剛 Premier 64G micro SDXC｝R:100 / 終保 / 附轉卡,389,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,60,｛威剛 Premier 128G micro SDXC｝R:100 / 終保 / 附轉卡,589,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,61,｛威剛 Premier 256G micro SDXC｝R:100 / 終保 / 附轉卡,1088,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,63,｛威剛 High Endurance 64G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,799,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,64,｛威剛 High Endurance 128G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,1499,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,65,｛威剛 High Endurance 256G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,2099,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,66,｛威剛 High Endurance 512G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡,3999,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,67,創見 300S 32G micro SDHC / R:100 / 5年保 / 附轉卡｛TS32GUSD300S-A｝,599,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,68,創見 300S 64G micro SDXC / R:100 / 5年保 / 附轉卡｛TS64GUSD300S-A｝,680,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,69,｛Lexar 633x 64G｝High-Performance micro SDXC / R:100 / 10年保 / 附轉卡,489,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,70,｛Lexar 633x 128G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡,899,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,71,｛Lexar 633x 256G｝High-Performance micro SDXC / R:100 /支援4K影片 / 10年保 / 附轉卡,1579,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,72,｛Lexar Professional Silver Plus microSDXC 64G｝R:205 W:100 / 終保 / 附轉卡,799,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,73,｛Lexar Professional Silver Plus microSDXC 128G｝R:205 W:150 / 終保 / 附轉卡,1349,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,75,｛GIGASTONE Gaming Plus 32G｝micro SDHC / R:90 W:20 / 5年保 / 附轉卡,258,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,76,｛GIGASTONE Gaming Plus 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡,358,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,77,｛GIGASTONE Gaming Plus 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡,578,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,78,｛GIGASTONE Gaming Plus 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,1058,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,79,｛GIGASTONE Gaming Plus 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,2288,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,80,｛GIGASTONE Gaming Plus 1TB｝micro SDXC / R:150 W:120 / 5年保 / 附轉卡,4988,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,82,｛GIGASTONE Data Recovery 64G｝micro SDXC / R:95 W:35 / 5年保 / 附轉卡,498,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,83,｛GIGASTONE Data Recovery 128G｝micro SDXC / R:100 W:50 / 5年保 / 附轉卡,898,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,84,｛GIGASTONE Data Recovery 256G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,1638,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,85,｛GIGASTONE Data Recovery 512G｝micro SDXC / R:100 W:60 / 5年保 / 附轉卡,3088,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micro SD 記憶卡,86,｛GIGASTONE Data Recovery 1TB｝micro SDXC / R:160 W:140 / 5年保 / 附轉卡,5788,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,MicroSDXC Express 記憶卡(Switch 2專用),88,｛Lexar PLAY PRO Express 512G｝超高速記憶卡 / R:900 W:600 / 終保,3550,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,MicroSDXC Express 記憶卡(Switch 2專用),89,｛Lexar PLAY PRO Express 1TB｝超高速記憶卡 / R:900 W:600 / 終保,7299,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,92,｛威剛 32G SDHC｝U1 C10 V10 / R:100 / 終保,399,,
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,93,｛威剛 64G SDXC｝U1 C10 V10 / R:100 / 終保,499,,
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,94,｛Lexar Professional Silver Plus SDXC 128G｝R:205 W:150 / 終保,1399,,
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,95,創見 300S 32G SDHC / R:100 / 5年保｛TS32GSDC300S｝,789,,
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,96,創見 300S 64G SDXC / R:100 / 5年保｛TS64GSDC300S｝,850,,
+9,隨身碟｜隨身硬碟｜記憶卡,SD 記憶卡,97,金士頓 Canvas Go 256G SDXC / R:200 W:160 / 終保｛SDG4/256GB｝,2040,,
+9,隨身碟｜隨身硬碟｜記憶卡,CFexpress記憶卡,99,｛GIGASTONE 512G CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】,9999,,
+9,隨身碟｜隨身硬碟｜記憶卡,CFexpress記憶卡,100,｛GIGASTONE 1TB CFexpress Type B｝R:1800 W:1600 / 5年保【客訂】,22999,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,102,｛威剛 SC750 SSD碟 500G｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,2690,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,103,｛威剛 SC750 SSD碟 1TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4800,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,104,｛威剛 SC750 SSD碟 2TB｝灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,9200,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,105,｛威剛 SC735 SSD碟 1TB｝黑藍/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4850,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,106,｛威剛 SC735 SSD碟 1TB｝黑灰/讀取1050MB/s/Type-C接頭隨插即用/支援iPhone15~加送32G隨身碟,4850,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,107,｛威剛 SE880 SSD碟 500G｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,2688,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,108,｛威剛 SE880 SSD碟 500G｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,2688,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,109,｛威剛 SE880 SSD碟 1TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,4880,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,110,｛威剛 SE880 SSD碟 1TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,4880,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,111,｛威剛 SE880 SSD碟 2TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,9400,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,112,｛威剛 SE880 SSD碟 2TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,9400,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,113,｛威剛 SE880 SSD碟 4TB｝鈦灰/讀取2000MB/s/附Type-C線/支援iPhone15/五年,18500,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,114,｛威剛 SE880 SSD碟 4TB｝藍色/讀取2000MB/s/附Type-C線/支援iPhone15/五年,18500,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,115,｛威剛 SD810 SSD碟 500G｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,116,｛威剛 SD810 SSD碟 500G｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,117,｛威剛 SD810 SSD碟 1TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,4888,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,118,｛威剛 SD810 SSD碟 1TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,4888,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,119,｛威剛 SD810 SSD碟 2TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,9600,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,120,｛威剛 SD810 SSD碟 2TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,9600,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,121,｛威剛 SD810 SSD碟 4TB｝黑/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,19000,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,122,｛威剛 SD810 SSD碟 4TB｝銀/讀取2000MB/s/附Type-C線/支援iPhone15/防水塵摔,19000,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,123,｛威剛 SD820 SSD碟 1TB｝藍/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟,5199,,
+9,隨身碟｜隨身硬碟｜記憶卡,威剛 隨身SSD碟 Type-C介面,124,｛威剛 SD820 SSD碟 1TB｝灰/讀取2000MB/s/輕巧/防水/防塵/防摔/支援iPhone15~加送32G隨身碟,5199,,
+9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,127,金士頓 XS1000 SSD碟 1TB Type-C傳輸速度(附C TO A傳輸線)讀取1050MB/s,4650,,
+9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,128,金士頓 XS1000R(紅色) SSD碟 1TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s,4650,,
+9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,129,金士頓 XS1000R(紅色) SSD碟 2TB Type-C傳輸(附C TO A傳輸線)讀取1050MB/s,6800,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,金士頓 隨身SSD碟 Type-C介面,130,金士頓 雙頭 SSD碟 1TB Type-A/C雙介面 讀取1050MB/s行動固態硬碟,4450,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,132,海盜船 EX300U 1TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟 (CSSD-EX300U1TB),4200,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,133,海盜船 EX300U 2TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U2TB),8400,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,134,海盜船 EX300U 4TB 讀取1100MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX300U4TB),14700,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,135,海盜船 EX400U 1TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U1TB),8300,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,136,海盜船 EX400U 2TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U2TB),12000,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,137,海盜船 EX400U 4TB 讀取4000MB/GEN2/Type-C/磁吸 行動固態硬碟(CSSD-EX400U4TB),18500,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,138,海盜船 EX400US 1TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US1TB),8800,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,139,海盜船 EX400US 2TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US2TB),12500,,
+9,隨身碟｜隨身硬碟｜記憶卡,海盜船 隨身SSD碟 Type-C介面,140,海盜船 EX400US 4TB 讀取4000MB/GEN2/Type-C/掛飾 行動固態硬碟(CSSD-EX400US4TB),18800,,
+9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,142,致態ZhiTai 致態靈·潮流版SSD碟 1TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震,3899,4299,價格異動 下殺
+9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,143,致態ZhiTai 致態靈·潮流版SSD碟 1TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震,3899,4299,價格異動 下殺
+9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,144,致態ZhiTai 致態靈·潮流版SSD碟 2TB星耀黃/讀2000MB/s/Type-C/MagSafe磁吸/防震,6799,8899,價格異動 下殺
+9,隨身碟｜隨身硬碟｜記憶卡,致態 隨身SSD碟 Type-C介面,145,致態ZhiTai 致態靈·潮流版SSD碟 2TB晨霧藍/讀2000MB/s/Type-C/MagSafe磁吸/防震,6799,8899,價格異動 下殺
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,147,Micron Crucial X9 SSD碟 1TB Type-C傳輸速度 讀取1050MB/s 三年保,3399,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,148,Micron Crucial X9 SSD碟 2TB Type-C傳輸速度 讀取1050MB/s 三年保,5999,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,149,Micron Crucial X9 SSD碟 4TB Type-C傳輸速度 讀取1050MB/s 三年保,11500,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,150,Micron Crucial X10 SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,4475,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,151,Micron Crucial X10 SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,7888,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,152,Micron Crucial X10 SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,15500,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,153,Micron Crucial X10 SSD碟 6TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,22380,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,154,Micron Crucial X10 SSD碟 8TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵,28800,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,155,Micron Crucial X10 Pro SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 五年保,5200,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,156,Micron Crucial X10 Pro SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 五年保,8450,,
+9,隨身碟｜隨身硬碟｜記憶卡,Micron 隨身SSD碟 Type-C介面,157,Micron Crucial X10 Pro SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 五年保,17800,,
+9,隨身碟｜隨身硬碟｜記憶卡,Seagate 隨身SSD碟 Type-C介面,160,Seagate OneTouch SSD碟 1TB(星鑽銀)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援,4888,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,Seagate 隨身SSD碟 Type-C介面,161,Seagate OneTouch SSD碟 1TB(冰川藍)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援,4888,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,166,三星 Samsung T7 SSD碟 1TB(靛青藍)Type-C傳輸速度 讀取1050MB/s 三年保,7588,,
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,167,三星 Samsung T7 Shield SSD碟 1TB(奶茶棕)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,168,三星 Samsung T7 Shield SSD碟 1TB(靛青藍)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,169,三星 Samsung T7 Shield SSD碟 1TB(星空黑)Type-C傳輸 讀取1050MB/s防塵/防水/耐震,6988,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,170,三星 Samsung T7 Shield SSD碟 2TB(奶茶棕)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,171,三星 Samsung T7 Shield SSD碟 2TB(靛青藍)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
+9,隨身碟｜隨身硬碟｜記憶卡,三星 Samsung 隨身SSD碟 Type-C介面,172,三星 Samsung T7 Shield SSD碟 2TB(星空黑)Type-C傳輸 讀取1050MB/s~加送玻璃杯~,11988,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,174,｛Toshiba Canvio Ready 4TB｝Type-A / 3年保,7290,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,175,｛Toshiba Canvio Advance V10 1TB(綠)｝Type-A / 3年保 / 加密.備份軟體,3590,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,176,｛Toshiba Canvio Advance V10 1TB(黑)｝Type-A / 3年保 / 加密.備份軟體,3590,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,177,｛Toshiba Canvio Advance V10 1TB(紅)｝Type-A / 3年保 / 加密.備份軟體,3590,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,178,｛Toshiba Canvio Advance V10 1TB(米白)｝Type-A / 3年保 / 加密.備份軟體,3590,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,179,｛Toshiba Canvio Advance V10 2TB(綠)｝Type-A / 3年保 / 加密.備份軟體,4790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,180,｛Toshiba Canvio Advance V10 2TB(黑)｝Type-A / 3年保 / 加密.備份軟體,4790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,181,｛Toshiba Canvio Advance V10 2TB(紅)｝Type-A / 3年保 / 加密.備份軟體,4790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,182,｛Toshiba Canvio Advance V10 2TB(米白)｝Type-A / 3年保 / 加密.備份軟體,4790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,183,｛Toshiba Canvio Advance V10 4TB(綠)｝Type-A / 3年保 / 加密.備份軟體,7390,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,184,｛Toshiba Canvio Advance V10 4TB(黑)｝Type-A / 3年保 / 加密.備份軟體,7390,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,185,｛Toshiba Canvio Advance V10 4TB(紅)｝Type-A / 3年保 / 加密.備份軟體,7390,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,186,｛Toshiba Canvio Advance V10 4TB(米白)｝Type-A / 3年保 / 加密.備份軟體,7390,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,187,｛Toshiba Canvio Flex X2 1TB(銀)｝Type-C / 3年 / PC、行動裝置適用,3890,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,188,｛Toshiba Canvio Flex X2 2TB(銀)｝Type-C / 3年 / PC、行動裝置適用,4990,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Toshiba 隨身2.5吋硬碟,189,｛Toshiba Canvio Flex X2 4TB(銀)｝Type-C / 3年 / PC、行動裝置適用,7690,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,192,｛威剛 HD710Pro 2TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,193,｛威剛 HD710Pro 2TB(藍)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,194,｛威剛 HD710Pro 2TB(紅)｝Type-A / 軍規 / IP68防護 / 3年保,4090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,195,｛威剛 HD710Pro 4TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保,7190,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,196,｛威剛 HV300 1TB(黑)｝Type-A / 極輕薄 / 3年保,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,197,｛威剛 HV300 1TB(藍)｝Type-A / 極輕薄 / 3年保,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,198,｛威剛 HV300 1TB(白)｝Type-A / 極輕薄 / 3年保,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,199,｛威剛 HV300 1TB(紅)｝Type-A / 極輕薄 / 3年保,3090,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,200,｛威剛 HV300 2TB(黑)｝Type-A / 極輕薄 / 3年保,3790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,201,｛威剛 HV300 2TB(藍)｝Type-A / 極輕薄 / 3年保,3790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,202,｛威剛 HV300 2TB(白)｝Type-A / 極輕薄 / 3年保,3790,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 威剛 隨身2.5吋硬碟,203,｛威剛 HV300 2TB(紅)｝Type-A / 極輕薄 / 3年保,3790,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),206,｛Seagate Expansion 2T黑｝Type-A / 3年保,3990,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),207,｛Seagate One Touch 2T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,4188,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),208,｛Seagate One Touch 2T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,4188,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),209,｛Seagate One Touch 2T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,4188,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),210,｛Seagate One Touch 4T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),211,｛Seagate One Touch 4T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),212,｛Seagate One Touch 4T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,5888,,
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),213,｛Seagate One Touch 5T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),214,｛Seagate One Touch 5T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
+9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請),215,｛Seagate One Touch 5T太空灰｝Type-A / 硬體加密、自動備份 / 3年保,6688,,熱賣
 9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 創見 隨身2.5吋硬碟,217,創見 1TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3P｝,3350,,
 9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 創見 隨身2.5吋硬碟,218,創見 1TB(藍) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3B,3350,,
 9,隨身碟｜隨身硬碟｜記憶卡,2.5吋 - 創見 隨身2.5吋硬碟,219,創見 2TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS2TSJ25H3P｝,4199,,
@@ -2282,77 +2283,75 @@ cat_id,category,group,id,name,price,list_price,flags
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),180,限搭機｛微星 RTX5070Ti 16G GAMING TRIO OC｝2580MHz/34cm/三風扇/註五年,46990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),182,｛ZOTAC RTX5070Ti 16GB 天啟 OC｝2572MHz/36cm/三風扇/免註冊五年保 [獨家版],46490,,熱賣
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),183,｛ZOTAC RTX5070Ti SOLID CORE OC White Edition｝2482MHz/31cm/註五年,46990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),186,｛華碩 ROG-ASTRAL-RTX5080-O16G-GAMING｝2790MHz/36cm/四風扇/註五年,67990,,任搭折490
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),187,｛華碩 ROG-ASTRAL-RTX5080-O16G-WHITE｝2790MHz/36cm/四風扇/註五年/白,69990,,任搭折490
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),188,｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),189,｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),190,｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保,54990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),191,｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保,55990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),192,｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年,61990,,任搭折390
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),193,｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白,63990,,任搭折390
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),195,｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),196,｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),197,｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保,55990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),199,｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年,53990,,熱賣 任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),200,｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色,54990,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),201,｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版,55990,,
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),202,｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,52888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),203,｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年,53888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),204,｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪,53888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),205,｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,54888,,任搭折1000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,219,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,220,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,221,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,222,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,223,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,224,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,225,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,226,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,227,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,228,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,229,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,231,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,9990,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,232,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,233,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,235,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,236,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,237,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,239,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,241,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,242,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,243,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,244,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,245,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,246,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,247,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,248,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,249,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,250,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,252,｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,253,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,254,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,255,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,256,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,257,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,258,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,259,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,261,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
-12,顯示卡VGA,AMD Radeon RX9070-16G,262,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,263,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,265,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,266,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,267,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,268,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,269,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,270,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,271,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,272,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,273,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,274,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,275,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,276,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,277,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
-12,顯示卡VGA,AMD 專業級/工作站級 顯卡,279,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),186,｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),187,｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),188,｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保,54990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),189,｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保,55990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),190,｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年,61990,,任搭折390
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),191,｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白,63990,,任搭折390
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),193,｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),194,｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),195,｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保,55990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),197,｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年,53990,,熱賣 任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),198,｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色,54990,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),199,｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版,55990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),200,｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,52888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),201,｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年,53888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),202,｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪,53888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),203,｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,54888,,任搭折1000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,217,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,218,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,219,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,220,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,221,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,222,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,223,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,224,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,225,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,226,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,227,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,229,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,9990,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,230,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,231,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,233,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,234,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,235,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,237,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,239,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,240,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,241,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,242,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,243,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,244,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,245,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,246,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,247,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,248,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,250,｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,251,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,252,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,253,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,254,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,255,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,256,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,257,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,259,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
+12,顯示卡VGA,AMD Radeon RX9070-16G,260,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,261,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,263,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,264,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,265,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,266,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,267,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,268,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,269,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,270,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,271,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,272,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,273,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,274,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,275,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
+12,顯示卡VGA,AMD 專業級/工作站級 顯卡,277,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,7,銀欣 SST-ARM13 (單螢幕 / 機械彈簧 / 穿夾兩用 / 最大32吋or9公斤) 省$1000,990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,8,銀欣 SST-ARM14 白色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,9,銀欣 SST-ARM14B 黑色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
