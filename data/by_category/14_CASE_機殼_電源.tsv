@@ -1,9 +1,9 @@
-# 14 CASE 機殼(+電源)  (報價日期 2026/10/4 19:12)
+# 14 CASE 機殼(+電源)  (報價日期 2026/10/5 12:23)
 # price	id	flags	name
 
 ## 特價 or 活動專區
-3590	2		Montech HS01 PRO(黑) 玻璃透側/ATX+Montech PureFlow 360 ARGB(黑)水冷 現省$1190！
-3590	3		Montech HS01 PRO(白) 玻璃透側/ATX+Montech PureFlow 360 ARGB(白)水冷 現省$1190！
+3790	2		Montech HS02 PRO(黑) 玻璃透側/ATX+Montech PureFlow 360 ARGB(黑)水冷 現省$1190！
+3790	3		Montech HS02 PRO(白) 玻璃透側/ATX+Montech PureFlow 360 ARGB(白)水冷 現省$1190！
 1590	4		｛COUGAR Airface Pure Pro 黑｝顯卡長32/CPU高17.5/玻璃透側/ATX 原價$1890！
 1690	5		｛COUGAR Airface Pure Pro 白｝顯卡長32/CPU高17.5/玻璃透側/ATX 原價$1990！
 2390	6		｛曜越 View 290 TG ARGB 黑｝顯卡長45/U高18/全景曲面玻璃/支援背插/ATX 原價$2690！
@@ -160,11 +160,11 @@
 2990	158		｛Montech Heritage PRO 黑｝顯卡長40/CPU高17/玻璃透側/皮革裝飾+提帶/M-ATX
 3090	159		｛Montech Heritage PRO 白｝顯卡長40/CPU高17/玻璃透側/皮革裝飾+提帶/M-ATX
 2990	160		｛Montech HS01 PRO 黑｝卡40/U高17/可翻轉機身/下沉式風扇/前網+玻璃透側/背插/ATX
-3590	161	熱賣	Montech HS01 PRO(黑) 玻璃透側/ATX+Montech PureFlow 360 ARGB(黑)水冷 現省$1190！
-2990	162		｛Montech HS01 PRO 白｝卡40/U高17/可翻轉機身/下沉式風扇/前網+玻璃透側/背插/ATX
-3590	163	熱賣	Montech HS01 PRO(白) 玻璃透側/ATX+Montech PureFlow 360 ARGB(白)水冷 現省$1190！
-3190	164		｛Montech HS02 PRO 黑｝卡42/U高17.5/可翻轉機身/下沉式風扇/全景玻璃透側/背插/ATX
-3190	165		｛Montech HS02 PRO 白｝卡42/U高17.5/可翻轉機身/下沉式風扇/全景玻璃透側/背插/ATX
+2990	161		｛Montech HS01 PRO 白｝卡40/U高17/可翻轉機身/下沉式風扇/前網+玻璃透側/背插/ATX
+3190	162		｛Montech HS02 PRO 黑｝卡42/U高17.5/可翻轉機身/下沉式風扇/全景玻璃透側/背插/ATX
+3790	163	熱賣	Montech HS02 PRO(黑) 玻璃透側/ATX+Montech PureFlow 360 ARGB(黑)水冷 現省$1190！
+3190	164		｛Montech HS02 PRO 白｝卡42/U高17.5/可翻轉機身/下沉式風扇/全景玻璃透側/背插/ATX
+3790	165	熱賣	Montech HS02 PRO(白) 玻璃透側/ATX+Montech PureFlow 360 ARGB(白)水冷 現省$1190！
 
 ## 視博通 Superchannel 機殼
 1190	167		視博通 蒼龍戰士 + 視博通 450W電源(2年) 顯卡長30/CPU高15/ATX

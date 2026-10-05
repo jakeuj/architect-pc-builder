@@ -12,6 +12,7 @@ from pathlib import Path
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 from coolpc_match import resolve  # noqa: E402
+from fetch_coolpc import decode  # noqa: E402
 
 
 def it(i, name, price):
@@ -39,6 +40,26 @@ class ResolveTest(unittest.TestCase):
 
     def test_missing(self):
         self.assertEqual(resolve(self.ITEMS, "｛C｝"), (None, "missing", []))
+
+
+
+class DecodeTest(unittest.TestCase):
+    """原價屋頁面混進 cp950 沒有的字時, 抓價不能失敗 (2026-10-04 兩次排程因 0xFB 失敗)。"""
+    CT = "text/html; charset=big5"
+
+    def test_cp950(self):
+        self.assertEqual(decode("共有商品 ｛R5 7500F｝".encode("cp950"), self.CT), "共有商品 ｛R5 7500F｝")
+
+    def test_hkscs_char_like_browser(self):
+        raw = "品名".encode("cp950") + b"\xfb\x40" + "價".encode("cp950")
+        self.assertEqual(decode(raw, self.CT), "品名\U000289BC價")  # 𨦼, 同 TextDecoder('big5')
+
+    def test_undecodable_byte_replaced(self):
+        raw = "品名".encode("cp950") + b"\xff" + "價 $100".encode("cp950")
+        self.assertEqual(decode(raw, self.CT), "品名\ufffd價 $100")
+
+    def test_utf8_page(self):
+        self.assertEqual(decode("共有商品".encode("utf-8"), "text/html"), "共有商品")
 
 
 class PipelineTest(unittest.TestCase):

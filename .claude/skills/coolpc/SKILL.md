@@ -23,6 +23,7 @@ python3 .claude/skills/coolpc/scripts/fetch_coolpc.py --out . --keep-old
 - 下載 evaluate.php (伺服器回 Big5，腳本用 cp950 解碼後存成 UTF-8)，接著自動呼叫 `parse_coolpc.py` 產出 `data/`。
 - `--keep-old`：既有 `evaluate.php` 先改名為 `evaluate.<舊報價日期>.php` 留底；不加則直接覆寫。
 - 執行結束會印出「報價日期」與各分類商品數；報價日期在頁面 `<font id=Mdy>`，是原價屋自己的更新時間。
+- 頁面偶爾混進 cp950 沒有的字（香港增補字，如 `0xFB40`；2026-10-04 曾讓排程連續失敗兩次）：`fetch_coolpc.py` 的 `decode()` 會逐字改用 big5hkscs 解（同瀏覽器 `TextDecoder('big5')`），還是不行才換成 `�`，並在 stderr 印出字數，排程不中斷。
 - 若印出「下載內容不像估價頁」，代表被擋或頁面改版：請使用者用瀏覽器另存 `evaluate.php` (UTF-8) 到工作目錄，再手動跑 `parse_coolpc.py evaluate.php data`。
 - 頁面每天可能更新多次；產出估價單前先跑一次更新，並在估價單標題註明報價日期。
 

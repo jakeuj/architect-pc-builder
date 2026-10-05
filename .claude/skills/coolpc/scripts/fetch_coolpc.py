@@ -7,6 +7,7 @@
   --keep-old  若已有 evaluate.php 先備份成 evaluate.<舊報價日期>.php
 """
 import argparse
+import codecs
 import re
 import subprocess
 import sys
@@ -19,11 +20,23 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 HERE = Path(__file__).resolve().parent
 
 
-def fetch() -> str:
-    req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        raw = r.read()
-        ctype = r.headers.get("Content-Type", "")
+def _big5_fallback(e):
+    """cp950 解不了的字 (多半是香港增補字, 例如 0xFB40) 改用 big5hkscs 解, 結果同瀏覽器 TextDecoder('big5');
+    還是不行才換成 U+FFFD。2026-10-04 原價屋頁面混進這種字, 嚴格解碼讓排程連續失敗。"""
+    try:
+        s, n = e.object[e.start:e.start + 2].decode("big5hkscs"), 2
+        _fallback["hkscs"] += 1
+    except UnicodeDecodeError:
+        s, n = "\ufffd", 1
+        _fallback["bad"] += 1
+    return s, e.start + n
+
+
+_fallback = {"hkscs": 0, "bad": 0}
+codecs.register_error("coolpc_big5", _big5_fallback)
+
+
+def decode(raw: bytes, ctype: str = "") -> str:
     m = re.search(r"charset=([\w-]+)", ctype, re.I)
     enc = (m.group(1) if m else "big5").lower()
     if enc in ("big5", "big-5", "big5-hkscs"):
@@ -31,7 +44,22 @@ def fetch() -> str:
     try:
         return raw.decode(enc)
     except UnicodeDecodeError:
+        pass
+    try:
         return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        pass
+    _fallback.update(hkscs=0, bad=0)
+    txt = raw.decode(enc, errors="coolpc_big5")
+    print(f"注意: {_fallback['hkscs']} 個字不在 {enc}, 改用 big5hkscs 解; {_fallback['bad']} 個位元組無法解碼, 換成 \ufffd",
+          file=sys.stderr)
+    return txt
+
+
+def fetch() -> str:
+    req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return decode(r.read(), r.headers.get("Content-Type", ""))
 
 
 def quote_date(txt: str) -> str:

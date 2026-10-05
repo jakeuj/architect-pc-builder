@@ -7,7 +7,7 @@
 
 ```
 README.md            給朋友 / 公開看的說明: 網址、三套摘要表、資料來源、本機指令
-site.json            網頁設定 (title, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?)；game 只有遊戲專屬網站才填
+site.json            網頁設定 (title, subtitle?, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?)；game 只有遊戲專屬網站才填
 builds/*.json        配置定義檔 (與 quote.py 共用)
 .claude/skills/coolpc/ 技能本體 (SKILL.md, scripts/, templates/, references/, examples/) — 唯一來源
 data/                parse 產出 (json / csv / by_category tsv), 進版控當快照
@@ -25,7 +25,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 ## docs/data.json 格式
 
 ```
-{ title, quote_date, generated (Asia/Taipei ISO), source, repo,
+{ title, subtitle, quote_date, generated (Asia/Taipei ISO), source, repo,
   game: {name, url, min:{...}, rec:{...}} | null,
   notes: [str],
   slots: [{key, label, cats:[int]}],   # 每一格都可空著

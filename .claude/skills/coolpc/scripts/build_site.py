@@ -7,6 +7,7 @@
 
 site.json 欄位:
   title   網頁標題 (h1 與 <title>)
+  subtitle 標題下的一句介紹 (可省略)
   repo    GitHub repo 網址 (頁尾連結)
   game    {name, url, min:{CPU,GPU,RAM,儲存,OS,API}, rec:{...}}  遊戲官方需求 (可省略; 遊戲專屬網站才填, 沒有就不顯示需求區塊)
   builds  要放上網頁的 build 檔名 (不含 .json), 依序成為分頁; 預設 ["low","mid","high"]
@@ -176,6 +177,7 @@ def main():
 
     out = {
         "title": cfg.get("title", "PC 組裝估價"),
+        "subtitle": cfg.get("subtitle", ""),
         "quote_date": db["quote_date"],
         "generated": datetime.datetime.now(TAIPEI).isoformat(timespec="minutes"),
         "source": "https://www.coolpc.com.tw/evaluate.php",
