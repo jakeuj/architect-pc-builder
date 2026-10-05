@@ -131,7 +131,7 @@ cat_id,category,group,id,name,price,list_price,flags
 1,品牌小主機、AIO｜VR虛擬,華擎 ASRock 迷你準系統,197,｛ASRock DeskSlim X600｝AMD準系統 (不含CPU/RAM/DISK),7290,,
 1,品牌小主機、AIO｜VR虛擬,宏碁 ACER 迷你準系統 / 小主機,201,｛ACER RB102 DT.BP5TA.001｝U7 155H / 白 (RAM.DISK.OS選購),17690,,
 1,品牌小主機、AIO｜VR虛擬,宏碁 ACER 迷你準系統 / 小主機,204,｛ACER RB102 DT.BQSTA.001｝Core Ultra 5 225H / 16G / 1T / WIN11 Pro,29900,,
-1,品牌小主機、AIO｜VR虛擬,宏碁 ACER 迷你準系統 / 小主機,205,｛ACER RB102 DT.BQTTA.001｝Core Ultra 7 255H / 16G / 1T / WIN11 Pro,33900,,
+1,品牌小主機、AIO｜VR虛擬,宏碁 ACER 迷你準系統 / 小主機,205,｛ACER RB102 DT.BQTTA.001｝Core Ultra 7 255H / 16G / 1T / WIN11 Pro,35900,,
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,209,｛MSI Modern AM242 1M 1078TW｝23.8吋 / Core 3 100U / 8G / 512G / WIN11 / 白,24900,,
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,210,｛MSI Modern AM242 1M 1059TW｝23.8吋 / Core 5 120U / 8G / 1T / WIN11 / 白,28900,,
 1,品牌小主機、AIO｜VR虛擬,微星 MSI AIO 主機,211,｛MSI Modern AM242 1M 1060TW｝23.8吋 / Core 5 120U / 8G / 1T / WIN11 / 黑,28900,,
@@ -204,7 +204,7 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,宏碁 Acer 筆電館-全館刷卡分期零利率(3),40,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
 2,筆電｜平板｜穿戴配件,宏碁 Acer 筆電館-全館刷卡分期零利率(3),41,Acer AMR100 滑鼠(黑)/無線/1600dpi,490,,
 2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire 7 系列,43,Acer Aspire 7 Core 5-210H/RTX3050/16G/512G/15.6吋/黑｛A715-59G-55LN｝,33900,,
-2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire 7 系列,44,Acer Aspire 7 Core 5-210H/RTX4050/16G/512G/15.6吋/黑｛A715-59G-565X｝,36900,,
+2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire 7 系列,44,Acer Aspire 7 Core 5-210H/RTX4050/16G/512G/15.6吋/黑｛A715-59G-565X｝,38900,,
 2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Aspire Lite 系列,47,Acer Aspire Lite Core 5-210H/8G/512G/14吋/銀｛AL14-72P-59YA｝,23900,,
 2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Aspire Lite 系列,48,Acer Aspire Lite Ultra 5-115U/16G/512G/14吋/白｛AL14-53P-52QJ｝,25900,,
 2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire Lite 系列,51,Acer Aspire Lite R7-7730U/8G/512G/15.6吋/白｛AL15-49P-R1J4｝,21900,,
@@ -212,61 +212,62 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire Lite 系列,53,Acer Aspire Lite Ultra 7-155H/16G/512G/15.6吋/銀｛AL15-74P-712A｝,31900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Aspire Lite 系列,56,Acer Aspire Lite Ultra 5-115U/16G/512G/16吋/銀｛AM16-53P-53HR｝,25900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Aspire Lite 系列,57,Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74P-5985｝,25900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Aspire Lite 系列,58,Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74T-56K4｝〈觸控〉,27900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Aspire Lite 系列,58,Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74T-56K4｝〈觸控〉,28900,,
 2,筆電｜平板｜穿戴配件,17吋 Acer宏碁 Aspire Lite 系列,61,Acer Aspire Lite Core 3 N355/8G/512G/17.3吋/銀｛AL17-31P-363V｝,17900,,
 2,筆電｜平板｜穿戴配件,17吋 Acer宏碁 Aspire Lite 系列,62,Acer Aspire Lite Ultra7-155U/16G/512G/17.3吋/銀｛AL17-52P-78QF｝,30900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Aspire Spin 系列,64,Acer Aspire Spin Ryzen AI 5 330/16G/512G/14吋/銀｛ASP14-61N-R0ZS｝〈觸控翻轉〉,28900,,
-2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire Spin 系列,66,Acer Aspire Spin Ryzen AI 5 330/16G/512G/15.3吋/銀｛ASP15-61N-R27Y｝〈觸控翻轉〉,29900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Aspire Spin 系列,64,Acer Aspire Spin Ryzen AI 5 330/16G/512G/14吋/銀｛ASP14-61N-R0ZS｝〈觸控翻轉〉,29900,,
+2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire Spin 系列,66,Acer Aspire Spin Ryzen AI 5 330/16G/512G/15.3吋/銀｛ASP15-61N-R27Y｝〈觸控翻轉〉,30900,,
 2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Aspire Spin 系列,67,Acer Aspire Spin Ultra 5-125U/16G/512G/15.3吋/銀｛ASP15-51N-57Z5｝〈觸控翻轉〉,31900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro 電競機,69,Acer Nitro R9-365/RTX5060/16G/512G/16吋/黑｛AN16S-61-R9JT｝,56900,,
-2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,71,Acer Nitro V i5-13420H/RTX5050/16G/512G/15.6吋/黑｛ANV15-52-53WY｝,37499,,
-2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,72,Acer Nitro V i5-13420H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-53GB｝,39688,,
-2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,73,Acer Nitro V Core 5-210H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-52CL｝,44900,,
+2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,71,Acer Nitro V i5-13420H/RTX5050/16G/512G/15.6吋/黑｛ANV15-52-53WY｝,38900,,
+2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,72,Acer Nitro V i5-13420H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-53GB｝,40900,,
+2,筆電｜平板｜穿戴配件,15吋 Acer宏碁 Nitro V 電競機,73,Acer Nitro V Core 5-210H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-52CL｝,49900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,75,Acer Nitro V R5-240/RTX5050/16G/512G/16吋/黑｛ANV16S-41-R14L｝,52900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,76,Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝,56900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,77,Acer Nitro V Ryzen AI 7 450/RTX5060/16G/512G/16吋/黑｛ANV16-A71-R0P1｝,58900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,78,Acer Nitro V Ryzen AI 9 465/RTX5070/16G/512G/16吋/黑｛ANV16-A71-R2A2｝,65900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,79,Acer Helios Neo Ultra 7-255H/RTX5060/32G/1T/14.5吋/黑｛PHN14-71-74GT｝,85900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,78,Acer Nitro V Ryzen AI 9 465/RTX5070/16G/512G/16吋/黑｛ANV16-A71-R2A2｝,66900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,79,Acer Helios Neo Ultra 7-255H/RTX5060/32G/1T/14.5吋/黑｛PHN14-71-74GT｝,89900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Nitro V 電競機,80,Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝,92900,,酷幣9999
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16 電競機〈官網登錄送一年延保〉,82,Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16-73-71BP｝,65900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16 電競機〈官網登錄送一年延保〉,83,Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16-73-900P｝,67800,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16 電競機〈官網登錄送一年延保〉,84,Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16-73-92G5｝,72800,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,86,Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-79XM｝,59900,,酷幣2000
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,88,Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-94UX｝,64900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,89,Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16S-71-90J2｝,66900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,90,Acer Helios Neo Ultra 9-275HX/RTX5070Ti/32G/1T/16吋/黑｛PHN16S-71-90TD｝,92900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Lite 系列,92,Acer Swift Lite Ultra 5-115U/32G/512G/14吋/晨曦粉｛SFL14-54M-56KG｝【極致輕999克】,31900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,86,Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-79XM｝,65900,,酷幣2000
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,88,Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-94UX｝,68900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,89,Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16S-71-90J2｝,76900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉,90,Acer Helios Neo Ultra 9-275HX/RTX5070Ti/32G/1T/16吋/黑｛PHN16S-71-90TD｝,96900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Lite 系列,92,Acer Swift Lite Ultra 5-115U/32G/512G/14吋/晨曦粉｛SFL14-54M-56KG｝【極致輕999克】,35900,,
 2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Lite 系列,93,Acer Swift Lite Ultra 7-155U/32G/512G/14吋/銀｛SFL14-54M-72JK｝【極致輕999克】,35900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Lite 系列,95,Acer Swift Lite Ultra 5-115U/16G/512G/16吋/銀｛SFL16-51M-5184｝,28900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Lite 系列,96,Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝,29900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,98,Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-542S｝〈IPS面板〉,32900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Lite 系列,96,Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝,30900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,98,Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-542S｝〈IPS面板〉,34900,,
 2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,99,Acer Swift Go AI Ultra 5-228V/32G/512G/14吋/藍｛SFG14-75-5948｝,39900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,100,Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-59DG｝,33900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,101,Acer Swift Go AI Ultra 7-258V/32G/1T/14吋/藍｛SFG14-75-76T1｝,45900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,100,Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-59DG｝,35900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Go 系列,101,Acer Swift Go AI Ultra 7-258V/32G/1T/14吋/藍｛SFG14-75-76T1｝,46900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Go 系列,103,Acer Swift Go AI Ultra 5-226V/16G/512G/16吋/黑｛SFG16-74-59TK｝,37900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Go 系列,104,Acer Swift Go AI Ultra 5-228V/32G/512G/16吋/黑｛SFG16-74-58QT｝,42900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Go 系列,104,Acer Swift Go AI Ultra 5-228V/32G/512G/16吋/黑｛SFG16-74-58QT｝,43900,,
 2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Go 系列,105,Acer Swift Go AI Ultra 7-258V/32G/1T/16吋/黑｛SFG16-74-79T3｝,48900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift 14 系列,107,Acer Swift 14 Qualcomm X1E-78-100/16G/1T/14.5吋/灰｛SF14-11T-X5F7｝〈觸控〉,29900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,109,Acer Swift Air Ultra 5-125H/16G/512G/14吋/銀｛SFA14-71M-57TB｝,31900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,110,Acer Swift Air Ultra 5-125H/32G/512G/14吋/銀｛SFA14-71M-52EM｝,37900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,111,Acer Swift Air Ultra 7-155H/32G/512G/14吋/粉｛SFA14-71M-72Q2｝,42900,,
-2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,112,Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝,42900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,114,Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/銀｛SFA16-61M-R8U8｝【極致輕999克】,32900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,115,Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/白｛SFA16-61M-R3W0｝,34900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,116,Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】,37900,,
-2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,117,Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/白｛SFA16-61M-R7T5｝,38900,,
-2,筆電｜平板｜穿戴配件,14吋/16吋 Acer宏碁 Swift Edge 系列 〈頂級超輕量工作生活筆電〉,119,Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝,58900,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo IdeaPad Slim 3 系列,124,Lenovo IdeaPad 3 i3-1315U/8G/512G/15.6吋/藍｛82X700LATW｝,15990,,
-2,筆電｜平板｜穿戴配件,16吋 Lenovo IdeaPad Slim 3 系列,127,Lenovo IdeaPad 3 Core 5-320/16G/512G/16吋/灰｛83RS001PTW｝,29990,,
-2,筆電｜平板｜穿戴配件,16吋 Lenovo IdeaPad Slim 3 系列,128,Lenovo IdeaPad 3 Ultra 5-322/16G/512G/16吋/灰｛83US0050TW｝,32990,,
-2,筆電｜平板｜穿戴配件,14吋 Lenovo IdeaPad Pro 5 系列,131,Lenovo IdeaPad Pro 5 Ultra X7-358H/32G/1T/14吋/灰｛83SH000NTW｝,63900,,
-2,筆電｜平板｜穿戴配件,14吋 Lenovo Yoga Slim 7 / Yoga Pro 7 系列,134,Lenovo Yoga Slim 7 Ultra 5-325/32G/1T/14吋/貝殼白｛83QK0038TW｝〈觸控〉,63990,,
-2,筆電｜平板｜穿戴配件,14吋 Lenovo Yoga Slim 7 / Yoga Pro 7 系列,135,Lenovo Yoga Slim 9 Ultra 7-258V/32G/1T/14吋/綠｛83CX0010TW｝〈觸控〉,64500,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,139,Lenovo LOQ R5-7535HS/RTX3050/16G/512G/15.6吋/灰｛83S000A9TW｝,29990,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,140,Lenovo LOQ R7-170/RTX4050/16G/512G/15.6吋/灰｛83S000DNTW｝,35990,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,141,Lenovo LOQ R7-250/RTX5060/16G/512G/15.3吋/灰｛83TN004BTW｝,46990,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,143,Lenovo LOQ i5-13450HX/RTX3050/16G/512G/15.6吋/灰｛83DV01GJTW｝,32990,,
-2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,144,Lenovo LOQ i5-13450HX/RTX4050/16G/512G/15.6吋/灰｛83DV01J3TW｝,35990,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,107,Acer Swift Air Ultra 5-125H/16G/512G/14吋/銀｛SFA14-71M-57TB｝,32900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,108,Acer Swift Air Ultra 5-125H/32G/512G/14吋/銀｛SFA14-71M-52EM｝,37900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,109,Acer Swift Air Ultra 7-155H/32G/512G/14吋/粉｛SFA14-71M-72Q2｝,42900,,
+2,筆電｜平板｜穿戴配件,14吋 Acer宏碁 Swift Air 系列,110,Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝,42900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,112,Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/銀｛SFA16-61M-R8U8｝【極致輕999克】,33900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,113,Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/白｛SFA16-61M-R3W0｝,34900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,114,Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】,38900,,
+2,筆電｜平板｜穿戴配件,16吋 Acer宏碁 Swift Air 系列,115,Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/白｛SFA16-61M-R7T5｝,39900,,
+2,筆電｜平板｜穿戴配件,14吋/16吋 Acer宏碁 Swift Edge 系列 〈頂級超輕量工作生活筆電〉,117,Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝,58900,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo IdeaPad Slim 3 系列,122,Lenovo IdeaPad 3 i3-1315U/8G/512G/15.6吋/藍｛82X700LATW｝,15990,,
+2,筆電｜平板｜穿戴配件,16吋 Lenovo IdeaPad Slim 3 系列,125,Lenovo IdeaPad 3 Core 5-320/16G/512G/16吋/灰｛83RS001PTW｝,29990,,
+2,筆電｜平板｜穿戴配件,16吋 Lenovo IdeaPad Slim 3 系列,126,Lenovo IdeaPad 3 Ultra 5-322/16G/512G/16吋/灰｛83US0050TW｝,32990,,
+2,筆電｜平板｜穿戴配件,14吋 Lenovo IdeaPad Pro 5 系列,129,Lenovo IdeaPad Pro 5 Ultra X7-358H/32G/1T/14吋/灰｛83SH000NTW｝,63900,,
+2,筆電｜平板｜穿戴配件,14吋 Lenovo Yoga Slim 7 / Yoga Pro 7 系列,132,Lenovo Yoga Slim 7 Ultra 5-325/32G/1T/14吋/貝殼白｛83QK0038TW｝〈觸控〉,63990,,
+2,筆電｜平板｜穿戴配件,14吋 Lenovo Yoga Slim 7 / Yoga Pro 7 系列,133,Lenovo Yoga Slim 9 Ultra 7-258V/32G/1T/14吋/綠｛83CX0010TW｝〈觸控〉,64500,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,137,Lenovo LOQ R5-7535HS/RTX3050/16G/512G/15.6吋/灰｛83S000A9TW｝,29990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,138,Lenovo LOQ R7-170/RTX4050/16G/512G/15.6吋/灰｛83S000DNTW｝,35990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,139,Lenovo LOQ R7-250/RTX5050/16G/512G/15.3吋/灰｛83TN008UTW｝,46990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,140,Lenovo LOQ R7-250/RTX5060/16G/512G/15.3吋/灰｛83TN004BTW｝,46990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,142,Lenovo LOQ i5-13450HX/RTX3050/16G/512G/15.6吋/灰｛83DV01GJTW｝,32990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,143,Lenovo LOQ i5-13450HX/RTX4050/16G/512G/15.6吋/灰｛83DV01J3TW｝,35990,,
+2,筆電｜平板｜穿戴配件,15吋 Lenovo LOQ 系列,144,Lenovo LOQ i7-13650HX/RTX4050/16G/512G/15.6吋/灰｛83DV01L2TW｝,35990,,
 2,筆電｜平板｜穿戴配件,15吋 Lenovo Legion 5 系列,147,Lenovo Legion 5 Ultra 7-356H/RTX5060/32G/1T/15.3吋/黑｛83RW0026TW｝,85990,,
 2,筆電｜平板｜穿戴配件,華碩 ASUS 筆電館-全館刷卡分期零利率(3),149,【完美保固】首年一次全機種竊盜/搶奪/強盜，華碩最高提供 80% 購買優惠 2026/12/31止。,1,,
 2,筆電｜平板｜穿戴配件,華碩 ASUS 筆電館-全館刷卡分期零利率(3),150,【華碩活動】購買Vivobook/Zenbook/ProArt 系列筆電贈 Google AI 3 個月。2027/8/9止,1,,
@@ -407,25 +408,25 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,16吋 技嘉 GIGABYTE GAMING A16,335,技嘉 GAMING A16 i7-13620H/RTX5070/16G/512G/16吋 黑｛CWHI3TW893SH｝,51900,,
 2,筆電｜平板｜穿戴配件,16吋 技嘉 GIGABYTE GAMING A16,336,技嘉 GAMING A16 Ryzen 7 260/RTX5060/16G/512G/16吋 黑｛3VHK3TW893SH｝,48900,,
 2,筆電｜平板｜穿戴配件,16吋 技嘉 GIGABYTE GAMING A16,337,【稀有1T版】技嘉 GAMING A16 Ryzen 7 170/RTX5060/16G/1T/16吋 黑｛5VHP3TW894SH｝,45900,,
-2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,339,【技嘉筆電搭購】創見JetRam 16GB DDR5-5600 NB,6999,,熱賣
-2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,340,【技嘉筆電搭購】金士頓 NV3 1TB (SNV3S/1000G),4599,,熱賣
-2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,341,技嘉 AORUS MASTER 16 R9-8940HX/RTX5070Ti/16G/1T/16吋OLED 黑｛8XJJ4TWE94SH｝,78900,,
-2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,342,技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5080/32G/1T/16吋OLED 黑｛6YJM5TWE64SH｝,119900,,
-2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,343,技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5090/32G/1T/16吋OLED 黑｛6ZJM6TWE64SH｝,152900,,
-2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),345,【微星活動官網】買 Titan / Raider / Stealth 指定款登錄送MSI 40週年Max電競大禮包,1,,
-2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),346,【微星活動官網】買 Crosshair / Cyborg 指定款登錄送MSI 40週年 Essential 電競大禮包,1,,
-2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),347,【微星活動官網】買 Prestige 指定款登錄送MSI第二代USB-C多功能擴充平台,1,,
-2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),348,【微星活動官網】買 Modern 16S / Modern 14S登錄送M98藍牙滑鼠、MSI配件收納包,1,,
-2,筆電｜平板｜穿戴配件,13吋 微星 - 輕薄商務系列 Prestige,350,微星 Prestige 13 Ultra 7-165H/32G/1T/13吋/WIN11 PRO 灰｛A1MG-271TW｝極致輕990g,49900,,
-2,筆電｜平板｜穿戴配件,13吋 微星 - 輕薄商務系列 Prestige,351,微星 Prestige 13 Ultra 7-355/32G/1T/13吋/WIN11 PRO 灰｛A3MG-049TW｝極致輕890g▼下殺到 11/1 23:59,59999,63900,價格異動 下殺
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,353,微星 Commercial 14 i7-13700H/16G/512G/14吋/WIN11 Pro 灰｛A13MG vPro-419TW｝,28900,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,354,微星 Commercial 14 C5-120U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1005TW ｝,33900,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,355,微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝,36900,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,356,微星 Modern 14S AI+ Ultra 5-322/16G/512G/14吋 銀｛G3MG-026TW｝,34900,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,357,微星 Prestige 14 AI+ Ultra 7-355/32G/1T/14吋/WIN11 Pro 黑｛D3MG-031TW｝,56000,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,358,微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝,64900,,
-2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,359,微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝,74900,,
-2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,361,微星 Modern 15 i3-1315U/16G/512G/15.6吋 灰｛F13MXG-1025TW｝▼下殺到 11/1 23:59,16999,21900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,16吋 技嘉 GIGABYTE GAMING A16,338,技嘉 GAMING A16 Ryzen 7 260/RTX5070/16G/1T/16吋 黑｛3WHK3TW894SH｝,49999,,
+2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,340,【技嘉筆電搭購】創見JetRam 16GB DDR5-5600 NB,6999,,熱賣
+2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,341,【技嘉筆電搭購】金士頓 NV3 1TB (SNV3S/1000G),4599,,熱賣
+2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,342,技嘉 AORUS MASTER 16 R9-8940HX/RTX5070Ti/16G/1T/16吋OLED 黑｛8XJJ4TWE94SH｝,78900,,
+2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,343,技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5080/32G/1T/16吋OLED 黑｛6YJM5TWE64SH｝,119900,,
+2,筆電｜平板｜穿戴配件,16 吋 技嘉 AORUS MASTER 16,344,技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5090/32G/1T/16吋OLED 黑｛6ZJM6TWE64SH｝,152900,,
+2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),346,【微星活動官網】買 Titan / Raider / Stealth 指定款登錄送MSI 40週年Max電競大禮包,1,,
+2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),347,【微星活動官網】買 Crosshair / Cyborg 指定款登錄送MSI 40週年 Essential 電競大禮包,1,,
+2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),348,【微星活動官網】買 Prestige 指定款登錄送MSI第二代USB-C多功能擴充平台,1,,
+2,筆電｜平板｜穿戴配件,微星 MSI 筆電館-全館刷卡分期零利率(3),349,【微星活動官網】買 Modern 16S / Modern 14S登錄送M98藍牙滑鼠、MSI配件收納包,1,,
+2,筆電｜平板｜穿戴配件,13吋 微星 - 輕薄商務系列 Prestige,351,微星 Prestige 13 Ultra 7-165H/32G/1T/13吋/WIN11 PRO 灰｛A1MG-271TW｝極致輕990g,49900,,
+2,筆電｜平板｜穿戴配件,13吋 微星 - 輕薄商務系列 Prestige,352,微星 Prestige 13 Ultra 7-355/32G/1T/13吋/WIN11 PRO 灰｛A3MG-049TW｝極致輕890g▼下殺到 11/1 23:59,59999,63900,價格異動 下殺
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,354,微星 Commercial 14 i7-13700H/16G/512G/14吋/WIN11 Pro 灰｛A13MG vPro-419TW｝,28900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,355,微星 Commercial 14 C5-120U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1005TW ｝,33900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,356,微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝,36900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,357,微星 Modern 14S AI+ Ultra 5-322/16G/512G/14吋 銀｛G3MG-026TW｝,34900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,358,微星 Prestige 14 AI+ Ultra 7-355/32G/1T/14吋/WIN11 Pro 黑｛D3MG-031TW｝,56000,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,359,微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝,64900,,
+2,筆電｜平板｜穿戴配件,14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture,360,微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝,74900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,362,微星 Modern 15 i5-1334U/16G/512G/15.6吋 灰｛F13MXG-1024TW｝,24500,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,363,微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝,31900,,
 2,筆電｜平板｜穿戴配件,15吋 微星 - 輕薄商務系列 Modern / Venture Pro,364,微星 Modern 15 Core 7-150U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1041TW｝,33900,,
@@ -588,79 +589,88 @@ cat_id,category,group,id,name,price,list_price,flags
 3,酷！PC 套裝產線,酷！PC × ITX專案系列小主機,84,酷！PC【內燃機-二行程】U5 225F/B860/16G DDR5/1TB SSD/RX7650/850W電供,33900,,
 3,酷！PC 套裝產線,酷！PC × ITX專案系列小主機,85,酷！PC【內燃機-四行程】U5 250K/B860/32G DDR5/1TB SSD/RTX5060/850W電供,49100,,
 3,酷！PC 套裝產線,酷！PC × ITX專案系列小主機,86,酷！PC【內燃機-噴射版】U7 270K/B860/32G DDR5/1TB SSD/RTX5070/850W電供,66900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,91,酷！PC【劍齒虎】U7 270K/Z890/24G DDR5/1TB SSD/RTX5060TI/原廠機殼/750W電供,69990,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,92,酷！PC【領航員】R5 7500F/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供,44900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,93,酷！PC【領航員】R7 7700/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供,47300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,94,酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G SSD/原廠機殼/650W原廠電供,19900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,95,酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G/RTX5060/原廠機殼/650W原廠電供,36490,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,96,酷！PC【浮空島】R7 9800X3D/X870/32G DDR5/1TB/RTX5070Ti/原廠機殼/850W原廠電供,90900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,97,酷！PC【觀星台】R7 7700/X870/32G DDR5/1TB/RTX5060Ti 16G/750W電供,55900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,98,酷！PC【飛行石】Ultra 5 250K/Z890/32G DDR5/1TB/RTX5060Ti 16G/750W電供,60100,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,100,酷！PC【張遼】R5 5600X/B550/16G DDR4/1TB SSD/RTX5060/750W電供,31900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,101,酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,38900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,102,酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,41300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,103,酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,48900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,104,酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,51300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,105,酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,38900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,106,酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,49900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,108,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,41900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,109,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,43900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,110,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,49900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,111,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,51900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,112,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,53900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,113,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,59900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,114,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,56300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,115,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,58300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,116,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,64300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,117,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,41900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,118,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,51900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,119,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,56300,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,120,華碩【R5管理者】R5 3400G / A520 / 8G DDR4 / 512G SSD,9990,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,121,華碩【I5管理者】I5-12400 / H610 / 8G DDR4 / 512G SSD,13900,,
-3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,122,酷！PC【守望者】Ultra 5 225/H810/16G DDR5/512GB SSD/650W電供,16900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,127,酷！PC【屠龍刀】U7 270K Plus/B860/16G DDR5/1TB SSD/RTX5060/850W電供,46900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,128,酷！PC【倚天劍】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/850W電供,41900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,129,酷！PC【倚天劍】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供,44900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,130,酷！PC【倚天劍】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供,49900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,134,酷！PC【混沌幻獸】- 黑色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供,35900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,135,酷！PC【混沌幻獸】- 白色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供,35900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,136,酷！PC【聖光幻獸】- 黑色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供,43900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,137,酷！PC【聖光幻獸】- 白色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供,43900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,139,技嘉【雕妹限定版】R7 7800X3D/B850/24G DDR5/1TB SSD/RTX5060/750W電供..倒數4台,51900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,140,酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供,65900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,141,酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供,60900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,142,酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供,71800,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,143,酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供,66800,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,144,酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/650W電供,40900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,145,酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RX9060/650W電供,42900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,146,酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RTX5060/650W電供,40900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,147,酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RX9060/650W電供,43900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,149,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5070TI/850W電供,85900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,150,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5080/850W電供,93900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,151,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070GRE/850W電供,59900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,152,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070XT/850W電供,68400,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,153,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5070TI/850W電供,85900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,154,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5080/850W電供,93900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,155,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070GRE/850W電供,59900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,156,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070XT/850W電供,68400,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,160,酷！PC【鬼武者-天雷劍】R7 7800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供,72900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,161,酷！PC【鬼武者-天雷劍】R7 9800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供,77900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,162,酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9060XT/750W電供,58900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,163,酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9070/750W電供,66900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,164,酷！PC【鬼武者-雷斬刀】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/750W電供,35900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,165,酷！PC【鬼武者-雷斬刀】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/750W電供,37900,,
-3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,166,酷！PC【鬼武者-地烈斬】U5 225F/B860/16G DDR5/1TB SSD/RX9060XT/750W電供,35900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,171,酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供,33900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,172,酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供,36900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,173,[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供,93900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,174,[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供,92900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,175,[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供,87900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,178,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供,38900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,179,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,41900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,180,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,48500,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,181,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供,37900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,182,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,40900,,
-3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,183,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,47500,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,90,酷！PC【大海量】U5 250K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供,49900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,91,酷！PC【大海量】U7 270K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供,53900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,92,酷！PC【大海量】U9 285K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供,63200,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,93,酷！PC【大氣量】U5 250K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供,53900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,94,酷！PC【大氣量】U7 270K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供,57900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,95,酷！PC【大氣量】U9 285K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供,67200,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,96,酷！PC【大肚量】U5 250K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供,61900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,97,酷！PC【大肚量】U7 270K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供,65900,,
+3,酷！PC 套裝產線,酷！PC × 大進氣系列的潮牌主機,98,酷！PC【大肚量】U9 285K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供,75200,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,103,酷！PC【劍齒虎】U7 270K/Z890/24G DDR5/1TB SSD/RTX5060TI/原廠機殼/750W電供,69990,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,104,酷！PC【領航員】R5 7500F/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供,44900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,105,酷！PC【領航員】R7 7700/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供,47300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,106,酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G SSD/原廠機殼/650W原廠電供,19900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,107,酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G/RTX5060/原廠機殼/650W原廠電供,36490,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,108,酷！PC【浮空島】R7 9800X3D/X870/32G DDR5/1TB/RTX5070Ti/原廠機殼/850W原廠電供,90900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,109,酷！PC【觀星台】R7 7700/X870/32G DDR5/1TB/RTX5060Ti 16G/750W電供,55900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,110,酷！PC【飛行石】Ultra 5 250K/Z890/32G DDR5/1TB/RTX5060Ti 16G/750W電供,60100,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,112,酷！PC【張遼】R5 5600X/B550/16G DDR4/1TB SSD/RTX5060/750W電供,31900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,113,酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,38900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,114,酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,41300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,115,酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,48900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,116,酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,51300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,117,酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供,38900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,118,酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供,49900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,120,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,41900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,121,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,43900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,122,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,49900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,123,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,51900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,124,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,53900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,125,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,59900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,126,酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,56300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,127,酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,58300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,128,酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,64300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,129,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供,41900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,130,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供,51900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,131,酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供,56300,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,132,華碩【R5管理者】R5 3400G / A520 / 8G DDR4 / 512G SSD,9990,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,133,華碩【I5管理者】I5-12400 / H610 / 8G DDR4 / 512G SSD,13900,,
+3,酷！PC 套裝產線,華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,134,酷！PC【守望者】Ultra 5 225/H810/16G DDR5/512GB SSD/650W電供,16900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,139,酷！PC【屠龍刀】U7 270K Plus/B860/16G DDR5/1TB SSD/RTX5060/850W電供,46900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,140,酷！PC【倚天劍】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/850W電供,41900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,141,酷！PC【倚天劍】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供,44900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,142,酷！PC【倚天劍】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供,49900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,146,酷！PC【混沌幻獸】- 黑色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供,35900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,147,酷！PC【混沌幻獸】- 白色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供,35900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,148,酷！PC【聖光幻獸】- 黑色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供,43900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,149,酷！PC【聖光幻獸】- 白色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供,43900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,151,技嘉【雕妹限定版】R7 7800X3D/B850/24G DDR5/1TB SSD/RTX5060/750W電供..倒數4台,51900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,152,酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供,65900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,153,酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供,60900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,154,酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供,71800,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,155,酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供,66800,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,156,酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/650W電供,40900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,157,酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RX9060/650W電供,42900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,158,酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RTX5060/650W電供,40900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,159,酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RX9060/650W電供,43900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,161,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5070TI/850W電供,85900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,162,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5080/850W電供,93900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,163,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070GRE/850W電供,59900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,164,酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070XT/850W電供,68400,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,165,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5070TI/850W電供,85900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,166,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5080/850W電供,93900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,167,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070GRE/850W電供,59900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,168,酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070XT/850W電供,68400,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,172,酷！PC【鬼武者-天雷劍】R7 7800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供,72900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,173,酷！PC【鬼武者-天雷劍】R7 9800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供,77900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,174,酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9060XT/750W電供,58900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,175,酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9070/750W電供,66900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,176,酷！PC【鬼武者-雷斬刀】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/750W電供,35900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,177,酷！PC【鬼武者-雷斬刀】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/750W電供,37900,,
+3,酷！PC 套裝產線,技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,178,酷！PC【鬼武者-地烈斬】U5 225F/B860/16G DDR5/1TB SSD/RX9060XT/750W電供,35900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,183,酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供,33900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,184,酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供,36900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,185,[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供,93900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,186,[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供,92900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,187,[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供,87900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,190,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供,38900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,191,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,41900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,192,酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,48500,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,193,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供,37900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,194,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供,40900,,
+3,酷！PC 套裝產線,微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】,195,酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供,47500,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,2,｛Intel Core Ultra 5 225F｝【10核】3.3G(↑4.9G) /20M /無內顯【代理盒裝】,4880,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,3,｛Intel Core Ultra 5 225｝【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】,5800,,
 4,處理器 CPU,Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】,4,｛Intel Core Ultra 5 225｝【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】~組裝價~,5280,,組裝價
@@ -1082,176 +1092,175 @@ cat_id,category,group,id,name,price,list_price,flags
 6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,25,｛UMAX 32GB(雙通16GB*2) DDR5 4800｝/CL40 含散熱片,14500,,
 6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,26,｛UMAX 16GB(雙通8GB*2) DDR5 5600｝/CL46 含散熱片,8200,,
 6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,27,｛UMAX 32GB(雙通16GB*2) DDR5 5600｝/CL46 含散熱片,14500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,28,｛UMAX 64GB(雙通32GB*2) DDR5 6000｝/CL30 含散熱片,29999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,29,威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4616G-DTLABBK｝,16399,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,30,威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 白｛AX5U5600C4616G-DTLABWH｝,16399,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,31,威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 黑｛AX5U6000C4816G-DTLABBK｝,17299,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,32,威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 白｛AX5U6000C4816G-DTLABWH｝,17299,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,33,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝,17799,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,34,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝~組裝價~,15999,,組裝價
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,35,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 白｛AX5U6000C3616G-DTLABWH｝,17799,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,36,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3016G-DTLABBK｝,18799,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,37,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3016G-DTLABWH｝,18799,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,38,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB黑｛AX5U6000C3616G-DTLABRBK｝,18099,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,39,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB白｛AX5U6000C3616G-DTLABRWH｝,18099,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,40,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3016G-DTLABRBK｝,19099,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,41,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3016G-DTLABRWH｝,19099,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,42,威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3016G-DCLARBK｝,19399,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,43,威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3016G-DCLARWH｝,19399,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,44,威剛 32G(雙通16G*2)D5-6400/CL32 LancerBlade矮 黑｛AX5U6400C3216G-DTLABBK｝,16999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,45,威剛 64G(雙通32G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4632G-DTLABBK｝,31999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,46,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3032G-DTLABBK｝,37599,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,47,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3032G-DTLABWH｝,37599,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,48,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3032G-DTLABRBK｝,38199,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,49,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3032G-DTLABRWH｝,38199,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,50,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer黑｛AX5U6000C3032G-DCLABK｝,38199,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,51,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer白｛AX5U6000C3032G-DCLAWH｝,38199,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,52,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3032G-DCLARBK｝,38799,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,53,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3032G-DCLARWH｝,38799,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,54,｛Biwin 佰維 Black Opal HX100 48GB(雙通24GBx2) DDR5-6000｝CL28 黑,21490,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,55,｛Biwin 佰維 Black Opal DW100 RGB 32GB(雙通16GBx2) DDR5-6000｝CL28 黑,15990,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,56,｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 黑,21890,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,57,｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 白,21800,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,58,｛Origin code Vortex RGB 32GB(雙通16GBx2) DDR5-6200｝(CL26)銀(獨立風扇),18690,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,59,｛Origin code Vortex RGB 48GB(雙通24GBx2) DDR5-6000｝(CL26)銀(獨立風扇),28490,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,60,｛KLEVV(科賦)32GB(雙通道16GB*2)DDR5 6000/CL30 CRAS V RGB｝晶燦白,17488,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,61,｛KLEVV(科賦)64GB(雙通道32GB*2)DDR5 6000/CL30 CRAS V RGB｝曜石黑,34388,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,62,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6000/CL30 BOLT V｝,16888,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,63,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑,17788,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,64,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白,17788,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,65,｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑,34888,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,66,｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白,34888,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,67,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6000/CL28 URBANE V RGB｝(低矮散熱),17388,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,68,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱),17588,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,69,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL30 URBANE V RGB｝(低矮散熱),17888,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,70,｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6000/CL30 URBANE V RGB｝(低矮散熱),21588,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,71,｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱),22688,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,72,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝黑,18300,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,73,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝白,18300,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,74,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB｝黑,18500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,75,｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者),19000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,76,｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者),19000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,77,｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝黑 (獸獵者),33000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,78,｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝白 (獸獵者),33000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,79,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者),35400,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,80,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者),35400,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,81,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast RGB｝黑,35700,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,82,｛金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast｝黑 (獸獵者),35700,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,83,美光｛Micron Crucial 64GB(雙通32GB*2) DDR5 5600｝/CL46(原生顆粒),27999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,84,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝/CL36 黑色散熱片,14599,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,85,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6000｝/CL40 白色散熱片,29199,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,86,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 黑色散熱片,14999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,87,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 白色散熱片,14999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,88,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 黑色散熱片,29999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,89,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 白色散熱片,29999,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,90,美光｛Micron Crucial PRO 超頻 96GB(雙通48GB*2) DDR5 5600｝/CL46 黑色散熱片,28500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,91,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰｛CMK32GX5M2E6000Z36｝,15490,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,92,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰RGB｛CMH32GX5M2E6000Z36｝,15990,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,93,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰｛CMK32GX5M2B6000Z30｝,17590,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,94,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰RGB｛CMH32GX5M2B6000Z30K｝,17990,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,95,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰｛CMK32GX5M2B6400Z36｝,15490,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,96,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰RGB｛CMH32GX5M2B6400Z36｝,16990,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,97,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰｛CMK32GX5M2B6400Z32｝AI,16990,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,98,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰RGB｛CMH32GX5M2B6400Z32｝,17290,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,99,海盜船 VENGEANCE 64G(32G*2)DDR5-6400/CL42 黑｛CMK64GX5M2B6400C42｝,32900,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,100,海盜船 VENGEANCE 128G(64G*2)DDR5-6000/CL40 黑｛CMK128GX5M2D6000C40｝,83500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,101,海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-6000/CL30 灰RGB｛CMP32GX5M2B6000Z30｝,19200,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,102,海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-7200/CL34 黑RGB｛CMP32GX5M2X7200C3｝,21990,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,103,芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28黑｛F5-6000J2836G16GX2-FX5｝,19500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,104,芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28白｛F5-6000J2836G16GX2-FX5W｝,19500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,105,芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-FX5｝,35900,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,106,芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30白｛F5-6000J3040G32GX2-FX5W｝,35900,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,107,芝奇Flare X5 烈焰槍64GB(雙通32G*2)D5-6000 CL28黑｛F5-6000J2836G32GX2-FX5｝,38900,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,108,芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30黑｛F5-6000J3036F48GX2-FX5｝,59980,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,109,芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30白｛F5-6000J3036F48GX2-FX5W｝,59980,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,110,芝奇Flare X5 烈焰槍128GB(雙通64G*2)D5-6000 CL34黑｛F5-6000J3444F64GX2-FX5｝,94500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,111,芝奇 Ripjaws S5焰刃32GB(雙通16G*2)D5-6000/CL36黑｛ F5-6000J3636F16GX2-RS5K｝,15500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,112,芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/C36黑｛F5-6000J3636F32GX2-RS5K｝,29200,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,113,芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL36黑｛F5-6000J3636F16GX2-RM5RK｝,19400,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,114,芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36黑｛F5-6000J3636F32GX2-RM5NRK｝,34000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,115,芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36白｛F5-6000J3636F32GX2-RM5NRW｝,34000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,116,芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6400/CL32黑｛F5-6400J3239G16GX2-TZ5RK｝,21500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,117,芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5RW｝,29000,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,118,芝奇 焰鋒戟RGB 32GB(雙通16GB*2) D5-6000/CL30黑｛F5-6000J3038F16GX2-TZ5NR｝,19400,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,119,芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-TZ5NR｝,37900,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,120,芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5NRW｝,37900,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,121,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30黑｛F5-6400J3039G16GX2-TZ5NR｝,19800,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,122,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30白｛F5-6400J3039G16GX2-TZ5NRW｝,19800,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,123,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-7200/CL34黑｛F5-7200J3445G16GX2-TZ5NR｝,19800,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,124,芝奇 焰鋒戟RGB 128GB(雙通64GB*2)D5-6000/CL34黑｛F5-6000J3444F64GX2-TZ5NR｝,95500,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,125,芝奇 皇家戟RGB 48GB(雙通24GB*2)D5-6000 CL28銀｛F5-6000J2836F24GX2-TR5NS｝,37890,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,126,芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6000/CL28銀｛F5-6000J2836G32GX2-TR5NS｝,43800,,
-6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,127,"芝奇Flare X5 烈焰槍256GB(""雙通""四根64G*4)D5-6000 CL34黑｛F5-6000J3444F64GX4-FX5｝",189000,,
-6,記憶體 RAM,筆記型記憶體 DDR5,129,｛UMAX NB 16GB DDR5 4800｝/CL40,7500,,
-6,記憶體 RAM,筆記型記憶體 DDR5,130,｛UMAX NB 32GB DDR5 4800｝/CL40,14500,,
-6,記憶體 RAM,筆記型記憶體 DDR5,131,｛UMAX NB 8GB DDR5 5600｝/CL46,4100,,
-6,記憶體 RAM,筆記型記憶體 DDR5,132,｛UMAX NB 16GB DDR5 5600｝/CL46,7500,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR5,133,｛UMAX NB 16GB DDR5 5600｝/CL46~搭機價~,7150,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR5,134,｛UMAX NB 32GB DDR5 5600｝/CL46,14800,,
-6,記憶體 RAM,筆記型記憶體 DDR5,135,威剛 NB 32GB DDR5-4800/CL40｛AD5S480032G-S｝,14500,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR5,136,威剛 NB 8GB DDR5-5600/CL46｛AD5S56008G-S｝,4199,,
-6,記憶體 RAM,筆記型記憶體 DDR5,137,威剛 NB 16GB DDR5-5600/CL46｛AD5S560016G-S｝,7999,,
-6,記憶體 RAM,筆記型記憶體 DDR5,138,威剛 NB 32GB DDR5-5600/CL46｛AD5S560032G-S｝,14999,,
-6,記憶體 RAM,筆記型記憶體 DDR5,139,金士頓 NB 16GB DDR5 5600｛KVR56S46BS8-16｝/CL46,8600,,
-6,記憶體 RAM,筆記型記憶體 DDR5,140,金士頓 NB 32GB DDR5 5600｛KVR56S46BD8-32｝/CL46,14700,,
-6,記憶體 RAM,筆記型記憶體 DDR5,141,美光｛Micron Crucial NB 64GB DDR5 5600｝/CL46,27999,,
-6,記憶體 RAM,筆記型記憶體 DDR5 雙通道,143,美光｛Micron Crucial NB 雙通16G*2 DDR5 5600｝/CL46,15999,,
-6,記憶體 RAM,筆記型記憶體 DDR5 雙通道,144,美光｛Micron Crucial NB 雙通64G*2 DDR5 5600｝/CL46,55999,,
-6,記憶體 RAM,桌上型記憶體 DDR4,146,｛UMAX 8GB DDR4-2666｝(1024*8)CL19,2150,,
-6,記憶體 RAM,桌上型記憶體 DDR4,147,｛UMAX 8GB DDR4-3200｝(1024*8)超頻CL16,2190,,
-6,記憶體 RAM,桌上型記憶體 DDR4,148,｛UMAX 16GB DDR4-2666｝(2048*8)(CL19,3950,,
-6,記憶體 RAM,桌上型記憶體 DDR4,149,｛UMAX 16GB DDR4-3200｝(1024*8)超頻CL16,4250,,
-6,記憶體 RAM,桌上型記憶體 DDR4,150,｛UMAX 16GB DDR4-3200｝(2048*8)超頻CL16,4250,,
-6,記憶體 RAM,桌上型記憶體 DDR4,151,｛UMAX 16GB DDR4-3200｝(1024*8)CL22,3950,,
-6,記憶體 RAM,桌上型記憶體 DDR4,152,｛UMAX 32GB DDR4-3200｝(2048*8)CL22,8888,,
-6,記憶體 RAM,桌上型記憶體 DDR4,153,｛UMAX 32GB DDR4-3200｝(2048*8)超頻CL16,8888,,
-6,記憶體 RAM,桌上型記憶體 DDR4,154,威剛 8GB DDR4-3200｛AD4U320038G22-SGN｝(1024*8),2299,,
-6,記憶體 RAM,桌上型記憶體 DDR4,155,威剛 16GB DDR4-3200｛AD4U3200316G22-SGN｝(1024*8),4599,,
-6,記憶體 RAM,桌上型記憶體 DDR4,156,威剛 32GB DDR4-3200｛AD4U3200732G22-SGN｝(2048*8),8999,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR4,157,金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8),3200,,
-6,記憶體 RAM,桌上型記憶體 DDR4,158,金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8)~搭機價~,2900,,
-6,記憶體 RAM,桌上型記憶體 DDR4,159,金士頓 16GB DDR4-3200｛KVR32N22S8/16｝(2048*8),6150,,
-6,記憶體 RAM,桌上型記憶體 DDR4,160,金士頓 16GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/16｝(2048*8),6150,,
-6,記憶體 RAM,桌上型記憶體 DDR4,161,金士頓 32GB DDR4-3200｛KVR32N22D8/32｝(2048*8),12000,,
-6,記憶體 RAM,桌上型記憶體 DDR4,162,金士頓 32GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/32｝(2048*8),9450,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,164,｛UMAX 16GB(雙通8GB*2) DDR4-2666｝含散熱片(1024*8),4350,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,165,｛UMAX 16GB(雙通8GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8),4450,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,166,｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(1024*8)CL19,7800,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,167,｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(2048*8)CL19,7990,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,168,｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8)CL16,8600,,熱賣
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,169,｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(2048*8)CL16,8800,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,170,｛UMAX 64GB(雙通32GB*2) DDR4-3200｝含散熱片(2048*8) CL22,17800,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,171,威剛 32GB(雙通16G*2) D4-3200/CL16 D10超頻 黑｛AX4U3200716G16A-DB10｝(2048*8),8299,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,172,金士頓 16GB(雙通8GB*2) DDR4-3200 FURY Beast(獸獵)｛KF432C16BBK2/16｝,6600,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,173,金士頓 32GB(雙通16GB*2) DDR4-3200 (獸獵者)｛KF432C16BBK2/32｝(2048*8),9500,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,174,芝奇 G.SKILL Ripjaws V 32GB(雙通16GB*2) D4-3600 CL18 黑｛F4-3600C18D-32GVK｝,9100,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,175,芝奇 G.SKILL 幻光戟 16GB(雙通8GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-16GTZR｝,5100,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,176,芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-32GTZR｝,9450,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,177,芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3600 CL16 黑銀｛F4-3600C16D-32GTZRC｝,9999,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,178,芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3200｛F4-3200C16D-32GTZN｝[For AMD],9500,,
-6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,179,芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3600｛F4-3600C16D-32GTZNC｝[For AMD],10150,,
-6,記憶體 RAM,筆記型記憶體 DDR4,181,｛UMAX NB 8GB DDR4-2666｝(1024*8),2150,,
-6,記憶體 RAM,筆記型記憶體 DDR4,182,｛UMAX NB 8GB DDR4-3200｝(1024*8),2190,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR4,183,｛UMAX NB 16GB DDR4-2400｝(1024*8),3750,,
-6,記憶體 RAM,筆記型記憶體 DDR4,184,｛UMAX NB 16GB DDR4-2666｝(1024*8),3950,,
-6,記憶體 RAM,筆記型記憶體 DDR4,185,｛UMAX NB 16GB DDR4-3200｝(1024*8),4250,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR4,186,｛UMAX NB 32GB DDR4-3200｝(2048*8),8500,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR4,187,威剛 NB 8GB DDR4-3200｛AD4S320038G22-SGN｝(1024*8),2299,,
-6,記憶體 RAM,筆記型記憶體 DDR4,188,威剛 NB 16GB DDR4-3200｛AD4S3200316G22-SGN｝(1024*8),4599,,
-6,記憶體 RAM,筆記型記憶體 DDR4,189,金士頓 NB 8GB DDR4-3200｛KVR32S22S8/8｝(1024*8),3300,,
-6,記憶體 RAM,筆記型記憶體 DDR4,190,金士頓 NB 16GB DDR4-3200｛KVR32S22S8/16｝(2048*8),6350,,
-6,記憶體 RAM,筆記型記憶體 DDR4,191,金士頓 NB 32GB DDR4-3200｛KVR32S22D8/32｝(2048*8),14000,,
-6,記憶體 RAM,桌上型記憶體 DDR3,193,｛UMAX 8GB DDR3-1600｝(512*8),780,,
-6,記憶體 RAM,桌上型記憶體 DDR3,194,｛UMAX 16GB(雙通道8G*2)DDR3-1600｝含散熱片(512*8),1650,,
-6,記憶體 RAM,筆記型記憶體 DDR3,196,｛UMAX NB 8GB DDR3L-1600｝低電壓(512*8),780,,熱賣
-6,記憶體 RAM,筆記型記憶體 DDR3,197,金士頓 NB 8GB DDR3L-1600 低電壓｛KVR16LS11/8｝(512*8),1600,,
-6,記憶體 RAM,伺服器專用記憶體 DDR5 ECC DIMM,199,金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Hynix A｛KSM56E46BD8KM/32HA｝,29900,,
-6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,201,金士頓16G 5600MT/s D5 ECC Reg CL46 DIMM 1R*8 Hynix A Rambus｛KSM56R46BS8/16HA｝,17500,,
-6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,202,金士頓32G 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Hynix A Rambus｛KSM56R46BD8/32HA｝~限組裝~,34500,,限組裝
-6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,203,金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Hynix A Rambus｛KSM56R46BD4/64HA｝~限組裝~,82000,,限組裝
-6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,204,金士頓96G 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 Micron C｛KSM64R52BD4/96MC｝,125000,,
-6,記憶體 RAM,伺服器專用記憶體 DDR4 RDIMM,206,金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus｛KSM32RD8/32HD｝,15200,,
-6,記憶體 RAM,伺服器專用記憶體 DDR4 RDIMM,207,金士頓64GB 3200MHz D4 ECC Reg CL22 DIMM 2R*4 Hynix C Rambus｛KSM32RD4/64HCR｝,29900,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,28,威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4616G-DTLABBK｝,16399,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,29,威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 白｛AX5U5600C4616G-DTLABWH｝,16399,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,30,威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 黑｛AX5U6000C4816G-DTLABBK｝,17299,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,31,威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 白｛AX5U6000C4816G-DTLABWH｝,17299,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,32,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝,17799,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,33,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝~組裝價~,15999,,組裝價
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,34,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 白｛AX5U6000C3616G-DTLABWH｝,17799,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,35,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3016G-DTLABBK｝,18799,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,36,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3016G-DTLABWH｝,18799,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,37,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB黑｛AX5U6000C3616G-DTLABRBK｝,18099,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,38,威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB白｛AX5U6000C3616G-DTLABRWH｝,18099,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,39,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3016G-DTLABRBK｝,19099,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,40,威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3016G-DTLABRWH｝,19099,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,41,威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3016G-DCLARBK｝,19399,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,42,威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3016G-DCLARWH｝,19399,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,43,威剛 32G(雙通16G*2)D5-6400/CL32 LancerBlade矮 黑｛AX5U6400C3216G-DTLABBK｝,16999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,44,威剛 64G(雙通32G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4632G-DTLABBK｝,31999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,45,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3032G-DTLABBK｝,37599,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,46,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3032G-DTLABWH｝,37599,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,47,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3032G-DTLABRBK｝,38199,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,48,威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3032G-DTLABRWH｝,38199,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,49,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer黑｛AX5U6000C3032G-DCLABK｝,38199,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,50,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer白｛AX5U6000C3032G-DCLAWH｝,38199,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,51,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3032G-DCLARBK｝,38799,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,52,威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3032G-DCLARWH｝,38799,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,53,｛Biwin 佰維 Black Opal HX100 48GB(雙通24GBx2) DDR5-6000｝CL28 黑,21490,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,54,｛Biwin 佰維 Black Opal DW100 RGB 32GB(雙通16GBx2) DDR5-6000｝CL28 黑,15990,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,55,｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 黑,21890,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,56,｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 白,21800,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,57,｛Origin code Vortex RGB 32GB(雙通16GBx2) DDR5-6200｝(CL26)銀(獨立風扇),18690,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,58,｛Origin code Vortex RGB 48GB(雙通24GBx2) DDR5-6000｝(CL26)銀(獨立風扇),28490,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,59,｛KLEVV(科賦)32GB(雙通道16GB*2)DDR5 6000/CL30 CRAS V RGB｝晶燦白,17488,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,60,｛KLEVV(科賦)64GB(雙通道32GB*2)DDR5 6000/CL30 CRAS V RGB｝曜石黑,34388,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,61,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6000/CL30 BOLT V｝,16888,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,62,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑,17788,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,63,｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白,17788,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,64,｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑,34888,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,65,｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白,34888,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,66,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6000/CL28 URBANE V RGB｝(低矮散熱),17388,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,67,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱),17588,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,68,｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL30 URBANE V RGB｝(低矮散熱),17888,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,69,｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6000/CL30 URBANE V RGB｝(低矮散熱),21588,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,70,｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱),22688,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,71,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝黑,18300,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,72,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝白,18300,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,73,｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB｝黑,18500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,74,｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者),19000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,75,｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者),19000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,76,｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝黑 (獸獵者),33000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,77,｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝白 (獸獵者),33000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,78,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者),35400,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,79,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者),35400,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,80,｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast RGB｝黑,35700,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,81,｛金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast｝黑 (獸獵者),35700,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,82,美光｛Micron Crucial 64GB(雙通32GB*2) DDR5 5600｝/CL46(原生顆粒),27999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,83,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝/CL36 黑色散熱片,14599,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,84,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6000｝/CL40 白色散熱片,29199,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,85,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 黑色散熱片,14999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,86,美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 白色散熱片,14999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,87,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 黑色散熱片,29999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,88,美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 白色散熱片,29999,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,89,美光｛Micron Crucial PRO 超頻 96GB(雙通48GB*2) DDR5 5600｝/CL46 黑色散熱片,28500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,90,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰｛CMK32GX5M2E6000Z36｝,15490,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,91,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰RGB｛CMH32GX5M2E6000Z36｝,15990,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,92,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰｛CMK32GX5M2B6000Z30｝,17590,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,93,海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰RGB｛CMH32GX5M2B6000Z30K｝,17990,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,94,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰｛CMK32GX5M2B6400Z36｝,15490,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,95,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰RGB｛CMH32GX5M2B6400Z36｝,16990,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,96,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰｛CMK32GX5M2B6400Z32｝AI,16990,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,97,海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰RGB｛CMH32GX5M2B6400Z32｝,17290,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,98,海盜船 VENGEANCE 64G(32G*2)DDR5-6400/CL42 黑｛CMK64GX5M2B6400C42｝,32900,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,99,海盜船 VENGEANCE 128G(64G*2)DDR5-6000/CL40 黑｛CMK128GX5M2D6000C40｝,83500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,100,海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-6000/CL30 灰RGB｛CMP32GX5M2B6000Z30｝,19200,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,101,海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-7200/CL34 黑RGB｛CMP32GX5M2X7200C3｝,21990,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,102,芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28黑｛F5-6000J2836G16GX2-FX5｝,19500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,103,芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28白｛F5-6000J2836G16GX2-FX5W｝,19500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,104,芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-FX5｝,35900,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,105,芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30白｛F5-6000J3040G32GX2-FX5W｝,35900,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,106,芝奇Flare X5 烈焰槍64GB(雙通32G*2)D5-6000 CL28黑｛F5-6000J2836G32GX2-FX5｝,38900,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,107,芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30黑｛F5-6000J3036F48GX2-FX5｝,59980,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,108,芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30白｛F5-6000J3036F48GX2-FX5W｝,59980,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,109,芝奇Flare X5 烈焰槍128GB(雙通64G*2)D5-6000 CL34黑｛F5-6000J3444F64GX2-FX5｝,94500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,110,芝奇 Ripjaws S5焰刃32GB(雙通16G*2)D5-6000/CL36黑｛ F5-6000J3636F16GX2-RS5K｝,15500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,111,芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/C36黑｛F5-6000J3636F32GX2-RS5K｝,29200,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,112,芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL36黑｛F5-6000J3636F16GX2-RM5RK｝,19400,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,113,芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36黑｛F5-6000J3636F32GX2-RM5NRK｝,34000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,114,芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36白｛F5-6000J3636F32GX2-RM5NRW｝,34000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,115,芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6400/CL32黑｛F5-6400J3239G16GX2-TZ5RK｝,21500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,116,芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5RW｝,29000,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,117,芝奇 焰鋒戟RGB 32GB(雙通16GB*2) D5-6000/CL30黑｛F5-6000J3038F16GX2-TZ5NR｝,19400,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,118,芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-TZ5NR｝,37900,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,119,芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5NRW｝,37900,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,120,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30黑｛F5-6400J3039G16GX2-TZ5NR｝,19800,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,121,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30白｛F5-6400J3039G16GX2-TZ5NRW｝,19800,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,122,芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-7200/CL34黑｛F5-7200J3445G16GX2-TZ5NR｝,19800,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,123,芝奇 焰鋒戟RGB 128GB(雙通64GB*2)D5-6000/CL34黑｛F5-6000J3444F64GX2-TZ5NR｝,95500,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,124,芝奇 皇家戟RGB 48GB(雙通24GB*2)D5-6000 CL28銀｛F5-6000J2836F24GX2-TR5NS｝,37890,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,125,芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6000/CL28銀｛F5-6000J2836G32GX2-TR5NS｝,43800,,
+6,記憶體 RAM,桌上型記憶體 DDR5 雙通道,126,"芝奇Flare X5 烈焰槍256GB(""雙通""四根64G*4)D5-6000 CL34黑｛F5-6000J3444F64GX4-FX5｝",189000,,
+6,記憶體 RAM,筆記型記憶體 DDR5,128,｛UMAX NB 16GB DDR5 4800｝/CL40,7500,,
+6,記憶體 RAM,筆記型記憶體 DDR5,129,｛UMAX NB 32GB DDR5 4800｝/CL40,14500,,
+6,記憶體 RAM,筆記型記憶體 DDR5,130,｛UMAX NB 8GB DDR5 5600｝/CL46,4100,,
+6,記憶體 RAM,筆記型記憶體 DDR5,131,｛UMAX NB 16GB DDR5 5600｝/CL46,7500,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR5,132,｛UMAX NB 16GB DDR5 5600｝/CL46~搭機價~,7150,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR5,133,｛UMAX NB 32GB DDR5 5600｝/CL46,14800,,
+6,記憶體 RAM,筆記型記憶體 DDR5,134,威剛 NB 32GB DDR5-4800/CL40｛AD5S480032G-S｝,14500,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR5,135,威剛 NB 8GB DDR5-5600/CL46｛AD5S56008G-S｝,4199,,
+6,記憶體 RAM,筆記型記憶體 DDR5,136,威剛 NB 16GB DDR5-5600/CL46｛AD5S560016G-S｝,7999,,
+6,記憶體 RAM,筆記型記憶體 DDR5,137,威剛 NB 32GB DDR5-5600/CL46｛AD5S560032G-S｝,14999,,
+6,記憶體 RAM,筆記型記憶體 DDR5,138,金士頓 NB 16GB DDR5 5600｛KVR56S46BS8-16｝/CL46,8600,,
+6,記憶體 RAM,筆記型記憶體 DDR5,139,金士頓 NB 32GB DDR5 5600｛KVR56S46BD8-32｝/CL46,14700,,
+6,記憶體 RAM,筆記型記憶體 DDR5,140,美光｛Micron Crucial NB 64GB DDR5 5600｝/CL46,27999,,
+6,記憶體 RAM,筆記型記憶體 DDR5 雙通道,142,美光｛Micron Crucial NB 雙通16G*2 DDR5 5600｝/CL46,15999,,
+6,記憶體 RAM,筆記型記憶體 DDR5 雙通道,143,美光｛Micron Crucial NB 雙通64G*2 DDR5 5600｝/CL46,55999,,
+6,記憶體 RAM,桌上型記憶體 DDR4,145,｛UMAX 8GB DDR4-2666｝(1024*8)CL19,2150,,
+6,記憶體 RAM,桌上型記憶體 DDR4,146,｛UMAX 8GB DDR4-3200｝(1024*8)超頻CL16,2190,,
+6,記憶體 RAM,桌上型記憶體 DDR4,147,｛UMAX 16GB DDR4-2666｝(2048*8)(CL19,3950,,
+6,記憶體 RAM,桌上型記憶體 DDR4,148,｛UMAX 16GB DDR4-3200｝(1024*8)超頻CL16,4250,,
+6,記憶體 RAM,桌上型記憶體 DDR4,149,｛UMAX 16GB DDR4-3200｝(2048*8)超頻CL16,4250,,
+6,記憶體 RAM,桌上型記憶體 DDR4,150,｛UMAX 16GB DDR4-3200｝(1024*8)CL22,3950,,
+6,記憶體 RAM,桌上型記憶體 DDR4,151,｛UMAX 32GB DDR4-3200｝(2048*8)CL22,8888,,
+6,記憶體 RAM,桌上型記憶體 DDR4,152,｛UMAX 32GB DDR4-3200｝(2048*8)超頻CL16,8888,,
+6,記憶體 RAM,桌上型記憶體 DDR4,153,威剛 8GB DDR4-3200｛AD4U320038G22-SGN｝(1024*8),2299,,
+6,記憶體 RAM,桌上型記憶體 DDR4,154,威剛 16GB DDR4-3200｛AD4U3200316G22-SGN｝(1024*8),4599,,
+6,記憶體 RAM,桌上型記憶體 DDR4,155,威剛 32GB DDR4-3200｛AD4U3200732G22-SGN｝(2048*8),8999,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR4,156,金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8),3200,,
+6,記憶體 RAM,桌上型記憶體 DDR4,157,金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8)~搭機價~,2900,,
+6,記憶體 RAM,桌上型記憶體 DDR4,158,金士頓 16GB DDR4-3200｛KVR32N22S8/16｝(2048*8),6150,,
+6,記憶體 RAM,桌上型記憶體 DDR4,159,金士頓 16GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/16｝(2048*8),6150,,
+6,記憶體 RAM,桌上型記憶體 DDR4,160,金士頓 32GB DDR4-3200｛KVR32N22D8/32｝(2048*8),12000,,
+6,記憶體 RAM,桌上型記憶體 DDR4,161,金士頓 32GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/32｝(2048*8),9450,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,163,｛UMAX 16GB(雙通8GB*2) DDR4-2666｝含散熱片(1024*8),4350,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,164,｛UMAX 16GB(雙通8GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8),4450,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,165,｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(1024*8)CL19,7800,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,166,｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(2048*8)CL19,7990,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,167,｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8)CL16,8600,,熱賣
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,168,｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(2048*8)CL16,8800,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,169,｛UMAX 64GB(雙通32GB*2) DDR4-3200｝含散熱片(2048*8) CL22,17800,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,170,威剛 32GB(雙通16G*2) D4-3200/CL16 D10超頻 黑｛AX4U3200716G16A-DB10｝(2048*8),8299,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,171,金士頓 16GB(雙通8GB*2) DDR4-3200 FURY Beast(獸獵)｛KF432C16BBK2/16｝,6600,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,172,金士頓 32GB(雙通16GB*2) DDR4-3200 (獸獵者)｛KF432C16BBK2/32｝(2048*8),9500,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,173,芝奇 G.SKILL Ripjaws V 32GB(雙通16GB*2) D4-3600 CL18 黑｛F4-3600C18D-32GVK｝,9100,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,174,芝奇 G.SKILL 幻光戟 16GB(雙通8GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-16GTZR｝,5100,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,175,芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-32GTZR｝,9450,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,176,芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3600 CL16 黑銀｛F4-3600C16D-32GTZRC｝,9999,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,177,芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3200｛F4-3200C16D-32GTZN｝[For AMD],9500,,
+6,記憶體 RAM,桌上型記憶體 DDR4 雙通道,178,芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3600｛F4-3600C16D-32GTZNC｝[For AMD],10150,,
+6,記憶體 RAM,筆記型記憶體 DDR4,180,｛UMAX NB 8GB DDR4-2666｝(1024*8),2150,,
+6,記憶體 RAM,筆記型記憶體 DDR4,181,｛UMAX NB 8GB DDR4-3200｝(1024*8),2190,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR4,182,｛UMAX NB 16GB DDR4-2400｝(1024*8),3750,,
+6,記憶體 RAM,筆記型記憶體 DDR4,183,｛UMAX NB 16GB DDR4-2666｝(1024*8),3950,,
+6,記憶體 RAM,筆記型記憶體 DDR4,184,｛UMAX NB 16GB DDR4-3200｝(1024*8),4250,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR4,185,｛UMAX NB 32GB DDR4-3200｝(2048*8),8500,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR4,186,威剛 NB 8GB DDR4-3200｛AD4S320038G22-SGN｝(1024*8),2299,,
+6,記憶體 RAM,筆記型記憶體 DDR4,187,威剛 NB 16GB DDR4-3200｛AD4S3200316G22-SGN｝(1024*8),4599,,
+6,記憶體 RAM,筆記型記憶體 DDR4,188,金士頓 NB 8GB DDR4-3200｛KVR32S22S8/8｝(1024*8),3300,,
+6,記憶體 RAM,筆記型記憶體 DDR4,189,金士頓 NB 16GB DDR4-3200｛KVR32S22S8/16｝(2048*8),6350,,
+6,記憶體 RAM,筆記型記憶體 DDR4,190,金士頓 NB 32GB DDR4-3200｛KVR32S22D8/32｝(2048*8),14000,,
+6,記憶體 RAM,桌上型記憶體 DDR3,192,｛UMAX 8GB DDR3-1600｝(512*8),780,,
+6,記憶體 RAM,桌上型記憶體 DDR3,193,｛UMAX 16GB(雙通道8G*2)DDR3-1600｝含散熱片(512*8),1650,,
+6,記憶體 RAM,筆記型記憶體 DDR3,195,｛UMAX NB 8GB DDR3L-1600｝低電壓(512*8),780,,熱賣
+6,記憶體 RAM,筆記型記憶體 DDR3,196,金士頓 NB 8GB DDR3L-1600 低電壓｛KVR16LS11/8｝(512*8),1600,,
+6,記憶體 RAM,伺服器專用記憶體 DDR5 ECC DIMM,198,金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Hynix A｛KSM56E46BD8KM/32HA｝,29900,,
+6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,200,金士頓16G 5600MT/s D5 ECC Reg CL46 DIMM 1R*8 Hynix A Rambus｛KSM56R46BS8/16HA｝,17500,,
+6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,201,金士頓32G 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Hynix A Rambus｛KSM56R46BD8/32HA｝~限組裝~,34500,,限組裝
+6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,202,金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Hynix A Rambus｛KSM56R46BD4/64HA｝~限組裝~,82000,,限組裝
+6,記憶體 RAM,伺服器專用記憶體 DDR5 RDIMM,203,金士頓96G 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 Micron C｛KSM64R52BD4/96MC｝,125000,,
+6,記憶體 RAM,伺服器專用記憶體 DDR4 RDIMM,205,金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus｛KSM32RD8/32HD｝,15200,,
+6,記憶體 RAM,伺服器專用記憶體 DDR4 RDIMM,206,金士頓64GB 3200MHz D4 ECC Reg CL22 DIMM 2R*4 Hynix C Rambus｛KSM32RD4/64HCR｝,29900,,
 7,固態硬碟 M.2｜SSD,2.5吋 SATA3 SSD固態硬碟,2,｛UMAX S330 240GB｝/2.5吋/讀520/寫450/3D NAND Flash【三年保】,1399,,
 7,固態硬碟 M.2｜SSD,2.5吋 SATA3 SSD固態硬碟,3,｛UMAX S330 480GB｝/2.5吋/讀560/寫450/3D NAND Flash【三年保】,2400,,熱賣
 7,固態硬碟 M.2｜SSD,2.5吋 SATA3 SSD固態硬碟,4,｛威剛 Ultimate SU650 240G｝/2.5吋/讀520/寫450/TLC顆粒【三年保】,1799,,
@@ -2280,76 +2289,75 @@ cat_id,category,group,id,name,price,list_price,flags
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),179,｛微星 RTX5070Ti 16G INSPIRE 3X OC｝2497MHz/29cm/三風扇/註五年,45990,,熱賣 任搭折290
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),180,限搭機｛微星 RTX5070Ti 16G GAMING TRIO OC｝2580MHz/34cm/三風扇/註五年,46990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),182,｛ZOTAC RTX5070Ti 16GB 天啟 OC｝2572MHz/36cm/三風扇/免註冊五年保 [獨家版],46490,,熱賣
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),183,｛ZOTAC RTX5070Ti SOLID CORE OC White Edition｝2482MHz/31cm/註五年,46990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),186,｛華碩 PRIME-RTX5080-16G-EVO｝2640MHz/31cm/三風扇/註五年/2.5 Slot,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),187,｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),188,｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),189,｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保,54990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),190,｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保,55990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),191,｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年,61990,,任搭折390
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),192,｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白,63990,,任搭折390
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),194,｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),195,｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年,53990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),196,｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保,55990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),198,｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年,53990,,熱賣 任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),199,｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色,54990,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),200,｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版,55990,,
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),201,｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,52888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),202,｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年,53888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),203,｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪,53888,,任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),204,｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,54888,,任搭折1000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,217,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,218,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,219,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,220,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,221,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,222,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,223,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,224,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,225,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,226,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,227,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,229,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,10590,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,230,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,231,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,233,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,234,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,235,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,237,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,239,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,240,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,241,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,242,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,243,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,244,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,245,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,246,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,247,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,248,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,250,｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,251,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,252,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,253,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,254,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,255,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,256,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,257,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,259,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
-12,顯示卡VGA,AMD Radeon RX9070-16G,260,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,261,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,263,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,264,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,265,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,266,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,267,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,268,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,269,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,270,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,271,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,272,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,273,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,274,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
-12,顯示卡VGA,AMD 專業級/工作站級 顯卡,276,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),185,｛華碩 PRIME-RTX5080-16G-EVO｝2640MHz/31cm/三風扇/註五年/2.5 Slot,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),186,｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),187,｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保,53990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),188,｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保,54990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),189,｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保,55990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),190,｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年,61990,,任搭折390
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),191,｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白,63990,,任搭折390
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),193,｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),194,｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年,53990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),195,｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保,55990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),197,｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年,53990,,熱賣 任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),198,｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色,54990,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),199,｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版,55990,,
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),200,｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,52888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),201,｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年,53888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),202,｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪,53888,,任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),203,｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,54888,,任搭折1000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,206,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,207,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,208,｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固,289900,,任搭折2000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,209,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,210,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,211,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,212,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,213,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,214,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡,435000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,215,｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級,575000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,216,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,218,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,10590,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,219,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10390,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,220,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,222,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,14890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,223,｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固),13990,,任搭折100
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,224,｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製,15290,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,226,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,228,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,229,｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保,20890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,230,｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,231,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,21890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,232,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,233,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,234,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,235,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,236,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,237,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,239,｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,240,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,241,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,242,｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年,21490,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,243,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,244,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,245,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,246,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,248,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,24900,,任搭折200
+12,顯示卡VGA,AMD Radeon RX9070-16G,249,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,25990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,250,｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保,24590,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,252,｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白,31390,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,253,｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保,32890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,254,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,255,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,搭板專案 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,256,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,257,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,258,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,259,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,260,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,261,｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,262,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,263,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
+12,顯示卡VGA,AMD 專業級/工作站級 顯卡,265,｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡,59990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,7,銀欣 SST-ARM13 (單螢幕 / 機械彈簧 / 穿夾兩用 / 最大32吋or9公斤) 省$1000,990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,8,銀欣 SST-ARM14 白色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,9,銀欣 SST-ARM14B 黑色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
@@ -2366,7 +2374,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,21,BenQ ERGO ARM BSH01 黑色 (單螢幕/穿夾兩用/底座加固板/承載20KG),2590,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,22,BenQ ERGO ARM BSH02 白色 (單螢幕/穿夾兩用/底座加固板/承載20KG),2590,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,23,【主機搭購】MSI PRO MP242 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉省$200,2388,,
-13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,24,【主機搭購】MSI PRO MP272 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉省$200,2688,,
+13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,24,【主機搭購】MSI PRO MP272 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉,2688,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,25,【主機搭購】AOC 25B40HM〈1A1H/VA/100Hz〉,1999,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,26,【主機搭購】｛PHILIPS 27M2N2100NF｝〈1H/IPS/144Hz〉省$200,2788,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,27,【主機搭購】三星 S3 S27D300GAC〈1A1H/IPS/100Hz〉省$400,2888,,
@@ -2379,7 +2387,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,34,【主機搭購】AOPEN 16PM1Q J〈15.6吋/1H2C/IPS/含喇叭〉,1999,,
 13,螢幕｜投影機｜壁掛,20吋(16:9)〈亮暗點保固視廠商保固條款而定〉,37,｛AOPEN 20E0Q｝〈1A1H/TN〉,1768,,
 13,螢幕｜投影機｜壁掛,20吋(16:9)〈亮暗點保固視廠商保固條款而定〉,38,｛華碩 VS207DF｝〈1A/TN〉Splendid 影像智慧技術,1988,,
-13,螢幕｜投影機｜壁掛,22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,41,｛MSI PRO MP225 E12VL｝〈1A1H/VA/120Hz〉,1988,,
+13,螢幕｜投影機｜壁掛,22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,41,｛MSI PRO MP225 E12VL｝〈1A1H/VA/120Hz〉,1888,,
 13,螢幕｜投影機｜壁掛,22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,42,｛Acer EK220Q E3｝〈1A1H/IPS/100Hz〉,1888,,
 13,螢幕｜投影機｜壁掛,22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,43,｛Acer EK220Q J0｝〈1A1H/VA/120Hz〉,1788,,
 13,螢幕｜投影機｜壁掛,22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,44,｛Acer KA222Q J0｝〈1A1H/VA/120Hz/含喇叭〉,2188,,
@@ -2402,7 +2410,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,64,｛MSI G242L E14｝〈1H1P/IPS/144Hz〉,2388,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,65,｛MSI MAG 245C X24｝〈2H1P/VA曲面/1500R/240Hz〉,2990,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,66,｛MSI MAG 245PF X24｝〈2H1P/IPS/240Hz〉,3590,,
-13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,67,｛MSI MAG 245F X24｝〈2H1P/IPS/240Hz〉,3451,,
+13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,67,｛MSI MAG 245F X24｝〈2H1P/IPS/240Hz〉,3290,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,68,｛MSI MPG 242R X60N｝〈2H1P1C/TN/600Hz/HDR400〉,14100,,酷幣1200
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,69,｛Acer EK241Y P6｝〈1A1H/IPS/144Hz〉,2188,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,70,｛Acer SA243Y P0｝〈1A1H/VA/144Hz〉,2488,,
@@ -2413,7 +2421,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,75,｛Acer KA242Y P6｝〈1A1H/IPS/144Hz/含喇叭〉,2388,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,76,｛Acer Nitro KG241Y X3｝〈1H1P/VA/200Hz/HDR10〉,2388,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,77,｛Acer Nitro VG240Y P6｝〈1H1P/IPS/144Hz/含喇叭〉【優惠洽門市】,2588,,
-13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,78,｛Acer Nitro VG240Y S6｝〈1A1H/IPS/180Hz/含喇叭〉,2688,,
+13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,78,｛Acer Nitro VG240Y S6｝〈1A1H/IPS/180Hz/含喇叭〉,2388,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,79,｛Acer Nitro VG240Y X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉,2799,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,80,｛Acer Nitro VG240Y W3｝〈2H1P/IPS/240Hz/含喇叭/HDR10〉,3099,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,81,｛Acer Nitro VG240Y W5｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉,3199,,
@@ -2437,8 +2445,8 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,99,｛DELL SE2426H｝〈2H/IPS/144Hz/四年保〉,2988,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,100,｛DELL S2425HSM｝〈2H/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉,3888,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,101,｛DELL P2425HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,7988,,
-13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,102,｛DELL P2426H｝〈1H1P/IPS/120Hz/無亮點/四年保〉可升降旋轉,5799,,
-13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,103,｛DELL P2426HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,7988,,
+13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,102,｛DELL P2426H｝〈1H1P/IPS/120Hz/無亮點/四年保〉可升降旋轉,5588,,
+13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,103,｛DELL P2426HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,7488,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,104,｛DELL U2424H｝〈1H2P1C/IPS/120Hz/無亮點/四年保〉可升降旋轉,6688,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,105,｛DELL U2424HE｝〈1H2P1C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,10900,,
 13,螢幕｜投影機｜壁掛,24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,106,｛terra 2441W｝〈1A1H/IPS/含喇叭/144Hz〉,1999,,
@@ -2508,7 +2516,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,25吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,183,｛BenQ ZOWIE XL2586X+｝〈3H1P/TN/600Hz/HDMI 2.1〉DyAc 2動態精準技術,31900,,
 13,螢幕｜投影機｜壁掛,25吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,186,｛BenQ ZOWIE XQ2566X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態精準技術,29990,,
 13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,191,｛MSI PRO MP273L E14｝〈1A1H/IPS/144Hz〉,2888,,
-13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,192,｛MSI PRO MP272 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉獨家款,2888,,熱賣
+13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,192,｛MSI PRO MP272 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉獨家款,2788,,熱賣
 13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,193,｛MSI PRO MP273 E14A｝〈1A1H1P/IPS/144Hz/含喇叭〉,2988,,
 13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,194,｛MSI PRO MP273W E14A｝〈1A1H1P/IPS/144Hz/含喇叭/白色〉,2988,,
 13,螢幕｜投影機｜壁掛,27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,195,｛MSI PRO MP275PG E14｝〈1A1H1P/IPS/144Hz/含喇叭〉可升降旋轉,3488,,
@@ -2611,7 +2619,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,296,｛MSI MAG 274QF X24｝〈2H1P/IPS/240Hz〉,5490,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,297,｛MSI MAG 275QF E21｝〈2H1P/IPS/210Hz/HDR400〉,4288,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,298,｛MSI MAG 274QPF E20｝〈2H1P1C/IPS/200Hz/HDR400〉可升降旋轉,4688,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,299,｛MSI MAG 275CQF E18｝〈2H1P/VA曲面/1500R/180Hz〉,4288,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,299,｛MSI MAG 275CQF E18｝〈2H1P/VA曲面/1500R/180Hz〉,4288,,熱賣
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,300,｛MSI MAG 275CQPF｝〈2H1P/VA曲面/1500R/180Hz〉可升降,5490,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,301,｛MSI MAG 274QRFW E20｝〈2H1P/IPS/200Hz/HDR400/白色〉,5288,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,302,｛MSI MAG 275CQRF QD E2｝〈2H1P1C/VA曲面/1500R/180Hz〉,5990,,
@@ -2667,46 +2675,46 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,352,｛BenQ SW272Q｝〈2H1P1C/IPS/HDR10〉數位紙技術.SDI轉HDMI設備兼容性,25888,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,353,｛BenQ ZOWIE XQ2766X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態清晰技術,34900,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,355,｛PHILIPS 27E2N1500L｝〈1H1P/IPS/75Hz/HDR10〉,3288,,熱賣
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,356,｛PHILIPS 27E1N2500A｝〈2H1P/IPS/120Hz/HDR10〉,3599,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,357,｛PHILIPS Evnia 27M3N3540Q｝〈2H1P/IPS/210Hz/HDR10〉,4688,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,358,｛PHILIPS Evnia 27M2N3500PF｝〈2H1P/IPS/260Hz/HDR10〉,5088,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,359,｛PHILIPS Evnia 27M2N3500UK｝〈1H1P/IPS/300Hz/HDR400/HDMI2.1/圓偏光護眼〉,6988,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,360,｛AOC Q27G42ZE｝〈1H1P/IPS/260Hz/HDR10〉,4288,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,361,｛AOC Q27G4SL/WS｝〈2H1P/IPS/320Hz/HDR400/HDMI2.1/圓偏光認證/白色〉,7588,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,362,｛AOC Q27G40XMN｝〈2H1P/VA/180Hz/Mini-LED〉,7588,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,363,｛AOC Q27G4ZMN｝〈2H1P/VA/240Hz/HDR1000〉1152區 Mini-LED分區控光.可升降旋轉,7988,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,364,｛AOC Q27G40ZDF｝〈1H1P/OLED/240Hz/HDR10〉,9900,,熱賣
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,365,｛DELL SE2726D｝〈1H1P/IPS/144Hz〉,5688,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,366,｛DELL S2725DC｝〈1H1P1C/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉,8898,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,367,｛DELL P2725D｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉,10598,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,368,｛DELL P2725DE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,12418,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,369,｛DELL U2724D｝〈1H2P/IPS/120Hz/無亮點/四年保〉可升降旋轉,12888,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,370,｛DELL U2724DE｝〈1H2P2C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,16288,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,371,｛DELL Alienware AW2725DM｝〈2H1P/IPS/180Hz/HDR400/HDMI 2.1/無亮點/四年保〉可升降旋轉,8988,,熱賣
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,372,｛DELL Alienware AW2726DL｝〈1H1P/IPS/280Hz/HDMI 2.1〉可升降旋轉,7988,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,373,｛DELL Alienware AW2726DM｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉,11888,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,374,｛DELL Alienware AW2725D｝〈2H1P/OLED/280Hz/HDR400/HDMI 2.1/無亮點〉可升降旋轉,14988,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,375,｛LG UltraGear 27G610A-B｝〈2H1P/IPS/200Hz/HDR400〉可升降旋轉,4990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,376,｛LG UltraGear 27GX790A-B｝〈2H1P/OLED/480Hz/HDR400/HDMI 2.1/DP 2.1/二年保〉,22900,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,377,｛三星 ViewFinity S6 S27F612EAC｝〈2H1P/IPS/100Hz〉可升降旋轉,4990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,378,｛三星 ViewFinity S6 S27D606UAC｝〈1H1P1C/IPS/100Hz/HDR10〉可升降旋轉,8990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,379,｛三星 Odyssey G5 S27CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉,4990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,380,｛三星 Odyssey G5 S27FG532EC｝〈1H1P/IPS/200Hz/HDR10〉,4990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,381,｛三星 Odyssey G5 S27FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉,5690,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,382,｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉,11900,,酷幣500
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,383,｛三星 Odyssey G6 S27DG602SC｝〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉,15900,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,384,｛三星 Odyssey G6 S27FG602SC｝〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉,19900,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,385,｛技嘉 G27Q20T｝〈2H1P/IPS/210Hz/HDR10〉,4058,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,386,｛技嘉 G27Q20｝〈2H1P/IPS/200Hz(OC 210Hz)/HDR10〉,4690,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,387,｛技嘉 M27Q2 QD｝〈2H1P1C/量子點/200Hz/HDR400〉可升降旋轉,6990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,388,"｛技嘉 M27Q2 QD ICE｝〈2H1P1C/量子點/200Hz/HDR400/白色〉可升降旋轉""",6999,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,389,｛技嘉 M27QS｝〈1H1P1C/IPS/180Hz/HDR400〉Google TV 智慧螢幕,7666,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,390,｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉,10490,,酷幣1602
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,391,｛技嘉 GO27Q24A｝〈2H1P/QD-OLED/240Hz/HDR10〉可升降旋轉▼下殺到 10/23 23:59,9990,10490,熱賣 價格異動 下殺
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,392,｛技嘉 GO27Q24G｝〈2H1P1C/WOLED/240Hz/HDR400〉可升降旋轉,11990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,393,｛技嘉 MO27Q28G｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉,14990,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,394,｛技嘉 MO27Q2A｝〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉,14190,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,395,｛技嘉 MO27Q28GR｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉,14990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,356,｛PHILIPS Evnia 27M3N3540Q｝〈2H1P/IPS/210Hz/HDR10〉,4688,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,357,｛PHILIPS Evnia 27M2N3500PF｝〈2H1P/IPS/260Hz/HDR10〉,5088,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,358,｛PHILIPS Evnia 27M2N3500UK｝〈1H1P/IPS/300Hz/HDR400/HDMI2.1/圓偏光護眼〉,6988,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,359,｛AOC Q27G42ZE｝〈1H1P/IPS/260Hz/HDR10〉,4288,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,360,｛AOC Q27G4SL/WS｝〈2H1P/IPS/320Hz/HDR400/HDMI2.1/圓偏光認證/白色〉,7588,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,361,｛AOC Q27G40XMN｝〈2H1P/VA/180Hz/Mini-LED〉,7588,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,362,｛AOC Q27G4ZMN｝〈2H1P/VA/240Hz/HDR1000〉1152區 Mini-LED分區控光.可升降旋轉,7988,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,363,｛AOC Q27G40ZDF｝〈1H1P/OLED/240Hz/HDR10〉,9900,,熱賣
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,364,｛DELL SE2726D｝〈1H1P/IPS/144Hz〉,5688,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,365,｛DELL S2725DC｝〈1H1P1C/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉,8898,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,366,｛DELL P2725D｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉,10598,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,367,｛DELL P2725DE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,12418,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,368,｛DELL U2724D｝〈1H2P/IPS/120Hz/無亮點/四年保〉可升降旋轉,12888,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,369,｛DELL U2724DE｝〈1H2P2C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉,16288,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,370,｛DELL Alienware AW2725DM｝〈2H1P/IPS/180Hz/HDR400/HDMI 2.1/無亮點/四年保〉可升降旋轉,8988,,熱賣
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,371,｛DELL Alienware AW2726DL｝〈1H1P/IPS/280Hz/HDMI 2.1〉可升降旋轉,7988,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,372,｛DELL Alienware AW2726DM｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉,11888,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,373,｛DELL Alienware AW2725D｝〈2H1P/OLED/280Hz/HDR400/HDMI 2.1/無亮點〉可升降旋轉,14988,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,374,｛LG UltraGear 27G610A-B｝〈2H1P/IPS/200Hz/HDR400〉可升降旋轉,4990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,375,｛LG UltraGear 27GX790A-B｝〈2H1P/OLED/480Hz/HDR400/HDMI 2.1/DP 2.1/二年保〉,22900,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,376,｛三星 ViewFinity S6 S27F612EAC｝〈2H1P/IPS/100Hz〉可升降旋轉,4490,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,377,｛三星 ViewFinity S6 S27D606UAC｝〈1H1P1C/IPS/100Hz/HDR10〉可升降旋轉,8990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,378,｛三星 Odyssey G5 S27CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉,4990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,379,｛三星 Odyssey G5 S27FG532EC｝〈1H1P/IPS/200Hz/HDR10〉,4990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,380,｛三星 Odyssey G5 S27FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉,5690,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,381,｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉,11900,,酷幣500
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,382,｛三星 Odyssey G6 S27DG602SC｝〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉,15900,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,383,｛三星 Odyssey G6 S27FG602SC｝〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉,19900,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,384,｛技嘉 G27Q20T｝〈2H1P/IPS/210Hz/HDR10〉,4058,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,385,｛技嘉 G27Q20｝〈2H1P/IPS/200Hz(OC 210Hz)/HDR10〉,4690,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,386,｛技嘉 M27Q2 QD｝〈2H1P1C/量子點/200Hz/HDR400〉可升降旋轉,6990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,387,"｛技嘉 M27Q2 QD ICE｝〈2H1P1C/量子點/200Hz/HDR400/白色〉可升降旋轉""",6999,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,388,｛技嘉 M27QS｝〈1H1P1C/IPS/180Hz/HDR400〉Google TV 智慧螢幕,7666,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,389,｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉,10490,,酷幣1602
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,390,｛技嘉 GO27Q24A｝〈2H1P/QD-OLED/240Hz/HDR10〉可升降旋轉▼下殺到 10/23 23:59,9990,10490,熱賣 價格異動 下殺
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,391,｛技嘉 GO27Q24G｝〈2H1P1C/WOLED/240Hz/HDR400〉可升降旋轉,11990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,392,｛技嘉 MO27Q28G｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉,14990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,393,｛技嘉 MO27Q2A｝〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉,14190,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,394,｛技嘉 MO27Q28GR｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉,14990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,395,｛技嘉 FO27Q28G｝〈2H1P1C/WOLED/280Hz/HDR10/DP 2.1〉面板四年防烙印,16990,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,396,｛華碩 VA27AQ｝〈1A1H1P/IPS/含喇叭/HDR10〉,3688,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,397,｛華碩 VA27AQSE｝〈1A1H1P/IPS/含喇叭/HDR10〉可升降旋轉,4550,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,398,｛華碩 ProArt PA278QEV｝〈1D1H2P/IPS/無亮點〉可升降旋轉,5988,,
@@ -2787,7 +2795,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,477,｛三星 Odyssey 3D S27FG900XC｝〈2H1P/IPS/165Hz/HDR10/HDMI 2.1〉3D螢幕,39900,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,478,｛技嘉 GS27U｝〈2H1P/IPS/160Hz/HDR400/HDMI 2.1〉,7511,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,479,｛技嘉 M27UP｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1〉4K-160Hz/FHD-320Hz切換,8990,,
-13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,480,｛技嘉 M27UP ICE｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1/白色〉4K-160Hz/FHD-320Hz切換,8577,,
+13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,480,｛技嘉 M27UP ICE｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1/白色〉4K-160Hz/FHD-320Hz切換,8990,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,481,｛技嘉 MO27U2｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉,19900,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,482,｛華碩 VA27UQSB｝〈2H1P/IPS/含喇叭/HDR10〉可升降旋轉,8290,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,483,｛華碩 ProArt PA279CRV｝〈2H2P1C/IPS/含喇叭/HDR400/無亮點〉可升降旋轉,10618,,
@@ -2802,8 +2810,8 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,493,｛華碩 ROG Strix XG27UQDMS｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉,19888,,
 13,螢幕｜投影機｜壁掛,27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,494,｛華碩 ROG Swift PG27UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz 雙模式,34888,,
 13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,497,｛MSI MAG 271KPD7｝〈2H1P1C/IPS/HDR400/HDMI 2.1〉5K-75Hz/2K-300Hz切換,13900,,
-13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,498,｛Samsung ViewFinity S8 S27H802EFA｝〈1H1P1C/IPS/HDR10〉,19900,,酷幣1000
-13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,499,｛三星 Odyssey G8 S27HG806EF｝〈2H1P/IPS/HDR10〉5K-180Hz/QHD-360Hz切換,19900,,酷幣500
+13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,498,｛Samsung ViewFinity S8 S27H802EFA｝〈1H1P1C/IPS/HDR10〉,19900,,熱賣 酷幣1000
+13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,499,｛三星 Odyssey G8 S27HG806EF｝〈2H1P/IPS/HDR10〉5K-180Hz/QHD-360Hz切換,19900,,酷幣1000
 13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,500,｛BenQ MA270S｝〈1H1C/IPS/70Hz/含喇叭/HDR400/Thunderbolt 4/鏡面面板〉可升降旋轉,32888,,
 13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,501,｛BenQ PD2730S｝〈1H1P1C/IPS/含喇叭/HDR400/HDMI 2.1〉可升降旋轉,36888,,熱賣
 13,螢幕｜投影機｜壁掛,27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉,502,"｛華碩 ProArt PA27JCV｝〈1H1P1C/IPS/含喇叭/HDR500/HDMI 2.1/無亮點〉可升降旋轉""",18648,,
@@ -2826,10 +2834,10 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,527,｛ViewSonic VA3209-MH｝〈1A1H/IPS/含喇叭〉,4688,,
 13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,528,｛華碩 VA329HE｝〈1A2H/IPS〉32吋入門款,4650,,
 13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,529,｛華碩 TUF Gaming VG32VQM5B｝〈2H1P/VA曲面/1500R/250Hz/含喇叭/HDR10〉,4988,,
-13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,530,｛三星 M5 S32FM500EC｝〈2H/VA/含喇叭/HDR10〉智慧螢幕,7820,,
-13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,531,｛三星 M5 S32FM501EC｝〈2H/VA/含喇叭/HDR10/白色〉智慧螢幕,7820,,
-13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,532,｛三星 M5 S32FM500EC-FollowMe｝〈2H/VA/含喇叭/HDR10〉移動式智慧聯網螢幕組,9999,,
-13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,533,｛三星 M5 S32FM501EC-FollowMe｝〈2H/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組,9999,,
+13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,530,｛三星 M5 S32FM500EC｝〈2H/VA/含喇叭/HDR10〉智慧螢幕,8990,,
+13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,531,｛三星 M5 S32FM501EC｝〈2H/VA/含喇叭/HDR10/白色〉智慧螢幕,8990,,
+13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,532,｛三星 M5 S32FM500EC-FollowMe｝〈2H/VA/含喇叭/HDR10〉移動式智慧聯網螢幕組,11990,,
+13,螢幕｜投影機｜壁掛,32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉,533,｛三星 M5 S32FM501EC-FollowMe｝〈2H/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組,11990,,
 13,螢幕｜投影機｜壁掛,32吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,537,｛MSI MAG 321CQF E18｝〈2H1P/VA曲面/1500R/180Hz〉,5690,,
 13,螢幕｜投影機｜壁掛,32吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,538,｛MSI MAG 325CQPF E18｝〈2H1P/VA曲面/1000R/180Hz〉,6990,,
 13,螢幕｜投影機｜壁掛,32吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,539,｛Acer SA322QU E｝〈1H1P/IPS/100Hz/含喇叭/HDR10〉,4999,,
@@ -2883,10 +2891,10 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,590,｛LG UltraGear 32GS95UV-W｝〈2H1P/OLED/含喇叭/HDR400/HDMI 2.1/白色/二年保〉4K-240Hz/FHD-480Hz單鍵切換,34900,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,591,｛ViewSonic VA3208-4K-MHD｝〈2H1P/VA/含喇叭/HDR10〉,9800,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,592,｛ViewSonic VG3208U-4K｝〈2H1P1C/VA/含喇叭/HDR10〉,10500,,
-13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,593,｛三星 Smart M7 S32FM702UC｝〈2H1C/VA/含喇叭/HDR10/〉智慧螢幕,9990,,
-13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,594,｛三星 Smart M7 S32FM702UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/〉移動式智慧聯網螢幕組,12990,,
-13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,595,｛三星 Smart M7 S32FM703UC｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕,9990,,
-13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,596,｛三星 Smart M7 S32FM703UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組,12990,,
+13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,593,｛三星 Smart M7 S32FM702UC｝〈2H1C/VA/含喇叭/HDR10/〉智慧螢幕,10990,,
+13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,594,｛三星 Smart M7 S32FM702UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/〉移動式智慧聯網螢幕組,13990,,
+13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,595,｛三星 Smart M7 S32FM703UC｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕,10990,,
+13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,596,｛三星 Smart M7 S32FM703UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組,13990,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,597,｛三星 Smart M8 S32FM803UC｝〈1H1C/VA/含喇叭/HDR10/白色〉AI智慧螢幕,12900,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,598,｛三星 Smart M9 S32FM902SC｝〈1H1P1C/OLED/165Hz/含喇叭/HDR400〉AI智慧螢幕 *客訂,39990,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,599,｛三星 ViewFinity S7 S32D707EAC｝〈1H1P/VA/HDR10/白色〉,8990,,
@@ -2894,7 +2902,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,601,｛三星 ViewFinity S8 S32D806UAC｝〈1H1P1C/VA/HDR10〉可升降旋轉,10490,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,602,｛三星 ViewFinity S8 S32H802UAC｝〈1H1P1C/VA/HDR10〉可升降旋轉,10990,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,603,｛三星 Odyssey G7 S32HG732SC｝〈1H1P/OLED/165Hz/HDR400〉4K-165Hz/FHD-330Hz切換,19990,,
-13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,604,｛三星 Odyssey G8 S32FG812SC｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉,24900,,熱賣 酷幣500
+13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,604,｛三星 Odyssey G8 S32FG812SC｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉,22900,,熱賣 酷幣500
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,605,｛三星 Odyssey G8 S32HG802SC｝〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉可升降旋轉,27900,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,606,｛技嘉 MO32U2｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉,18888,,
 13,螢幕｜投影機｜壁掛,32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉,607,｛技嘉 MO32U24｝〈2H1P1C/OLED/240Hz/含喇叭/HDR500/HDMI 2.1〉可升降旋轉,27900,,
@@ -4783,15 +4791,15 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,385,｛irocks K74R Pro｝三模機械式鍵盤(海島藍)/有線/無線/藍芽/熱插拔/懸浮/莓紅軸/中文/Rgb,3690,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,386,｛irocks K74R Pro｝三模機械式鍵盤(海島藍)/有線/無線/藍芽/熱插拔/懸浮/奶茶軸/中文/Rgb,3690,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,387,｛irocks K74R Pro｝三模機械式鍵盤(海島藍)/有線/無線/藍芽/熱插拔/懸浮/靜音奶茶軸/中文/Rgb,3890,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,388,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/莓紅軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,389,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/奶茶軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,390,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,3861,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,391,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/莓紅軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,392,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/奶茶軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,393,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,3861,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,394,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/莓紅軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,395,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/奶茶軸/中文/消音層設計/Rgb,3591,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,396,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,3861,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,388,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/莓紅軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,389,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/奶茶軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,390,｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,4290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,391,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/莓紅軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,392,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/奶茶軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,393,｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,4290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,394,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/莓紅軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,395,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/奶茶軸/中文/消音層設計/Rgb,3990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,396,｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb,4290,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,397,｛Irocks K103R｝三模機械式鍵盤(宇治金時)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb,2290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,398,｛Irocks K103R｝三模機械式鍵盤(宇治金時)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb,2290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,399,｛Irocks K103R｝三模機械式鍵盤(宇治金時)/有線/無線/藍芽/插拔軸/靜音奶茶軸/中文/Rgb,2590,,
@@ -4801,15 +4809,15 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,403,｛Irocks K103R｝三模機械式鍵盤(極光藍)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb,2290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,404,｛Irocks K103R｝三模機械式鍵盤(極光藍)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb,2290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,405,｛Irocks K103R｝三模機械式鍵盤(極光藍)/有線/無線/藍芽/插拔軸/靜音奶茶軸/中文/Rgb,2590,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,406,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,407,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,408,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,409,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,410,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,411,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,412,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,413,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,414,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,2990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,406,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,407,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,408,｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,409,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,410,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,411,｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,412,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,413,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 鍵盤,414,｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯,3290,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,羅技 鍵鼠組,416,｛羅技 MK120｝鍵鼠組/有線/雙USB介面/超薄設計/黑,599,,
 17,鍵盤+鼠｜搖桿｜桌+椅,羅技 鍵鼠組,417,〈套裝搭購優惠價〉｛羅技 MK120｝鍵鼠組/有線/雙USB介面/超薄設計/黑,499,,熱賣
 17,鍵盤+鼠｜搖桿｜桌+椅,羅技 鍵鼠組,418,｛羅技 MK200｝多媒體鍵鼠組/有線/雙USB介面/超薄設計,629,,
@@ -5013,8 +5021,8 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,651,｛Irocks T36｝ 人體工學椅(單寧藍)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構,6990,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,652,｛Irocks T36｝ 人體工學椅(暮織灰)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構,6990,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,653,｛Irocks T36｝ 人體工學椅(晨光綠)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構,6990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,654,｛irocks T03｝ 電競椅(菁英黑)/高彈力網布/3D扶手/四級氣壓棒/兩年保,8290,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,655,｛irocks T03｝ 電競椅(灰)/高彈力網布/3D扶手/四級氣壓棒/兩年保,8290,,
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,654,｛irocks T03｝ 電競椅(菁英黑)/高彈力網布/3D扶手/四級氣壓棒/兩年保,8590,,
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,655,｛irocks T03｝ 電競椅(灰)/高彈力網布/3D扶手/四級氣壓棒/兩年保,8590,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,656,｛Irocks T03 Neo｝ 電競椅(白框灰布)/高彈力網布/4D扶手/3D可調頭枕,8290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,657,｛Irocks T03 Neo｝ 電競椅(黑)/高彈力網布/4D扶手/3D可調頭枕,8290,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,658,｛irocks T05｝ 電競椅(黑)/尼龍網布/金屬托盤/27°可調椅背/4D/五年保,13800,,
@@ -5038,7 +5046,7 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,676,｛irocks T07 Plus｝ 電競椅(可可棕)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保,12500,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,677,｛irocks T07 Neo｝ 電競椅/高彈力網布/5D/多功頸枕/大尺寸泡棉坐墊設計/灰/兩年保,12500,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,678,｛irocks T07 Neo｝ 電競椅/高彈力網布/5D/多功頸枕/大尺寸泡棉坐墊設計/黑/兩年保,12500,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,679,｛irocks T09｝ 電競椅-質感布面/鋼製骨架/4D/Z字托盤/五星椅腳/PU椅輪/一年保,7290,,
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,679,｛irocks T09｝ 電競椅-質感布面/鋼製骨架/4D/Z字托盤/五星椅腳/PU椅輪/一年保,7590,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,680,｛irocks T25S｝電競椅(黑)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/高強度尼龍椅腳,9900,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,681,｛irocks T25S｝電競椅(灰)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/高強度尼龍椅腳,9900,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,682,｛irocks T25ES｝電競椅(黑)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/鋁合金椅腳,10900,,
@@ -5260,245 +5268,252 @@ cat_id,category,group,id,name,price,list_price,flags
 18,滑鼠｜鼠墊｜數位板,櫻桃 Cherry 滑鼠,140,櫻桃｛Cherry Mw5500｝ 三模滑鼠(白)/有線/無線8k/藍牙/30000Dpi/62g/3950感應,1690,,熱賣
 18,滑鼠｜鼠墊｜數位板,櫻桃 Cherry 滑鼠,141,櫻桃｛Cherry Mw5500｝ 三模滑鼠(紅)/有線/無線8k/藍牙/30000Dpi/62g/3950感應,2490,,熱賣
 18,滑鼠｜鼠墊｜數位板,櫻桃 Cherry 滑鼠,142,櫻桃｛Cherry Mw5500 Pro ｝三模滑鼠(白)/有線/無線8k/藍牙/45000Dpi/62g/3955感應,2490,,熱賣
-18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,144,｛Glorious Model O Eternal｝ 電競滑鼠(黑)/有線/12000Dpi/對稱設計/55g/Rgb,1290,,
-18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,146,｛Glorious Model O Eternal｝ 電競滑鼠(白)/有線/12000Dpi/對稱設計/55g/Rgb,1290,,
-18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,148,｛Glorious Model O2 Mini Wireless｝ 無線滑鼠(黑)/有線/無線/藍牙/26000Dpi/57g/編織線/Rgb,1990,,
-18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,149,｛Glorious Model O2 Wireless｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/68g/Rgb,1990,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,151,｛Turtle Beach PURE SEL｝(黑)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb,590,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,153,｛Turtle Beach PURE SEL｝(白)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb,590,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,155,｛Turtle Beach PURE AIR｝(黑)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb,1390,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,157,｛Turtle Beach PURE AIR｝(白)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb,1390,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,159,｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸,1590,,熱賣
-18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,161,｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(白)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸,1590,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,164,｛Cougar Minos Neo｝ 電競滑鼠(黑)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效,690,,
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,165,｛Cougar Minos Neo｝ 電競滑鼠(白)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效,790,,
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,166,｛Cougar Airblader｝ 超輕量電競滑鼠/有線/16000Dpi/62克/獨家Bounce-ON彈簧張力系統,790,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,167,｛Cougar 800m Dualblader｝ 模組化電競滑鼠/有線/16000Dpi/Dynastrut專利/客制化配件,2590,,
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,168,｛Cougar Revenger Pro 4K｝ 無線滑鼠(黑)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器,1990,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,169,｛Cougar Revenger Pro 4K｝ 無線滑鼠(白)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器,1990,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,170,｛Cougar Revenger Pro 8K｝ 無線滑鼠(鐵灰)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,171,｛Cougar Revenger Pro 8K｝ 無線滑鼠(白)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
-18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,172,｛Cougar Revenger Pro 8K｝ 無線滑鼠(粉)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
-18,滑鼠｜鼠墊｜數位板,亞碩(Power Master) 滑鼠,174,｛亞碩(Power Master) G502｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb,590,,
-18,滑鼠｜鼠墊｜數位板,亞碩(Power Master) 滑鼠,175,｛亞碩(Power Master) G602｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb,690,,熱賣
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,177,｛Gigastone GM-X031｝ 電競滑鼠〈2隻組合優惠〉,688,,熱賣
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,178,｛Gigastone GM-X041｝ 電競滑鼠〈2隻組合優惠〉,1099,,熱賣
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,179,｛Gigastone GM-X061｝ 電競滑鼠〈2隻組合優惠〉,1499,,熱賣
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,180,｛Gigastone GM-X031｝ 電競滑鼠/有線/3200Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價499,390,,
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,181,｛Gigastone GM-X041｝ 電競滑鼠/有線/12000Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價749,529,,
-18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,182,｛Gigastone GM-X061｝ 電競滑鼠/有線/16000Dpi/10個自訂按鍵/巨集/編織線/Rgb 原價1099,749,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,184,｛HyperX Pulsefire Fuse｝ 雙模滑鼠/無線+藍牙/12000Dpi/75g/AAA電池/Rgb,990,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,185,｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(黑)/無線+藍牙/26000Dpi/61g/Rgb,1990,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,186,｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(白)/無線+藍牙/26000Dpi/61g/Rgb,1990,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,187,｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(黑)/有線+無線+藍牙/26000Dpi/59g,1790,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,188,｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(白)/有線+無線+藍牙/26000Dpi/59g,1790,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,189,｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(海軍藍)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb,2990,,熱賣
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,190,｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(銀)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb,2990,,熱賣
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,191,｛HyperX Pulsefire Haste 2 Pro 4K｝ 雙模滑鼠(灰)/無線/藍牙/26000Dpi/4000Hz/61g/Rgb,2990,,
-18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,192,｛HyperX Pulsefire Saga Pro 4K｝ 無線滑鼠(黑)/無線/藍牙/26000Dpi/4000Hz/72g/Rgb,2990,,
-18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,194,｛Zowie U2-DW 4K｝ 無線電競滑鼠/3200Dpi/3390感應/對稱型設計/獨家無線基地台/小尺寸,2990,,熱賣 酷幣500
-18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,195,｛Zowie S2-DW 4K｝ 無線電競滑鼠/3200Dpi/對稱型設計/獨家無線基地台/小尺寸,3390,,熱賣 酷幣300
-18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,196,｛Zowie ZA13-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸,3390,,熱賣 酷幣300
-18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,197,｛Zowie FK2-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸,3390,,熱賣 酷幣300
-18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,198,｛Zowie EC3-DW｝ 無線電競滑鼠/3200Dpi/非對稱人體工學外型/24段滾輪/流暢曲線設計/小尺寸,3390,,熱賣 酷幣300
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,200,｛海盜船 Katar Pro｝超輕量電競滑鼠/有線/69克/12400Dpi/Rgb,590,,熱賣
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,201,｛海盜船 M55｝超輕量電競滑鼠/有線/16000Dpi/55g/對稱設計/六編輯按鈕,890,,
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,202,｛海盜船 M55 Wireless｝雙模滑鼠/無線/藍牙/24000Dpi/六編輯按鈕/AA電池供電,1390,,
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,203,｛海盜船 Harpoon V2｝三模滑鼠/有線/無線/藍牙/26000Dpi/經典人體工學外型設計/Rgb,1990,,
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,204,｛海盜船 Ironclaw Se｝三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Rgb/適合右手贈 海盜船購物袋,2590,,熱賣
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,205,｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(黑)/有線/2.4g/輕量36g/33000Dpi/8000Hz,2790,,熱賣
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,206,｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(白)/有線/2.4g/輕量36g/33000Dpi/8000Hz,2790,,熱賣
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,207,｛海盜船 Nightsword V2｝無線滑鼠/有線/2.4g/藍牙/33000Dpi/專屬Stream Deck快捷鍵,4090,,
-18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,208,｛海盜船 Sabre V2 Pro 8K｝碳纖維 無線滑鼠(黑)/有線/2.4g/藍牙/55g/33000Dpi/8000Hz,4890,,
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,210,｛LEXMA M450R｝ 無線滑鼠/2.4G/1600Dpi/長效電力續航/高質感時尚有型,299,,熱賣
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,211,｛LEXMA M600R｝ 無線人體工學滑鼠/2.4G/長效電力續航/高質感時尚有型,299,,熱賣
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,212,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(星糖紫)/1600Dpi/長效電力續航/隨插即用/流線造型,399,,
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,213,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(幻電紫)/1600Dpi/長效電力續航/隨插即用/流線造型,399,,
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,214,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(豆沙紅)/1600Dpi/長效電力續航/隨插即用/流線造型,399,,
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,215,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(靜夜綠)/1600Dpi/長效電力續航/隨插即用/流線造型,399,,
-18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,216,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(森霧綠)/1600Dpi/長效電力續航/隨插即用/流線造型,399,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,218,｛irocks M31E｝ 光學遊戲滑鼠(黑)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,219,｛irocks M31E｝ 光學遊戲滑鼠(白)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,220,｛irocks M31E｝ 光學遊戲滑鼠(粉)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,221,｛irocks M31E｝ 光學遊戲滑鼠(白爛貓聯名款)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,690,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,223,｛irocks M25r｝ 快充式無線靜音滑鼠(黑)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,224,｛irocks M25r｝ 快充式無線靜音滑鼠(白)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,225,｛irocks M25r｝ 快充式無線靜音滑鼠(紫)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,226,｛irocks M25r｝ 快充式無線靜音滑鼠(綠)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,227,｛irocks M29r｝ 三模滑鼠(黑)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,228,｛irocks M29r｝ 三模滑鼠(白)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,229,｛irocks M29r｝ 三模滑鼠(粉)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,230,｛irocks M31r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1690,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,231,｛irocks M31r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1690,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,232,｛irocks M31r｝ 三模滑鼠(粉)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1690,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,233,｛irocks M36r｝ 三模滑鼠(黑)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb,2190,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,234,｛irocks M36r｝ 三模滑鼠(白)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb,2190,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,235,｛irocks M49r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395,1990,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,236,｛irocks M49r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395,1990,,
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,237,｛Irocks M51r｝ 三模電競滑鼠(月岩灰)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2490,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,238,｛Irocks M51r｝ 三模電競滑鼠(雲際藍)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2490,,熱賣
-18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,239,｛Irocks M51r｝ 三模電競滑鼠(薰衣紫)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2490,,熱賣
-18,滑鼠｜鼠墊｜數位板,簡報器,241,｛羅技 R500s｝ 雷射簡報遙控器(黑)/無線-藍牙/紅光/20公尺操作範圍,1590,,酷幣100
-18,滑鼠｜鼠墊｜數位板,簡報器,242,｛羅技 R800｝ 專業簡報器/無線/2.4GHz/綠光雷射/液晶顯示,2690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,簡報器,243,｛羅技 Spotlight｝ 專業簡報器(灰)/無線/藍牙/快速充電/螢幕放大/30公尺範圍,3490,,酷幣200
-18,滑鼠｜鼠墊｜數位板,簡報器,244,｛羅技 Spotlight｝ 專業簡報器(金)/無線/藍牙/快速充電/螢幕放大/30公尺範圍▼下殺到 10/25 23:59,2490,2990,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,簡報器,245,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(石墨黑)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,簡報器,246,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(星暮紫)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,簡報器,247,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(流沙金)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,249,｛羅技 G102｝ 炫彩遊戲滑鼠(黑)/有線/8000dpi/Rgb七彩光學效果,499,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,250,｛羅技 G102｝ 炫彩遊戲滑鼠(白)/有線/8000dpi/Rgb七彩光學效果,499,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,251,｛羅技 G102｝ 炫彩遊戲滑鼠(藍)/有線/8000dpi/Rgb七彩光學效果,499,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,252,｛羅技 G102｝ 炫彩遊戲滑鼠(紫)/有線/8000dpi/Rgb七彩光學效果,499,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,253,｛羅技 G402｝ 遊戲光學滑鼠/有線/4000dpi/8鍵自訂,890,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,254,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/黑色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,255,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/白色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,256,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/藍色/無線/12000dpi/6鍵自訂,990,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,257,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/紫色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,258,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/綠色/無線/12000dpi/6鍵自訂,990,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,259,｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(黑色)/無線/25600Dpi/57g輕量化/106小時續行,1590,,熱賣
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,260,｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(白色)/無線/25600Dpi/57g輕量化/106小時續行,1590,,熱賣
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,261,｛羅技 G304 X Superlight｝無線滑鼠(黑)/有線/2.4G/44000Dpi/59g輕量化,2490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,262,｛羅技 G304 X Superlight｝無線滑鼠(白)/有線/2.4G/44000Dpi/59g輕量化,2490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,263,｛羅技 G309 Lightspeed｝無線遊戲滑鼠(黑)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動,2190,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,264,｛羅技 G309 Lightspeed｝無線遊戲滑鼠(白)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動,2190,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,265,｛羅技 G403 Hero｝ 遊戲滑鼠/有線/16000dpi/RGB/6鍵自訂,1490,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,266,｛羅技 G703｝ 無線電競滑鼠/有線+Lightspeed無線/16000Dpi/Rgb/可配重,2490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,267,｛羅技 G705｝ 美型炫光多工遊戲滑鼠/無線/8200Dpi/Rgb/小型手掌設計,1990,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,268,｛羅技 G903｝ 無線電競滑鼠/有線+Lightspeed無線/16000dpi/Rgb/11顆自訂按鍵/可配重,3290,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,269,｛羅技 G502 Hero RGB｝ 遊戲滑鼠/有線/25600Dpi/砝碼/Rgb/飛輪滾輪,1290,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,270,｛羅技 G502 Lightspeed｝ 無線電競滑鼠(黑色)/無線/25600Dpi/砝碼/Rgb/飛輪滾輪,2490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,271,｛羅技 G502 X｝ 電競滑鼠(黑)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動,1990,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,272,｛羅技 G502 X｝ 電競滑鼠(白)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動,1990,,
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,275,｛羅技 G502 X Lightspeed｝ 無線滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59,2990,3490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,276,｛羅技 G502 X Lightspeed｝ 無線滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59,2990,3490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,277,【套裝搭購優惠】｛羅技 G502 X Lightspeed｝ 無線滑鼠,3190,,熱賣 酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,280,｛羅技 G502 X Plus｝無線電競滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb,4190,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,281,｛羅技 G502 X Plus｝無線電競滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb,4190,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,282,｛羅技 G502 X Plus｝無線電競滑鼠(暮光紫)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb▼下殺到 10/25 23:59,4190,4990,熱賣 價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,283,【套裝搭購優惠】｛羅技 G502 X Plus｝ 無線電競滑鼠,3890,,熱賣 酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,284,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(黑色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb,3090,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,285,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(白色)/Usb-c充電線/Hero2感應器/32000Dpi混和微動/Rgb,3090,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,286,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(桃紅色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb,3090,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,287,【套裝搭購優惠】｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠,2690,,熱賣 酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,288,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(黑色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,289,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(白色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,290,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(紅色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,291,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(桃色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,292,【套裝搭購優惠】｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠,2390,,熱賣 酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,293,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95h/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,294,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,295,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(桃色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,296,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(電光藍)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,3390,3690,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,297,【套裝搭購優惠】｛羅技 G Pro X Superlight 2｝無線滑鼠(黑),3390,,熱賣 酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,298,｛羅技 G Pro X Superlight 2c SE｝無線滑鼠(黑)/混合微動/44000Dpi/88g/適合握持玩家,3390,,熱賣 酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,299,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(黑色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,300,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(白色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,301,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(粉色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,302,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,303,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,304,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(桃紅色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,305,｛羅技 G Pro X 2 Superstrike｝ 無線滑鼠/44000Dpi/無線8k/支援無線充電/可調式觸發點▼下殺到 10/25 23:59,4490,5190,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,307,｛羅技 G Pro X 3 Superstrike｝無線類比滑鼠(黑)/48000Dpi/HITS觸覺感應/支援無線充電,6390,,熱賣 酷幣250
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,309,｛羅技 M90｝ 光學滑鼠/有線/400dpi/Usb,229,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,310,｛羅技 M100R｝ 光學滑鼠/有線/1000dpi/Usb,269,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,311,｛羅技 M110｝ 有線靜音滑鼠(黑)/1000dpi/Usb,349,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,312,｛羅技 M171｝ 無線滑鼠(灰)/無線/1000dpi/2.4G迷你接收器/左右手適用,399,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,313,｛羅技 M240｝ 無線靜音藍牙滑鼠(石墨灰)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,314,｛羅技 M240｝ 無線靜音藍牙滑鼠(珍珠白)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,315,｛羅技 M240｝ 無線靜音藍牙滑鼠(玫瑰粉)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,316,〈套裝搭購優惠價〉｛羅技 M240｝ 無線靜音藍牙滑鼠,529,,熱賣
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,317,｛羅技 M221｝ 無線靜音光學滑鼠(黑)/無線/1000dpi/2.4G接收器,599,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,318,｛羅技 M331｝ SilentPlus 靜音滑鼠(黑)/無線/1000dpi/2.4G,699,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,319,｛羅技 M331｝ SilentPlus 靜音滑鼠(藍)/無線/1000dpi/2.4G,699,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,320,｛羅技 M331｝ SilentPlus 靜音滑鼠(紅)/無線/1000dpi/2.4G,699,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,321,｛羅技 M350s｝ 藍牙滑鼠(石墨灰)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,322,｛羅技 M350s｝ 藍牙滑鼠(珍珠白)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,323,｛羅技 M350s｝ 藍牙滑鼠(玫瑰粉)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,324,〈套裝搭購優惠價〉｛羅技 M350s｝ 藍牙滑鼠,699,,熱賣
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,325,｛羅技 M650｝ 多工靜音無線滑鼠(石墨灰)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,326,｛羅技 M650｝ 多工靜音無線滑鼠(玫瑰粉)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,327,｛羅技 M650｝ 多工靜音無線滑鼠(珍珠白)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,328,｛羅技 M750｝ 多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,329,｛羅技 M750｝ 多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,330,｛羅技 M750｝ 多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,331,｛羅技 M750 L｝多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,332,｛羅技 M750 L｝多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,333,｛羅技 M750 L｝多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,334,｛羅技 M840 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用,1590,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,335,｛羅技 M840 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用,1590,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,336,｛羅技 M850 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用,1790,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,337,｛羅技 M850 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用,1790,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,338,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(石墨黑)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,339,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(珍珠白)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,340,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(玫瑰粉)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,341,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(薰衣紫)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,342,｛羅技 Mobi｝ 無線折疊滑鼠(石墨黑)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,343,｛羅技 Mobi｝ 無線折疊滑鼠(星暮紫)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,344,｛羅技 Mobi｝ 無線折疊滑鼠(珍珠白)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,347,｛羅技 MX Anywhere 3S｝ 無線滑鼠(石墨灰)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,348,｛羅技 MX Anywhere 3S｝ 無線滑鼠(珍珠白)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,349,｛羅技 MX Anywhere 3S｝ 無線滑鼠(玫瑰粉)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,350,｛羅技 MX Master 3s Lite｝ 藍芽滑鼠(石墨灰)/2.4G/藍牙/8000Dpi(贈BOLT接收器USB-C),2990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,353,｛羅技 MX Master 4｝ 無線智能滑鼠(石墨灰)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,354,｛羅技 MX Master 4｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,355,｛羅技 MX Master 4 for Mac｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,358,｛羅技 Lift｝ 人體工學垂直滑鼠(石墨灰)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,359,｛羅技 Lift｝ 人體工學垂直滑鼠(玫瑰粉)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,360,｛羅技 Lift｝ 人體工學垂直滑鼠(珍珠白)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,363,｛羅技 MX Vertical｝ 垂直滑鼠/有線-無線-藍牙/57°垂直/支援FLOW/人體工學/適用中-大手型,2990,,酷幣200
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,364,｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/人體工學,1490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,365,｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/人體工學,1490,,酷幣100
-18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,366,｛羅技 MX Ergo S｝ 無線軌跡球滑鼠/雙模(藍牙或BOLT接收器)/傾斜20°調整/適用中-大手型,3290,,酷幣200
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,368,威剛 ｛XPG FRONTLINE XL FORMOSA SEXY｝ 限定聯名款大型電競滑鼠墊/900x420x3,690,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,369,｛羅技 G240｝ 電競布質鼠墊(340x280x1mm),299,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,370,｛羅技 G840｝ 大尺寸遊戲鼠墊(桃紅色)(900x400x3mm),590,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,371,｛羅技 桌上滑鼠墊｝(玫瑰粉)(700x300x2)/布質/防潑濺設計,499,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,372,｛羅技 桌上滑鼠墊｝(沉穩灰)(700x300x2)/布質/防潑濺設計,499,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,373,｛羅技 G Pro X Control｝加厚編織遊戲鼠墊/全向布料/460x400x6mm,2290,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,374,｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊,3690,,酷幣200
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,375,｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊,39,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,376,｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm,490,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,377,｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊,790,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,378,｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm,590,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,379,｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400,1290,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,380,｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,381,｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm,1690,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,382,｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm,1690,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,383,｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm,590,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,384,｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm,439,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,385,｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm,499,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,386,｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm,1690,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,387,｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3,890,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,388,｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,389,｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410,1090,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,390,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3,490,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,391,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4,990,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,392,｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,393,｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410,3090,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,394,｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530,3790,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,395,｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,396,｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,397,｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410,3090,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,398,｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530,3790,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,399,｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500,1890,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,400,｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉,3399,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,401,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,402,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,403,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,404,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,405,｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送),1990,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,406,｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送),1980,,熱賣
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,407,｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版,1190,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,408,｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1290,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,409,｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,410,｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1190,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,411,｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
-18,滑鼠｜鼠墊｜數位板,鼠墊 系列,412,｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1590,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),414,｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定,1266,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),415,｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定,3136,,
-18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),416,｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換,4241,,
-18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),418,｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版,2890,,熱賣
-18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),419,｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙,4690,,熱賣
+18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,145,｛Glorious Model O Eternal｝ 電競滑鼠(黑)/有線/12000Dpi/對稱設計/55g/Rgb,1290,,
+18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,147,｛Glorious Model O Eternal｝ 電競滑鼠(白)/有線/12000Dpi/對稱設計/55g/Rgb,1290,,
+18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,149,｛Glorious Model O2 Mini Wireless｝ 無線滑鼠(黑)/有線/無線/藍牙/26000Dpi/57g/編織線/Rgb,1990,,
+18,滑鼠｜鼠墊｜數位板,Glorious 滑鼠,150,｛Glorious Model O2 Wireless｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/68g/Rgb,1990,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,152,｛Turtle Beach PURE SEL｝(黑)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb,590,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,154,｛Turtle Beach PURE SEL｝(白)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb,590,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,156,｛Turtle Beach PURE AIR｝(黑)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb,1390,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,158,｛Turtle Beach PURE AIR｝(白)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb,1390,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,160,｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸,1590,,熱賣
+18,滑鼠｜鼠墊｜數位板,Turtle Beach 滑鼠,162,｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(白)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸,1590,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,165,｛Cougar Minos Neo｝ 電競滑鼠(黑)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效,690,,
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,166,｛Cougar Minos Neo｝ 電競滑鼠(白)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效,790,,
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,167,｛Cougar Airblader｝ 超輕量電競滑鼠/有線/16000Dpi/62克/獨家Bounce-ON彈簧張力系統,790,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,168,｛Cougar 800m Dualblader｝ 模組化電競滑鼠/有線/16000Dpi/Dynastrut專利/客制化配件,2590,,
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,169,｛Cougar Revenger Pro 4K｝ 無線滑鼠(黑)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器,1990,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,170,｛Cougar Revenger Pro 4K｝ 無線滑鼠(白)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器,1990,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,171,｛Cougar Revenger Pro 8K｝ 無線滑鼠(鐵灰)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,172,｛Cougar Revenger Pro 8K｝ 無線滑鼠(白)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
+18,滑鼠｜鼠墊｜數位板,美洲獅 Cougar 滑鼠,173,｛Cougar Revenger Pro 8K｝ 無線滑鼠(粉)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi,2290,,熱賣
+18,滑鼠｜鼠墊｜數位板,亞碩(Power Master) 滑鼠,175,｛亞碩(Power Master) G502｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb,590,,
+18,滑鼠｜鼠墊｜數位板,亞碩(Power Master) 滑鼠,176,｛亞碩(Power Master) G602｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb,690,,熱賣
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,178,｛Gigastone GM-X031｝ 電競滑鼠〈2隻組合優惠〉,688,,熱賣
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,179,｛Gigastone GM-X041｝ 電競滑鼠〈2隻組合優惠〉,1099,,熱賣
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,180,｛Gigastone GM-X061｝ 電競滑鼠〈2隻組合優惠〉,1499,,熱賣
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,181,｛Gigastone GM-X031｝ 電競滑鼠/有線/3200Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價499,390,,
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,182,｛Gigastone GM-X041｝ 電競滑鼠/有線/12000Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價749,529,,
+18,滑鼠｜鼠墊｜數位板,Gigastone 滑鼠,183,｛Gigastone GM-X061｝ 電競滑鼠/有線/16000Dpi/10個自訂按鍵/巨集/編織線/Rgb 原價1099,749,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,185,｛HyperX Pulsefire Fuse｝ 雙模滑鼠/無線+藍牙/12000Dpi/75g/AAA電池/Rgb,990,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,186,｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(黑)/無線+藍牙/26000Dpi/61g/Rgb,1990,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,187,｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(白)/無線+藍牙/26000Dpi/61g/Rgb,1990,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,188,｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(黑)/有線+無線+藍牙/26000Dpi/59g,1790,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,189,｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(白)/有線+無線+藍牙/26000Dpi/59g,1790,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,190,｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(海軍藍)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb,2990,,熱賣
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,191,｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(銀)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb,2990,,熱賣
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,192,｛HyperX Pulsefire Haste 2 Pro 4K｝ 雙模滑鼠(灰)/無線/藍牙/26000Dpi/4000Hz/61g/Rgb,2990,,
+18,滑鼠｜鼠墊｜數位板,HyperX 滑鼠,193,｛HyperX Pulsefire Saga Pro 4K｝ 無線滑鼠(黑)/無線/藍牙/26000Dpi/4000Hz/72g/Rgb,2990,,
+18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,195,｛Zowie U2-DW 4K｝ 無線電競滑鼠/3200Dpi/3390感應/對稱型設計/獨家無線基地台/小尺寸,2990,,熱賣 酷幣500
+18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,196,｛Zowie S2-DW 4K｝ 無線電競滑鼠/3200Dpi/對稱型設計/獨家無線基地台/小尺寸,3390,,熱賣 酷幣300
+18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,197,｛Zowie ZA13-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸,3390,,熱賣 酷幣300
+18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,198,｛Zowie FK2-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸,3390,,熱賣 酷幣300
+18,滑鼠｜鼠墊｜數位板,Zowie 滑鼠,199,｛Zowie EC3-DW｝ 無線電競滑鼠/3200Dpi/非對稱人體工學外型/24段滾輪/流暢曲線設計/小尺寸,3390,,熱賣 酷幣300
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,201,｛海盜船 Katar Pro｝超輕量電競滑鼠/有線/69克/12400Dpi/Rgb,590,,熱賣
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,202,｛海盜船 M55｝超輕量電競滑鼠/有線/16000Dpi/55g/對稱設計/六編輯按鈕,890,,
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,203,｛海盜船 M55 Wireless｝雙模滑鼠/無線/藍牙/24000Dpi/六編輯按鈕/AA電池供電,1390,,
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,204,｛海盜船 Harpoon V2｝三模滑鼠/有線/無線/藍牙/26000Dpi/經典人體工學外型設計/Rgb,1990,,
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,205,｛海盜船 Ironclaw Se｝三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Rgb/適合右手贈 海盜船購物袋,2590,,熱賣
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,206,｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(黑)/有線/2.4g/輕量36g/33000Dpi/8000Hz,2790,,熱賣
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,207,｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(白)/有線/2.4g/輕量36g/33000Dpi/8000Hz,2790,,熱賣
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,208,｛海盜船 Nightsword V2｝無線滑鼠/有線/2.4g/藍牙/33000Dpi/專屬Stream Deck快捷鍵,4090,,
+18,滑鼠｜鼠墊｜數位板,海盜船 Corsair 滑鼠,209,｛海盜船 Sabre V2 Pro 8K｝碳纖維 無線滑鼠(黑)/有線/2.4g/藍牙/55g/33000Dpi/8000Hz,4890,,
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,211,｛LEXMA M450R｝ 無線滑鼠/2.4G/1600Dpi/長效電力續航/高質感時尚有型,349,,熱賣
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,212,｛LEXMA M600R｝ 無線人體工學滑鼠/2.4G/長效電力續航/高質感時尚有型,349,,熱賣
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,213,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(星糖紫)/1600Dpi/長效電力續航/隨插即用/流線造型,429,,
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,214,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(幻電紫)/1600Dpi/長效電力續航/隨插即用/流線造型,429,,
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,215,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(豆沙紅)/1600Dpi/長效電力續航/隨插即用/流線造型,429,,
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,216,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(靜夜綠)/1600Dpi/長效電力續航/隨插即用/流線造型,429,,
+18,滑鼠｜鼠墊｜數位板,LEXMA 滑鼠,217,｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(森霧綠)/1600Dpi/長效電力續航/隨插即用/流線造型,429,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,219,｛irocks M31E｝ 光學遊戲滑鼠(黑)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,220,｛irocks M31E｝ 光學遊戲滑鼠(白)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,221,｛irocks M31E｝ 光學遊戲滑鼠(粉)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,790,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,222,｛irocks M31E｝ 光學遊戲滑鼠(白爛貓聯名款)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb,690,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,224,｛irocks M25r｝ 快充式無線靜音滑鼠(黑)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,225,｛irocks M25r｝ 快充式無線靜音滑鼠(白)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,226,｛irocks M25r｝ 快充式無線靜音滑鼠(紫)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,227,｛irocks M25r｝ 快充式無線靜音滑鼠(綠)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計,1290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,228,｛irocks M29r｝ 三模滑鼠(黑)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,229,｛irocks M29r｝ 三模滑鼠(白)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,230,｛irocks M29r｝ 三模滑鼠(粉)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學,1090,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,231,｛irocks M31r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1990,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,232,｛irocks M31r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1990,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,233,｛irocks M31r｝ 三模滑鼠(粉)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395,1990,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,234,｛irocks M36r｝ 三模滑鼠(黑)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb,2190,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,235,｛irocks M36r｝ 三模滑鼠(白)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb,2190,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,236,｛irocks M49r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395,2290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,237,｛irocks M49r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395,2290,,
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,238,｛Irocks M51r｝ 三模電競滑鼠(月岩灰)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2690,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,239,｛Irocks M51r｝ 三模電競滑鼠(雲際藍)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2690,,熱賣
+18,滑鼠｜鼠墊｜數位板,irocks 滑鼠,240,｛Irocks M51r｝ 三模電競滑鼠(薰衣紫)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950,2690,,熱賣
+18,滑鼠｜鼠墊｜數位板,簡報器,242,｛羅技 R500s｝ 雷射簡報遙控器(黑)/無線-藍牙/紅光/20公尺操作範圍,1590,,酷幣100
+18,滑鼠｜鼠墊｜數位板,簡報器,243,｛羅技 R800｝ 專業簡報器/無線/2.4GHz/綠光雷射/液晶顯示,2690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,簡報器,244,｛羅技 Spotlight｝ 專業簡報器(灰)/無線/藍牙/快速充電/螢幕放大/30公尺範圍,3490,,酷幣200
+18,滑鼠｜鼠墊｜數位板,簡報器,245,｛羅技 Spotlight｝ 專業簡報器(金)/無線/藍牙/快速充電/螢幕放大/30公尺範圍▼下殺到 10/25 23:59,2490,2990,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,簡報器,246,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(石墨黑)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,簡報器,247,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(星暮紫)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,簡報器,248,｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(流沙金)/無線(Bolt)/藍牙/30公尺範圍,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,250,｛羅技 G102｝ 炫彩遊戲滑鼠(黑)/有線/8000dpi/Rgb七彩光學效果,499,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,251,｛羅技 G102｝ 炫彩遊戲滑鼠(白)/有線/8000dpi/Rgb七彩光學效果,499,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,252,｛羅技 G102｝ 炫彩遊戲滑鼠(藍)/有線/8000dpi/Rgb七彩光學效果,499,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,253,｛羅技 G102｝ 炫彩遊戲滑鼠(紫)/有線/8000dpi/Rgb七彩光學效果,499,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,254,｛羅技 G402｝ 遊戲光學滑鼠/有線/4000dpi/8鍵自訂,890,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,255,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/黑色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,256,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/白色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,257,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/藍色/無線/12000dpi/6鍵自訂,990,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,258,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/紫色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59,799,990,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,259,｛羅技 G304 Lightspeed｝無線遊戲滑鼠/綠色/無線/12000dpi/6鍵自訂,990,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,260,｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(黑色)/無線/25600Dpi/57g輕量化/106小時續行,1590,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,261,｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(白色)/無線/25600Dpi/57g輕量化/106小時續行,1590,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,262,｛羅技 G304 X Superlight｝無線滑鼠(黑)/有線/2.4G/44000Dpi/59g輕量化,2490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,263,｛羅技 G304 X Superlight｝無線滑鼠(白)/有線/2.4G/44000Dpi/59g輕量化,2490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,264,｛羅技 G309 Lightspeed｝無線遊戲滑鼠(黑)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動,2190,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,265,｛羅技 G309 Lightspeed｝無線遊戲滑鼠(白)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動,2190,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,266,｛羅技 G403 Hero｝ 遊戲滑鼠/有線/16000dpi/RGB/6鍵自訂,1490,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,267,｛羅技 G703｝ 無線電競滑鼠/有線+Lightspeed無線/16000Dpi/Rgb/可配重,2490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,268,｛羅技 G705｝ 美型炫光多工遊戲滑鼠/無線/8200Dpi/Rgb/小型手掌設計,1990,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,269,｛羅技 G903｝ 無線電競滑鼠/有線+Lightspeed無線/16000dpi/Rgb/11顆自訂按鍵/可配重,3290,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,270,｛羅技 G502 Hero RGB｝ 遊戲滑鼠/有線/25600Dpi/砝碼/Rgb/飛輪滾輪,1290,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,271,｛羅技 G502 Lightspeed｝ 無線電競滑鼠(黑色)/無線/25600Dpi/砝碼/Rgb/飛輪滾輪,2490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,272,｛羅技 G502 X｝ 電競滑鼠(黑)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動,1990,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,273,｛羅技 G502 X｝ 電競滑鼠(白)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動,1990,,
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,276,｛羅技 G502 X Lightspeed｝ 無線滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59,2990,3490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,277,｛羅技 G502 X Lightspeed｝ 無線滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59,2990,3490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,278,【套裝搭購優惠】｛羅技 G502 X Lightspeed｝ 無線滑鼠,2790,,熱賣 酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,281,｛羅技 G502 X Plus｝無線電競滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb,4190,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,282,｛羅技 G502 X Plus｝無線電競滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb,4190,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,283,｛羅技 G502 X Plus｝無線電競滑鼠(暮光紫)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb▼下殺到 10/25 23:59,4190,4990,熱賣 價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,284,【套裝搭購優惠】｛羅技 G502 X Plus｝ 無線電競滑鼠,3890,,熱賣 酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,285,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(黑色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb,3090,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,286,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(白色)/Usb-c充電線/Hero2感應器/32000Dpi混和微動/Rgb,3090,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,287,｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(桃紅色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb,3090,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,288,【套裝搭購優惠】｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠,2690,,熱賣 酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,289,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(黑色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,290,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(白色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,291,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(紅色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,292,｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(桃色)/44000Dpi/超輕量57g/續航88h/1000Hz,2690,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,293,【套裝搭購優惠】｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠,2390,,熱賣 酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,294,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95h/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,295,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,296,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(桃色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,2990,3690,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,297,｛羅技 G Pro X Superlight 2｝無線電競滑鼠(電光藍)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59,3390,3690,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,298,【套裝搭購優惠】｛羅技 G Pro X Superlight 2｝無線滑鼠(黑),2790,,熱賣 酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,299,｛羅技 G Pro X Superlight 2c SE｝無線滑鼠(黑)/混合微動/44000Dpi/88g/適合握持玩家,3390,,熱賣 酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,300,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(黑色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,301,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(白色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,302,｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(粉色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59,3990,4490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,303,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,304,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,305,｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(桃紅色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型,3990,,酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,306,｛羅技 G Pro X 2 Superstrike｝ 無線滑鼠/44000Dpi/無線8k/支援無線充電/可調式觸發點▼下殺到 10/25 23:59,4490,5190,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 電競滑鼠,308,｛羅技 G Pro X 3 Superstrike｝無線類比滑鼠(黑)/48000Dpi/HITS觸覺感應/支援無線充電,6390,,熱賣 酷幣250
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,310,｛羅技 M90｝ 光學滑鼠/有線/400dpi/Usb,229,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,311,｛羅技 M100R｝ 光學滑鼠/有線/1000dpi/Usb,269,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,312,｛羅技 M110｝ 有線靜音滑鼠(黑)/1000dpi/Usb,349,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,313,｛羅技 M171｝ 無線滑鼠(灰)/無線/1000dpi/2.4G迷你接收器/左右手適用,399,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,314,｛羅技 M240｝ 無線靜音藍牙滑鼠(石墨灰)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,315,｛羅技 M240｝ 無線靜音藍牙滑鼠(珍珠白)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,316,｛羅技 M240｝ 無線靜音藍牙滑鼠(玫瑰粉)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型,629,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,317,〈套裝搭購優惠價〉｛羅技 M240｝ 無線靜音藍牙滑鼠,529,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,318,｛羅技 M221｝ 無線靜音光學滑鼠(黑)/無線/1000dpi/2.4G接收器,599,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,319,｛羅技 M331｝ SilentPlus 靜音滑鼠(黑)/無線/1000dpi/2.4G,699,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,320,｛羅技 M331｝ SilentPlus 靜音滑鼠(藍)/無線/1000dpi/2.4G,699,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,321,｛羅技 M331｝ SilentPlus 靜音滑鼠(紅)/無線/1000dpi/2.4G,699,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,322,｛羅技 M350s｝ 藍牙滑鼠(石墨灰)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,323,｛羅技 M350s｝ 藍牙滑鼠(珍珠白)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,324,｛羅技 M350s｝ 藍牙滑鼠(玫瑰粉)/無線(接受器需另購)+藍牙/左右手通用/1000dpi,799,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,325,〈套裝搭購優惠價〉｛羅技 M350s｝ 藍牙滑鼠,699,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,326,｛羅技 M650｝ 多工靜音無線滑鼠(石墨灰)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,327,｛羅技 M650｝ 多工靜音無線滑鼠(玫瑰粉)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,328,｛羅技 M650｝ 多工靜音無線滑鼠(珍珠白)/無線/SmartWheel捲動功能/自訂側邊按鈕,1090,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,329,｛羅技 M750｝ 多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,330,｛羅技 M750｝ 多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,331,｛羅技 M750｝ 多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用,1490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,332,｛羅技 M750 L｝多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,333,｛羅技 M750 L｝多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,334,｛羅技 M750 L｝多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59,1390,1490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,335,｛羅技 M840 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用,1590,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,336,｛羅技 M840 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用,1590,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,337,【套裝搭購優惠】｛羅技 M840 L｝ 多工舒適無線滑鼠,1290,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,338,｛羅技 M850 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用,1790,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,339,｛羅技 M850 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用,1790,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,340,【套裝搭購優惠】｛羅技 M850 L｝ 多工舒適無線滑鼠,1490,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,341,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(石墨黑)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,342,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(珍珠白)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,343,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(玫瑰粉)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,344,｛羅技 Pop Mouse｝ 無線藍牙滑鼠(薰衣紫)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A),990,,
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,345,｛羅技 Mobi｝ 無線折疊滑鼠(石墨黑)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,346,｛羅技 Mobi｝ 無線折疊滑鼠(星暮紫)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,347,｛羅技 Mobi｝ 無線折疊滑鼠(珍珠白)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板,2690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,350,｛羅技 MX Anywhere 3S｝ 無線滑鼠(石墨灰)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,351,｛羅技 MX Anywhere 3S｝ 無線滑鼠(珍珠白)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,352,｛羅技 MX Anywhere 3S｝ 無線滑鼠(玫瑰粉)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59,2290,2490,價格異動 下殺
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,353,【套裝搭購優惠】｛羅技 MX Anywhere 3S｝ 無線滑鼠,2090,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,354,｛羅技 MX Master 3s Lite｝ 藍芽滑鼠(石墨灰)/2.4G/藍牙/8000Dpi(贈BOLT接收器USB-C),2990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,355,【套裝搭購優惠】｛羅技 MX Master 3s Lite｝ 藍芽滑鼠,2590,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,358,｛羅技 MX Master 4｝ 無線智能滑鼠(石墨灰)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,359,｛羅技 MX Master 4｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,360,｛羅技 MX Master 4 for Mac｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能,3990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,361,【套裝搭購優惠】｛羅技 MX Master 4｝ 無線智能滑鼠,3590,,熱賣 酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,364,｛羅技 Lift｝ 人體工學垂直滑鼠(石墨灰)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,365,｛羅技 Lift｝ 人體工學垂直滑鼠(玫瑰粉)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,366,｛羅技 Lift｝ 人體工學垂直滑鼠(珍珠白)/無線-藍牙/57°垂直/適用小-中手型,2490,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,367,【套裝搭購優惠】｛羅技 Lift｝ 人體工學垂直滑鼠,1990,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,370,｛羅技 MX Vertical｝ 垂直滑鼠/有線-無線-藍牙/57°垂直/支援FLOW/人體工學/適用中-大手型,2990,,酷幣200
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,371,【套裝搭購優惠】｛羅技 MX Vertical｝ 垂直滑鼠,2490,,熱賣
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,372,｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/人體工學,1490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,373,｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/人體工學,1490,,酷幣100
+18,滑鼠｜鼠墊｜數位板,羅技 商務滑鼠,374,｛羅技 MX Ergo S｝ 無線軌跡球滑鼠/雙模(藍牙或BOLT接收器)/傾斜20°調整/適用中-大手型,3290,,酷幣200
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,376,威剛 ｛XPG FRONTLINE XL FORMOSA SEXY｝ 限定聯名款大型電競滑鼠墊/900x420x3,690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,377,｛羅技 G240｝ 電競布質鼠墊(340x280x1mm),299,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,378,｛羅技 G840｝ 大尺寸遊戲鼠墊(桃紅色)(900x400x3mm),590,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,379,｛羅技 桌上滑鼠墊｝(玫瑰粉)(700x300x2)/布質/防潑濺設計,499,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,380,｛羅技 桌上滑鼠墊｝(沉穩灰)(700x300x2)/布質/防潑濺設計,499,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,381,｛羅技 G Pro X Control｝加厚編織遊戲鼠墊/全向布料/460x400x6mm,2290,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,382,｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊,3690,,酷幣200
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,383,｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊,39,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,384,｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm,490,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,385,｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊,790,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,386,｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm,590,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,387,｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400,1290,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,388,｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,389,｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm,1690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,390,｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm,1690,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,391,｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm,590,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,392,｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm,439,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,393,｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm,499,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,394,｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm,1690,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,395,｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3,890,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,396,｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,397,｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410,1090,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,398,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3,490,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,399,｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4,990,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,400,｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,401,｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410,3090,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,402,｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530,3790,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,403,｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,404,｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,405,｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410,3090,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,406,｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530,3790,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,407,｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500,1890,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,408,｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉,3399,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,409,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,410,｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400,4590,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,411,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,412,｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm,999,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,413,｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送),1990,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,414,｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送),1980,,熱賣
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,415,｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版,1190,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,416,｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1290,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,417,｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,418,｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1190,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,419,｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm,1150,,
+18,滑鼠｜鼠墊｜數位板,鼠墊 系列,420,｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm,1590,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),422,｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定,1266,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),423,｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定,3136,,
+18,滑鼠｜鼠墊｜數位板,XP-PEN 數位繪圖板(1年保固),424,｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換,4241,,
+18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),426,｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版,2890,,熱賣
+18,滑鼠｜鼠墊｜數位板,Wacom 數位繪圖板(1年保固),427,｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙,4690,,熱賣
 19,IP分享器｜網卡｜網通設備,【網通促銷專區】,2,｛TP-LINK Archer GE230｝ (BE3600 / Wi-Fi 7 / 雙頻 / 3*1Gb / 1*2.5Gb / 遊戲加速技術),2999,,熱賣
 19,IP分享器｜網卡｜網通設備,【網通促銷專區】,3,｛TP-LINK Archer BE550｝ (BE9300/Wi-Fi 7/三頻/320MHz頻道/5*2.5Gb/高通晶片),5599,,熱賣
 19,IP分享器｜網卡｜網通設備,智慧家庭 (Tapo T110 T100 須搭配 Tapo 智慧網關),5,｛ TP-LINK Tapo P105｝ 迷你型智慧 Wi-Fi 插座 (遠端控制/設定排程/語音控制),329,,
@@ -6062,47 +6077,47 @@ cat_id,category,group,id,name,price,list_price,flags
 22,喇叭｜耳機｜麥克風,SteelSeries 賽睿 耳麥,217,｛SteelSeries Nova Pro Omni｝ 無線耳機(白)/Hi-Res無線認證/主動式降噪/40mm釹磁單體,13990,,
 22,喇叭｜耳機｜麥克風,SteelSeries 賽睿 耳麥,218,｛SteelSeries Nova Pro Omni｝ 無線耳機(午夜藍)/Hi-Res無線認證/主動式降噪/40mm釹磁單體,13990,,
 22,喇叭｜耳機｜麥克風,SteelSeries 賽睿 耳麥,219,｛SteelSeries Arctis Nova Elite｝ 無線電競耳機(黑)/無線傳輸高解析音訊,20990,,熱賣
-22,喇叭｜耳機｜麥克風,SteelSeries 賽睿 耳麥,222,｛SteelSeries Arctis Nova Elite｝ 無線電競耳機(靜謐綠金)/無線傳輸高解析音訊,20990,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,226,｛海盜船 Hs35 V2｝電競耳機(黑)/有線/50mm單體/全指向麥克風/整合控制/沒有附轉接器,790,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,227,｛海盜船 Hs35 V3｝電競耳機(黑)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶,1190,,
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,228,｛海盜船 Hs35 V3｝電競耳機(白)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶,1190,,
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,230,｛海盜船 Hs35 V3｝無線耳機(黑)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶,2090,,
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,231,｛海盜船 Hs35 V3｝無線耳機(白)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶,2090,,
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,232,｛海盜船 Hs80 Max Wireless｝ 無線耳機(消光灰)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb,3290,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,233,｛海盜船 Hs80 Max Wireless｝ 無線耳機(雪貂白)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb,3290,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,234,｛海盜船 Void Wireless V2｝ 雙模耳機(黑)/無線/藍芽/杜比/303g輕量化/Rgb,2490,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,235,｛海盜船 Void Wireless V2｝ 雙模耳機(白)/無線/藍芽/杜比/303g輕量化/Rgb,2490,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,236,｛海盜船 Void Wireless V2 Max｝ 雙模耳機(黑)/無線/藍芽/杜比/50單體/超長續航,3490,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,237,｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(黑)/無線-藍牙/杜比/主動式降噪/全指向麥克風,8990,,熱賣
-22,喇叭｜耳機｜麥克風,海盜船 耳麥,238,｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(銀)/無線-藍牙/杜比/主動式降噪/全指向麥克風,8990,,熱賣
-22,喇叭｜耳機｜麥克風,羅技 耳麥,240,｛羅技 H151｝ (黑)立體聲耳麥/3.5mm/有線/可調式頭帶,589,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,241,｛羅技 H340｝ USB 耳麥/有線/立體聲音質/濾噪麥克風,949,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,242,｛羅技 H390｝ USB 耳麥(石墨灰)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,243,｛羅技 H390｝ USB 耳麥(玫瑰粉)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,244,｛羅技 H390｝ USB 耳麥(珍珠白)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,245,｛羅技 H540｝ USB 耳麥/有線/雷射微調/皮革耳罩,1590,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,246,｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/黑,1490,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,247,｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/白,1490,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,248,｛羅技 G431｝ 電競耳機/有線/50mm單體/DTS Headphone:X 2.0音效/人造皮革耳墊,1490,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,249,｛羅技 G321 Lightspeed｝ 無線耳機(黑)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風,1490,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,250,｛羅技 G321 Lightspeed｝ 無線耳機(白)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風,1490,,
-22,喇叭｜耳機｜麥克風,羅技 耳麥,251,｛羅技 G325 Lightspeed｝ 雙模無線耳機(暗夜黑)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,252,｛羅技 G325 Lightspeed 雙模無線耳機(極地白)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,253,｛羅技 G325 Lightspeed｝ 雙模無線耳機(丁香紫)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,254,｛羅技 G Pro X｝專業電競耳麥/有線/PRO-G 50單體/DTS,3990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,258,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(黑)/有線-無線-藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,259,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(白)/有線-無線-藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,260,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(桃色)/有線-無線-藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,261,｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(黑)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風,7690,,熱賣 酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,262,｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(白)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風,7690,,熱賣 酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,263,｛羅技 G535 Wireless｝ 無線電競耳機/Lightspeed 技術/輕量化/40mm單體/Discord認證,2990,,酷幣100
-22,喇叭｜耳機｜麥克風,羅技 耳麥,264,｛羅技 G522 Lightspeed｝ 無線三模耳機(神秘黑)/有線-無線-藍牙/Pro-G單體/Rgb,3990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,265,｛羅技 G522 Lightspeed｝ 無線三模耳機(極光白)/有線-無線-藍牙/Pro-G單體/Rgb,3990,,酷幣250
-22,喇叭｜耳機｜麥克風,羅技 耳麥,268,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/黑▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
-22,喇叭｜耳機｜麥克風,羅技 耳麥,269,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/白▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
-22,喇叭｜耳機｜麥克風,羅技 耳麥,270,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/藍▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
-22,喇叭｜耳機｜麥克風,羅技 耳麥,271,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/紫▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
-22,喇叭｜耳機｜麥克風,羅技 耳麥,272,｛羅技 G735｝ 無線美型RGB遊戲耳麥(白)/無線-藍牙/40mm單體/輕巧/Rgb,4690,,酷幣250
+22,喇叭｜耳機｜麥克風,SteelSeries 賽睿 耳麥,221,｛SteelSeries Arctis Nova Elite｝ 無線電競耳機(靜謐綠金)/無線傳輸高解析音訊,20990,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,224,｛海盜船 Hs35 V2｝電競耳機(黑)/有線/50mm單體/全指向麥克風/整合控制/沒有附轉接器,790,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,225,｛海盜船 Hs35 V3｝電競耳機(黑)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶,1190,,
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,226,｛海盜船 Hs35 V3｝電競耳機(白)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶,1190,,
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,228,｛海盜船 Hs35 V3｝無線耳機(黑)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶,2090,,
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,229,｛海盜船 Hs35 V3｝無線耳機(白)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶,2090,,
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,230,｛海盜船 Hs80 Max Wireless｝ 無線耳機(消光灰)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb,3290,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,231,｛海盜船 Hs80 Max Wireless｝ 無線耳機(雪貂白)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb,3290,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,232,｛海盜船 Void Wireless V2｝ 雙模耳機(黑)/無線/藍芽/杜比/303g輕量化/Rgb,2490,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,233,｛海盜船 Void Wireless V2｝ 雙模耳機(白)/無線/藍芽/杜比/303g輕量化/Rgb,2490,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,234,｛海盜船 Void Wireless V2 Max｝ 雙模耳機(黑)/無線/藍芽/杜比/50單體/超長續航,3490,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,235,｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(黑)/無線-藍牙/杜比/主動式降噪/全指向麥克風,8990,,熱賣
+22,喇叭｜耳機｜麥克風,海盜船 耳麥,236,｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(銀)/無線-藍牙/杜比/主動式降噪/全指向麥克風,8990,,熱賣
+22,喇叭｜耳機｜麥克風,羅技 耳麥,238,｛羅技 H151｝ (黑)立體聲耳麥/3.5mm/有線/可調式頭帶,589,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,239,｛羅技 H340｝ USB 耳麥/有線/立體聲音質/濾噪麥克風,949,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,240,｛羅技 H390｝ USB 耳麥(石墨灰)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,241,｛羅技 H390｝ USB 耳麥(玫瑰粉)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,242,｛羅技 H390｝ USB 耳麥(珍珠白)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置,1290,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,243,｛羅技 H540｝ USB 耳麥/有線/雷射微調/皮革耳罩,1590,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,244,｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/黑,1490,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,245,｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/白,1490,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,246,｛羅技 G431｝ 電競耳機/有線/50mm單體/DTS Headphone:X 2.0音效/人造皮革耳墊,1490,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,247,｛羅技 G321 Lightspeed｝ 無線耳機(黑)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風,1490,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,248,｛羅技 G321 Lightspeed｝ 無線耳機(白)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風,1490,,
+22,喇叭｜耳機｜麥克風,羅技 耳麥,249,｛羅技 G325 Lightspeed｝ 雙模無線耳機(暗夜黑)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,250,｛羅技 G325 Lightspeed 雙模無線耳機(極地白)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,251,｛羅技 G325 Lightspeed｝ 雙模無線耳機(丁香紫)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化,2690,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,252,｛羅技 G Pro X｝專業電競耳麥/有線/PRO-G 50單體/DTS,3990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,256,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(黑)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,257,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(白)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,258,｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(桃色)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術,5990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,259,｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(黑)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風,7690,,熱賣 酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,260,｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(白)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風,7690,,熱賣 酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,261,｛羅技 G535 Wireless｝ 無線電競耳機/Lightspeed 技術/輕量化/40mm單體/Discord認證,2990,,酷幣100
+22,喇叭｜耳機｜麥克風,羅技 耳麥,262,｛羅技 G522 Lightspeed｝ 無線三模耳機(神秘黑)/有線/2.4g/藍牙/Pro-G單體/Rgb,3990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,263,｛羅技 G522 Lightspeed｝ 無線三模耳機(極光白)/有線/2.4g/藍牙/Pro-G單體/Rgb,3990,,酷幣250
+22,喇叭｜耳機｜麥克風,羅技 耳麥,266,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/黑▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
+22,喇叭｜耳機｜麥克風,羅技 耳麥,267,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/白▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
+22,喇叭｜耳機｜麥克風,羅技 耳麥,268,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/藍▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
+22,喇叭｜耳機｜麥克風,羅技 耳麥,269,｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/紫▼下殺到 10/25 23:59,2690,2990,價格異動 下殺
+22,喇叭｜耳機｜麥克風,羅技 耳麥,270,｛羅技 G735｝ 無線美型RGB遊戲耳麥(白)/無線-藍牙/40mm單體/輕巧/Rgb,4690,,酷幣250
 23,燒錄器 CD/DVD/BD,終極DVD燒錄器 SATA介面,3,｛華碩 DRW-08D6MT｝8XHHDVD緊湊型內接燒錄器(黑) / 支援M-Disc,890,,
 23,燒錄器 CD/DVD/BD,USB DVD外接燒錄器,5,｛華碩 SDRW-08D2S-U｝8XDVD外接燒錄器(黑) / 支援Mac,849,,熱賣
 23,燒錄器 CD/DVD/BD,USB DVD外接燒錄器,6,｛華碩 SDRW-08D2S-U｝8XDVD外接燒錄器(白) / 支援Mac,849,,
@@ -6110,7 +6125,7 @@ cat_id,category,group,id,name,price,list_price,flags
 23,燒錄器 CD/DVD/BD,USB DVD外接燒錄器,8,｛華碩 SDRW-08U9M-U｝超薄 / 8XDVD(銀) / 支援M-Disc / 內含Type A、C連接線,990,,
 23,燒錄器 CD/DVD/BD,USB DVD外接燒錄器,9,｛華碩 SDRW-08U7C-U｝超薄 / 8XDVD(黑) / 支援M-Disc / 內含Type C連接線 / 燒錄片*3,990,,
 23,燒錄器 CD/DVD/BD,USB 外接藍光COMBO燒錄器,11,｛華碩 SBC-06D2X-U｝藍光COMBO燒錄器 / 6X藍光讀 / 8XDVD燒錄 / 含直立架(黑),4490,,
-23,燒錄器 CD/DVD/BD,USB 外接藍光燒錄器,13,｛華碩 SBW-06D2X-U｝6X 藍光燒錄器 / 支援Mac / 附直立架,3290,,
+23,燒錄器 CD/DVD/BD,USB 外接藍光燒錄器,13,｛華碩 SBW-06D2X-U｝6X 藍光燒錄器 / 支援Mac / 附直立架,4990,,
 23,燒錄器 CD/DVD/BD,USB 外接藍光燒錄器,14,｛華碩 BW-16D1H-U PRO｝16X藍光燒錄器 / USB5G / 黑 / 附支架 / 支援Mac,4990,,
 24,USB週邊｜硬碟座｜讀卡機,高速 M.2外接盒,4,｛華碩 ESD-A1A 墨石黑｝Cobble / 雙模 / IP55 / USB-C to C,999,,
 24,USB週邊｜硬碟座｜讀卡機,高速 M.2外接盒,5,｛華碩 ESD-A1A 塵霧灰｝Cobble / 雙模 / IP55 / USB-C to C,999,,

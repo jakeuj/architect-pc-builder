@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/5 12:23",
+ "quote_date": "2026/10/5 17:36",
  "categories": [
   {
    "id": 1,
@@ -1065,7 +1065,7 @@
       {
        "id": 205,
        "name": "｛ACER RB102 DT.BQTTA.001｝Core Ultra 7 255H / 16G / 1T / WIN11 Pro",
-       "price": 33900,
+       "price": 35900,
        "list_price": null,
        "flags": []
       }
@@ -1682,7 +1682,7 @@
       {
        "id": 44,
        "name": "Acer Aspire 7 Core 5-210H/RTX4050/16G/512G/15.6吋/黑｛A715-59G-565X｝",
-       "price": 36900,
+       "price": 38900,
        "list_price": null,
        "flags": []
       }
@@ -1753,7 +1753,7 @@
       {
        "id": 58,
        "name": "Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74T-56K4｝〈觸控〉",
-       "price": 27900,
+       "price": 28900,
        "list_price": null,
        "flags": []
       }
@@ -1784,7 +1784,7 @@
       {
        "id": 64,
        "name": "Acer Aspire Spin Ryzen AI 5 330/16G/512G/14吋/銀｛ASP14-61N-R0ZS｝〈觸控翻轉〉",
-       "price": 28900,
+       "price": 29900,
        "list_price": null,
        "flags": []
       }
@@ -1796,7 +1796,7 @@
       {
        "id": 66,
        "name": "Acer Aspire Spin Ryzen AI 5 330/16G/512G/15.3吋/銀｛ASP15-61N-R27Y｝〈觸控翻轉〉",
-       "price": 29900,
+       "price": 30900,
        "list_price": null,
        "flags": []
       },
@@ -1827,21 +1827,21 @@
       {
        "id": 71,
        "name": "Acer Nitro V i5-13420H/RTX5050/16G/512G/15.6吋/黑｛ANV15-52-53WY｝",
-       "price": 37499,
+       "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 72,
        "name": "Acer Nitro V i5-13420H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-53GB｝",
-       "price": 39688,
+       "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 73,
        "name": "Acer Nitro V Core 5-210H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-52CL｝",
-       "price": 44900,
+       "price": 49900,
        "list_price": null,
        "flags": []
       }
@@ -1874,14 +1874,14 @@
       {
        "id": 78,
        "name": "Acer Nitro V Ryzen AI 9 465/RTX5070/16G/512G/16吋/黑｛ANV16-A71-R2A2｝",
-       "price": 65900,
+       "price": 66900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 79,
        "name": "Acer Helios Neo Ultra 7-255H/RTX5060/32G/1T/14.5吋/黑｛PHN14-71-74GT｝",
-       "price": 85900,
+       "price": 89900,
        "list_price": null,
        "flags": []
       },
@@ -1928,7 +1928,7 @@
       {
        "id": 86,
        "name": "Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-79XM｝",
-       "price": 59900,
+       "price": 65900,
        "list_price": null,
        "flags": [
         "酷幣2000"
@@ -1937,21 +1937,21 @@
       {
        "id": 88,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-94UX｝",
-       "price": 64900,
+       "price": 68900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 89,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16S-71-90J2｝",
-       "price": 66900,
+       "price": 76900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 90,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5070Ti/32G/1T/16吋/黑｛PHN16S-71-90TD｝",
-       "price": 92900,
+       "price": 96900,
        "list_price": null,
        "flags": []
       }
@@ -1963,7 +1963,7 @@
       {
        "id": 92,
        "name": "Acer Swift Lite Ultra 5-115U/32G/512G/14吋/晨曦粉｛SFL14-54M-56KG｝【極致輕999克】",
-       "price": 31900,
+       "price": 35900,
        "list_price": null,
        "flags": []
       },
@@ -1989,7 +1989,7 @@
       {
        "id": 96,
        "name": "Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝",
-       "price": 29900,
+       "price": 30900,
        "list_price": null,
        "flags": []
       }
@@ -2001,7 +2001,7 @@
       {
        "id": 98,
        "name": "Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-542S｝〈IPS面板〉",
-       "price": 32900,
+       "price": 34900,
        "list_price": null,
        "flags": []
       },
@@ -2015,14 +2015,14 @@
       {
        "id": 100,
        "name": "Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-59DG｝",
-       "price": 33900,
+       "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
        "id": 101,
        "name": "Acer Swift Go AI Ultra 7-258V/32G/1T/14吋/藍｛SFG14-75-76T1｝",
-       "price": 45900,
+       "price": 46900,
        "list_price": null,
        "flags": []
       }
@@ -2041,7 +2041,7 @@
       {
        "id": 104,
        "name": "Acer Swift Go AI Ultra 5-228V/32G/512G/16吋/黑｛SFG16-74-58QT｝",
-       "price": 42900,
+       "price": 43900,
        "list_price": null,
        "flags": []
       },
@@ -2055,43 +2055,31 @@
      ]
     },
     {
-     "label": "14吋 Acer宏碁 Swift 14 系列",
-     "items": [
-      {
-       "id": 107,
-       "name": "Acer Swift 14 Qualcomm X1E-78-100/16G/1T/14.5吋/灰｛SF14-11T-X5F7｝〈觸控〉",
-       "price": 29900,
-       "list_price": null,
-       "flags": []
-      }
-     ]
-    },
-    {
      "label": "14吋 Acer宏碁 Swift Air 系列",
      "items": [
       {
-       "id": 109,
+       "id": 107,
        "name": "Acer Swift Air Ultra 5-125H/16G/512G/14吋/銀｛SFA14-71M-57TB｝",
-       "price": 31900,
+       "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 108,
        "name": "Acer Swift Air Ultra 5-125H/32G/512G/14吋/銀｛SFA14-71M-52EM｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 109,
        "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/粉｛SFA14-71M-72Q2｝",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 110,
        "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝",
        "price": 42900,
        "list_price": null,
@@ -2103,30 +2091,30 @@
      "label": "16吋 Acer宏碁 Swift Air 系列",
      "items": [
       {
-       "id": 114,
+       "id": 112,
        "name": "Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/銀｛SFA16-61M-R8U8｝【極致輕999克】",
-       "price": 32900,
+       "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 113,
        "name": "Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/白｛SFA16-61M-R3W0｝",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 114,
        "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】",
-       "price": 37900,
+       "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 115,
        "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/白｛SFA16-61M-R7T5｝",
-       "price": 38900,
+       "price": 39900,
        "list_price": null,
        "flags": []
       }
@@ -2136,7 +2124,7 @@
      "label": "14吋/16吋 Acer宏碁 Swift Edge 系列 〈頂級超輕量工作生活筆電〉",
      "items": [
       {
-       "id": 119,
+       "id": 117,
        "name": "Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝",
        "price": 58900,
        "list_price": null,
@@ -2152,7 +2140,7 @@
      "label": "15吋 Lenovo IdeaPad Slim 3 系列",
      "items": [
       {
-       "id": 124,
+       "id": 122,
        "name": "Lenovo IdeaPad 3 i3-1315U/8G/512G/15.6吋/藍｛82X700LATW｝",
        "price": 15990,
        "list_price": null,
@@ -2164,14 +2152,14 @@
      "label": "16吋 Lenovo IdeaPad Slim 3 系列",
      "items": [
       {
-       "id": 127,
+       "id": 125,
        "name": "Lenovo IdeaPad 3 Core 5-320/16G/512G/16吋/灰｛83RS001PTW｝",
        "price": 29990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 126,
        "name": "Lenovo IdeaPad 3 Ultra 5-322/16G/512G/16吋/灰｛83US0050TW｝",
        "price": 32990,
        "list_price": null,
@@ -2183,7 +2171,7 @@
      "label": "14吋 Lenovo IdeaPad Pro 5 系列",
      "items": [
       {
-       "id": 131,
+       "id": 129,
        "name": "Lenovo IdeaPad Pro 5 Ultra X7-358H/32G/1T/14吋/灰｛83SH000NTW｝",
        "price": 63900,
        "list_price": null,
@@ -2195,14 +2183,14 @@
      "label": "14吋 Lenovo Yoga Slim 7 / Yoga Pro 7 系列",
      "items": [
       {
-       "id": 134,
+       "id": 132,
        "name": "Lenovo Yoga Slim 7 Ultra 5-325/32G/1T/14吋/貝殼白｛83QK0038TW｝〈觸控〉",
        "price": 63990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 133,
        "name": "Lenovo Yoga Slim 9 Ultra 7-258V/32G/1T/14吋/綠｛83CX0010TW｝〈觸控〉",
        "price": 64500,
        "list_price": null,
@@ -2214,36 +2202,50 @@
      "label": "15吋 Lenovo LOQ 系列",
      "items": [
       {
-       "id": 139,
+       "id": 137,
        "name": "Lenovo LOQ R5-7535HS/RTX3050/16G/512G/15.6吋/灰｛83S000A9TW｝",
        "price": 29990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 140,
+       "id": 138,
        "name": "Lenovo LOQ R7-170/RTX4050/16G/512G/15.6吋/灰｛83S000DNTW｝",
        "price": 35990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 141,
+       "id": 139,
+       "name": "Lenovo LOQ R7-250/RTX5050/16G/512G/15.3吋/灰｛83TN008UTW｝",
+       "price": 46990,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 140,
        "name": "Lenovo LOQ R7-250/RTX5060/16G/512G/15.3吋/灰｛83TN004BTW｝",
        "price": 46990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 143,
+       "id": 142,
        "name": "Lenovo LOQ i5-13450HX/RTX3050/16G/512G/15.6吋/灰｛83DV01GJTW｝",
        "price": 32990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 144,
+       "id": 143,
        "name": "Lenovo LOQ i5-13450HX/RTX4050/16G/512G/15.6吋/灰｛83DV01J3TW｝",
+       "price": 35990,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 144,
+       "name": "Lenovo LOQ i7-13650HX/RTX4050/16G/512G/15.6吋/灰｛83DV01L2TW｝",
        "price": 35990,
        "list_price": null,
        "flags": []
@@ -3464,6 +3466,13 @@
        "price": 45900,
        "list_price": null,
        "flags": []
+      },
+      {
+       "id": 338,
+       "name": "技嘉 GAMING A16 Ryzen 7 260/RTX5070/16G/1T/16吋 黑｛3WHK3TW894SH｝",
+       "price": 49999,
+       "list_price": null,
+       "flags": []
       }
      ]
     },
@@ -3471,7 +3480,7 @@
      "label": "16 吋 技嘉 AORUS MASTER 16",
      "items": [
       {
-       "id": 339,
+       "id": 340,
        "name": "【技嘉筆電搭購】創見JetRam 16GB DDR5-5600 NB",
        "price": 6999,
        "list_price": null,
@@ -3480,7 +3489,7 @@
        ]
       },
       {
-       "id": 340,
+       "id": 341,
        "name": "【技嘉筆電搭購】金士頓 NV3 1TB (SNV3S/1000G)",
        "price": 4599,
        "list_price": null,
@@ -3489,21 +3498,21 @@
        ]
       },
       {
-       "id": 341,
+       "id": 342,
        "name": "技嘉 AORUS MASTER 16 R9-8940HX/RTX5070Ti/16G/1T/16吋OLED 黑｛8XJJ4TWE94SH｝",
        "price": 78900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 343,
        "name": "技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5080/32G/1T/16吋OLED 黑｛6YJM5TWE64SH｝",
        "price": 119900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 343,
+       "id": 344,
        "name": "技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5090/32G/1T/16吋OLED 黑｛6ZJM6TWE64SH｝",
        "price": 152900,
        "list_price": null,
@@ -3515,28 +3524,28 @@
      "label": "微星 MSI 筆電館-全館刷卡分期零利率(3)",
      "items": [
       {
-       "id": 345,
+       "id": 346,
        "name": "【微星活動官網】買 Titan / Raider / Stealth 指定款登錄送MSI 40週年Max電競大禮包",
        "price": 1,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 346,
+       "id": 347,
        "name": "【微星活動官網】買 Crosshair / Cyborg 指定款登錄送MSI 40週年 Essential 電競大禮包",
        "price": 1,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 347,
+       "id": 348,
        "name": "【微星活動官網】買 Prestige 指定款登錄送MSI第二代USB-C多功能擴充平台",
        "price": 1,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 348,
+       "id": 349,
        "name": "【微星活動官網】買 Modern 16S / Modern 14S登錄送M98藍牙滑鼠、MSI配件收納包",
        "price": 1,
        "list_price": null,
@@ -3548,14 +3557,14 @@
      "label": "13吋 微星 - 輕薄商務系列 Prestige",
      "items": [
       {
-       "id": 350,
+       "id": 351,
        "name": "微星 Prestige 13 Ultra 7-165H/32G/1T/13吋/WIN11 PRO 灰｛A1MG-271TW｝極致輕990g",
        "price": 49900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 351,
+       "id": 352,
        "name": "微星 Prestige 13 Ultra 7-355/32G/1T/13吋/WIN11 PRO 灰｛A3MG-049TW｝極致輕890g▼下殺到 11/1 23:59",
        "price": 59999,
        "list_price": 63900,
@@ -3570,49 +3579,49 @@
      "label": "14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture",
      "items": [
       {
-       "id": 353,
+       "id": 354,
        "name": "微星 Commercial 14 i7-13700H/16G/512G/14吋/WIN11 Pro 灰｛A13MG vPro-419TW｝",
        "price": 28900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 354,
+       "id": 355,
        "name": "微星 Commercial 14 C5-120U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1005TW ｝",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 355,
+       "id": 356,
        "name": "微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 356,
+       "id": 357,
        "name": "微星 Modern 14S AI+ Ultra 5-322/16G/512G/14吋 銀｛G3MG-026TW｝",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 357,
+       "id": 358,
        "name": "微星 Prestige 14 AI+ Ultra 7-355/32G/1T/14吋/WIN11 Pro 黑｛D3MG-031TW｝",
        "price": 56000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 358,
+       "id": 359,
        "name": "微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝",
        "price": 64900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 359,
+       "id": 360,
        "name": "微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝",
        "price": 74900,
        "list_price": null,
@@ -3623,16 +3632,6 @@
     {
      "label": "15吋 微星 - 輕薄商務系列 Modern / Venture Pro",
      "items": [
-      {
-       "id": 361,
-       "name": "微星 Modern 15 i3-1315U/16G/512G/15.6吋 灰｛F13MXG-1025TW｝▼下殺到 11/1 23:59",
-       "price": 16999,
-       "list_price": 21900,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
-      },
       {
        "id": 362,
        "name": "微星 Modern 15 i5-1334U/16G/512G/15.6吋 灰｛F13MXG-1024TW｝",
@@ -4999,213 +4998,281 @@
      ]
     },
     {
+     "label": "酷！PC × 大進氣系列的潮牌主機",
+     "items": [
+      {
+       "id": 90,
+       "name": "酷！PC【大海量】U5 250K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供",
+       "price": 49900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 91,
+       "name": "酷！PC【大海量】U7 270K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供",
+       "price": 53900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 92,
+       "name": "酷！PC【大海量】U9 285K/Z890/32G DDR5/1TB SSD/RX9060XT 16G/850W電供",
+       "price": 63200,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 93,
+       "name": "酷！PC【大氣量】U5 250K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供",
+       "price": 53900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 94,
+       "name": "酷！PC【大氣量】U7 270K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供",
+       "price": 57900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 95,
+       "name": "酷！PC【大氣量】U9 285K/Z890/32G DDR5/1TB SSD/RTX5060TI 16G/850W電供",
+       "price": 67200,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 96,
+       "name": "酷！PC【大肚量】U5 250K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供",
+       "price": 61900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 97,
+       "name": "酷！PC【大肚量】U7 270K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供",
+       "price": 65900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 98,
+       "name": "酷！PC【大肚量】U9 285K/Z890/32G DDR5/1TB SSD/RTX5070/850W電供",
+       "price": 75200,
+       "list_price": null,
+       "flags": []
+      }
+     ]
+    },
+    {
      "label": "華碩 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】",
      "items": [
       {
-       "id": 91,
+       "id": 103,
        "name": "酷！PC【劍齒虎】U7 270K/Z890/24G DDR5/1TB SSD/RTX5060TI/原廠機殼/750W電供",
        "price": 69990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 92,
+       "id": 104,
        "name": "酷！PC【領航員】R5 7500F/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供",
        "price": 44900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 93,
+       "id": 105,
        "name": "酷！PC【領航員】R7 7700/B650/32G DDR5/1TB SSD/RX9060XT 16G/原廠機殼/750W電供",
        "price": 47300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 94,
+       "id": 106,
        "name": "酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G SSD/原廠機殼/650W原廠電供",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 107,
        "name": "酷！PC【黑豹】 Ultra 5 225/B860/16G DDR5/512G/RTX5060/原廠機殼/650W原廠電供",
        "price": 36490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 96,
+       "id": 108,
        "name": "酷！PC【浮空島】R7 9800X3D/X870/32G DDR5/1TB/RTX5070Ti/原廠機殼/850W原廠電供",
        "price": 90900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 97,
+       "id": 109,
        "name": "酷！PC【觀星台】R7 7700/X870/32G DDR5/1TB/RTX5060Ti 16G/750W電供",
        "price": 55900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 98,
+       "id": 110,
        "name": "酷！PC【飛行石】Ultra 5 250K/Z890/32G DDR5/1TB/RTX5060Ti 16G/750W電供",
        "price": 60100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 100,
+       "id": 112,
        "name": "酷！PC【張遼】R5 5600X/B550/16G DDR4/1TB SSD/RTX5060/750W電供",
        "price": 31900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 101,
+       "id": 113,
        "name": "酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 102,
+       "id": 114,
        "name": "酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 41300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 103,
+       "id": 115,
        "name": "酷！PC【小喬】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 48900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 104,
+       "id": 116,
        "name": "酷！PC【小喬】R7 7700/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 51300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 117,
        "name": "酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 106,
+       "id": 118,
        "name": "酷！PC【大喬】U5 225F/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 49900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 120,
        "name": "酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供",
        "price": 41900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 121,
        "name": "酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 122,
        "name": "酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供",
        "price": 49900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 123,
        "name": "酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供",
        "price": 51900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 124,
        "name": "酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供",
        "price": 53900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 113,
+       "id": 125,
        "name": "酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 114,
+       "id": 126,
        "name": "酷！PC【許褚】R5 9600X/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供",
        "price": 56300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 127,
        "name": "酷！PC【許褚】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供",
        "price": 58300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 128,
        "name": "酷！PC【許褚】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供",
        "price": 64300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 129,
        "name": "酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060/原廠機殼/750W電供",
        "price": 41900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 118,
+       "id": 130,
        "name": "酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5060TI 16G/原廠機殼/750W電供",
        "price": 51900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 119,
+       "id": 131,
        "name": "酷！PC【典韋】U5 250K Plus/B860/16G DDR5/1TB SSD/RTX5070/原廠機殼/750W電供",
        "price": 56300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 120,
+       "id": 132,
        "name": "華碩【R5管理者】R5 3400G / A520 / 8G DDR4 / 512G SSD",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 121,
+       "id": 133,
        "name": "華碩【I5管理者】I5-12400 / H610 / 8G DDR4 / 512G SSD",
        "price": 13900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 122,
+       "id": 134,
        "name": "酷！PC【守望者】Ultra 5 225/H810/16G DDR5/512GB SSD/650W電供",
        "price": 16900,
        "list_price": null,
@@ -5217,224 +5284,224 @@
      "label": "技嘉 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】",
      "items": [
       {
-       "id": 127,
+       "id": 139,
        "name": "酷！PC【屠龍刀】U7 270K Plus/B860/16G DDR5/1TB SSD/RTX5060/850W電供",
        "price": 46900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 140,
        "name": "酷！PC【倚天劍】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/850W電供",
        "price": 41900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 129,
+       "id": 141,
        "name": "酷！PC【倚天劍】R7 7800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供",
        "price": 44900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 130,
+       "id": 142,
        "name": "酷！PC【倚天劍】R7 9800X3D/B850/16G DDR5/1TB SSD/RTX5060/850W電供",
        "price": 49900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 134,
+       "id": 146,
        "name": "酷！PC【混沌幻獸】- 黑色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 147,
        "name": "酷！PC【混沌幻獸】- 白色 R5 7500F/B650/16G DDR5/1TB/RTX5060/650W電供",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 136,
+       "id": 148,
        "name": "酷！PC【聖光幻獸】- 黑色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 149,
        "name": "酷！PC【聖光幻獸】- 白色 R7 7700/B650/16G DDR5/1TB/RTX5060TI/650W電供",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 139,
+       "id": 151,
        "name": "技嘉【雕妹限定版】R7 7800X3D/B850/24G DDR5/1TB SSD/RTX5060/750W電供..倒數4台",
        "price": 51900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 140,
+       "id": 152,
        "name": "酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供",
        "price": 65900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 141,
+       "id": 153,
        "name": "酷！PC【電競PARTY】R7 7800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供",
        "price": 60900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 142,
+       "id": 154,
        "name": "酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RTX5070/750W電供",
        "price": 71800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 143,
+       "id": 155,
        "name": "酷！PC【電競PARTY】R7 9800X3D/B850/32G DDR5/1TB SSD/RX9070/750W電供",
        "price": 66800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 144,
+       "id": 156,
        "name": "酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/650W電供",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 145,
+       "id": 157,
        "name": "酷！PC【狂歡PARTY】R7 7700/B850/16G DDR5/1TB SSD/RX9060/650W電供",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 146,
+       "id": 158,
        "name": "酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RTX5060/650W電供",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 159,
        "name": "酷！PC【夏日PARTY】U5 250K/B860/16G DDR5/1TB SSD/RX9060/650W電供",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 149,
+       "id": 161,
        "name": "酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5070TI/850W電供",
        "price": 85900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 150,
+       "id": 162,
        "name": "酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RTX5080/850W電供",
        "price": 93900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 151,
+       "id": 163,
        "name": "酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070GRE/850W電供",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 152,
+       "id": 164,
        "name": "酷！PC【狂熱PARTY】R7 9800X3D/X870/24G DDR5/1TB SSD/RX9070XT/850W電供",
        "price": 68400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 153,
+       "id": 165,
        "name": "酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5070TI/850W電供",
        "price": 85900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 154,
+       "id": 166,
        "name": "酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RTX5080/850W電供",
        "price": 93900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 155,
+       "id": 167,
        "name": "酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070GRE/850W電供",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 156,
+       "id": 168,
        "name": "酷！PC【豪華PARTY】U7 270K/Z890/24G DDR5/1TB SSD/RX9070XT/850W電供",
        "price": 68400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 160,
+       "id": 172,
        "name": "酷！PC【鬼武者-天雷劍】R7 7800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供",
        "price": 72900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 161,
+       "id": 173,
        "name": "酷！PC【鬼武者-天雷劍】R7 9800X3D/X870/32G DDR5/1TB SSD/RTX5070/750W電供",
        "price": 77900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 162,
+       "id": 174,
        "name": "酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9060XT/750W電供",
        "price": 58900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 163,
+       "id": 175,
        "name": "酷！PC【鬼武者-疾風刀】U7 270K Plus/Z890/32G DDR5/1TB SSD/RX9070/750W電供",
        "price": 66900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 164,
+       "id": 176,
        "name": "酷！PC【鬼武者-雷斬刀】R5 7500F/B850/16G DDR5/1TB SSD/RTX5060/750W電供",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 165,
+       "id": 177,
        "name": "酷！PC【鬼武者-雷斬刀】R7 7700/B850/16G DDR5/1TB SSD/RTX5060/750W電供",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 178,
        "name": "酷！PC【鬼武者-地烈斬】U5 225F/B860/16G DDR5/1TB SSD/RX9060XT/750W電供",
        "price": 35900,
        "list_price": null,
@@ -5446,77 +5513,77 @@
      "label": "微星 × 酷！PC 精選套裝主機【預載最新 Windows 11！所有驅動一次到位，開機即用】",
      "items": [
       {
-       "id": 171,
+       "id": 183,
        "name": "酷！PC【凱薩】Ultra 5 225F/B860/16G/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 172,
+       "id": 184,
        "name": "酷！PC【亞瑟】R7 7700/B650/16G/1TB SSD/RTX5060/原廠機殼/650W電供",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 185,
        "name": "[直播VIP]酷！PC【直播遊俠】R7 9800X3D/X870/32G/1TB/RTX5080/原廠機殼/850W金牌電供",
        "price": 93900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 186,
        "name": "[直播VIP]酷！PC【直播叛客】U7 270K/Z890/32G/1TB/RTX5080/原廠機殼/850W金牌電供",
        "price": 92900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 187,
        "name": "[直播VIP]酷！PC【直播君主】R7 9800X3D/B850/32G/1TB/RTX5070TI/原廠機殼/850W白金電供",
        "price": 87900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 190,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060/原廠機殼/650W電供",
        "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 179,
+       "id": 191,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供",
        "price": 41900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 192,
        "name": "酷！PC【山獸神】Ultra 5 250K/B860/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 48500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 193,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060/原廠機殼/650W電供",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 194,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 8G/原廠機殼/650W電供",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 183,
+       "id": 195,
        "name": "酷！PC【王蟲】R5/9600X/B650/16G/1TB/RTX5060TI 16G/原廠機殼/650W電供",
        "price": 47500,
        "list_price": null,
@@ -9242,13 +9309,6 @@
       },
       {
        "id": 28,
-       "name": "｛UMAX 64GB(雙通32GB*2) DDR5 6000｝/CL30 含散熱片",
-       "price": 29999,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 29,
        "name": "威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4616G-DTLABBK｝",
        "price": 16399,
        "list_price": null,
@@ -9257,7 +9317,7 @@
        ]
       },
       {
-       "id": 30,
+       "id": 29,
        "name": "威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 白｛AX5U5600C4616G-DTLABWH｝",
        "price": 16399,
        "list_price": null,
@@ -9266,7 +9326,7 @@
        ]
       },
       {
-       "id": 31,
+       "id": 30,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 黑｛AX5U6000C4816G-DTLABBK｝",
        "price": 17299,
        "list_price": null,
@@ -9275,7 +9335,7 @@
        ]
       },
       {
-       "id": 32,
+       "id": 31,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 白｛AX5U6000C4816G-DTLABWH｝",
        "price": 17299,
        "list_price": null,
@@ -9284,14 +9344,14 @@
        ]
       },
       {
-       "id": 33,
+       "id": 32,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝",
        "price": 17799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 34,
+       "id": 33,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑｛AX5U6000C3616G-DTLABBK｝~組裝價~",
        "price": 15999,
        "list_price": null,
@@ -9300,14 +9360,14 @@
        ]
       },
       {
-       "id": 35,
+       "id": 34,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 白｛AX5U6000C3616G-DTLABWH｝",
        "price": 17799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 36,
+       "id": 35,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3016G-DTLABBK｝",
        "price": 18799,
        "list_price": null,
@@ -9316,7 +9376,7 @@
        ]
       },
       {
-       "id": 37,
+       "id": 36,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3016G-DTLABWH｝",
        "price": 18799,
        "list_price": null,
@@ -9325,63 +9385,63 @@
        ]
       },
       {
-       "id": 38,
+       "id": 37,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB黑｛AX5U6000C3616G-DTLABRBK｝",
        "price": 18099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 39,
+       "id": 38,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB白｛AX5U6000C3616G-DTLABRWH｝",
        "price": 18099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 40,
+       "id": 39,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3016G-DTLABRBK｝",
        "price": 19099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 41,
+       "id": 40,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3016G-DTLABRWH｝",
        "price": 19099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 42,
+       "id": 41,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3016G-DCLARBK｝",
        "price": 19399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 43,
+       "id": 42,
        "name": "威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3016G-DCLARWH｝",
        "price": 19399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 44,
+       "id": 43,
        "name": "威剛 32G(雙通16G*2)D5-6400/CL32 LancerBlade矮 黑｛AX5U6400C3216G-DTLABBK｝",
        "price": 16999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 45,
+       "id": 44,
        "name": "威剛 64G(雙通32G*2)D5-5600/CL46 LancerBlade矮 黑｛AX5U5600C4632G-DTLABBK｝",
        "price": 31999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 46,
+       "id": 45,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 黑｛AX5U6000C3032G-DTLABBK｝",
        "price": 37599,
        "list_price": null,
@@ -9390,7 +9450,7 @@
        ]
       },
       {
-       "id": 47,
+       "id": 46,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 白｛AX5U6000C3032G-DTLABWH｝",
        "price": 37599,
        "list_price": null,
@@ -9399,84 +9459,84 @@
        ]
       },
       {
-       "id": 48,
+       "id": 47,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB黑｛AX5U6000C3032G-DTLABRBK｝",
        "price": 38199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 49,
+       "id": 48,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB白｛AX5U6000C3032G-DTLABRWH｝",
        "price": 38199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 50,
+       "id": 49,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 Lancer黑｛AX5U6000C3032G-DCLABK｝",
        "price": 38199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 51,
+       "id": 50,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 Lancer白｛AX5U6000C3032G-DCLAWH｝",
        "price": 38199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 52,
+       "id": 51,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB黑｛AX5U6000C3032G-DCLARBK｝",
        "price": 38799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 53,
+       "id": 52,
        "name": "威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB白｛AX5U6000C3032G-DCLARWH｝",
        "price": 38799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 54,
+       "id": 53,
        "name": "｛Biwin 佰維 Black Opal HX100 48GB(雙通24GBx2) DDR5-6000｝CL28 黑",
        "price": 21490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 55,
+       "id": 54,
        "name": "｛Biwin 佰維 Black Opal DW100 RGB 32GB(雙通16GBx2) DDR5-6000｝CL28 黑",
        "price": 15990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 56,
+       "id": 55,
        "name": "｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 黑",
        "price": 21890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 57,
+       "id": 56,
        "name": "｛Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000｝CL28 白",
        "price": 21800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 58,
+       "id": 57,
        "name": "｛Origin code Vortex RGB 32GB(雙通16GBx2) DDR5-6200｝(CL26)銀(獨立風扇)",
        "price": 18690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 59,
+       "id": 58,
        "name": "｛Origin code Vortex RGB 48GB(雙通24GBx2) DDR5-6000｝(CL26)銀(獨立風扇)",
        "price": 28490,
        "list_price": null,
@@ -9485,301 +9545,301 @@
        ]
       },
       {
-       "id": 60,
+       "id": 59,
        "name": "｛KLEVV(科賦)32GB(雙通道16GB*2)DDR5 6000/CL30 CRAS V RGB｝晶燦白",
        "price": 17488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 61,
+       "id": 60,
        "name": "｛KLEVV(科賦)64GB(雙通道32GB*2)DDR5 6000/CL30 CRAS V RGB｝曜石黑",
        "price": 34388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 62,
+       "id": 61,
        "name": "｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6000/CL30 BOLT V｝",
        "price": 16888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 63,
+       "id": 62,
        "name": "｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑",
        "price": 17788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 64,
+       "id": 63,
        "name": "｛KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白",
        "price": 17788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 65,
+       "id": 64,
        "name": "｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝曜石黑",
        "price": 34888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 66,
+       "id": 65,
        "name": "｛KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB｝晶燦白",
        "price": 34888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 67,
+       "id": 66,
        "name": "｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6000/CL28 URBANE V RGB｝(低矮散熱)",
        "price": 17388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 68,
+       "id": 67,
        "name": "｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱)",
        "price": 17588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 69,
+       "id": 68,
        "name": "｛KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL30 URBANE V RGB｝(低矮散熱)",
        "price": 17888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 70,
+       "id": 69,
        "name": "｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6000/CL30 URBANE V RGB｝(低矮散熱)",
        "price": 21588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 71,
+       "id": 70,
        "name": "｛KLEVV(科賦)48GB(雙通24GB*2) DDR5 6400/CL32 URBANE V RGB｝(低矮散熱)",
        "price": 22688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 72,
+       "id": 71,
        "name": "｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝黑",
        "price": 18300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 73,
+       "id": 72,
        "name": "｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast｝白",
        "price": 18300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 74,
+       "id": 73,
        "name": "｛金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB｝黑",
        "price": 18500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 75,
+       "id": 74,
        "name": "｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者)",
        "price": 19000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 76,
+       "id": 75,
        "name": "｛金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者)",
        "price": 19000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 77,
+       "id": 76,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝黑 (獸獵者)",
        "price": 33000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 78,
+       "id": 77,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast｝白 (獸獵者)",
        "price": 33000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 79,
+       "id": 78,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝黑 (獸獵者)",
        "price": 35400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 80,
+       "id": 79,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast｝白 (獸獵者)",
        "price": 35400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 81,
+       "id": 80,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast RGB｝黑",
        "price": 35700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 82,
+       "id": 81,
        "name": "｛金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast｝黑 (獸獵者)",
        "price": 35700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 83,
+       "id": 82,
        "name": "美光｛Micron Crucial 64GB(雙通32GB*2) DDR5 5600｝/CL46(原生顆粒)",
        "price": 27999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 84,
+       "id": 83,
        "name": "美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝/CL36 黑色散熱片",
        "price": 14599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 85,
+       "id": 84,
        "name": "美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6000｝/CL40 白色散熱片",
        "price": 29199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 86,
+       "id": 85,
        "name": "美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 黑色散熱片",
        "price": 14999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 87,
+       "id": 86,
        "name": "美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400｝/CL38 白色散熱片",
        "price": 14999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 88,
+       "id": 87,
        "name": "美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 黑色散熱片",
        "price": 29999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 89,
+       "id": 88,
        "name": "美光｛Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400｝/CL40 白色散熱片",
        "price": 29999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 90,
+       "id": 89,
        "name": "美光｛Micron Crucial PRO 超頻 96GB(雙通48GB*2) DDR5 5600｝/CL46 黑色散熱片",
        "price": 28500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 91,
+       "id": 90,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰｛CMK32GX5M2E6000Z36｝",
        "price": 15490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 92,
+       "id": 91,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰RGB｛CMH32GX5M2E6000Z36｝",
        "price": 15990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 93,
+       "id": 92,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰｛CMK32GX5M2B6000Z30｝",
        "price": 17590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 94,
+       "id": 93,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰RGB｛CMH32GX5M2B6000Z30K｝",
        "price": 17990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 94,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰｛CMK32GX5M2B6400Z36｝",
        "price": 15490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 96,
+       "id": 95,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰RGB｛CMH32GX5M2B6400Z36｝",
        "price": 16990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 97,
+       "id": 96,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰｛CMK32GX5M2B6400Z32｝AI",
        "price": 16990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 98,
+       "id": 97,
        "name": "海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰RGB｛CMH32GX5M2B6400Z32｝",
        "price": 17290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 99,
+       "id": 98,
        "name": "海盜船 VENGEANCE 64G(32G*2)DDR5-6400/CL42 黑｛CMK64GX5M2B6400C42｝",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 100,
+       "id": 99,
        "name": "海盜船 VENGEANCE 128G(64G*2)DDR5-6000/CL40 黑｛CMK128GX5M2D6000C40｝",
        "price": 83500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 101,
+       "id": 100,
        "name": "海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-6000/CL30 灰RGB｛CMP32GX5M2B6000Z30｝",
        "price": 19200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 102,
+       "id": 101,
        "name": "海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-7200/CL34 黑RGB｛CMP32GX5M2X7200C3｝",
        "price": 21990,
        "list_price": null,
@@ -9788,21 +9848,21 @@
        ]
       },
       {
-       "id": 103,
+       "id": 102,
        "name": "芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28黑｛F5-6000J2836G16GX2-FX5｝",
        "price": 19500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 104,
+       "id": 103,
        "name": "芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28白｛F5-6000J2836G16GX2-FX5W｝",
        "price": 19500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 104,
        "name": "芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-FX5｝",
        "price": 35900,
        "list_price": null,
@@ -9811,7 +9871,7 @@
        ]
       },
       {
-       "id": 106,
+       "id": 105,
        "name": "芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30白｛F5-6000J3040G32GX2-FX5W｝",
        "price": 35900,
        "list_price": null,
@@ -9820,98 +9880,98 @@
        ]
       },
       {
-       "id": 107,
+       "id": 106,
        "name": "芝奇Flare X5 烈焰槍64GB(雙通32G*2)D5-6000 CL28黑｛F5-6000J2836G32GX2-FX5｝",
        "price": 38900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 107,
        "name": "芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30黑｛F5-6000J3036F48GX2-FX5｝",
        "price": 59980,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 108,
        "name": "芝奇Flare X5 烈焰槍96GB(雙通48G*2)D5-6000 CL30白｛F5-6000J3036F48GX2-FX5W｝",
        "price": 59980,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 109,
        "name": "芝奇Flare X5 烈焰槍128GB(雙通64G*2)D5-6000 CL34黑｛F5-6000J3444F64GX2-FX5｝",
        "price": 94500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 110,
        "name": "芝奇 Ripjaws S5焰刃32GB(雙通16G*2)D5-6000/CL36黑｛ F5-6000J3636F16GX2-RS5K｝",
        "price": 15500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 111,
        "name": "芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/C36黑｛F5-6000J3636F32GX2-RS5K｝",
        "price": 29200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 113,
+       "id": 112,
        "name": "芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL36黑｛F5-6000J3636F16GX2-RM5RK｝",
        "price": 19400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 114,
+       "id": 113,
        "name": "芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36黑｛F5-6000J3636F32GX2-RM5NRK｝",
        "price": 34000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 114,
        "name": "芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36白｛F5-6000J3636F32GX2-RM5NRW｝",
        "price": 34000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 115,
        "name": "芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6400/CL32黑｛F5-6400J3239G16GX2-TZ5RK｝",
        "price": 21500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 116,
        "name": "芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5RW｝",
        "price": 29000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 118,
+       "id": 117,
        "name": "芝奇 焰鋒戟RGB 32GB(雙通16GB*2) D5-6000/CL30黑｛F5-6000J3038F16GX2-TZ5NR｝",
        "price": 19400,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 119,
+       "id": 118,
        "name": "芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30黑｛F5-6000J3040G32GX2-TZ5NR｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 120,
+       "id": 119,
        "name": "芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30白｛F5-6000J3040G32GX2-TZ5NRW｝",
        "price": 37900,
        "list_price": null,
@@ -9920,49 +9980,49 @@
        ]
       },
       {
-       "id": 121,
+       "id": 120,
        "name": "芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30黑｛F5-6400J3039G16GX2-TZ5NR｝",
        "price": 19800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 122,
+       "id": 121,
        "name": "芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30白｛F5-6400J3039G16GX2-TZ5NRW｝",
        "price": 19800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 123,
+       "id": 122,
        "name": "芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-7200/CL34黑｛F5-7200J3445G16GX2-TZ5NR｝",
        "price": 19800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 124,
+       "id": 123,
        "name": "芝奇 焰鋒戟RGB 128GB(雙通64GB*2)D5-6000/CL34黑｛F5-6000J3444F64GX2-TZ5NR｝",
        "price": 95500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 125,
+       "id": 124,
        "name": "芝奇 皇家戟RGB 48GB(雙通24GB*2)D5-6000 CL28銀｛F5-6000J2836F24GX2-TR5NS｝",
        "price": 37890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 126,
+       "id": 125,
        "name": "芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6000/CL28銀｛F5-6000J2836G32GX2-TR5NS｝",
        "price": 43800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 127,
+       "id": 126,
        "name": "芝奇Flare X5 烈焰槍256GB(\"雙通\"四根64G*4)D5-6000 CL34黑｛F5-6000J3444F64GX4-FX5｝",
        "price": 189000,
        "list_price": null,
@@ -9974,28 +10034,28 @@
      "label": "筆記型記憶體 DDR5",
      "items": [
       {
-       "id": 129,
+       "id": 128,
        "name": "｛UMAX NB 16GB DDR5 4800｝/CL40",
        "price": 7500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 130,
+       "id": 129,
        "name": "｛UMAX NB 32GB DDR5 4800｝/CL40",
        "price": 14500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 131,
+       "id": 130,
        "name": "｛UMAX NB 8GB DDR5 5600｝/CL46",
        "price": 4100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 132,
+       "id": 131,
        "name": "｛UMAX NB 16GB DDR5 5600｝/CL46",
        "price": 7500,
        "list_price": null,
@@ -10004,7 +10064,7 @@
        ]
       },
       {
-       "id": 133,
+       "id": 132,
        "name": "｛UMAX NB 16GB DDR5 5600｝/CL46~搭機價~",
        "price": 7150,
        "list_price": null,
@@ -10013,14 +10073,14 @@
        ]
       },
       {
-       "id": 134,
+       "id": 133,
        "name": "｛UMAX NB 32GB DDR5 5600｝/CL46",
        "price": 14800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 134,
        "name": "威剛 NB 32GB DDR5-4800/CL40｛AD5S480032G-S｝",
        "price": 14500,
        "list_price": null,
@@ -10029,42 +10089,42 @@
        ]
       },
       {
-       "id": 136,
+       "id": 135,
        "name": "威剛 NB 8GB DDR5-5600/CL46｛AD5S56008G-S｝",
        "price": 4199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 136,
        "name": "威剛 NB 16GB DDR5-5600/CL46｛AD5S560016G-S｝",
        "price": 7999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 138,
+       "id": 137,
        "name": "威剛 NB 32GB DDR5-5600/CL46｛AD5S560032G-S｝",
        "price": 14999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 139,
+       "id": 138,
        "name": "金士頓 NB 16GB DDR5 5600｛KVR56S46BS8-16｝/CL46",
        "price": 8600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 140,
+       "id": 139,
        "name": "金士頓 NB 32GB DDR5 5600｛KVR56S46BD8-32｝/CL46",
        "price": 14700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 141,
+       "id": 140,
        "name": "美光｛Micron Crucial NB 64GB DDR5 5600｝/CL46",
        "price": 27999,
        "list_price": null,
@@ -10076,14 +10136,14 @@
      "label": "筆記型記憶體 DDR5 雙通道",
      "items": [
       {
-       "id": 143,
+       "id": 142,
        "name": "美光｛Micron Crucial NB 雙通16G*2 DDR5 5600｝/CL46",
        "price": 15999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 144,
+       "id": 143,
        "name": "美光｛Micron Crucial NB 雙通64G*2 DDR5 5600｝/CL46",
        "price": 55999,
        "list_price": null,
@@ -10095,77 +10155,77 @@
      "label": "桌上型記憶體 DDR4",
      "items": [
       {
-       "id": 146,
+       "id": 145,
        "name": "｛UMAX 8GB DDR4-2666｝(1024*8)CL19",
        "price": 2150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 146,
        "name": "｛UMAX 8GB DDR4-3200｝(1024*8)超頻CL16",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 148,
+       "id": 147,
        "name": "｛UMAX 16GB DDR4-2666｝(2048*8)(CL19",
        "price": 3950,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 149,
+       "id": 148,
        "name": "｛UMAX 16GB DDR4-3200｝(1024*8)超頻CL16",
        "price": 4250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 150,
+       "id": 149,
        "name": "｛UMAX 16GB DDR4-3200｝(2048*8)超頻CL16",
        "price": 4250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 151,
+       "id": 150,
        "name": "｛UMAX 16GB DDR4-3200｝(1024*8)CL22",
        "price": 3950,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 152,
+       "id": 151,
        "name": "｛UMAX 32GB DDR4-3200｝(2048*8)CL22",
        "price": 8888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 153,
+       "id": 152,
        "name": "｛UMAX 32GB DDR4-3200｝(2048*8)超頻CL16",
        "price": 8888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 154,
+       "id": 153,
        "name": "威剛 8GB DDR4-3200｛AD4U320038G22-SGN｝(1024*8)",
        "price": 2299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 155,
+       "id": 154,
        "name": "威剛 16GB DDR4-3200｛AD4U3200316G22-SGN｝(1024*8)",
        "price": 4599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 156,
+       "id": 155,
        "name": "威剛 32GB DDR4-3200｛AD4U3200732G22-SGN｝(2048*8)",
        "price": 8999,
        "list_price": null,
@@ -10174,42 +10234,42 @@
        ]
       },
       {
-       "id": 157,
+       "id": 156,
        "name": "金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8)",
        "price": 3200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 158,
+       "id": 157,
        "name": "金士頓 8GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/8｝(1024*8)~搭機價~",
        "price": 2900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 159,
+       "id": 158,
        "name": "金士頓 16GB DDR4-3200｛KVR32N22S8/16｝(2048*8)",
        "price": 6150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 160,
+       "id": 159,
        "name": "金士頓 16GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/16｝(2048*8)",
        "price": 6150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 161,
+       "id": 160,
        "name": "金士頓 32GB DDR4-3200｛KVR32N22D8/32｝(2048*8)",
        "price": 12000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 162,
+       "id": 161,
        "name": "金士頓 32GB DDR4-3200 FURY Beast(獸獵者)｛KF432C16BB/32｝(2048*8)",
        "price": 9450,
        "list_price": null,
@@ -10223,35 +10283,35 @@
      "label": "桌上型記憶體 DDR4 雙通道",
      "items": [
       {
-       "id": 164,
+       "id": 163,
        "name": "｛UMAX 16GB(雙通8GB*2) DDR4-2666｝含散熱片(1024*8)",
        "price": 4350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 165,
+       "id": 164,
        "name": "｛UMAX 16GB(雙通8GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8)",
        "price": 4450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 165,
        "name": "｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(1024*8)CL19",
        "price": 7800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 167,
+       "id": 166,
        "name": "｛UMAX 32GB(雙通16GB*2) DDR4-2666｝含散熱片(2048*8)CL19",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 168,
+       "id": 167,
        "name": "｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(1024*8)CL16",
        "price": 8600,
        "list_price": null,
@@ -10260,77 +10320,77 @@
        ]
       },
       {
-       "id": 169,
+       "id": 168,
        "name": "｛UMAX 32GB(雙通16GB*2) DDR4-3200｝超頻CL16含散熱片(2048*8)CL16",
        "price": 8800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 170,
+       "id": 169,
        "name": "｛UMAX 64GB(雙通32GB*2) DDR4-3200｝含散熱片(2048*8) CL22",
        "price": 17800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 171,
+       "id": 170,
        "name": "威剛 32GB(雙通16G*2) D4-3200/CL16 D10超頻 黑｛AX4U3200716G16A-DB10｝(2048*8)",
        "price": 8299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 172,
+       "id": 171,
        "name": "金士頓 16GB(雙通8GB*2) DDR4-3200 FURY Beast(獸獵)｛KF432C16BBK2/16｝",
        "price": 6600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 172,
        "name": "金士頓 32GB(雙通16GB*2) DDR4-3200 (獸獵者)｛KF432C16BBK2/32｝(2048*8)",
        "price": 9500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 173,
        "name": "芝奇 G.SKILL Ripjaws V 32GB(雙通16GB*2) D4-3600 CL18 黑｛F4-3600C18D-32GVK｝",
        "price": 9100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 174,
        "name": "芝奇 G.SKILL 幻光戟 16GB(雙通8GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-16GTZR｝",
        "price": 5100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 175,
        "name": "芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3200 CL16 黑銀｛F4-3200C16D-32GTZR｝",
        "price": 9450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 177,
+       "id": 176,
        "name": "芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3600 CL16 黑銀｛F4-3600C16D-32GTZRC｝",
        "price": 9999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 177,
        "name": "芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3200｛F4-3200C16D-32GTZN｝[For AMD]",
        "price": 9500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 179,
+       "id": 178,
        "name": "芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3600｛F4-3600C16D-32GTZNC｝[For AMD]",
        "price": 10150,
        "list_price": null,
@@ -10342,14 +10402,14 @@
      "label": "筆記型記憶體 DDR4",
      "items": [
       {
-       "id": 181,
+       "id": 180,
        "name": "｛UMAX NB 8GB DDR4-2666｝(1024*8)",
        "price": 2150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 181,
        "name": "｛UMAX NB 8GB DDR4-3200｝(1024*8)",
        "price": 2190,
        "list_price": null,
@@ -10358,21 +10418,21 @@
        ]
       },
       {
-       "id": 183,
+       "id": 182,
        "name": "｛UMAX NB 16GB DDR4-2400｝(1024*8)",
        "price": 3750,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 183,
        "name": "｛UMAX NB 16GB DDR4-2666｝(1024*8)",
        "price": 3950,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 185,
+       "id": 184,
        "name": "｛UMAX NB 16GB DDR4-3200｝(1024*8)",
        "price": 4250,
        "list_price": null,
@@ -10381,7 +10441,7 @@
        ]
       },
       {
-       "id": 186,
+       "id": 185,
        "name": "｛UMAX NB 32GB DDR4-3200｝(2048*8)",
        "price": 8500,
        "list_price": null,
@@ -10390,35 +10450,35 @@
        ]
       },
       {
-       "id": 187,
+       "id": 186,
        "name": "威剛 NB 8GB DDR4-3200｛AD4S320038G22-SGN｝(1024*8)",
        "price": 2299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 188,
+       "id": 187,
        "name": "威剛 NB 16GB DDR4-3200｛AD4S3200316G22-SGN｝(1024*8)",
        "price": 4599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 189,
+       "id": 188,
        "name": "金士頓 NB 8GB DDR4-3200｛KVR32S22S8/8｝(1024*8)",
        "price": 3300,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 190,
+       "id": 189,
        "name": "金士頓 NB 16GB DDR4-3200｛KVR32S22S8/16｝(2048*8)",
        "price": 6350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 191,
+       "id": 190,
        "name": "金士頓 NB 32GB DDR4-3200｛KVR32S22D8/32｝(2048*8)",
        "price": 14000,
        "list_price": null,
@@ -10430,14 +10490,14 @@
      "label": "桌上型記憶體 DDR3",
      "items": [
       {
-       "id": 193,
+       "id": 192,
        "name": "｛UMAX 8GB DDR3-1600｝(512*8)",
        "price": 780,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 194,
+       "id": 193,
        "name": "｛UMAX 16GB(雙通道8G*2)DDR3-1600｝含散熱片(512*8)",
        "price": 1650,
        "list_price": null,
@@ -10449,7 +10509,7 @@
      "label": "筆記型記憶體 DDR3",
      "items": [
       {
-       "id": 196,
+       "id": 195,
        "name": "｛UMAX NB 8GB DDR3L-1600｝低電壓(512*8)",
        "price": 780,
        "list_price": null,
@@ -10458,7 +10518,7 @@
        ]
       },
       {
-       "id": 197,
+       "id": 196,
        "name": "金士頓 NB 8GB DDR3L-1600 低電壓｛KVR16LS11/8｝(512*8)",
        "price": 1600,
        "list_price": null,
@@ -10470,7 +10530,7 @@
      "label": "伺服器專用記憶體 DDR5 ECC DIMM",
      "items": [
       {
-       "id": 199,
+       "id": 198,
        "name": "金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Hynix A｛KSM56E46BD8KM/32HA｝",
        "price": 29900,
        "list_price": null,
@@ -10482,14 +10542,14 @@
      "label": "伺服器專用記憶體 DDR5 RDIMM",
      "items": [
       {
-       "id": 201,
+       "id": 200,
        "name": "金士頓16G 5600MT/s D5 ECC Reg CL46 DIMM 1R*8 Hynix A Rambus｛KSM56R46BS8/16HA｝",
        "price": 17500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 201,
        "name": "金士頓32G 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Hynix A Rambus｛KSM56R46BD8/32HA｝~限組裝~",
        "price": 34500,
        "list_price": null,
@@ -10498,7 +10558,7 @@
        ]
       },
       {
-       "id": 203,
+       "id": 202,
        "name": "金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Hynix A Rambus｛KSM56R46BD4/64HA｝~限組裝~",
        "price": 82000,
        "list_price": null,
@@ -10507,7 +10567,7 @@
        ]
       },
       {
-       "id": 204,
+       "id": 203,
        "name": "金士頓96G 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 Micron C｛KSM64R52BD4/96MC｝",
        "price": 125000,
        "list_price": null,
@@ -10519,14 +10579,14 @@
      "label": "伺服器專用記憶體 DDR4 RDIMM",
      "items": [
       {
-       "id": 206,
+       "id": 205,
        "name": "金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus｛KSM32RD8/32HD｝",
        "price": 15200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 207,
+       "id": 206,
        "name": "金士頓64GB 3200MHz D4 ECC Reg CL22 DIMM 2R*4 Hynix C Rambus｛KSM32RD4/64HCR｝",
        "price": 29900,
        "list_price": null,
@@ -18878,15 +18938,6 @@
        "flags": [
         "熱賣"
        ]
-      },
-      {
-       "id": 183,
-       "name": "｛ZOTAC RTX5070Ti SOLID CORE OC White Edition｝2482MHz/31cm/註五年",
-       "price": 46990,
-       "list_price": null,
-       "flags": [
-        "任搭折190"
-       ]
       }
      ]
     },
@@ -18894,7 +18945,7 @@
      "label": "NVIDIA RTX5080-16GB(GDDR7)",
      "items": [
       {
-       "id": 186,
+       "id": 185,
        "name": "｛華碩 PRIME-RTX5080-16G-EVO｝2640MHz/31cm/三風扇/註五年/2.5 Slot",
        "price": 53990,
        "list_price": null,
@@ -18903,7 +18954,7 @@
        ]
       },
       {
-       "id": 187,
+       "id": 186,
        "name": "｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保",
        "price": 53990,
        "list_price": null,
@@ -18912,14 +18963,14 @@
        ]
       },
       {
-       "id": 188,
+       "id": 187,
        "name": "｛技嘉 RTX5080 WINDFORCE OC V2 SFF 16G｝2670MHz/31cm/三風扇/註冊四年保",
        "price": 53990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 189,
+       "id": 188,
        "name": "｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保",
        "price": 54990,
        "list_price": null,
@@ -18929,7 +18980,7 @@
        ]
       },
       {
-       "id": 190,
+       "id": 189,
        "name": "｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保",
        "price": 55990,
        "list_price": null,
@@ -18938,7 +18989,7 @@
        ]
       },
       {
-       "id": 191,
+       "id": 190,
        "name": "｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年",
        "price": 61990,
        "list_price": null,
@@ -18947,7 +18998,7 @@
        ]
       },
       {
-       "id": 192,
+       "id": 191,
        "name": "｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白",
        "price": 63990,
        "list_price": null,
@@ -18956,7 +19007,7 @@
        ]
       },
       {
-       "id": 194,
+       "id": 193,
        "name": "｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -18965,7 +19016,7 @@
        ]
       },
       {
-       "id": 195,
+       "id": 194,
        "name": "｛微星 RTX5080 16G VENTUS 3X OC｝2655MHz/31cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -18974,7 +19025,7 @@
        ]
       },
       {
-       "id": 196,
+       "id": 195,
        "name": "｛微星 RTX5080 16G GAMING TRIO OC｝2715MHz/34cm/三風扇/註冊五年保",
        "price": 55990,
        "list_price": null,
@@ -18983,7 +19034,7 @@
        ]
       },
       {
-       "id": 198,
+       "id": 197,
        "name": "｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年",
        "price": 53990,
        "list_price": null,
@@ -18993,7 +19044,7 @@
        ]
       },
       {
-       "id": 199,
+       "id": 198,
        "name": "｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色",
        "price": 54990,
        "list_price": null,
@@ -19002,14 +19053,14 @@
        ]
       },
       {
-       "id": 200,
+       "id": 199,
        "name": "｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版",
        "price": 55990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 201,
+       "id": 200,
        "name": "｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年",
        "price": 52888,
        "list_price": null,
@@ -19018,7 +19069,7 @@
        ]
       },
       {
-       "id": 202,
+       "id": 201,
        "name": "｛INNO3D RTX5080 X3 OC｝2640MHz/30cm/註四年/超頻三風扇/註四年",
        "price": 53888,
        "list_price": null,
@@ -19027,7 +19078,7 @@
        ]
       },
       {
-       "id": 203,
+       "id": 202,
        "name": "｛INNO3D RTX5080 X3 OC WHITE｝2640MHz/30cm/超頻三風扇/註四年/映雪",
        "price": 53888,
        "list_price": null,
@@ -19036,7 +19087,7 @@
        ]
       },
       {
-       "id": 204,
+       "id": 203,
        "name": "｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年",
        "price": 54888,
        "list_price": null,
@@ -19047,14 +19098,10 @@
      ]
     },
     {
-     "label": "NVIDIA RTX5090-32GB(GDDR7)",
-     "items": []
-    },
-    {
      "label": "NVIDIA 專業工作站繪圖卡",
      "items": [
       {
-       "id": 217,
+       "id": 206,
        "name": "｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固",
        "price": 9100,
        "list_price": null,
@@ -19063,7 +19110,7 @@
        ]
       },
       {
-       "id": 218,
+       "id": 207,
        "name": "｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固",
        "price": 20600,
        "list_price": null,
@@ -19072,7 +19119,7 @@
        ]
       },
       {
-       "id": 219,
+       "id": 208,
        "name": "｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固",
        "price": 289900,
        "list_price": null,
@@ -19081,7 +19128,7 @@
        ]
       },
       {
-       "id": 220,
+       "id": 209,
        "name": "｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡",
        "price": 66300,
        "list_price": null,
@@ -19090,7 +19137,7 @@
        ]
       },
       {
-       "id": 221,
+       "id": 210,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19099,7 +19146,7 @@
        ]
       },
       {
-       "id": 222,
+       "id": 211,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -19108,7 +19155,7 @@
        ]
       },
       {
-       "id": 223,
+       "id": 212,
        "name": "｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡",
        "price": 189000,
        "list_price": null,
@@ -19117,7 +19164,7 @@
        ]
       },
       {
-       "id": 224,
+       "id": 213,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡",
        "price": 325000,
        "list_price": null,
@@ -19126,7 +19173,7 @@
        ]
       },
       {
-       "id": 225,
+       "id": 214,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡",
        "price": 435000,
        "list_price": null,
@@ -19135,7 +19182,7 @@
        ]
       },
       {
-       "id": 226,
+       "id": 215,
        "name": "｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級",
        "price": 575000,
        "list_price": null,
@@ -19144,7 +19191,7 @@
        ]
       },
       {
-       "id": 227,
+       "id": 216,
        "name": "[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝",
        "price": 190,
        "list_price": null,
@@ -19156,21 +19203,21 @@
      "label": "AMD Radeon RX7650GRE-8G",
      "items": [
       {
-       "id": 229,
+       "id": 218,
        "name": "｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板",
        "price": 10590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 230,
+       "id": 219,
        "name": "｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 10390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 231,
+       "id": 220,
        "name": "｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年",
        "price": 11990,
        "list_price": null,
@@ -19182,7 +19229,7 @@
      "label": "AMD Radeon RX9060XT-8G",
      "items": [
       {
-       "id": 233,
+       "id": 222,
        "name": "｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保",
        "price": 14890,
        "list_price": null,
@@ -19191,7 +19238,7 @@
        ]
       },
       {
-       "id": 234,
+       "id": 223,
        "name": "｛Acer Nitro RX9060XT OC 8GB｝3320MHz/27cm/雙風扇/三年保固)",
        "price": 13990,
        "list_price": null,
@@ -19200,7 +19247,7 @@
        ]
       },
       {
-       "id": 235,
+       "id": 224,
        "name": "｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製",
        "price": 15290,
        "list_price": null,
@@ -19214,7 +19261,7 @@
      "label": "AMD Radeon RX9060XT-16G",
      "items": [
       {
-       "id": 237,
+       "id": 226,
        "name": "｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保",
        "price": 21000,
        "list_price": null,
@@ -19223,7 +19270,7 @@
        ]
       },
       {
-       "id": 239,
+       "id": 228,
        "name": "｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保",
        "price": 20900,
        "list_price": null,
@@ -19232,7 +19279,7 @@
        ]
       },
       {
-       "id": 240,
+       "id": 229,
        "name": "｛技嘉 RX9060XT GAMING 16G｝3230MHz/28cm/三風扇/註冊五年保",
        "price": 20890,
        "list_price": null,
@@ -19241,7 +19288,7 @@
        ]
       },
       {
-       "id": 241,
+       "id": 230,
        "name": "｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保",
        "price": 20990,
        "list_price": null,
@@ -19250,7 +19297,7 @@
        ]
       },
       {
-       "id": 242,
+       "id": 231,
        "name": "｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白",
        "price": 21890,
        "list_price": null,
@@ -19259,7 +19306,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 232,
        "name": "｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保",
        "price": 19490,
        "list_price": null,
@@ -19268,7 +19315,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 233,
        "name": "｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固",
        "price": 19990,
        "list_price": null,
@@ -19277,7 +19324,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 234,
        "name": "｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板",
        "price": 20490,
        "list_price": null,
@@ -19286,7 +19333,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 235,
        "name": "｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 20990,
        "list_price": null,
@@ -19295,7 +19342,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 236,
        "name": "｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板",
        "price": 21490,
        "list_price": null,
@@ -19304,7 +19351,7 @@
        ]
       },
       {
-       "id": 248,
+       "id": 237,
        "name": "｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製",
        "price": 20990,
        "list_price": null,
@@ -19319,7 +19366,7 @@
      "label": "AMD Radeon RX9070GRE-12G",
      "items": [
       {
-       "id": 250,
+       "id": 239,
        "name": "｛華碩 ATS-RX9070GRE-O12G ｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊]",
        "price": 22000,
        "list_price": null,
@@ -19328,7 +19375,7 @@
        ]
       },
       {
-       "id": 251,
+       "id": 240,
        "name": "｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保",
        "price": 21990,
        "list_price": null,
@@ -19337,7 +19384,7 @@
        ]
       },
       {
-       "id": 252,
+       "id": 241,
        "name": "｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保",
        "price": 22000,
        "list_price": null,
@@ -19346,7 +19393,7 @@
        ]
       },
       {
-       "id": 253,
+       "id": 242,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19356,7 +19403,7 @@
        ]
       },
       {
-       "id": 254,
+       "id": 243,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19365,7 +19412,7 @@
        ]
       },
       {
-       "id": 255,
+       "id": 244,
        "name": "｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板",
        "price": 21990,
        "list_price": null,
@@ -19374,7 +19421,7 @@
        ]
       },
       {
-       "id": 256,
+       "id": 245,
        "name": "｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固",
        "price": 21990,
        "list_price": null,
@@ -19383,7 +19430,7 @@
        ]
       },
       {
-       "id": 257,
+       "id": 246,
        "name": "｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年",
        "price": 22090,
        "list_price": null,
@@ -19397,7 +19444,7 @@
      "label": "AMD Radeon RX9070-16G",
      "items": [
       {
-       "id": 259,
+       "id": 248,
        "name": "｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保",
        "price": 24900,
        "list_price": null,
@@ -19406,7 +19453,7 @@
        ]
       },
       {
-       "id": 260,
+       "id": 249,
        "name": "｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保",
        "price": 25990,
        "list_price": null,
@@ -19415,7 +19462,7 @@
        ]
       },
       {
-       "id": 261,
+       "id": 250,
        "name": "｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保",
        "price": 24590,
        "list_price": null,
@@ -19429,7 +19476,7 @@
      "label": "AMD Radeon RX9070XT-16G",
      "items": [
       {
-       "id": 263,
+       "id": 252,
        "name": "｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白",
        "price": 31390,
        "list_price": null,
@@ -19438,7 +19485,7 @@
        ]
       },
       {
-       "id": 264,
+       "id": 253,
        "name": "｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保",
        "price": 32890,
        "list_price": null,
@@ -19447,7 +19494,7 @@
        ]
       },
       {
-       "id": 265,
+       "id": 254,
        "name": "｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 31290,
        "list_price": null,
@@ -19457,7 +19504,7 @@
        ]
       },
       {
-       "id": 266,
+       "id": 255,
        "name": "任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 29990,
        "list_price": null,
@@ -19467,7 +19514,7 @@
        ]
       },
       {
-       "id": 267,
+       "id": 256,
        "name": "｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板",
        "price": 31490,
        "list_price": null,
@@ -19476,7 +19523,7 @@
        ]
       },
       {
-       "id": 268,
+       "id": 257,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計",
        "price": 32990,
        "list_price": null,
@@ -19486,7 +19533,7 @@
        ]
       },
       {
-       "id": 269,
+       "id": 258,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板",
        "price": 32990,
        "list_price": null,
@@ -19495,7 +19542,7 @@
        ]
       },
       {
-       "id": 270,
+       "id": 259,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年",
        "price": 33990,
        "list_price": null,
@@ -19504,7 +19551,7 @@
        ]
       },
       {
-       "id": 271,
+       "id": 260,
        "name": "｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製",
        "price": 30990,
        "list_price": null,
@@ -19513,7 +19560,7 @@
        ]
       },
       {
-       "id": 272,
+       "id": 261,
        "name": "｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製",
        "price": 31490,
        "list_price": null,
@@ -19522,7 +19569,7 @@
        ]
       },
       {
-       "id": 273,
+       "id": 262,
        "name": "｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板",
        "price": 31490,
        "list_price": null,
@@ -19531,7 +19578,7 @@
        ]
       },
       {
-       "id": 274,
+       "id": 263,
        "name": "｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製",
        "price": 32990,
        "list_price": null,
@@ -19545,7 +19592,7 @@
      "label": "AMD 專業級/工作站級 顯卡",
      "items": [
       {
-       "id": 276,
+       "id": 265,
        "name": "｛撼訊 AI PRO R9700 32G-B｝2920MHz/27cm/鼓風扇/三年保/專業級繪圖卡",
        "price": 59990,
        "list_price": null,
@@ -19680,7 +19727,7 @@
       },
       {
        "id": 24,
-       "name": "【主機搭購】MSI PRO MP272 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉省$200",
+       "name": "【主機搭購】MSI PRO MP272 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉",
        "price": 2688,
        "list_price": null,
        "flags": []
@@ -19782,7 +19829,7 @@
       {
        "id": 41,
        "name": "｛MSI PRO MP225 E12VL｝〈1A1H/VA/120Hz〉",
-       "price": 1988,
+       "price": 1888,
        "list_price": null,
        "flags": []
       },
@@ -19948,7 +19995,7 @@
       {
        "id": 67,
        "name": "｛MSI MAG 245F X24｝〈2H1P/IPS/240Hz〉",
-       "price": 3451,
+       "price": 3290,
        "list_price": null,
        "flags": []
       },
@@ -20027,7 +20074,7 @@
       {
        "id": 78,
        "name": "｛Acer Nitro VG240Y S6｝〈1A1H/IPS/180Hz/含喇叭〉",
-       "price": 2688,
+       "price": 2388,
        "list_price": null,
        "flags": []
       },
@@ -20197,14 +20244,14 @@
       {
        "id": 102,
        "name": "｛DELL P2426H｝〈1H1P/IPS/120Hz/無亮點/四年保〉可升降旋轉",
-       "price": 5799,
+       "price": 5588,
        "list_price": null,
        "flags": []
       },
       {
        "id": 103,
        "name": "｛DELL P2426HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
-       "price": 7988,
+       "price": 7488,
        "list_price": null,
        "flags": []
       },
@@ -20726,7 +20773,7 @@
       {
        "id": 192,
        "name": "｛MSI PRO MP272 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉獨家款",
-       "price": 2888,
+       "price": 2788,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -21460,7 +21507,9 @@
        "name": "｛MSI MAG 275CQF E18｝〈2H1P/VA曲面/1500R/180Hz〉",
        "price": 4288,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "熱賣"
+       ]
       },
       {
        "id": 300,
@@ -21859,62 +21908,55 @@
       },
       {
        "id": 356,
-       "name": "｛PHILIPS 27E1N2500A｝〈2H1P/IPS/120Hz/HDR10〉",
-       "price": 3599,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 357,
        "name": "｛PHILIPS Evnia 27M3N3540Q｝〈2H1P/IPS/210Hz/HDR10〉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 358,
+       "id": 357,
        "name": "｛PHILIPS Evnia 27M2N3500PF｝〈2H1P/IPS/260Hz/HDR10〉",
        "price": 5088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 359,
+       "id": 358,
        "name": "｛PHILIPS Evnia 27M2N3500UK｝〈1H1P/IPS/300Hz/HDR400/HDMI2.1/圓偏光護眼〉",
        "price": 6988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 360,
+       "id": 359,
        "name": "｛AOC Q27G42ZE｝〈1H1P/IPS/260Hz/HDR10〉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 361,
+       "id": 360,
        "name": "｛AOC Q27G4SL/WS｝〈2H1P/IPS/320Hz/HDR400/HDMI2.1/圓偏光認證/白色〉",
        "price": 7588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 362,
+       "id": 361,
        "name": "｛AOC Q27G40XMN｝〈2H1P/VA/180Hz/Mini-LED〉",
        "price": 7588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 363,
+       "id": 362,
        "name": "｛AOC Q27G4ZMN｝〈2H1P/VA/240Hz/HDR1000〉1152區 Mini-LED分區控光.可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 364,
+       "id": 363,
        "name": "｛AOC Q27G40ZDF｝〈1H1P/OLED/240Hz/HDR10〉",
        "price": 9900,
        "list_price": null,
@@ -21923,49 +21965,49 @@
        ]
       },
       {
-       "id": 365,
+       "id": 364,
        "name": "｛DELL SE2726D｝〈1H1P/IPS/144Hz〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 366,
+       "id": 365,
        "name": "｛DELL S2725DC｝〈1H1P1C/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 8898,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 367,
+       "id": 366,
        "name": "｛DELL P2725D｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉",
        "price": 10598,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 368,
+       "id": 367,
        "name": "｛DELL P2725DE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 12418,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 369,
+       "id": 368,
        "name": "｛DELL U2724D｝〈1H2P/IPS/120Hz/無亮點/四年保〉可升降旋轉",
        "price": 12888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 370,
+       "id": 369,
        "name": "｛DELL U2724DE｝〈1H2P2C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 16288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 371,
+       "id": 370,
        "name": "｛DELL Alienware AW2725DM｝〈2H1P/IPS/180Hz/HDR400/HDMI 2.1/無亮點/四年保〉可升降旋轉",
        "price": 8988,
        "list_price": null,
@@ -21974,77 +22016,77 @@
        ]
       },
       {
-       "id": 372,
+       "id": 371,
        "name": "｛DELL Alienware AW2726DL｝〈1H1P/IPS/280Hz/HDMI 2.1〉可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 372,
        "name": "｛DELL Alienware AW2726DM｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 11888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 374,
+       "id": 373,
        "name": "｛DELL Alienware AW2725D｝〈2H1P/OLED/280Hz/HDR400/HDMI 2.1/無亮點〉可升降旋轉",
        "price": 14988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 375,
+       "id": 374,
        "name": "｛LG UltraGear 27G610A-B｝〈2H1P/IPS/200Hz/HDR400〉可升降旋轉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 376,
+       "id": 375,
        "name": "｛LG UltraGear 27GX790A-B｝〈2H1P/OLED/480Hz/HDR400/HDMI 2.1/DP 2.1/二年保〉",
        "price": 22900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 377,
+       "id": 376,
        "name": "｛三星 ViewFinity S6 S27F612EAC｝〈2H1P/IPS/100Hz〉可升降旋轉",
-       "price": 4990,
+       "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 378,
+       "id": 377,
        "name": "｛三星 ViewFinity S6 S27D606UAC｝〈1H1P1C/IPS/100Hz/HDR10〉可升降旋轉",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 379,
+       "id": 378,
        "name": "｛三星 Odyssey G5 S27CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 380,
+       "id": 379,
        "name": "｛三星 Odyssey G5 S27FG532EC｝〈1H1P/IPS/200Hz/HDR10〉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 381,
+       "id": 380,
        "name": "｛三星 Odyssey G5 S27FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉",
        "price": 5690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 382,
+       "id": 381,
        "name": "｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉",
        "price": 11900,
        "list_price": null,
@@ -22053,56 +22095,56 @@
        ]
       },
       {
-       "id": 383,
+       "id": 382,
        "name": "｛三星 Odyssey G6 S27DG602SC｝〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉",
        "price": 15900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 384,
+       "id": 383,
        "name": "｛三星 Odyssey G6 S27FG602SC｝〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 385,
+       "id": 384,
        "name": "｛技嘉 G27Q20T｝〈2H1P/IPS/210Hz/HDR10〉",
        "price": 4058,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 385,
        "name": "｛技嘉 G27Q20｝〈2H1P/IPS/200Hz(OC 210Hz)/HDR10〉",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 386,
        "name": "｛技嘉 M27Q2 QD｝〈2H1P1C/量子點/200Hz/HDR400〉可升降旋轉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 388,
+       "id": 387,
        "name": "｛技嘉 M27Q2 QD ICE｝〈2H1P1C/量子點/200Hz/HDR400/白色〉可升降旋轉\"",
        "price": 6999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 389,
+       "id": 388,
        "name": "｛技嘉 M27QS｝〈1H1P1C/IPS/180Hz/HDR400〉Google TV 智慧螢幕",
        "price": 7666,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 390,
+       "id": 389,
        "name": "｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉",
        "price": 10490,
        "list_price": null,
@@ -22111,7 +22153,7 @@
        ]
       },
       {
-       "id": 391,
+       "id": 390,
        "name": "｛技嘉 GO27Q24A｝〈2H1P/QD-OLED/240Hz/HDR10〉可升降旋轉▼下殺到 10/23 23:59",
        "price": 9990,
        "list_price": 10490,
@@ -22122,30 +22164,37 @@
        ]
       },
       {
-       "id": 392,
+       "id": 391,
        "name": "｛技嘉 GO27Q24G｝〈2H1P1C/WOLED/240Hz/HDR400〉可升降旋轉",
        "price": 11990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 392,
        "name": "｛技嘉 MO27Q28G｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉",
        "price": 14990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 393,
        "name": "｛技嘉 MO27Q2A｝〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 14190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 395,
+       "id": 394,
        "name": "｛技嘉 MO27Q28GR｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉",
        "price": 14990,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 395,
+       "name": "｛技嘉 FO27Q28G｝〈2H1P1C/WOLED/280Hz/HDR10/DP 2.1〉面板四年防烙印",
+       "price": 16990,
        "list_price": null,
        "flags": []
       },
@@ -22727,7 +22776,7 @@
       {
        "id": 480,
        "name": "｛技嘉 M27UP ICE｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1/白色〉4K-160Hz/FHD-320Hz切換",
-       "price": 8577,
+       "price": 8990,
        "list_price": null,
        "flags": []
       },
@@ -22840,6 +22889,7 @@
        "price": 19900,
        "list_price": null,
        "flags": [
+        "熱賣",
         "酷幣1000"
        ]
       },
@@ -22849,7 +22899,7 @@
        "price": 19900,
        "list_price": null,
        "flags": [
-        "酷幣500"
+        "酷幣1000"
        ]
       },
       {
@@ -23026,28 +23076,28 @@
       {
        "id": 530,
        "name": "｛三星 M5 S32FM500EC｝〈2H/VA/含喇叭/HDR10〉智慧螢幕",
-       "price": 7820,
+       "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 531,
        "name": "｛三星 M5 S32FM501EC｝〈2H/VA/含喇叭/HDR10/白色〉智慧螢幕",
-       "price": 7820,
+       "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 532,
        "name": "｛三星 M5 S32FM500EC-FollowMe｝〈2H/VA/含喇叭/HDR10〉移動式智慧聯網螢幕組",
-       "price": 9999,
+       "price": 11990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 533,
        "name": "｛三星 M5 S32FM501EC-FollowMe｝〈2H/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組",
-       "price": 9999,
+       "price": 11990,
        "list_price": null,
        "flags": []
       }
@@ -23441,28 +23491,28 @@
       {
        "id": 593,
        "name": "｛三星 Smart M7 S32FM702UC｝〈2H1C/VA/含喇叭/HDR10/〉智慧螢幕",
-       "price": 9990,
+       "price": 10990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 594,
        "name": "｛三星 Smart M7 S32FM702UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/〉移動式智慧聯網螢幕組",
-       "price": 12990,
+       "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 595,
        "name": "｛三星 Smart M7 S32FM703UC｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕",
-       "price": 9990,
+       "price": 10990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 596,
        "name": "｛三星 Smart M7 S32FM703UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組",
-       "price": 12990,
+       "price": 13990,
        "list_price": null,
        "flags": []
       },
@@ -23518,7 +23568,7 @@
       {
        "id": 604,
        "name": "｛三星 Odyssey G8 S32FG812SC｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉",
-       "price": 24900,
+       "price": 22900,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -38192,7 +38242,7 @@
       {
        "id": 388,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/莓紅軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38201,7 +38251,7 @@
       {
        "id": 389,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/奶茶軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38210,7 +38260,7 @@
       {
        "id": 390,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(冰晶白)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb",
-       "price": 3861,
+       "price": 4290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38219,7 +38269,7 @@
       {
        "id": 391,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/莓紅軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38228,7 +38278,7 @@
       {
        "id": 392,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/奶茶軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38237,7 +38287,7 @@
       {
        "id": 393,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(摩卡棕)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb",
-       "price": 3861,
+       "price": 4290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38246,7 +38296,7 @@
       {
        "id": 394,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/莓紅軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38255,7 +38305,7 @@
       {
        "id": 395,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/奶茶軸/中文/消音層設計/Rgb",
-       "price": 3591,
+       "price": 3990,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38264,7 +38314,7 @@
       {
        "id": 396,
        "name": "｛Irocks K85r-Gateron｝無線機械式鍵盤(石磨灰)插拔軸/靜音奶茶軸/中文/消音層設計/Rgb",
-       "price": 3861,
+       "price": 4290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38336,7 +38386,7 @@
       {
        "id": 406,
        "name": "｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38345,7 +38395,7 @@
       {
        "id": 407,
        "name": "｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38354,7 +38404,7 @@
       {
        "id": 408,
        "name": "｛Irocks K107R｝三模機械式鍵盤(黑色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38363,7 +38413,7 @@
       {
        "id": 409,
        "name": "｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38372,7 +38422,7 @@
       {
        "id": 410,
        "name": "｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38381,7 +38431,7 @@
       {
        "id": 411,
        "name": "｛Irocks K107R｝三模機械式鍵盤(白色)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38390,7 +38440,7 @@
       {
        "id": 412,
        "name": "｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/矮青軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38399,7 +38449,7 @@
       {
        "id": 413,
        "name": "｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/莓紅軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -38408,7 +38458,7 @@
       {
        "id": 414,
        "name": "｛Irocks K107R｝三模機械式鍵盤(海灣藍)/有線/無線/藍芽/插拔軸/奶茶軸/中文/Rgb贈雙層玻璃杯",
-       "price": 2990,
+       "price": 3290,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -40208,14 +40258,14 @@
       {
        "id": 654,
        "name": "｛irocks T03｝ 電競椅(菁英黑)/高彈力網布/3D扶手/四級氣壓棒/兩年保",
-       "price": 8290,
+       "price": 8590,
        "list_price": null,
        "flags": []
       },
       {
        "id": 655,
        "name": "｛irocks T03｝ 電競椅(灰)/高彈力網布/3D扶手/四級氣壓棒/兩年保",
-       "price": 8290,
+       "price": 8590,
        "list_price": null,
        "flags": []
       },
@@ -40383,7 +40433,7 @@
       {
        "id": 679,
        "name": "｛irocks T09｝ 電競椅-質感布面/鋼製骨架/4D/Z字托盤/五星椅腳/PU椅輪/一年保",
-       "price": 7290,
+       "price": 7590,
        "list_price": null,
        "flags": []
       },
@@ -42317,28 +42367,28 @@
      "label": "Glorious 滑鼠",
      "items": [
       {
-       "id": 144,
+       "id": 145,
        "name": "｛Glorious Model O Eternal｝ 電競滑鼠(黑)/有線/12000Dpi/對稱設計/55g/Rgb",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 146,
+       "id": 147,
        "name": "｛Glorious Model O Eternal｝ 電競滑鼠(白)/有線/12000Dpi/對稱設計/55g/Rgb",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 148,
+       "id": 149,
        "name": "｛Glorious Model O2 Mini Wireless｝ 無線滑鼠(黑)/有線/無線/藍牙/26000Dpi/57g/編織線/Rgb",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 149,
+       "id": 150,
        "name": "｛Glorious Model O2 Wireless｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/68g/Rgb",
        "price": 1990,
        "list_price": null,
@@ -42352,7 +42402,7 @@
      "label": "Turtle Beach 滑鼠",
      "items": [
       {
-       "id": 151,
+       "id": 152,
        "name": "｛Turtle Beach PURE SEL｝(黑)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb",
        "price": 590,
        "list_price": null,
@@ -42361,7 +42411,7 @@
        ]
       },
       {
-       "id": 153,
+       "id": 154,
        "name": "｛Turtle Beach PURE SEL｝(白)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb",
        "price": 590,
        "list_price": null,
@@ -42370,7 +42420,7 @@
        ]
       },
       {
-       "id": 155,
+       "id": 156,
        "name": "｛Turtle Beach PURE AIR｝(黑)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb",
        "price": 1390,
        "list_price": null,
@@ -42379,7 +42429,7 @@
        ]
       },
       {
-       "id": 157,
+       "id": 158,
        "name": "｛Turtle Beach PURE AIR｝(白)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb",
        "price": 1390,
        "list_price": null,
@@ -42388,7 +42438,7 @@
        ]
       },
       {
-       "id": 159,
+       "id": 160,
        "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸",
        "price": 1590,
        "list_price": null,
@@ -42397,7 +42447,7 @@
        ]
       },
       {
-       "id": 161,
+       "id": 162,
        "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(白)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸",
        "price": 1590,
        "list_price": null,
@@ -42411,21 +42461,21 @@
      "label": "美洲獅 Cougar 滑鼠",
      "items": [
       {
-       "id": 164,
+       "id": 165,
        "name": "｛Cougar Minos Neo｝ 電競滑鼠(黑)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效",
        "price": 690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 165,
+       "id": 166,
        "name": "｛Cougar Minos Neo｝ 電競滑鼠(白)/有線/6200Dpi/63g/1000Hz回報率/五種Rgb燈效",
        "price": 790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 167,
        "name": "｛Cougar Airblader｝ 超輕量電競滑鼠/有線/16000Dpi/62克/獨家Bounce-ON彈簧張力系統",
        "price": 790,
        "list_price": null,
@@ -42434,14 +42484,14 @@
        ]
       },
       {
-       "id": 167,
+       "id": 168,
        "name": "｛Cougar 800m Dualblader｝ 模組化電競滑鼠/有線/16000Dpi/Dynastrut專利/客制化配件",
        "price": 2590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 168,
+       "id": 169,
        "name": "｛Cougar Revenger Pro 4K｝ 無線滑鼠(黑)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器",
        "price": 1990,
        "list_price": null,
@@ -42450,7 +42500,7 @@
        ]
       },
       {
-       "id": 169,
+       "id": 170,
        "name": "｛Cougar Revenger Pro 4K｝ 無線滑鼠(白)/26000Dpi/55g/4000Hz/隨附Pulsar 4K 無線接收器",
        "price": 1990,
        "list_price": null,
@@ -42459,7 +42509,7 @@
        ]
       },
       {
-       "id": 170,
+       "id": 171,
        "name": "｛Cougar Revenger Pro 8K｝ 無線滑鼠(鐵灰)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi",
        "price": 2290,
        "list_price": null,
@@ -42468,7 +42518,7 @@
        ]
       },
       {
-       "id": 171,
+       "id": 172,
        "name": "｛Cougar Revenger Pro 8K｝ 無線滑鼠(白)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi",
        "price": 2290,
        "list_price": null,
@@ -42477,7 +42527,7 @@
        ]
       },
       {
-       "id": 172,
+       "id": 173,
        "name": "｛Cougar Revenger Pro 8K｝ 無線滑鼠(粉)/有線8k/無線8k/藍牙6.0/PixArt 3950/30000Dpi",
        "price": 2290,
        "list_price": null,
@@ -42491,14 +42541,14 @@
      "label": "亞碩(Power Master) 滑鼠",
      "items": [
       {
-       "id": 174,
+       "id": 175,
        "name": "｛亞碩(Power Master) G502｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 176,
        "name": "｛亞碩(Power Master) G602｝ 滑鼠鼠墊組 有線/7200Dpi/A825傳感/人體工學/Rgb",
        "price": 690,
        "list_price": null,
@@ -42512,7 +42562,7 @@
      "label": "Gigastone 滑鼠",
      "items": [
       {
-       "id": 177,
+       "id": 178,
        "name": "｛Gigastone GM-X031｝ 電競滑鼠〈2隻組合優惠〉",
        "price": 688,
        "list_price": null,
@@ -42521,7 +42571,7 @@
        ]
       },
       {
-       "id": 178,
+       "id": 179,
        "name": "｛Gigastone GM-X041｝ 電競滑鼠〈2隻組合優惠〉",
        "price": 1099,
        "list_price": null,
@@ -42530,7 +42580,7 @@
        ]
       },
       {
-       "id": 179,
+       "id": 180,
        "name": "｛Gigastone GM-X061｝ 電競滑鼠〈2隻組合優惠〉",
        "price": 1499,
        "list_price": null,
@@ -42539,21 +42589,21 @@
        ]
       },
       {
-       "id": 180,
+       "id": 181,
        "name": "｛Gigastone GM-X031｝ 電競滑鼠/有線/3200Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價499",
        "price": 390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 182,
        "name": "｛Gigastone GM-X041｝ 電競滑鼠/有線/12000Dpi/8個自訂按鍵/巨集/編織線/Rgb 原價749",
        "price": 529,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 183,
        "name": "｛Gigastone GM-X061｝ 電競滑鼠/有線/16000Dpi/10個自訂按鍵/巨集/編織線/Rgb 原價1099",
        "price": 749,
        "list_price": null,
@@ -42565,42 +42615,42 @@
      "label": "HyperX 滑鼠",
      "items": [
       {
-       "id": 184,
+       "id": 185,
        "name": "｛HyperX Pulsefire Fuse｝ 雙模滑鼠/無線+藍牙/12000Dpi/75g/AAA電池/Rgb",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 185,
+       "id": 186,
        "name": "｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(黑)/無線+藍牙/26000Dpi/61g/Rgb",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 186,
+       "id": 187,
        "name": "｛HyperX Pulsefire Haste 2｝ 雙模滑鼠(白)/無線+藍牙/26000Dpi/61g/Rgb",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 187,
+       "id": 188,
        "name": "｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(黑)/有線+無線+藍牙/26000Dpi/59g",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 188,
+       "id": 189,
        "name": "｛HyperX Pulsefire Haste 2 Mini｝ 三模滑鼠(白)/有線+無線+藍牙/26000Dpi/59g",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 189,
+       "id": 190,
        "name": "｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(海軍藍)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb",
        "price": 2990,
        "list_price": null,
@@ -42609,7 +42659,7 @@
        ]
       },
       {
-       "id": 190,
+       "id": 191,
        "name": "｛HyperX Pulsefire Haste 2 S｝ 雙模滑鼠(銀)/無線/藍牙/鎂合金外殼/26000Dpi/64g/Rgb",
        "price": 2990,
        "list_price": null,
@@ -42618,14 +42668,14 @@
        ]
       },
       {
-       "id": 191,
+       "id": 192,
        "name": "｛HyperX Pulsefire Haste 2 Pro 4K｝ 雙模滑鼠(灰)/無線/藍牙/26000Dpi/4000Hz/61g/Rgb",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 192,
+       "id": 193,
        "name": "｛HyperX Pulsefire Saga Pro 4K｝ 無線滑鼠(黑)/無線/藍牙/26000Dpi/4000Hz/72g/Rgb",
        "price": 2990,
        "list_price": null,
@@ -42637,7 +42687,7 @@
      "label": "Zowie 滑鼠",
      "items": [
       {
-       "id": 194,
+       "id": 195,
        "name": "｛Zowie U2-DW 4K｝ 無線電競滑鼠/3200Dpi/3390感應/對稱型設計/獨家無線基地台/小尺寸",
        "price": 2990,
        "list_price": null,
@@ -42647,7 +42697,7 @@
        ]
       },
       {
-       "id": 195,
+       "id": 196,
        "name": "｛Zowie S2-DW 4K｝ 無線電競滑鼠/3200Dpi/對稱型設計/獨家無線基地台/小尺寸",
        "price": 3390,
        "list_price": null,
@@ -42657,7 +42707,7 @@
        ]
       },
       {
-       "id": 196,
+       "id": 197,
        "name": "｛Zowie ZA13-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸",
        "price": 3390,
        "list_price": null,
@@ -42667,7 +42717,7 @@
        ]
       },
       {
-       "id": 197,
+       "id": 198,
        "name": "｛Zowie FK2-DW 4K｝無線電競滑鼠/3200Dpi/較低鼠背設計/獨家無線基地台/中尺寸",
        "price": 3390,
        "list_price": null,
@@ -42677,7 +42727,7 @@
        ]
       },
       {
-       "id": 198,
+       "id": 199,
        "name": "｛Zowie EC3-DW｝ 無線電競滑鼠/3200Dpi/非對稱人體工學外型/24段滾輪/流暢曲線設計/小尺寸",
        "price": 3390,
        "list_price": null,
@@ -42692,7 +42742,7 @@
      "label": "海盜船 Corsair 滑鼠",
      "items": [
       {
-       "id": 200,
+       "id": 201,
        "name": "｛海盜船 Katar Pro｝超輕量電競滑鼠/有線/69克/12400Dpi/Rgb",
        "price": 590,
        "list_price": null,
@@ -42701,28 +42751,28 @@
        ]
       },
       {
-       "id": 201,
+       "id": 202,
        "name": "｛海盜船 M55｝超輕量電競滑鼠/有線/16000Dpi/55g/對稱設計/六編輯按鈕",
        "price": 890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 203,
        "name": "｛海盜船 M55 Wireless｝雙模滑鼠/無線/藍牙/24000Dpi/六編輯按鈕/AA電池供電",
        "price": 1390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 203,
+       "id": 204,
        "name": "｛海盜船 Harpoon V2｝三模滑鼠/有線/無線/藍牙/26000Dpi/經典人體工學外型設計/Rgb",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 204,
+       "id": 205,
        "name": "｛海盜船 Ironclaw Se｝三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Rgb/適合右手贈 海盜船購物袋",
        "price": 2590,
        "list_price": null,
@@ -42731,7 +42781,7 @@
        ]
       },
       {
-       "id": 205,
+       "id": 206,
        "name": "｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(黑)/有線/2.4g/輕量36g/33000Dpi/8000Hz",
        "price": 2790,
        "list_price": null,
@@ -42740,7 +42790,7 @@
        ]
       },
       {
-       "id": 206,
+       "id": 207,
        "name": "｛海盜船 Sabre V2 Pro Ultralight｝無線滑鼠(白)/有線/2.4g/輕量36g/33000Dpi/8000Hz",
        "price": 2790,
        "list_price": null,
@@ -42749,14 +42799,14 @@
        ]
       },
       {
-       "id": 207,
+       "id": 208,
        "name": "｛海盜船 Nightsword V2｝無線滑鼠/有線/2.4g/藍牙/33000Dpi/專屬Stream Deck快捷鍵",
        "price": 4090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 208,
+       "id": 209,
        "name": "｛海盜船 Sabre V2 Pro 8K｝碳纖維 無線滑鼠(黑)/有線/2.4g/藍牙/55g/33000Dpi/8000Hz",
        "price": 4890,
        "list_price": null,
@@ -42768,18 +42818,9 @@
      "label": "LEXMA 滑鼠",
      "items": [
       {
-       "id": 210,
-       "name": "｛LEXMA M450R｝ 無線滑鼠/2.4G/1600Dpi/長效電力續航/高質感時尚有型",
-       "price": 299,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
        "id": 211,
-       "name": "｛LEXMA M600R｝ 無線人體工學滑鼠/2.4G/長效電力續航/高質感時尚有型",
-       "price": 299,
+       "name": "｛LEXMA M450R｝ 無線滑鼠/2.4G/1600Dpi/長效電力續航/高質感時尚有型",
+       "price": 349,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -42787,36 +42828,45 @@
       },
       {
        "id": 212,
-       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(星糖紫)/1600Dpi/長效電力續航/隨插即用/流線造型",
-       "price": 399,
+       "name": "｛LEXMA M600R｝ 無線人體工學滑鼠/2.4G/長效電力續航/高質感時尚有型",
+       "price": 349,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "熱賣"
+       ]
       },
       {
        "id": 213,
-       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(幻電紫)/1600Dpi/長效電力續航/隨插即用/流線造型",
-       "price": 399,
+       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(星糖紫)/1600Dpi/長效電力續航/隨插即用/流線造型",
+       "price": 429,
        "list_price": null,
        "flags": []
       },
       {
        "id": 214,
-       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(豆沙紅)/1600Dpi/長效電力續航/隨插即用/流線造型",
-       "price": 399,
+       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(幻電紫)/1600Dpi/長效電力續航/隨插即用/流線造型",
+       "price": 429,
        "list_price": null,
        "flags": []
       },
       {
        "id": 215,
-       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(靜夜綠)/1600Dpi/長效電力續航/隨插即用/流線造型",
-       "price": 399,
+       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(豆沙紅)/1600Dpi/長效電力續航/隨插即用/流線造型",
+       "price": 429,
        "list_price": null,
        "flags": []
       },
       {
        "id": 216,
+       "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(靜夜綠)/1600Dpi/長效電力續航/隨插即用/流線造型",
+       "price": 429,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 217,
        "name": "｛LEXMA B660R｝ 無線跨平台藍芽滑鼠(森霧綠)/1600Dpi/長效電力續航/隨插即用/流線造型",
-       "price": 399,
+       "price": 429,
        "list_price": null,
        "flags": []
       }
@@ -42826,28 +42876,28 @@
      "label": "irocks 滑鼠",
      "items": [
       {
-       "id": 218,
+       "id": 219,
        "name": "｛irocks M31E｝ 光學遊戲滑鼠(黑)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb",
        "price": 790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 219,
+       "id": 220,
        "name": "｛irocks M31E｝ 光學遊戲滑鼠(白)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb",
        "price": 790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 220,
+       "id": 221,
        "name": "｛irocks M31E｝ 光學遊戲滑鼠(粉)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb",
        "price": 790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 221,
+       "id": 222,
        "name": "｛irocks M31E｝ 光學遊戲滑鼠(白爛貓聯名款)/有線/6200Dpi/軟性編織線/支援軟體調整/Rgb",
        "price": 690,
        "list_price": null,
@@ -42856,35 +42906,35 @@
        ]
       },
       {
-       "id": 223,
+       "id": 224,
        "name": "｛irocks M25r｝ 快充式無線靜音滑鼠(黑)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 224,
+       "id": 225,
        "name": "｛irocks M25r｝ 快充式無線靜音滑鼠(白)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 225,
+       "id": 226,
        "name": "｛irocks M25r｝ 快充式無線靜音滑鼠(紫)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 226,
+       "id": 227,
        "name": "｛irocks M25r｝ 快充式無線靜音滑鼠(綠)/2.4g/藍牙/4000Dpi/充電快速/左右鍵靜音開關設計",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 227,
+       "id": 228,
        "name": "｛irocks M29r｝ 三模滑鼠(黑)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學",
        "price": 1090,
        "list_price": null,
@@ -42893,7 +42943,7 @@
        ]
       },
       {
-       "id": 228,
+       "id": 229,
        "name": "｛irocks M29r｝ 三模滑鼠(白)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學",
        "price": 1090,
        "list_price": null,
@@ -42902,7 +42952,7 @@
        ]
       },
       {
-       "id": 229,
+       "id": 230,
        "name": "｛irocks M29r｝ 三模滑鼠(粉)/有線/無線/藍牙/5000Dpi/靜音按鍵/專屬軟體設定/人體工學",
        "price": 1090,
        "list_price": null,
@@ -42911,28 +42961,28 @@
        ]
       },
       {
-       "id": 230,
-       "name": "｛irocks M31r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
-       "price": 1690,
-       "list_price": null,
-       "flags": []
-      },
-      {
        "id": 231,
-       "name": "｛irocks M31r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
-       "price": 1690,
+       "name": "｛irocks M31r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
+       "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 232,
-       "name": "｛irocks M31r｝ 三模滑鼠(粉)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
-       "price": 1690,
+       "name": "｛irocks M31r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
+       "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
        "id": 233,
+       "name": "｛irocks M31r｝ 三模滑鼠(粉)/有線/無線/藍牙/26000Dpi/Kailh GM8.0微動/66g/PAW3395",
+       "price": 1990,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 234,
        "name": "｛irocks M36r｝ 三模滑鼠(黑)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb",
        "price": 2190,
        "list_price": null,
@@ -42941,7 +42991,7 @@
        ]
       },
       {
-       "id": 234,
+       "id": 235,
        "name": "｛irocks M36r｝ 三模滑鼠(白)/有線8k/無線8k/藍牙/30000Dpi/PAW3950/Rgb",
        "price": 2190,
        "list_price": null,
@@ -42950,32 +43000,23 @@
        ]
       },
       {
-       "id": 235,
-       "name": "｛irocks M49r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395",
-       "price": 1990,
-       "list_price": null,
-       "flags": []
-      },
-      {
        "id": 236,
-       "name": "｛irocks M49r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395",
-       "price": 1990,
+       "name": "｛irocks M49r｝ 三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395",
+       "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
        "id": 237,
-       "name": "｛Irocks M51r｝ 三模電競滑鼠(月岩灰)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950",
-       "price": 2490,
+       "name": "｛irocks M49r｝ 三模滑鼠(白)/有線/無線/藍牙/26000Dpi/趴鼠專用手型/56g/PAW3395",
+       "price": 2290,
        "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
+       "flags": []
       },
       {
        "id": 238,
-       "name": "｛Irocks M51r｝ 三模電競滑鼠(雲際藍)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950",
-       "price": 2490,
+       "name": "｛Irocks M51r｝ 三模電競滑鼠(月岩灰)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950",
+       "price": 2690,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -42983,8 +43024,17 @@
       },
       {
        "id": 239,
+       "name": "｛Irocks M51r｝ 三模電競滑鼠(雲際藍)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950",
+       "price": 2690,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 240,
        "name": "｛Irocks M51r｝ 三模電競滑鼠(薰衣紫)/有線/無線/藍牙/30000Dpi/52g/左右對稱設計/PAW3950",
-       "price": 2490,
+       "price": 2690,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -42996,7 +43046,7 @@
      "label": "簡報器",
      "items": [
       {
-       "id": 241,
+       "id": 242,
        "name": "｛羅技 R500s｝ 雷射簡報遙控器(黑)/無線-藍牙/紅光/20公尺操作範圍",
        "price": 1590,
        "list_price": null,
@@ -43005,7 +43055,7 @@
        ]
       },
       {
-       "id": 242,
+       "id": 243,
        "name": "｛羅技 R800｝ 專業簡報器/無線/2.4GHz/綠光雷射/液晶顯示",
        "price": 2690,
        "list_price": null,
@@ -43014,7 +43064,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 244,
        "name": "｛羅技 Spotlight｝ 專業簡報器(灰)/無線/藍牙/快速充電/螢幕放大/30公尺範圍",
        "price": 3490,
        "list_price": null,
@@ -43023,7 +43073,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 245,
        "name": "｛羅技 Spotlight｝ 專業簡報器(金)/無線/藍牙/快速充電/螢幕放大/30公尺範圍▼下殺到 10/25 23:59",
        "price": 2490,
        "list_price": 2990,
@@ -43033,7 +43083,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 246,
        "name": "｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(石墨黑)/無線(Bolt)/藍牙/30公尺範圍",
        "price": 3990,
        "list_price": null,
@@ -43042,7 +43092,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 247,
        "name": "｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(星暮紫)/無線(Bolt)/藍牙/30公尺範圍",
        "price": 3990,
        "list_price": null,
@@ -43051,7 +43101,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 248,
        "name": "｛羅技 Spotlight 2｝ 多功能數位雷射簡報器(流沙金)/無線(Bolt)/藍牙/30公尺範圍",
        "price": 3990,
        "list_price": null,
@@ -43065,42 +43115,42 @@
      "label": "羅技 電競滑鼠",
      "items": [
       {
-       "id": 249,
+       "id": 250,
        "name": "｛羅技 G102｝ 炫彩遊戲滑鼠(黑)/有線/8000dpi/Rgb七彩光學效果",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 250,
+       "id": 251,
        "name": "｛羅技 G102｝ 炫彩遊戲滑鼠(白)/有線/8000dpi/Rgb七彩光學效果",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 251,
+       "id": 252,
        "name": "｛羅技 G102｝ 炫彩遊戲滑鼠(藍)/有線/8000dpi/Rgb七彩光學效果",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 252,
+       "id": 253,
        "name": "｛羅技 G102｝ 炫彩遊戲滑鼠(紫)/有線/8000dpi/Rgb七彩光學效果",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 253,
+       "id": 254,
        "name": "｛羅技 G402｝ 遊戲光學滑鼠/有線/4000dpi/8鍵自訂",
        "price": 890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 254,
+       "id": 255,
        "name": "｛羅技 G304 Lightspeed｝無線遊戲滑鼠/黑色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59",
        "price": 799,
        "list_price": 990,
@@ -43110,7 +43160,7 @@
        ]
       },
       {
-       "id": 255,
+       "id": 256,
        "name": "｛羅技 G304 Lightspeed｝無線遊戲滑鼠/白色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59",
        "price": 799,
        "list_price": 990,
@@ -43120,14 +43170,14 @@
        ]
       },
       {
-       "id": 256,
+       "id": 257,
        "name": "｛羅技 G304 Lightspeed｝無線遊戲滑鼠/藍色/無線/12000dpi/6鍵自訂",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 257,
+       "id": 258,
        "name": "｛羅技 G304 Lightspeed｝無線遊戲滑鼠/紫色/無線/12000dpi/6鍵自訂▼下殺到 10/25 23:59",
        "price": 799,
        "list_price": 990,
@@ -43137,14 +43187,14 @@
        ]
       },
       {
-       "id": 258,
+       "id": 259,
        "name": "｛羅技 G304 Lightspeed｝無線遊戲滑鼠/綠色/無線/12000dpi/6鍵自訂",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 259,
+       "id": 260,
        "name": "｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(黑色)/無線/25600Dpi/57g輕量化/106小時續行",
        "price": 1590,
        "list_price": null,
@@ -43153,7 +43203,7 @@
        ]
       },
       {
-       "id": 260,
+       "id": 261,
        "name": "｛羅技 G304 X Lightspeed｝無線遊戲滑鼠(白色)/無線/25600Dpi/57g輕量化/106小時續行",
        "price": 1590,
        "list_price": null,
@@ -43162,7 +43212,7 @@
        ]
       },
       {
-       "id": 261,
+       "id": 262,
        "name": "｛羅技 G304 X Superlight｝無線滑鼠(黑)/有線/2.4G/44000Dpi/59g輕量化",
        "price": 2490,
        "list_price": null,
@@ -43171,7 +43221,7 @@
        ]
       },
       {
-       "id": 262,
+       "id": 263,
        "name": "｛羅技 G304 X Superlight｝無線滑鼠(白)/有線/2.4G/44000Dpi/59g輕量化",
        "price": 2490,
        "list_price": null,
@@ -43180,7 +43230,7 @@
        ]
       },
       {
-       "id": 263,
+       "id": 264,
        "name": "｛羅技 G309 Lightspeed｝無線遊戲滑鼠(黑)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動",
        "price": 2190,
        "list_price": null,
@@ -43189,7 +43239,7 @@
        ]
       },
       {
-       "id": 264,
+       "id": 265,
        "name": "｛羅技 G309 Lightspeed｝無線遊戲滑鼠(白)/無線-藍芽/25000Dpi/86g/Lightforce 混和微動",
        "price": 2190,
        "list_price": null,
@@ -43198,14 +43248,14 @@
        ]
       },
       {
-       "id": 265,
+       "id": 266,
        "name": "｛羅技 G403 Hero｝ 遊戲滑鼠/有線/16000dpi/RGB/6鍵自訂",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 266,
+       "id": 267,
        "name": "｛羅技 G703｝ 無線電競滑鼠/有線+Lightspeed無線/16000Dpi/Rgb/可配重",
        "price": 2490,
        "list_price": null,
@@ -43214,14 +43264,14 @@
        ]
       },
       {
-       "id": 267,
+       "id": 268,
        "name": "｛羅技 G705｝ 美型炫光多工遊戲滑鼠/無線/8200Dpi/Rgb/小型手掌設計",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 268,
+       "id": 269,
        "name": "｛羅技 G903｝ 無線電競滑鼠/有線+Lightspeed無線/16000dpi/Rgb/11顆自訂按鍵/可配重",
        "price": 3290,
        "list_price": null,
@@ -43230,14 +43280,14 @@
        ]
       },
       {
-       "id": 269,
+       "id": 270,
        "name": "｛羅技 G502 Hero RGB｝ 遊戲滑鼠/有線/25600Dpi/砝碼/Rgb/飛輪滾輪",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 270,
+       "id": 271,
        "name": "｛羅技 G502 Lightspeed｝ 無線電競滑鼠(黑色)/無線/25600Dpi/砝碼/Rgb/飛輪滾輪",
        "price": 2490,
        "list_price": null,
@@ -43246,21 +43296,21 @@
        ]
       },
       {
-       "id": 271,
+       "id": 272,
        "name": "｛羅技 G502 X｝ 電競滑鼠(黑)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 272,
+       "id": 273,
        "name": "｛羅技 G502 X｝ 電競滑鼠(白)/有線/25600Dpi/Ptfe鼠貼/89g/Lightforce微動",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 275,
+       "id": 276,
        "name": "｛羅技 G502 X Lightspeed｝ 無線滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59",
        "price": 2990,
        "list_price": 3490,
@@ -43270,7 +43320,7 @@
        ]
       },
       {
-       "id": 276,
+       "id": 277,
        "name": "｛羅技 G502 X Lightspeed｝ 無線滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動▼下殺到 10/25 23:59",
        "price": 2990,
        "list_price": 3490,
@@ -43280,9 +43330,9 @@
        ]
       },
       {
-       "id": 277,
+       "id": 278,
        "name": "【套裝搭購優惠】｛羅技 G502 X Lightspeed｝ 無線滑鼠",
-       "price": 3190,
+       "price": 2790,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -43290,7 +43340,7 @@
        ]
       },
       {
-       "id": 280,
+       "id": 281,
        "name": "｛羅技 G502 X Plus｝無線電競滑鼠(黑)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb",
        "price": 4190,
        "list_price": null,
@@ -43299,7 +43349,7 @@
        ]
       },
       {
-       "id": 281,
+       "id": 282,
        "name": "｛羅技 G502 X Plus｝無線電競滑鼠(白)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb",
        "price": 4190,
        "list_price": null,
@@ -43308,7 +43358,7 @@
        ]
       },
       {
-       "id": 282,
+       "id": 283,
        "name": "｛羅技 G502 X Plus｝無線電競滑鼠(暮光紫)/25600Dpi/Ptfe鼠貼/Lightforce微動/Rgb▼下殺到 10/25 23:59",
        "price": 4190,
        "list_price": 4990,
@@ -43319,7 +43369,7 @@
        ]
       },
       {
-       "id": 283,
+       "id": 284,
        "name": "【套裝搭購優惠】｛羅技 G502 X Plus｝ 無線電競滑鼠",
        "price": 3890,
        "list_price": null,
@@ -43329,7 +43379,7 @@
        ]
       },
       {
-       "id": 284,
+       "id": 285,
        "name": "｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(黑色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb",
        "price": 3090,
        "list_price": null,
@@ -43338,7 +43388,7 @@
        ]
       },
       {
-       "id": 285,
+       "id": 286,
        "name": "｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(白色)/Usb-c充電線/Hero2感應器/32000Dpi混和微動/Rgb",
        "price": 3090,
        "list_price": null,
@@ -43347,7 +43397,7 @@
        ]
       },
       {
-       "id": 286,
+       "id": 287,
        "name": "｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠(桃紅色)/Usb-c充電線/Hero2感應器/32000Dpi/混和微動/Rgb",
        "price": 3090,
        "list_price": null,
@@ -43356,7 +43406,7 @@
        ]
       },
       {
-       "id": 287,
+       "id": 288,
        "name": "【套裝搭購優惠】｛羅技 G Pro 2 Lightspeed｝ 無線滑鼠",
        "price": 2690,
        "list_price": null,
@@ -43366,7 +43416,7 @@
        ]
       },
       {
-       "id": 288,
+       "id": 289,
        "name": "｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(黑色)/44000Dpi/超輕量57g/續航88h/1000Hz",
        "price": 2690,
        "list_price": null,
@@ -43375,7 +43425,7 @@
        ]
       },
       {
-       "id": 289,
+       "id": 290,
        "name": "｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(白色)/44000Dpi/超輕量57g/續航88h/1000Hz",
        "price": 2690,
        "list_price": null,
@@ -43384,7 +43434,7 @@
        ]
       },
       {
-       "id": 290,
+       "id": 291,
        "name": "｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(紅色)/44000Dpi/超輕量57g/續航88h/1000Hz",
        "price": 2690,
        "list_price": null,
@@ -43393,7 +43443,7 @@
        ]
       },
       {
-       "id": 291,
+       "id": 292,
        "name": "｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠(桃色)/44000Dpi/超輕量57g/續航88h/1000Hz",
        "price": 2690,
        "list_price": null,
@@ -43402,7 +43452,7 @@
        ]
       },
       {
-       "id": 292,
+       "id": 293,
        "name": "【套裝搭購優惠】｛羅技 G Pro X Superlight 2 Se｝ 無線電競滑鼠",
        "price": 2390,
        "list_price": null,
@@ -43412,7 +43462,7 @@
        ]
       },
       {
-       "id": 293,
+       "id": 294,
        "name": "｛羅技 G Pro X Superlight 2｝無線電競滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95h/8000Hz▼下殺到 10/25 23:59",
        "price": 2990,
        "list_price": 3690,
@@ -43422,7 +43472,7 @@
        ]
       },
       {
-       "id": 294,
+       "id": 295,
        "name": "｛羅技 G Pro X Superlight 2｝無線電競滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59",
        "price": 2990,
        "list_price": 3690,
@@ -43432,7 +43482,7 @@
        ]
       },
       {
-       "id": 295,
+       "id": 296,
        "name": "｛羅技 G Pro X Superlight 2｝無線電競滑鼠(桃色)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59",
        "price": 2990,
        "list_price": 3690,
@@ -43442,7 +43492,7 @@
        ]
       },
       {
-       "id": 296,
+       "id": 297,
        "name": "｛羅技 G Pro X Superlight 2｝無線電競滑鼠(電光藍)/混合微動/44000Dpi/超輕量60g/續航95hr/8000Hz▼下殺到 10/25 23:59",
        "price": 3390,
        "list_price": 3690,
@@ -43452,9 +43502,9 @@
        ]
       },
       {
-       "id": 297,
+       "id": 298,
        "name": "【套裝搭購優惠】｛羅技 G Pro X Superlight 2｝無線滑鼠(黑)",
-       "price": 3390,
+       "price": 2790,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -43462,7 +43512,7 @@
        ]
       },
       {
-       "id": 298,
+       "id": 299,
        "name": "｛羅技 G Pro X Superlight 2c SE｝無線滑鼠(黑)/混合微動/44000Dpi/88g/適合握持玩家",
        "price": 3390,
        "list_price": null,
@@ -43472,7 +43522,7 @@
        ]
       },
       {
-       "id": 299,
+       "id": 300,
        "name": "｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(黑色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59",
        "price": 3990,
        "list_price": 4490,
@@ -43482,7 +43532,7 @@
        ]
       },
       {
-       "id": 300,
+       "id": 301,
        "name": "｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(白色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59",
        "price": 3990,
        "list_price": 4490,
@@ -43492,7 +43542,7 @@
        ]
       },
       {
-       "id": 301,
+       "id": 302,
        "name": "｛羅技 G Pro X Superlight 2c｝無線電競滑鼠(粉色)/混合微動/44000Dpi/51g/8000Hz/適用小型手▼下殺到 10/25 23:59",
        "price": 3990,
        "list_price": 4490,
@@ -43502,7 +43552,7 @@
        ]
       },
       {
-       "id": 302,
+       "id": 303,
        "name": "｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(黑色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型",
        "price": 3990,
        "list_price": null,
@@ -43511,7 +43561,7 @@
        ]
       },
       {
-       "id": 303,
+       "id": 304,
        "name": "｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(白色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型",
        "price": 3990,
        "list_price": null,
@@ -43520,7 +43570,7 @@
        ]
       },
       {
-       "id": 304,
+       "id": 305,
        "name": "｛羅技 G Pro X Superlight 2 Dex｝ 無線滑鼠(桃紅色)/混合微動/44000Dpi/超輕量60g/續航95hr/右手型",
        "price": 3990,
        "list_price": null,
@@ -43529,7 +43579,7 @@
        ]
       },
       {
-       "id": 305,
+       "id": 306,
        "name": "｛羅技 G Pro X 2 Superstrike｝ 無線滑鼠/44000Dpi/無線8k/支援無線充電/可調式觸發點▼下殺到 10/25 23:59",
        "price": 4490,
        "list_price": 5190,
@@ -43539,7 +43589,7 @@
        ]
       },
       {
-       "id": 307,
+       "id": 308,
        "name": "｛羅技 G Pro X 3 Superstrike｝無線類比滑鼠(黑)/48000Dpi/HITS觸覺感應/支援無線充電",
        "price": 6390,
        "list_price": null,
@@ -43554,56 +43604,56 @@
      "label": "羅技 商務滑鼠",
      "items": [
       {
-       "id": 309,
+       "id": 310,
        "name": "｛羅技 M90｝ 光學滑鼠/有線/400dpi/Usb",
        "price": 229,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 310,
+       "id": 311,
        "name": "｛羅技 M100R｝ 光學滑鼠/有線/1000dpi/Usb",
        "price": 269,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 311,
+       "id": 312,
        "name": "｛羅技 M110｝ 有線靜音滑鼠(黑)/1000dpi/Usb",
        "price": 349,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 312,
+       "id": 313,
        "name": "｛羅技 M171｝ 無線滑鼠(灰)/無線/1000dpi/2.4G迷你接收器/左右手適用",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 313,
+       "id": 314,
        "name": "｛羅技 M240｝ 無線靜音藍牙滑鼠(石墨灰)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型",
        "price": 629,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 314,
+       "id": 315,
        "name": "｛羅技 M240｝ 無線靜音藍牙滑鼠(珍珠白)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型",
        "price": 629,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 315,
+       "id": 316,
        "name": "｛羅技 M240｝ 無線靜音藍牙滑鼠(玫瑰粉)/2.4G(接收器需另購)藍牙/4000Dpi/適合中小型手型",
        "price": 629,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 316,
+       "id": 317,
        "name": "〈套裝搭購優惠價〉｛羅技 M240｝ 無線靜音藍牙滑鼠",
        "price": 529,
        "list_price": null,
@@ -43612,56 +43662,56 @@
        ]
       },
       {
-       "id": 317,
+       "id": 318,
        "name": "｛羅技 M221｝ 無線靜音光學滑鼠(黑)/無線/1000dpi/2.4G接收器",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 318,
+       "id": 319,
        "name": "｛羅技 M331｝ SilentPlus 靜音滑鼠(黑)/無線/1000dpi/2.4G",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 319,
+       "id": 320,
        "name": "｛羅技 M331｝ SilentPlus 靜音滑鼠(藍)/無線/1000dpi/2.4G",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 320,
+       "id": 321,
        "name": "｛羅技 M331｝ SilentPlus 靜音滑鼠(紅)/無線/1000dpi/2.4G",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 321,
+       "id": 322,
        "name": "｛羅技 M350s｝ 藍牙滑鼠(石墨灰)/無線(接受器需另購)+藍牙/左右手通用/1000dpi",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 322,
+       "id": 323,
        "name": "｛羅技 M350s｝ 藍牙滑鼠(珍珠白)/無線(接受器需另購)+藍牙/左右手通用/1000dpi",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 323,
+       "id": 324,
        "name": "｛羅技 M350s｝ 藍牙滑鼠(玫瑰粉)/無線(接受器需另購)+藍牙/左右手通用/1000dpi",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 324,
+       "id": 325,
        "name": "〈套裝搭購優惠價〉｛羅技 M350s｝ 藍牙滑鼠",
        "price": 699,
        "list_price": null,
@@ -43670,7 +43720,7 @@
        ]
       },
       {
-       "id": 325,
+       "id": 326,
        "name": "｛羅技 M650｝ 多工靜音無線滑鼠(石墨灰)/無線/SmartWheel捲動功能/自訂側邊按鈕",
        "price": 1090,
        "list_price": null,
@@ -43679,7 +43729,7 @@
        ]
       },
       {
-       "id": 326,
+       "id": 327,
        "name": "｛羅技 M650｝ 多工靜音無線滑鼠(玫瑰粉)/無線/SmartWheel捲動功能/自訂側邊按鈕",
        "price": 1090,
        "list_price": null,
@@ -43688,7 +43738,7 @@
        ]
       },
       {
-       "id": 327,
+       "id": 328,
        "name": "｛羅技 M650｝ 多工靜音無線滑鼠(珍珠白)/無線/SmartWheel捲動功能/自訂側邊按鈕",
        "price": 1090,
        "list_price": null,
@@ -43697,7 +43747,7 @@
        ]
       },
       {
-       "id": 328,
+       "id": 329,
        "name": "｛羅技 M750｝ 多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用",
        "price": 1490,
        "list_price": null,
@@ -43706,7 +43756,7 @@
        ]
       },
       {
-       "id": 329,
+       "id": 330,
        "name": "｛羅技 M750｝ 多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用",
        "price": 1490,
        "list_price": null,
@@ -43715,7 +43765,7 @@
        ]
       },
       {
-       "id": 330,
+       "id": 331,
        "name": "｛羅技 M750｝ 多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/中小型手適用",
        "price": 1490,
        "list_price": null,
@@ -43724,7 +43774,7 @@
        ]
       },
       {
-       "id": 331,
+       "id": 332,
        "name": "｛羅技 M750 L｝多工靜音無線滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59",
        "price": 1390,
        "list_price": 1490,
@@ -43734,7 +43784,7 @@
        ]
       },
       {
-       "id": 332,
+       "id": 333,
        "name": "｛羅技 M750 L｝多工靜音無線滑鼠(玫瑰粉)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59",
        "price": 1390,
        "list_price": 1490,
@@ -43744,7 +43794,7 @@
        ]
       },
       {
-       "id": 333,
+       "id": 334,
        "name": "｛羅技 M750 L｝多工靜音無線滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/智慧滾輪/大型手適用▼下殺到 10/25 23:59",
        "price": 1390,
        "list_price": 1490,
@@ -43754,7 +43804,7 @@
        ]
       },
       {
-       "id": 334,
+       "id": 335,
        "name": "｛羅技 M840 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用",
        "price": 1590,
        "list_price": null,
@@ -43763,7 +43813,7 @@
        ]
       },
       {
-       "id": 335,
+       "id": 336,
        "name": "｛羅技 M840 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/弧線造型/大型手適用",
        "price": 1590,
        "list_price": null,
@@ -43772,7 +43822,16 @@
        ]
       },
       {
-       "id": 336,
+       "id": 337,
+       "name": "【套裝搭購優惠】｛羅技 M840 L｝ 多工舒適無線滑鼠",
+       "price": 1290,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 338,
        "name": "｛羅技 M850 L｝ 多工舒適無線滑鼠(石墨黑)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用",
        "price": 1790,
        "list_price": null,
@@ -43781,7 +43840,7 @@
        ]
       },
       {
-       "id": 337,
+       "id": 339,
        "name": "｛羅技 M850 L｝ 多工舒適無線滑鼠(珍珠白)/藍牙/2.4g(需另購接收器)/內建掌墊/大型手適用",
        "price": 1790,
        "list_price": null,
@@ -43790,35 +43849,44 @@
        ]
       },
       {
-       "id": 338,
+       "id": 340,
+       "name": "【套裝搭購優惠】｛羅技 M850 L｝ 多工舒適無線滑鼠",
+       "price": 1490,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 341,
        "name": "｛羅技 Pop Mouse｝ 無線藍牙滑鼠(石墨黑)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A)",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 339,
+       "id": 342,
        "name": "｛羅技 Pop Mouse｝ 無線藍牙滑鼠(珍珠白)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A)",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 340,
+       "id": 343,
        "name": "｛羅技 Pop Mouse｝ 無線藍牙滑鼠(玫瑰粉)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A)",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 341,
+       "id": 344,
        "name": "｛羅技 Pop Mouse｝ 無線藍牙滑鼠(薰衣紫)/自訂表情符號/切換3台裝置(贈BOLT接收器USB-A)",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 345,
        "name": "｛羅技 Mobi｝ 無線折疊滑鼠(石墨黑)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板",
        "price": 2690,
        "list_price": null,
@@ -43827,7 +43895,7 @@
        ]
       },
       {
-       "id": 343,
+       "id": 346,
        "name": "｛羅技 Mobi｝ 無線折疊滑鼠(星暮紫)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板",
        "price": 2690,
        "list_price": null,
@@ -43836,7 +43904,7 @@
        ]
       },
       {
-       "id": 344,
+       "id": 347,
        "name": "｛羅技 Mobi｝ 無線折疊滑鼠(珍珠白)/雙模(藍牙或BOLT接收器需另購)/配備觸控面板",
        "price": 2690,
        "list_price": null,
@@ -43845,7 +43913,7 @@
        ]
       },
       {
-       "id": 347,
+       "id": 350,
        "name": "｛羅技 MX Anywhere 3S｝ 無線滑鼠(石墨灰)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59",
        "price": 2290,
        "list_price": 2490,
@@ -43855,7 +43923,7 @@
        ]
       },
       {
-       "id": 348,
+       "id": 351,
        "name": "｛羅技 MX Anywhere 3S｝ 無線滑鼠(珍珠白)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59",
        "price": 2290,
        "list_price": 2490,
@@ -43865,7 +43933,7 @@
        ]
       },
       {
-       "id": 349,
+       "id": 352,
        "name": "｛羅技 MX Anywhere 3S｝ 無線滑鼠(玫瑰粉)/藍牙/8000Dpi/多裝置/可用在玻璃面/無接受器▼下殺到 10/25 23:59",
        "price": 2290,
        "list_price": 2490,
@@ -43875,7 +43943,16 @@
        ]
       },
       {
-       "id": 350,
+       "id": 353,
+       "name": "【套裝搭購優惠】｛羅技 MX Anywhere 3S｝ 無線滑鼠",
+       "price": 2090,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 354,
        "name": "｛羅技 MX Master 3s Lite｝ 藍芽滑鼠(石墨灰)/2.4G/藍牙/8000Dpi(贈BOLT接收器USB-C)",
        "price": 2990,
        "list_price": null,
@@ -43884,7 +43961,16 @@
        ]
       },
       {
-       "id": 353,
+       "id": 355,
+       "name": "【套裝搭購優惠】｛羅技 MX Master 3s Lite｝ 藍芽滑鼠",
+       "price": 2590,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 358,
        "name": "｛羅技 MX Master 4｝ 無線智能滑鼠(石墨灰)/2.4g/藍牙/8000Dpi/長效電池/可編程功能",
        "price": 3990,
        "list_price": null,
@@ -43893,7 +43979,7 @@
        ]
       },
       {
-       "id": 354,
+       "id": 359,
        "name": "｛羅技 MX Master 4｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能",
        "price": 3990,
        "list_price": null,
@@ -43902,7 +43988,7 @@
        ]
       },
       {
-       "id": 355,
+       "id": 360,
        "name": "｛羅技 MX Master 4 for Mac｝ 無線智能滑鼠(珍珠白)/2.4g/藍牙/8000Dpi/長效電池/可編程功能",
        "price": 3990,
        "list_price": null,
@@ -43911,7 +43997,17 @@
        ]
       },
       {
-       "id": 358,
+       "id": 361,
+       "name": "【套裝搭購優惠】｛羅技 MX Master 4｝ 無線智能滑鼠",
+       "price": 3590,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "酷幣200"
+       ]
+      },
+      {
+       "id": 364,
        "name": "｛羅技 Lift｝ 人體工學垂直滑鼠(石墨灰)/無線-藍牙/57°垂直/適用小-中手型",
        "price": 2490,
        "list_price": null,
@@ -43920,7 +44016,7 @@
        ]
       },
       {
-       "id": 359,
+       "id": 365,
        "name": "｛羅技 Lift｝ 人體工學垂直滑鼠(玫瑰粉)/無線-藍牙/57°垂直/適用小-中手型",
        "price": 2490,
        "list_price": null,
@@ -43929,7 +44025,7 @@
        ]
       },
       {
-       "id": 360,
+       "id": 366,
        "name": "｛羅技 Lift｝ 人體工學垂直滑鼠(珍珠白)/無線-藍牙/57°垂直/適用小-中手型",
        "price": 2490,
        "list_price": null,
@@ -43938,7 +44034,16 @@
        ]
       },
       {
-       "id": 363,
+       "id": 367,
+       "name": "【套裝搭購優惠】｛羅技 Lift｝ 人體工學垂直滑鼠",
+       "price": 1990,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 370,
        "name": "｛羅技 MX Vertical｝ 垂直滑鼠/有線-無線-藍牙/57°垂直/支援FLOW/人體工學/適用中-大手型",
        "price": 2990,
        "list_price": null,
@@ -43947,7 +44052,16 @@
        ]
       },
       {
-       "id": 364,
+       "id": 371,
+       "name": "【套裝搭購優惠】｛羅技 MX Vertical｝ 垂直滑鼠",
+       "price": 2490,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 372,
        "name": "｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(石墨黑)/雙模(藍牙或BOLT接收器)/人體工學",
        "price": 1490,
        "list_price": null,
@@ -43956,7 +44070,7 @@
        ]
       },
       {
-       "id": 365,
+       "id": 373,
        "name": "｛羅技 Ergo M575 S｝ 無線軌跡球滑鼠(珍珠白)/雙模(藍牙或BOLT接收器)/人體工學",
        "price": 1490,
        "list_price": null,
@@ -43965,7 +44079,7 @@
        ]
       },
       {
-       "id": 366,
+       "id": 374,
        "name": "｛羅技 MX Ergo S｝ 無線軌跡球滑鼠/雙模(藍牙或BOLT接收器)/傾斜20°調整/適用中-大手型",
        "price": 3290,
        "list_price": null,
@@ -43979,7 +44093,7 @@
      "label": "鼠墊 系列",
      "items": [
       {
-       "id": 368,
+       "id": 376,
        "name": "威剛 ｛XPG FRONTLINE XL FORMOSA SEXY｝ 限定聯名款大型電競滑鼠墊/900x420x3",
        "price": 690,
        "list_price": null,
@@ -43988,42 +44102,42 @@
        ]
       },
       {
-       "id": 369,
+       "id": 377,
        "name": "｛羅技 G240｝ 電競布質鼠墊(340x280x1mm)",
        "price": 299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 370,
+       "id": 378,
        "name": "｛羅技 G840｝ 大尺寸遊戲鼠墊(桃紅色)(900x400x3mm)",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 371,
+       "id": 379,
        "name": "｛羅技 桌上滑鼠墊｝(玫瑰粉)(700x300x2)/布質/防潑濺設計",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 372,
+       "id": 380,
        "name": "｛羅技 桌上滑鼠墊｝(沉穩灰)(700x300x2)/布質/防潑濺設計",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 381,
        "name": "｛羅技 G Pro X Control｝加厚編織遊戲鼠墊/全向布料/460x400x6mm",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 374,
+       "id": 382,
        "name": "｛羅技 Powerplay 2｝ 充電鼠墊/充電不間斷/隨插即用/布質遊戲滑鼠墊",
        "price": 3690,
        "list_price": null,
@@ -44032,21 +44146,21 @@
        ]
       },
       {
-       "id": 375,
+       "id": 383,
        "name": "｛Ktnet 黑精靈光學鼠墊｝/180x220x1mm/天然橡膠底材/高密度編織/雷射切邊",
        "price": 39,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 376,
+       "id": 384,
        "name": "｛華碩 TUF Gaming P1｝ 滑鼠墊/布質表面/軍規級奈米防水/260x350x2mm",
        "price": 490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 377,
+       "id": 385,
        "name": "｛華碩 TUF Gaming P1 Hatsune Miku Edition｝ 初音未來限量款電競鼠墊",
        "price": 790,
        "list_price": null,
@@ -44055,14 +44169,14 @@
        ]
       },
       {
-       "id": 378,
+       "id": 386,
        "name": "｛華碩 ROG Scabbard II Medium｝ 滑鼠墊/360x260x3mm",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 379,
+       "id": 387,
        "name": "｛華碩 ROG Sheath II XXL｝ 電競鼠墊/先進散熱纖維/柔軟布面/耐磨平縫邊緣/900x400",
        "price": 1290,
        "list_price": null,
@@ -44071,7 +44185,7 @@
        ]
       },
       {
-       "id": 380,
+       "id": 388,
        "name": "｛華碩 ROG Scabbard II Arctic Gray XXL｝ 電競鼠墊/柔軟布面/三重防護塗層/900x400mm",
        "price": 990,
        "list_price": null,
@@ -44080,7 +44194,7 @@
        ]
       },
       {
-       "id": 381,
+       "id": 389,
        "name": "｛華碩 ROG Scabbard II-KJP｝ 聯名滑鼠墊/防潑水/防滑橡膠/900x400x3mm",
        "price": 1690,
        "list_price": null,
@@ -44089,7 +44203,7 @@
        ]
       },
       {
-       "id": 382,
+       "id": 390,
        "name": "｛華碩 ROG Scabbard II｝ 20周年限量桌墊/軍規級防潑水/900x400x3mm",
        "price": 1690,
        "list_price": null,
@@ -44098,35 +44212,35 @@
        ]
       },
       {
-       "id": 383,
+       "id": 391,
        "name": "｛技嘉 Aorus AMP900｝ 鼠墊/橡膠底材/防潑水/900x360x3mm",
        "price": 590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 384,
+       "id": 392,
        "name": "｛微星 Agility GD21｝ Dragon Tiamat 電競鼠墊/320x220x3mm",
        "price": 439,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 385,
+       "id": 393,
        "name": "｛微星 Agility GD22｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/320x220x3mm",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 394,
        "name": "｛微星 Agility GD72｝ 彩虹膜電競鼠墊/絢麗奪目的反光視覺效果/防潑水/900x400x3mm",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 395,
        "name": "｛Razer Gigantus V2 Minecraft｝ 聯名鼠墊/細緻編織紋理布料表面/防滑底部/360x275x3",
        "price": 890,
        "list_price": null,
@@ -44135,7 +44249,7 @@
        ]
       },
       {
-       "id": 388,
+       "id": 396,
        "name": "｛Razer Gigantus｝(大)CS2 絕對武力2 聯名滑鼠墊/防滑底部/450x400x3mm",
        "price": 990,
        "list_price": null,
@@ -44144,7 +44258,7 @@
        ]
       },
       {
-       "id": 389,
+       "id": 397,
        "name": "｛Razer Gigantus V2 EVA｝ 聯名鼠墊/防滑底部/高密度橡膠泡綿/紋理布料表面/940x410",
        "price": 1090,
        "list_price": null,
@@ -44153,7 +44267,7 @@
        ]
       },
       {
-       "id": 390,
+       "id": 398,
        "name": "｛Razer Gigantus V2｝巨甲蟲滑鼠墊(大)/細緻編織紋理布料表面/防滑底部450x400x3",
        "price": 490,
        "list_price": null,
@@ -44162,7 +44276,7 @@
        ]
       },
       {
-       "id": 391,
+       "id": 399,
        "name": "｛Razer Gigantus V2｝巨甲蟲滑鼠墊(特大)/細緻編織紋理布料表面/防滑底部/940x410x4",
        "price": 990,
        "list_price": null,
@@ -44171,63 +44285,63 @@
        ]
       },
       {
-       "id": 392,
+       "id": 400,
        "name": "｛Razer Gigantus V2 Pro Max Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 401,
        "name": "｛Razer Gigantus V2 Pro Max Control XXL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/940x410",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 402,
        "name": "｛Razer Gigantus V2 Pro Max Control 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/1200x530",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 395,
+       "id": 403,
        "name": "｛Razer Gigantus V2 Pro Control｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 396,
+       "id": 404,
        "name": "｛Razer Gigantus V2 Pro Balance｝滑鼠墊/薄型車縫邊緣/Glidecore 專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 397,
+       "id": 405,
        "name": "｛Razer Gigantus V2 Pro Balance XXL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/940x410",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 398,
+       "id": 406,
        "name": "｛Razer Gigantus V2 Pro Balance 3XL｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/1200x530",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 399,
+       "id": 407,
        "name": "｛Razer Gigantus V2 Pro Speed｝滑鼠墊/薄型車縫邊緣/Glidecore專利泡棉/480x500",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 400,
+       "id": 408,
        "name": "｛Razer Firefly V2 Pro｝ 烈焰神蟲鼠墊(黑)/無邊框背光設計/硬質表面/360x278x4.6/Rgb〈限網單〉",
        "price": 3399,
        "list_price": null,
@@ -44236,7 +44350,7 @@
        ]
       },
       {
-       "id": 401,
+       "id": 409,
        "name": "｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(黑)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400",
        "price": 4590,
        "list_price": null,
@@ -44245,7 +44359,7 @@
        ]
       },
       {
-       "id": 402,
+       "id": 410,
        "name": "｛Razer Atlas PRO｝ 強化玻璃遊戲滑鼠墊(白)/防滑橡膠底部/防塵防刮/超薄1.9毫米/500x400",
        "price": 4590,
        "list_price": null,
@@ -44254,28 +44368,28 @@
        ]
       },
       {
-       "id": 403,
+       "id": 411,
        "name": "｛darkFlash DMP300｝ 強化玻璃滑鼠墊(黑)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 404,
+       "id": 412,
        "name": "｛darkFlash DMP300｝ 強化玻璃滑鼠墊(白)/霧面拋光/六邊形防滑網格/耐磨防刮/300x250mm",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 405,
+       "id": 413,
        "name": "｛Cougar Command S｝ 電競椅專用地墊/防水PU塗層/天然橡膠底層/1060x1060x3mm(客訂指送)",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 406,
+       "id": 414,
        "name": "｛Marsrhino Stronghold｝(據點)防刮地墊/防潑水編織布料/防滑底部/1450x1000x4mm(客訂指送)",
        "price": 1980,
        "list_price": null,
@@ -44284,42 +44398,42 @@
        ]
       },
       {
-       "id": 407,
+       "id": 415,
        "name": "｛Zowie G-SR-SE｝ 滑鼠墊/470X390X3.5mm/紅色特別版",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 408,
+       "id": 416,
        "name": "｛Zowie G-SR-SE Blue II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 409,
+       "id": 417,
        "name": "｛Zowie G-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 410,
+       "id": 418,
        "name": "｛Zowie H-SR-SE Rouge II｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 411,
+       "id": 419,
        "name": "｛Zowie G-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/470x390x3.5mm",
        "price": 1150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 412,
+       "id": 420,
        "name": "｛Zowie H-SR-SE Orange｝ 電競滑鼠墊/抗潮布面彩色印刷/無縫邊設計/500x500x3.5mm",
        "price": 1590,
        "list_price": null,
@@ -44331,21 +44445,21 @@
      "label": "XP-PEN 數位繪圖板(1年保固)",
      "items": [
       {
-       "id": 414,
+       "id": 422,
        "name": "｛XP-PEN Star G430S｝超輕薄繪圖板 4X3吋 / 8192階 / 隨插即用 / 左右手可切換設定",
        "price": 1266,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 415,
+       "id": 423,
        "name": "｛XP-PEN Deco 02｝頂級專業超薄繪圖板 10X5.63吋 / 8192階 / 左右手可切換設定",
        "price": 3136,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 416,
+       "id": 424,
        "name": "｛XP-PEN Deco 03｝專業無線繪圖板 10X5.62吋 / 8192階 / 隨插即用 / 左右手可切換",
        "price": 4241,
        "list_price": null,
@@ -44357,7 +44471,7 @@
      "label": "Wacom 數位繪圖板(1年保固)",
      "items": [
       {
-       "id": 418,
+       "id": 426,
        "name": "｛WACOM Intuos Comfort Small CTL-4100WL｝繪圖板(黑) / 4096階 / 小 / 藍牙版",
        "price": 2890,
        "list_price": null,
@@ -44366,7 +44480,7 @@
        ]
       },
       {
-       "id": 419,
+       "id": 427,
        "name": "｛WACOM Intuos Comfort Plus Medium CTL-6100WL｝繪圖板(黑) / 4096階 / 中 / 藍牙",
        "price": 4690,
        "list_price": null,
@@ -49023,7 +49137,7 @@
        ]
       },
       {
-       "id": 222,
+       "id": 221,
        "name": "｛SteelSeries Arctis Nova Elite｝ 無線電競耳機(靜謐綠金)/無線傳輸高解析音訊",
        "price": 20990,
        "list_price": null,
@@ -49037,7 +49151,7 @@
      "label": "海盜船 耳麥",
      "items": [
       {
-       "id": 226,
+       "id": 224,
        "name": "｛海盜船 Hs35 V2｝電競耳機(黑)/有線/50mm單體/全指向麥克風/整合控制/沒有附轉接器",
        "price": 790,
        "list_price": null,
@@ -49046,35 +49160,35 @@
        ]
       },
       {
-       "id": 227,
+       "id": 225,
        "name": "｛海盜船 Hs35 V3｝電競耳機(黑)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 228,
+       "id": 226,
        "name": "｛海盜船 Hs35 V3｝電競耳機(白)/有線/50mm單體/固定式全向性麥克風/浮動式頭帶",
        "price": 1190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 230,
+       "id": 228,
        "name": "｛海盜船 Hs35 V3｝無線耳機(黑)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 231,
+       "id": 229,
        "name": "｛海盜船 Hs35 V3｝無線耳機(白)/有線/2.4G/藍牙/Dolby Atmos音效/浮動式頭帶",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 232,
+       "id": 230,
        "name": "｛海盜船 Hs80 Max Wireless｝ 無線耳機(消光灰)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb",
        "price": 3290,
        "list_price": null,
@@ -49083,7 +49197,7 @@
        ]
       },
       {
-       "id": 233,
+       "id": 231,
        "name": "｛海盜船 Hs80 Max Wireless｝ 無線耳機(雪貂白)無線-藍牙/全指向麥克風/杜比全景環繞音效/Rgb",
        "price": 3290,
        "list_price": null,
@@ -49092,7 +49206,7 @@
        ]
       },
       {
-       "id": 234,
+       "id": 232,
        "name": "｛海盜船 Void Wireless V2｝ 雙模耳機(黑)/無線/藍芽/杜比/303g輕量化/Rgb",
        "price": 2490,
        "list_price": null,
@@ -49101,7 +49215,7 @@
        ]
       },
       {
-       "id": 235,
+       "id": 233,
        "name": "｛海盜船 Void Wireless V2｝ 雙模耳機(白)/無線/藍芽/杜比/303g輕量化/Rgb",
        "price": 2490,
        "list_price": null,
@@ -49110,7 +49224,7 @@
        ]
       },
       {
-       "id": 236,
+       "id": 234,
        "name": "｛海盜船 Void Wireless V2 Max｝ 雙模耳機(黑)/無線/藍芽/杜比/50單體/超長續航",
        "price": 3490,
        "list_price": null,
@@ -49119,7 +49233,7 @@
        ]
       },
       {
-       "id": 237,
+       "id": 235,
        "name": "｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(黑)/無線-藍牙/杜比/主動式降噪/全指向麥克風",
        "price": 8990,
        "list_price": null,
@@ -49128,7 +49242,7 @@
        ]
       },
       {
-       "id": 238,
+       "id": 236,
        "name": "｛海盜船 Virtuoso Max Wireless｝ 雙模耳機(銀)/無線-藍牙/杜比/主動式降噪/全指向麥克風",
        "price": 8990,
        "list_price": null,
@@ -49142,21 +49256,21 @@
      "label": "羅技 耳麥",
      "items": [
       {
-       "id": 240,
+       "id": 238,
        "name": "｛羅技 H151｝ (黑)立體聲耳麥/3.5mm/有線/可調式頭帶",
        "price": 589,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 241,
+       "id": 239,
        "name": "｛羅技 H340｝ USB 耳麥/有線/立體聲音質/濾噪麥克風",
        "price": 949,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 242,
+       "id": 240,
        "name": "｛羅技 H390｝ USB 耳麥(石墨灰)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置",
        "price": 1290,
        "list_price": null,
@@ -49165,7 +49279,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 241,
        "name": "｛羅技 H390｝ USB 耳麥(玫瑰粉)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置",
        "price": 1290,
        "list_price": null,
@@ -49174,7 +49288,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 242,
        "name": "｛羅技 H390｝ USB 耳麥(珍珠白)/有線-Usb/抗噪音麥克風/音量及靜音線控制裝置",
        "price": 1290,
        "list_price": null,
@@ -49183,7 +49297,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 243,
        "name": "｛羅技 H540｝ USB 耳麥/有線/雷射微調/皮革耳罩",
        "price": 1590,
        "list_price": null,
@@ -49192,42 +49306,42 @@
        ]
       },
       {
-       "id": 246,
+       "id": 244,
        "name": "｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/黑",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 247,
+       "id": 245,
        "name": "｛羅技 G335｝ 有線遊戲耳機麥克風/有線/記憶泡棉耳墊/隨插即用/40mm單體/白",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 248,
+       "id": 246,
        "name": "｛羅技 G431｝ 電競耳機/有線/50mm單體/DTS Headphone:X 2.0音效/人造皮革耳墊",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 249,
+       "id": 247,
        "name": "｛羅技 G321 Lightspeed｝ 無線耳機(黑)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 250,
+       "id": 248,
        "name": "｛羅技 G321 Lightspeed｝ 無線耳機(白)/2.4g/藍牙5.2/輕量210克/16kHz翻轉靜音麥克風",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 251,
+       "id": 249,
        "name": "｛羅技 G325 Lightspeed｝ 雙模無線耳機(暗夜黑)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化",
        "price": 2690,
        "list_price": null,
@@ -49236,7 +49350,7 @@
        ]
       },
       {
-       "id": 252,
+       "id": 250,
        "name": "｛羅技 G325 Lightspeed 雙模無線耳機(極地白)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化",
        "price": 2690,
        "list_price": null,
@@ -49245,7 +49359,7 @@
        ]
       },
       {
-       "id": 253,
+       "id": 251,
        "name": "｛羅技 G325 Lightspeed｝ 雙模無線耳機(丁香紫)/2.4G/藍牙/透氣針織布料/AI降噪/輕量化",
        "price": 2690,
        "list_price": null,
@@ -49254,7 +49368,7 @@
        ]
       },
       {
-       "id": 254,
+       "id": 252,
        "name": "｛羅技 G Pro X｝專業電競耳麥/有線/PRO-G 50單體/DTS",
        "price": 3990,
        "list_price": null,
@@ -49263,8 +49377,26 @@
        ]
       },
       {
+       "id": 256,
+       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(黑)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術",
+       "price": 5990,
+       "list_price": null,
+       "flags": [
+        "酷幣250"
+       ]
+      },
+      {
+       "id": 257,
+       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(白)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術",
+       "price": 5990,
+       "list_price": null,
+       "flags": [
+        "酷幣250"
+       ]
+      },
+      {
        "id": 258,
-       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(黑)/有線-無線-藍牙/石墨烯單體/Blue Voice技術",
+       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(桃色)/有線/2.4g/藍牙/石墨烯單體/Blue Voice技術",
        "price": 5990,
        "list_price": null,
        "flags": [
@@ -49273,24 +49405,6 @@
       },
       {
        "id": 259,
-       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(白)/有線-無線-藍牙/石墨烯單體/Blue Voice技術",
-       "price": 5990,
-       "list_price": null,
-       "flags": [
-        "酷幣250"
-       ]
-      },
-      {
-       "id": 260,
-       "name": "｛羅技 G Pro X 2 Lightspeed｝無線電競耳機(桃色)/有線-無線-藍牙/石墨烯單體/Blue Voice技術",
-       "price": 5990,
-       "list_price": null,
-       "flags": [
-        "酷幣250"
-       ]
-      },
-      {
-       "id": 261,
        "name": "｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(黑)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風",
        "price": 7690,
        "list_price": null,
@@ -49300,7 +49414,7 @@
        ]
       },
       {
-       "id": 262,
+       "id": 260,
        "name": "｛羅技 G Pro X 3 Lightspeed｝無線電競耳機(白)/有線/2.4g/藍牙/石墨烯單體/48kHz麥克風",
        "price": 7690,
        "list_price": null,
@@ -49310,7 +49424,7 @@
        ]
       },
       {
-       "id": 263,
+       "id": 261,
        "name": "｛羅技 G535 Wireless｝ 無線電競耳機/Lightspeed 技術/輕量化/40mm單體/Discord認證",
        "price": 2990,
        "list_price": null,
@@ -49319,8 +49433,8 @@
        ]
       },
       {
-       "id": 264,
-       "name": "｛羅技 G522 Lightspeed｝ 無線三模耳機(神秘黑)/有線-無線-藍牙/Pro-G單體/Rgb",
+       "id": 262,
+       "name": "｛羅技 G522 Lightspeed｝ 無線三模耳機(神秘黑)/有線/2.4g/藍牙/Pro-G單體/Rgb",
        "price": 3990,
        "list_price": null,
        "flags": [
@@ -49328,8 +49442,8 @@
        ]
       },
       {
-       "id": 265,
-       "name": "｛羅技 G522 Lightspeed｝ 無線三模耳機(極光白)/有線-無線-藍牙/Pro-G單體/Rgb",
+       "id": 263,
+       "name": "｛羅技 G522 Lightspeed｝ 無線三模耳機(極光白)/有線/2.4g/藍牙/Pro-G單體/Rgb",
        "price": 3990,
        "list_price": null,
        "flags": [
@@ -49337,7 +49451,7 @@
        ]
       },
       {
-       "id": 268,
+       "id": 266,
        "name": "｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/黑▼下殺到 10/25 23:59",
        "price": 2690,
        "list_price": 2990,
@@ -49347,7 +49461,7 @@
        ]
       },
       {
-       "id": 269,
+       "id": 267,
        "name": "｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/白▼下殺到 10/25 23:59",
        "price": 2690,
        "list_price": 2990,
@@ -49357,7 +49471,7 @@
        ]
       },
       {
-       "id": 270,
+       "id": 268,
        "name": "｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/藍▼下殺到 10/25 23:59",
        "price": 2690,
        "list_price": 2990,
@@ -49367,7 +49481,7 @@
        ]
       },
       {
-       "id": 271,
+       "id": 269,
        "name": "｛羅技 G733｝ 無線耳機/無線/Pro-G 40單體/輕量化/RGB/紫▼下殺到 10/25 23:59",
        "price": 2690,
        "list_price": 2990,
@@ -49377,7 +49491,7 @@
        ]
       },
       {
-       "id": 272,
+       "id": 270,
        "name": "｛羅技 G735｝ 無線美型RGB遊戲耳麥(白)/無線-藍牙/40mm單體/輕巧/Rgb",
        "price": 4690,
        "list_price": null,
@@ -49465,7 +49579,7 @@
       {
        "id": 13,
        "name": "｛華碩 SBW-06D2X-U｝6X 藍光燒錄器 / 支援Mac / 附直立架",
-       "price": 3290,
+       "price": 4990,
        "list_price": null,
        "flags": []
       },
