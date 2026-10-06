@@ -138,5 +138,73 @@ class PipelineTest(unittest.TestCase):
         self.assertIn("找不到", r.stderr)
 
 
+class InitTest(unittest.TestCase):
+    def init_project(self, root):
+        return subprocess.run([sys.executable, str(SCRIPTS / "build_site.py"), "--init"],
+                              cwd=root, capture_output=True, text=True)
+
+    def test_init_assets_and_portable_runtime(self):
+        from html.parser import HTMLParser
+
+        class AssetParser(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.assets = []
+                self.site_urls = []
+
+            def handle_starttag(self, tag, attrs):
+                attrs = dict(attrs)
+                if tag == "script" and "src" in attrs:
+                    self.assets.append(attrs["src"])
+                if tag == "link" and attrs.get("rel") == "stylesheet":
+                    self.assets.append(attrs["href"])
+                if tag == "link" and attrs.get("rel") == "canonical":
+                    self.site_urls.append(attrs["href"])
+                if tag == "meta" and attrs.get("property") == "og:url":
+                    self.site_urls.append(attrs["content"])
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            result = self.init_project(root)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            parser = AssetParser()
+            parser.feed((root / "docs/index.html").read_text(encoding="utf-8"))
+            self.assertTrue(parser.assets)
+            for asset in parser.assets:
+                self.assertTrue((root / "docs" / asset).is_file(), asset)
+            self.assertEqual(parser.site_urls, [])  # 新站尚未決定 URL，不能繼承範例站身分。
+
+            (root / "site.json").write_text(json.dumps({"title": "初始化驗收", "builds": ["mid"],
+                "slots": [{"key": "cpu", "label": "CPU", "cats": [4]}]}), encoding="utf-8")
+            (root / "builds").mkdir()
+            (root / "builds/mid.json").write_text(json.dumps({"name": "中階", "items": [
+                {"cat": 4, "role": "CPU", "match": "測試 CPU"}]}), encoding="utf-8")
+            (root / "data").mkdir()
+            (root / "data/coolpc_prices.json").write_text(json.dumps({"quote_date": "2026/10/6", "categories": [
+                {"id": 4, "name": "CPU", "groups": [{"label": "AM5", "items": [it(1, "測試 CPU", 4790)]}]}]}), encoding="utf-8")
+            # CI 執行專案副本，不依賴共用正本的絕對路徑。
+            generated = subprocess.run([sys.executable, str(root / ".claude/skills/coolpc/scripts/build_site.py")],
+                                       cwd=root, capture_output=True, text=True)
+            self.assertEqual(generated.returncode, 0, generated.stderr)
+            data = json.loads((root / "docs/data.json").read_text(encoding="utf-8"))
+            self.assertEqual(data["title"], "初始化驗收")
+            self.assertEqual(data["builds"][0]["items"]["cpu"]["price"], 4790)
+
+    def test_init_preserves_existing_customizations(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files = {"site.json": "custom config", "docs/index.html": "custom HTML",
+                     "docs/builder.css": "custom CSS", "worker/src/index.js": "custom worker"}
+            for name, content in files.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(content, encoding="utf-8")
+            result = self.init_project(root)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            for name, content in files.items():
+                self.assertEqual((root / name).read_text(encoding="utf-8"), content)
+            self.assertTrue((root / "docs/coolpc-live.js").is_file())
+
+
 if __name__ == "__main__":
     unittest.main()

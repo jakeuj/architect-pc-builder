@@ -17,14 +17,14 @@
 
 ## 資料怎麼來的
 
-整套工具是 Claude Code 專案技能，放在 [`.claude/skills/coolpc/`](.claude/skills/coolpc/)（`SKILL.md` 有完整說明）。
+共用技能正本在 `~/.agents/skills/coolpc/`，Codex 原生掃描、Claude 透過 symlink 共用；本 repo 的 [`.claude/skills/coolpc/`](.claude/skills/coolpc/) 是供 GitHub Actions 與其他使用者執行的版控副本（`SKILL.md` 有完整說明）。
 
 1. `fetch_coolpc.py` 下載原價屋估價頁（Big5 → UTF-8），交給 `parse_coolpc.py` 解析成 `data/`：
    - `coolpc_prices.json` — 30 個分類 → 群組 → 商品 `{id, name, price, list_price, flags}`
    - `coolpc_prices.csv` — 扁平版
    - `by_category/NN_*.tsv` — 每分類一檔，方便 grep
 2. `quote.py` 依 `builds/*.json` 產出 [quote.md](quote.md)
-3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），只取主機相關分類，連同預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染
+3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），只取主機相關分類，連同預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染，`docs/builder.css` 提供深色科技風與響應式樣式
 
 GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上述流程，報價有變才 commit；也可在 Actions 頁手動觸發。
 repo 是公開的，Actions 不花額度；不過 GitHub 的排程常延後好幾個小時、偶爾整次跳過，所以 `data.json` 快照的時間不一定準，網頁上方會標出報價日期。
@@ -60,7 +60,9 @@ python3 -m http.server 8765 --directory docs                               # 本
 要改標題或加減分頁，改 `site.json` 的 `title` / `builds`；要做成某款遊戲專用的網站，可以再加 `game`（官方最低／建議配備，網頁會多一個需求表，格式見 `build_site.py` 開頭說明）。
 若某零件下架，排程不會中斷：`quote.py` 標「已下架」不計價，網頁保留最後的品名與價格並標示「已下架」讓訪客改選；記得再找替代品更新 `builds/*.json`。
 
-要另開一個估價網站（例如某款遊戲專用）：在新目錄跑 `python3 <本 repo>/.claude/skills/coolpc/scripts/build_site.py --init`，技能與網頁骨架會一起複製過去。
+要另開一個估價網站（例如某款遊戲專用）：在新目錄跑 `python3 ~/.agents/skills/coolpc/scripts/build_site.py --init`，會複製專案執行副本及網頁骨架（HTML、CSS、JS）；未安裝共用技能的使用者可從本 repo 的腳本初始化。既有檔案預設保留，日常抓價只更新資料，不覆寫介面。
+
+新版模板採用深色方案卡、搜尋選件面板、桌面固定估價摘要與手機底部分享列。改版與驗收方式見 [site-ui.md](.claude/skills/coolpc/references/site-ui.md)。新站需依自己的名稱與公開網址調整初始 HTML metadata。
 
 ## 標籤說明
 

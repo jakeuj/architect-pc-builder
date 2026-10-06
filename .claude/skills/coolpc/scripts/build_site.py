@@ -2,7 +2,7 @@
 """把 data/coolpc_prices.json + builds/*.json 整理成 docs/data.json, 給 GitHub Pages 靜態估價頁 (templates/index.html) 使用。
 
 用法:
-  python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/coolpc-live.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
+  python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/builder.css / docs/coolpc-live.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
   python3 build_site.py [--config site.json]
 
 site.json 欄位:
@@ -79,6 +79,7 @@ def init(root: Path, force: bool):
     targets = {
         "site.json": TEMPLATES / "site.json",
         "docs/index.html": TEMPLATES / "index.html",
+        "docs/builder.css": TEMPLATES / "builder.css",
         "docs/coolpc-live.js": TEMPLATES / "coolpc-live.js",
         "worker/wrangler.toml": TEMPLATES / "worker" / "wrangler.toml",
         "worker/src/index.js": TEMPLATES / "worker" / "src" / "index.js",

@@ -1,6 +1,6 @@
 # 估價網頁 (GitHub Pages) 參考
 
-模板：`templates/index.html`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
+模板：`templates/index.html`、`templates/builder.css`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
 已上線範例：`jakeuj/architect-pc-builder` → https://blog.jakeuj.com/architect-pc-builder/ （泛用的「原價屋估價單分享」，沒有 `game`；repo 名稱是早期為單一遊戲建的，為了不讓舊分享連結失效而保留）
 
 ## 專案結構 (repo 形式)
@@ -9,9 +9,11 @@
 README.md            給朋友 / 公開看的說明: 網址、三套摘要表、資料來源、本機指令
 site.json            網頁設定 (title, subtitle?, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?)；game 只有遊戲專屬網站才填
 builds/*.json        配置定義檔 (與 quote.py 共用)
-.claude/skills/coolpc/ 技能本體 (SKILL.md, scripts/, templates/, references/, examples/) — 唯一來源
+~/.agents/skills/coolpc/ 共用技能正本（本機維護來源）
+.claude/skills/coolpc/ 專案執行副本（進版控，供 CI 使用）
 data/                parse 產出 (json / csv / by_category tsv), 進版控當快照
-docs/index.html      網頁 (從模板複製, 可再客製)
+docs/index.html      網頁介面與事件 (從模板複製, 可再客製)
+docs/builder.css     深色科技風與響應式樣式
 docs/coolpc-live.js  瀏覽器端解析器 (parse_coolpc.py + build_site.py 剔除規則的 JS 版)
 docs/data.json       build_site.py 產出, 網頁的快照資料 (有 live_url 時載入後會被即時資料換掉)
 worker/              Cloudflare Worker 代理 (wrangler.toml + src/index.js), 可選; 本 repo 未部署
@@ -48,7 +50,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - 連結內容任何人都能捏造：品名、標籤、日期一律 `textContent` 或 `esc()` 後才放進 DOM。
 - 舊格式 `#b=mid&cpu=4:22` 只採用 `b`，其餘參數忽略並 toast (舊 id 可能指到別的商品)。
 - 對照 (`CoolPC.reconcile`)：先比完全相同的 `分類|品名`；再退而比同分類唯一的 ｛型號｝ 且價格條件標記 (搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝) 相同 → 「同型號・品名有變」；都不行就是已下架。搭板價下架不會被換成零售品。
-- 漲跌基準是連結每列的 `price` (分享當時的價格) 對現行型錄價，呈現見「index.html 內部重點」的 `cmp`。驗證：拿 build 品項做連結、把 RAM 的 price 減 500 → 該列「現價 X（比 M/D ▲500）」、摘要合計 ▲500；反向拿原價屋標 `價格異動` / `下殺` 的品項以現價做連結 → 摘要「價格都一樣」、單價欄沒有 ▲▼。原價屋把「▼下殺到 10/31 20:00」直接寫在品名裡 (2026-10 約 43 件)，下拉選單看得到，那是原價屋原文。
+- 漲跌基準是連結每列的 `price` (分享當時的價格) 對現行型錄價，呈現見「index.html 內部重點」的 `cmp`。驗證：拿 build 品項做連結、把 RAM 的 price 減 500 → 該列「現價 X（比 M/D ▲500）」、摘要合計 ▲500；反向拿原價屋標 `價格異動` / `下殺` 的品項以現價做連結 → 摘要「價格都一樣」、單價欄沒有 ▲▼。原價屋把「▼下殺到 10/31 20:00」直接寫在品名裡 (2026-10 約 43 件)，選件面板看得到，那是原價屋原文。
 
 ### 從現成估價單 (截圖 / 清單) 產生連結
 
@@ -71,20 +73,20 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 4. 開連結確認總計 = 截圖的含稅現金價，回覆時一併說明：
    - 截圖的「優惠省 N / 現金優惠價」是原價屋的任搭折，連結不存；網頁依現行型錄的 `任搭折N` 重算，實付可能和截圖不同。
-   - 只放部分欄位沒關係：其他格顯示「— 無 —」，相容性提示只看有放的零件 (搭板 CPU 沒放主機板會提醒)。
+   - 只放部分欄位沒關係：其他格顯示新增入口，相容性提示只看有放的零件 (搭板 CPU 沒放主機板會提醒)。
    - 截圖比網站快照舊、品項已從型錄消失時，該列顯示「已下架」是正常的 (本 repo 沒開即時報價，型錄就是 workflow 最後一次的快照)。
 
 ## index.html 內部重點
 
-- `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel`)；`find(row)` = `CoolPC.reconcile(row, IDX)`；`render()` 每次整表重畫。
+- `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel`)；`find(row)` = `CoolPC.reconcile(row, IDX)`；`render()` 每次重畫零件列與摘要，選件面板獨立維護。
 - 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, d?, base?, raw?, rows, orig}`；`rows[slot] = {cat, name, qty, pin}`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。
 - 改選品項 → 該列 `pin = null` (分享時才以現價定價)；改回原品項還原 `orig` 的 pin；只改數量保留 pin。「全部改用現價」把對得到的列 unpin。
 - 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、全部清空的單不帶 `#` (`decodeQuote` 不收空單；複製清單 / 分享按鈕改 toast 提示)、其餘 `#q=`；`hashchange` (貼上別的連結) 會重新載入。分享按鈕一律產生 `#q=`。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
 - 合計 (`CoolPC.totals`)：估價單總計 = 報價；以現價計 = 對得到的用現價、已下架以報價計，所以差額只反映漲跌；任搭折只看對得到的列。
 - 漲跌一律用 `cmp(r)` (`dv = 現價 − pin.price`，即分享連結裡的當時價格)，單價欄「現價 X（比 9/21 ▲N）」、分享單上方摘要 `#chg` (`changes()`：鎖價列逐列 + 合計，全沒變顯示「價格都一樣」，預設配置不顯示)、分頁標籤「現價 ▲N」、複製清單都用它。原價屋自己的近期調價標示 (品名裡的「▼下殺到…」、`價格異動` / `下殺` 旗標、原價) 跟這個無關，頁面上有寫明，別混用。
-- 下拉用 `<optgroup>` = 原價屋群組名；多分類欄位 (散熱器 = 10+11) 群組前綴分類名。
-- 篩選框重建 options，若目前選件被濾掉會插在最前面保留。
-- 每一格都有「— 無 —」，選了就把該列設為 null。2026-10-02 起沒有必選 / 選配之分 (有人只換幾個零件)，`slots` 也拿掉了 `optional`。以前必選欄位沒有空選項，row 為 null 時下拉會停在型錄第一項、小計卻是「–」，看起來像已選；不要再加回必選。
+- 介面用方案卡、零件列、原生 dialog 選件面板與響應式摘要；布局、搜尋、焦點及驗收見 [site-ui.md](site-ui.md)。
+- `openPicker(slot)` 設定目前欄位、清空搜尋並進搜尋框；`renderPicker()` 以 slot.cats 與品名／群組關鍵字列出分類及群組，多分類欄位加分類前綴。
+- `chooseItem()` 沿用分類＋品名、原 pin 與數量規則；移除把 row 設為 null。每個欄位皆可空著，以支援只換部分零件的估價單。
 - 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
 - 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」。已下架是要處理的警告 (紅色)。
 - 搭板 CPU：單上有主機板 → ok 樣式；沒有 → 紅色警告 (單買不是這個價)。已下架的 CPU 查不到 flags，改用品名 `/搭板|任搭|搭主機板/` 判斷 (同 `parse()`)。CPU 無風扇提示寫成「沒有沿用舊散熱器的話，請選一顆」，因為只換零件的單常常不含散熱器。
@@ -113,4 +115,4 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - runner 是 UTC，時間戳一律在 build_site.py 用 `ZoneInfo("Asia/Taipei")` 產生。
 - `csv.DictWriter` 要 `lineterminator="\n"`，否則 CSV 進 git 會有 CRLF 警告。
 - 本機預覽可放 `.claude/launch.json`（python3 -m http.server 8765 --directory docs），已在 .gitignore。
-- `build_site.py --init` 會先把技能目錄複製到目標專案 `.claude/skills/coolpc/`（已存在則略過），workflow 模板呼叫的也是這個路徑。
+- `build_site.py --init` 從載入的技能目錄建立目標專案 `.claude/skills/coolpc/` 執行副本（已存在則略過），workflow 呼叫這個可攜路徑；另建立 HTML、builder.css、JS 等資源。維護共用正本後，僅同步受影響檔案到指定專案，保留既有客製與設定。

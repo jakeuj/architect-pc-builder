@@ -1,18 +1,19 @@
 ---
 name: coolpc
-description: "從原價屋線上估價頁 https://www.coolpc.com.tw/evaluate.php 自動下載最新含稅報價 (Big5 轉 UTF-8)，解析成結構化資料 (JSON / CSV / 分類 TSV)，並依 build 定義檔產出 Markdown 估價單、搜尋零件價格；也能用內建模板產出可替換零件的 GitHub Pages 估價網頁 (site.json + docs/ + 每小時自動更新 workflow + 可選的 Cloudflare Worker 即時報價代理)。遇到「更新原價屋報價」、「抓最新原價屋價格」、「原價屋估價單」、「幫我配一台電腦 / 低中高配置」、「查某零件在原價屋多少錢」、「重新產出估價單」、「做一個估價網頁給朋友」、「為某遊戲配電腦並做成網頁」、「把這張估價單／截圖做成分享連結」這類需求時使用。Trigger: /coolpc"
+description: "抓取與解析原價屋含稅報價、搜尋零件、依需求配電腦並產出估價單；建立或維護可替換零件的 GitHub Pages 估價網站，或把估價單截圖／清單轉成保留歷史價格的分享連結。適用於原價屋查價、配單、報價更新及估價網站改版。"
 ---
 
 # 原價屋報價自動更新與估價單
 
-這個技能住在 repo 內 `.claude/skills/coolpc/`（專案技能，唯一來源，沒有 `~/.claude` 副本）；所有指令都在 repo 根目錄執行。
+正本在 `~/.agents/skills/coolpc/`，Claude 透過 `~/.claude/skills/coolpc` symlink 共用。專案的 `.claude/skills/coolpc/` 是進版控的執行副本，供 GitHub Actions 與其他使用者使用；維護正本後，依需求同步受影響的腳本、模板與文件。
+所有資料指令都在目標專案根目錄執行。以下 `.claude/skills/coolpc/scripts/` 指令以已初始化的專案為例；沒有執行副本時，改用目前載入技能所在目錄的 `scripts/`，輸出仍寫到工作目錄。
 腳本只需 Python 3 標準函式庫。輸出寫在 repo 根目錄 (`./evaluate.php`、`./data/`、`./docs/`)，build 定義檔放 `./builds/`。
 
 - 查件 regex 配方、品名裡可直接讀的相容性資訊、條件價規則、行情筆記：`references/recipes.md`（配單前先看）。
-- 估價網頁 (GitHub Pages) 的做法、資料格式、部署與已知坑：`references/site.md`；模板在 `templates/`。
+- 估價網頁的資料格式、分享連結、部署與已知坑：`references/site.md`；建立或改版介面時另讀 `references/site-ui.md`，模板在 `templates/`。
 - 可直接複製當模板的三套配置：`examples/low.json`、`mid.json`、`high.json`。
 - 本 repo（已上線）：泛用的「原價屋估價單分享」網站，沒有綁遊戲；GitHub `jakeuj/architect-pc-builder`，網頁 https://blog.jakeuj.com/architect-pc-builder/ （repo 名稱沿用早期的遊戲專案，為了舊分享連結不改）；本機在 `/Users/jakeuj/claude/evaluate`。
-- 要在別的專案 / repo 用：在新專案根目錄跑 `python3 /Users/jakeuj/claude/evaluate/.claude/skills/coolpc/scripts/build_site.py --init`，會把整個技能複製到新專案的 `.claude/skills/coolpc/` 並建骨架；之後兩邊各自獨立，改了要自己同步。
+- 要在別的專案 / repo 用：在新專案根目錄跑 `python3 ~/.agents/skills/coolpc/scripts/build_site.py --init`，會把整個技能複製到新專案的 `.claude/skills/coolpc/` 並建骨架；專案副本供 CI 使用；一般抓價不會覆寫既有網頁，模板升級需明確同步。
 
 ## 1. 更新報價 (最常用)
 
@@ -92,17 +93,18 @@ python3 .claude/skills/coolpc/scripts/quote.py --summary builds/low.json builds/
 
 ## 6. 估價網頁 (GitHub Pages)
 
-給朋友看、可自己換零件重新計價的靜態頁。純 HTML + `docs/data.json`，不需 build 工具。
+給朋友看、可自己換零件重新計價的靜態頁。原生 HTML／CSS／JavaScript + `docs/data.json`，不需 build 工具。
 
 ```bash
-# 新專案：在其根目錄執行 (路徑指向本 repo 的技能)，會複製技能到新專案 .claude/skills/coolpc/ 並建 site.json / docs/index.html / docs/.nojekyll / workflow
-python3 /Users/jakeuj/claude/evaluate/.claude/skills/coolpc/scripts/build_site.py --init
+# 新專案：在其根目錄執行，從共用正本建立 CI 執行副本與網站骨架（含 builder.css）
+python3 ~/.agents/skills/coolpc/scripts/build_site.py --init
 # 編輯 site.json (title / repo / builds 分頁 / notes；遊戲專屬網站再加 game 需求)，準備 builds/*.json
 python3 .claude/skills/coolpc/scripts/build_site.py             # 產出 docs/data.json
 python3 -m http.server 8765 --directory docs                    # 本機預覽 (或用 preview_start)
 ```
 
-- 網頁功能：分頁 = builds、每欄位下拉替換 (含關鍵字篩選、數量)、每一格都能選「— 無 —」(沒有必選欄位，只換幾個零件的單也能分享)、總計 / 任搭折 / 實付估計、相容性提示 (腳位、DDR、顯卡長 vs 機殼、塔散高 vs 機殼、CPU 無風扇、條件價)、複製清單、分享連結 (整張估價單快照編進 URL，見下)、手機版、深色模式、即時報價 (有 `live_url` 才有：載入時自動 + 「更新最新報價」按鈕)。
+- 新網站預設用深色科技風模板：方案卡、完整品名零件列、搜尋選件面板、桌面固定摘要與手機底部總價／分享列；既有網站依使用者選定的風格改版。介面與驗收細節見 `references/site-ui.md`。
+- 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結。`live_url` 有設定才啟用即時抓價。
 - 只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。
 - 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
@@ -110,11 +112,13 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 - workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。
 - 即時報價 (可選)：原價屋沒有 CORS，網頁要透過 `worker/` (Cloudflare Worker) 代理抓現頁；`docs/coolpc-live.js` 是 `parse_coolpc.py` 的 JS 版，在瀏覽器解析。`site.json` 的 `live_url` 留空就只用 workflow 的快照。**本 repo 目前停用** (2026-10-02 起 `live_url` = `""`)：worker 程式寫好了但沒部署，`coolpc.jakeuj.com` 沒有 DNS 紀錄；使用者目前不要即時查價，價格只靠 workflow。要開的順序是先部署、curl 驗證，再把網址填回 `live_url` 跑 `build_site.py`；別在沒部署前填網址，也別主動叫使用者部署。部署與坑見 `references/site.md`。
 - `.gitignore` 排除 `evaluate*.php`（1MB+ 原始 HTML）與 `.claude/launch.json`、`.claude/settings.local.json`；`.claude/skills/` 要進版控。
+- 新站設定好 title／subtitle／repo 後，同步初始 HTML 的標題與描述；公開網址確認後再填 canonical 與 `og:url`，避免沿用範例網站的網域。資料生成器只更新 `docs/data.json`，不改 metadata 或介面檔案。
 - 細節與坑見 `references/site.md`。
 
 ## 7. 維護
 
 - 頁面結構假設：每分類為 `<TD class=w>N<TD class=t>名稱` 後接 `<SELECT name=nN>`，商品為 `<OPTION value=N>品名, $價格[↘$下殺價] 符號</OPTION>`，`disabled` 的 OPTION 是說明列。若解析出的商品數與頁面「共有商品 N 樣」不符，優先檢查 `parse_coolpc.py` 的 `cat_re` / `price_re`。
 - `parse_coolpc.py` 改了規則，`templates/coolpc-live.js`（與各專案 `docs/coolpc-live.js`）要一起改；驗證：`node` 載入 coolpc-live.js 解析同一份 evaluate.php，`JSON.stringify` 結果應與 `data/coolpc_prices.json` 的 `categories` 完全相同（見 site.md）。
+- 介面模板更新時一併維護 `templates/index.html`、`templates/builder.css` 與 `build_site.py --init` 複製清單；用暫存專案驗證初始化及既有檔案保留，再照 `references/site-ui.md` 做瀏覽器驗收。
 - 測試：`node --test .claude/skills/coolpc/tests/` (快照對照、連結編解碼、parse 一致性) 與 `python3 -m unittest discover -s .claude/skills/coolpc/tests` (下架時排程不中斷)。
 - 驗證方式：`parse_coolpc.py` 印出的各分類數量應等於該分類第一列「共有商品 N 樣」的 N。

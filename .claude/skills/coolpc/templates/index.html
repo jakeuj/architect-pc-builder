@@ -4,133 +4,68 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PC 組裝估價</title>
-<meta name="description" content="以原價屋含稅報價配的多套主機，可自行替換零件重新計價，整張估價單可以存成連結分享。">
-<style>
-:root{
-  --bg:#f6f7f9;--card:#fff;--text:#1f2328;--muted:#6b7280;--line:#e5e7eb;
-  --accent:#b45309;--accent-bg:#fff7ed;--warn:#b91c1c;--warn-bg:#fef2f2;--ok:#166534;
-  --tab:#eef0f3;--tab-on:#1f2328;--tab-on-text:#fff;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#0f1115;--card:#171a21;--text:#e6e8eb;--muted:#9aa3af;--line:#2a2f3a;
-    --accent:#f59e0b;--accent-bg:#2a1f0c;--warn:#f87171;--warn-bg:#2a1214;--ok:#4ade80;
-    --tab:#232834;--tab-on:#e6e8eb;--tab-on-text:#0f1115;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#0f1115;--card:#171a21;--text:#e6e8eb;--muted:#9aa3af;--line:#2a2f3a;
-  --accent:#f59e0b;--accent-bg:#2a1f0c;--warn:#f87171;--warn-bg:#2a1214;--ok:#4ade80;
-  --tab:#232834;--tab-on:#e6e8eb;--tab-on-text:#0f1115;
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
-.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 48px}
-h1{font-size:22px;margin:0 0 4px}
-.lead{margin:0 0 4px}
-.meta{color:var(--muted);font-size:13px;margin-bottom:16px}
-.meta a{color:inherit}
-.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
-.tab{border:1px solid var(--line);background:var(--tab);color:var(--text);border-radius:10px;padding:8px 14px;cursor:pointer;font-size:15px;text-align:left}
-.tab small{display:block;color:var(--muted);font-size:12px}
-.tab.on{background:var(--tab-on);color:var(--tab-on-text);border-color:var(--tab-on)}
-.tab.on small{color:inherit;opacity:.8}
-.tab.shared{border-color:var(--accent)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:14px}
-.note{color:var(--muted);font-size:13px;margin:0 0 10px}
-table{width:100%;border-collapse:collapse}
-th,td{padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
-th{font-weight:600;color:var(--muted);font-size:13px;white-space:nowrap}
-td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-td.role{white-space:nowrap;font-weight:600}
-td.role small{display:block;font-weight:400;color:var(--muted);font-size:12px}
-select,input[type=text],input[type=number]{font:inherit;color:var(--text);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;max-width:100%}
-select{width:100%}
-input[type=text]{width:100%;margin-top:6px;font-size:13px}
-input[type=number]{width:58px;text-align:right}
-.flags{font-size:12px;color:var(--muted)}
-.flag{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:0 5px;margin:2px 3px 0 0}
-.flag.hot{color:var(--accent);border-color:var(--accent)}
-.flag.cond{color:var(--warn);border-color:var(--warn)}
-tfoot td{font-weight:600;border-bottom:none}
-tfoot td.sub{font-weight:400;color:var(--muted)}
-.total{font-size:20px}
-.warns{margin:10px 0 0;padding:0;list-style:none}
-.warns li{background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:6px 10px;margin-top:6px;font-size:13px}
-.warns li.ok{background:var(--accent-bg);color:var(--accent)}
-.d{display:block;font-size:12px;font-weight:400;color:var(--muted)}
-.d.inl{display:inline;margin-left:6px}
-.d.up,.d.gone{color:var(--warn)}
-.d.down{color:var(--ok)}
-.d.renamed{color:var(--accent)}
-.chg{margin:0 0 12px;padding:8px 12px;border:1px solid var(--accent);border-radius:8px;font-size:14px}
-.chg.same{border-color:var(--line)}
-.chg b{font-weight:600}
-.chg .small{display:block}
-.chg ul{margin:4px 0 0;padding:0;list-style:none}
-.chg li{padding:1px 0;font-variant-numeric:tabular-nums}
-.chg .up,.chg .gone{color:var(--warn)}
-.chg .down{color:var(--ok)}
-.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-button.b{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:7px 12px;cursor:pointer}
-button.b:hover{border-color:var(--text)}
-button.b.primary{background:var(--accent);border-color:var(--accent);color:var(--card);font-weight:600}
-button.b.primary:hover{border-color:var(--text)}
-a.b{display:inline-block;text-decoration:none}
-details{margin-top:10px}
-summary{cursor:pointer;font-weight:600}
-.req th{width:70px}
-.small{font-size:13px;color:var(--muted)}
-#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--tab-on);color:var(--tab-on-text);padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none}
-#toast.show{opacity:1}
-@media (max-width:720px){
-  table,thead,tbody,tfoot,tr,th,td{display:block}
-  thead{display:none}
-  tr{border-bottom:1px solid var(--line);padding:8px 0}
-  td{border:none;padding:3px 0}
-  td.num{text-align:left}
-  td.num::before{content:attr(data-l);color:var(--muted);font-size:12px;margin-right:6px}
-  tfoot tr{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
-  tfoot td{padding:2px 0}
-  tfoot td.num{white-space:normal}
-  input[type=number]{width:70px}
-}
-</style>
+<meta name="description" content="用原價屋含稅報價配電腦：每個零件都能換，自動提示相容性；整張估價單存成一條連結，日後打開還看得到漲跌。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PC 組裝估價">
+<meta property="og:description" content="用原價屋含稅報價配電腦：每個零件都能換，自動提示相容性；整張估價單存成一條連結，日後打開還看得到漲跌。">
+<meta name="theme-color" content="#0b0f14">
+<link rel="stylesheet" href="builder.css">
 </head>
 <body>
-<div class="wrap">
-  <h1 id="title">PC 組裝估價</h1>
-  <p class="lead" id="lead" hidden></p>
-  <div class="meta" id="meta">載入中…</div>
-
-  <div class="tabs" id="tabs"></div>
-
-  <div class="card">
-    <p class="note" id="bnote"></p>
-    <div class="chg" id="chg" hidden></div>
-    <table id="tbl">
-      <thead><tr><th>項目</th><th>選件（可替換，下方欄位可篩選）</th><th class="num">數量</th><th class="num">單價</th><th class="num">小計</th></tr></thead>
-      <tbody id="rows"></tbody>
-      <tfoot>
-        <tr><td colspan="4" class="num">估價單總計（含稅）</td><td class="num total" id="total">–</td></tr>
-        <tr id="nowrow" hidden><td colspan="4" class="num sub" id="nowlbl">以原價屋現價計</td><td class="num sub" id="now">–</td></tr>
-        <tr id="offrow" hidden><td colspan="4" class="num sub">任搭折扣（估價頁未扣，結帳再減）</td><td class="num sub" id="off">–</td></tr>
-        <tr id="netrow" hidden><td colspan="4" class="num">實付約</td><td class="num" id="net">–</td></tr>
-      </tfoot>
-    </table>
-    <ul class="warns" id="warns"></ul>
-    <div class="btns">
-      <button class="b primary" id="share">複製分享連結</button>
-      <button class="b" id="copy">複製零件清單</button>
-      <button class="b" id="reset">重設為預設</button>
-      <button class="b" id="requote" hidden>全部改用現價</button>
-      <button class="b" id="live" hidden>更新最新報價</button>
-      <a class="b" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener"><button class="b">到原價屋線上估價 ↗</button></a>
+<main class="wrap">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">▦</span>PC / BUILDER</div>
+    <span class="topbar-note">原價屋報價 · 免登入分享</span>
+  </header>
+  <section class="hero" aria-labelledby="title">
+    <p class="eyebrow">YOUR BUILD. YOUR CHOICE.</p>
+    <h1 id="title">PC 組裝估價</h1>
+    <p class="lead" id="lead">選一套配置開始，調整每個零件，再把完整估價單分享出去。</p>
+  </section>
+  <div class="meta" id="meta" aria-live="polite">正在載入原價屋報價…</div>
+  <section class="load-state" id="load-state" role="status">
+    <h2 id="load-title">準備你的組裝清單</h2>
+    <p id="load-message">正在讀取零件與預設配置，請稍候。</p>
+    <button class="b" id="retry" hidden>重新載入報價</button>
+  </section>
+  <div id="builder" hidden>
+    <section aria-labelledby="preset-title">
+      <div class="section-heading"><h2 id="preset-title"><span class="step">01</span>選擇起始配置</h2><span>每個零件都能自由調整</span></div>
+      <div class="tabs" id="tabs" aria-label="起始配置"></div>
+    </section>
+    <div class="workspace">
+      <section class="parts-panel" aria-labelledby="parts-title">
+        <div class="section-heading"><h2 id="parts-title"><span class="step">02</span>打造你的配置</h2><span id="part-count"></span></div>
+        <p class="note" id="bnote"></p>
+        <div class="chg" id="chg" hidden></div>
+        <div class="parts" id="rows"></div>
+        <ul class="warns" id="warns" aria-label="相容性與購買條件提示"></ul>
+      </section>
+      <aside class="summary-card" aria-labelledby="summary-title">
+        <p class="eyebrow">BUILD SUMMARY</p>
+        <h2 id="summary-title">你的估價單</h2>
+        <div class="summary-label">估價單總計（含稅）</div>
+        <div class="total" id="total" aria-live="polite">–</div>
+        <p class="summary-footnote">不含 OS、螢幕與週邊 · 價格以結帳為準</p>
+        <div class="summary-detail" id="nowrow" hidden><span id="nowlbl">以原價屋現價計</span><strong id="now">–</strong></div>
+        <div class="summary-detail" id="offrow" hidden><span>任搭折扣（結帳再減）</span><strong id="off">–</strong></div>
+        <div class="summary-detail" id="netrow" hidden><span>估計實付</span><strong id="net">–</strong></div>
+        <div class="btns">
+          <button class="b primary" id="share">複製分享連結 <span aria-hidden="true">↗</span></button>
+          <button class="b" id="copy">複製零件清單</button>
+          <div class="summary-secondary">
+            <button class="text-button" id="reset">重設為預設</button>
+            <button class="text-button" id="requote" hidden>全部改用現價</button>
+            <button class="b" id="live" hidden>更新最新報價</button>
+          </div>
+        </div>
+        <a class="summary-link" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener">到原價屋線上估價 ↗</a>
+      </aside>
     </div>
   </div>
 
-  <div class="card">
-    <details open id="reqbox">
+  <div class="info-card">
+    <details open id="reqbox" hidden>
       <summary>遊戲官方系統需求</summary>
       <table class="req" id="req"></table>
       <p class="small" id="reqsrc"></p>
@@ -143,13 +78,32 @@ summary{cursor:pointer;font-weight:600}
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
-        <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請從下拉選單改選。</li>
+        <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
       </ul>
     </details>
   </div>
-  <p class="small">原始碼與資料：<a id="repo" href="#">GitHub</a> · 個人製作的工具，不是原價屋官方網站；價格以原價屋結帳為準。</p>
+  <footer class="footer">
+    <p>個人製作的工具，非原價屋官方網站；價格以原價屋結帳為準。</p>
+    <p>原始碼與資料：<a id="repo" href="#">GitHub ↗</a></p>
+  </footer>
+</main>
+<div class="mobile-bar" id="mobile-bar" hidden>
+  <div><span class="summary-label">估價單總計（含稅）</span><strong class="mobile-total" id="mobile-total">–</strong></div>
+  <button class="b primary" id="mobile-share">複製分享連結 <span aria-hidden="true">↗</span></button>
 </div>
-<div id="toast"></div>
+<dialog id="picker" aria-labelledby="picker-title">
+  <div class="picker-shell">
+    <header class="picker-header">
+      <div class="picker-heading"><div><p class="eyebrow">FIND YOUR COMPONENT</p><h2 id="picker-title">選擇零件</h2></div><button class="b close-button" id="picker-close" aria-label="關閉選件面板">×</button></div>
+      <p class="picker-current" id="picker-current"></p>
+      <label class="search-label" for="picker-search">搜尋品名或分類</label>
+      <input type="search" id="picker-search" placeholder="例如 5060、B850、白" autocomplete="off">
+      <div class="picker-count" id="picker-count" role="status"></div>
+    </header>
+    <div class="picker-results" id="picker-results"></div>
+  </div>
+</dialog>
+<div id="toast" role="status" aria-live="polite"></div>
 
 <script src="coolpc-live.js"></script>
 <script>
@@ -159,7 +113,11 @@ summary{cursor:pointer;font-weight:600}
   const arrow = n => (n > 0 ? '▲' : '▼') + fmt(Math.abs(n));
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   const C = CoolPC;
-  const D = await fetch('data.json?' + Date.now()).then(r => r.json());
+  $('#retry').onclick = () => location.reload();
+  const response = await fetch('data.json?' + Date.now());
+  if (!response.ok) throw new Error('HTTP ' + response.status);
+  const D = await response.json();
+  if (!D.categories || !Array.isArray(D.slots) || !D.builds?.length) throw new Error('報價資料格式不完整');
   let CAT = D.categories;          // 現行型錄；即時更新時整個換掉
   let IDX = C.indexCatalog(CAT);   // 分類 + 品名 -> 品項 (option id 每次抓價都會變，不能當鍵)
   const find = r => C.reconcile(r, IDX);
@@ -169,7 +127,7 @@ summary{cursor:pointer;font-weight:600}
   // 目前型錄來源：快照 (data.json) 或即時抓取
   const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
   function meta(status){
-    $('#meta').innerHTML = `原價屋含稅報價，報價日期 <b>${esc(SRC.quote_date)}</b>（${SRC.live ? '即時抓取 ' + esc(SRC.at) : '快照 ' + esc(SRC.at)}）· 資料來源 <a href="${D.source}" target="_blank" rel="noopener">coolpc.com.tw</a> · 不含 OS／螢幕／週邊` + (status ? `<br>${status}` : '');
+    $('#meta').innerHTML = `<span><i class="source-dot" aria-hidden="true"></i>報價日期 <b>${esc(SRC.quote_date)}</b></span><span>${SRC.live ? '即時抓取' : '快照'} ${esc(SRC.at)}</span><span>資料來源 <a href="${esc(D.source)}" target="_blank" rel="noopener">原價屋 ↗</a></span>` + (status ? `<span>${status}</span>` : '');
   }
   meta();
   $('#repo').href = D.repo || '#';
@@ -179,6 +137,7 @@ summary{cursor:pointer;font-weight:600}
 
   // 遊戲需求
   if (D.game) {
+    $('#reqbox').hidden = false;
     const keys = Object.keys(D.game.min || {});
     $('#req').innerHTML = '<tr><th></th><th>最低配備</th><th>建議配備</th></tr>' + keys.map(k => `<tr><th>${k}</th><td>${D.game.min[k]}</td><td>${(D.game.rec || {})[k] || ''}</td></tr>`).join('');
     $('#reqsrc').innerHTML = `來源：<a href="${D.game.url}" target="_blank" rel="noopener">${D.game.name} 官方頁面</a>`;
@@ -213,7 +172,7 @@ summary{cursor:pointer;font-weight:600}
       for (const r of q.rows) rows[r.slot] = mkRow(r.cat, r.name, r.qty, { price: r.price, d: r.d });
       const base = presets.find(t => t.key === q.b);
       cur = { kind: 'shared', key: '_q', label: '分享的估價單', sub: q.n || (base ? base.label : ''), d: q.d, base: q.b, raw: P.get('q'), rows, orig: clone(rows),
-        note: `這是 ${q.d || '先前'} 的估價單快照：單價是當時的報價，上方列出跟原價屋現價比的漲跌與已下架品項。可以直接改選零件（下拉選單是原價屋目前的品項），改過的以現價計；按「複製分享連結」會產生新的連結。` };
+        note: `這是 ${q.d || '先前'} 的估價單快照：單價是當時的報價，上方列出跟原價屋現價比的漲跌與已下架品項。可以直接改選零件（選件面板是原價屋目前的品項），改過的以現價計；按「複製分享連結」會產生新的連結。` };
       tabs.unshift(cur);
       if (q.dropped) startMsg = `連結裡有 ${q.dropped} 個品項格式不符，已略過`;
     } catch (e) { startMsg = `分享連結無法讀取（${e.message}），先顯示預設配置`; }
@@ -230,7 +189,8 @@ summary{cursor:pointer;font-weight:600}
     for (const t of tabs) {
       const T = C.totals(Object.values(t.orig).filter(Boolean), IDX);
       const el = document.createElement('button'); el.className = 'tab' + (t.kind === 'shared' ? ' shared' : '') + (t === cur ? ' on' : '');
-      el.innerHTML = `${esc(t.label)}<small>${t.sub ? esc(t.sub) + ' · ' : ''}${t.kind === 'shared' ? '報價' : '預設'} $${fmt(T.quoted)}${t.kind === 'shared' && T.diff ? ' · 現價 ' + arrow(T.diff) : ''}</small>`;
+      el.setAttribute('aria-pressed', String(t === cur));
+      el.innerHTML = `<div class="tab-title">${esc(t.label)}<span class="tab-check" aria-hidden="true">✓</span></div><small>${esc(t.sub || '自由調整每個零件')}</small><div class="tab-price">$${fmt(T.quoted)}<span>${t.kind === 'shared' ? '分享報價' : '預設配置'}${t.kind === 'shared' && T.diff ? ' · 現價 ' + arrow(T.diff) : ''}</span></div>`;
       el.onclick = () => select(t);
       tabsEl.appendChild(el);
     }
@@ -238,7 +198,10 @@ summary{cursor:pointer;font-weight:600}
 
   function select(t){
     cur = t;
-    tabs.forEach((x, i) => tabsEl.children[i].classList.toggle('on', x === t));
+    tabs.forEach((x, i) => {
+      tabsEl.children[i].classList.toggle('on', x === t);
+      tabsEl.children[i].setAttribute('aria-pressed', String(x === t));
+    });
     $('#bnote').textContent = t.note;
     $('#reset').textContent = t.kind === 'shared' ? '還原分享時的內容' : '重設為預設';
     render();
@@ -247,23 +210,76 @@ summary{cursor:pointer;font-weight:600}
   // 已下架：目前型錄查不到。快照比型錄還新時 (即時報價還沒載入) 可能只是型錄太舊
   const goneText = r => r.pin && C.parseQD(r.pin.d) > C.parseQD(SRC.quote_date) ? `目前價格資料（${SRC.quote_date}）查無，可能是較新的品項` : '已下架';
 
-  function fillSelect(selEl, slot, r, filter){
-    selEl.innerHTML = '';
-    const opt = (value, text, on) => { const o = document.createElement('option'); o.value = value; o.textContent = text; o.selected = !!on; return o; };
-    selEl.appendChild(opt('', '— 無 —', !r));  // 每一格都能空著：有人只換幾個零件
-    const it = r ? find(r).item : null;
-    if (r && !it) selEl.appendChild(opt('!keep', `（${goneText(r)}）$${fmt(r.pin ? r.pin.price : 0)}　${r.name}`, true));
-    const f = (filter || '').trim().toLowerCase();
-    let found = false;
-    for (const c of slot.cats.map(id => CAT[id]).filter(Boolean)) for (const g of c.groups) {
-      const items = g.items.filter(x => !f || x.name.toLowerCase().includes(f) || g.label.toLowerCase().includes(f));
-      if (!items.length) continue;
-      const og = document.createElement('optgroup'); og.label = (slot.cats.length > 1 ? c.name.split('｜')[0] + ' · ' : '') + g.label;
-      for (const x of items) { const on = x === it; if (on) found = true; og.appendChild(opt(C.key(c.id, x.name), `$${fmt(x.price)}　${x.name}`, on)); }
-      selEl.appendChild(og);
-    }
-    if (it && !found) selEl.insertBefore(opt(C.key(it.cat, it.name), `$${fmt(it.price)}　${it.name}`, true), selEl.firstChild); // 篩選後目前選件不在清單, 仍保留在最前
+  const iconPaths = {
+    cpu: '<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/><rect x="9" y="9" width="6" height="6" rx="1"/>',
+    mb: '<rect x="4" y="3" width="16" height="18" rx="2"/><rect x="7" y="6" width="6" height="6"/><path d="M16 6v8M7 16h10M7 18h10"/>',
+    ram: '<rect x="2" y="6" width="20" height="11" rx="2"/><path d="M6 9v4m4-4v4m4-4v4m4-4v4M6 17v3m4-3v3m4-3v3m4-3v3"/>',
+    ssd: '<rect x="2" y="7" width="20" height="10" rx="2"/><rect x="6" y="10" width="4" height="4"/><path d="M13 10h5m-5 4h5"/>',
+    vga: '<rect x="2" y="5" width="19" height="13" rx="2"/><circle cx="9" cy="11.5" r="3.5"/><path d="M17 8v7M5 18v3h11v-3M21 8h2"/>',
+    psu: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="11" cy="12" r="5"/><path d="M17 7h1m-1 5h1m-1 5h1"/>',
+    case: '<rect x="6" y="2" width="12" height="20" rx="2"/><path d="M9 6h6M9 10h6m-6 4h6m-6 4h2"/>',
+    cooler: '<rect x="4" y="4" width="16" height="16" rx="2"/><circle cx="12" cy="12" r="5"/><path d="M12 7v10M7 12h10"/>',
+    hdd: '<rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="10" r="5"/><path d="m12 10 5 8H8"/>',
+    fan: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/><path d="M12 10c-5-6 5-8 3-1m-1 4c8-1 4 8-1 2m-3-2c-3 7-9 0-2-2"/>'
+  };
+  const icon = key => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${iconPaths[key] || iconPaths.cpu}</svg>`;
+  const flagsOf = it => it ? it.flags.map(f => `<span title="原價屋的標示" class="flag ${f === '熱賣' ? 'hot' : /搭板|組裝價|裝機價|限搭機|限組裝|訂購/.test(f) ? 'cond' : ''}">${esc(f)}</span>`).join('') + (it.list_price ? `<span class="flag">原價 ${fmt(it.list_price)}</span>` : '') : '';
+
+  // 選件面板的搜尋與焦點獨立於估價單重繪。
+  const picker = $('#picker');
+  let pickerSlot = null;
+  function chooseItem(slot, cat, name){
+    const o = cur.orig[slot.key], qty = cur.rows[slot.key]?.qty || 1;
+    // 回選原品項時恢復其鎖定報價；其他品項沿用目前型錄價。
+    cur.rows[slot.key] = o && o.cat === cat && o.name === name ? { ...clone(o), qty } : mkRow(cat, name, qty, null);
+    render();
   }
+  function renderPicker(){
+    const f = $('#picker-search').value.trim().toLowerCase();
+    const results = $('#picker-results');
+    const current = cur.rows[pickerSlot.key];
+    const currentItem = current ? find(current).item : null;
+    results.replaceChildren();
+    let count = 0;
+    for (const c of pickerSlot.cats.map(id => CAT[id]).filter(Boolean)) for (const g of c.groups) {
+      const items = g.items.filter(it => !f || it.name.toLowerCase().includes(f) || g.label.toLowerCase().includes(f));
+      if (!items.length) continue;
+      const h = document.createElement('h3'); h.className = 'picker-group';
+      h.textContent = (pickerSlot.cats.length > 1 ? c.name.split('｜')[0] + ' · ' : '') + g.label;
+      results.appendChild(h);
+      for (const it of items) {
+        count++;
+        const selected = currentItem && C.key(currentItem.cat, currentItem.name) === C.key(c.id, it.name);
+        const button = document.createElement('button'); button.className = 'picker-item';
+        button.setAttribute('aria-pressed', String(!!selected));
+        button.innerHTML = `<span class="picker-name">${esc(it.name)}</span><span class="flags">${flagsOf(it)}</span><span class="picker-price">$${fmt(it.price)}<small>${selected ? '目前選擇 ✓' : '選擇此零件 ↗'}</small></span>`;
+        button.onclick = () => { chooseItem(pickerSlot, c.id, it.name); picker.close(); };
+        results.appendChild(button);
+      }
+    }
+    $('#picker-count').textContent = `${count} 個品項 · 原價屋目前型錄含稅單價`;
+    if (!count) {
+      const empty = document.createElement('p'); empty.className = 'no-results';
+      empty.textContent = '找不到符合的零件，試試其他關鍵字。'; results.appendChild(empty);
+    }
+    results.scrollTop = 0;
+  }
+  function openPicker(slot){
+    pickerSlot = slot;
+    $('#picker-title').textContent = '選擇' + slot.label;
+    const r = cur.rows[slot.key];
+    const it = r ? find(r).item : null;
+    $('#picker-current').textContent = r ? `目前選擇：${it ? it.name : r.name}` : '目前未選擇，從下方型錄新增零件。';
+    $('#picker-search').value = '';
+    renderPicker();
+    picker.showModal();
+    $('#picker-search').focus({ preventScroll: true });
+  }
+  $('#picker-search').oninput = renderPicker;
+  $('#picker-close').onclick = () => picker.close();
+  picker.addEventListener('close', () => {
+    if (pickerSlot) document.getElementById('choose-' + pickerSlot.key)?.focus({ preventScroll: true });
+  });
 
   const num = (re, s) => { const m = s.match(re); return m ? parseFloat(m[1]) : null; };
   const socket = s => { const m = s.match(/AM4|AM5|1851|1700|1151|1150|4677|4710|sTR5|TRX50|WRX90/); return m ? m[0].replace(/TRX50|WRX90/, 'sTR5') : null; };
@@ -273,7 +289,7 @@ summary{cursor:pointer;font-weight:600}
     const w = [];
     const g = k => cur.rows[k] ? find(cur.rows[k]).item : null;
     const cpu = g('cpu'), mb = g('mb'), ram = g('ram'), vga = g('vga'), cs = g('case'), cl = g('cooler');
-    for (const s of D.slots) { const r = cur.rows[s.key]; if (r && !find(r).item) w.push(`${s.label}「${r.name.slice(0, 30)}…」${goneText(r)}，請從下拉選單改選`); }
+    for (const s of D.slots) { const r = cur.rows[s.key]; if (r && !find(r).item) w.push(`${s.label}「${r.name.slice(0, 30)}…」${goneText(r)}，請按「更換」改選`); }
     if (cpu && mb) { const a = socket(cpu.group), b = socket(mb.group); if (a && b && a !== b) w.push(`CPU 腳位 ${a} 與主機板腳位 ${b} 不合`); }
     if (mb && ram) { const a = ddr(mb.group), b = ddr(ram.group); if (a && b && a !== b) w.push(`主機板為 ${a}，記憶體為 ${b}`); }
     if (ram && /單條/.test(ram.group) && cur.rows.ram.qty === 1) w.push('記憶體為單條，僅單通道；建議選雙通道套裝或數量 2');
@@ -325,32 +341,38 @@ summary{cursor:pointer;font-weight:600}
         if (dv) sub += `<span class="d ${dv > 0 ? 'up' : 'down'}">現價 ${fmt(it.price)}（比 ${esc(shortDate(r.pin.d))} ${arrow(dv)}）</span>`;
         if (dv || how === 'model') canRequote = true;
       }
-      const flags = it ? it.flags.map(f => `<span title="原價屋的標示" class="flag ${f === '熱賣' ? 'hot' : /搭板|組裝價|裝機價|限搭機|限組裝|訂購/.test(f) ? 'cond' : ''}">${esc(f)}</span>`).join('') : '';
-      const lp = it && it.list_price ? `<span title="原價屋的標示" class="flag">原價 ${fmt(it.list_price)}</span>` : '';
-      const tr = document.createElement('tr');
-      tr.innerHTML = `<td class="role">${esc(s.label)}</td>
-        <td><select></select><input type="text" placeholder="輸入關鍵字篩選，例如 5060、B850、白" autocomplete="off"><div class="flags">${flags}${lp}</div></td>
-        <td class="num" data-l="數量"><input type="number" min="1" max="9" value="${r ? r.qty : 1}" ${r ? '' : 'disabled'}></td>
-        <td class="num" data-l="單價">${price != null ? fmt(price) : '–'}${sub}</td>
-        <td class="num" data-l="小計">${price != null ? fmt(price * r.qty) : '–'}</td>`;
-      rowsEl.appendChild(tr);
-      const selEl = tr.querySelector('select');
-      fillSelect(selEl, s, r, '');
-      selEl.onchange = () => {
-        const v = selEl.value;
-        if (v === '!keep') return;
-        if (!v) { cur.rows[s.key] = null; render(); return; }
-        const i = v.indexOf('|'), cat = +v.slice(0, i), name = v.slice(i + 1);
-        const o = cur.orig[s.key], qty = cur.rows[s.key] ? cur.rows[s.key].qty : 1;
-        // 改回原本那件就恢復原報價；改成別件就跟著現價 (分享時才定價)
-        cur.rows[s.key] = o && o.cat === cat && o.name === name ? { ...clone(o), qty } : mkRow(cat, name, qty, null);
-        render();
+      const part = document.createElement('article');
+      part.className = 'part' + (r ? '' : ' empty');
+      part.setAttribute('aria-labelledby', 'role-' + s.key);
+      part.innerHTML = `<div class="part-icon">${icon(s.key)}</div><div>
+        <div class="part-head"><span class="part-role" id="role-${esc(s.key)}">${esc(s.label)}</span><div class="part-actions">
+          <button class="text-button" id="choose-${esc(s.key)}" aria-label="${r ? '更換' : '新增'}${esc(s.label)}">${r ? '更換' : '新增零件'} <span aria-hidden="true">↗</span></button>
+          ${r ? `<button class="text-button remove" aria-label="移除${esc(s.label)}">移除</button>` : ''}
+        </div></div>
+        <p class="part-name">${r ? esc(it ? it.name : r.name) : '尚未選擇 · 可沿用舊零件或按需要新增'}</p>
+        ${r ? `<div class="flags">${flagsOf(it)}</div><div class="part-bottom">
+          <label class="quantity">數量 <input type="number" aria-label="${esc(s.label)}數量" min="1" max="9" value="${r.qty}"></label>
+          <div class="part-price"><span class="unit-price">單價 ${price != null ? '$' + fmt(price) : '–'}</span><strong class="subtotal">${price != null ? '$' + fmt(price * r.qty) : '–'}</strong>${sub}</div>
+        </div>` : ''}
+      </div>`;
+      rowsEl.appendChild(part);
+      part.querySelector('.text-button').onclick = () => openPicker(s);
+      const remove = part.querySelector('.remove');
+      if (remove) remove.onclick = () => {
+        cur.rows[s.key] = null; render();
+        document.getElementById('choose-' + s.key).focus({ preventScroll: true });
       };
-      tr.querySelector('input[type=text]').oninput = e => fillSelect(selEl, s, cur.rows[s.key], e.target.value);
-      const q = tr.querySelector('input[type=number]'); q.onchange = () => { if (cur.rows[s.key]) { cur.rows[s.key].qty = Math.max(1, Math.min(9, +q.value || 1)); render(); } };
+      const q = part.querySelector('input[type=number]');
+      if (q) q.onchange = () => {
+        cur.rows[s.key].qty = Math.max(1, Math.min(9, +q.value || 1));
+        const focused = document.activeElement === q;
+        render();
+        if (focused) document.getElementById('choose-' + s.key).closest('.part').querySelector('input').focus({ preventScroll: true });
+      };
     }
     const T = C.totals(Object.values(cur.rows).filter(Boolean), IDX);
-    $('#total').textContent = '$' + fmt(T.quoted);
+    $('#total').textContent = $('#mobile-total').textContent = '$' + fmt(T.quoted);
+    $('#part-count').textContent = Object.values(cur.rows).filter(Boolean).length + ' 個分類已選';
     $('#nowrow').hidden = !T.diff;  // 沒有漲跌時現價 = 報價，不用多一行
     $('#nowlbl').textContent = `以原價屋現價計（${SRC.quote_date}）` + (T.goneCount ? `，${T.goneCount} 項已下架以報價計` : '');
     $('#now').innerHTML = '$' + fmt(T.current) + (T.diff ? `<span class="d inl ${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span>` : '');
@@ -414,10 +436,12 @@ summary{cursor:pointer;font-weight:600}
     lines.push(shareUrl(cur));
     copyText(lines.join('\n'), '已複製清單');
   };
-  $('#share').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur), '已複製估價單連結');
+  $('#share').onclick = $('#mobile-share').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur), '已複製估價單連結');
 
   buildTabs();
   select(cur);
+  $('#load-state').hidden = true;
+  $('#builder').hidden = $('#mobile-bar').hidden = false;
   if (startMsg) toast(startMsg, 5000);
 
   // ---- 即時報價：透過 live_url (Cloudflare Worker 代理) 抓原價屋現頁，瀏覽器端解析後整份換掉 ----
@@ -456,10 +480,20 @@ summary{cursor:pointer;font-weight:600}
   }
   if (D.live_url) {
     $('#live').hidden = false; $('#live').onclick = () => refreshLive(true);
-    $('#note-live').textContent = '載入時會直接向原價屋抓現價（經代理，約 5 分鐘快取），抓不到時顯示每小時更新的快照；零件若下架會保留原品項並標示「已下架」，請從下拉選單改選。';
+    $('#note-live').textContent = '載入時會直接向原價屋抓現價（經代理，約 5 分鐘快取），抓不到時顯示每小時更新的快照；零件若下架會保留原品項並標示「已下架」，請按「更換」改選。';
     refreshLive(false);
   }
-})();
+})().catch(error => {
+  document.querySelector('#load-state').hidden = false;
+  document.querySelector('#builder').hidden = true;
+  document.querySelector('#mobile-bar').hidden = true;
+  document.querySelector('#load-title').textContent = '暫時無法載入報價';
+  document.querySelector('#load-message').textContent = '請檢查網路連線，再重新載入報價。';
+  document.querySelector('#meta').textContent = '報價資料尚未載入';
+  const retry = document.querySelector('#retry');
+  retry.hidden = false; retry.onclick = () => location.reload();
+  console.error('無法載入估價工具：', error);
+});
 </script>
 </body>
 </html>
