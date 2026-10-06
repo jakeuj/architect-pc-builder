@@ -1,9 +1,9 @@
-# 原價屋估價單 (報價日期 2026/10/6 11:13)
+# 原價屋估價單 (報價日期 2026/10/6 18:16)
 
-| | 入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲<br>**56,507** | 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作<br>**64,117** | 高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開<br>**122,317** | 入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲<br>**54,757** | 主流遊戲 · Intel — U7-265K／32G／RTX5060，1080p～2K 大作<br>**63,367** | 高階 · Intel — U9-285K／64G／RTX5070Ti，2K～4K 特效全開<br>**119,867** | 文書 · Intel — U5-225／32G／內顯，文書、2D 遊戲、4K 影片<br>**39,447** |
+| | 入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲<br>**56,707** | 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作<br>**64,117** | 高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開<br>**122,317** | 入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲<br>**54,757** | 主流遊戲 · Intel — U7-265K／32G／RTX5060，1080p～2K 大作<br>**63,367** | 高階 · Intel — U9-285K／64G／RTX5070Ti，2K～4K 特效全開<br>**119,867** | 文書 · Intel — U5-225／32G／內顯，文書、2D 遊戲、4K 影片<br>**39,447** |
 |---|---|---|---|---|---|---|---|
 | CPU | AMD R5 9600X 8,150 | AMD R7 9700X 11,550 | AMD R9 9950X3D 23,950 | Intel Core Ultra 5 245KF 6,300 | Intel Core Ultra 7 265K 10,300 | Intel Core Ultra 9 285K 21,500 | Intel Core Ultra 5 225 5,280 |
-| MB | 華碩 B850M AYW GAMING WIFI 4,490 | 微星 B850 GAMING PLUS WIFI 5,990 | 華碩 TUF GAMING B850-PLUS WIFI 7,490 | 華碩 B860M AYW GAMING WIFI 4,590 | 微星 B860 GAMING PLUS WIFI 6,590 | 微星 PRO Z890-S WIFI 7,490 | 華碩 B860M AYW GAMING WIFI 4,590 |
+| MB | 華碩 B850M AYW GAMING WIFI 4,690 | 微星 B850 GAMING PLUS WIFI 5,990 | 華碩 TUF GAMING B850-PLUS WIFI 7,490 | 華碩 B860M AYW GAMING WIFI 4,590 | 微星 B860 GAMING PLUS WIFI 6,590 | 微星 PRO Z890-S WIFI 7,490 | 華碩 B860M AYW GAMING WIFI 4,590 |
 | RAM | Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR 14,599 | Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR 14,599 | Micron Crucial 64GB(雙通32GB*2) DDR5 5600 27,999 | Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR 14,599 | Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR 14,599 | Micron Crucial 64GB(雙通32GB*2) DDR5 5600 27,999 | Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR 14,599 |
 | SSD | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 |
 | VGA | 技嘉 RTX5050 WINDFORCE OC 8G 13,490 | 技嘉 RTX5060 WINDFORCE OC 8G 15,990 | 微星 RTX5070Ti 16G INSPIRE 3X OC 45,990 | 技嘉 RTX5050 WINDFORCE OC 8G 13,490 | 技嘉 RTX5060 WINDFORCE OC 8G 15,990 | 微星 RTX5070Ti 16G INSPIRE 3X OC 45,990 | — |
@@ -17,15 +17,15 @@
 | 項目 | 品名 | 單價 | 數量 | 小計 | 備註 |
 |---|---|---:|---:|---:|---|
 | CPU | ｛AMD R5 9600X｝代理盒裝【6核/12緒】3.9G(↑5.4G)65W /具RDNA內顯 | 8,150 | 1 | 8,150 |  |
-| MB | ｛華碩 B850M AYW GAMING WIFI｝M-ATX/2.5G+無線/註五年/8+2+1相 | 4,490 | 1 | 4,490 |  |
+| MB | ｛華碩 B850M AYW GAMING WIFI｝M-ATX/2.5G+無線/註五年/8+2+1相 | 4,690 | 1 | 4,690 |  |
 | RAM | 美光｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝/CL36 黑色散熱片 | 14,599 | 1 | 14,599 |  |
 | SSD | ｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送手機掛繩~ | 5,399 | 2 | 10,798 | 熱賣 |
 | VGA | ｛技嘉 RTX5050 WINDFORCE OC 8G｝2587MHz/20cm/雙風扇/註冊四年保 | 13,490 | 1 | 13,490 | 任搭折190 |
 | PSU | ｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年 | 1,790 | 1 | 1,790 |  |
 | CASE | ｛Antec P10C 靜音機殼｝顯卡長40.5/CPU高17.5/前置Type-C/內建風速切換/ATX | 2,690 | 1 | 2,690 |  |
 | COOLER | ｛利民 Assassin King 120 SE｝5導管(6mm)/高14.8cm/AGHP 逆重力導管【WXZ】 | 690 | 1 | 690 |  |
-| **總計** | | | | **56,697** | |
-| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -190 | 實付約 56,507 |
+| **總計** | | | | **56,897** | |
+| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -190 | 實付約 56,707 |
 
 ## 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作
 > 依歐飛 2026/10〈每月組裝說明〉「U7/R7 遊戲機」：R7 9700X＋32G＋1TB SSD ×2＋RTX5060 以上。9700X 不附風扇，I7/R7 以上建議塔扇。
