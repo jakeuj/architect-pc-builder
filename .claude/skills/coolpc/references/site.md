@@ -129,7 +129,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## 部署與 CI 的坑
 
-- `gh api repos/<owner>/<name>/pages` 回的 `html_url` / `cname` 就是實際網址：預設是使用者 Pages 的自訂網域路徑 (blog.jakeuj.com/<name>/)，repo 有 `docs/CNAME` 就是那個子網域 (本 repo 是 pc.jakeuj.com)，舊路徑與 github.io 都會 301 過去。換網域後 README、`docs/index.html` 的 canonical / `og:url` 要跟著改 (改之前先問使用者)。剛綁的子網域要等 GitHub 簽好憑證 (`https_certificate.state` 為 `approved`) 才有 https，並非網站壞了。
+- `gh api repos/<owner>/<name>/pages` 回的 `html_url` / `cname` 就是實際網址：預設是使用者 Pages 的自訂網域路徑 (blog.jakeuj.com/<name>/)，repo 有 `docs/CNAME` 就是那個子網域 (本 repo 是 pc.jakeuj.com)，舊路徑與 github.io 都會 301 過去。換網域後 README、`promo.md`、`docs/index.html` 的 canonical / `og:url`、`worker/wrangler.toml` 的 `ALLOW_ORIGINS` 要跟著改 (改之前先問使用者)；舊網址 301 時瀏覽器會帶著 `#q=` 片段，舊分享連結不會壞。剛綁的子網域要等 GitHub 簽好憑證 (`https_certificate.state` 為 `approved`) 才有 https，並非網站壞了。
 - push 前先 `git fetch`：使用者會直接在 GitHub 網頁改 repo (例如 2026-10-06 新增 `docs/CNAME`)，workflow 也每小時推報價 commit。落後就 `git pull --rebase` 再推；報價檔衝突時以較新的抓價為準重跑 `build_site.py`。
 - Pages 首次部署約 30 秒；用 `curl -s <url>/data.json | python3 -c ...` 驗證，比截圖可靠（頁面 fetch 409KB 需要一下，截太早會看到「載入中」）。
 - workflow 每小時 :30 跑，`git add -A -- data docs quote.md` 後 `git diff --cached --quiet` 有變才提交 (`build_site.py` 內容沒變時沿用 `generated`)。別改回 `git diff --quiet -- <檔案>`：它看不到還沒追蹤的新檔 (例如第一次產生的 `data-more.json`)；`-A` 加目錄則容許 `all_categories: false` 時沒有這個檔。

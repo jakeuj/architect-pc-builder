@@ -12,6 +12,6 @@ routes = [
 
 [vars]
 # 允許的網頁來源 (逗號分隔)；"*" 表示不限制
-ALLOW_ORIGINS = "https://blog.jakeuj.com,https://jakeuj.github.io,http://localhost:8765,http://127.0.0.1:8765"
+ALLOW_ORIGINS = "https://pc.jakeuj.com,http://localhost:8765,http://127.0.0.1:8765"
 # 邊緣快取秒數；原價屋一天只更新幾次，5 分鐘夠即時了
 CACHE_TTL = "300"
