@@ -1,5 +1,7 @@
 {
   "name": "中階 — AM5 / DDR5，1440p 高畫質",
+  "purpose": "mainstream",
+  "platform": "amd",
   "note": "不含 OS、螢幕、週邊。R5 7500F 內附風扇，另加塔散求安靜。",
   "items": [
     {"cat": 4,  "role": "CPU",    "match": "｛AMD R5 7500F MPK｝"},

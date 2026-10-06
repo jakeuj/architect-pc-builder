@@ -1,6 +1,6 @@
 # 估價網頁 (GitHub Pages) 參考
 
-模板：`templates/index.html`、`templates/builder.css`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
+模板：`templates/index.html`、`templates/builder.css`、`templates/builder-ui.js`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
 已上線範例：`jakeuj/architect-pc-builder` → `pc.jakeuj.com`（2026-10-06 起 `docs/CNAME`；舊網址 301 過去）（泛用的「原價屋估價單分享」，沒有 `game`；repo 名稱是早期為單一遊戲建的，為了不讓舊分享連結失效而保留）
 
 ## 專案結構 (repo 形式)
@@ -14,10 +14,13 @@ builds/*.json        配置定義檔 (與 quote.py 共用)
 data/                parse 產出 (json / csv / by_category tsv), 進版控當快照
 docs/index.html      網頁介面與事件 (從模板複製, 可再客製)
 docs/builder.css     深色科技風與響應式樣式
+docs/builder-ui.js   用途分類、搜尋／排序與選件預覽／套用的純 UI 邏輯
 docs/coolpc-live.js  瀏覽器端解析器 (parse_coolpc.py + build_site.py 剔除規則的 JS 版)
 docs/data.json       build_site.py 產出, 網頁的快照資料 (有 live_url 時載入後會被即時資料換掉)
 docs/data-more.json  build_site.py 產出, 補集 (其他分類 + 被剔除的群組 / 品項), 網頁切到「全部分類」才載入
 worker/              Cloudflare Worker 代理 (wrangler.toml + src/index.js), 可選; 本 repo 未部署
+docs/graph/index.html 開發者知識圖 (本 repo 限定; scripts/publish_graph.py 從 graphify-out/graph.html 產生)
+graphify-out/        graphify 本機輸出 (graph.json / graph.html / manifest / cache); --update 靠它找變動檔
 docs/.nojekyll
 quote.md             quote.py --summary 產出
 .github/workflows/update-prices.yml
@@ -36,8 +39,10 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
   filters: {exclude_groups: {"<cat_id>": regex}, exclude_items: regex},   # 給 coolpc-live.js 套同一套剔除規則
   more: {url: "data-more.json", cats: [{id, name}]} | null,   # 全部分類；cats = 原價屋全部分類 (驗證分享連結、選件面板下拉)
   categories: { "<cat_id>": {id, name, groups:[{label, items:[{id, name, price, list_price, flags}]}]} },
-  builds: [{key, name, note, items: {<slot>: {cat, id?, name, price, qty, d?, gone?}}}] }
+  builds: [{key, name, note, purpose?, platform?, items: {<slot>: {cat, id?, name, price, qty, d?, gone?}}}] }
 ```
+
+- build 定義可帶 `purpose`（`office`／`entry`／`mainstream`／`high`）和 `platform`（`amd`／`intel`），生成器傳到 builds，品項與 quote.py 計價不受影響。模板按 purpose 分組，缺少或不支援的值列「其他配置」；不從名稱猜用途或平台。新建菜單明確填分類，舊菜單可以不填。
 
 - 原價屋的 option value (`id`) 只是清單位置，相隔幾小時就有一半會變；**分類 + 品名是唯一穩定鍵**。build_site.py 每次用 `builds/*.json` 的 `match` 重新解析 (`scripts/coolpc_match.py`，quote.py 共用)。
 - 對不到 (下架) 或命中多個不同品名時，沿用上一版 data.json 同 build / 同欄位的品名、價格，`d` = 當時的報價日期，標 `gone: true`；上一版是舊格式 (沒有 price) 就從舊 `categories` 查價。沒有上一版才 exit (新 build 打錯)。
@@ -100,21 +105,22 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 ## index.html 內部重點
 
 - `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel` 分類|型號 → 各品名)；`find(row)` = 主機格 `CoolPC.reconcile(row, IDX)`、其他商品 (`row.x`) 對完整型錄 `IDXA`。主機格不跟 `ALL` 比，免得加回的剔除群組讓型號對照多出候選。`render()` 每次重畫零件列與摘要 (`partCard()` 主機格與其他商品共用)，選件面板獨立維護。
-- 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, d?, base?, raw?, rows, more, orig: {rows, more}}`；`rows[slot] = {cat, name, qty, pin}`，`more = [{cat, name, qty, pin, x: true}]`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。`allRows(t 或 t.orig)` 取全部列、`entries(t)` 取 `{slot, label, r}` (主機格依欄位順序再接其他商品)，合計、提示、複製清單、分享都走這兩個。
+- 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, purpose?, platform?, d?, base?, raw?, rows, more, orig: {rows, more}}`；`rows[slot] = {cat, name, qty, pin}`，`more = [{cat, name, qty, pin, x: true}]`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。`allRows(t 或 t.orig)` 取全部列、`entries(t)` 取 `{slot, label, r}` (主機格依欄位順序再接其他商品)，合計、提示、複製清單、分享都走這兩個。
 - 全部分類：`#scope` 開關存 localStorage `coolpc.allCategories` (每位訪客記住，讀寫包 try/catch)，只管能不能新增 (`#more-add`)；已選的其他商品有算進總計，關著也照樣列出。`ensureMore()` 只載一次 `data-more.json` (失敗清掉 promise，下次切開關重試)；分享單有其他商品時先 `await` 再畫，載入失敗則以連結報價計並標「其他分類的報價載入失敗」，不誤標已下架。同一件再加一次改成數量 +1，最多 40 件 (`MAX_MORE`)。
 - 改選品項 → 該列 `pin = null` (分享時才以現價定價)；改回原品項還原 `orig` 的 pin；只改數量保留 pin。「全部改用現價」把對得到的列 unpin。
 - 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、全部清空的單不帶 `#` (`decodeQuote` 不收空單；複製清單 / 分享按鈕改 toast 提示)、其餘 `#q=`；檢視模式前面加 `v=1&` (`hashFor` 看 `mode`)；`hashchange` (貼上別的連結) 會重新載入，regex `/[#&][qb]=/` 也比得到 `&q=`。分享按鈕 (摘要、手機底部列、估價單的「複製估價單連結」、複製清單最後一行) 一律產生 `#v=1&q=`，「複製可編輯連結」產生 `#q=` (`shareUrl(t, view)`)。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
 - 檢視模式 (`mode` = `'view'` / `'edit'`)：網址有 `v=1` 且 `viewable` 時一開始就是 view，要在第一次 `select(cur)` 前決定 (不然第一次 `syncHash` 會洗掉 `v=1`)。`applyMode()` 只切顯示 (`body.view-mode` 藏 hero / `#meta` / 說明，`#builder`、`#mobile-bar` 與 `#sheet` 互斥)；`setMode(m)` 切換後 `render()`，網址用 `replaceState` 不留歷史；空單不能預覽 (toast)。進檢視捲到頂並聚焦 `#sheet-title`；回編輯回到按「預覽」前的捲動位置與按鈕，直接開檢視連結的回頁首 `#preset-title`。
 - `renderSheet()` 由 `render()` 結尾在檢視模式呼叫 (即時報價、全部分類載入、切分頁都會走到)，只重填 `#sheet-*` 內層，動作列與標題是靜態的，重畫時焦點不會掉。單價與合計照估價單報價 (`pin`)；品名下小字：已下架 (`goneText`)、`variant` 的 `note` + 同型號現價、漲跌「現價 $X ▲N」、與抬頭不同的報價日期、條件標記 (只列搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝 / 任搭折 / 限購 / 訂購)。合計區：合計 (含稅) → 有漲跌或查無時「以現價計」與「N 項查無現價，以報價計」→ 有任搭折時任搭折扣與估計實付。備註用 `warnings(true)`：不列下架 (各列已標)、不寫「按更換」「切換全部分類」這類編輯指示。抬頭報價日期 `quoteDate()`：沒動過的分享單用連結的 `d`，其餘用 `CoolPC.commonDate(quoteOf(t).rows)` (同分享連結會帶的 `d`)。
-- 資源版本：`index.html` 引用 `builder.css?v=YYYYMMDD`、`coolpc-live.js?v=YYYYMMDD`。改 CSS / JS 的匯出介面時遞增，否則 Pages 的 10 分鐘快取可能讓新 HTML 配到舊 JS (例如 `C.readLink is not a function` 直接跳載入失敗)。
+- 資源版本：`index.html` 引用 builder.css、builder-ui.js 與 coolpc-live.js，各帶版本 query。改動相依 CSS／JS 時更新版本（同日可加修訂後綴）；同步模板引用，避免新 HTML 配到快取的舊介面或缺少匯出函式。
 - 合計 (`CoolPC.totals`)：估價單總計 = 報價；以現價計 = 對得到的用現價 (`variant` 用同型號現價)、已下架以報價計，所以差額只反映漲跌；任搭折只看對得到的列。
-- 漲跌一律用 `cmp(r)` (`dv = 現價 − pin.price`，即分享連結裡的當時價格)，單價欄「現價 X（比 9/21 ▲N）」、分享單上方摘要 `#chg` (`changes()`：鎖價列逐列 + 合計，全沒變顯示「價格都一樣」，預設配置不顯示)、分頁標籤「現價 ▲N」、複製清單都用它。原價屋自己的近期調價標示 (品名裡的「▼下殺到…」、`價格異動` / `下殺` 旗標、原價) 跟這個無關，頁面上有寫明，別混用。
+- 漲跌一律用 `cmp(r)` (`dv = 現價 − pin.price`，即分享連結裡的當時價格)，單價欄「現價 X（比 9/21 ▲N）」、分享單上方摘要 `#chg` (`changes()`：鎖價列逐列 + 合計，全沒變顯示「價格都一樣」，預設配置不顯示)與複製清單都用它。原價屋自己的近期調價標示 (品名裡的「▼下殺到…」、`價格異動` / `下殺` 旗標、原價) 跟這個無關，頁面上有寫明，別混用。
 - `variant` 的顯示 (`cmp(r)` 另帶 `how`、`alts`、`note`)：品名仍顯示原本報價那件 (`r.name`)，下面小字「同型號現行品項：…」；單價欄 `.d.renamed` 標 `note`，再接「同型號現價 X（比 10/1 ▲N）」；摘要一定列出 (價格沒變也列「價格沒變」)；算可重報 (「全部改用現價」換成同型號那件)；選件面板不把同型號那件標「目前選擇」，改標「同型號現行品項」；複製清單尾巴寫 note 與同型號現價。`alts` (挑不出唯一) 時仍是已下架，另提示「同型號還有 N 件」，開選件面板先用型號篩選。
 - 「帶到原價屋估價頁」(`#coolpc`，摘要按鈕區整列寬 `.b.wide`；估價單動作列的 `#sheet-coolpc` 共用同一個處理器，`action` 取 `e.currentTarget.href`)：本身是 `href=evaluate.php` 的連結，空單不攔截 = 開空白估價頁；有東西時 `CoolPC.evaluateForm()` 組 `iname` / `icnt` (同品名合併、數量上限 10)，臨時建 `<form method=post accept-charset=big5 target=_blank rel=noopener>` 送出，原價屋預先選好品項與數量 (協定見 [coolpc-pages.md](coolpc-pages.md))。每列送 `find(r).item` 的現行品名 (`variant` 是同型號現行那件、`model` 是改名後的)，查不到的照送 `r.name` (原價屋對不到會略過) 並 toast「N 項目前查不到」。原價屋那邊一律現價，鎖價列的舊報價帶不過去。
 - 介面用方案卡、零件列、原生 dialog 選件面板與響應式摘要；布局、搜尋、焦點及驗收見 [site-ui.md](site-ui.md)。
-- `openPicker(slot)` 設定目前欄位、清空搜尋並進搜尋框；`renderPicker()` 以 slot.cats 與品名／群組關鍵字列出分類及群組，多分類欄位加分類前綴。
-- `openMorePicker(index)` (index = null 為新增) 用同一個 dialog，多 `#picker-cat` 分類下拉 (`ALL` 全部 30 類，含件數)：選了分類列整類；「全部分類」沒關鍵字只顯示提示，有關鍵字跨分類搜品名／群組名，最多列 300 件 (不比對分類名稱，否則搜「散熱膏」會列出整個散熱器分類)。
-- `chooseItem()` 沿用分類＋品名、原 pin 與數量規則；移除把 row 設為 null。每個欄位皆可空著，以支援只換部分零件的估價單。
+- 配置：`buildTabs()` 只畫目前用途的預設配置，選中以 key 對應；`renderPreset()` 畫目前總計／修改狀態和收合摘要。用途篩選不呼叫 `select()` 或 syncHash；點配置才 select，保留 tabs 內各方案草稿。分享單有獨立返回入口。起始／收合和焦點規則見 [site-ui.md](site-ui.md)。
+- `openPicker(slot)`／`openMorePicker(index)` 共用 dialog；`preparePickerGroups()` 建立當前分類的型錄條目與規格群組。每次開啟重設群組與排序，搜尋範例依欄位變動；下架但有同型號候選時保留型號預填。
+- `renderPicker()` 呼叫 `BuilderUI.searchEntries()`：NFKC／小寫／空白分詞 AND，比對品名、群組和分類；原順序分組，價格排序跨群組且同價穩定。其他商品未選分類、群組或關鍵字時顯示入口；跨分類先篩選排序再截取 300 件，回報完整符合數。
+- `applyCandidate()` 與價差預覽分別使用 `BuilderUI.selectCandidate()`／`previewCandidate()`，後者共用前者且不改 cur。價差為套用後 quoted − 目前 quoted，保留數量、原 pin 與加購合併規則，不扣任搭折；替換為已在其他商品清單的品項時回傳錯誤並保留面板，不顯示數字價差。移除主機欄位把 row 設為 null，支援部分零件估價單。
 - 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
 - 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」。已下架是要處理的警告 (紅色)。
 - 搭板 CPU：單上有主機板 → ok 樣式；沒有 → 紅色警告 (單買不是這個價)。已下架的 CPU 查不到 flags，改用品名 `/搭板|任搭|搭主機板/` 判斷 (同 `parse()`)。CPU 無風扇提示寫成「沒有沿用舊散熱器的話，請選一顆」，因為只換零件的單常常不含散熱器 (估價單檢視頁改成「需沿用舊的或另購」)。
@@ -136,8 +142,8 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 ## 部署與 CI 的坑
 
 - `gh api repos/<owner>/<name>/pages` 回的 `html_url` / `cname` 就是實際網址：預設是使用者 Pages 的自訂網域路徑 (blog.jakeuj.com/<name>/)，repo 有 `docs/CNAME` 就是那個子網域 (本 repo 是 pc.jakeuj.com)，舊路徑與 github.io 都會 301 過去。換網域後 README、`promo.md`、`docs/index.html` 的 canonical / `og:url`、`worker/wrangler.toml` 的 `ALLOW_ORIGINS` 要跟著改 (改之前先問使用者)；舊網址 301 時瀏覽器會帶著 `#q=` 片段，舊分享連結不會壞。剛綁的子網域要等 GitHub 簽好憑證 (`https_certificate.state` 為 `approved`) 才有 https，並非網站壞了。
-- push 前先 `git fetch`：使用者會直接在 GitHub 網頁改 repo (例如 2026-10-06 新增 `docs/CNAME`)，workflow 也每小時推報價 commit。落後就 `git pull --rebase` 再推；報價檔衝突時以較新的抓價為準重跑 `build_site.py`。
-- Pages 首次部署約 30 秒；用 `curl -s <url>/data.json | python3 -c ...` 驗證，比截圖可靠（頁面 fetch 409KB 需要一下，截太早會看到「載入中」）。
+- push 前先 `git fetch` 比對遠端：使用者網頁修改與報價 workflow 都可能推 commit。落後時保留本機未提交內容再整合；報價檔衝突以較新快照重跑 build_site.py。只提交本次範圍；技能正本 .agents 與網站是不同 repo，更新／同步技能本身不代表兩邊都要推送。
+- 推送後等待 Pages build／workflow 的 commit 等於本次 head 且成功，避免把前次 success 當成本次完成。再抓正式 HTML、其引用的 CSS／JS 與 data.json，確認 HTTP 成功、版本引用、canonical 與配置分類；瀏覽器等報價載完再確認 UI 和 console。部署可能需要數十秒或更久，區分推送、部署與正式載入三個結果。
 - workflow 每小時 :30 跑，`git add -A -- data docs quote.md` 後 `git diff --cached --quiet` 有變才提交 (`build_site.py` 內容沒變時沿用 `generated`)。別改回 `git diff --quiet -- <檔案>`：它看不到還沒追蹤的新檔 (例如第一次產生的 `data-more.json`)；`-A` 加目錄則容許 `all_categories: false` 時沒有這個檔。
 - 額度：repo 是 public，Actions 標準 runner 免費且不限分鐘，每次約 10–25 秒；使用者確認過維持每小時，不必為了額度降頻。private repo 才吃免費方案每月 2,000 分鐘 (每次至少算 1 分鐘，每小時 ≈ 720 分鐘/月)。Worker 免費方案每天 10 萬次請求，網頁每開一次抓一次，朋友用綽綽有餘。
 - 排程不準時：schedule 只是排進佇列，run 被派發時才建立。2026-09 每天 03:30 UTC 的排程實際在 08:11–10:01 UTC 才開跑 (晚 4.7–6.5 小時)，10/1 整次被跳過。「每小時」實際是一天幾次，快照可能比排程時間舊；有開即時報價的網頁不受影響，本 repo 沒開，網頁價格就是這份快照。跟使用者描述更新時間用「大約、可能延後數小時」。
@@ -146,3 +152,14 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - `csv.DictWriter` 要 `lineterminator="\n"`，否則 CSV 進 git 會有 CRLF 警告。
 - 本機預覽可放 `.claude/launch.json`（python3 -m http.server 8765 --directory docs），已在 .gitignore。
 - `build_site.py --init` 從載入的技能目錄建立目標專案 `.claude/skills/coolpc/` 執行副本（已存在則略過），workflow 呼叫這個可攜路徑；另建立 HTML、builder.css、JS 等資源。維護共用正本後，僅同步受影響檔案到指定專案，保留既有客製與設定。
+
+## 專案知識圖 (docs/graph/，本 repo 限定)
+
+graphify 從程式、文件與驗收截圖建的關係圖，給想看程式怎麼串起來的開發者，發布在 `pc.jakeuj.com/graph/`。頁面 `noindex`、估價網站沒有入口：買電腦的人用不到，也不該從搜尋進來。
+
+程式結構、文件或 SDD 驗收截圖有大改時才手動重建，不接每小時 workflow：重建要 LLM 讀文件與截圖 (2026-10-06 完整建一次約 74 萬 token，`--update` 只重抽變動檔)。
+
+1. Claude Code 跑 `/graphify . --update`；沒有 `graphify-out/` (新 clone 或刪掉過) 就跑完整 `/graphify .`。
+2. 合併語意抽取前，把 subagent 節點 ID 對齊 AST：`.claude/skills/coolpc/…` 的 AST ID 是 `claude_skills_coolpc_…`，subagent 照 spec 字面會寫成 `_claude_skills_coolpc_…`，文件連到程式的邊因此全部懸空。去掉語意 ID 開頭的 `_` 後再查懸空邊，直到只剩這些 AST 已知項：連到標準庫 (pathlib、json、re…) 的 import、scripts 之間的相對 import (`coolpc_match`、`fetch_coolpc`)，以及 Worker 的 `fetch` 呼叫全域 `fetch()` 被當成的 self-loop。
+3. `python3 scripts/publish_graph.py` 產生 `docs/graph/index.html` (補手機版面、繁中標題、noindex 與返回連結)。它用 regex 改 graphify 的 HTML，graphify 改版後找不到錨點會停下並印「找不到 …」：改 script 的 pattern 再重跑。
+4. 手機寬度與桌面都預覽一次 `docs/graph/`：圖可拖動縮放、側欄可捲動、「回到估價網站」連回首頁，再提交 `docs/graph/index.html`。

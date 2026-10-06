@@ -1,5 +1,7 @@
 {
   "name": "低階 — AM4 / DDR4，1080p 高畫質",
+  "purpose": "entry",
+  "platform": "amd",
   "note": "不含 OS、螢幕、週邊。目標: 以最低成本跑 1080p 高畫質。CPU 內附風扇；主機板為任搭價 (需與 CPU 同購)。",
   "items": [
     {"cat": 4,  "role": "CPU",  "match": "｛AMD R5 5600X MPK｝(含風扇)"},

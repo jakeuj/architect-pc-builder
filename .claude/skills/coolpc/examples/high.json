@@ -1,5 +1,7 @@
 {
   "name": "高階 — AM5 X3D / DDR5，1440p 極致 / 4K",
+  "purpose": "high",
+  "platform": "amd",
   "note": "不含 OS、螢幕、週邊。R7 9800X3D 不附風扇，故配雙塔散熱。",
   "items": [
     {"cat": 4,  "role": "CPU",    "match": "｛AMD R7 9800X3D｝代理盒"},
