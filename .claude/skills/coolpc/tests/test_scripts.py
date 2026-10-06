@@ -125,6 +125,18 @@ class PipelineTest(unittest.TestCase):
     def out(self):
         return json.loads((self.root / "docs" / "data.json").read_text(encoding="utf-8"))
 
+    def test_build_purpose_platform_are_optional_and_preserved(self):
+        self.write_data("2026/10/6", [it(5, "｛RX9070XT｝", 25990)])
+        self.assertEqual(self.run_script("build_site.py").returncode, 0)
+        self.assertNotIn("purpose", self.out()["builds"][0])
+        build_path = self.root / "builds/mid.json"
+        build = json.loads(build_path.read_text(encoding="utf-8"))
+        build.update(purpose="mainstream", platform="amd")
+        build_path.write_text(json.dumps(build), encoding="utf-8")
+        self.assertEqual(self.run_script("build_site.py").returncode, 0)
+        result = self.out()["builds"][0]
+        self.assertEqual((result["purpose"], result["platform"]), ("mainstream", "amd"))
+
     def test_delisted_item_keeps_last_known(self):
         self.write_data("2026/9/21 14:51", [it(5, "｛RX9070XT｝ 三風", 25990)])
         self.assertEqual(self.run_script("build_site.py").returncode, 0)
@@ -233,6 +245,7 @@ class InitTest(unittest.TestCase):
             parser = AssetParser()
             parser.feed((root / "docs/index.html").read_text(encoding="utf-8"))
             self.assertTrue(parser.assets)
+            self.assertIn("builder-ui.js?v=20261006-ui2", parser.assets)
             for asset in parser.assets:  # ?v= 是快取版本號，檔名在 ? 前面
                 self.assertTrue((root / "docs" / asset.split("?")[0]).is_file(), asset)
             self.assertEqual(parser.site_urls, [])  # 新站尚未決定 URL，不能繼承範例站身分。

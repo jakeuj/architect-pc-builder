@@ -1,5 +1,7 @@
 {
   "name": "入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲",
+  "purpose": "entry",
+  "platform": "amd",
   "note": "依歐飛 2026/10〈每月組裝說明〉「U5/R5 遊戲機」：R5 9600X＋32G＋1TB SSD ×2＋RTX5050 以上。9600X 不附風扇，配單塔散熱；主機板選有 WIFI 的款。",
   "items": [
     {"cat": 4, "role": "CPU", "match": "｛AMD R5 9600X｝"},

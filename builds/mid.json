@@ -1,5 +1,7 @@
 {
   "name": "主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作",
+  "purpose": "mainstream",
+  "platform": "amd",
   "note": "依歐飛 2026/10〈每月組裝說明〉「U7/R7 遊戲機」：R7 9700X＋32G＋1TB SSD ×2＋RTX5060 以上。9700X 不附風扇，I7/R7 以上建議塔扇。",
   "items": [
     {"cat": 4, "role": "CPU", "match": "｛AMD R7 9700X｝"},

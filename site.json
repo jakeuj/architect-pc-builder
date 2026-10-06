@@ -1,6 +1,6 @@
 {
   "title": "原價屋估價單分享",
-  "subtitle": "用原價屋含稅報價配單、改單；按「複製分享連結」，整張估價單就存成一條連結，免登入，日後打開還看得到每個零件的漲跌。",
+  "subtitle": "自由配單，免登入分享，保留當時報價與後續漲跌。",
   "repo": "https://github.com/jakeuj/architect-pc-builder",
   "builds": [
     "low",

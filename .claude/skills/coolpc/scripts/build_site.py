@@ -83,6 +83,7 @@ def init(root: Path, force: bool):
         "docs/index.html": TEMPLATES / "index.html",
         "docs/builder.css": TEMPLATES / "builder.css",
         "docs/coolpc-live.js": TEMPLATES / "coolpc-live.js",
+        "docs/builder-ui.js": TEMPLATES / "builder-ui.js",
         "worker/wrangler.toml": TEMPLATES / "worker" / "wrangler.toml",
         "worker/src/index.js": TEMPLATES / "worker" / "src" / "index.js",
         ".github/workflows/update-prices.yml": TEMPLATES / "update-prices.yml",
@@ -190,7 +191,8 @@ def main():
             else:
                 lst = "".join(f"\n    ${c['price']} {c['name']}" for c in cands)
                 sys.exit(f"{key}/{slot} [{cid}] '{match}' " + ("找不到" if status == "missing" else f"命中 {len(cands)} 筆 (需唯一):{lst}"))
-        builds.append({"key": key, "name": b["name"], "note": b.get("note", ""), "items": items})
+        builds.append({"key": key, "name": b["name"], "note": b.get("note", ""), "items": items,
+                       **{field: b[field] for field in ("purpose", "platform") if b.get(field)}})
 
     out = {
         "title": cfg.get("title", "PC 組裝估價"),

@@ -1,5 +1,7 @@
 {
   "name": "高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開",
+  "purpose": "high",
+  "platform": "amd",
   "note": "依歐飛 2026/10〈每月組裝說明〉「U9/R9 高階機」：R9 9950X3D＋64G＋1TB SSD ×2＋RTX5070TI 以上。配雙塔散熱、850W 金牌電源。",
   "items": [
     {"cat": 4, "role": "CPU", "match": "｛AMD R9 9950X3D｝"},

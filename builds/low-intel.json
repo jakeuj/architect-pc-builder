@@ -1,5 +1,7 @@
 {
   "name": "入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲",
+  "purpose": "entry",
+  "platform": "intel",
   "note": "依歐飛 2026/10〈每月組裝說明〉「U5/R5 遊戲機」：菜單寫 U5-235，原價屋沒賣，改用同文列為主流遊戲首選的 U5-245K 系列（KF 無內顯，有獨顯不影響）。不附風扇，配單塔散熱。",
   "items": [
     {"cat": 4, "role": "CPU", "match": "｛Intel Core Ultra 5 245KF｝"},
