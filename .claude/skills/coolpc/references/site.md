@@ -1,7 +1,7 @@
 # 估價網頁 (GitHub Pages) 參考
 
 模板：`templates/index.html`、`templates/builder.css`、`templates/coolpc-live.js`、`templates/site.json`、`templates/update-prices.yml`、`templates/worker/`；產生器：`scripts/build_site.py`。
-已上線範例：`jakeuj/architect-pc-builder` → https://blog.jakeuj.com/architect-pc-builder/ （泛用的「原價屋估價單分享」，沒有 `game`；repo 名稱是早期為單一遊戲建的，為了不讓舊分享連結失效而保留）
+已上線範例：`jakeuj/architect-pc-builder` → `pc.jakeuj.com`（2026-10-06 起 `docs/CNAME`；舊網址 301 過去）（泛用的「原價屋估價單分享」，沒有 `game`；repo 名稱是早期為單一遊戲建的，為了不讓舊分享連結失效而保留）
 
 ## 專案結構 (repo 形式)
 
@@ -129,12 +129,14 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## 部署與 CI 的坑
 
-- `gh api ... /pages` 回的 `html_url` 若是自訂網域 (blog.jakeuj.com)，就用它；github.io 網址會 301。
+- `gh api repos/<owner>/<name>/pages` 回的 `html_url` / `cname` 就是實際網址：預設是使用者 Pages 的自訂網域路徑 (blog.jakeuj.com/<name>/)，repo 有 `docs/CNAME` 就是那個子網域 (本 repo 是 pc.jakeuj.com)，舊路徑與 github.io 都會 301 過去。換網域後 README、`docs/index.html` 的 canonical / `og:url` 要跟著改 (改之前先問使用者)。剛綁的子網域要等 GitHub 簽好憑證 (`https_certificate.state` 為 `approved`) 才有 https，並非網站壞了。
+- push 前先 `git fetch`：使用者會直接在 GitHub 網頁改 repo (例如 2026-10-06 新增 `docs/CNAME`)，workflow 也每小時推報價 commit。落後就 `git pull --rebase` 再推；報價檔衝突時以較新的抓價為準重跑 `build_site.py`。
 - Pages 首次部署約 30 秒；用 `curl -s <url>/data.json | python3 -c ...` 驗證，比截圖可靠（頁面 fetch 409KB 需要一下，截太早會看到「載入中」）。
 - workflow 每小時 :30 跑，`git add -A -- data docs quote.md` 後 `git diff --cached --quiet` 有變才提交 (`build_site.py` 內容沒變時沿用 `generated`)。別改回 `git diff --quiet -- <檔案>`：它看不到還沒追蹤的新檔 (例如第一次產生的 `data-more.json`)；`-A` 加目錄則容許 `all_categories: false` 時沒有這個檔。
 - 額度：repo 是 public，Actions 標準 runner 免費且不限分鐘，每次約 10–25 秒；使用者確認過維持每小時，不必為了額度降頻。private repo 才吃免費方案每月 2,000 分鐘 (每次至少算 1 分鐘，每小時 ≈ 720 分鐘/月)。Worker 免費方案每天 10 萬次請求，網頁每開一次抓一次，朋友用綽綽有餘。
 - 排程不準時：schedule 只是排進佇列，run 被派發時才建立。2026-09 每天 03:30 UTC 的排程實際在 08:11–10:01 UTC 才開跑 (晚 4.7–6.5 小時)，10/1 整次被跳過。「每小時」實際是一天幾次，快照可能比排程時間舊；有開即時報價的網頁不受影響，本 repo 沒開，網頁價格就是這份快照。跟使用者描述更新時間用「大約、可能延後數小時」。
 - runner 是 UTC，時間戳一律在 build_site.py 用 `ZoneInfo("Asia/Taipei")` 產生。
+- 本機重跑 workflow 的步驟時，`quote.py` 直接列檔名：`quote.py --summary builds/low.json builds/mid.json builds/high.json > quote.md`。workflow 裡 `BUILDS=$(...)` 再 `$BUILDS` 的寫法靠 bash 拆字，在 zsh 會變成一個檔名而失敗，而且 `> quote.md` 已先把檔案清空。
 - `csv.DictWriter` 要 `lineterminator="\n"`，否則 CSV 進 git 會有 CRLF 警告。
 - 本機預覽可放 `.claude/launch.json`（python3 -m http.server 8765 --directory docs），已在 .gitignore。
 - `build_site.py --init` 從載入的技能目錄建立目標專案 `.claude/skills/coolpc/` 執行副本（已存在則略過），workflow 呼叫這個可攜路徑；另建立 HTML、builder.css、JS 等資源。維護共用正本後，僅同步受影響檔案到指定專案，保留既有客製與設定。
