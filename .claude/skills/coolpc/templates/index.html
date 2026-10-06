@@ -35,7 +35,7 @@
     </section>
     <div class="workspace">
       <section class="parts-panel" aria-labelledby="parts-title">
-        <div class="section-heading"><h2 id="parts-title"><span class="step">02</span>打造你的配置</h2><span id="part-count"></span></div>
+        <div class="section-heading"><h2 id="parts-title"><span class="step">02</span>打造你的配置</h2><span><span id="part-count"></span> <button class="text-button" id="clear">全部清空</button></span></div>
         <div class="scope" id="scope" role="group" aria-label="零件範圍" hidden>
           <button class="scope-btn" id="scope-pc" aria-pressed="true">主機零件</button>
           <button class="scope-btn" id="scope-all" aria-pressed="false">全部分類</button>
@@ -90,6 +90,7 @@
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
+        <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
       </ul>
     </details>
@@ -521,6 +522,7 @@
     $('#offrow').hidden = $('#netrow').hidden = !T.off;
     $('#off').textContent = '-' + fmt(T.off); $('#net').textContent = '$' + fmt(T.current - T.off);
     $('#requote').hidden = !canRequote;
+    $('#clear').hidden = !allRows(cur).length;
     changes(pinned, T);
     const w = warnings(), ul = $('#warns'); ul.innerHTML = '';
     for (const x of w.length ? w : ['未偵測到相容性問題（自動判讀，僅供參考）']) {
@@ -559,6 +561,10 @@
     try { await navigator.clipboard.writeText(text); toast(ok); } catch (e) { prompt('無法自動複製，請手動複製：', text); }
   }
   $('#reset').onclick = () => { cur.rows = clone(cur.orig.rows); cur.more = clone(cur.orig.more); render(); toast(cur.kind === 'shared' ? '已還原' : '已重設'); };
+  $('#clear').onclick = () => {
+    for (const s of D.slots) cur.rows[s.key] = null; cur.more = []; render();
+    toast(`已清空；按「${$('#reset').textContent}」可復原`, 2500);
+  };
   $('#requote').onclick = () => {
     for (const r of allRows(cur)) { if (!r.pin) continue; const it = find(r).item; if (it) { r.cat = it.cat; r.name = it.name; r.pin = null; } }
     render(); toast('已改用原價屋現價');
