@@ -11,6 +11,7 @@ description: "抓取與解析原價屋含稅報價、搜尋零件、依需求配
 
 - 查件 regex 配方、品名裡可直接讀的相容性資訊、條件價規則、行情筆記：`references/recipes.md`（配單前先看）。
 - 估價網頁的資料格式、分享連結、部署與已知坑：`references/site.md`；建立或改版介面時另讀 `references/site-ui.md`，模板在 `templates/`。
+- 原價屋 `evaluate.php` 以外的入口 — 帶單開官方估價頁 (POST 預選品項)、手機版更新時間檢查與分類頁備援、不要串的頁面：`references/coolpc-pages.md`。
 - 可直接複製當模板的三套配置：`examples/low.json`、`mid.json`、`high.json`。
 - 本 repo（已上線）：泛用的「原價屋估價單分享」網站，沒有綁遊戲；GitHub `jakeuj/architect-pc-builder`，網頁 `pc.jakeuj.com`（2026-10-06 起 `docs/CNAME`；舊的 blog.jakeuj.com/architect-pc-builder/ 會 301 過去。repo 名稱沿用早期的遊戲專案，為了舊分享連結不改）；本機在 `/Users/jakeuj/claude/evaluate`。
 - 要在別的專案 / repo 用：在新專案根目錄跑 `python3 ~/.agents/skills/coolpc/scripts/build_site.py --init`，會把整個技能複製到新專案的 `.claude/skills/coolpc/` 並建骨架；專案副本供 CI 使用；一般抓價不會覆寫既有網頁，模板升級需明確同步。
@@ -104,7 +105,7 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 ```
 
 - 新網站預設用深色科技風模板：方案卡、完整品名零件列、搜尋選件面板、桌面固定摘要與手機底部總價／分享列；既有網站依使用者選定的風格改版。介面與驗收細節見 `references/site-ui.md`。
-- 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結。`live_url` 有設定才啟用即時抓價。
+- 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結、「帶到原價屋估價頁」(POST 品名清單，原價屋官方估價頁預先選好品項與數量，見 `references/coolpc-pages.md`)。`live_url` 有設定才啟用即時抓價。
 - 主機零件格只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。其餘分類與被剔除的群組另存 `docs/data-more.json`，網頁切到「全部分類」才載入，可在「其他商品」加任意多件 (螢幕、週邊、第二顆 SSD…)，分享連結一併保存；遊戲專屬等純主機站在 `site.json` 設 `"all_categories": false` 關掉。細節見 `references/site.md`。
 - 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架；搭板 / 裝機價等優惠結束但同型號還在賣的，標「…優惠已結束」並跟同型號原價比，不當成下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
@@ -117,8 +118,9 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 
 ## 7. 維護
 
-- 頁面結構假設：每分類為 `<TD class=w>N<TD class=t>名稱` 後接 `<SELECT name=nN>`，商品為 `<OPTION value=N>品名, $價格[↘$下殺價] 符號</OPTION>`，`disabled` 的 OPTION 是說明列。若解析出的商品數與頁面「共有商品 N 樣」不符，優先檢查 `parse_coolpc.py` 的 `cat_re` / `price_re`。
+- 頁面結構假設：每分類為 `<TD class=w>N<TD class=t>名稱` 後接 `<SELECT name=nN>`，商品為 `<OPTION value=N>品名, $價格[↘$下殺價] 符號</OPTION>`，`disabled` 的 OPTION 是說明列，目前不解析（`&#x2764;` 開頭是活動與截止日，例如「買 9000X3D 送遊戲，至 10/24」；全形空白 `　` 開頭是上一個商品的續行，原價屋的快搜會接到前一件品名後面）。若解析出的商品數與頁面「共有商品 N 樣」不符，優先檢查 `parse_coolpc.py` 的 `cat_re` / `price_re`。
+- 活動說明、運送提醒偶爾寫成一般 OPTION、標價 `$1`（2026-10-06 有 14 筆，在分類 2 筆電、10 散熱器的 Noctua 相容提醒、17 電競桌椅運送說明）。`parse_coolpc.py` 與 `coolpc-live.js` 都略過標價 ≤ $1 的列，`parse_coolpc.py` 會印出略過筆數；歷史資料裡沒有真的 $1 商品。
 - `parse_coolpc.py` 改了規則，`templates/coolpc-live.js`（與各專案 `docs/coolpc-live.js`）要一起改；驗證：`node` 載入 coolpc-live.js 解析同一份 evaluate.php，`JSON.stringify` 結果應與 `data/coolpc_prices.json` 的 `categories` 完全相同（見 site.md）。
 - 介面模板更新時一併維護 `templates/index.html`、`templates/builder.css` 與 `build_site.py --init` 複製清單；用暫存專案驗證初始化及既有檔案保留，再照 `references/site-ui.md` 做瀏覽器驗收。
-- 測試：`node --test .claude/skills/coolpc/tests/` (快照對照、連結編解碼、parse 一致性) 與 `python3 -m unittest discover -s .claude/skills/coolpc/tests` (下架時排程不中斷)。
-- 驗證方式：`parse_coolpc.py` 印出的各分類數量應等於該分類第一列「共有商品 N 樣」的 N。
+- 測試：`node --test .claude/skills/coolpc/tests/` (快照對照、連結編解碼、parse 一致性與 $1 說明列、帶單的 iname/icnt) 與 `python3 -m unittest discover -s .claude/skills/coolpc/tests` (下架時排程不中斷、$1 說明列)。
+- 驗證方式：`parse_coolpc.py` 印出的各分類數量應等於該分類第一列「共有商品 N 樣」的 N，減去該分類略過的 $1 說明列 (原價屋把它們也算進 N)。

@@ -104,7 +104,7 @@ input[type=number] { width: 58px; height: 32px; padding: 3px 5px 3px 10px; borde
 .b.primary:hover { background: #98edf5; }
 .summary-secondary { display: flex; flex-wrap: wrap; gap: 8px 16px; padding-top: 12px; }
 .summary-secondary .b { width: 100%; }
-.summary-link { display: block; font-size: 12px; text-align: center; color: var(--muted); margin-top: 18px; }
+.btns .wide { grid-column: 1 / -1; }
 .warns { list-style: none; padding: 0; margin: 16px 0 0; }
 .warns li { border-left: 2px solid var(--warn); background: var(--warn-bg); color: var(--warn); border-radius: 0 6px 6px 0; padding: 10px 12px; font-size: 12px; margin-top: 8px; overflow-wrap: anywhere; }
 .warns li.ok { background: #102821; color: var(--ok); border-color: var(--ok); }

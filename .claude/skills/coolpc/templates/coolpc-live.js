@@ -44,6 +44,7 @@
         const pm = text.match(PRICE_RE);
         if (!pm) continue;
         const price = parseInt(pm[1], 10);
+        if (price <= 1) continue;                           // 活動說明 / 運送提醒寫成一般 OPTION、標價 $1
         const sale = pm[2] ? parseInt(pm[2], 10) : null;
         const tail = pm[3];
         const name = text.slice(0, pm.index).trim();
@@ -260,5 +261,15 @@
     return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
   }
 
-  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote };
+  // ---- 帶單到原價屋官方估價頁 ----
+  // 以 Big5 POST iname / icnt 到 evaluate.php，原價屋會照品名預先選好品項與數量；對不到的品名直接略過 (見 references/coolpc-pages.md)
+  // lines: [{name, qty}] -> {iname: '<>品名<>…', icnt: '<>數量<>…', count}；同品名合併數量，原價屋的數量選單只到 10
+  function evaluateForm(lines) {
+    const qty = new Map();
+    for (const { name, qty: q } of lines) if (name) qty.set(name, Math.min(10, (qty.get(name) || 0) + q));
+    const names = [...qty.keys()];
+    return { iname: names.map(n => '<>' + n).join(''), icnt: names.map(n => '<>' + qty.get(n)).join(''), count: names.length };
+  }
+
+  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote, evaluateForm };
 })(typeof window !== 'undefined' ? window : globalThis);

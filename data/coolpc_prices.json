@@ -2282,20 +2282,6 @@
      "label": "華碩 ASUS 筆電館-全館刷卡分期零利率(3)",
      "items": [
       {
-       "id": 151,
-       "name": "【完美保固】首年一次全機種竊盜/搶奪/強盜，華碩最高提供 80% 購買優惠 2026/12/31止。",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 152,
-       "name": "【華碩活動】購買Vivobook/Zenbook/ProArt 系列筆電贈 Google AI 3 個月。2027/8/9止",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
        "id": 153,
        "name": "華碩 TUF Gaming VP4700 電競後背包 / VP4700 TUF BACKPACK/15_17",
        "price": 1680,
@@ -3045,15 +3031,7 @@
     },
     {
      "label": "戴爾 DELL 筆電館-全館刷卡分期零利率(3)",
-     "items": [
-      {
-       "id": 267,
-       "name": "即日起～9/28 購買 Dell 指定機種線上登錄送專屬購機好禮，數量有限送完為止，詳見活動頁面~",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      }
-     ]
+     "items": []
     },
     {
      "label": "14吋 戴爾 DELL Base 系列",
@@ -3550,36 +3528,7 @@
     },
     {
      "label": "微星 MSI 筆電館-全館刷卡分期零利率(3)",
-     "items": [
-      {
-       "id": 350,
-       "name": "【微星活動官網】買 Titan / Raider / Stealth 指定款登錄送MSI 40週年Max電競大禮包",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 351,
-       "name": "【微星活動官網】買 Crosshair / Cyborg 指定款登錄送MSI 40週年 Essential 電競大禮包",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 352,
-       "name": "【微星活動官網】買 Prestige 指定款登錄送MSI第二代USB-C多功能擴充平台",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 353,
-       "name": "【微星活動官網】買 Modern 16S / Modern 14S登錄送M98藍牙滑鼠、MSI配件收納包",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      }
-     ]
+     "items": []
     },
     {
      "label": "13吋 微星 - 輕薄商務系列 Prestige",
@@ -14952,15 +14901,6 @@
        "flags": []
       },
       {
-       "id": 114,
-       "name": "【提醒】NH-U12/NH-U14/NH-D15/NH-D15S,搭ROG Strix 系列主機板,請查詢相容列表",
-       "price": 1,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
        "id": 115,
        "name": "｛貓頭鷹 NH-U12A｝7導管/NF-A12X25 PWM風扇*2/高15.8【WXZ】",
        "price": 3885,
@@ -14994,15 +14934,6 @@
        "price": 2650,
        "list_price": null,
        "flags": []
-      },
-      {
-       "id": 120,
-       "name": "【提醒】NH-U12/NH-U14/NH-D15/NH-D15S,搭ROG Strix 系列主機板,請查詢相容列表",
-       "price": 1,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
       },
       {
        "id": 121,
@@ -39616,20 +39547,6 @@
        ]
       },
       {
-       "id": 558,
-       "name": "TX3 電競桌 如需安裝 需支付$2000給現場組裝人員 包含送上樓(偏遠另計 花東只配送)",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 559,
-       "name": "TX3 電競桌 不安裝 住家如無電梯 每上一層需收費用偏遠另計(3層=200)(4層=300)",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
        "id": 560,
        "name": "｛TX3 EZLY｝電競桌-電動升降(黑)/自動降落/防撞系統/靜音馬達/承載60公斤/120x60",
        "price": 7499,
@@ -40208,13 +40125,6 @@
     {
      "label": "irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!",
      "items": [
-      {
-       "id": 644,
-       "name": "irocks 電競椅 住家如無電梯時貨運司機沒有商品搬運上樓服務，請見諒！",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
       {
        "id": 645,
        "name": "｛irocks T02 Plus｝電競椅/4D/PU+PVC材質/90°~160°/Z字托盤/黑",
@@ -40832,20 +40742,6 @@
     {
      "label": "ThunderX3 電競椅",
      "items": [
-      {
-       "id": 745,
-       "name": "ThunderX3 電競椅 如需安裝 需支付$800給現場組裝人員(基隆/宜蘭另計 花東只配送不安裝)",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 746,
-       "name": "ThunderX3 電競椅 住家如無電梯 每上一層需收費用偏遠另計(3層=200)(4層=300)",
-       "price": 1,
-       "list_price": null,
-       "flags": []
-      },
       {
        "id": 747,
        "name": "｛ThunderX3 Yama Lite｝電競椅-人體工學/SYNC4功能設計/3S頭枕/2D扶手/可調式腰部支撐墊",

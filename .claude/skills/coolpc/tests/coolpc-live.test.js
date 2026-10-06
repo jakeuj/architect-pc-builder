@@ -220,6 +220,22 @@ test('parseQD：日期可正確比較大小', () => {
   assert.equal(C.parseQD('亂打'), 0);
 });
 
+// 2026-10-06：活動說明、運送提醒寫成一般 OPTION 標價 $1 (分類 2 / 10 / 17 共 14 筆)，不能當商品 (散熱器欄會冒出 $1 的品項)
+const NOTE_PAGE = `<font id=Mdy>2026/10/6 11:13</font><TD class=w>2<TD class=t>筆電</TD><TD><SELECT name=n2>
+<OPTION value=0 selected>共有商品 2 樣</OPTION><OPTGROUP LABEL='Dell'>
+<OPTION value=1>即日起～9/28 購買 Dell 指定機種線上登錄送專屬購機好禮~, $1 ◆ ★</OPTION>
+<OPTION value=2>｛Dell XPS 13｝, $39900 ◆ ★</OPTION></SELECT>`;
+test('parse：標價 $1 的說明列略過，同 parse_coolpc.py', () => {
+  const p = C.parse(NOTE_PAGE);
+  assert.deepEqual(p.categories[0].groups[0].items.map(it => [it.id, it.name, it.price]), [[2, '｛Dell XPS 13｝', 39900]]);
+});
+
+test('evaluateForm：帶單到原價屋的 iname / icnt，同品名合併數量、上限 10、略過空品名', () => {
+  assert.deepEqual(C.evaluateForm([{ name: '｛A｝', qty: 1 }, { name: '｛B｝', qty: 2 }]), { iname: '<>｛A｝<>｛B｝', icnt: '<>1<>2', count: 2 });
+  assert.deepEqual(C.evaluateForm([{ name: '｛A｝', qty: 9 }, { name: '', qty: 1 }, { name: '｛A｝', qty: 9 }]), { iname: '<>｛A｝', icnt: '<>10', count: 1 });
+  assert.deepEqual(C.evaluateForm([]), { iname: '', icnt: '', count: 0 });
+});
+
 // evaluate.php 與 data/coolpc_prices.json 是同一次抓取時，瀏覽器版 parse() 要與 Python 版完全一致
 const root = path.resolve(__dirname, '../../../..');
 const php = path.join(root, 'evaluate.php'), json = path.join(root, 'data/coolpc_prices.json');

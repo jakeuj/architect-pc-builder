@@ -30,6 +30,7 @@ price_re = re.compile(r",\s*\$(\d+)(?:↘\$(\d+))?\s*(.*)$")
 
 categories = []
 rows = []
+skipped = 0  # 標價 $1 以下的說明列
 
 for cid, cname, body in cat_re.findall(raw):
     cid = int(cid)
@@ -53,6 +54,9 @@ for cid, cname, body in cat_re.findall(raw):
         if not pm:
             continue
         price = int(pm.group(1))
+        if price <= 1:
+            skipped += 1
+            continue  # 活動說明 / 運送提醒寫成一般 OPTION、標價 $1 (原價屋的「共有商品 N 樣」也算進去)
         sale = int(pm.group(2)) if pm.group(2) else None
         tail = pm.group(3)
         name = text[: pm.start()].strip()
@@ -135,7 +139,7 @@ for cat in categories:
     (by_cat / f"{cat['id']:02d}_{safe}.tsv").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 print(f"報價日期: {quote_date}")
-print(f"分類數: {len(categories)}, 商品數: {len(rows)}")
+print(f"分類數: {len(categories)}, 商品數: {len(rows)}" + (f" (另略過 {skipped} 筆標價 $1 的說明列)" if skipped else ""))
 for cat in categories:
     n = sum(len(g["items"]) for g in cat["groups"])
     print(f"  {cat['id']:2d} {cat['name']:<28} {n:5d} 項, {len(cat['groups'])} 群組")

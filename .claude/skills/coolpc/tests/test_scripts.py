@@ -62,6 +62,26 @@ class DecodeTest(unittest.TestCase):
         self.assertEqual(decode("共有商品".encode("utf-8"), "text/html"), "共有商品")
 
 
+class ParseTest(unittest.TestCase):
+    """活動說明、運送提醒寫成一般 OPTION 標價 $1 (2026-10-06 共 14 筆) 時不能當商品; JS 版見 coolpc-live.test.js。"""
+    PAGE = ("<font id=Mdy>2026/10/6 11:13</font><TD class=w>2<TD class=t>筆電</TD><TD><SELECT name=n2>\n"
+            "<OPTION value=0 selected>共有商品 2 樣</OPTION><OPTGROUP LABEL='Dell'>\n"
+            "<OPTION value=1>即日起～9/28 購買 Dell 指定機種線上登錄送專屬購機好禮~, $1 ◆ ★</OPTION>\n"
+            "<OPTION value=2>｛Dell XPS 13｝, $39900 ◆ ★</OPTION></SELECT>")
+
+    def test_dollar_one_note_skipped(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src, out = Path(tmp) / "evaluate.php", Path(tmp) / "data"
+            src.write_text(self.PAGE, encoding="utf-8")
+            r = subprocess.run([sys.executable, str(SCRIPTS / "parse_coolpc.py"), str(src), str(out)],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+            self.assertIn("略過 1 筆", r.stdout)
+            data = json.loads((out / "coolpc_prices.json").read_text(encoding="utf-8"))
+            items = [(i["id"], i["name"], i["price"]) for g in data["categories"][0]["groups"] for i in g["items"]]
+            self.assertEqual(items, [(2, "｛Dell XPS 13｝", 39900)])
+
+
 class PipelineTest(unittest.TestCase):
     """在暫存專案裡跑 quote.py / build_site.py, 模擬品項下架。"""
 

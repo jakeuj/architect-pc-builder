@@ -83,13 +83,13 @@
         <div class="btns">
           <button class="b primary" id="share">複製分享連結 <span aria-hidden="true">↗</span></button>
           <button class="b" id="copy">複製零件清單</button>
+          <a class="b wide" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener" title="在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量">帶到原價屋估價頁 <span aria-hidden="true">↗</span></a>
           <div class="summary-secondary">
             <button class="text-button" id="reset">重設為預設</button>
             <button class="text-button" id="requote" hidden>全部改用現價</button>
             <button class="b" id="live" hidden>更新最新報價</button>
           </div>
         </div>
-        <a class="summary-link" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener">到原價屋線上估價 ↗</a>
       </aside>
     </div>
   </div>
@@ -110,6 +110,7 @@
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
+        <li>「帶到原價屋估價頁」會在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量，可以接著在那邊列印或聯絡原價屋。那邊一律是原價屋現價；已下架的品項不會帶入，搭板、裝機價等優惠結束的改帶同型號現行品項。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
       </ul>
     </details>
@@ -603,6 +604,20 @@
     copyText(lines.join('\n'), '已複製清單');
   };
   $('#share').onclick = $('#mobile-share').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur), '已複製估價單連結');
+  // 帶到原價屋估價頁：Big5 POST 品名清單，原價屋預先選好品項與數量；空單就照連結開空白估價頁
+  // 對得到現行型錄的列送現行品名 (優惠結束的 variant 是同型號現行那件)；查不到的照樣送原品名，原價屋對不到會略過
+  $('#coolpc').onclick = e => {
+    if (isEmpty(cur)) return;
+    e.preventDefault();
+    let miss = 0;
+    const lines = entries(cur).map(({ r }) => { const it = find(r).item; if (!it) miss++; return { name: it ? it.name : r.name, qty: r.qty }; });
+    const f = C.evaluateForm(lines), form = document.createElement('form');
+    Object.assign(form, { method: 'post', action: $('#coolpc').href, target: '_blank', acceptCharset: 'big5' });
+    form.setAttribute('rel', 'noopener');
+    for (const k of ['iname', 'icnt']) { const i = document.createElement('input'); Object.assign(i, { type: 'hidden', name: k, value: f[k] }); form.appendChild(i); }
+    document.body.appendChild(form); form.submit(); form.remove();
+    toast(miss ? `已開啟原價屋估價頁；${miss} 項目前查不到，原價屋那邊可能不會帶入` : `已開啟原價屋估價頁（${f.count} 項）`, miss ? 4000 : 2000);
+  };
 
   // 全部分類開關與新增其他商品
   function setScope(on){
