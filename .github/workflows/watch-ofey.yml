@@ -1,0 +1,58 @@
+name: 監看歐飛每月組裝菜單
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 每天 09:17 (台灣) 看一次; 菜單變了或預設配置有零件下架就開 Issue
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 抓文章並比對菜單快照
+        id: w
+        run: python3 scripts/watch_ofey.py
+
+      - name: 提交菜單快照
+        if: contains(fromJSON('["init","month","menu"]'), steps.w.outputs.changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ofey_menu.txt
+          git commit -m "歐飛菜單快照 (${{ steps.w.outputs.month }})"
+          # 每小時的報價 workflow 也會推, 先 rebase 再推
+          git pull --rebase
+          git push
+
+      # 同標題前綴的 Issue 還開著就留言, 不重複開
+      - name: 菜單變了 → 開 Issue
+        if: steps.w.outputs.changed == 'menu'
+        run: |
+          N=$(gh issue list --state open --json number,title --jq '[.[] | select(.title | startswith("歐飛菜單更新"))][0].number // empty')
+          if [ -n "$N" ]; then gh issue comment "$N" --body-file "${{ steps.w.outputs.ofey_body }}"
+          else gh issue create --title "歐飛菜單更新（${{ steps.w.outputs.month }}）" --body-file "${{ steps.w.outputs.ofey_body }}"; fi
+
+      - name: 抓不到菜單 → 開 Issue
+        if: steps.w.outputs.changed == 'error'
+        run: |
+          N=$(gh issue list --state open --json number,title --jq '[.[] | select(.title == "抓不到歐飛菜單")][0].number // empty')
+          if [ -z "$N" ]; then gh issue create --title "抓不到歐飛菜單" --body-file "${{ steps.w.outputs.ofey_body }}"; fi
+
+      # 下架清單每天覆寫 Issue 內文 (不留言, 免得天天通知); 全部換掉就關閉
+      - name: 預設配置下架零件 → 開／更新／關閉 Issue
+        run: |
+          N=$(gh issue list --state open --json number,title --jq '[.[] | select(.title == "預設配置有零件下架")][0].number // empty')
+          if [ "${{ steps.w.outputs.gone }}" != "0" ]; then
+            if [ -n "$N" ]; then gh issue edit "$N" --body-file "${{ steps.w.outputs.gone_body }}"
+            else gh issue create --title "預設配置有零件下架" --body-file "${{ steps.w.outputs.gone_body }}"; fi
+          elif [ -n "$N" ]; then
+            gh issue close "$N" --comment "預設配置已經沒有下架零件。"
+          fi

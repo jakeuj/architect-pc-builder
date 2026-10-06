@@ -1,0 +1,12 @@
+{
+  "name": "文書 · Intel — U5-225／32G／內顯，文書、2D 遊戲、4K 影片",
+  "note": "依歐飛 2026/10〈每月組裝說明〉「U5 文書機」：U5-225＋32G＋1TB SSD ×2，不裝顯示卡（內顯就能看 4K 影片、跑 2D 遊戲）。CPU 附原廠風扇，用組裝價。",
+  "items": [
+    {"cat": 4, "role": "CPU", "match": "｛Intel Core Ultra 5 225｝【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】~組裝價~"},
+    {"cat": 5, "role": "MB", "match": "｛華碩 B860M AYW GAMING WIFI｝"},
+    {"cat": 6, "role": "RAM", "match": "｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝"},
+    {"cat": 7, "role": "SSD", "match": "｛致態 ZhiTai TiPlus7100s 1TB｝", "qty": 2},
+    {"cat": 15, "role": "PSU", "match": "｛保銳 EB550-C 550W｝"},
+    {"cat": 14, "role": "CASE", "match": "｛Antec P10C 靜音機殼｝"}
+  ]
+}

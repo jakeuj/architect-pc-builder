@@ -1,9 +1,9 @@
 {
-  "name": "入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲",
-  "note": "依歐飛 2026/10〈每月組裝說明〉「U5/R5 遊戲機」：R5 9600X＋32G＋1TB SSD ×2＋RTX5050 以上。9600X 不附風扇，配單塔散熱；主機板選有 WIFI 的款。",
+  "name": "入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲",
+  "note": "依歐飛 2026/10〈每月組裝說明〉「U5/R5 遊戲機」：菜單寫 U5-235，原價屋沒賣，改用同文列為主流遊戲首選的 U5-245K 系列（KF 無內顯，有獨顯不影響）。不附風扇，配單塔散熱。",
   "items": [
-    {"cat": 4, "role": "CPU", "match": "｛AMD R5 9600X｝"},
-    {"cat": 5, "role": "MB", "match": "｛華碩 B850M AYW GAMING WIFI｝"},
+    {"cat": 4, "role": "CPU", "match": "｛Intel Core Ultra 5 245KF｝"},
+    {"cat": 5, "role": "MB", "match": "｛華碩 B860M AYW GAMING WIFI｝"},
     {"cat": 6, "role": "RAM", "match": "｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝"},
     {"cat": 7, "role": "SSD", "match": "｛致態 ZhiTai TiPlus7100s 1TB｝", "qty": 2},
     {"cat": 12, "role": "VGA", "match": "｛技嘉 RTX5050 WINDFORCE OC 8G｝"},

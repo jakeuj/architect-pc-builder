@@ -1,9 +1,9 @@
 {
-  "name": "主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作",
-  "note": "依歐飛 2026/10〈每月組裝說明〉「U7/R7 遊戲機」：R7 9700X＋32G＋1TB SSD ×2＋RTX5060 以上。9700X 不附風扇，I7/R7 以上建議塔扇。",
+  "name": "主流遊戲 · Intel — U7-265K／32G／RTX5060，1080p～2K 大作",
+  "note": "依歐飛 2026/10〈每月組裝說明〉「U7/R7 遊戲機」：U7-265K＋32G＋1TB SSD ×2＋RTX5060 以上。265K 不附風扇，I7/R7 以上建議塔扇。",
   "items": [
-    {"cat": 4, "role": "CPU", "match": "｛AMD R7 9700X｝"},
-    {"cat": 5, "role": "MB", "match": "｛微星 B850 GAMING PLUS WIFI｝"},
+    {"cat": 4, "role": "CPU", "match": "｛Intel Core Ultra 7 265K｝"},
+    {"cat": 5, "role": "MB", "match": "｛微星 B860 GAMING PLUS WIFI｝"},
     {"cat": 6, "role": "RAM", "match": "｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝"},
     {"cat": 7, "role": "SSD", "match": "｛致態 ZhiTai TiPlus7100s 1TB｝", "qty": 2},
     {"cat": 12, "role": "VGA", "match": "｛技嘉 RTX5060 WINDFORCE OC 8G｝"},

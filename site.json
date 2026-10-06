@@ -5,10 +5,15 @@
   "builds": [
     "low",
     "mid",
-    "high"
+    "high",
+    "low-intel",
+    "mid-intel",
+    "high-intel",
+    "office"
   ],
   "live_url": "",
   "notes": [
-    "三套預設配置是起點：低階 1080p、中階 1440p、高階 1440p 極致／4K 遊戲；可以直接改選零件、清空不要的格子，再複製分享連結。"
+    "預設配置照 <a href=\"https://ofeyhong.pixnet.net/blog/posts/12224315583\" target=\"_blank\" rel=\"noopener\">歐飛先生〈每月電腦組裝說明〉</a> 2026 年 10 月的建議菜單：入門遊戲、主流遊戲、高階各有 AMD 與 Intel 一套，另有文書機。CPU、記憶體、雙 SSD、顯卡等級照他的菜單；主機板、電源、散熱、機殼是依同文建議從原價屋挑的。",
+    "預設配置只是起點：可以直接改選零件、清空不要的格子，再複製分享連結。"
   ]
 }

@@ -1,19 +1,22 @@
 # 原價屋估價單分享
 
 用 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價配電腦、改單、把整張估價單存成一條連結分享。
-預設放了低／中／高三套主機當起點（不含作業系統、螢幕與週邊），每個零件都能換，每一格都能清空，只估幾個零件也行；切到「全部分類」還能從原價屋全部 30 類加購其他商品（螢幕、鍵鼠、作業系統、第二顆 SSD…）。價格是 GitHub Actions 定時抓的原價屋快照。
+預設放了七套主機當起點，照[歐飛先生〈每月電腦組裝說明〉](https://ofeyhong.pixnet.net/blog/posts/12224315583)的建議菜單配（不含作業系統、螢幕與週邊），每個零件都能換，每一格都能清空，只估幾個零件也行；切到「全部分類」還能從原價屋全部 30 類加購其他商品（螢幕、鍵鼠、作業系統、第二顆 SSD…）。價格是 GitHub Actions 定時抓的原價屋快照。
 「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，任何時候打開都看得到當初的報價；最上方會列出每個零件「分享時 → 現價」的漲跌（▲▼）、合計與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，會標「優惠已結束」並跟同型號現價比），可以改單再分享。▲▼ 是跟連結裡的當時價格比，不是原價屋自己的調價標示。
 配好之後按「帶到原價屋估價頁」，會在新分頁開啟原價屋官方估價頁並預先選好同樣的品項與數量（以原價屋現價計），可以接著在那邊列印或聯絡原價屋。
 
 **網頁：https://pc.jakeuj.com/**（舊網址 `blog.jakeuj.com/architect-pc-builder/`、`jakeuj.github.io/architect-pc-builder/` 會 301 轉過去，舊分享連結 `#` 後面的估價單照樣帶著）
 
-| | 低階 | 中階 | 高階 |
-|---|---|---|---|
-| 定位 | AM4 / DDR4，1080p 高畫質 | AM5 / DDR5，1440p 高畫質 | AM5 X3D / DDR5，1440p 極致 / 4K |
-| CPU | R5 5600X | R5 7500F | R7 9800X3D |
-| 顯示卡 | RX 9060XT 8G | RX 9070 GRE 12G | RX 9070XT 16G |
-| 記憶體 | 16GB DDR4-3200 | 16GB DDR5-5600 | 16GB DDR5-5600 |
+| | 文書 | 入門遊戲 | 主流遊戲 | 高階 |
+|---|---|---|---|---|
+| 定位 | 文書、2D 遊戲、4K 影片 | 1080p 大部分 3D 遊戲 | 1080p～2K 大作 | 2K～4K 特效全開 |
+| AMD | — | R5 9600X | R7 9700X | R9 9950X3D |
+| Intel | U5-225 | U5-245KF | U7-265K | U9-285K |
+| 顯示卡 | 內顯 | RTX5050 | RTX5060 | RTX5070Ti |
+| 記憶體 | 32GB DDR5 | 32GB DDR5 | 32GB DDR5 | 64GB DDR5 |
+| SSD | 1TB Gen4 ×2 | 1TB Gen4 ×2 | 1TB Gen4 ×2 | 1TB Gen4 ×2 |
 
+菜單依 2026 年 10 月那篇；歐飛寫的 U5-235 原價屋沒賣，改用同文列為主流遊戲首選的 U5-245K 系列。主機板（有 WIFI）、電源、散熱（I7/R7 以上塔扇）、機殼（安鈦克 P10C）照同文的建議從原價屋挑。
 完整清單與價格見 [quote.md](quote.md)（每小時自動更新）。
 
 ## 資料怎麼來的
@@ -48,7 +51,7 @@ cd worker && npx wrangler deploy          # 首次先 npx wrangler login
 ```bash
 python3 .claude/skills/coolpc/scripts/fetch_coolpc.py --out .                                   # 抓最新報價 + 解析
 python3 .claude/skills/coolpc/scripts/search_coolpc.py 12 'RTX5060Ti-16GB'                       # 查價 (分類編號 + regex)
-python3 .claude/skills/coolpc/scripts/quote.py --summary builds/low.json builds/mid.json builds/high.json  # 估價單 (含並列比較表)
+python3 .claude/skills/coolpc/scripts/quote.py --summary builds/low.json builds/mid.json  # 估價單 (含並列比較表)
 python3 .claude/skills/coolpc/scripts/build_site.py                                              # 更新網頁資料
 python3 -m http.server 8765 --directory docs                               # 本機預覽
 ```
@@ -57,9 +60,20 @@ python3 -m http.server 8765 --directory docs                               # 本
 
 ## 改配置
 
-編輯 `builds/low.json / mid.json / high.json`，`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
+編輯 `builds/*.json`（`low`／`mid`／`high` 是 AMD 三套，`*-intel` 是 Intel 三套，`office` 是文書機），`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
 要改標題或加減分頁，改 `site.json` 的 `title` / `builds`；要做成某款遊戲專用的網站，可以再加 `game`（官方最低／建議配備，網頁會多一個需求表，格式見 `build_site.py` 開頭說明），不需要「全部分類」的話加 `"all_categories": false`。
 若某零件下架，排程不會中斷：`quote.py` 標「已下架」不計價，網頁保留最後的品名與價格並標示「已下架」讓訪客改選；記得再找替代品更新 `builds/*.json`。
+
+### 跟著歐飛的菜單更新
+
+歐飛每月會原地改寫同一篇〈每月電腦組裝說明〉。`.github/workflows/watch-ofey.yml` 每天跑一次 `scripts/watch_ofey.py`：抓文章裡「我建議的菜單」那段，跟 [`data/ofey_menu.txt`](data/ofey_menu.txt) 比對。
+
+- 菜單有變：更新 `data/ofey_menu.txt`，並開一張「歐飛菜單更新」Issue，附上新舊差異。
+- 只有月份變：只 commit，不開 Issue。
+- 預設配置有零件下架：開「預設配置有零件下架」Issue。
+- 文章改版、抓不到菜單：開「抓不到歐飛菜單」Issue。
+
+同標題的 Issue 還開著時，會改成在原 Issue 留言。收到 Issue 後，在 Claude Code 跑 `/coolpc`，請它依 `data/ofey_menu.txt` 重配 `builds/*.json`。這套流程不用 AI，也沒有額外費用。
 
 要另開一個估價網站（例如某款遊戲專用）：在新目錄跑 `python3 ~/.agents/skills/coolpc/scripts/build_site.py --init`，會複製專案執行副本及網頁骨架（HTML、CSS、JS）；未安裝共用技能的使用者可從本 repo 的腳本初始化。既有檔案預設保留，日常抓價只更新資料，不覆寫介面。
 
