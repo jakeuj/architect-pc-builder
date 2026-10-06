@@ -64,6 +64,8 @@ python3 -m http.server 8765 --directory docs                               # 本
 
 新版模板採用深色方案卡、搜尋選件面板、桌面固定估價摘要與手機底部分享列。改版與驗收方式見 [site-ui.md](.claude/skills/coolpc/references/site-ui.md)。新站需依自己的名稱與公開網址調整初始 HTML metadata。
 
+網站圖示位於 `docs/`：SVG、96px PNG、多尺寸 ICO、180px Apple touch icon 與 manifest 的 192/512px 圖示；分享封面是 `social-preview-v1.png`（1200 × 630），首頁已設定 Open Graph 與 Twitter Card。這些檔案直接隨 GitHub Pages 發布，不依賴報價更新流程。圖稿來源為 `scripts/generate_site_assets.py`；需要重製時安裝 Pillow，再執行 `python3 scripts/generate_site_assets.py`（macOS 預設黑體；其他系統用 `--font` 指定支援繁體中文的字型）。修改分享封面時使用新檔名，並同步首頁 metadata。
+
 ## 標籤說明
 
 - `搭板專案`：CPU 需與主機板同購才是此價
