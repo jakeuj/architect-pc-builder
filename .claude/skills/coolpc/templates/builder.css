@@ -152,6 +152,59 @@ body:has(dialog[open]) { overflow: hidden; }
 .picker-price { display: flex; align-items: center; justify-content: space-between; color: var(--accent); font-size: 16px; margin-top: 8px; font-variant-numeric: tabular-nums; }
 .picker-price small { color: var(--muted); font-size: 11px; }
 .no-results { padding: 48px 12px; text-align: center; color: var(--muted); font-size: 14px; }
+.mobile-actions { display: flex; gap: 8px; }
+/* ---- 唯讀估價單 (檢視模式 #v=1&q=)：深色頁面中間一張白色紙本單據 ---- */
+body.view-mode .hero, body.view-mode #meta, body.view-mode .info-card { display: none; }
+.sheet-view { max-width: 920px; margin: 32px auto 0; }
+.sheet-actions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin: 0 0 16px; }
+.sheet-actions-end { display: flex; flex-wrap: wrap; gap: 10px; }
+/* 紙張內重新宣告同名 token：既有的 .d / .up / .down / .gone / .renamed、表格框線、焦點外框自動換成淺色版 (對白底皆達 AA) */
+.sheet {
+  --bg: #fff; --card: #fff; --raised: #f3f5f7; --text: #1b2027; --muted: #56606c; --line: #d9dee4;
+  --accent: #0a6876; --accent-bg: #e6f4f6; --warn: #b42318; --warn-bg: #fdf1f0; --ok: #0b6b4f;
+  color-scheme: light; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6;
+  border-radius: 6px; box-shadow: 0 30px 80px #0009, 0 0 0 1px #ffffff14; padding: 52px 56px 40px;
+}
+.sheet-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px 32px; padding-bottom: 18px; border-bottom: 2px solid var(--text); }
+.sheet-kicker { color: var(--accent); font: 600 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .26em; margin: 0 0 6px; }
+.sheet h1 { font-size: 30px; line-height: 1.2; letter-spacing: .14em; margin: 0; }
+.sheet h1:focus:not(:focus-visible) { outline: none; }
+.sheet-issuer { margin: 0; text-align: right; color: var(--muted); font-size: 12px; }
+.sheet-issuer strong { display: block; color: var(--text); font-size: 15px; font-weight: 600; }
+.sheet-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px 24px; margin: 22px 0 28px; }
+.sheet-meta div { min-width: 0; }
+.sheet-meta dt { color: var(--muted); font-size: 11px; letter-spacing: .04em; }
+.sheet-meta dd { margin: 2px 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.sheet-meta dd .d { font-weight: 400; }
+.sheet-table { table-layout: fixed; margin: 0; }
+.sheet-table caption { caption-side: top; text-align: left; color: var(--muted); font-size: 12px; padding: 0 0 8px; }
+.sheet-table col.c-item { width: 92px; }
+.sheet-table col.c-qty { width: 56px; }
+.sheet-table col.c-unit { width: 104px; }
+.sheet-table col.c-sub { width: 112px; }
+.sheet-table th, .sheet-table td { font-size: 13px; padding: 12px 8px; border-bottom: 1px solid var(--line); }
+.sheet-table thead th { color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .06em; padding: 0 8px 8px; border-bottom: 1.5px solid var(--text); }
+.sheet-table tbody th { color: var(--text); font-weight: 600; }
+.sheet-table .c-name { line-height: 1.65; }
+.sheet-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sheet-table td.c-sub { font-weight: 600; }
+.sheet .d { font-size: 11.5px; margin-top: 3px; }
+.sheet .d.inl { margin-top: 0; }
+.sheet-totals { width: min(100%, 380px); margin: 18px 0 0 auto; }
+.sheet-totals div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 7px 0; }
+.sheet-totals dt { color: var(--muted); font-size: 13px; }
+.sheet-totals dd { margin: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+.sheet-totals .t-main { border-bottom: 2px solid var(--text); padding: 4px 0 12px; }
+.sheet-totals .t-main dt { color: var(--text); font-size: 14px; font-weight: 600; }
+.sheet-totals .t-main dd { font-size: 26px; letter-spacing: -.02em; }
+.sheet-totals .t-net dd { font-size: 18px; }
+.sheet-notes { margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line); }
+.sheet-notes h2 { font-size: 13px; letter-spacing: .08em; margin: 0 0 8px; }
+.sheet-notes ul { margin: 0; padding-left: 18px; font-size: 12.5px; }
+.sheet-notes li { margin: 4px 0; overflow-wrap: anywhere; }
+.sheet-notes li.warn { color: var(--warn); }
+.sheet-foot { margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+.sheet-foot p { margin: 0 0 4px; }
 @media (max-width: 1023px) {
   .workspace { grid-template-columns: minmax(0, 1fr); }
   .summary-card { position: static; }
@@ -163,6 +216,14 @@ body:has(dialog[open]) { overflow: hidden; }
   .mobile-bar .b { padding-inline: 20px; }
   body { padding-bottom: calc(94px + env(safe-area-inset-bottom)); }
   #toast { bottom: calc(100px + env(safe-area-inset-bottom)); }
+  /* 檢視模式沒有底部列，不用留空間 */
+  body.view-mode { padding-bottom: env(safe-area-inset-bottom); }
+  body.view-mode #toast { bottom: calc(24px + env(safe-area-inset-bottom)); }
+  .sheet { padding: 40px 32px 32px; }
+  .sheet-table col.c-item { width: 72px; }
+  .sheet-table col.c-qty { width: 44px; }
+  .sheet-table col.c-unit { width: 86px; }
+  .sheet-table col.c-sub { width: 94px; }
 }
 @media (max-width: 600px) {
   .wrap { padding: 0 18px 30px; }
@@ -201,7 +262,45 @@ body:has(dialog[open]) { overflow: hidden; }
   .picker-header { padding: 22px 18px 16px; }
   .picker-results { padding-inline: 18px; }
   dialog { border: 0; }
+  .mobile-actions .b { padding-inline: 12px; }
+  .sheet-view { margin-top: 22px; }
+  .sheet-actions-end { width: 100%; }
+  .sheet-actions .b { flex: 1 1 auto; }
+  .sheet { padding: 26px 18px 22px; border-radius: 4px; }
+  .sheet h1 { font-size: 24px; }
+  .sheet-issuer { text-align: left; }
+  .sheet-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; margin: 18px 0 22px; }
+}
+/* 手機的估價明細改成一列一張：項目 / 品名 / 數量・單價・小計 (只在螢幕上，列印維持表格) */
+@media screen and (max-width: 600px) {
+  .sheet-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .sheet-table, .sheet-table tbody, .sheet-table caption { display: block; }
+  .sheet-table tr { display: grid; grid-template-columns: auto auto minmax(0, 1fr); grid-template-areas: "item item item" "name name name" "qty unit sub"; gap: 4px 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .sheet-table tbody th, .sheet-table td { display: block; padding: 0; border: 0; }
+  .sheet-table .c-item { grid-area: item; color: var(--muted); font-size: 11px; }
+  .sheet-table .c-name { grid-area: name; }
+  .sheet-table .c-qty { grid-area: qty; text-align: left; }
+  .sheet-table .c-unit { grid-area: unit; text-align: left; }
+  .sheet-table .c-sub { grid-area: sub; }
+  .sheet-table td[data-label]::before { content: attr(data-label) " "; color: var(--muted); font-size: 11px; font-weight: 400; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
+}
+/* 列印 / 存成 PDF：檢視模式只印紙張；編輯模式至少不印底部列 */
+@media print {
+  @page { margin: 12mm; }
+  .mobile-bar, #toast, dialog { display: none !important; }
+  body { padding-bottom: 0 !important; }
+  /* :root 是 color-scheme: dark，不改的話 PDF 的頁邊會印成深色畫布 */
+  :root:has(body.view-mode) { color-scheme: light; background: #fff; }
+  body.view-mode { background: #fff; color: #000; }
+  body.view-mode::before, body.view-mode .topbar, body.view-mode .load-state, body.view-mode .footer, body.view-mode .sheet-actions { display: none !important; }
+  body.view-mode .wrap { max-width: none; padding: 0; }
+  .sheet-view { max-width: none; margin: 0; }
+  .sheet { box-shadow: none; border-radius: 0; padding: 0 1mm; --text: #000; --muted: #333; --line: #999; }
+  .sheet-table thead { display: table-header-group; }
+  .sheet-table tr, .sheet-totals, .sheet-notes li, .sheet-meta { break-inside: avoid; }
+  .sheet h2 { break-after: avoid; }
+  .sheet a { color: inherit; text-decoration: none; }
 }

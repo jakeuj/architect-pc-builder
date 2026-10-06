@@ -58,6 +58,25 @@ test('分享連結編解碼來回一致 (中文品名、數量、各列日期)',
   assert.deepEqual(o.r[2], ['cooler', 11, rows[2].name, 2990, 1, '2026/10/2 14:55']);
 });
 
+test('網址：readLink / linkHash (檢視模式 v=1、q 優先、舊格式判斷)', () => {
+  assert.deepEqual(C.readLink('#v=1&q=1a-_'), { view: true, q: '1a-_', b: null, legacy: false });
+  assert.deepEqual(C.readLink('#q='), { view: false, q: '', b: null, legacy: false });   // 空 q 照樣交給 decodeQuote 報錯
+  assert.deepEqual(C.readLink('#v=1&b=mid'), { view: true, q: null, b: 'mid', legacy: false });
+  assert.equal(C.readLink('#b=mid&cpu=4:22').legacy, true);
+  assert.equal(C.readLink('#v=0&q=x').view, false);
+  assert.deepEqual(C.readLink(''), { view: false, q: null, b: null, legacy: false });
+  assert.equal(C.linkHash({ view: true, q: '1abc' }), '#v=1&q=1abc');
+  assert.equal(C.linkHash({ view: false, q: '1abc', b: 'mid' }), '#q=1abc');
+  assert.equal(C.linkHash({ view: true, b: 'mid' }), '#v=1&b=mid');
+  assert.equal(C.linkHash({ view: true }), '');
+  // 舊版網頁用 URLSearchParams 讀 q：檢視版連結取回的 q 要跟 encodeQuote 原字串一模一樣
+  const s = C.encodeQuote({ n: '中階 & 測試', rows: [{ slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/10/6 11:13' }] });
+  assert.equal(new URLSearchParams(C.linkHash({ view: true, q: s }).slice(1)).get('q'), s);
+  assert.equal(C.readLink(C.linkHash({ view: true, q: s })).q, s);
+  assert.equal(C.commonDate([{ d: 'a' }, { d: 'b' }, { d: 'b' }]), 'b');
+  assert.equal(C.commonDate([]), '');
+});
+
 test('壞掉的連結丟錯 (截斷、非法字元、版本、超長、空)', () => {
   const s = C.encodeQuote({ rows: [{ slot: 'cpu', cat: 4, name: 'x'.repeat(50), price: 1, qty: 1, d: 'd' }] });
   assert.throws(() => C.decodeQuote(s.slice(0, s.length - 9), SLOTS));

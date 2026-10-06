@@ -105,9 +105,9 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 ```
 
 - 新網站預設用深色科技風模板：方案卡、完整品名零件列、搜尋選件面板、桌面固定摘要與手機底部總價／分享列；既有網站依使用者選定的風格改版。介面與驗收細節見 `references/site-ui.md`。
-- 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結、「帶到原價屋估價頁」(POST 品名清單，原價屋官方估價頁預先選好品項與數量，見 `references/coolpc-pages.md`)。`live_url` 有設定才啟用即時抓價。
+- 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結、唯讀估價單檢視頁 (白色紙本單據，可列印／存成 PDF)、「帶到原價屋估價頁」(POST 品名清單，原價屋官方估價頁預先選好品項與數量，見 `references/coolpc-pages.md`)。`live_url` 有設定才啟用即時抓價。
 - 主機零件格只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。其餘分類與被剔除的群組另存 `docs/data-more.json`，網頁切到「全部分類」才載入，可在「其他商品」加任意多件 (螢幕、週邊、第二顆 SSD…)，分享連結一併保存；遊戲專屬等純主機站在 `site.json` 設 `"all_categories": false` 關掉。細節見 `references/site.md`。
-- 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架；搭板 / 裝機價等優惠結束但同型號還在賣的，標「…優惠已結束」並跟同型號原價比，不當成下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
+- 分享按鈕給的是唯讀估價單 `#v=1&q=` (估價單樣式、可列印，「編輯這張估價單」帶同一份資料回編輯模式)；「複製可編輯連結」給 `#q=`，打開直接編輯。`q` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架；搭板 / 裝機價等優惠結束但同型號還在賣的，標「…優惠已結束」並跟同型號原價比，不當成下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
 - 部署：`gh repo create <name> --public --source . --push`，再 `gh api -X POST repos/<owner>/<name>/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/docs'`。使用者的 Pages 綁了自訂網域，實際網址預設是 `https://blog.jakeuj.com/<name>/`（`jakeuj.github.io/<name>/` 會 301 過去）；repo 有 `docs/CNAME` 時以它為準。README 要寫實際網址。push 前先 fetch (見 site.md「部署與 CI 的坑」)。
 - workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/` 資料真的變動時 commit（先 `git add -A` 再比 staged；`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。

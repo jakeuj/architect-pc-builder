@@ -233,8 +233,8 @@ class InitTest(unittest.TestCase):
             parser = AssetParser()
             parser.feed((root / "docs/index.html").read_text(encoding="utf-8"))
             self.assertTrue(parser.assets)
-            for asset in parser.assets:
-                self.assertTrue((root / "docs" / asset).is_file(), asset)
+            for asset in parser.assets:  # ?v= 是快取版本號，檔名在 ? 前面
+                self.assertTrue((root / "docs" / asset.split("?")[0]).is_file(), asset)
             self.assertEqual(parser.site_urls, [])  # 新站尚未決定 URL，不能繼承範例站身分。
 
             (root / "site.json").write_text(json.dumps({"title": "初始化驗收", "builds": ["mid"],

@@ -218,10 +218,15 @@
     return new TextDecoder('utf-8', { fatal: true }).decode(Uint8Array.from(bin, c => c.charCodeAt(0)));
   }
 
+  // 最多列共用的報價日期 (估價單抬頭與連結的 d 都用它)
+  function commonDate(rows) {
+    const cnt = {}; for (const r of rows) cnt[r.d] = (cnt[r.d] || 0) + 1;
+    return Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a])[0] || '';
+  }
+
   // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}]}
   function encodeQuote(q) {
-    const cnt = {}; for (const r of q.rows) cnt[r.d] = (cnt[r.d] || 0) + 1;
-    const d = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a])[0] || '';
+    const d = commonDate(q.rows);
     const o = { d };
     if (q.n) o.n = q.n;
     if (q.b) o.b = q.b;
@@ -261,6 +266,17 @@
     return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
   }
 
+  // 網址 # 後面：v=1 唯讀估價單 (檢視模式)、q 估價單快照、b 預設配置。v 一律放最前，q 優先於 b。
+  // 舊版網頁有 q 時只讀 q、忽略 v，所以 #v=1&q= 在舊頁照樣開編輯模式。legacy = 有其他鍵 (舊格式 #b=mid&cpu=4:22)
+  function readLink(hash) {
+    const P = new URLSearchParams(String(hash || '').replace(/^#/, ''));
+    return { view: P.get('v') === '1', q: P.get('q'), b: P.get('b'), legacy: [...P.keys()].some(k => !['q', 'b', 'v'].includes(k)) };
+  }
+  function linkHash({ view, q, b }) {
+    const main = q ? 'q=' + q : b ? 'b=' + encodeURIComponent(b) : '';
+    return main ? '#' + (view ? 'v=1&' : '') + main : '';
+  }
+
   // ---- 帶單到原價屋官方估價頁 ----
   // 以 Big5 POST iname / icnt 到 evaluate.php，原價屋會照品名預先選好品項與數量；對不到的品名直接略過 (見 references/coolpc-pages.md)
   // lines: [{name, qty}] -> {iname: '<>品名<>…', icnt: '<>數量<>…', count}；同品名合併數量，原價屋的數量選單只到 10
@@ -271,5 +287,5 @@
     return { iname: names.map(n => '<>' + n).join(''), icnt: names.map(n => '<>' + qty.get(n)).join(''), count: names.length };
   }
 
-  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote, evaluateForm };
+  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, commonDate, encodeQuote, decodeQuote, readLink, linkHash, evaluateForm };
 })(typeof window !== 'undefined' ? window : globalThis);

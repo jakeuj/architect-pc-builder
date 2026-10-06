@@ -28,7 +28,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="builder.css">
+<link rel="stylesheet" href="builder.css?v=20261006">
 </head>
 <body>
 <main class="wrap">
@@ -47,9 +47,47 @@
     <p id="load-message">正在讀取零件與預設配置，請稍候。</p>
     <button class="b" id="retry" hidden>重新載入報價</button>
   </section>
+  <section class="sheet-view" id="sheet" aria-labelledby="sheet-title" hidden>
+    <div class="sheet-actions" role="group" aria-label="估價單操作">
+      <button class="b" id="sheet-edit"><span aria-hidden="true">←</span> 編輯這張估價單</button>
+      <div class="sheet-actions-end">
+        <button class="b" id="sheet-copy">複製估價單連結</button>
+        <button class="b" id="sheet-print">列印／存成 PDF</button>
+        <a class="b primary" id="sheet-coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener" title="在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量">帶到原價屋估價頁 <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <article class="sheet">
+      <header class="sheet-head">
+        <div>
+          <p class="sheet-kicker" lang="en">QUOTATION</p>
+          <h1 id="sheet-title" tabindex="-1">估價單</h1>
+        </div>
+        <p class="sheet-issuer"><strong id="sheet-site"></strong><span>原價屋含稅報價整理</span></p>
+      </header>
+      <dl class="sheet-meta" id="sheet-meta"></dl>
+      <table class="sheet-table" role="table">
+        <caption id="sheet-caption"></caption>
+        <colgroup><col class="c-item"><col><col class="c-qty"><col class="c-unit"><col class="c-sub"></colgroup>
+        <thead role="rowgroup"><tr role="row">
+          <th scope="col" role="columnheader">項目</th><th scope="col" role="columnheader">品名</th>
+          <th scope="col" role="columnheader" class="num">數量</th><th scope="col" role="columnheader" class="num">單價</th><th scope="col" role="columnheader" class="num">小計</th>
+        </tr></thead>
+        <tbody id="sheet-rows" role="rowgroup"></tbody>
+      </table>
+      <dl class="sheet-totals" id="sheet-totals"></dl>
+      <section class="sheet-notes" aria-labelledby="sheet-notes-title">
+        <h2 id="sheet-notes-title">備註</h2>
+        <ul id="sheet-notes"></ul>
+      </section>
+      <footer class="sheet-foot">
+        <p>本估價單依原價屋線上估價頁（www.coolpc.com.tw）的含稅報價整理，不是原價屋開立的正式報價；價格、庫存與優惠條件以原價屋結帳為準，任搭折扣於結帳時扣除。相容性提示依品名自動判讀，僅供參考。</p>
+        <p id="sheet-made"></p>
+      </footer>
+    </article>
+  </section>
   <div id="builder" hidden>
     <section aria-labelledby="preset-title">
-      <div class="section-heading"><h2 id="preset-title"><span class="step">01</span>選擇起始配置</h2><span>每個零件都能自由調整</span></div>
+      <div class="section-heading"><h2 id="preset-title" tabindex="-1"><span class="step">01</span>選擇起始配置</h2><span>每個零件都能自由調整</span></div>
       <div class="tabs" id="tabs" aria-label="起始配置"></div>
     </section>
     <div class="workspace">
@@ -81,10 +119,12 @@
         <div class="summary-detail" id="offrow" hidden><span>任搭折扣（結帳再減）</span><strong id="off">–</strong></div>
         <div class="summary-detail" id="netrow" hidden><span>估計實付</span><strong id="net">–</strong></div>
         <div class="btns">
-          <button class="b primary" id="share">複製分享連結 <span aria-hidden="true">↗</span></button>
-          <button class="b" id="copy">複製零件清單</button>
+          <button class="b primary" id="share" title="複製唯讀估價單的連結；對方打開可列印，也能按「編輯這張估價單」改單">複製分享連結 <span aria-hidden="true">↗</span></button>
+          <button class="b" id="preview">預覽估價單</button>
+          <button class="b wide" id="copy">複製零件清單</button>
           <a class="b wide" id="coolpc" href="https://www.coolpc.com.tw/evaluate.php" target="_blank" rel="noopener" title="在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量">帶到原價屋估價頁 <span aria-hidden="true">↗</span></a>
           <div class="summary-secondary">
+            <button class="text-button" id="share-edit">複製可編輯連結</button>
             <button class="text-button" id="reset">重設為預設</button>
             <button class="text-button" id="requote" hidden>全部改用現價</button>
             <button class="b" id="live" hidden>更新最新報價</button>
@@ -108,7 +148,7 @@
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
-        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
+        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
         <li>「帶到原價屋估價頁」會在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量，可以接著在那邊列印或聯絡原價屋。那邊一律是原價屋現價；已下架的品項不會帶入，搭板、裝機價等優惠結束的改帶同型號現行品項。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
@@ -122,7 +162,10 @@
 </main>
 <div class="mobile-bar" id="mobile-bar" hidden>
   <div><span class="summary-label">估價單總計（含稅）</span><strong class="mobile-total" id="mobile-total">–</strong></div>
-  <button class="b primary" id="mobile-share">複製分享連結 <span aria-hidden="true">↗</span></button>
+  <div class="mobile-actions">
+    <button class="b" id="mobile-preview">預覽</button>
+    <button class="b primary" id="mobile-share">複製分享連結 <span aria-hidden="true">↗</span></button>
+  </div>
 </div>
 <dialog id="picker" aria-labelledby="picker-title">
   <div class="picker-shell">
@@ -142,7 +185,7 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js"></script>
+<script src="coolpc-live.js?v=20261006"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -150,6 +193,8 @@
   const arrow = n => (n > 0 ? '▲' : '▼') + fmt(Math.abs(n));
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   const C = CoolPC;
+  // 檢視模式的連結先藏起首頁簡介，載入時不會閃一下；最後由 applyMode() 決定
+  document.body.classList.toggle('view-mode', C.readLink(location.hash).view);
   $('#retry').onclick = () => location.reload();
   const response = await fetch('data.json?' + Date.now());
   if (!response.ok) throw new Error('HTTP ' + response.status);
@@ -211,25 +256,30 @@
   }
   const presets = tabs.slice();
 
-  // 從網址還原：#q=<估價單快照> → #b=<預設配置> → 預設中間那套
-  const P = new URLSearchParams(location.hash.slice(1));
-  let cur = null, startMsg = '';
-  if (P.has('q')) {
+  // 從網址還原：#q=<估價單快照> → #b=<預設配置> → 預設中間那套；前面多 v=1 就先開唯讀估價單 (檢視模式)
+  const L = C.readLink(location.hash);
+  let cur = null, startMsg = '', viewable = false;
+  if (L.q !== null) {
     try {
-      const q = C.decodeQuote(P.get('q'), MORE ? [...D.slots, MORE] : D.slots);
+      const q = C.decodeQuote(L.q, MORE ? [...D.slots, MORE] : D.slots);
       const rows = {}, more = []; for (const s of D.slots) rows[s.key] = null;
       for (const r of q.rows) { const row = mkRow(r.cat, r.name, r.qty, { price: r.price, d: r.d }, r.slot === '+'); if (row.x) more.push(row); else rows[r.slot] = row; }
       const base = presets.find(t => t.key === q.b);
-      cur = { kind: 'shared', key: '_q', label: '分享的估價單', sub: q.n || (base ? base.label : ''), d: q.d, base: q.b, raw: P.get('q'), rows, more, orig: clone({ rows, more }),
+      cur = { kind: 'shared', key: '_q', label: '分享的估價單', sub: q.n || (base ? base.label : ''), d: q.d, base: q.b, raw: L.q, rows, more, orig: clone({ rows, more }),
         note: `這是 ${q.d || '先前'} 的估價單快照：單價是當時的報價，上方列出跟原價屋現價比的漲跌與已下架品項。可以直接改選零件（選件面板是原價屋目前的品項），改過的以現價計；按「複製分享連結」會產生新的連結。` };
       tabs.unshift(cur);
+      viewable = true;
       if (q.dropped) startMsg = `連結裡有 ${q.dropped} 個品項格式不符，已略過`;
     } catch (e) { startMsg = `分享連結無法讀取（${e.message}），先顯示預設配置`; }
   }
   if (!cur) {
-    cur = presets.find(t => t.key === P.get('b')) || presets[Math.min(1, presets.length - 1)];
-    if ([...P.keys()].some(k => k !== 'b' && k !== 'q')) startMsg = '舊版連結的自選零件無法還原（原價屋品項編號會變動），先顯示預設配置';
+    const p = presets.find(t => t.key === L.b);
+    cur = p || presets[Math.min(1, presets.length - 1)];
+    viewable = !!p && L.q === null;
+    if (L.legacy) startMsg = '舊版連結的自選零件無法還原（原價屋品項編號會變動），先顯示預設配置';
   }
+  // 檢視模式只給解得開的分享單或對得到的預設配置；壞連結退回編輯模式，不把預設配置當成別人的估價單顯示
+  let mode = L.view && viewable ? 'view' : 'edit', returnFocus = null, scrollBack = 0;
 
   // 全部分類：開關每位訪客記住；分享單有其他商品時先載入完整型錄再畫，開關開著就背景預載
   let showAll = false;
@@ -419,18 +469,19 @@
   const socket = s => { const m = s.match(/AM4|AM5|1851|1700|1151|1150|4677|4710|sTR5|TRX50|WRX90/); return m ? m[0].replace(/TRX50|WRX90/, 'sTR5') : null; };
   const ddr = s => { const m = s.match(/DDR[345]/); return m ? m[0] : null; };
 
-  function warnings(){
+  // view = 唯讀估價單的備註：下架狀態已標在各列，也不寫「按更換」這類編輯指示
+  function warnings(view){
     const w = [];
     const g = k => cur.rows[k] ? find(cur.rows[k]).item : null;
     const cpu = g('cpu'), mb = g('mb'), ram = g('ram'), vga = g('vga'), cs = g('case'), cl = g('cooler');
-    for (const { label, r } of entries(cur)) if (!find(r).item && !(r.x && !IDXA)) w.push(`${label}「${r.name.slice(0, 30)}…」${goneText(r)}，請按「更換」改選`);
-    if (cur.more.length && !IDXA) w.push('其他商品的現價暫時載入失敗，先以估價單上的報價計；切換「全部分類」可以重試');
+    if (!view) for (const { label, r } of entries(cur)) if (!find(r).item && !(r.x && !IDXA)) w.push(`${label}「${r.name.slice(0, 30)}…」${goneText(r)}，請按「更換」改選`);
+    if (cur.more.length && !IDXA) w.push(view ? '其他商品的現價暫時載入失敗，以估價單上的報價計' : '其他商品的現價暫時載入失敗，先以估價單上的報價計；切換「全部分類」可以重試');
     if (cpu && mb) { const a = socket(cpu.group), b = socket(mb.group); if (a && b && a !== b) w.push(`CPU 腳位 ${a} 與主機板腳位 ${b} 不合`); }
     if (mb && ram) { const a = ddr(mb.group), b = ddr(ram.group); if (a && b && a !== b) w.push(`主機板為 ${a}，記憶體為 ${b}`); }
     if (ram && /單條/.test(ram.group) && cur.rows.ram.qty === 1) w.push('記憶體為單條，僅單通道；建議選雙通道套裝或數量 2');
     if (vga && cs) { const L = num(/\/(\d+(?:\.\d+)?)cm/, vga.name), M = num(/顯卡長?(\d+(?:\.\d+)?)/, cs.name); if (L && M && L > M) w.push(`顯示卡長 ${L}cm 超過機殼限制 ${M}cm`); }
     if (cl && cs && cl.cat === 10) { const H = num(/高(\d+(?:\.\d+)?)cm/, cl.name), M = num(/(?:CPU|U)高(\d+(?:\.\d+)?)/, cs.name); if (H && M && H > M) w.push(`散熱器高 ${H}cm 超過機殼限制 ${M}cm`); }
-    if (cpu && !cl && !/含風扇|MPK|附.*扇/.test(cpu.name)) w.push('此 CPU 不附風扇；沒有沿用舊散熱器的話，請選一顆');
+    if (cpu && !cl && !/含風扇|MPK|附.*扇/.test(cpu.name)) w.push(view ? '此 CPU 不附風扇，單上沒有散熱器；需沿用舊的或另購' : '此 CPU 不附風扇；沒有沿用舊散熱器的話，請選一顆');
     // 已下架的 CPU 查不到 flags，改看品名 (同 coolpc-live.js parse 的搭板判斷)
     const cr = cur.rows.cpu;
     if (cr && (cpu ? cpu.flags.includes('搭板專案') : /搭板|任搭|搭主機板/.test(cr.name)))
@@ -457,6 +508,83 @@
     });
     if (T.diff) li.push(`<li><b>合計 <span class="${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span></b>（$${fmt(T.quoted)} → $${fmt(T.current)}）</li>`);
     el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
+  }
+
+  // ---- 唯讀估價單 (檢視模式，#v=1&q=…) ----
+  // 只重填 #sheet-* 內層：動作列與標題是靜態的，即時報價 / 全部分類載入後重畫時焦點不會掉
+  // 單價與合計照估價單的報價 (pin)；跟現價不同、下架、優惠條件變了的列在品名下加一行小字
+  const quoteName = t => t.kind === 'shared' ? (t.sub || t.label) : t.label + (t.sub ? ' — ' + t.sub : '');
+  const quoteDate = t => (t.kind === 'shared' && !dirty(t) ? t.d : C.commonDate(quoteOf(t).rows)) || SRC.quote_date;
+  const COND_FLAG = /搭板|組裝價|裝機價|限搭機|限組裝|任搭折|限購|訂購/;
+  const money = n => n != null ? '$' + fmt(n) : '–';
+  function renderSheet(){
+    const T = C.totals(allRows(cur), find), qd = quoteDate(cur), list = entries(cur);
+    const pieces = list.reduce((a, { r }) => a + r.qty, 0);
+    let changed = false;
+    document.title = `估價單｜${quoteName(cur)}｜${D.title}`;
+    $('#sheet-site').textContent = D.title;
+    $('#sheet-meta').innerHTML = [
+      ['估價名稱', esc(quoteName(cur))],
+      ['報價日期', esc(qd)],
+      ['現價資料', `原價屋 ${esc(SRC.quote_date)}<span class="d">${SRC.live ? '即時抓取' : '快照'} ${esc(SRC.at)}</span>`],
+      ['品項', `${list.length} 項` + (pieces !== list.length ? `，共 ${pieces} 件` : '')],
+    ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+    $('#sheet-caption').textContent = '估價明細 · 新台幣含稅 · ' + (cur.more.length ? `含其他商品 ${cur.more.length} 件` : '不含作業系統、螢幕與週邊');
+    $('#sheet-rows').innerHTML = list.map(({ label, r }) => {
+      const { it, how, alts, dv, note } = cmp(r);
+      const price = r.pin ? r.pin.price : it ? it.price : null;
+      const sub = [];
+      if (!it) sub.push(`<span class="d gone">${esc(goneText(r))}${alts ? `（同型號另有 ${alts.length} 件）` : ''}</span>`);
+      else if (r.pin) {
+        if (how === 'model') sub.push('<span class="d renamed">原價屋品名已更新（同型號）</span>');
+        if (how === 'variant') { changed = true; sub.push(`<span class="d renamed">${esc(note)}，同型號現價 $${fmt(it.price)}${dv ? ' ' + arrow(dv) : ''}</span>`); }
+        else if (dv) { changed = true; sub.push(`<span class="d ${dv > 0 ? 'up' : 'down'}">現價 $${fmt(it.price)} ${arrow(dv)}</span>`); }
+      }
+      if (r.pin && r.pin.d !== qd) sub.push(`<span class="d">${esc(shortDate(r.pin.d))} 報價</span>`);
+      const tags = it && how !== 'variant' ? it.flags.filter(f => COND_FLAG.test(f)) : [];
+      if (tags.length) sub.push(`<span class="d tags">〔${tags.map(esc).join('・')}〕</span>`);
+      return `<tr role="row"><th scope="row" role="rowheader" class="c-item">${esc(label)}</th>`
+        + `<td role="cell" class="c-name">${esc(r.pin || !it ? r.name : it.name)}${sub.join('')}</td>`
+        + `<td role="cell" class="c-qty num" data-label="數量">${r.qty}</td>`
+        + `<td role="cell" class="c-unit num" data-label="單價">${money(price)}</td>`
+        + `<td role="cell" class="c-sub num" data-label="小計">${money(price != null ? price * r.qty : null)}</td></tr>`;
+    }).join('');
+    const tot = [['合計（含稅）', money(T.quoted), 't-main']];
+    if (T.diff || T.goneCount) tot.push([`以現價計（原價屋 ${esc(SRC.quote_date)}）`, money(T.current)
+      + (T.diff ? `<span class="d inl ${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span>` : '')
+      + (T.goneCount ? `<span class="d">${T.goneCount} 項查無現價，以報價計</span>` : '')]);
+    if (T.off) tot.push(['任搭折扣（結帳再減）', '-' + money(T.off)], ['估計實付' + (T.diff ? '（以現價計）' : ''), money(T.current - T.off), 't-net']);
+    $('#sheet-totals').innerHTML = tot.map(([k, v, c]) => `<div${c ? ` class="${c}"` : ''}><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+    // 備註：購買條件與相容性提醒 (warn)，「OK）」結尾的是資訊；最後補現價說明
+    const w = warnings(true), ul = $('#sheet-notes'); ul.innerHTML = '';
+    const notes = w.length ? w.map(x => [x, /OK）/.test(x) ? '' : 'warn']) : [['未偵測到相容性問題（自動判讀，僅供參考）', '']];
+    if (changed) notes.push([`品名下的「現價 ▲▼」是原價屋 ${SRC.quote_date} 的價格跟這張估價單報價的差額；單價與合計仍是估價單上的報價。`, '']);
+    for (const [x, c] of notes) {
+      const li = document.createElement('li'); li.textContent = x;
+      if (c) li.className = c;
+      ul.appendChild(li);
+    }
+    $('#sheet-made').textContent = `由「${D.title}」產生` + (location.host ? ` · ${location.host}` : '');
+  }
+  // 切換模式只換顯示；網址由 render() 的 syncHash 依 mode 加上 / 拿掉 v=1 (replaceState，不留歷史)
+  function applyMode(){
+    const view = mode === 'view';
+    document.body.classList.toggle('view-mode', view);
+    $('#builder').hidden = $('#mobile-bar').hidden = view;
+    $('#sheet').hidden = !view;
+    if (!view) document.title = D.title;
+  }
+  function setMode(m){
+    if (m === 'view' && isEmpty(cur)) return toast(emptyMsg);
+    if (m === mode) return;
+    if (m === 'view') scrollBack = window.scrollY;
+    mode = m; applyMode(); render();
+    if (m === 'view') { window.scrollTo(0, 0); $('#sheet-title').focus({ preventScroll: true }); return; }
+    // 回編輯：回到按「預覽」前的位置與按鈕；直接開檢視連結進來的就回頁首
+    const back = returnFocus && returnFocus.getClientRects().length ? returnFocus : null;
+    returnFocus = null;
+    window.scrollTo(0, back ? scrollBack : 0);
+    (back || $('#preset-title')).focus({ preventScroll: true });
   }
 
   // 一張零件卡 (主機格與其他商品共用)。id = 卡片代號 (slot key 或 x<序號>)；r = null 為空格
@@ -550,6 +678,7 @@
       if (!w.length || /OK）/.test(x)) li.className = 'ok';
       ul.appendChild(li);
     }
+    if (mode === 'view') { if (isEmpty(cur)) { mode = 'edit'; applyMode(); } else renderSheet(); }
     syncHash();
   }
 
@@ -566,10 +695,11 @@
     return { n: t.kind === 'shared' ? t.sub : t.label, b: t.kind === 'shared' ? t.base : t.key, rows };
   }
   // 沒動過的分享單原樣保留 (不重新編碼)；沒動過的預設配置用 #b= 跟著每小時更新；其餘存成快照
-  // 全部清空的單沒有東西可存 (decodeQuote 也不收)，網址就不帶 #
+  // 全部清空的單沒有東西可存 (decodeQuote 也不收)，網址就不帶 #；檢視模式前面加 v=1
   const isEmpty = t => !allRows(t).length;
-  const hashFor = t => !dirty(t) ? (t.kind === 'shared' ? '#q=' + t.raw : '#b=' + t.key) : isEmpty(t) ? '' : '#q=' + C.encodeQuote(quoteOf(t));
-  const shareUrl = t => location.href.split('#')[0] + (t.kind === 'shared' && !dirty(t) ? '#q=' + t.raw : '#q=' + C.encodeQuote(quoteOf(t)));
+  const hashFor = t => C.linkHash({ view: mode === 'view', ...(!dirty(t) ? (t.kind === 'shared' ? { q: t.raw } : { b: t.key }) : isEmpty(t) ? {} : { q: C.encodeQuote(quoteOf(t)) }) });
+  // 分享一律是快照 (#q=)；view = 唯讀估價單 (#v=1&q=)，否則打開直接是編輯畫面
+  const shareUrl = (t, view) => location.href.split('#')[0] + C.linkHash({ view, q: t.kind === 'shared' && !dirty(t) ? t.raw : C.encodeQuote(quoteOf(t)) });
   let lastHash = location.hash;
   function syncHash(){ const h = hashFor(cur); if (h !== location.hash) history.replaceState(null, '', h || location.pathname + location.search); lastHash = location.hash; }
   // 在同一個分頁貼上別的連結 (只改 # 後面) 時重新載入
@@ -600,19 +730,23 @@
     }
     const T = C.totals(allRows(cur), find);
     lines.push(`總計 $${fmt(T.quoted)}` + (T.diff ? `（以現價計 $${fmt(T.current)} ${arrow(T.diff)}）` : '') + (T.goneCount ? `（${T.goneCount} 項已下架）` : '') + (T.off ? `（任搭折 -${fmt(T.off)} → 約 $${fmt(T.current - T.off)}）` : ''));
-    lines.push(shareUrl(cur));
+    lines.push(shareUrl(cur, true));
     copyText(lines.join('\n'), '已複製清單');
   };
-  $('#share').onclick = $('#mobile-share').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur), '已複製估價單連結');
-  // 帶到原價屋估價頁：Big5 POST 品名清單，原價屋預先選好品項與數量；空單就照連結開空白估價頁
+  $('#share').onclick = $('#mobile-share').onclick = $('#sheet-copy').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur, true), '已複製估價單連結');
+  $('#share-edit').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur, false), '已複製可編輯連結');
+  $('#preview').onclick = $('#mobile-preview').onclick = e => { returnFocus = e.currentTarget; setMode('view'); };
+  $('#sheet-edit').onclick = () => setMode('edit');
+  $('#sheet-print').onclick = () => window.print();
+  // 帶到原價屋估價頁 (摘要與估價單共用)：Big5 POST 品名清單，原價屋預先選好品項與數量；空單就照連結開空白估價頁
   // 對得到現行型錄的列送現行品名 (優惠結束的 variant 是同型號現行那件)；查不到的照樣送原品名，原價屋對不到會略過
-  $('#coolpc').onclick = e => {
+  $('#coolpc').onclick = $('#sheet-coolpc').onclick = e => {
     if (isEmpty(cur)) return;
     e.preventDefault();
     let miss = 0;
     const lines = entries(cur).map(({ r }) => { const it = find(r).item; if (!it) miss++; return { name: it ? it.name : r.name, qty: r.qty }; });
     const f = C.evaluateForm(lines), form = document.createElement('form');
-    Object.assign(form, { method: 'post', action: $('#coolpc').href, target: '_blank', acceptCharset: 'big5' });
+    Object.assign(form, { method: 'post', action: e.currentTarget.href, target: '_blank', acceptCharset: 'big5' });
     form.setAttribute('rel', 'noopener');
     for (const k of ['iname', 'icnt']) { const i = document.createElement('input'); Object.assign(i, { type: 'hidden', name: k, value: f[k] }); form.appendChild(i); }
     document.body.appendChild(form); form.submit(); form.remove();
@@ -641,7 +775,7 @@
   select(cur);
   ready = true;
   $('#load-state').hidden = true;
-  $('#builder').hidden = $('#mobile-bar').hidden = false;
+  applyMode();
   if (startMsg) toast(startMsg, 5000);
 
   // ---- 即時報價：透過 live_url (Cloudflare Worker 代理) 抓原價屋現頁，瀏覽器端解析後整份換掉 ----
@@ -690,6 +824,8 @@
   document.querySelector('#load-state').hidden = false;
   document.querySelector('#builder').hidden = true;
   document.querySelector('#mobile-bar').hidden = true;
+  document.querySelector('#sheet').hidden = true;
+  document.body.classList.remove('view-mode');
   document.querySelector('#load-title').textContent = '暫時無法載入報價';
   document.querySelector('#load-message').textContent = '請檢查網路連線，再重新載入報價。';
   document.querySelector('#meta').textContent = '報價資料尚未載入';
