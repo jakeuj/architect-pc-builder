@@ -81,6 +81,11 @@ python3 -m http.server 8765 --directory docs                               # 本
 
 網站圖示位於 `docs/`：SVG、96px PNG、多尺寸 ICO、180px Apple touch icon 與 manifest 的 192/512px 圖示；分享封面是 `social-preview-v1.png`（1200 × 630），首頁已設定 Open Graph 與 Twitter Card。這些檔案直接隨 GitHub Pages 發布，不依賴報價更新流程。圖稿來源為 `scripts/generate_site_assets.py`；需要重製時安裝 Pillow，再執行 `python3 scripts/generate_site_assets.py`（macOS 預設黑體；其他系統用 `--font` 指定支援繁體中文的字型）。修改分享封面時使用新檔名，並同步首頁 metadata。
 
+## 專案知識圖
+
+[pc.jakeuj.com/graph/](https://pc.jakeuj.com/graph/) 是用 graphify 從本 repo 的程式、文件與驗收截圖產生的關係圖，給想看程式怎麼串起來的人參考；頁面設了 `noindex`，不會出現在搜尋結果，估價網站也沒有入口。
+它不跟每小時的報價流程更新（重建要用 LLM 讀文件與截圖）。程式或文件有大改時，在 Claude Code 跑 `/graphify . --update`，再執行 `python3 scripts/publish_graph.py`：把 `graphify-out/graph.html` 補上手機版面、`noindex` 與返回連結，寫到 `docs/graph/index.html`。
+
 ## 標籤說明
 
 - `搭板專案`：CPU 需與主機板同購才是此價
