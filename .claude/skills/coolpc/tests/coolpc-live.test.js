@@ -59,12 +59,12 @@ test('分享連結編解碼來回一致 (中文品名、數量、各列日期)',
 });
 
 test('網址：readLink / linkHash (檢視模式 v=1、q 優先、舊格式判斷)', () => {
-  assert.deepEqual(C.readLink('#v=1&q=1a-_'), { view: true, q: '1a-_', b: null, legacy: false });
-  assert.deepEqual(C.readLink('#q='), { view: false, q: '', b: null, legacy: false });   // 空 q 照樣交給 decodeQuote 報錯
-  assert.deepEqual(C.readLink('#v=1&b=mid'), { view: true, q: null, b: 'mid', legacy: false });
+  assert.deepEqual(C.readLink('#v=1&q=1a-_'), { view: true, q: '1a-_', b: null, s: null, store: false, legacy: false });
+  assert.deepEqual(C.readLink('#q='), { view: false, q: '', b: null, s: null, store: false, legacy: false });   // 空 q 照樣交給 decodeQuote 報錯
+  assert.deepEqual(C.readLink('#v=1&b=mid'), { view: true, q: null, b: 'mid', s: null, store: false, legacy: false });
   assert.equal(C.readLink('#b=mid&cpu=4:22').legacy, true);
   assert.equal(C.readLink('#v=0&q=x').view, false);
-  assert.deepEqual(C.readLink(''), { view: false, q: null, b: null, legacy: false });
+  assert.deepEqual(C.readLink(''), { view: false, q: null, b: null, s: null, store: false, legacy: false });
   assert.equal(C.linkHash({ view: true, q: '1abc' }), '#v=1&q=1abc');
   assert.equal(C.linkHash({ view: false, q: '1abc', b: 'mid' }), '#q=1abc');
   assert.equal(C.linkHash({ view: true, b: 'mid' }), '#v=1&b=mid');
@@ -104,6 +104,142 @@ test('其他商品 (multi 欄位)：可重複、分類要在清單內、10 格 +
   const rows = [...SLOTS.map(x => ({ slot: x.key, cat: x.cats[0], name: long, price: 9999, qty: 2, d: 'x' })),
     ...Array.from({ length: 40 }, (_, i) => ({ slot: '+', cat: 13, name: long + i, price: 9999, qty: 2, d: 'y' + i }))];
   assert.equal(C.decodeQuote(C.encodeQuote({ rows }), [...SLOTS, MORE]).rows.length, rows.length);
+});
+
+// ---- 店家模式 ----
+const STORE = { name: '吳記電腦', rep: '吳英豪', tel: '0985-378-701', line: 'FatGo99', addr: '台北市市民大道三段8號2樓', tag: '組裝・到府收送' };
+const QROWS = [
+  { slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/9/21 14:51' },
+  { slot: 'vga', cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', price: 11490, qty: 2, d: '2026/9/21 14:51' },
+];
+const encRaw = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
+const rawOf = s => JSON.parse(Buffer.from(s.slice(1), 'base64url').toString());
+
+test('店家：沒有店家資料時編碼跟先前版本逐字相同 (biz 沒有店家也不帶)', () => {
+  // 2026-10-06 加店家模式前 encodeQuote 的輸出
+  const before = '1eyJkIjoiMjAyNi85LzIxIDE0OjUxIiwibiI6IuS4remajiIsImIiOiJtaWQiLCJyIjpbWyJjcHUiLDQsIu-9m0FNRCBSNyA3NzAw772dKOWQq-miqOaJhynjgJA45qC4LzE257eS44CRIiw3OTkwXSxbInZnYSIsMTIsIu-9m-aKgOWYiSBSWDkwNjBYVCBHQU1JTkcgT0MgOEfvvZ0zMzIwTUh6LzI4Y20iLDExNDkwLDJdXX0';
+  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS }), before);
+  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: null, biz: { price: 100 } }), before);
+  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: { name: '  ', rep: '業務' }, biz: { price: 100 } }), before);
+  const q = C.decodeQuote(before, SLOTS);
+  assert.equal(q.issuer, null); assert.equal(q.biz, null);
+});
+
+test('店家：店家資訊與店家報價來回一致，連結欄位精簡', () => {
+  const biz = { price: 30000, ref: 30970, extras: [['組裝費', 0], ['灌 Windows', 500], ['舊機折抵', -2000]], cust: '王先生', until: '2026-10-13', memo: '含三年保固\n\n\n交期 3 天', hide: true };
+  const s = C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz });
+  const q = C.decodeQuote(s, SLOTS);
+  assert.deepEqual(q.rows, QROWS);
+  assert.deepEqual(q.issuer, { ...STORE, line: 'fatgo99' });
+  assert.deepEqual(q.biz, { ...biz, memo: '含三年保固\n\n交期 3 天' });
+  const o = rawOf(s);
+  assert.deepEqual(o.s, ['吳記電腦', '吳英豪', '0985-378-701', 'fatgo99', '台北市市民大道三段8號2樓', '組裝・到府收送']);
+  assert.deepEqual(o.p, [30000, 30970]); assert.equal(o.h, 1); assert.equal(o.c, '王先生');
+  // 尾端空欄位省略；沒填的報價欄位不出現
+  const o2 = rawOf(C.encodeQuote({ rows: QROWS, issuer: { name: '小店', tel: '02-2391-1234' }, biz: { hide: false, extras: [['', 5]], memo: '  ' } }));
+  assert.deepEqual(o2.s, ['小店', '', '02-2391-1234']);
+  for (const k of ['p', 'x', 'c', 'u', 'm', 'h']) assert.equal(k in o2, false, k);
+  assert.ok(s.length < 2500, '一般店家單的連結長度 ' + s.length);
+});
+
+test('店家：舊版網頁看得到的部分 (d / n / b / rows) 有沒有店家欄位都一樣', () => {
+  const plain = C.decodeQuote(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS }), SLOTS);
+  const store = C.decodeQuote(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz: { price: 1 } }), SLOTS);
+  for (const k of ['d', 'n', 'b', 'rows', 'dropped']) assert.deepEqual(store[k], plain[k], k);
+});
+
+test('店家：不合格的欄位只丟該欄，品項照常還原', () => {
+  const r = [['cpu', 4, 'a', 1]];
+  const dec = o => C.decodeQuote(encRaw({ d: 'x', r, ...o }), SLOTS);
+  const xss = '<img src=x onerror=alert(1)>';
+  // 店名必填、不可冒用原價屋；其他欄位各自驗證
+  assert.equal(dec({ s: ['', '業務'] }).issuer, null);
+  assert.equal(dec({ s: ['原價屋光華店'] }).issuer, null);
+  assert.equal(dec({ s: ['CoolPC 分店'] }).issuer, null);
+  assert.equal(dec({ s: 'not-array' }).issuer, null);
+  assert.equal(dec({ s: [123] }).issuer, null);
+  const st = dec({ s: [xss, 'x'.repeat(21), 'javascript:alert(1)', 'bad id with space', '地'.repeat(61), '‮​標語\u0007'] }).issuer;
+  assert.deepEqual(st, { name: xss, rep: '', tel: '', line: '', addr: '', tag: '標語' });   // 文字照收 (畫面一律 esc)，網址類欄位擋掉
+  assert.equal(dec({ s: ['店', '', '12345'] }).issuer.tel, '');            // 少於 6 碼
+  assert.equal(dec({ s: ['店', '', '', 'javascript:alert(1)'] }).issuer.line, '');
+  assert.equal(dec({ s: ['店', '', '', '@abc_123'] }).issuer.line, '@abc_123');
+  // 店家報價：沒有店家就不還原；壞欄位各自丟
+  assert.equal(dec({ p: [100, 100], c: '王先生' }).biz, null);
+  const s = ['店'];
+  assert.equal(dec({ s, p: [-1] }).biz, null);
+  assert.equal(dec({ s, p: [1.5, 1] }).biz, null);
+  assert.equal(dec({ s, p: ['100'] }).biz, null);
+  assert.deepEqual(dec({ s, p: [100, 'x'] }).biz, { price: 100 });       // ref 壞掉 -> 視為需重新確認
+  assert.deepEqual(dec({ s, x: [['組裝', 0], ['', 1], ['折', -1e6 - 1], 'x', ['運費', 1.5], ...Array(10).fill(['服務', 1])] }).biz.extras,
+    [['組裝', 0], ...Array(7).fill(['服務', 1])]);
+  for (const u of ['2026/10/01', '2026-13-01', '2026-02-30', '20261001', 20261001]) assert.equal(dec({ s, u }).biz, null, String(u));
+  assert.equal(dec({ s, u: '2028-02-29' }).biz.until, '2028-02-29');
+  assert.equal(dec({ s, c: '王'.repeat(21) }).biz, null);
+  assert.equal(dec({ s, m: '備'.repeat(201) }).biz, null);
+  assert.equal(dec({ s, h: true }).biz, null);                            // 只認 1
+  assert.equal(dec({ s, h: 1 }).biz.hide, true);
+});
+
+test('店家：normBiz 空值正規化 (有沒有改過用它比)', () => {
+  for (const b of [null, undefined, {}, { cust: '  ' }, { hide: false }, { extras: [] }, { extras: [['  ', 0]] }, { memo: '\n \n' }, { ref: 100 }, { price: null, ref: 5 }])
+    assert.equal(C.normBiz(b), null, JSON.stringify(b));
+  assert.deepEqual(C.normBiz({ price: 0 }), { price: 0 });
+  assert.deepEqual(C.normBiz({ price: 5, ref: 7, cust: ' 王 ', hide: true }), { price: 5, ref: 7, cust: '王', hide: true });
+});
+
+test('店家：bizTotals 本店合計、需重新確認、省多少', () => {
+  assert.deepEqual(C.bizTotals(30970, null), { price: null, stale: false, extras: 0, final: 30970, save: 0 });
+  assert.deepEqual(C.bizTotals(30970, { extras: [['組裝', 500]] }), { price: null, stale: false, extras: 500, final: 31470, save: 0 });
+  assert.deepEqual(C.bizTotals(30970, { price: 30000, ref: 30970, extras: [['組裝', 0], ['折抵', -2000]] }),
+    { price: 30000, stale: false, extras: -2000, final: 28000, save: 970 });
+  assert.equal(C.bizTotals(31000, { price: 30000, ref: 30970 }).stale, true);   // 零件或價格變了
+  assert.equal(C.bizTotals(30970, { price: 30000 }).stale, true);               // 沒有基準 (連結壞掉) 也要確認
+  assert.equal(C.bizTotals(30000, { price: 32000, ref: 30000 }).save, -2000);  // 本店價比原價屋貴
+});
+
+test('店家：撥號 / LINE 連結與有效期限', () => {
+  assert.equal(C.telHref('0985-378-701'), 'tel:0985378701');
+  assert.equal(C.telHref('+886 2 2391-1234 #123'), 'tel:+886223911234');
+  assert.equal(C.telHref('(02)2391-1234'), 'tel:0223911234');
+  for (const t of ['javascript:alert(1)', '12345', '', null, '02-2391-1234;ext']) assert.equal(C.telHref(t), null, String(t));
+  assert.equal(C.lineHref('FatGo99'), 'https://line.me/ti/p/~fatgo99');
+  assert.equal(C.lineHref('@abc_123'), 'https://line.me/R/ti/p/%40abc_123');
+  for (const l of ['javascript:alert(1)', 'ab', 'a b c', 'x'.repeat(21), '', undefined, '@@abc']) assert.equal(C.lineHref(l), null, String(l));
+  const now = new Date(2026, 9, 6, 23, 59);
+  assert.equal(C.isoDate(now), '2026-10-06');
+  assert.equal(C.isExpired('2026-10-06', now), false);   // 當天還有效
+  assert.equal(C.isExpired('2026-10-05', now), true);
+  assert.equal(C.isExpired('', now), false);
+  assert.equal(C.isExpired('2026/10/05', now), false);
+});
+
+test('店家：設定連結編解碼與網址判斷', () => {
+  const s = C.encodeStore({ ...STORE, rep: '' });
+  assert.match(s, /^1[A-Za-z0-9_-]+$/);
+  assert.deepEqual(C.decodeStore(s), { ...STORE, rep: '', line: 'fatgo99' });
+  assert.throws(() => C.encodeStore({ rep: '只有業務' }), /店名/);
+  assert.throws(() => C.decodeStore(''), /長度/);
+  assert.throws(() => C.decodeStore('2' + s.slice(1)), /版本/);
+  assert.throws(() => C.decodeStore(s.slice(0, -5)));
+  assert.throws(() => C.decodeStore('1' + Buffer.from('["原價屋"]').toString('base64url')), /店名/);
+  assert.throws(() => C.decodeStore('1' + Buffer.from('{"name":"店"}').toString('base64url')), /店名/);   // 只收陣列
+  assert.deepEqual(C.readLink('#s=' + s), { view: false, q: null, b: null, s, store: false, legacy: false });
+  assert.deepEqual(C.readLink('#store'), { view: false, q: null, b: null, s: null, store: true, legacy: false });
+  assert.equal(C.readLink('#b=mid&cpu=4:22').legacy, true);
+});
+
+test('店家：最大的單 (10 格 + 40 件 + 店家欄位填滿) 仍在連結上限內', () => {
+  const MORE = { key: '+', label: '其他商品', cats: [13], multi: true };
+  const slots = [...Array.from({ length: 10 }, (_, i) => ({ key: 's' + i, label: 'S' + i, cats: [4] })), MORE];
+  const long = '｛某品牌 27吋 2K 180Hz IPS 電競螢幕｝' + '規'.repeat(150);
+  const rows = [...Array.from({ length: 10 }, (_, i) => ({ slot: 's' + i, cat: 4, name: long, price: 9999, qty: 2, d: 'x' })),
+    ...Array.from({ length: 40 }, (_, i) => ({ slot: '+', cat: 13, name: long + i, price: 9999, qty: 2, d: 'y' + i }))];
+  const issuer = { name: '店'.repeat(30), rep: '業'.repeat(20), tel: '0'.repeat(24), line: 'a'.repeat(20), addr: '地'.repeat(60), tag: '標'.repeat(40) };
+  const biz = { price: 1e7, ref: 1e7, extras: Array(8).fill(['服'.repeat(20), 1e6]), cust: '客'.repeat(20), until: '2026-12-31', memo: '備'.repeat(200), hide: true };
+  const s = C.encodeQuote({ rows, issuer, biz });
+  assert.ok(s.length < 40000, '長度 ' + s.length);
+  const q = C.decodeQuote(s, slots);
+  assert.equal(q.rows.length, 50); assert.equal(q.biz.extras.length, 8); assert.equal(q.issuer.addr.length, 60);
 });
 
 test('select / selectRest：主機型錄剔除群組與品項，補集剛好是剩下的', () => {

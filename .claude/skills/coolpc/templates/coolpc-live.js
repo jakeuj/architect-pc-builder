@@ -208,6 +208,7 @@
 
   // 分享連結：'1' + base64url(UTF-8 JSON)。'1' 是格式版本 (日後要壓縮可用別的字首)
   // JSON = {d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}；d 取最多列共用的報價日期，同 d / qty=1 的尾欄省略
+  // 店家單另有選用欄位 (舊版網頁會忽略)：s 店家資訊、p [本店價, 填價時的原價屋合計]、x 服務列、c 客戶稱呼、u 有效期限、m 備註、h 隱藏原價屋單價
   function b64urlEncode(str) {
     let bin = ''; for (const b of new TextEncoder().encode(str)) bin += String.fromCharCode(b);
     return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -224,12 +225,111 @@
     return Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a])[0] || '';
   }
 
-  // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}]}
+  // ---- 店家模式 ----
+  // 店家資訊 = {name 店名, rep 業務, tel 電話, line LINE ID, addr 地址, tag 標語}；連結裡存成同順序的陣列，尾端空字串省略
+  // 連結內容任何人都能捏造：一律清掉控制 / 零寬 / bidi 字元再驗證，不合格的欄位只丟該欄
+  const STORE_KEYS = ['name', 'rep', 'tel', 'line', 'addr', 'tag'];
+  const STORE_MAX = { name: 30, rep: 20, tel: 24, line: 21, addr: 60, tag: 40 };
+  const INVISIBLE = /[\u0000-\u001f\u007f-\u009f­؜​-‏‪-‮⁠-⁤⁦-⁩﻿]/g;
+  const clean = (v, max) => { const s = typeof v === 'string' ? v.replace(INVISIBLE, '').trim() : ''; return s.length <= max ? s : ''; };
+  // 備註可以換行：逐行清理，連續空行最多留一行
+  const cleanMemo = (v, max) => {
+    if (typeof v !== 'string') return '';
+    const s = v.replace(/\r\n?/g, '\n').split('\n').map(l => l.replace(INVISIBLE, '').trimEnd()).join('\n').replace(/\n{3,}/g, '\n\n').trim();
+    return s.length <= max ? s : '';
+  };
+  const cleanTel = v => { const s = clean(v, STORE_MAX.tel); return /^[0-9+\-()#\s]*$/.test(s) && (s.match(/\d/g) || []).length >= 6 ? s : ''; };
+  const cleanLine = v => { const s = clean(v, STORE_MAX.line).toLowerCase(); return /^@?[a-z0-9._-]{3,20}$/.test(s) ? s : ''; };
+  // 陣列 (連結) 或物件 (本機設定) -> 物件；沒有店名就不算店家 (回 null)。店名不可冒用原價屋
+  function cleanStore(a) {
+    const src = Array.isArray(a) ? Object.fromEntries(STORE_KEYS.map((k, i) => [k, a[i]])) : a && typeof a === 'object' ? a : {};
+    const o = { name: clean(src.name, STORE_MAX.name), rep: clean(src.rep, STORE_MAX.rep), tel: cleanTel(src.tel), line: cleanLine(src.line),
+      addr: clean(src.addr, STORE_MAX.addr), tag: clean(src.tag, STORE_MAX.tag) };
+    if (/原價屋|coolpc/i.test(o.name)) o.name = '';
+    return o.name ? o : null;
+  }
+  function storeArray(s) {
+    const a = STORE_KEYS.map(k => s[k] || '');
+    while (a.length && !a[a.length - 1]) a.pop();
+    return a;
+  }
+
+  // 每張單的店家報價 biz = {price 本店價, ref 填價時的原價屋合計, extras [[名稱, 金額]], cust 客戶稱呼, until 'YYYY-MM-DD', memo, hide}
+  // normBiz 去掉空值與不合格欄位 (分享與「有沒有改過」都用它比)，什麼都沒有就回 null
+  const MAX_EXTRAS = 8;
+  const isInt = (v, lo, hi) => Number.isInteger(v) && v >= lo && v <= hi;
+  function validDate(s) {
+    const m = typeof s === 'string' && s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return false;
+    const t = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    return t.getUTCFullYear() === +m[1] && t.getUTCMonth() === +m[2] - 1 && t.getUTCDate() === +m[3];
+  }
+  function normBiz(b) {
+    if (!b || typeof b !== 'object') return null;
+    const o = {};
+    if (isInt(b.price, 0, 1e8)) { o.price = b.price; if (isInt(b.ref, 0, 1e8)) o.ref = b.ref; }
+    const extras = (Array.isArray(b.extras) ? b.extras : []).filter(e => Array.isArray(e) && clean(e[0], 20) && isInt(e[1], -1e6, 1e6))
+      .slice(0, MAX_EXTRAS).map(e => [clean(e[0], 20), e[1]]);
+    if (extras.length) o.extras = extras;
+    const cust = clean(b.cust, 20); if (cust) o.cust = cust;
+    if (validDate(b.until)) o.until = b.until;
+    const memo = cleanMemo(b.memo, 200); if (memo) o.memo = memo;
+    if (b.hide === true) o.hide = true;
+    return Object.keys(o).length ? o : null;
+  }
+  // quoted = 原價屋合計 (totals().quoted)。本店合計 final = (本店價，沒填用原價屋合計) + 服務列
+  // stale = 有本店價但零件或價格變了 (原價屋合計跟填價時不同)；save = 比原價屋合計省多少 (可能是負的)
+  function bizTotals(quoted, biz) {
+    const b = normBiz(biz) || {};
+    const extras = (b.extras || []).reduce((a, e) => a + e[1], 0);
+    const has = b.price != null;
+    return { price: has ? b.price : null, stale: has && b.ref !== quoted, extras, final: (has ? b.price : quoted) + extras, save: has ? quoted - b.price : 0 };
+  }
+  // 撥號 / 加 LINE 好友：href 一律由這裡產生，值不合格回 null
+  function telHref(tel) {
+    const n = cleanTel(tel).split('#')[0].replace(/[^\d+]/g, '');
+    return (n.match(/\d/g) || []).length >= 6 ? 'tel:' + n : null;
+  }
+  function lineHref(id) {
+    const v = cleanLine(id);
+    return !v ? null : v[0] === '@' ? 'https://line.me/R/ti/p/%40' + v.slice(1) : 'https://line.me/ti/p/~' + v;
+  }
+  // 'YYYY-MM-DD' (本地時間)；isExpired = 有效期限那天過完了
+  const isoDate = (t = new Date()) => `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
+  const isExpired = (until, now = new Date()) => validDate(until) && until < isoDate(now);
+
+  // 店家設定連結 (老闆傳給員工)：#s=1<base64url(JSON 店家資訊陣列)>
+  function encodeStore(store) {
+    const s = cleanStore(store);
+    if (!s) throw new Error('請先填店名');
+    return '1' + b64urlEncode(JSON.stringify(storeArray(s)));
+  }
+  function decodeStore(str) {
+    if (!str || str.length > 2000) throw new Error('連結長度不對');
+    if (str[0] !== '1') throw new Error('不支援的連結版本');
+    let a;
+    try { a = JSON.parse(b64urlDecode(str.slice(1))); } catch (e) { throw new Error('連結不完整，可能在複製時被截斷'); }
+    const s = Array.isArray(a) ? cleanStore(a) : null;
+    if (!s) throw new Error('設定連結裡沒有店名');
+    return s;
+  }
+
+  // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}], issuer?, biz?}；沒有店家 (issuer) 時不帶店家報價
   function encodeQuote(q) {
     const d = commonDate(q.rows);
     const o = { d };
     if (q.n) o.n = q.n;
     if (q.b) o.b = q.b;
+    const s = q.issuer && cleanStore(q.issuer), b = s && normBiz(q.biz);
+    if (s) o.s = storeArray(s);
+    if (b) {
+      if (b.price != null) o.p = b.ref != null ? [b.price, b.ref] : [b.price];
+      if (b.extras) o.x = b.extras;
+      if (b.cust) o.c = b.cust;
+      if (b.until) o.u = b.until;
+      if (b.memo) o.m = b.memo;
+      if (b.hide) o.h = 1;
+    }
     o.r = q.rows.map(r => {
       const a = [r.slot, r.cat, r.name, r.price, r.qty, r.d];
       if (a[5] === d) a.pop(); else return a;
@@ -240,7 +340,7 @@
   }
 
   // 解析分享連結；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類；multi: true 的欄位可重複 (其他商品)。
-  // 回傳 {d, n, b, rows: [{slot, cat, name, price, qty, d}], dropped}
+  // 回傳 {d, n, b, rows: [{slot, cat, name, price, qty, d}], dropped, issuer, biz}；issuer / biz 沒有或不合格為 null
   function decodeQuote(s, slots) {
     if (!s || s.length > 40000) throw new Error('連結長度不對');
     if (s[0] !== '1') throw new Error('不支援的連結版本');
@@ -263,14 +363,19 @@
       rows.push({ slot: a[0], cat: a[1], name: a[2], price: a[3], qty, d: str(a[5], 32) || d });
     }
     if (!rows.length) throw new Error('連結裡沒有可用的品項');
-    return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
+    const issuer = Array.isArray(o.s) ? cleanStore(o.s) : null;
+    const p = Array.isArray(o.p) ? o.p : [];
+    const biz = issuer && normBiz({ price: p[0], ref: p[1], extras: o.x, cust: o.c, until: o.u, memo: o.m, hide: o.h === 1 });
+    return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped, issuer, biz: biz || null };
   }
 
   // 網址 # 後面：v=1 唯讀估價單 (檢視模式)、q 估價單快照、b 預設配置。v 一律放最前，q 優先於 b。
   // 舊版網頁有 q 時只讀 q、忽略 v，所以 #v=1&q= 在舊頁照樣開編輯模式。legacy = 有其他鍵 (舊格式 #b=mid&cpu=4:22)
+  // s = 店家設定連結 (encodeStore)；store = #store 直接開店家設定
   function readLink(hash) {
     const P = new URLSearchParams(String(hash || '').replace(/^#/, ''));
-    return { view: P.get('v') === '1', q: P.get('q'), b: P.get('b'), legacy: [...P.keys()].some(k => !['q', 'b', 'v'].includes(k)) };
+    return { view: P.get('v') === '1', q: P.get('q'), b: P.get('b'), s: P.get('s'), store: P.has('store'),
+      legacy: [...P.keys()].some(k => !['q', 'b', 'v', 's', 'store'].includes(k)) };
   }
   function linkHash({ view, q, b }) {
     const main = q ? 'q=' + q : b ? 'b=' + encodeURIComponent(b) : '';
@@ -287,5 +392,6 @@
     return { iname: names.map(n => '<>' + n).join(''), icnt: names.map(n => '<>' + qty.get(n)).join(''), count: names.length };
   }
 
-  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, commonDate, encodeQuote, decodeQuote, readLink, linkHash, evaluateForm };
+  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, commonDate, encodeQuote, decodeQuote, readLink, linkHash, evaluateForm,
+    STORE_KEYS, MAX_EXTRAS, cleanStore, normBiz, bizTotals, telHref, lineHref, isoDate, isExpired, encodeStore, decodeStore };
 })(typeof window !== 'undefined' ? window : globalThis);

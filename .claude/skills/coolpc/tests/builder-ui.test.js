@@ -85,3 +85,60 @@ test('其他商品新增／合併沿用 pin，替換重複拒絕，數量上限�
   const restored = U.previewCandidate(s, { index: null }, { cat: 6, name: 'old' }, find, C.totals);
   assert.equal(restored.delta, 80); assert.equal(restored.selection.more[1].qty, 1);
 });
+
+// ---- 店家模式 ----
+test('店家歸屬：本機店家只能編輯自己的單，別家店的單維持原店家', () => {
+  const mine = { on: true, name: '吳記 電腦' }, off = { ...mine, on: false };
+  const plain = { issuer: null }, same = { issuer: { name: '吳記電腦' } }, other = { issuer: { name: '別家店' } };
+  assert.equal(U.sameStore({ name: 'ＡＢＣ 電腦' }, { name: 'abc電腦' }), true);
+  assert.equal(U.sameStore({ name: '' }, { name: '' }), false);
+  assert.equal(U.storeOn({ on: true, name: '  ' }), false);
+  const cases = [  // [profile, tab, owned, issuerFor]
+    [mine, plain, true, mine], [mine, same, true, mine], [mine, other, false, other.issuer],
+    [off, plain, false, null], [off, same, false, same.issuer], [off, other, false, other.issuer],
+    [null, plain, false, null], [null, other, false, other.issuer],
+  ];
+  for (const [profile, tab, own, issuer] of cases) {
+    assert.equal(U.owned(profile, tab), own);
+    assert.equal(U.issuerFor(profile, tab), issuer);
+  }
+});
+
+test('金額輸入：千分位、全形、錢字號、負數，看不懂回 null', () => {
+  assert.equal(U.parseMoney('52,900'), 52900);
+  assert.equal(U.parseMoney('５２９００'), 52900);
+  assert.equal(U.parseMoney(' $1,200 元'), 1200);
+  assert.equal(U.parseMoney('-2000'), -2000);
+  assert.equal(U.parseMoney('0'), 0);
+  assert.equal(U.parseMoney('-0'), 0);
+  for (const v of ['', '  ', '-', '1.5', 'abc', '1e5', null, undefined, '1234567890']) assert.equal(U.parseMoney(v), null, String(v));
+});
+
+test('複製給客戶的訊息：店家資訊、本店價、服務列；隱藏模式不出現原價屋金額', () => {
+  const store = { name: '吳記電腦', rep: '吳英豪', tel: '0985-378-701', line: 'fatgo99', addr: '台北市市民大道三段8號2樓' };
+  const lines = [{ label: 'CPU', name: 'AMD R7 7700', qty: 1, price: 7990 }, { label: '顯示卡', name: '技嘉 RX9060XT', qty: 2, price: 11490 }];
+  const biz = { price: 30000, ref: 30970, extras: [['組裝費', 0], ['灌 Windows', 500]], cust: '王先生' };
+  const totals = C.bizTotals(30970, biz);
+  const text = U.storeMessage({ store, biz, totals, quoted: 30970, lines, url: 'https://example.test/#v=1&q=1abc', until: '10/13' });
+  const out = text.split('\n');
+  assert.equal(out[0], '王先生您好，這是「吳記電腦」為您準備的電腦估價：');
+  assert.ok(out.includes('顯示卡：技嘉 RX9060XT ×2  $22,980'));
+  assert.ok(out.includes('原價屋合計 $30,970'));
+  assert.ok(out.includes('本店價 $30,000（省 $970）'));
+  assert.ok(out.includes('組裝費 免費'));
+  assert.ok(out.includes('本店合計 $30,500'));
+  assert.ok(out.includes('報價有效至 10/13'));
+  assert.ok(out.includes('估價單：https://example.test/#v=1&q=1abc'));
+  assert.equal(out.at(-2), '業務 吳英豪｜電話 0985-378-701｜LINE fatgo99');
+  assert.equal(out.at(-1), '吳記電腦｜台北市市民大道三段8號2樓');
+  // 隱藏原價屋單價：只剩本店價、服務列與本店合計
+  const hidden = U.storeMessage({ store: { name: '小店' }, biz: { ...biz, hide: true }, totals, quoted: 30970, lines, url: 'u' });
+  for (const n of ['7,990', '22,980', '30,970', '970）']) assert.ok(!hidden.includes(n), n);
+  assert.ok(hidden.includes('顯示卡：技嘉 RX9060XT ×2\n'));
+  assert.ok(!hidden.includes('業務'));
+  // 本店價需重新確認、沒有本店價時本店合計 = 原價屋合計 + 服務列
+  assert.match(U.storeMessage({ store, biz, totals: C.bizTotals(31000, biz), quoted: 31000, lines, url: 'u' }), /本店價請再與我們確認/);
+  const noPrice = U.storeMessage({ store, biz: { extras: [['運費', 300]] }, totals: C.bizTotals(30970, { extras: [['運費', 300]] }), quoted: 30970, lines, url: 'u' });
+  assert.ok(!noPrice.includes('本店價 ')); assert.match(noPrice, /本店合計 \$31,270/);
+  assert.match(noPrice, /^這是「吳記電腦」/);
+});

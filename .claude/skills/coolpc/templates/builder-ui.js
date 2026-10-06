@@ -64,7 +64,46 @@
     return { ...result, delta: totals(rowsOf(result.selection), find).quoted - totals(rowsOf(state), find).quoted };
   }
 
-  const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate };
+  // ---- 店家模式 ----
+  // profile = 本機店家資料 {on, name, rep, tel, line, addr, tag}；tab.issuer = 分享連結帶來的店家
+  // 同一家店：店名正規化後相同 (大小寫、全半形、空白不計)
+  const storeKey = store => normalize(store && store.name).replace(/\s+/g, '');
+  const sameStore = (a, b) => !!storeKey(a) && storeKey(a) === storeKey(b);
+  const storeOn = profile => !!(profile && profile.on && storeKey(profile));
+  // 自己的單：店家模式開著，而且這張單沒有店家或就是本店；別家店的單只能看，不能改成自己的報價再轉傳
+  const owned = (profile, tab) => storeOn(profile) && (!tab.issuer || sameStore(tab.issuer, profile));
+  const issuerFor = (profile, tab) => owned(profile, tab) ? profile : tab.issuer || null;
+
+  // '52,900'、'$1,200'、全形數字 -> 整數；空白或看不懂回 null (負號給服務列的折抵用)
+  function parseMoney(value) {
+    const text = String(value ?? '').normalize('NFKC').replace(/[\s,$元]/g, '');
+    if (!/^-?\d{1,9}$/.test(text)) return null;
+    return Number(text) || 0;
+  }
+
+  // 複製給客戶的訊息：o = {store, biz (normBiz 後), totals (bizTotals), quoted, lines: [{label, name, qty, price}], url, until?}
+  // hide (隱藏原價屋單價) 時不出現任何原價屋金額
+  function storeMessage({ store, biz, totals, quoted, lines, url, until }) {
+    const money = n => (n < 0 ? '-$' : '$') + Math.abs(n).toLocaleString('zh-Hant-TW');
+    const b = biz || {}, hide = !!b.hide, out = [];
+    out.push(`${b.cust ? b.cust + '您好，' : ''}這是「${store.name}」為您準備的電腦估價：`);
+    for (const line of lines) out.push(`${line.label}：${line.name}${line.qty > 1 ? ' ×' + line.qty : ''}${hide ? '' : '  ' + money(line.price * line.qty)}`);
+    out.push('');
+    if (!hide) out.push(`原價屋合計 ${money(quoted)}`);
+    if (totals.price != null) out.push(`本店價 ${money(totals.price)}` + (!hide && totals.save > 0 ? `（省 ${money(totals.save)}）` : ''));
+    for (const [name, amount] of b.extras || []) out.push(`${name} ${amount ? money(amount) : '免費'}`);
+    out.push(`本店合計 ${money(totals.final)}`);
+    if (totals.stale) out.push('（零件或價格已變動，本店價請再與我們確認）');
+    if (until) out.push(`報價有效至 ${until}`);
+    out.push('', '估價單：' + url);
+    const contact = [store.rep && '業務 ' + store.rep, store.tel && '電話 ' + store.tel, store.line && 'LINE ' + store.line].filter(Boolean);
+    if (contact.length) out.push(contact.join('｜'));
+    if (store.addr) out.push(store.name + '｜' + store.addr);
+    return out.join('\n');
+  }
+
+  const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
+    sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);
