@@ -77,7 +77,7 @@
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
-        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
+        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址：任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）；可以直接改單，改過的品項以現價計，再分享就是新的連結。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
       </ul>
     </details>
@@ -121,8 +121,9 @@
   let CAT = D.categories;          // 現行型錄；即時更新時整個換掉
   let IDX = C.indexCatalog(CAT);   // 分類 + 品名 -> 品項 (option id 每次抓價都會變，不能當鍵)
   const find = r => C.reconcile(r, IDX);
-  // 列跟現行型錄比：dv = 現價 − 鎖定的報價 (分享當時的價格)；it 為 null = 已下架
-  const cmp = r => { const { item: it, how } = find(r); return { it, how, dv: it && r.pin ? it.price - r.pin.price : 0 }; };
+  // 列跟現行型錄比：dv = 現價 − 鎖定的報價 (分享當時的價格)；it 為 null = 已下架 (alts = 同型號但挑不出唯一一件)
+  // how === 'variant'：同型號還在賣但價格條件變了 (搭板優惠結束…)，it 是同型號現行那件，note 說明怎麼變
+  const cmp = r => { const { item: it, how, alts } = find(r); return { it, how, alts, dv: it && r.pin ? it.price - r.pin.price : 0, note: how === 'variant' ? C.condNote(r.name, it.name) : '' }; };
 
   // 目前型錄來源：快照 (data.json) 或即時抓取
   const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
@@ -209,6 +210,7 @@
 
   // 已下架：目前型錄查不到。快照比型錄還新時 (即時報價還沒載入) 可能只是型錄太舊
   const goneText = r => r.pin && C.parseQD(r.pin.d) > C.parseQD(SRC.quote_date) ? `目前價格資料（${SRC.quote_date}）查無，可能是較新的品項` : '已下架';
+  const altsText = alts => alts ? `；同型號還有 ${alts.length} 件，請按「更換」挑選` : '';
 
   const iconPaths = {
     cpu: '<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/><rect x="9" y="9" width="6" height="6" rx="1"/>',
@@ -238,7 +240,9 @@
     const f = $('#picker-search').value.trim().toLowerCase();
     const results = $('#picker-results');
     const current = cur.rows[pickerSlot.key];
-    const currentItem = current ? find(current).item : null;
+    const cm = current ? find(current) : null;
+    // variant 的列是原本報價的品項 (例如搭板價)，同型號現行那件另外標示，不算目前選擇
+    const currentItem = cm && cm.how !== 'variant' ? cm.item : null, sameModel = cm && cm.how === 'variant' ? cm.item : null;
     results.replaceChildren();
     let count = 0;
     for (const c of pickerSlot.cats.map(id => CAT[id]).filter(Boolean)) for (const g of c.groups) {
@@ -250,9 +254,10 @@
       for (const it of items) {
         count++;
         const selected = currentItem && C.key(currentItem.cat, currentItem.name) === C.key(c.id, it.name);
+        const same = sameModel && C.key(sameModel.cat, sameModel.name) === C.key(c.id, it.name);
         const button = document.createElement('button'); button.className = 'picker-item';
         button.setAttribute('aria-pressed', String(!!selected));
-        button.innerHTML = `<span class="picker-name">${esc(it.name)}</span><span class="flags">${flagsOf(it)}</span><span class="picker-price">$${fmt(it.price)}<small>${selected ? '目前選擇 ✓' : '選擇此零件 ↗'}</small></span>`;
+        button.innerHTML = `<span class="picker-name">${esc(it.name)}</span><span class="flags">${flagsOf(it)}</span><span class="picker-price">$${fmt(it.price)}<small>${selected ? '目前選擇 ✓' : same ? '同型號現行品項 ↗' : '選擇此零件 ↗'}</small></span>`;
         button.onclick = () => { chooseItem(pickerSlot, c.id, it.name); picker.close(); };
         results.appendChild(button);
       }
@@ -268,9 +273,10 @@
     pickerSlot = slot;
     $('#picker-title').textContent = '選擇' + slot.label;
     const r = cur.rows[slot.key];
-    const it = r ? find(r).item : null;
-    $('#picker-current').textContent = r ? `目前選擇：${it ? it.name : r.name}` : '目前未選擇，從下方型錄新增零件。';
-    $('#picker-search').value = '';
+    const m = r ? find(r) : null;
+    $('#picker-current').textContent = r ? `目前選擇：${m.item && m.how !== 'variant' ? m.item.name : r.name}` : '目前未選擇，從下方型錄新增零件。';
+    // 已下架但同型號有多件：先用型號篩選，方便挑
+    $('#picker-search').value = m && !m.item && m.alts ? C.modelOf(r.name) : '';
     renderPicker();
     picker.showModal();
     $('#picker-search').focus({ preventScroll: true });
@@ -308,16 +314,17 @@
   function changes(pinned, T){
     const el = $('#chg');
     if (cur.kind !== 'shared' || !pinned.length) { el.hidden = true; return; }
-    const moved = pinned.filter(x => !x.it || x.dv);
+    const moved = pinned.filter(x => !x.it || x.dv || x.how === 'variant');  // variant 價格沒變也列：條件變了
     const head = `<b>跟分享時的報價（${esc(cur.d || '先前')}）比</b><span class="small">現價取自原價屋 ${esc(SRC.quote_date)}（${SRC.live ? '即時' : '快照'}）；▲▼ 是跟這張單的報價比，不是原價屋品名裡的「▼下殺」或「價格異動」</span>`;
     el.hidden = false; el.classList.toggle('same', !moved.length);
     if (!moved.length) { el.innerHTML = head + '<ul><li>價格都一樣，沒有漲跌</li></ul>'; return; }
-    const li = moved.map(({ s, r, it, dv }) => {
+    const li = moved.map(({ s, r, it, how, alts, dv, note }) => {
       const when = r.pin.d !== cur.d ? `（${esc(shortDate(r.pin.d))} 報價）` : '';
-      if (!it) return `<li>${esc(s.label)}：<span class="gone">${esc(goneText(r))}</span>，仍以報價 $${fmt(r.pin.price)} 計${when}</li>`;
+      if (!it) return `<li>${esc(s.label)}：<span class="gone">${esc(goneText(r))}</span>，仍以報價 $${fmt(r.pin.price)} 計${esc(altsText(alts))}${when}</li>`;
       const c = dv > 0 ? 'up' : 'down';
-      const q = r.qty > 1 ? ` ×${r.qty}，小計 <span class="${c}">${arrow(dv * r.qty)}</span>` : '';
-      return `<li>${esc(s.label)}：$${fmt(r.pin.price)} → $${fmt(it.price)} <span class="${c}">${arrow(dv)}</span>${q}${when}</li>`;
+      const q = r.qty > 1 && dv ? ` ×${r.qty}，小計 <span class="${c}">${arrow(dv * r.qty)}</span>` : '';
+      const v = how === 'variant' ? `<span class="renamed">${esc(note)}</span>，` : '';
+      return `<li>${esc(s.label)}：${v}$${fmt(r.pin.price)} → ${how === 'variant' ? '同型號現價 ' : ''}$${fmt(it.price)} ${dv ? `<span class="${c}">${arrow(dv)}</span>` : '（價格沒變）'}${q}${when}</li>`;
     });
     if (T.diff) li.push(`<li><b>合計 <span class="${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span></b>（$${fmt(T.quoted)} → $${fmt(T.current)}）</li>`);
     el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
@@ -329,18 +336,21 @@
     const pinned = [];  // 鎖價列，給上方的漲跌摘要
     for (const s of D.slots) {
       const r = cur.rows[s.key];
-      const { it, how, dv } = r ? cmp(r) : { it: null, how: null, dv: 0 };
+      const { it, how, alts, dv, note } = r ? cmp(r) : { it: null, how: null, dv: 0 };
       const price = r ? (r.pin ? r.pin.price : it ? it.price : null) : null;
-      if (r && r.pin) pinned.push({ s, r, it, dv });
+      if (r && r.pin) pinned.push({ s, r, it, how, alts, dv, note });
       // 單價欄：主數字是估價單上的價格，底下標日期 (與這張單的日期不同時)、比報價日的漲跌、已下架
       let sub = '';
       if (r && r.pin && r.pin.d !== cur.d && !dv) sub += `<span class="d">${esc(shortDate(r.pin.d))} 報價</span>`;
-      if (r && !it) sub += `<span class="d gone">${esc(goneText(r))}</span>`;
+      if (r && !it) sub += `<span class="d gone">${esc(goneText(r) + altsText(alts))}</span>`;
       else if (r && r.pin) {
         if (how === 'model') sub += '<span class="d renamed">同型號・品名有變</span>';
-        if (dv) sub += `<span class="d ${dv > 0 ? 'up' : 'down'}">現價 ${fmt(it.price)}（比 ${esc(shortDate(r.pin.d))} ${arrow(dv)}）</span>`;
-        if (dv || how === 'model') canRequote = true;
+        if (how === 'variant') sub += `<span class="d renamed">${esc(note)}</span>`;
+        if (dv) sub += `<span class="d ${dv > 0 ? 'up' : 'down'}">${how === 'variant' ? '同型號' : ''}現價 ${fmt(it.price)}（比 ${esc(shortDate(r.pin.d))} ${arrow(dv)}）</span>`;
+        if (dv || how === 'model' || how === 'variant') canRequote = true;
       }
+      // variant 顯示原本報價的品名 (例如搭板價那件)，下面另列同型號現行品項
+      const shownName = r ? (it && how !== 'variant' ? it.name : r.name) : '';
       const part = document.createElement('article');
       part.className = 'part' + (r ? '' : ' empty');
       part.setAttribute('aria-labelledby', 'role-' + s.key);
@@ -349,7 +359,7 @@
           <button class="text-button" id="choose-${esc(s.key)}" aria-label="${r ? '更換' : '新增'}${esc(s.label)}">${r ? '更換' : '新增零件'} <span aria-hidden="true">↗</span></button>
           ${r ? `<button class="text-button remove" aria-label="移除${esc(s.label)}">移除</button>` : ''}
         </div></div>
-        <p class="part-name">${r ? esc(it ? it.name : r.name) : '尚未選擇 · 可沿用舊零件或按需要新增'}</p>
+        <p class="part-name">${r ? esc(shownName) + (how === 'variant' ? `<span class="d">同型號現行品項：${esc(it.name)}</span>` : '') : '尚未選擇 · 可沿用舊零件或按需要新增'}</p>
         ${r ? `<div class="flags">${flagsOf(it)}</div><div class="part-bottom">
           <label class="quantity">數量 <input type="number" aria-label="${esc(s.label)}數量" min="1" max="9" value="${r.qty}"></label>
           <div class="part-price"><span class="unit-price">單價 ${price != null ? '$' + fmt(price) : '–'}</span><strong class="subtotal">${price != null ? '$' + fmt(price * r.qty) : '–'}</strong>${sub}</div>
@@ -427,8 +437,8 @@
     const lines = [cur.kind === 'shared' ? `【${cur.label}${cur.sub ? '：' + cur.sub : ''}】報價日期 ${cur.d}（現價資料 ${SRC.quote_date}）` : `【${cur.label}${cur.sub ? ' — ' + cur.sub : ''}】原價屋含稅報價 ${SRC.quote_date}`];
     for (const s of D.slots) {
       const r = cur.rows[s.key]; if (!r) continue;
-      const { it, dv } = cmp(r), price = r.pin ? r.pin.price : it ? it.price : 0;
-      const tail = !it ? `（${goneText(r)}）` : dv ? `（現價 $${fmt(it.price)} ${arrow(dv)}）` : '';
+      const { it, how, dv, note } = cmp(r), price = r.pin ? r.pin.price : it ? it.price : 0;
+      const tail = !it ? `（${goneText(r)}）` : how === 'variant' ? `（${note}，同型號現價 $${fmt(it.price)}${dv ? ' ' + arrow(dv) : ''}）` : dv ? `（現價 $${fmt(it.price)} ${arrow(dv)}）` : '';
       lines.push(`${s.label}：${r.pin || !it ? r.name : it.name}  $${fmt(price)}${r.qty > 1 ? ' ×' + r.qty : ''}${tail}`);
     }
     const T = C.totals(Object.values(cur.rows).filter(Boolean), IDX);
@@ -445,13 +455,13 @@
   if (startMsg) toast(startMsg, 5000);
 
   // ---- 即時報價：透過 live_url (Cloudflare Worker 代理) 抓原價屋現頁，瀏覽器端解析後整份換掉 ----
-  // 估價單用「分類 + 品名」對照，所以只要換型錄重畫；跟著型錄的列若在新型錄找不到，先用舊價鎖住再標示已下架
+  // 估價單用「分類 + 品名」對照，所以只要換型錄重畫；跟著型錄的列若在新型錄找不到或只剩條件不同的同型號 (variant)，先用舊價鎖住再標示
   function applyLive(parsed, at){
     const cats = C.select(parsed, D.slots, D.filters), idx = C.indexCatalog(cats);
     for (const t of tabs) for (const rows of [t.rows, t.orig]) for (const k in rows) {
       const r = rows[k]; if (!r || r.pin) continue;
       const nu = C.reconcile(r, idx);
-      if (nu.item) { if (nu.how === 'model') r.name = nu.item.name; continue; }
+      if (nu.item && nu.how !== 'variant') { if (nu.how === 'model') r.name = nu.item.name; continue; }
       const old = find(r).item; if (old) r.pin = { price: old.price, d: SRC.quote_date };
     }
     CAT = cats; IDX = idx;

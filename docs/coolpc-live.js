@@ -102,9 +102,23 @@
   const key = (cat, name) => cat + '|' + name;
   const modelOf = name => { const m = name.match(/｛([^｝]+)｝/); return m ? m[1].trim() : null; };
   // 影響價格條件的標記 (與 parse() 的判讀一致)；型號相同但條件不同 (搭板價 vs 零售) 不算同一件
-  const cond = name => [/搭板|任搭|搭主機板/, /組裝價/, /裝機價/, /限搭機/, /限組裝/].map(re => re.test(name) ? 1 : 0).join('');
+  const COND_RE = [/搭板|任搭|搭主機板/, /組裝價/, /裝機價/, /限搭機/, /限組裝/];
+  const cond = name => COND_RE.map(re => re.test(name) ? 1 : 0).join('');
+  const NO_COND = '00000';
+  const COND_LABEL = [m => m === '任搭' ? '任搭優惠' : '搭板優惠', () => '組裝價', () => '裝機價', () => '限搭機價', () => '限組裝價'];
+  const condLabels = name => COND_RE.map((re, i) => { const m = name.match(re); return m ? COND_LABEL[i](m[0]) : null; }).filter(Boolean);
 
-  // 型錄索引：byKey 同品名重複上架 (特價區 + 品牌群組) 取第一筆；byModel 供品名小改時退而求其次
+  // 同型號換了價格條件時的說明：「搭板優惠已結束」「改為任搭優惠」「裝機價已結束，現為任搭優惠」
+  function condNote(oldName, newName) {
+    const a = condLabels(oldName), b = condLabels(newName);
+    const ended = a.filter(x => !b.includes(x)), added = b.filter(x => !a.includes(x));
+    if (ended.length && added.length) return `${ended.join('、')}已結束，現為${added.join('、')}`;
+    if (ended.length) return `${ended.join('、')}已結束`;
+    if (added.length) return `改為${added.join('、')}`;
+    return '價格條件有變';
+  }
+
+  // 型錄索引：byKey 同品名重複上架 (特價區 + 品牌群組) 取第一筆；byModel = 分類|｛型號｝ -> 各品名 (不分價格條件)，供品名小改或條件變了時退而求其次
   function indexCatalog(cats) {
     const byKey = new Map(), byModel = new Map();
     for (const c of Object.values(cats)) for (const g of c.groups) for (const it of g.items) {
@@ -113,21 +127,35 @@
       if (byKey.has(k)) continue;
       byKey.set(k, it);
       const m = modelOf(it.name); if (!m) continue;
-      const mk = c.id + '|' + m + '|' + cond(it.name);
+      const mk = c.id + '|' + m;
       if (!byModel.has(mk)) byModel.set(mk, []);
       byModel.get(mk).push(it);
     }
     return { byKey, byModel };
   }
 
-  // 快照列 {cat, name} 對到現行型錄 -> {item, how: 'exact' | 'model' | null}
+  // ｝後面的規格文字 (去空白)，同型號多件時用最長共同前綴挑最像的 (「代理盒」對到代理盒裝、不對到平輸盒裝)
+  const specOf = name => { const i = name.indexOf('｝'); return i < 0 ? '' : name.slice(i + 1).replace(/\s/g, ''); };
+  const lcp = (a, b) => { let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++; return i; };
+
+  // 快照列 {cat, name} 對到現行型錄 -> {item, how, alts?}
+  //   exact   品名完全相同
+  //   model   品名小改：同｛型號｝、同價格條件且只有一件
+  //   variant 同型號還在賣，但價格條件變了 (搭板優惠結束只剩原價、原價改成任搭優惠…)：優先對無條件的原價品項，多件時挑規格最像的
+  //   null    下架；同型號有貨但挑不出唯一一件時另給 alts (候選)，讓介面提示去挑，不猜
   function reconcile(row, idx) {
     const hit = idx.byKey.get(key(row.cat, row.name));
     if (hit) return { item: hit, how: 'exact' };
     const m = modelOf(row.name);
-    const c = m && idx.byModel.get(row.cat + '|' + m + '|' + cond(row.name));
-    if (c && c.length === 1) return { item: c[0], how: 'model' };
-    return { item: null, how: null };
+    const all = m && idx.byModel.get(row.cat + '|' + m);
+    if (!all) return { item: null, how: null };
+    const cd = cond(row.name), same = all.filter(it => cond(it.name) === cd);
+    if (same.length === 1) return { item: same[0], how: 'model' };
+    if (same.length) return { item: null, how: null, alts: same };   // 同條件多件 (代理 / 平輸) 不猜
+    const plain = all.filter(it => cond(it.name) === NO_COND), pool = plain.length ? plain : all;
+    const spec = specOf(row.name), score = pool.map(it => lcp(spec, specOf(it.name))), best = Math.max(...score);
+    const top = pool.filter((_, i) => score[i] === best);
+    return top.length === 1 ? { item: top[0], how: 'variant' } : { item: null, how: null, alts: pool };
   }
 
   // rows: [{cat, name, qty, pin: null | {price, d}}]；pin = 鎖定的報價，null = 跟著現行型錄
@@ -206,5 +234,5 @@
     return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
   }
 
-  root.CoolPC = { parse, select, decode, key, modelOf, indexCatalog, reconcile, totals, parseQD, encodeQuote, decodeQuote };
+  root.CoolPC = { parse, select, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote };
 })(typeof window !== 'undefined' ? window : globalThis);

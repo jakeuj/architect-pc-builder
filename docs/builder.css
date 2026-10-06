@@ -76,7 +76,7 @@ input[type=number] { width: 58px; height: 32px; padding: 3px 5px 3px 10px; borde
 .d.inl { display: inline; margin-left: 6px; }
 .up, .gone, .d.up, .d.gone { color: var(--warn); }
 .down, .d.down { color: var(--ok); }
-.d.renamed { color: var(--accent); }
+.renamed, .d.renamed { color: var(--accent); }
 .summary-card { position: sticky; top: 24px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
 .summary-card h2 { font-size: 16px; margin: 0 0 24px; }
 .summary-label { color: var(--muted); font-size: 12px; }

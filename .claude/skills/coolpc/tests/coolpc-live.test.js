@@ -24,6 +24,14 @@ const CATS = {
       item(4, '｛AMD R7 9800X3D｝平輸盒裝【8核/16緒】', 14900),
     ] },
   ] },
+  // 2026/10/2 的實例：裝機價結束後同型號有原價與任搭價兩件；B860M-E 從原價改成任搭優惠
+  5: { id: 5, name: '主機板 MB', groups: [
+    { label: 'Intel H610', items: [
+      item(5, '｛華碩 PRIME H610M-K D4-CSM｝M-ATX/1A1H/LAN 1G/註四年/2DIMM/6+1+1相', 2590),
+      item(6, '任搭價｛華碩 PRIME H610M-K D4-CSM｝M-ATX/1A1H/R 1G/2DIMM/6+1+1相', 2390),
+    ] },
+    { label: 'Intel B860', items: [item(7, '｛華碩 B860M-E-CSM｝M-ATX/2.5G/註四年/2DIMM/6+1+1+1相 *任搭優惠價', 3390)] },
+  ] },
   12: { id: 12, name: '顯示卡VGA', groups: [
     { label: '特價區', items: [item(9, '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', 11490, ['熱賣'])] },
     { label: 'AMD RX9060', items: [item(10, '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', 11490)] },
@@ -91,14 +99,45 @@ test('reconcile：品名小改但 ｛型號｝ 唯一且條件相同 -> 視為�
   assert.equal(r.how, 'model'); assert.equal(r.item.id, 11);
 });
 
-test('reconcile：型號對到多件 (代理 / 平輸) -> 不猜，視為下架', () => {
-  assert.equal(C.reconcile({ cat: 4, name: '｛AMD R7 9800X3D｝舊品名' }, IDX).item, null);
+test('reconcile：型號對到多件 (代理 / 平輸) -> 不猜，視為下架並給候選', () => {
+  const r = C.reconcile({ cat: 4, name: '｛AMD R7 9800X3D｝舊品名' }, IDX);
+  assert.equal(r.item, null); assert.deepEqual(r.alts.map(x => x.id), [3, 4]);
 });
 
-test('reconcile：搭板價下架不會被換成同型號零售品 (價格條件不同)', () => {
-  const r = C.reconcile({ cat: 4, name: '[搭板專案 ]｛AMD R5 7500F MPK｝(含風扇)【6核/12緒】3.7G(↑5.0G)搭主機板省300' }, IDX);
-  assert.equal(r.item, null);
-  assert.equal(C.reconcile({ cat: 5, name: '裝機價｛AMD R5 7500F MPK｝' }, IDX).item, null);
+test('reconcile：搭板優惠結束、同型號還有原價品項 -> variant，對到原價那件', () => {
+  const old = '[搭板專案 ]｛AMD R5 7500F MPK｝(含風扇)【6核/12緒】3.7G(↑5.0G)搭主機板省300';
+  const r = C.reconcile({ cat: 4, name: old }, IDX);
+  assert.equal(r.how, 'variant'); assert.equal(r.item.id, 1); assert.equal(r.item.price, 4790);
+  assert.equal(C.condNote(old, r.item.name), '搭板優惠已結束');
+  assert.equal(C.reconcile({ cat: 5, name: '裝機價｛AMD R5 7500F MPK｝' }, IDX).item, null);  // 不跨分類
+});
+
+test('reconcile：variant 同型號多件時挑｝後規格最像的 (代理盒 -> 代理盒裝)，分不出來就不猜', () => {
+  const r = C.reconcile({ cat: 4, name: '[搭板專案 ]｛AMD R7 9800X3D｝代理盒【8核/16緒】4.7G(↑5.2G)任搭主機板現省900' }, IDX);
+  assert.equal(r.how, 'variant'); assert.equal(r.item.id, 3);
+  const tie = C.reconcile({ cat: 4, name: '[搭板專案 ]｛AMD R7 9800X3D｝' }, IDX);
+  assert.equal(tie.item, null); assert.deepEqual(tie.alts.map(x => x.id), [3, 4]);
+});
+
+test('reconcile：variant 優先對無條件的原價品項 (即使任搭價的規格文字更像)', () => {
+  const old = '裝機價｛華碩 PRIME H610M-K D4-CSM｝M-ATX/1A1H/R 1G/2DIMM/6+1+1相';
+  const r = C.reconcile({ cat: 5, name: old }, IDX);
+  assert.equal(r.how, 'variant'); assert.equal(r.item.id, 5);
+  assert.equal(C.condNote(old, r.item.name), '裝機價已結束');
+});
+
+test('reconcile：原價品項改成任搭優惠 -> variant', () => {
+  const old = '｛華碩 B860M-E-CSM｝M-ATX/2.5G/註四年/2DIMM/6+1+1+1相 *活動到9/30';
+  const r = C.reconcile({ cat: 5, name: old }, IDX);
+  assert.equal(r.how, 'variant'); assert.equal(r.item.id, 7);
+  assert.equal(C.condNote(old, r.item.name), '改為任搭優惠');
+});
+
+test('condNote：各種條件變化的說明', () => {
+  assert.equal(C.condNote('裝機價｛X｝', '任搭價｛X｝'), '裝機價已結束，現為任搭優惠');
+  assert.equal(C.condNote('限組裝｛X｝', '｛X｝'), '限組裝價已結束');
+  assert.equal(C.condNote('限搭機｛X｝', '｛X｝'), '限搭機價已結束');
+  assert.equal(C.condNote('｛X｝', '組裝價｛X｝'), '改為組裝價');
 });
 
 test('totals：報價 vs 現價、已下架以報價計入現價、任搭折只看對得到的列', () => {
@@ -106,11 +145,12 @@ test('totals：報價 vs 現價、已下架以報價計入現價、任搭折只�
     { cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', qty: 2, pin: { price: 7490, d: 'a' } },   // 現價 7990 ▲500 ×2
     { cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', qty: 1, pin: null },            // 跟著現價
     { cat: 12, name: '｛藍寶石 脈動 PULSE RX9070XT GAMING 16GB｝', qty: 1, pin: { price: 25990, d: 'a' } }, // 已下架
+    { cat: 4, name: '[搭板專案 ]｛AMD R5 7500F MPK｝(含風扇)【6核/12緒】3.7G(↑5.0G)搭主機板省300', qty: 1, pin: { price: 4490, d: 'a' } }, // 搭板結束，同型號原價 4790 ▲300
   ];
   assert.deepEqual(C.totals(rows, IDX), {
-    quoted: 7490 * 2 + 11490 + 25990,
-    current: 7990 * 2 + 11490 + 25990,
-    diff: 1000,
+    quoted: 7490 * 2 + 11490 + 25990 + 4490,
+    current: 7990 * 2 + 11490 + 25990 + 4790,
+    diff: 1300,
     off: 200,
     goneCount: 1,
   });
