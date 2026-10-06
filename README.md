@@ -1,7 +1,7 @@
 # 原價屋估價單分享
 
 用 [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php) 的含稅報價配電腦、改單、把整張估價單存成一條連結分享。
-預設放了低／中／高三套主機當起點（不含作業系統、螢幕與週邊），每個零件都能換，每一格都能清空，只估幾個零件也行；價格是 GitHub Actions 定時抓的原價屋快照。
+預設放了低／中／高三套主機當起點（不含作業系統、螢幕與週邊），每個零件都能換，每一格都能清空，只估幾個零件也行；切到「全部分類」還能從原價屋全部 30 類加購其他商品（螢幕、鍵鼠、作業系統、第二顆 SSD…）。價格是 GitHub Actions 定時抓的原價屋快照。
 「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，任何時候打開都看得到當初的報價；最上方會列出每個零件「分享時 → 現價」的漲跌（▲▼）、合計與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，會標「優惠已結束」並跟同型號現價比），可以改單再分享。▲▼ 是跟連結裡的當時價格比，不是原價屋自己的調價標示。
 
 **網頁：https://blog.jakeuj.com/architect-pc-builder/**（`jakeuj.github.io/architect-pc-builder/` 會自動轉過去）
@@ -24,7 +24,7 @@
    - `coolpc_prices.csv` — 扁平版
    - `by_category/NN_*.tsv` — 每分類一檔，方便 grep
 2. `quote.py` 依 `builds/*.json` 產出 [quote.md](quote.md)
-3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），只取主機相關分類，連同預設配置寫成 `docs/data.json`，`docs/index.html` 讀它渲染，`docs/builder.css` 提供深色科技風與響應式樣式
+3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），把主機相關分類連同預設配置寫成 `docs/data.json`，其餘分類與被剔除的群組另存 `docs/data-more.json`（切到「全部分類」才載入）；`docs/index.html` 讀它們渲染，`docs/builder.css` 提供深色科技風與響應式樣式
 
 GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上述流程，報價有變才 commit；也可在 Actions 頁手動觸發。
 repo 是公開的，Actions 不花額度；不過 GitHub 的排程常延後好幾個小時、偶爾整次跳過，所以 `data.json` 快照的時間不一定準，網頁上方會標出報價日期。
@@ -57,7 +57,7 @@ python3 -m http.server 8765 --directory docs                               # 本
 ## 改配置
 
 編輯 `builds/low.json / mid.json / high.json`，`match` 是品名子字串（需唯一命中），改完跑 `quote.py` 與 `build_site.py`。
-要改標題或加減分頁，改 `site.json` 的 `title` / `builds`；要做成某款遊戲專用的網站，可以再加 `game`（官方最低／建議配備，網頁會多一個需求表，格式見 `build_site.py` 開頭說明）。
+要改標題或加減分頁，改 `site.json` 的 `title` / `builds`；要做成某款遊戲專用的網站，可以再加 `game`（官方最低／建議配備，網頁會多一個需求表，格式見 `build_site.py` 開頭說明），不需要「全部分類」的話加 `"all_categories": false`。
 若某零件下架，排程不會中斷：`quote.py` 標「已下架」不計價，網頁保留最後的品名與價格並標示「已下架」讓訪客改選；記得再找替代品更新 `builds/*.json`。
 
 要另開一個估價網站（例如某款遊戲專用）：在新目錄跑 `python3 ~/.agents/skills/coolpc/scripts/build_site.py --init`，會複製專案執行副本及網頁骨架（HTML、CSS、JS）；未安裝共用技能的使用者可從本 repo 的腳本初始化。既有檔案預設保留，日常抓價只更新資料，不覆寫介面。

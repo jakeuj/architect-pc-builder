@@ -1,5 +1,5 @@
 // 原價屋估價頁 (evaluate.php) 的瀏覽器端解析器。
-// 邏輯對應 .claude/skills/coolpc/scripts/parse_coolpc.py (解析) 與 build_site.py (只留主機相關分類、剔除無關群組)；
+// 邏輯對應 .claude/skills/coolpc/scripts/parse_coolpc.py (解析) 與 build_site.py (主機分類剔除無關群組、其餘另成補集)；
 // 原價屋改版時兩邊要一起改。後半段是估價單快照 (分享連結) 的品名對照與編解碼。
 // 純函式、不碰 DOM，也能在 Node 跑 (node -e 'require("./docs/coolpc-live.js")'；測試見 tests/)。
 (function (root) {
@@ -70,24 +70,48 @@
     return { quote_date, categories };
   }
 
-  // 依 data.json 的 slots / filters 整理成網頁用的 categories 物件 { "<cat_id>": {id, name, groups} }
-  function select(parsed, slots, filters) {
-    const need = [...new Set(slots.flatMap(s => s.cats))].sort((a, b) => a - b);
+  // 依 data.json 的 slots / filters 拆成主機型錄 (main) 與補集 (rest：其他分類整類 + 被剔除的群組 / 品項)，同 build_site.py
+  // 兩者都是網頁用的 categories 物件 { "<cat_id>": {id, name, groups} }
+  function split(parsed, slots, filters) {
+    const need = new Set(slots.flatMap(s => s.cats));
     const exg = (filters && filters.exclude_groups) || {};
     const exi = filters && filters.exclude_items ? new RegExp(filters.exclude_items) : null;
-    const all = Object.fromEntries(parsed.categories.map(c => [c.id, c]));
-    const out = {};
-    for (const cid of need) {
-      const c = all[cid];
-      if (!c) throw new Error('即時資料缺少分類 ' + cid);
-      const ex = exg[cid] ? new RegExp(exg[cid]) : null;
-      const groups = [];
+    const have = new Set(parsed.categories.map(c => c.id));
+    for (const cid of need) if (!have.has(cid)) throw new Error('即時資料缺少分類 ' + cid);
+    const main = {}, rest = {};
+    for (const c of parsed.categories) {
+      const id = String(c.id);
+      if (!need.has(c.id)) { rest[id] = { id: c.id, name: c.name, groups: c.groups }; continue; }
+      const ex = exg[c.id] ? new RegExp(exg[c.id]) : null;
+      const groups = [], hidden = [];
       for (const g of c.groups) {
-        if (ex && ex.test(g.label)) continue;
+        if (ex && ex.test(g.label)) { hidden.push(g); continue; }
         const items = exi ? g.items.filter(it => !exi.test(it.name)) : g.items;
         if (items.length) groups.push({ label: g.label, items });
+        if (items.length < g.items.length) hidden.push({ label: g.label, items: g.items.filter(it => exi.test(it.name)) });
       }
-      out[String(cid)] = { id: cid, name: c.name, groups };
+      main[id] = { id: c.id, name: c.name, groups };
+      if (hidden.length) rest[id] = { id: c.id, name: c.name, groups: hidden };
+    }
+    return { main, rest };
+  }
+  const select = (parsed, slots, filters) => split(parsed, slots, filters).main;
+  const selectRest = (parsed, slots, filters) => split(parsed, slots, filters).rest;
+
+  // 主機型錄 + 補集 -> 完整型錄 (分類依編號排；同名群組把品項接在後面，其餘群組放最後)
+  // group / items 陣列都複製，不改到 base (主機型錄要維持剔除後的樣子)；品項物件共用
+  function mergeCatalog(base, rest) {
+    const ids = [...new Set([...Object.keys(base), ...Object.keys(rest)])].sort((a, b) => a - b);
+    const out = {};
+    for (const id of ids) {
+      const b = base[id], r = rest[id];
+      const groups = b ? b.groups.map(g => ({ label: g.label, items: g.items.slice() })) : [];
+      for (const g of r ? r.groups : []) {
+        const same = b && groups.find(x => x.label === g.label);
+        if (same) same.items.push(...g.items); else groups.push({ label: g.label, items: g.items.slice() });
+      }
+      const c = b || r;
+      out[id] = { id: c.id, name: c.name, groups };
     }
     return out;
   }
@@ -160,10 +184,12 @@
 
   // rows: [{cat, name, qty, pin: null | {price, d}}]；pin = 鎖定的報價，null = 跟著現行型錄
   // quoted 估價單總計；current 以現價計 (已下架的查不到現價，仍以報價計)；diff = current - quoted，即對得到的列的漲跌
+  // idx 是 indexCatalog() 的結果，或 row -> reconcile 結果的函式 (每列各自選型錄時用)
   function totals(rows, idx) {
+    const look = typeof idx === 'function' ? idx : r => reconcile(r, idx);
     let quoted = 0, current = 0, off = 0, goneCount = 0;
     for (const r of rows) {
-      const it = reconcile(r, idx).item;
+      const it = look(r).item;
       const q = r.pin ? r.pin.price : it ? it.price : 0;
       quoted += q * r.qty;
       if (!it) { goneCount++; current += q * r.qty; continue; }
@@ -207,21 +233,21 @@
     return '1' + b64urlEncode(JSON.stringify(o));
   }
 
-  // 解析分享連結；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類。
+  // 解析分享連結；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類；multi: true 的欄位可重複 (其他商品)。
   // 回傳 {d, n, b, rows: [{slot, cat, name, price, qty, d}], dropped}
   function decodeQuote(s, slots) {
-    if (!s || s.length > 8000) throw new Error('連結長度不對');
+    if (!s || s.length > 40000) throw new Error('連結長度不對');
     if (s[0] !== '1') throw new Error('不支援的連結版本');
     let o;
     try { o = JSON.parse(b64urlDecode(s.slice(1))); } catch (e) { throw new Error('連結不完整，可能在複製時被截斷'); }
-    if (!o || !Array.isArray(o.r) || !o.r.length || o.r.length > 20) throw new Error('連結內容不完整');
+    if (!o || !Array.isArray(o.r) || !o.r.length || o.r.length > 60) throw new Error('連結內容不完整');
     const str = (v, max) => typeof v === 'string' && v.length <= max ? v : '';
     const d = str(o.d, 32);
     const slotMap = Object.fromEntries(slots.map(x => [x.key, x]));
     const rows = [], seen = new Set();
     let dropped = 0;
     for (const a of o.r) {
-      const ok = Array.isArray(a) && slotMap[a[0]] && !seen.has(a[0])
+      const ok = Array.isArray(a) && slotMap[a[0]] && (slotMap[a[0]].multi || !seen.has(a[0]))
         && Number.isInteger(a[1]) && slotMap[a[0]].cats.includes(a[1])
         && typeof a[2] === 'string' && a[2].length > 0 && a[2].length <= 200
         && Number.isInteger(a[3]) && a[3] >= 0 && a[3] <= 1e7;
@@ -234,5 +260,5 @@
     return { d, n: str(o.n, 60), b: str(o.b, 32), rows, dropped };
   }
 
-  root.CoolPC = { parse, select, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote };
+  root.CoolPC = { parse, select, selectRest, mergeCatalog, decode, key, modelOf, indexCatalog, reconcile, condNote, totals, parseQD, encodeQuote, decodeQuote };
 })(typeof window !== 'undefined' ? window : globalThis);

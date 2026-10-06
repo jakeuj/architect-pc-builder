@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 data/coolpc_prices.json + builds/*.json 整理成 docs/data.json, 給 GitHub Pages 靜態估價頁 (templates/index.html) 使用。
+"""把 data/coolpc_prices.json + builds/*.json 整理成 docs/data.json (+ docs/data-more.json), 給 GitHub Pages 靜態估價頁 (templates/index.html) 使用。
 
 用法:
   python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/builder.css / docs/coolpc-live.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
@@ -14,8 +14,10 @@ site.json 欄位:
   notes   網頁「說明」區額外要加的句子 (list, 可省略)
   slots   欄位定義 (可省略, 預設見 DEFAULT_SLOTS)
   live_url 即時報價代理網址 (可省略; 見 templates/worker/), 有給的話網頁載入時與按「更新最新報價」會直接抓原價屋現價
+  all_categories 網頁是否提供「全部分類」開關 (預設 true); false = 純主機估價站, 不產生 data-more.json
 
-只保留主機相關分類, 並剔除與組機無關的群組 (筆記型記憶體、散熱膏、線材...)。
+data.json 只保留主機相關分類, 並剔除與組機無關的群組 (筆記型記憶體、散熱膏、線材...)。
+其餘分類與被剔除的群組 / 品項 (補集) 另存 data-more.json, 網頁切到「全部分類」加購其他商品時才載入。
 build 裡的零件對不到 (下架或命中多筆) 時, 沿用上一版 docs/data.json 對到的品名與價格並標 gone,
 網頁顯示「已下架」讓訪客自行改選; 不自動換品項, 也不讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才報錯。
 """
@@ -118,23 +120,37 @@ def main():
     slots = cfg.get("slots") or DEFAULT_SLOTS
     build_keys = cfg.get("builds") or ["low", "mid", "high"]
     out_path = root / a.out
+    more_path = out_path.with_name("data-more.json")
 
     db = json.loads((root / a.data).read_text(encoding="utf-8"))
     cats_all = {c["id"]: c for c in db["categories"]}
     need = sorted({cid for s in slots for cid in s["cats"]})
+    all_cats = cfg.get("all_categories", True)
 
-    categories = {}
-    for cid in need:
-        c = cats_all[cid]
+    # categories = 主機分類 (剔除無關群組 / 品項); rest = 補集 (其他分類整類 + 被剔除的群組 / 品項)
+    categories, rest = {}, {}
+    for c in db["categories"]:
+        cid = c["id"]
+        if cid not in need:
+            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": c["groups"]}
+            continue
         ex = re.compile(EXCLUDE_GROUPS[cid]) if cid in EXCLUDE_GROUPS else None
-        groups = []
+        groups, hidden = [], []
         for g in c["groups"]:
             if ex and ex.search(g["label"]):
+                hidden.append(g)
                 continue
             items = [it for it in g["items"] if not re.search(EXCLUDE_ITEMS, it["name"])]
             if items:
                 groups.append({"label": g["label"], "items": items})
+            if len(items) < len(g["items"]):
+                hidden.append({"label": g["label"], "items": [it for it in g["items"] if re.search(EXCLUDE_ITEMS, it["name"])]})
         categories[str(cid)] = {"id": cid, "name": c["name"], "groups": groups}
+        if hidden:
+            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": hidden}
+    missing = [cid for cid in need if cid not in cats_all]
+    if missing:
+        sys.exit(f"報價資料缺少分類 {missing}")
 
     # 上一版 data.json: 零件對不到時沿用上次的品名 / 價格 / 報價日期
     prev, prev_rows = None, {}
@@ -188,6 +204,8 @@ def main():
         "slots": slots,
         "live_url": cfg.get("live_url", ""),
         "filters": {"exclude_groups": {str(k): v for k, v in EXCLUDE_GROUPS.items()}, "exclude_items": EXCLUDE_ITEMS},
+        # 「全部分類」: 分類清單供分享連結驗證與選件面板使用, 品項 (補集) 在 url, 需要時才載入
+        "more": {"url": more_path.name, "cats": [{"id": c["id"], "name": c["name"]} for c in db["categories"]]} if all_cats else None,
         "categories": categories,
         "builds": builds,
     }
@@ -198,6 +216,11 @@ def main():
     out_path.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     n = sum(len(g["items"]) for c in categories.values() for g in c["groups"])
     print(f"{a.out}: 報價日期 {db['quote_date']}, {len(categories)} 分類 {n} 項, {out_path.stat().st_size/1024:.0f} KB")
+    if all_cats:
+        more_path.write_text(json.dumps({"quote_date": db["quote_date"], "categories": rest},
+                                        ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        m = sum(len(g["items"]) for c in rest.values() for g in c["groups"])
+        print(f"{Path(a.out).with_name(more_path.name)}: 其他分類與剔除群組 {len(rest)} 分類 {m} 項, {more_path.stat().st_size/1024:.0f} KB")
     for b in builds:
         gone = sum(1 for it in b["items"].values() if it.get("gone"))
         print(f"  {b['key']}: {len(b['items'])} 件" + (f" ({gone} 件已下架)" if gone else ""))

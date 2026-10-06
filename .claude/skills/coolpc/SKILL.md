@@ -105,14 +105,14 @@ python3 -m http.server 8765 --directory docs                    # 本機預覽 (
 
 - 新網站預設用深色科技風模板：方案卡、完整品名零件列、搜尋選件面板、桌面固定摘要與手機底部總價／分享列；既有網站依使用者選定的風格改版。介面與驗收細節見 `references/site-ui.md`。
 - 網頁功能：每欄可新增、替換、移除與改數量；總計／任搭折／實付估計、相容性與條件價提示、複製清單、歷史報價分享連結。`live_url` 有設定才啟用即時抓價。
-- 只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。
+- 主機零件格只放主機相關 11 個分類 (`DEFAULT_SLOTS`)，並剔除筆記型記憶體、散熱膏、線材等群組 (`EXCLUDE_GROUPS`)；要改欄位在 `site.json` 給 `slots`。其餘分類與被剔除的群組另存 `docs/data-more.json`，網頁切到「全部分類」才載入，可在「其他商品」加任意多件 (螢幕、週邊、第二顆 SSD…)，分享連結一併保存；遊戲專屬等純主機站在 `site.json` 設 `"all_categories": false` 關掉。細節見 `references/site.md`。
 - 分享連結 `#q=` 存的是估價單快照 (每列 分類 + 品名 + 當時價格 + 日期)，開啟時一定還原當初內容，並跟現行型錄 (即時或 data.json) 用品名對照；上方摘要逐列列出「分享時報價 → 現價」的 ▲▼、合計與已下架；搭板 / 裝機價等優惠結束但同型號還在賣的，標「…優惠已結束」並跟同型號原價比，不當成下架 (基準是連結裡的當時價格，跟原價屋品名裡的「▼下殺」、`價格異動` 無關，見 site.md)；可改單，沒改的列保留原報價、改過的用現價，「全部改用現價」一鍵重報。要把現成估價單 (原價屋截圖、清單) 做成連結，照 `references/site.md`「從現成估價單產生連結」做。
 - 零件下架 (build 的 `match` 對不到或命中多筆) 時，`quote.py` 標「已下架」不計價、`build_site.py` 沿用上一版 `docs/data.json` 對到的品名與價格並標 `gone`，網頁顯示「已下架」讓人改選；都不會讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才會報錯。下架後記得找替代品更新 `builds/*.json`。
 - 部署：`gh repo create <name> --public --source . --push`，再 `gh api -X POST repos/<owner>/<name>/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/docs'`。使用者的 Pages 綁了自訂網域，實際網址是 `https://blog.jakeuj.com/<name>/`（`jakeuj.github.io/<name>/` 會 301 過去），README 要寫這個。
-- workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/data.json` 真的變動時 commit（`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。
+- workflow 每小時 :30 抓價、只在 `data/`、`quote.md` 或 `docs/` 資料真的變動時 commit（先 `git add -A` 再比 staged；`build_site.py` 在內容沒變時沿用上次的 `generated`）。GitHub 的 runner 抓得到 coolpc，已驗證。public repo 不耗 Actions 額度；排程常延後數小時或跳過 (見 site.md「部署與 CI 的坑」)。
 - 即時報價 (可選)：原價屋沒有 CORS，網頁要透過 `worker/` (Cloudflare Worker) 代理抓現頁；`docs/coolpc-live.js` 是 `parse_coolpc.py` 的 JS 版，在瀏覽器解析。`site.json` 的 `live_url` 留空就只用 workflow 的快照。**本 repo 目前停用** (2026-10-02 起 `live_url` = `""`)：worker 程式寫好了但沒部署，`coolpc.jakeuj.com` 沒有 DNS 紀錄；使用者目前不要即時查價，價格只靠 workflow。要開的順序是先部署、curl 驗證，再把網址填回 `live_url` 跑 `build_site.py`；別在沒部署前填網址，也別主動叫使用者部署。部署與坑見 `references/site.md`。
 - `.gitignore` 排除 `evaluate*.php`（1MB+ 原始 HTML）與 `.claude/launch.json`、`.claude/settings.local.json`；`.claude/skills/` 要進版控。
-- 新站設定好 title／subtitle／repo 後，同步初始 HTML 的標題與描述；公開網址確認後再填 canonical 與 `og:url`，避免沿用範例網站的網域。資料生成器只更新 `docs/data.json`，不改 metadata 或介面檔案。
+- 新站設定好 title／subtitle／repo 後，同步初始 HTML 的標題與描述；公開網址確認後再填 canonical 與 `og:url`，避免沿用範例網站的網域。資料生成器只更新 `docs/data.json` 與 `docs/data-more.json`，不改 metadata 或介面檔案。
 - 細節與坑見 `references/site.md`。
 
 ## 7. 維護

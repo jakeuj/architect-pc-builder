@@ -7,7 +7,7 @@
 
 ```
 README.md            給朋友 / 公開看的說明: 網址、三套摘要表、資料來源、本機指令
-site.json            網頁設定 (title, subtitle?, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?)；game 只有遊戲專屬網站才填
+site.json            網頁設定 (title, subtitle?, repo, game?{name,url,min,rec}, builds[], notes[], slots?, live_url?, all_categories?)；game 只有遊戲專屬網站才填；all_categories: false = 純主機站
 builds/*.json        配置定義檔 (與 quote.py 共用)
 ~/.agents/skills/coolpc/ 共用技能正本（本機維護來源）
 .claude/skills/coolpc/ 專案執行副本（進版控，供 CI 使用）
@@ -16,6 +16,7 @@ docs/index.html      網頁介面與事件 (從模板複製, 可再客製)
 docs/builder.css     深色科技風與響應式樣式
 docs/coolpc-live.js  瀏覽器端解析器 (parse_coolpc.py + build_site.py 剔除規則的 JS 版)
 docs/data.json       build_site.py 產出, 網頁的快照資料 (有 live_url 時載入後會被即時資料換掉)
+docs/data-more.json  build_site.py 產出, 補集 (其他分類 + 被剔除的群組 / 品項), 網頁切到「全部分類」才載入
 worker/              Cloudflare Worker 代理 (wrangler.toml + src/index.js), 可選; 本 repo 未部署
 docs/.nojekyll
 quote.md             quote.py --summary 產出
@@ -33,6 +34,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
   slots: [{key, label, cats:[int]}],   # 每一格都可空著
   live_url: str ("" = 不用即時),
   filters: {exclude_groups: {"<cat_id>": regex}, exclude_items: regex},   # 給 coolpc-live.js 套同一套剔除規則
+  more: {url: "data-more.json", cats: [{id, name}]} | null,   # 全部分類；cats = 原價屋全部分類 (驗證分享連結、選件面板下拉)
   categories: { "<cat_id>": {id, name, groups:[{label, items:[{id, name, price, list_price, flags}]}]} },
   builds: [{key, name, note, items: {<slot>: {cat, id?, name, price, qty, d?, gone?}}}] }
 ```
@@ -40,13 +42,24 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - 原價屋的 option value (`id`) 只是清單位置，相隔幾小時就有一半會變；**分類 + 品名是唯一穩定鍵**。build_site.py 每次用 `builds/*.json` 的 `match` 重新解析 (`scripts/coolpc_match.py`，quote.py 共用)。
 - 對不到 (下架) 或命中多個不同品名時，沿用上一版 data.json 同 build / 同欄位的品名、價格，`d` = 當時的報價日期，標 `gone: true`；上一版是舊格式 (沒有 price) 就從舊 `categories` 查價。沒有上一版才 exit (新 build 打錯)。
 - `id` 只為相容 Pages 快取中的舊版網頁，新版網頁不用；之後可拿掉。
-- 內容沒變時沿用上次的 `generated`，workflow 才能用 `git diff -- docs/data.json` 判斷要不要提交。
+- 內容沒變時沿用上次的 `generated`，workflow 才能用 git diff 判斷要不要提交。
+
+## docs/data-more.json (全部分類，2026-10-06 起)
+
+```
+{ quote_date, categories: { "<cat_id>": {id, name, groups:[...]} } }   # 同 data.json categories 的格式, 沒有 generated
+```
+
+- 補集 = 不在 slots 裡的分類整類 + 主機分類中符合 `EXCLUDE_GROUPS` 的群組 + 其他群組裡符合 `EXCLUDE_ITEMS` 的品項 (收成同名群組)。`data.json` + `data-more.json` 剛好是 `coolpc_prices.json` 每一件 (測試有驗)。
+- 網頁用 `CoolPC.mergeCatalog(CAT, rest)` 併成完整型錄 `ALL`：分類依編號排，同名群組把品項接在後面，其餘群組放最後；只複製陣列、不改到主機型錄，品項物件共用。即時模式用 `CoolPC.selectRest(parsed, slots, filters)` 從現頁算補集 (同 Python)。
+- 為什麼分檔：主檔 405 KB / gzip 58 KB，補集 603 KB / gzip 100 KB；預設訪客只要主機零件，不該多載一倍以上。
 
 ## 分享連結 (估價單快照)
 
 - `#q=1<base64url(UTF-8 JSON)>`，`1` 是格式版本 (日後要壓縮可用別的字首；實測 deflate 只省約 20%，中文品名壓不太動)。一套 8 件約 1.1–1.3K 字元。
 - JSON = `{d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}`：`d` 是最多列共用的報價日期，列的日期與 `d` 相同就省略；qty = 1 且後面沒欄位就省略；`n` 標籤、`b` 來源 build。
-- 解碼 (`CoolPC.decodeQuote`) 逐列驗證：最多 20 列、slot 要在 `D.slots`、cat 要屬於該 slot、品名 ≤ 200 字、價格 0–10⁷ 整數、qty 夾 1–9、同 slot 取第一列。整個壞掉 (截斷) 就 toast 後回預設。
+- 解碼 (`CoolPC.decodeQuote`) 逐列驗證：最多 60 列 / 40000 字元、slot 要在 `D.slots`、cat 要屬於該 slot、品名 ≤ 200 字、價格 0–10⁷ 整數、qty 夾 1–9、同 slot 取第一列。整個壞掉 (截斷) 就 toast 後回預設。
+- 其他商品 (全部分類) 存成 slot `'+'` 的列，可重複；網頁解碼時多傳 `{key: '+', cats: D.more.cats 的 id, multi: true}`。上限要涵蓋 UI 能產生的最大單 (10 格 + 其他商品 40 件)，改 UI 上限時一起改。舊版網頁不認得 `'+'`，會略過這些列並 toast「N 個品項格式不符」，主機格照常還原。
 - 連結內容任何人都能捏造：品名、標籤、日期一律 `textContent` 或 `esc()` 後才放進 DOM。
 - 舊格式 `#b=mid&cpu=4:22` 只採用 `b`，其餘參數忽略並 toast (舊 id 可能指到別的商品)。
 - 對照 (`CoolPC.reconcile`)，回傳 `{item, how, alts?}`：
@@ -84,8 +97,9 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## index.html 內部重點
 
-- `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel` 分類|型號 → 各品名)；`find(row)` = `CoolPC.reconcile(row, IDX)`；`render()` 每次重畫零件列與摘要，選件面板獨立維護。
-- 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, d?, base?, raw?, rows, orig}`；`rows[slot] = {cat, name, qty, pin}`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。
+- `IDX = CoolPC.indexCatalog(CAT)` (`byKey` 分類|品名、`byModel` 分類|型號 → 各品名)；`find(row)` = 主機格 `CoolPC.reconcile(row, IDX)`、其他商品 (`row.x`) 對完整型錄 `IDXA`。主機格不跟 `ALL` 比，免得加回的剔除群組讓型號對照多出候選。`render()` 每次重畫零件列與摘要 (`partCard()` 主機格與其他商品共用)，選件面板獨立維護。
+- 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, d?, base?, raw?, rows, more, orig: {rows, more}}`；`rows[slot] = {cat, name, qty, pin}`，`more = [{cat, name, qty, pin, x: true}]`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。`allRows(t 或 t.orig)` 取全部列、`entries(t)` 取 `{slot, label, r}` (主機格依欄位順序再接其他商品)，合計、提示、複製清單、分享都走這兩個。
+- 全部分類：`#scope` 開關存 localStorage `coolpc.allCategories` (每位訪客記住，讀寫包 try/catch)，只管能不能新增 (`#more-add`)；已選的其他商品有算進總計，關著也照樣列出。`ensureMore()` 只載一次 `data-more.json` (失敗清掉 promise，下次切開關重試)；分享單有其他商品時先 `await` 再畫，載入失敗則以連結報價計並標「其他分類的報價載入失敗」，不誤標已下架。同一件再加一次改成數量 +1，最多 40 件 (`MAX_MORE`)。
 - 改選品項 → 該列 `pin = null` (分享時才以現價定價)；改回原品項還原 `orig` 的 pin；只改數量保留 pin。「全部改用現價」把對得到的列 unpin。
 - 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、全部清空的單不帶 `#` (`decodeQuote` 不收空單；複製清單 / 分享按鈕改 toast 提示)、其餘 `#q=`；`hashchange` (貼上別的連結) 會重新載入。分享按鈕一律產生 `#q=`。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
 - 合計 (`CoolPC.totals`)：估價單總計 = 報價；以現價計 = 對得到的用現價 (`variant` 用同型號現價)、已下架以報價計，所以差額只反映漲跌；任搭折只看對得到的列。
@@ -93,11 +107,12 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - `variant` 的顯示 (`cmp(r)` 另帶 `how`、`alts`、`note`)：品名仍顯示原本報價那件 (`r.name`)，下面小字「同型號現行品項：…」；單價欄 `.d.renamed` 標 `note`，再接「同型號現價 X（比 10/1 ▲N）」；摘要一定列出 (價格沒變也列「價格沒變」)；算可重報 (「全部改用現價」換成同型號那件)；選件面板不把同型號那件標「目前選擇」，改標「同型號現行品項」；複製清單尾巴寫 note 與同型號現價。`alts` (挑不出唯一) 時仍是已下架，另提示「同型號還有 N 件」，開選件面板先用型號篩選。
 - 介面用方案卡、零件列、原生 dialog 選件面板與響應式摘要；布局、搜尋、焦點及驗收見 [site-ui.md](site-ui.md)。
 - `openPicker(slot)` 設定目前欄位、清空搜尋並進搜尋框；`renderPicker()` 以 slot.cats 與品名／群組關鍵字列出分類及群組，多分類欄位加分類前綴。
+- `openMorePicker(index)` (index = null 為新增) 用同一個 dialog，多 `#picker-cat` 分類下拉 (`ALL` 全部 30 類，含件數)：選了分類列整類；「全部分類」沒關鍵字只顯示提示，有關鍵字跨分類搜品名／群組名，最多列 300 件 (不比對分類名稱，否則搜「散熱膏」會列出整個散熱器分類)。
 - `chooseItem()` 沿用分類＋品名、原 pin 與數量規則；移除把 row 設為 null。每個欄位皆可空著，以支援只換部分零件的估價單。
 - 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
 - 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」。已下架是要處理的警告 (紅色)。
 - 搭板 CPU：單上有主機板 → ok 樣式；沒有 → 紅色警告 (單買不是這個價)。已下架的 CPU 查不到 flags，改用品名 `/搭板|任搭|搭主機板/` 判斷 (同 `parse()`)。CPU 無風扇提示寫成「沒有沿用舊散熱器的話，請選一顆」，因為只換零件的單常常不含散熱器。
-- 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉。因為估價單都用分類 + 品名對照，換型錄只要重畫；換之前把「跟著型錄」但新型錄找不到、或只剩條件不同的同型號 (`variant`) 的列用舊型錄價格 pin 住 (之後顯示已下架 / 優惠已結束)，不會默默從搭板價換成原價。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。`live_url` 空字串時完全不抓、按鈕隱藏。
+- 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉 (完整型錄已載入時，補集也用 `selectRest` 從現頁重算；之後才開全部分類就用最後一次的現頁，不再抓 data-more.json)。因為估價單都用分類 + 品名對照，換型錄只要重畫；換之前把「跟著型錄」但新型錄找不到、或只剩條件不同的同型號 (`variant`) 的列用舊型錄價格 pin 住 (之後顯示已下架 / 優惠已結束)，不會默默從搭板價換成原價。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。`live_url` 空字串時完全不抓、按鈕隱藏。
 
 ## 即時報價代理 (worker/)
 
@@ -116,7 +131,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 - `gh api ... /pages` 回的 `html_url` 若是自訂網域 (blog.jakeuj.com)，就用它；github.io 網址會 301。
 - Pages 首次部署約 30 秒；用 `curl -s <url>/data.json | python3 -c ...` 驗證，比截圖可靠（頁面 fetch 409KB 需要一下，截太早會看到「載入中」）。
-- workflow 每小時 :30 跑，`git diff --quiet -- data quote.md docs/data.json` 有變才提交 (`build_site.py` 內容沒變時沿用 `generated`)。
+- workflow 每小時 :30 跑，`git add -A -- data docs quote.md` 後 `git diff --cached --quiet` 有變才提交 (`build_site.py` 內容沒變時沿用 `generated`)。別改回 `git diff --quiet -- <檔案>`：它看不到還沒追蹤的新檔 (例如第一次產生的 `data-more.json`)；`-A` 加目錄則容許 `all_categories: false` 時沒有這個檔。
 - 額度：repo 是 public，Actions 標準 runner 免費且不限分鐘，每次約 10–25 秒；使用者確認過維持每小時，不必為了額度降頻。private repo 才吃免費方案每月 2,000 分鐘 (每次至少算 1 分鐘，每小時 ≈ 720 分鐘/月)。Worker 免費方案每天 10 萬次請求，網頁每開一次抓一次，朋友用綽綽有餘。
 - 排程不準時：schedule 只是排進佇列，run 被派發時才建立。2026-09 每天 03:30 UTC 的排程實際在 08:11–10:01 UTC 才開跑 (晚 4.7–6.5 小時)，10/1 整次被跳過。「每小時」實際是一天幾次，快照可能比排程時間舊；有開即時報價的網頁不受影響，本 repo 沒開，網頁價格就是這份快照。跟使用者描述更新時間用「大約、可能延後數小時」。
 - runner 是 UTC，時間戳一律在 build_site.py 用 `ZoneInfo("Asia/Taipei")` 產生。

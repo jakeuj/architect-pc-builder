@@ -63,11 +63,58 @@ test('壞掉的連結丟錯 (截斷、非法字元、版本、超長、空)', ()
   assert.throws(() => C.decodeQuote(s.slice(0, s.length - 9), SLOTS));
   assert.throws(() => C.decodeQuote(s + '%', SLOTS));
   assert.throws(() => C.decodeQuote('2' + s.slice(1), SLOTS));
-  assert.throws(() => C.decodeQuote('1' + 'A'.repeat(9000), SLOTS));
+  assert.throws(() => C.decodeQuote('1' + 'A'.repeat(40000), SLOTS));
   assert.throws(() => C.decodeQuote('', SLOTS));
   const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
   assert.throws(() => C.decodeQuote(enc({ d: 'x', r: [] }), SLOTS));
-  assert.throws(() => C.decodeQuote(enc({ d: 'x', r: Array(21).fill(['cpu', 4, 'a', 1]) }), SLOTS));
+  assert.throws(() => C.decodeQuote(enc({ d: 'x', r: Array(61).fill(['cpu', 4, 'a', 1]) }), SLOTS));
+});
+
+test('其他商品 (multi 欄位)：可重複、分類要在清單內、10 格 + 40 件解得開', () => {
+  const MORE = { key: '+', label: '其他商品', cats: [4, 12, 13, 17], multi: true };
+  const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
+  const q = C.decodeQuote(enc({ d: 'x', r: [
+    ['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 4990], ['+', 13, '螢幕 B', 2990, 2], ['+', 99, '不明分類', 1], ['+', 17, '椅子', 1990],
+  ] }), [...SLOTS, MORE]);
+  assert.equal(q.dropped, 1);
+  assert.deepEqual(q.rows.map(r => [r.slot, r.cat, r.name, r.qty]), [
+    ['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 1], ['+', 13, '螢幕 B', 2], ['+', 17, '椅子', 1]]);
+  // 沒傳 multi 欄位 (舊版網頁) 時其他商品列整列略過，主機列照常還原
+  assert.equal(C.decodeQuote(enc({ d: 'x', r: [['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 4990]] }), SLOTS).dropped, 1);
+  const long = '｛某品牌 27吋 2K 180Hz IPS 電競螢幕｝' + '規'.repeat(150);
+  const rows = [...SLOTS.map(x => ({ slot: x.key, cat: x.cats[0], name: long, price: 9999, qty: 2, d: 'x' })),
+    ...Array.from({ length: 40 }, (_, i) => ({ slot: '+', cat: 13, name: long + i, price: 9999, qty: 2, d: 'y' + i }))];
+  assert.equal(C.decodeQuote(C.encodeQuote({ rows }), [...SLOTS, MORE]).rows.length, rows.length);
+});
+
+test('select / selectRest：主機型錄剔除群組與品項，補集剛好是剩下的', () => {
+  const parsed = { categories: [
+    { id: 1, name: '品牌小主機', groups: [{ label: 'MINI', items: [item(1, 'mini', 1)] }] },
+    { id: 4, name: '處理器 CPU', groups: [{ label: 'AM5', items: [item(2, 'R5', 1), item(3, 'R5 套裝加購', 1)] }] },
+    { id: 10, name: '散熱器', groups: [{ label: '塔散', items: [item(4, 'tower', 1)] }, { label: '高效能散熱膏', items: [item(5, 'paste', 1)] }] },
+  ] };
+  const slots = [{ key: 'cpu', cats: [4] }, { key: 'cooler', cats: [10] }];
+  const filters = { exclude_groups: { 10: '散熱膏' }, exclude_items: '套裝加購' };
+  const names = cats => Object.values(cats).map(c => [c.id, c.groups.map(g => [g.label, g.items.map(i => i.name)])]);
+  assert.deepEqual(names(C.select(parsed, slots, filters)), [[4, [['AM5', ['R5']]]], [10, [['塔散', ['tower']]]]]);
+  assert.deepEqual(names(C.selectRest(parsed, slots, filters)),
+    [[1, [['MINI', ['mini']]]], [4, [['AM5', ['R5 套裝加購']]]], [10, [['高效能散熱膏', ['paste']]]]]);
+  assert.throws(() => C.select(parsed, [{ key: 'vga', cats: [12] }], filters), /缺少分類 12/);
+});
+
+test('mergeCatalog：同名群組接在後面、新分類依編號排、不改到主機型錄', () => {
+  const base = { 4: { id: 4, name: 'CPU', groups: [{ label: 'AM5', items: [item(1, 'R5', 1)] }] },
+                 10: { id: 10, name: '散熱器', groups: [{ label: '塔散', items: [item(2, 'tower', 1)] }] } };
+  const rest = { 1: { id: 1, name: '小主機', groups: [{ label: 'MINI', items: [item(3, 'mini', 1)] }] },
+                 4: { id: 4, name: 'CPU', groups: [{ label: 'AM5', items: [item(4, 'R5 套裝加購', 1)] }] },
+                 10: { id: 10, name: '散熱器', groups: [{ label: '散熱膏', items: [item(5, 'paste', 1)] }] } };
+  const snap = JSON.stringify(base);
+  const all = C.mergeCatalog(base, rest);
+  assert.equal(JSON.stringify(base), snap);
+  assert.deepEqual(Object.keys(all), ['1', '4', '10']);
+  assert.deepEqual(all[4].groups.map(g => [g.label, g.items.map(i => i.name)]), [['AM5', ['R5', 'R5 套裝加購']]]);
+  assert.deepEqual(all[10].groups.map(g => g.label), ['塔散', '散熱膏']);
+  assert.equal(all[4].groups[0].items[0], base[4].groups[0].items[0]);  // 品項物件共用
 });
 
 test('解碼時逐列驗證：不明欄位 / 分類不符 / 價格與數量範圍 / 重複欄位', () => {
@@ -156,6 +203,17 @@ test('totals：報價 vs 現價、已下架以報價計入現價、任搭折只�
   });
 });
 
+test('totals：可傳函式，每列各自選型錄', () => {
+  const OTHER = C.indexCatalog({ 13: { id: 13, name: '螢幕', groups: [{ label: '27吋', items: [item(20, '｛螢幕 A｝', 4990, ['任搭折50'])] }] } });
+  const rows = [
+    { cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', qty: 1, pin: null },
+    { cat: 13, name: '｛螢幕 A｝', qty: 2, pin: { price: 5290, d: 'a' }, x: true },
+  ];
+  assert.deepEqual(C.totals(rows, r => C.reconcile(r, r.x ? OTHER : IDX)),
+    { quoted: 11490 + 5290 * 2, current: 11490 + 4990 * 2, diff: -600, off: 100, goneCount: 0 });
+  assert.equal(C.totals(rows, IDX).goneCount, 1);  // 舊用法：只傳主機型錄，螢幕查不到
+});
+
 test('parseQD：日期可正確比較大小', () => {
   assert.ok(C.parseQD('2026/10/2 14:55') > C.parseQD('2026/9/21 14:51'));
   assert.ok(C.parseQD('2026/9/21 14:51') > C.parseQD('2026/9/21 9:05'));
@@ -170,4 +228,13 @@ test('parse() 與 parse_coolpc.py 結果一致', { skip: !(fs.existsSync(php) &&
   const js = C.parse(fs.readFileSync(php, 'utf8'));  // fetch_coolpc.py 存成 UTF-8
   if (js.quote_date !== py.quote_date) return t.skip(`日期不同 (${js.quote_date} vs ${py.quote_date})`);
   assert.equal(JSON.stringify(js.categories), JSON.stringify(py.categories.map(({ id, name, groups }) => ({ id, name, groups }))));
+});
+
+// 主機型錄 + 補集要剛好涵蓋原價屋每一件 (不重複、不遺漏)
+const docs = path.join(root, 'docs/data.json');
+test('select + selectRest 涵蓋 coolpc_prices.json 全部品項', { skip: !(fs.existsSync(json) && fs.existsSync(docs)) && '缺 data/coolpc_prices.json 或 docs/data.json' }, () => {
+  const py = JSON.parse(fs.readFileSync(json, 'utf8')), D = JSON.parse(fs.readFileSync(docs, 'utf8'));
+  const all = C.mergeCatalog(C.select(py, D.slots, D.filters), C.selectRest(py, D.slots, D.filters));
+  const ids = cats => Object.values(cats).flatMap(c => c.groups.flatMap(g => g.items.map(i => c.id + ':' + i.id))).sort();
+  assert.deepEqual(ids(all), ids(Object.fromEntries(py.categories.map(c => [c.id, c]))));
 });

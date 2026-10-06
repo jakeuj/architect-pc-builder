@@ -80,9 +80,9 @@ class PipelineTest(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
-    def write_data(self, date, vga):
+    def write_data(self, date, vga, vga_groups=(), other=()):
         cats = [{"id": 4, "name": "CPU", "groups": [{"label": "AM5", "items": [it(1, "｛R5 7500F｝ 盒裝", 4790)]}]},
-                {"id": 12, "name": "VGA", "groups": [{"label": "AMD", "items": vga}]}]
+                {"id": 12, "name": "VGA", "groups": [{"label": "AMD", "items": vga}, *vga_groups]}, *other]
         (self.root / "data" / "coolpc_prices.json").write_text(
             json.dumps({"quote_date": date, "categories": cats}, ensure_ascii=False), encoding="utf-8")
 
@@ -130,6 +130,37 @@ class PipelineTest(unittest.TestCase):
         self.write_data("2026/10/2 14:55", [])
         self.assertEqual(self.run_script("build_site.py").returncode, 0)
         self.assertEqual(self.out()["builds"][0]["items"]["vga"]["price"], 25990)
+
+    def test_rest_catalog_written(self):
+        """其他分類與被剔除的群組 / 品項另存 data-more.json, 跟 data.json 合起來剛好是全部。"""
+        self.write_data("2026/10/6 11:13", [it(5, "｛RX9070XT｝ 三風", 25990), it(7, "｛RX9060XT｝ 套裝加購", 9990)],
+                        vga_groups=[{"label": "NVIDIA 專業工作站繪圖卡", "items": [it(8, "｛RTX A2000｝", 19990)]}],
+                        other=[{"id": 13, "name": "螢幕｜投影機｜壁掛", "groups": [{"label": "27吋", "items": [it(9, "｛27吋螢幕｝", 4990)]}]}])
+        r = self.run_script("build_site.py")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        out = self.out()
+        more = json.loads((self.root / "docs" / "data-more.json").read_text(encoding="utf-8"))
+        self.assertEqual(out["more"], {"url": "data-more.json", "cats": [
+            {"id": 4, "name": "CPU"}, {"id": 12, "name": "VGA"}, {"id": 13, "name": "螢幕｜投影機｜壁掛"}]})
+        self.assertEqual(more["quote_date"], "2026/10/6 11:13")
+
+        def names(cats):
+            return {k: [(g["label"], [i["name"] for i in g["items"]]) for g in c["groups"]] for k, c in cats.items()}
+        self.assertEqual(names(out["categories"]), {"4": [("AM5", ["｛R5 7500F｝ 盒裝"])], "12": [("AMD", ["｛RX9070XT｝ 三風"])]})
+        self.assertEqual(names(more["categories"]), {
+            "12": [("AMD", ["｛RX9060XT｝ 套裝加購"]), ("NVIDIA 專業工作站繪圖卡", ["｛RTX A2000｝"])],
+            "13": [("27吋", ["｛27吋螢幕｝"])],
+        })
+
+    def test_all_categories_off(self):
+        """site.json all_categories: false = 純主機估價站, 不產生 data-more.json。"""
+        site = json.loads((self.root / "site.json").read_text(encoding="utf-8"))
+        (self.root / "site.json").write_text(json.dumps({**site, "all_categories": False}), encoding="utf-8")
+        self.write_data("2026/10/6 11:13", [it(5, "｛RX9070XT｝ 三風", 25990)])
+        r = self.run_script("build_site.py")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIsNone(self.out()["more"])
+        self.assertFalse((self.root / "docs" / "data-more.json").exists())
 
     def test_new_build_typo_still_fails(self):
         self.write_data("2026/10/2 14:55", [it(6, "｛RX9070GRE｝", 21490)])
