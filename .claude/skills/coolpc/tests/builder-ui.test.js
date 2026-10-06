@@ -55,7 +55,7 @@ test('數量 1/2/9 的歷史報價價差等於實際選取總計，不扣任搭�
   }
 });
 
-test('選回原件恢復歷史 pin 且保留目前數量；新增空欄使用現价', () => {
+test('選回原件恢復歷史 pin 且保留目前數量；新增空欄使用現價', () => {
   const s = state(row('old', 1, 80)); s.rows.ram = row('new', 2);
   const result = U.previewCandidate(s, { slot: 'ram' }, { cat: 6, name: 'old' }, find, C.totals);
   assert.equal(result.delta, -340); assert.equal(result.selection.rows.ram.pin.price, 80);

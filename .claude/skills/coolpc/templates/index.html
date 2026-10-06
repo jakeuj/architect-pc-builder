@@ -342,7 +342,7 @@
     $('#preset-summary').hidden = presetExpanded;
     $('#preset-options').hidden = !presetExpanded;
     $('#preset-toggle').setAttribute('aria-expanded', String(presetExpanded));
-    $('#preset-name').textContent = cur.label;
+    $('#preset-name').textContent = cur.kind === 'shared' ? cur.sub || cur.label : cur.label;
     $('#preset-state').textContent = dirty(cur) ? '已調整' : cur.kind === 'shared' ? '分享時內容' : '預設配置';
     $('#preset-total').textContent = '$' + fmt(C.totals(allRows(cur), find).quoted);
     for (const el of tabsEl.children) {
@@ -496,6 +496,9 @@
   $('#picker-cat').onchange = () => { preparePickerGroups(); renderPicker(); };
   $('#picker-group').onchange = $('#picker-sort').onchange = renderPicker;
   $('#picker-close').onclick = () => picker.close();
+  picker.addEventListener('keydown', event => {
+    if (event.key === 'Escape') { event.preventDefault(); picker.close(); }
+  });
   picker.addEventListener('close', () => {
     if (picking) document.getElementById(picking.focus)?.focus({ preventScroll: true });
   });
@@ -664,12 +667,18 @@
       [document.getElementById('choose-' + id), $('#more-add'), $('#scope-all')].find(el => el && el.offsetParent)?.focus({ preventScroll: true });
     };
     const q = part.querySelector('input[type=number]');
-    if (q) q.onchange = () => {
-      r.qty = Math.max(1, Math.min(9, +q.value || 1));
-      const focused = document.activeElement === q;
-      render();
-      if (focused) document.getElementById('choose-' + id).closest('.part').querySelector('input').focus({ preventScroll: true });
-    };
+    if (q) {
+      const commitQuantity = () => {
+        const quantity = Math.max(1, Math.min(9, +q.value || 1));
+        if (r.qty === quantity && q.value === String(quantity)) return;
+        r.qty = quantity;
+        const focused = document.activeElement === q;
+        render();
+        if (focused) document.getElementById('choose-' + id).closest('.part').querySelector('input').focus({ preventScroll: true });
+      };
+      q.oninput = () => { if (q.value && q.validity.valid) commitQuantity(); };
+      q.onchange = commitQuantity;
+    }
     return { it, how, alts, dv, note, requote };
   }
 

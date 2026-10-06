@@ -2,7 +2,7 @@
 """把 data/coolpc_prices.json + builds/*.json 整理成 docs/data.json (+ docs/data-more.json), 給 GitHub Pages 靜態估價頁 (templates/index.html) 使用。
 
 用法:
-  python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/builder.css / docs/coolpc-live.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
+  python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/builder.css / docs/coolpc-live.js / docs/builder-ui.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
   python3 build_site.py [--config site.json]
 
 site.json 欄位:
@@ -10,7 +10,7 @@ site.json 欄位:
   subtitle 標題下的一句介紹 (可省略)
   repo    GitHub repo 網址 (頁尾連結)
   game    {name, url, min:{CPU,GPU,RAM,儲存,OS,API}, rec:{...}}  遊戲官方需求 (可省略; 遊戲專屬網站才填, 沒有就不顯示需求區塊)
-  builds  要放上網頁的 build 檔名 (不含 .json), 依序成為分頁; 預設 ["low","mid","high"]
+  builds  要放上網頁的 build 檔名 (不含 .json), 依序產生配置（同用途內維持此順序）; 預設 ["low","mid","high"]
   notes   網頁「說明」區額外要加的句子 (list, 可省略)
   slots   欄位定義 (可省略, 預設見 DEFAULT_SLOTS)
   live_url 即時報價代理網址 (可省略; 見 templates/worker/), 有給的話網頁載入時與按「更新最新報價」會直接抓原價屋現價
