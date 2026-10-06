@@ -37,7 +37,7 @@ print(re.search(r"var pAry=[^\n]*", html).group(0))   # 對到的話會列出 [�
 
 - `https://www.coolpc.com.tw/m/` 只有 3KB（gzip 約 1KB），頁尾 `2026/10/6 11:13更新` 與 `evaluate.php` 的 `<font id=Mdy>` 同格式、同時間；regex `(\d{4}/\d{1,2}/\d{1,2} \d{1,2}:\d{2})更新`。
 - 用途（尚未實作）：workflow 先抓這頁跟 `data/coolpc_prices.json` 的 `quote_date` 比，相同就跳過下載完整頁。只在單一時間點比對過；過去 12 次自動 commit 的報價日期都不同，符合「內容變、時間就變」，但仍建議每隔幾小時強制抓一次完整頁保險。
-- 另一個省流量點：`fetch_coolpc.py` 沒送 `Accept-Encoding: gzip`，`evaluate.php` 原始約 1.06MB，gzip 後約 220KB（`urllib` 不會自動解壓，要自己 `gzip.decompress`）。
+- 另一個省流量點（2026-10-06 已做）：`fetch_coolpc.py` 送 `Accept-Encoding: gzip`，`evaluate.php` 傳輸從約 1.06MB 降到約 220KB；`urllib` 不會自動解壓，由 `gunzip()` 看 `Content-Encoding` 解。實測 gzip 與未壓縮兩次抓到的 7,617 個選項逐字相同。
 
 ### 分類頁：備援資料來源
 

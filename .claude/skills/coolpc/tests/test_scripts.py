@@ -2,6 +2,7 @@
 
 build 品項對不到 (下架 / 不唯一) 時, quote.py 與 build_site.py 都不能讓每小時排程失敗。
 """
+import gzip
 import json
 import subprocess
 import sys
@@ -12,7 +13,7 @@ from pathlib import Path
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 from coolpc_match import resolve  # noqa: E402
-from fetch_coolpc import decode  # noqa: E402
+from fetch_coolpc import decode, gunzip  # noqa: E402
 
 
 def it(i, name, price):
@@ -60,6 +61,17 @@ class DecodeTest(unittest.TestCase):
 
     def test_utf8_page(self):
         self.assertEqual(decode("共有商品".encode("utf-8"), "text/html"), "共有商品")
+
+
+class GunzipTest(unittest.TestCase):
+    """抓價要求 gzip; urllib 不會自動解壓, 有壓才解、沒壓原樣交給 decode。"""
+    RAW = "共有商品 ｛R5 7500F｝".encode("cp950")
+
+    def test_gzip_body(self):
+        self.assertEqual(gunzip(gzip.compress(self.RAW), "gzip"), self.RAW)
+
+    def test_plain_body(self):
+        self.assertEqual(gunzip(self.RAW, ""), self.RAW)
 
 
 class ParseTest(unittest.TestCase):

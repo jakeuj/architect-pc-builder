@@ -8,6 +8,7 @@
 """
 import argparse
 import codecs
+import gzip
 import re
 import subprocess
 import sys
@@ -56,10 +57,17 @@ def decode(raw: bytes, ctype: str = "") -> str:
     return txt
 
 
+def gunzip(raw: bytes, cenc: str = "") -> bytes:
+    """urllib 不會自動解壓; 送 Accept-Encoding: gzip 後傳輸量從約 1.06MB 降到約 220KB。伺服器沒壓縮就原樣回傳。"""
+    return gzip.decompress(raw) if cenc.strip().lower() in ("gzip", "x-gzip") else raw
+
+
 def fetch() -> str:
-    req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9"})
+    req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9",
+                                               "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(req, timeout=60) as r:
-        return decode(r.read(), r.headers.get("Content-Type", ""))
+        raw = gunzip(r.read(), r.headers.get("Content-Encoding", ""))
+        return decode(raw, r.headers.get("Content-Type", ""))
 
 
 def quote_date(txt: str) -> str:
