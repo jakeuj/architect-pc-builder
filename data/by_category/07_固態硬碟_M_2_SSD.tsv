@@ -1,10 +1,10 @@
-# 07 固態硬碟 M.2｜SSD  (報價日期 2026/10/14 15:47)
+# 07 固態硬碟 M.2｜SSD  (報價日期 2026/10/14 19:41)
 # price	id	flags	name
 
 ## 2.5吋 SATA3 SSD固態硬碟
 1399	2		｛UMAX S330 240GB｝/2.5吋/讀520/寫450/3D NAND Flash【三年保】
 2400	3	熱賣	｛UMAX S330 480GB｝/2.5吋/讀560/寫450/3D NAND Flash【三年保】
-1799	4		｛威剛 Ultimate SU650 240G｝/2.5吋/讀520/寫450/TLC顆粒【三年保】
+1599	4		｛威剛 Ultimate SU650 240G｝/2.5吋/讀520/寫450/TLC顆粒【三年保】
 2699	5		｛威剛 Ultimate SU650 480G｝/2.5吋/讀520/寫450/TLC顆粒【三年保】
 1900	6		｛金士頓 A400 240G｝/2.5吋/讀500/寫350/TLC顆粒【三年保】
 3400	7		｛金士頓 A400 480G｝/2.5吋/讀500/寫450/TLC顆粒【三年保】
@@ -82,7 +82,7 @@
 9999	82		三星 Samsung｛9100 PRO 1TB｝/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】
 19999	83		三星 Samsung｛9100 PRO 2TB｝/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】
 34999	84		三星 Samsung｛9100 PRO 4TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】
-79999	85		三星 Samsung｛9100 PRO 8TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】
+76888	85		三星 Samsung｛9100 PRO 8TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】
 10499	86		三星 Samsung｛9100 PRO 1TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】~限整機~
 21499	87		三星 Samsung｛9100 PRO 2TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】
 28599	88		三星 Samsung｛9100 PRO 4TB｝含散熱片/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】
@@ -90,7 +90,7 @@
 
 ## M.2 PCIe 4.0 (Gen4) SSD固態硬碟
 9999	91		鎧俠｛KIOXIA EXCERIA PLUS G3 2TB｝PCIe 4.0 讀5000/寫3900/TLC【五年保】
-6100	92		鎧俠｛KIOXIA EXCERIA BASIC 1TB｝PCIe 4.0 讀7200/寫6600/QLC【五年保】
+5519	92		鎧俠｛KIOXIA EXCERIA BASIC 1TB｝PCIe 4.0 讀7200/寫6600/QLC【五年保】
 9300	93		鎧俠｛KIOXIA EXCERIA BASIC 2TB｝PCIe 4.0 讀7300/寫6800/QLC【五年保】
 3199	94		威剛｛ADATA LEGEND 860 500GB｝/Gen4/讀5000/寫3000(單面設計)【五年保】
 5299	95	熱賣	威剛｛ADATA LEGEND 860 1TB｝/Gen4/讀6000/寫4000(單面設計)【五年保】
@@ -121,9 +121,9 @@
 5299	121		｛致態 ZhiTai Ti600s 1024G｝/Gen4/PCIe 4.0/讀7400/寫6600/QLC【五年保】~送飲料提袋~
 8499	122		｛致態 ZhiTai Ti600s 2048G｝/Gen4/PCIe 4.0/讀7400/寫6800/QLC【五年保】~送飲料提袋~
 15999	123		｛致態 ZhiTai Ti600s 4096G｝/Gen4/PCIe 4.0/讀7400/寫6900/QLC【五年保】~送飲料提袋~
-5399	124	熱賣	｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送手機掛繩~
-9399	125		｛致態 ZhiTai TiPlus7100s 2TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送手機掛繩~
-17999	126		｛致態 ZhiTai TiPlus7100s 4TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送手機掛繩~
+5399	124	熱賣	｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~
+9399	125		｛致態 ZhiTai TiPlus7100s 2TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~
+17999	126		｛致態 ZhiTai TiPlus7100s 4TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~
 11088	127		｛KLEVV CRAS C930 2TB｝/Gen4 PCIe 4.0/讀7400/寫6800 DRAM快取鰭狀鋁散熱片【五年】
 7590	128		MSI 微星｛M470PRO 1TB｝/Gen4/讀6000/寫4500/QLC顆粒【五年保】
 11690	129		MSI 微星｛M470PRO 2TB｝/Gen4/讀6000/寫5000/QLC顆粒
@@ -152,9 +152,9 @@
 15800	152		美光 Micron Crucial｛P310 4TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】
 8550	153		美光 Micron Crucial｛P310 2TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】
 15800	154		美光 Micron Crucial｛P310 4TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】
-7199	155		三星 Samsung｛990 EVO Plus 1TB｝/PCIe 4.0 x4/讀7150/寫6300/TLC【五年保】
+6800	155		三星 Samsung｛990 EVO Plus 1TB｝/PCIe 4.0 x4/讀7150/寫6300/TLC【五年保】
 11999	156		三星 Samsung｛990 EVO Plus 2TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】
-20999	157		三星 Samsung｛990 EVO Plus 4TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】
+19999	157		三星 Samsung｛990 EVO Plus 4TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】
 9659	158	熱賣	三星 Samsung｛990 PRO 1TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】
 16999	159		三星 Samsung｛990 PRO 2TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】
 27999	160		三星 Samsung｛990 PRO 4TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】
