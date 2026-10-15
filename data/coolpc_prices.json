@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/14 19:41",
+ "quote_date": "2026/10/15 9:31",
  "categories": [
   {
    "id": 1,
@@ -11381,7 +11381,7 @@
       {
        "id": 151,
        "name": "美光 Micron Crucial｛P310 2TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】",
-       "price": 8500,
+       "price": 8250,
        "list_price": null,
        "flags": []
       },
@@ -19861,10 +19861,13 @@
       },
       {
        "id": 95,
-       "name": "｛PHILIPS 242V8AB｝〈1A1H1P/IPS〉台灣製造",
-       "price": 3388,
-       "list_price": null,
-       "flags": []
+       "name": "｛PHILIPS 242V8AB｝〈1A1H1P/IPS〉台灣製造▼下殺到 10/31 23:59",
+       "price": 2988,
+       "list_price": 3388,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 96,
@@ -32126,50 +32129,41 @@
       },
       {
        "id": 253,
-       "name": "｛XPG CORE REACTOR II 750W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
-       "price": 2790,
-       "list_price": null,
-       "flags": [
-        "酷幣500"
-       ]
-      },
-      {
-       "id": 254,
        "name": "｛XPG CORE REACTOR II 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 3690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 255,
+       "id": 254,
        "name": "｛XPG CORE REACTOR II 850W 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 256,
+       "id": 255,
        "name": "｛XPG CORE REACTOR II 1000W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 257,
+       "id": 256,
        "name": "｛XPG CORE REACTOR II 1200W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 5590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 258,
+       "id": 257,
        "name": "｛XPG CYBERCORE II 1300W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)/10年保 原價$7490",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 259,
+       "id": 258,
        "name": "｛XPG FUSION 1600W｝雙8/鈦金/全模組/ATX3.0(雙PCIe 5.0)/全日系/12年",
        "price": 19900,
        "list_price": null,
@@ -32181,98 +32175,98 @@
      "label": "保銳 ENERMAX【原價屋售出 2年快換】",
      "items": [
       {
-       "id": 262,
+       "id": 261,
        "name": "｛保銳 EB450-C 450W｝銅牌/直出壓紋線/全日系/5年",
        "price": 1090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 263,
+       "id": 262,
        "name": "｛保銳 EB550-C 550W｝銅牌/直出壓紋線/ATX3.1/全日系/5年",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 264,
+       "id": 263,
        "name": "｛保銳 EB650-C 650W｝雙8/銅牌/直出壓紋線/ATX3.1/全日系/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 265,
+       "id": 264,
        "name": "｛保銳 Cyberbron II 700W｝雙8/銅牌/直出扁線/主日系/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 266,
+       "id": 265,
        "name": "｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 267,
+       "id": 266,
        "name": "｛保銳 CyberG II 750W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 268,
+       "id": 267,
        "name": "｛保銳 CyberG II 850W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 269,
+       "id": 268,
        "name": "｛保銳 Revolution III 650W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 270,
+       "id": 269,
        "name": "｛保銳 Revolution III 650W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 271,
+       "id": 270,
        "name": "｛保銳 Revolution III 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 272,
+       "id": 271,
        "name": "｛保銳 Revolution III 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 273,
+       "id": 272,
        "name": "｛保銳 Revolution III 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 274,
+       "id": 273,
        "name": "｛保銳 Revolution III 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 275,
+       "id": 274,
        "name": "｛保銳 Revolution III 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4290,
        "list_price": null,
@@ -32281,35 +32275,35 @@
        ]
       },
       {
-       "id": 277,
+       "id": 276,
        "name": "｛保銳 Revolution III S 1000W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 278,
+       "id": 277,
        "name": "｛保銳 Revolution III S 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 279,
+       "id": 278,
        "name": "｛保銳 PlatimaxII 1200DF(1200W) 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 280,
+       "id": 279,
        "name": "｛保銳 PlatimaxII 1200DF(1200W) 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 281,
+       "id": 280,
        "name": "｛保銳 PlatiGemini 1200W｝雙8/白金/符合ATX12VO/全模/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 5990,
        "list_price": null,
@@ -32321,28 +32315,28 @@
      "label": "安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】",
      "items": [
       {
-       "id": 284,
+       "id": 283,
        "name": "｛Antec CSK550DC(550W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 285,
+       "id": 284,
        "name": "｛Antec CSK650DC(650W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 286,
+       "id": 285,
        "name": "｛Antec CSK750DC(750W) 白色｝雙8/銅牌/直出線/PCIe 5.1/DC-DC/5年保",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 287,
+       "id": 286,
        "name": "｛Antec CSK750H(750W)｝雙8/銅牌/半模組/靜音風扇/5年保",
        "price": 1890,
        "list_price": null,
@@ -32351,28 +32345,28 @@
        ]
       },
       {
-       "id": 288,
+       "id": 287,
        "name": "｛Antec GSK 750W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 289,
+       "id": 288,
        "name": "｛Antec GSK 850W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 290,
+       "id": 289,
        "name": "｛Antec GSK 1000W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 291,
+       "id": 290,
        "name": "｛Antec NE750GM(750W)｝雙8/金牌/全模/全日系/智慧溫控風扇/10年保",
        "price": 2290,
        "list_price": null,
@@ -32381,7 +32375,7 @@
        ]
       },
       {
-       "id": 292,
+       "id": 291,
        "name": "｛Antec NE850GM(850W) 白色｝雙8/黑色線材/金牌/全模/全日系/智慧溫控風扇/10年保",
        "price": 2490,
        "list_price": null,
@@ -32390,7 +32384,7 @@
        ]
       },
       {
-       "id": 293,
+       "id": 292,
        "name": "｛Antec NE1300G M ATX3.0(1300W)｝雙8/金牌/全模/PCIe 5.0/全日系/10年保",
        "price": 3990,
        "list_price": null,
@@ -32399,21 +32393,21 @@
        ]
       },
       {
-       "id": 294,
+       "id": 293,
        "name": "｛Antec NE850(850W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 295,
+       "id": 294,
        "name": "｛Antec NE1000(1000W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 296,
+       "id": 295,
        "name": "｛Antec NE1200(1200W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4790,
        "list_price": null,
@@ -32425,56 +32419,56 @@
      "label": "微星 MSI 【到府收件 兩年展服快換】",
      "items": [
       {
-       "id": 299,
+       "id": 298,
        "name": "｛微星 MAG A550BN 550W｝銅牌/DC-DC/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 300,
+       "id": 299,
        "name": "｛微星 MAG A650BN 650W｝銅牌/DC-DC/5年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 301,
+       "id": 300,
        "name": "｛微星 MAG A650BNL WHITE 650W 白｝銅牌/DC-DC/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 302,
+       "id": 301,
        "name": "｛微星 MAG A750BN PCIE5 III 750W｝雙8/銅牌/ATX3.1/5年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 303,
+       "id": 302,
        "name": "｛微星 MAG A650GL 650W｝雙8/金牌/全模組/DC-DC/7年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 304,
+       "id": 303,
        "name": "｛微星 MAG A750GL PCIE5 750W｝雙8/金牌/全模組/ATX3.0/7年保",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 305,
+       "id": 304,
        "name": "｛微星 MAG A850GL PCIE5 WHITE 850W 白｝雙8/金牌/全模組/ATX3.0/7年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 306,
+       "id": 305,
        "name": "｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保▼下殺到 10/31 20:00",
        "price": 3790,
        "list_price": 4790,
@@ -32484,7 +32478,7 @@
        ]
       },
       {
-       "id": 307,
+       "id": 306,
        "name": "｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
        "price": 3690,
        "list_price": 4390,
@@ -32494,7 +32488,7 @@
        ]
       },
       {
-       "id": 308,
+       "id": 307,
        "name": "｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
        "price": 4590,
        "list_price": 5290,
@@ -32504,21 +32498,21 @@
        ]
       },
       {
-       "id": 309,
+       "id": 308,
        "name": "｛微星 MAG A1000PLS PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 310,
+       "id": 309,
        "name": "｛微星 MPG Ai1300TS PCIE5 1300W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年",
        "price": 16490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 311,
+       "id": 310,
        "name": "｛微星 MPG Ai1600TS PCIE5 1600W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年",
        "price": 18490,
        "list_price": null,
@@ -32530,21 +32524,21 @@
      "label": "DEEPCOOL 九州風神",
      "items": [
       {
-       "id": 314,
+       "id": 313,
        "name": "｛九州風神 PK550D(550W)｝雙8/銅牌/DC-DC/5年",
        "price": 1390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 315,
+       "id": 314,
        "name": "｛九州風神 PK650D(650W)｝雙8/銅牌/DC-DC/5年",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 316,
+       "id": 315,
        "name": "｛九州風神 PN650D(650W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！",
        "price": 2190,
        "list_price": null,
@@ -32553,7 +32547,7 @@
        ]
       },
       {
-       "id": 317,
+       "id": 316,
        "name": "｛九州風神 PN750D(750W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！",
        "price": 2490,
        "list_price": null,
@@ -32562,35 +32556,35 @@
        ]
       },
       {
-       "id": 318,
+       "id": 317,
        "name": "｛九州風神 PN850D(850W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 319,
+       "id": 318,
        "name": "｛九州風神 PN650M(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 320,
+       "id": 319,
        "name": "｛九州風神 PN750M(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 321,
+       "id": 320,
        "name": "｛九州風神 PN850M(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 322,
+       "id": 321,
        "name": "｛九州風神 PN850M WH(850W) 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 3190,
        "list_price": null,
@@ -32602,28 +32596,28 @@
      "label": "大飛 darkFlash",
      "items": [
       {
-       "id": 325,
+       "id": 324,
        "name": "｛darkFlash PMT 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 326,
+       "id": 325,
        "name": "｛darkFlash PMT 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 327,
+       "id": 326,
        "name": "｛darkFlash PMT 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 328,
+       "id": 327,
        "name": "｛darkFlash PMT 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3390,
        "list_price": null,
@@ -32635,49 +32629,49 @@
      "label": "恩傑 NZXT【原價屋售出 2年快換】",
      "items": [
       {
-       "id": 331,
+       "id": 330,
        "name": "｛NZXT C750(750W) 銅牌｝雙8/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 332,
+       "id": 331,
        "name": "｛NZXT C850(850W) CORE 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)壓紋線/7年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 333,
+       "id": 332,
        "name": "｛NZXT C850(850W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 4290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 334,
+       "id": 333,
        "name": "｛NZXT C1000(1000W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 335,
+       "id": 334,
        "name": "｛NZXT C1000(1000W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 5690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 336,
+       "id": 335,
        "name": "｛NZXT C1200(1200W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 337,
+       "id": 336,
        "name": "｛NZXT C1500(1500W) ATX3.1｝雙8/白金/數位電源/全模組/雙PCIe 5.1/全日系/10年",
        "price": 11990,
        "list_price": null,
@@ -32689,35 +32683,35 @@
      "label": "華擎 ASRock",
      "items": [
       {
-       "id": 340,
+       "id": 339,
        "name": "｛ASRock SL-750G(750W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 341,
+       "id": 340,
        "name": "｛ASRock SL-850G(850W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 341,
        "name": "｛ASRock SL-850GW(850W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 343,
+       "id": 342,
        "name": "｛ASRock SL-1000G(1000W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 344,
+       "id": 343,
        "name": "｛ASRock SL-1000GW(1000W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4690,
        "list_price": null,
@@ -32729,84 +32723,84 @@
      "label": "技嘉 GIGABYTE",
      "items": [
       {
-       "id": 347,
+       "id": 346,
        "name": "｛技嘉 P550B(550W)｝銅牌/3年保",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 348,
+       "id": 347,
        "name": "｛技嘉 P650G PG5(650W)｝ 雙8/金牌/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 349,
+       "id": 348,
        "name": "｛技嘉 UD750GM PG5 V2(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 350,
+       "id": 349,
        "name": "｛技嘉 UD750GM PG5 V2 ICE(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 351,
+       "id": 350,
        "name": "｛技嘉 UD850GM PG5 V2(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 352,
+       "id": 351,
        "name": "｛技嘉 UD850GM PG5 V2 ICE(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 353,
+       "id": 352,
        "name": "｛技嘉 UD1000GM PG5 V2(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 354,
+       "id": 353,
        "name": "｛技嘉 UD1000GM PG5 V2 ICE(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 355,
+       "id": 354,
        "name": "｛技嘉 UD1600PM PG5(1600W)｝雙8/白金/全模組/ATX3.1(雙PCIe 5.1)主日系/10年",
        "price": 14990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 356,
+       "id": 355,
        "name": "｛技嘉 GAMING 1000GM PG5(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 357,
+       "id": 356,
        "name": "｛技嘉 AORUS ELITE 1000W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 358,
+       "id": 357,
        "name": "｛技嘉 AORUS ELITE 1000W ICE(白色)｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年",
        "price": 6490,
        "list_price": null,
@@ -32818,21 +32812,21 @@
      "label": "曜越 Thermaltake【原價屋售出 3年快換 !!】",
      "items": [
       {
-       "id": 361,
+       "id": 360,
        "name": "｛曜越 Toughpower GF A3 750W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 362,
+       "id": 361,
        "name": "｛曜越 Toughpower GF A3 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 363,
+       "id": 362,
        "name": "｛曜越 Toughpower GF3 1350W ATX3.0(PCIe 5.0)｝雙8/金牌/全模組/10年保",
        "price": 4990,
        "list_price": null,
@@ -32844,21 +32838,21 @@
      "label": "聯力工業 LIAN LI",
      "items": [
       {
-       "id": 365,
+       "id": 364,
        "name": "｛聯力 RS1000G(1000W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 4399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 366,
+       "id": 365,
        "name": "｛聯力 RS1200G(1200W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 5299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 367,
+       "id": 366,
        "name": "｛聯力 RS1200G(1200W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 5449,
        "list_price": null,
@@ -46540,7 +46534,7 @@
       {
        "id": 51,
        "name": "｛華芸 AS1204T｝【4Bay】Realtek RTD1619B 四核 (1.7GHz/1GB DDR4/2.5Gb*1)",
-       "price": 9999,
+       "price": 9490,
        "list_price": null,
        "flags": []
       },
@@ -46664,7 +46658,7 @@
       {
        "id": 70,
        "name": "｛QNAP TS-233｝【2Bay】ARM Cortex-A55 四核 (2.0GHz/2GB/1Gb*1/U3*1/U2*2)",
-       "price": 7999,
+       "price": 7590,
        "list_price": null,
        "flags": []
       },

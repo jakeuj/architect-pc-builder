@@ -1,4 +1,4 @@
-# 20 網路NAS｜網路IPCAM  (報價日期 2026/10/14 19:41)
+# 20 網路NAS｜網路IPCAM  (報價日期 2026/10/15 9:31)
 # price	id	flags	name
 
 ## 室內 網路攝影機 (IP Camera) 都有支援雙向語音
@@ -53,7 +53,7 @@
 
 ## 華芸 Asustor
 6399	50		｛華芸 AS1202T｝【2Bay】Realtek RTD1619B 四核 (1.7GHz/1GB DDR4/2.5Gb*1)
-9999	51		｛華芸 AS1204T｝【4Bay】Realtek RTD1619B 四核 (1.7GHz/1GB DDR4/2.5Gb*1)
+9490	51		｛華芸 AS1204T｝【4Bay】Realtek RTD1619B 四核 (1.7GHz/1GB DDR4/2.5Gb*1)
 8490	53		｛華芸 AS3302T v2｝【2Bay】Realtek RTD1619B 四核 (1.7GHz/2GB/2.5Gb*1)
 11999	54		｛華芸 AS3304T v2｝【4Bay】Realtek RTD1619B 四核 (1.7GHz/2GB/2.5Gb*1)
 12319	55		｛華芸 AS5402T｝【2Bay】Intel N5105 四核 (2.0GHz/4GB/2.5Gb*2/M.2 PCIe*4)
@@ -72,7 +72,7 @@
 
 ## QNAP 威聯通
 6299	69		｛QNAP TS-133｝【1Bay】ARM Cortex-A55 四核 (1.8GHz/2GB/1Gb*1/U3*1/U2*1)
-7999	70		｛QNAP TS-233｝【2Bay】ARM Cortex-A55 四核 (2.0GHz/2GB/1Gb*1/U3*1/U2*2)
+7590	70		｛QNAP TS-233｝【2Bay】ARM Cortex-A55 四核 (2.0GHz/2GB/1Gb*1/U3*1/U2*2)
 9899	71		｛QNAP TS-216G｝【2Bay】ARM Cortex-A55 四核 (2.0GHz/4GB/2.5Gb*1/1Gb*1)
 14399	72		｛QNAP TS-433-4G｝【4Bay】ARM Cortex-A55 四核 (2.0GHz/4GB/2.5Gb*1/1Gb*1)
 16499	73		｛QNAP TS-264-8G｝【2Bay】Intel N5095 四核 (2.0GHz/8GB/U3*2/2.5Gb*2/HDMI*1)
