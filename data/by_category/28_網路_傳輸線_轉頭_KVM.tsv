@@ -1,4 +1,4 @@
-# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/10/16 13:41)
+# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/10/16 19:29)
 # price	id	flags	name
 
 ## RJ-45 網路線材
@@ -39,8 +39,8 @@
 299	38		｛UNITEK C1811EBK｝CAT7 3米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
 339	39		｛UNITEK C1812EBK｝CAT7 5米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
 499	40		｛UNITEK C1813EBK｝CAT7 10米 支援10/100/1000/10000 Mbps(10 Gbps) SSTP / 黑
-259	42		群加 CAT7 1.5米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
-299	43		群加 CAT7 2米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
+229(原259)	42	價格異動 下殺	群加 CAT7 1.5米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
+289(原299)	43	價格異動 下殺	群加 CAT7 2米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
 399	44		群加 CAT7 3米 支援10/100/1000/10000 Mbps(10 Gbps) FTP純銅鍍金頭 / 耐彎折設計
 588	46		華碩 ROG CAT7 1.5米 支援10/100/1000/10000 Mbps(10 Gbps) 純銅鍍金頭/編織線
 
@@ -169,7 +169,7 @@
 299	169		｛UNITEK Y-C166K｝HDMI 2.0 公-母 延長線 / 鍍金頭 / 支援4K60Hz / 3米
 179	170		｛UNITEK Y-C138M｝HDMI 2.0 公-公 / 鍍金頭 / 支援4K60Hz / 2米
 219	171		｛UNITEK Y-C139M｝HDMI 2.0 公-公 / 鍍金頭 / 支援4K60Hz / 3米
-230	172		｛UNITEK Y-C140M｝HDMI 1.4 公-公 / 鍍金頭 / 支援4K30Hz / 5米
+279	172		｛UNITEK Y-C140M｝HDMI 1.4 公-公 / 鍍金頭 / 支援4K30Hz / 5米
 309	173		｛UNITEK C11060BK-1M｝HDMI 2.1 公-公 / 鍍金頭 / 支援8K60Hz / 1米
 399	174		｛UNITEK C11060BK-2M｝HDMI 2.1 公-公 / 鍍金頭 / 支援8K60Hz / 2米
 220	175		力祥 HDMI(公) to mini HDMI(公) 傳輸線 / 1.8米
@@ -252,8 +252,8 @@
 190	248		｛力祥 SU0108｝USB5G Type-A 公-母 延長線 / 1.8米
 229	249		｛UNITEK Y-C459GBK｝USB5G Type-A 公-母 延長線 / 鍍金頭 / 2米
 349	250		｛UNITEK C14086BK｝USB10G Type-C 公-母 延長線 / 100W / 0.5米
-399	251		｛UNITEK C14086BK-1M｝USB10G Type-C 公-母 延長線 / 100W / 1米
-439	252		｛UNITEK C14086BK-1.5M｝USB10G Type-C 公-母 延長線 / 100W / 1.5米
+409	251		｛UNITEK C14086BK-1M｝USB10G Type-C 公-母 延長線 / 100W / 1米
+459	252		｛UNITEK C14086BK-1.5M｝USB10G Type-C 公-母 延長線 / 100W / 1.5米
 
 ## 電源多孔排插
 490	254		｛ASUS ROG LPR01｝電源延長線 1.5M 相容ROG ALLY / 部分 ROG筆電
