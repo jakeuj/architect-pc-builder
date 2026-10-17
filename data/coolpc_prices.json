@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/16 19:29",
+ "quote_date": "2026/10/17 17:32",
  "categories": [
   {
    "id": 1,
@@ -1720,13 +1720,6 @@
       },
       {
        "id": 57,
-       "name": "Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74P-5985｝",
-       "price": 25900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 58,
        "name": "Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74T-56K4｝〈觸控〉",
        "price": 28900,
        "list_price": null,
@@ -1738,14 +1731,14 @@
      "label": "17吋 Acer宏碁 Aspire Lite 系列",
      "items": [
       {
-       "id": 60,
+       "id": 59,
        "name": "Acer Aspire Lite Core 3 N355/8G/512G/17.3吋/銀｛AL17-31P-363V｝",
        "price": 17900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 61,
+       "id": 60,
        "name": "Acer Aspire Lite Ultra7-155U/16G/512G/17.3吋/銀｛AL17-52P-78QF｝",
        "price": 30900,
        "list_price": null,
@@ -1757,7 +1750,7 @@
      "label": "14吋 Acer宏碁 Aspire Spin 系列",
      "items": [
       {
-       "id": 63,
+       "id": 62,
        "name": "Acer Aspire Spin Ryzen AI 5 330/16G/512G/14吋/銀｛ASP14-61N-R0ZS｝〈觸控翻轉〉",
        "price": 29900,
        "list_price": null,
@@ -1769,14 +1762,14 @@
      "label": "15吋 Acer宏碁 Aspire Spin 系列",
      "items": [
       {
-       "id": 65,
+       "id": 64,
        "name": "Acer Aspire Spin Ryzen AI 5 330/16G/512G/15.3吋/銀｛ASP15-61N-R27Y｝〈觸控翻轉〉",
        "price": 30900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 66,
+       "id": 65,
        "name": "Acer Aspire Spin Ultra 5-125U/16G/512G/15.3吋/銀｛ASP15-51N-57Z5｝〈觸控翻轉〉",
        "price": 31900,
        "list_price": null,
@@ -1788,21 +1781,9 @@
      "label": "16吋 Acer宏碁 Nitro 電競機",
      "items": [
       {
-       "id": 68,
+       "id": 67,
        "name": "Acer Nitro R9-365/RTX5060/16G/512G/16吋/黑｛AN16S-61-R9JT｝",
        "price": 56900,
-       "list_price": null,
-       "flags": []
-      }
-     ]
-    },
-    {
-     "label": "15吋 Acer宏碁 Nitro V 電競機",
-     "items": [
-      {
-       "id": 70,
-       "name": "Acer Nitro V i5-13420H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-53GB｝",
-       "price": 40900,
        "list_price": null,
        "flags": []
       }
@@ -1812,28 +1793,28 @@
      "label": "16吋 Acer宏碁 Nitro V 電競機",
      "items": [
       {
-       "id": 72,
+       "id": 69,
        "name": "Acer Nitro V R5-240/RTX5050/16G/512G/16吋/黑｛ANV16S-41-R14L｝",
        "price": 52900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 73,
+       "id": 70,
        "name": "Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝",
        "price": 56900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 74,
+       "id": 71,
        "name": "Acer Nitro V Ryzen AI 7 450/RTX5060/16G/512G/16吋/黑｛ANV16-A71-R0P1｝",
        "price": 58900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 75,
+       "id": 72,
        "name": "Acer Nitro V Ryzen AI 9 465/RTX5070/16G/512G/16吋/黑｛ANV16-A71-R2A2｝",
        "price": 66900,
        "list_price": null,
@@ -1845,14 +1826,14 @@
      "label": "14吋 Acer宏碁 Predator Helios Neo 14 電競機〈官網登錄送一年延保〉",
      "items": [
       {
-       "id": 77,
+       "id": 74,
        "name": "Acer Helios Neo Ultra 7-255H/RTX5060/32G/1T/14.5吋/黑｛PHN14-71-74GT｝",
        "price": 86900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 78,
+       "id": 75,
        "name": "Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝",
        "price": 92900,
        "list_price": null,
@@ -1866,21 +1847,21 @@
      "label": "16吋 Acer宏碁 Predator Helios Neo 16 電競機〈官網登錄送一年延保〉",
      "items": [
       {
-       "id": 80,
+       "id": 77,
        "name": "Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16-73-71BP｝",
        "price": 65900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 81,
+       "id": 78,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16-73-900P｝",
        "price": 67800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 82,
+       "id": 79,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16-73-92G5｝",
        "price": 72800,
        "list_price": null,
@@ -1892,28 +1873,28 @@
      "label": "16吋 Acer宏碁 Predator Helios Neo 16S AI 電競機〈官網登錄送一年延保〉",
      "items": [
       {
-       "id": 84,
+       "id": 81,
        "name": "Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-79XM｝",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 86,
+       "id": 83,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5060/16G/512G/16吋/黑｛PHN16S-71-94UX｝",
        "price": 64900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 87,
+       "id": 84,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5070/16G/512G/16吋/黑｛PHN16S-71-90J2｝",
        "price": 68900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 88,
+       "id": 85,
        "name": "Acer Helios Neo Ultra 9-275HX/RTX5070Ti/32G/1T/16吋/黑｛PHN16S-71-90TD｝",
        "price": 92900,
        "list_price": null,
@@ -1925,7 +1906,7 @@
      "label": "14吋 Acer宏碁 Swift Blade 系列",
      "items": [
       {
-       "id": 90,
+       "id": 87,
        "name": "Acer Swift Blade Core 5-315/16G/512G/14吋/銀｛SFB14-51M-585Y｝【極致輕960克】",
        "price": 31900,
        "list_price": null,
@@ -1937,7 +1918,7 @@
      "label": "14吋 Acer宏碁 Swift Lite 系列",
      "items": [
       {
-       "id": 92,
+       "id": 89,
        "name": "Acer Swift Lite Ultra 7-155U/32G/512G/14吋/銀｛SFL14-54M-72JK｝【極致輕999克】",
        "price": 35900,
        "list_price": null,
@@ -1949,28 +1930,28 @@
      "label": "16吋 Acer宏碁 Swift Lite 系列",
      "items": [
       {
-       "id": 94,
+       "id": 91,
        "name": "Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝",
        "price": 29900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 92,
        "name": "Acer Swift Lite Ultra 5-115U/16G/512G/16吋/銀｛SFL16-51M-5184｝",
        "price": 28900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 96,
+       "id": 93,
        "name": "Acer Swift Lite Ultra 5-115U/16G/512G/16吋/銀｛SFL16-52M-54S8｝",
        "price": 29900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 97,
+       "id": 94,
        "name": "Acer Swift Lite Ultra 5-115U/32G/1T/16吋/銀｛SFL16-52M-58U4｝",
        "price": 35900,
        "list_price": null,
@@ -1982,28 +1963,28 @@
      "label": "14吋 Acer宏碁 Swift Go 系列",
      "items": [
       {
-       "id": 99,
+       "id": 96,
        "name": "Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-542S｝〈IPS面板〉",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 100,
+       "id": 97,
        "name": "Acer Swift Go AI Ultra 5-228V/32G/512G/14吋/藍｛SFG14-75-5948｝",
        "price": 39900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 101,
+       "id": 98,
        "name": "Acer Swift Go AI Ultra 5-226V/16G/512G/14吋/藍｛SFG14-75-59DG｝",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 102,
+       "id": 99,
        "name": "Acer Swift Go AI Ultra 7-258V/32G/1T/14吋/藍｛SFG14-75-76T1｝",
        "price": 46900,
        "list_price": null,
@@ -2015,14 +1996,14 @@
      "label": "16吋 Acer宏碁 Swift Go 系列",
      "items": [
       {
-       "id": 104,
+       "id": 101,
        "name": "Acer Swift Go AI Ultra 5-228V/32G/512G/16吋/黑｛SFG16-74-58QT｝",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 102,
        "name": "Acer Swift Go AI Ultra 7-258V/32G/1T/16吋/黑｛SFG16-74-79T3｝",
        "price": 48900,
        "list_price": null,
@@ -2034,42 +2015,42 @@
      "label": "14吋 Acer宏碁 Swift Air 系列",
      "items": [
       {
-       "id": 107,
+       "id": 104,
        "name": "Acer Swift Air Ryzen AI 5 330/16G/512G/14吋/勃根地紅｛SFA14-61M-R30L｝",
        "price": 30900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 105,
        "name": "Acer Swift Air Ultra 5-115U/16G/512G/14吋/銀｛SFA14-52M-516J｝【極致輕999克】",
        "price": 27900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 106,
        "name": "Acer Swift Air Ultra 5-125H/16G/512G/14吋/銀｛SFA14-71M-57TB｝",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 107,
        "name": "Acer Swift Air Ultra 5-125H/32G/512G/14吋/銀｛SFA14-71M-52EM｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 108,
        "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/粉｛SFA14-71M-72Q2｝",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 109,
        "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝",
        "price": 42900,
        "list_price": null,
@@ -2081,28 +2062,28 @@
      "label": "16吋 Acer宏碁 Swift Air 系列",
      "items": [
       {
-       "id": 114,
+       "id": 111,
        "name": "Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/銀｛SFA16-61M-R8U8｝【極致輕999克】",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 112,
        "name": "Acer Swift Air Ryzen AI 5 330/16G/512G/16吋/白｛SFA16-61M-R3W0｝",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 113,
        "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 114,
        "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/白｛SFA16-61M-R7T5｝",
        "price": 39900,
        "list_price": null,
@@ -2114,7 +2095,7 @@
      "label": "14吋/16吋 Acer宏碁 Swift Edge 系列 〈頂級超輕量工作生活筆電〉",
      "items": [
       {
-       "id": 119,
+       "id": 116,
        "name": "Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝",
        "price": 58900,
        "list_price": null,
@@ -2130,7 +2111,7 @@
      "label": "15吋 Lenovo IdeaPad Slim 3 系列",
      "items": [
       {
-       "id": 124,
+       "id": 121,
        "name": "Lenovo IdeaPad 3 i3-1315U/8G/512G/15.6吋/藍｛82X700LATW｝",
        "price": 15990,
        "list_price": null,
@@ -2142,14 +2123,14 @@
      "label": "16吋 Lenovo IdeaPad Slim 3 系列",
      "items": [
       {
-       "id": 127,
+       "id": 124,
        "name": "Lenovo IdeaPad 3 Core 5-320/16G/512G/16吋/灰｛83RS001PTW｝",
        "price": 26490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 125,
        "name": "Lenovo IdeaPad 3 Ultra 5-322/16G/512G/16吋/灰｛83US0050TW｝",
        "price": 32990,
        "list_price": null,
@@ -2161,7 +2142,7 @@
      "label": "17吋 Lenovo IdeaPad Slim 3 系列",
      "items": [
       {
-       "id": 130,
+       "id": 127,
        "name": "Lenovo IdeaPad 3 Core 5-320/16G/512G/17.3吋/灰｛83VS001TTW｝",
        "price": 28990,
        "list_price": null,
@@ -2173,7 +2154,7 @@
      "label": "14吋 Lenovo IdeaPad Pro 5 系列",
      "items": [
       {
-       "id": 133,
+       "id": 130,
        "name": "Lenovo IdeaPad Pro 5 Ultra X7-358H/32G/1T/14吋/灰｛83SH000NTW｝",
        "price": 61990,
        "list_price": null,
@@ -2185,14 +2166,14 @@
      "label": "14吋 Lenovo Yoga Slim / Yoga Pro 系列",
      "items": [
       {
-       "id": 136,
+       "id": 133,
        "name": "Lenovo Yoga Slim 7 Ultra 5-325/32G/1T/14吋/貝殼白｛83QK0038TW｝〈觸控〉",
        "price": 68990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 134,
        "name": "Lenovo Yoga Slim 9 Ultra 7-258V/32G/1T/14吋/綠｛83CX0010TW｝〈觸控〉",
        "price": 64500,
        "list_price": null,
@@ -2204,49 +2185,49 @@
      "label": "15吋 Lenovo LOQ 系列",
      "items": [
       {
-       "id": 141,
+       "id": 138,
        "name": "Lenovo LOQ R5-7535HS/RTX3050/16G/512G/15.6吋/灰｛83S000A9TW｝",
        "price": 30990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 142,
+       "id": 139,
        "name": "Lenovo LOQ R7-170/RTX4050/16G/512G/15.6吋/灰｛83S000DNTW｝",
        "price": 35990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 143,
+       "id": 140,
        "name": "Lenovo LOQ R7-250/RTX5050/16G/512G/15.3吋/灰｛83TN008UTW｝",
        "price": 42990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 144,
+       "id": 141,
        "name": "Lenovo LOQ R7-250/RTX5060/16G/512G/15.3吋/灰｛83TN004BTW｝",
        "price": 47990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 146,
+       "id": 143,
        "name": "Lenovo LOQ i5-13450HX/RTX3050/16G/512G/15.6吋/灰｛83DV01GJTW｝",
        "price": 32990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 144,
        "name": "Lenovo LOQ i5-13450HX/RTX4050/16G/512G/15.6吋/灰｛83DV01J3TW｝",
        "price": 37990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 148,
+       "id": 145,
        "name": "Lenovo LOQ i7-13650HX/RTX4050/16G/512G/15.6吋/灰｛83DV01L2TW｝",
        "price": 41990,
        "list_price": null,
@@ -2258,7 +2239,7 @@
      "label": "15吋 Lenovo Legion 5 系列",
      "items": [
       {
-       "id": 151,
+       "id": 148,
        "name": "Lenovo Legion 5 Ultra 7-356H/RTX5060/32G/1T/15.3吋/黑｛83RW0026TW｝",
        "price": 85990,
        "list_price": null,
@@ -2270,7 +2251,7 @@
      "label": "華碩 ASUS 筆電館-全館刷卡分期零利率(3)",
      "items": [
       {
-       "id": 155,
+       "id": 152,
        "name": "華碩 TUF Gaming VP4700 電競後背包 / VP4700 TUF BACKPACK/15_17",
        "price": 1680,
        "list_price": null,
@@ -2279,21 +2260,21 @@
        ]
       },
       {
-       "id": 156,
+       "id": 153,
        "name": "華碩 TUF Gaming VP4700 電競後背包 / VP4700 TUF BACKPACK/15_17【筆電合搭價】",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 157,
+       "id": 154,
        "name": "【華碩家用筆記型電腦】ASUS Premium Care 第三年本地延伸保固服務-實體卡片套件",
        "price": 3000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 158,
+       "id": 155,
        "name": "【華碩電競筆記型電腦】ASUS Premium Care 第三年本地延伸保固服務-實體卡片套件",
        "price": 3500,
        "list_price": null,
@@ -2305,55 +2286,93 @@
      "label": "華碩 ROG 二十載淬鍊不凡 / ROG SAGA 特展 / 2026 限量特展",
      "items": [
       {
-       "id": 160,
+       "id": 157,
        "name": "華碩 ROG OMNI 可動公仔-煥彩白",
        "price": 1099,
        "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
+       "flags": []
       },
       {
-       "id": 161,
+       "id": 158,
        "name": "華碩 ROG OMNI 可動公仔-經典OG(紅)",
        "price": 1099,
        "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
+       "flags": []
       },
       {
-       "id": 162,
+       "id": 159,
        "name": "華碩 ROG SAGA OMNI Edition 20 公仔 黑透金限量版",
        "price": 1299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 163,
+       "id": 160,
        "name": "華碩 ROG SAGA OMNI Hang Pal 隨身心情公仔(紅)",
        "price": 450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 164,
+       "id": 161,
        "name": "華碩 ROG OMNI 無懼特攻 冒險漫畫",
        "price": 390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 165,
+       "id": 162,
        "name": "華碩 ROG SLASH 後背包 Edition 20",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 163,
        "name": "華碩 ROG SLASH 20吋登機箱 Edition 20",
        "price": 7790,
+       "list_price": null,
+       "flags": []
+      }
+     ]
+    },
+    {
+     "label": "14 吋 華碩 ProArt 系列〈超級電腦 RTX SPARK / N1X〉",
+     "items": [
+      {
+       "id": 166,
+       "name": "華碩 ProArt NVIDIA N1X/128G/1T/14吋 曜夜黑｛H7407BA-1288KN1X20｝觸控",
+       "price": 249999,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 168,
+       "name": "華碩 ProArt NVIDIA N1X/128G/1T/14吋 皓月銀｛H7407BA-1688WN1X20｝觸控",
+       "price": 249999,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "16 吋 華碩 ProArt 系列〈超級電腦 RTX SPARK / N1X〉",
+     "items": [
+      {
+       "id": 172,
+       "name": "華碩 ProArt NVIDIA N1X/128G/2T/16吋 曜夜黑｛H7607BA-8888KN1X20｝觸控",
+       "price": 269999,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 174,
+       "name": "華碩 ProArt NVIDIA N1X/128G/2T/16吋 皓月銀｛H7607BA-6666WN1X20｝觸控",
+       "price": 269999,
        "list_price": null,
        "flags": []
       }
@@ -2363,84 +2382,84 @@
      "label": "14 吋 華碩 Zenbook 系列",
      "items": [
       {
-       "id": 168,
+       "id": 177,
        "name": "華碩 Zenbook Qualcomm/16G/512G/14吋 冰岩灰｛UX3407QA-0112G26100 ｝超輕盈",
        "price": 36999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 169,
+       "id": 178,
        "name": "華碩 Zenbook Qualcomm/16G/1T/14吋 冰岩灰｛UX3407QA-0102G26100｝超輕盈",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 170,
+       "id": 179,
        "name": "華碩 Zenbook Ryzen AI 5-430/16G/512G/14吋 玉石黑｛UM3406GA-0042K430H｝OLED",
        "price": 40999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 171,
+       "id": 180,
        "name": "華碩 Zenbook Ultra 5-225H/16G/512G/14吋 紳士藍｛UX3405CA-0122B225H｝",
        "price": 39999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 172,
+       "id": 181,
        "name": "華碩 Zenbook Ultra 5-225H/16G/512G/14吋 白霧銀｛UX3405CA-0182S225H｝",
        "price": 39999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 182,
        "name": "華碩 Zenbook Ultra 7-255H/16G/512G/14吋 紳士藍｛UX3405CA-0202B255H｝",
        "price": 44999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 183,
        "name": "華碩 Zenbook Ultra 7-255H/16G/512G/14吋 白霧銀｛UX3405CA-0192S255H｝",
        "price": 44999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 184,
        "name": "華碩 Zenbook Ultra 7-355/16G/512G/14吋 曜岩灰｛UX5406AA-0082G355｝",
        "price": 57999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 185,
        "name": "華碩 Zenbook Ultra 7-355/16G/512G/14吋 暖煦白｛UX5406AA-0092W355｝",
        "price": 57999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 177,
+       "id": 186,
        "name": "華碩 Zenbook Ultra 9-386H/32G/1T/14吋 霧岩灰｛UX5406AA-0042G386H｝32G珍品",
        "price": 76999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 187,
        "name": "華碩 Zenbook Duo Ultra X7-358H/16G/512G/14吋 灰｛UX8407AA-0083I358H｝雙螢幕觸控",
        "price": 84999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 189,
        "name": "華碩 Zenbook Duo Ultra X9-388H/32G/1T/14吋 灰｛UX8407AA-0033I388H｝雙螢幕觸控",
        "price": 109999,
        "list_price": null,
@@ -2454,21 +2473,21 @@
      "label": "16 吋 華碩 Zenbook 系列",
      "items": [
       {
-       "id": 183,
+       "id": 192,
        "name": "華碩 Vivobook Qualcomm/16G/512G/16吋 午夜藍｛X1607QA-0051B26100｝",
        "price": 34999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 193,
        "name": "華碩 Zenbook Qualcomm/16G/512G/16吋 沙暮金｛UX3607QA-0052D26100｝超輕盈",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 185,
+       "id": 194,
        "name": "華碩 Zenbook Qualcomm/16G/512G/16吋 冰岩灰｛UX3607QA-0062G26100｝超輕盈",
        "price": 41999,
        "list_price": null,
@@ -2480,42 +2499,42 @@
      "label": "14吋 華碩 Vivobook GO / Vivobook 系列",
      "items": [
       {
-       "id": 187,
+       "id": 196,
        "name": "華碩 Vivobook Core 5 120U/8G/512G/14吋 午夜藍｛X1404VA-0381B120U｝",
        "price": 18999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 188,
+       "id": 197,
        "name": "華碩 Vivobook Core 5 120U/8G/512G/14吋 幻彩白｛X1404VA-0421W120U｝",
        "price": 18999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 189,
+       "id": 198,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/14吋 鉑金色｛X1407AA-0041D325｝鉑金大方",
        "price": 32999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 190,
+       "id": 199,
        "name": "華碩 Vivobook Ultra 5-226V/16G/512G/14吋 迷霧藍｛S5406SA-0068B226V｝超值OLED",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 191,
+       "id": 200,
        "name": "華碩 Vivobook Ultra 5-226V/16G/512G/14吋 玫瑰金｛S5406SA-0078C226V｝超值OLED",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 192,
+       "id": 201,
        "name": "華碩 Vivobook Ultra 5-226V/16G/512G/14吋 莓果粉｛S5406SAL-0198F226V｝萌色動人",
        "price": 34999,
        "list_price": null,
@@ -2524,14 +2543,14 @@
        ]
       },
       {
-       "id": 194,
+       "id": 203,
        "name": "華碩 Vivobook Ultra 7-256V/16G/512G/14吋 迷霧藍｛S5406SA-0108B256V｝超值OLED",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 195,
+       "id": 204,
        "name": "華碩 Vivobook Core 7 350/16G/512G/14吋 夜幕灰｛S5452MA-0072G350｝",
        "price": 40999,
        "list_price": null,
@@ -2543,14 +2562,14 @@
      "label": "15 吋 華碩 VivoBook GO / VivoBook 系列",
      "items": [
       {
-       "id": 197,
+       "id": 206,
        "name": "華碩 VivoBook Core 3 100U/8G/512G/15吋 午夜藍｛X1504VA-0611B100U｝文書逸品",
        "price": 17999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 198,
+       "id": 207,
        "name": "華碩 VivoBook R7-7840HS/8G/512G/15吋 午夜藍｛M1502XA-0021B7840HS｝",
        "price": 27999,
        "list_price": null,
@@ -2559,42 +2578,42 @@
        ]
       },
       {
-       "id": 199,
+       "id": 208,
        "name": "華碩 VivoBook Core 5 120U/8G/512G/15吋 午夜藍｛X1504VA-0581B120U｝",
        "price": 19999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 200,
+       "id": 209,
        "name": "華碩 VivoBook Core 5 120U/8G/512G/15吋 蜜誘金｛X1504VA-0591C120U｝",
        "price": 19999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 201,
+       "id": 210,
        "name": "華碩 Vivobook Core 3 304/8G/512G/15吋 午夜藍｛X1504MA-0051B304｝",
        "price": 21999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 211,
        "name": "華碩 Vivobook Core 5 320/8G/512G/15吋 午夜藍｛X1504MA-0031B320｝",
        "price": 23999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 203,
+       "id": 212,
        "name": "華碩 Vivobook Core 5 320/8G/512G/15吋 蜜誘金｛X1504MA-0061C320｝",
        "price": 23999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 204,
+       "id": 213,
        "name": "華碩 VivoBook Core 7 350/8G/512G/15吋 午夜藍｛X1504MA-0081B350｝",
        "price": 27999,
        "list_price": null,
@@ -2606,77 +2625,77 @@
      "label": "16 吋 華碩 Vivobook 系列",
      "items": [
       {
-       "id": 206,
+       "id": 215,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/16吋 午夜藍｛X1607AA-0031B325｝",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 207,
+       "id": 216,
        "name": "華碩 Vivobook Ultra 5-225H/16G/512G/16吋 夜幕灰｛S3607CA-0182G225H｝OLED",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 208,
+       "id": 217,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/16吋 夜幕灰｛S3607AA-0052G325｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 209,
+       "id": 218,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/16吋 酷玩銀｛S3607AA-0062S325｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 210,
+       "id": 219,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/16吋 瑰蜜粉｛S3607AA-0072C325｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 211,
+       "id": 220,
        "name": "華碩 Vivobook Ultra 5-325/16G/512G/16吋 開心果綠｛S3607AA-0082E325｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 212,
+       "id": 221,
        "name": "華碩 Vivobook Core 7 350/16G/256G/16吋 夜幕灰｛S5652MA-0072G350｝",
        "price": 36999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 213,
+       "id": 222,
        "name": "華碩 Vivobook Core 7 350/16G/512G/16吋 夜幕灰｛S5652MA-0052G350｝",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 214,
+       "id": 223,
        "name": "華碩 Vivobook Core 7 350/16G/512G/16吋 酷玩銀｛S5652MA-0062S350｝",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 215,
+       "id": 224,
        "name": "華碩 Vivobook Qualcomm/16G/512G/16吋 夜幕灰｛S3607QA-0042G26100｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 217,
+       "id": 226,
        "name": "華碩 V16 蒼藍戰魂 Core 7 240H/RTX3050/16G/512G/16吋 黑｛V3607VJ-0151K240H｝",
        "price": 47999,
        "list_price": null,
@@ -2688,14 +2707,14 @@
      "label": "17 吋 華碩 Vivobook 系列",
      "items": [
       {
-       "id": 219,
+       "id": 228,
        "name": "華碩 Vivobook Core 3 304/8G/512G/17吋 午夜藍｛X1704MA-0041B304｝",
        "price": 22999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 220,
+       "id": 229,
        "name": "華碩 Vivobook Core 5 120U/8G/512G/17吋 午夜藍｛X1704VA-0101B120U｝",
        "price": 24999,
        "list_price": null,
@@ -2707,7 +2726,7 @@
      "label": "18 吋 華碩 Vivobook 系列",
      "items": [
       {
-       "id": 222,
+       "id": 231,
        "name": "華碩 Vivobook Ryzen AI 7 445/16G/512G/18吋 藍｛M1807GA-0061B445H｝超大尺寸",
        "price": 40999,
        "list_price": null,
@@ -2721,7 +2740,7 @@
      "label": "13 吋 華碩 TUF Gaming / ROG 電競系列",
      "items": [
       {
-       "id": 224,
+       "id": 233,
        "name": "華碩 ROG AMD Ryzen AI MAX+ 395/內顯8060S/64G/1T/13吋 黑｛GZ302EA-0161A395-NBL｝",
        "price": 109999,
        "list_price": null,
@@ -2733,35 +2752,35 @@
      "label": "14 吋 華碩 TUF Gaming / ROG 電競系列",
      "items": [
       {
-       "id": 226,
+       "id": 235,
        "name": "華碩 TUF Ryzen AI MAX+ 392/內顯8060S/32G/1T/14吋 御鐵灰｛FA401EA-0041A392H｝訂",
        "price": 75999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 227,
+       "id": 236,
        "name": "華碩 TUF Ryzen AI 9 465/RTX5060/32G/1T/14吋 御鐵灰｛FA401GM-0021A465H｝",
        "price": 67888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 228,
+       "id": 237,
        "name": "華碩 TUF Ryzen AI 9 465/RTX5060/32G/1T/14吋 月光銀｛FA401GM-0031C465H｝",
        "price": 67888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 229,
+       "id": 238,
        "name": "華碩 ROG Ryzen AI 9 465/RTX5060/32G/2T/14吋 鉑月銀｛GA403GM-0092H465H-NBLO｝",
        "price": 93999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 230,
+       "id": 239,
        "name": "華碩 ROG Ultra 9-386H/RTX5070Ti/64G/2T/14吋 鉑月銀｛GU405AR-0028H386H-NBLO｝",
        "price": 139999,
        "list_price": null,
@@ -2773,7 +2792,7 @@
      "label": "15 吋 華碩 TUF Gaming 電競系列",
      "items": [
       {
-       "id": 232,
+       "id": 241,
        "name": "華碩 TUF R7-170/RTX3050/16G/512G/15吋 黑｛FA506NCQ-0032B170H｝送螢幕護貼",
        "price": 33999,
        "list_price": null,
@@ -2782,14 +2801,14 @@
        ]
       },
       {
-       "id": 233,
+       "id": 242,
        "name": "華碩 TUF R7-155/RTX3050/16G/512G/15吋 黑｛FA506NCG-0202B155H｝送螢幕護貼",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 234,
+       "id": 243,
        "name": "華碩 TUF R7-8845HS/RTX3050/16G/512G/15吋 黑｛FA506NCG-0162B8845HS｝送螢幕護貼",
        "price": 33999,
        "list_price": null,
@@ -2801,7 +2820,7 @@
      "label": "16 吋 華碩 TUF Gaming / ROG / Zephyrus 電競系列",
      "items": [
       {
-       "id": 236,
+       "id": 245,
        "name": "華碩 TUF Core 5 210H/RTX4050/16G/512G/16吋 月影灰｛FX607VU-0103A210H｝",
        "price": 39999,
        "list_price": null,
@@ -2810,7 +2829,7 @@
        ]
       },
       {
-       "id": 238,
+       "id": 247,
        "name": "華碩 TUF Core 5 210H/RTX4050/16G/512G/16吋 灰｛FX607VU-0103A210H｝搭VP4700包包",
        "price": 40999,
        "list_price": null,
@@ -2819,21 +2838,21 @@
        ]
       },
       {
-       "id": 240,
+       "id": 249,
        "name": "華碩 TUF i5-14450HX/RTX5050/16G/512G/16吋 極曜黑｛FX610JH-0031D14450HX｝",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 241,
+       "id": 250,
        "name": "華碩 TUF i5-14450HX/RTX5050/16G/512G/16吋 御鐵灰｛FX608JHR-0031A14450HX｝",
        "price": 44999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 242,
+       "id": 251,
        "name": "華碩 TUF Ryzen AI 7-260/RTX5050/16G/512G/16吋 灰｛FA608UHI-0061A260H｝",
        "price": 43999,
        "list_price": null,
@@ -2842,21 +2861,21 @@
        ]
       },
       {
-       "id": 243,
+       "id": 252,
        "name": "華碩 TUF Ryzen AI 7-260/RTX5060/16G/512G/16吋 御鐵灰｛FA608UMI-0091A260H｝",
        "price": 47999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 244,
+       "id": 253,
        "name": "華碩 TUF Ryzen AI 7-260/RTX5060/16G/512G/16吋 月光銀｛FA608UMI-0121C260H｝",
        "price": 46999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 245,
+       "id": 254,
        "name": "華碩 TUF R9-8940HX/RTX5060/16G/512G/16吋 御鐵灰｛FA608PMR-0041A8940HX｝2K",
        "price": 52999,
        "list_price": null,
@@ -2865,7 +2884,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 255,
        "name": "華碩 TUF R9-8940HX/RTX5070/16G/512G/16吋 灰｛FA608PP-0071A8940HX｝好康內洽",
        "price": 59999,
        "list_price": null,
@@ -2874,7 +2893,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 256,
        "name": "【直升32G】華碩 TUF R9-8940HX/RTX5070/32G/512G/16吋 御鐵灰｛FA608PP-0071A8940HX｝",
        "price": 67998,
        "list_price": null,
@@ -2883,56 +2902,56 @@
        ]
       },
       {
-       "id": 248,
+       "id": 257,
        "name": "華碩 ROG R9-8940HX/RTX5060/16G/1T/16吋 幻潮黑｛G614PM-0044C8940HX-NBL｝",
        "price": 67999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 249,
+       "id": 258,
        "name": "華碩 ROG R9-8940HX/RTX5070Ti/16G/1T/16吋 幻潮黑｛G614PR-0074C8940HX-NBL｝",
        "price": 79999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 250,
+       "id": 259,
        "name": "華碩 ROG R9-8940HX/RTX5080/16G/1T/16吋 幻潮黑｛G614PW-0034C8940HX-NBL｝",
        "price": 95999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 251,
+       "id": 260,
        "name": "華碩 ROG Ultra 9-386H/RTX5060/32G/1T/16吋 日蝕灰｛GU606AM-0032I386H-NBLO｝",
        "price": 95999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 252,
+       "id": 261,
        "name": "華碩 ROG Ultra 9-386H/RTX5060/32G/1T/16吋 鉑月銀｛GU606AM-0022H386H-NBLO｝",
        "price": 95999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 253,
+       "id": 262,
        "name": "華碩 ROG Ultra 9-386H/RTX5070Ti/64G/1T/16吋 日蝕灰｛GU606AR-0058I386H-NBLO｝",
        "price": 139999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 254,
+       "id": 263,
        "name": "華碩 ROG Ultra 9-386H/RTX5090/64G/1T/16吋 鉑月銀｛GU606AX-0048H386H-NBLO｝",
        "price": 189999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 255,
+       "id": 264,
        "name": "華碩 ROG Ultra 9-386H/RTX5090/64G/2T/16吋 星曜灰｛GX651AX-0022B386H-NBLO｝",
        "price": 239999,
        "list_price": null,
@@ -2944,14 +2963,14 @@
      "label": "17 吋 華碩 TUF Gaming / ROG 電競系列",
      "items": [
       {
-       "id": 258,
+       "id": 267,
        "name": "華碩 TUF Core 5 210H/RTX3050/16G/512G/17吋 月影灰｛FX707VJB-0032A210H｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 259,
+       "id": 268,
        "name": "華碩 TUF R7-170/RTX4050/16G/512G/17吋 灰｛FA707NUQ-0042A170H｝",
        "price": 38999,
        "list_price": null,
@@ -2963,7 +2982,7 @@
      "label": "18 吋 華碩 TUF Gaming / ROG 電競系列",
      "items": [
       {
-       "id": 261,
+       "id": 270,
        "name": "華碩 TUF Ryzen AI 7-260/RTX5050/16G/512G/18吋 灰｛FA808UH-0021A260H｝",
        "price": 49999,
        "list_price": null,
@@ -2972,7 +2991,7 @@
        ]
       },
       {
-       "id": 262,
+       "id": 271,
        "name": "華碩 TUF Ryzen AI 7-260/RTX5060/16G/1T/18吋 御鐵灰｛FA808UM-0031A260H｝",
        "price": 57999,
        "list_price": null,
@@ -2981,35 +3000,35 @@
        ]
       },
       {
-       "id": 263,
+       "id": 272,
        "name": "華碩 ROG R9-8940HX/RTX5070/16G/1T/18吋 幻潮黑｛G814PP-0064C8940HX-NBL｝",
        "price": 75999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 264,
+       "id": 273,
        "name": "華碩 ROG Ultra 9-290HX/RTX5070/16G/1T/18吋 幻潮黑｛G815LP-0071C290HX-NBL｝",
        "price": 81999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 265,
+       "id": 274,
        "name": "華碩 ROG Ultra 9-290HX/RTX5080/16G/1T/18吋 電光綠｛G815LW-0071G290HX-NBLM｝",
        "price": 119999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 266,
+       "id": 275,
        "name": "華碩 ROG Ultra 9-290HX/RTX5090/64G/1T/18吋 闇夜黑｛G835LXG-0171A290HX-NBLM｝",
        "price": 179999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 267,
+       "id": 276,
        "name": "華碩 ROG Ultra 9-290HX/RTX5090/128G/4T/18吋 闇夜黑｛G835LXG-0081A290HX-NBLM｝",
        "price": 245999,
        "list_price": null,
@@ -3025,49 +3044,49 @@
      "label": "14吋 戴爾 DELL Base 系列",
      "items": [
       {
-       "id": 271,
+       "id": 280,
        "name": "DELL Base Ryzen AI 7 350/16G/512G/14吋 鉑金銀｛DC14255-R1808STW｝",
        "price": 45990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 272,
+       "id": 281,
        "name": "DELL Base Ryzen AI 7 445/32G/1T/14吋 晨霜藍｛DS14265-R1708BTW｝",
        "price": 68990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 273,
+       "id": 282,
        "name": "DELL Base Core 5-120U/8G/512G/14吋 銀河星跡｛DC14250-R1508STW｝",
        "price": 23990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 274,
+       "id": 283,
        "name": "DELL Base Ultra 5-322/16G/1T/14吋 晨霜藍｛DS14260-R1508BTW｝",
        "price": 53900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 275,
+       "id": 284,
        "name": "DELL Base Ultra 5-225U/16G/512G/14吋 銀河星跡｛D14260-R1508STW｝",
        "price": 33990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 276,
+       "id": 285,
        "name": "DELL Base Ultra 7-255U/32G/1T/14吋 銀河星跡｛D14260-R2708STW｝",
        "price": 60990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 277,
+       "id": 286,
        "name": "DELL Base Core 7-350/16G/512G/14吋 鉑金銀｛D14261-R1708STW｝",
        "price": 41990,
        "list_price": null,
@@ -3079,28 +3098,28 @@
      "label": "15吋 戴爾 DELL Base 系列",
      "items": [
       {
-       "id": 280,
+       "id": 289,
        "name": "DELL Base R5-220/16G/512G/15.3吋 柏金銀｛D15266-R1508STW｝",
        "price": 36990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 281,
+       "id": 290,
        "name": "DELL Base R7-250/16G/512G/15.3吋 柏金銀｛D15266-R1708STW｝",
        "price": 39900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 282,
+       "id": 291,
        "name": "DELL Base Ultra 7-255H/16G/1T/15.6吋 銀河星跡｛D15260-R2808STW｝",
        "price": 50990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 283,
+       "id": 292,
        "name": "DELL Base Core 5-320/16G/512G/15.3吋 柏金銀｛D15261-R1508STW｝",
        "price": 39890,
        "list_price": null,
@@ -3112,7 +3131,7 @@
      "label": "16吋 戴爾 DELL Base 系列",
      "items": [
       {
-       "id": 286,
+       "id": 295,
        "name": "DELL Base Ultra 5-322/16G/1T/16吋 暮靄藍｛DS16260-R1508BTW｝〈觸控〉",
        "price": 65990,
        "list_price": null,
@@ -3124,28 +3143,28 @@
      "label": "14吋 戴爾 DELL Pro 系列",
      "items": [
       {
-       "id": 289,
+       "id": 298,
        "name": "DELL Pro R5-PRO 230/8G/512G/14吋 灰｛PC14255-2308G512G｝",
        "price": 34990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 290,
+       "id": 299,
        "name": "DELL Pro Ryzen AI 5 PRO 340/16G/512G/14吋 銀｛PC14255-AI516G512G｝",
        "price": 40990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 291,
+       "id": 300,
        "name": "DELL Pro Core 5-220U/16G/512G/14吋 灰｛PC14250-C5216G512G｝",
        "price": 37990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 292,
+       "id": 301,
        "name": "DELL Pro Ultra 7-265U/16G/512G/14吋 銀｛PC14250-U7616G512G｝",
        "price": 47990,
        "list_price": null,
@@ -3157,7 +3176,7 @@
      "label": "16吋 戴爾 DELL Pro 系列",
      "items": [
       {
-       "id": 295,
+       "id": 304,
        "name": "DELL Pro Ultra 5-235U/16G/512G/16吋 銀｛PC16250-U5216G512G｝",
        "price": 47990,
        "list_price": null,
@@ -3169,7 +3188,7 @@
      "label": "14吋 戴爾 DELL Pro Essential 系列",
      "items": [
       {
-       "id": 298,
+       "id": 307,
        "name": "DELL Pro Essential Ultra 5-225U/16G/512G/14吋 黑｛PV14260-R1508BTW｝",
        "price": 39999,
        "list_price": null,
@@ -3181,7 +3200,7 @@
      "label": "15吋 戴爾 DELL Pro Essential 系列",
      "items": [
       {
-       "id": 301,
+       "id": 310,
        "name": "DELL Pro Essential Ultra 5-225H/16G/512G/15.6吋 黑｛PV15260-R1508BTW｝",
        "price": 37990,
        "list_price": null,
@@ -3193,21 +3212,21 @@
      "label": "16吋 戴爾 DELL Alienware 系列",
      "items": [
       {
-       "id": 304,
+       "id": 313,
        "name": "DELL Alienware Core 7-240H/RTX5060/16G/1T/16吋 靛藍｛AC16250-R1768QBTW｝",
        "price": 62990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 305,
+       "id": 314,
        "name": "DELL Alienware X Ultra 7-270HX+/RTX5060/16G/1T/16吋 靛藍｛AC16251-R1788BTW｝",
        "price": 94990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 306,
+       "id": 315,
        "name": "DELL Alienware X Ultra 9-290HX+/RTX5070/32G/1T/16吋 靛藍｛AC16251-R1968BTW｝",
        "price": 141990,
        "list_price": null,
@@ -3223,28 +3242,21 @@
      "label": "15.6吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 310,
-       "name": "Genuine捷元 輕巧｛15N｝N100/8G/500G/Win11 Pro 黑 J0076615",
-       "price": 11999,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 311,
+       "id": 319,
        "name": "Genuine捷元 輕巧可拆卸電池｛15V｝i7-1355U/8G/500G/3年保 黑 J0076616",
        "price": 23999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 312,
+       "id": 320,
        "name": "Genuine捷元｛ZEUS 15H｝i5-13420H/RTX4050/8G/512G/WIN11 PRO/3年保 黑 J0074857",
        "price": 32499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 313,
+       "id": 321,
        "name": "Genuine捷元｛ZEUS 15G｝Core 7-250H/RTX5070/16G/500G 黑 J0076614",
        "price": 48900,
        "list_price": null,
@@ -3256,7 +3268,7 @@
      "label": "16吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 316,
+       "id": 324,
        "name": "Genuine捷元｛16AI Pro｝Ultra 5-226V/16G/512G/16吋 灰 J0071818【Non OS】",
        "price": 29999,
        "list_price": null,
@@ -3268,7 +3280,7 @@
      "label": "18吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 319,
+       "id": 327,
        "name": "Genuine捷元｛ZEUS 18G｝Ultra 9-275HX/RTX 5090/32G/P510 2TB/WIN11 PRO 黑 J0074405",
        "price": 155900,
        "list_price": null,
@@ -3282,66 +3294,6 @@
     },
     {
      "label": "16吋 技嘉 GIGABYTE AERO X16 AI筆電",
-     "items": [
-      {
-       "id": 322,
-       "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
-       "price": 6999,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 323,
-       "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
-       "price": 4599,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 324,
-       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 太空灰｛1VH93TWC94AH｝",
-       "price": 56900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 325,
-       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 幻月白｛1VH93TWC94DH｝",
-       "price": 56900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 326,
-       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 太空灰｛1WH93TWC94AH｝",
-       "price": 65900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 327,
-       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 幻月白｛1WH93TWC94DH｝",
-       "price": 65900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 328,
-       "name": "技嘉 AERO X16 Ryzen AI 9 HX 370/RTX5070/32G/1T/16吋 幻月白｛2WHA3TWC64DH｝",
-       "price": 69900,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      }
-     ]
-    },
-    {
-     "label": "16吋 技嘉 GIGABYTE EAGLE",
      "items": [
       {
        "id": 330,
@@ -3363,13 +3315,73 @@
       },
       {
        "id": 332,
+       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 太空灰｛1VH93TWC94AH｝",
+       "price": 56900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 333,
+       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 幻月白｛1VH93TWC94DH｝",
+       "price": 56900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 334,
+       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 太空灰｛1WH93TWC94AH｝",
+       "price": 65900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 335,
+       "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 幻月白｛1WH93TWC94DH｝",
+       "price": 65900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 336,
+       "name": "技嘉 AERO X16 Ryzen AI 9 HX 370/RTX5070/32G/1T/16吋 幻月白｛2WHA3TWC64DH｝",
+       "price": 69900,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "16吋 技嘉 GIGABYTE EAGLE",
+     "items": [
+      {
+       "id": 338,
+       "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
+       "price": 6999,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 339,
+       "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
+       "price": 4599,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 340,
        "name": "技嘉 EAGLE R5-7533HS/RTX4050/16G/512G/16吋 灰｛9MJR2TWF93SH｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 333,
+       "id": 341,
        "name": "【1T特士版】技嘉 EAGLE R5-7533HS/RTX4050/16G/1T/16吋 灰｛9MJR2TWF93SH｝",
        "price": 39999,
        "list_price": null,
@@ -3381,68 +3393,6 @@
     },
     {
      "label": "16吋 技嘉 GIGABYTE GAMING A16",
-     "items": [
-      {
-       "id": 335,
-       "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
-       "price": 6999,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 336,
-       "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
-       "price": 4599,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 337,
-       "name": "技嘉 GAMING A16 i5-13420H/RTX5050/16G/512G/16吋 黑｛CTHH3TW893SH｝",
-       "price": 39900,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 338,
-       "name": "技嘉 GAMING A16 i5-13420H/RTX5060/16G/512G/16吋 黑｛CVHH3TW893SH｝",
-       "price": 42900,
-       "list_price": null,
-       "flags": [
-        "熱賣"
-       ]
-      },
-      {
-       "id": 339,
-       "name": "技嘉 GAMING A16 i7-13620H/RTX5070/16G/512G/16吋 黑｛CWHI3TW893SH｝",
-       "price": 51900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 340,
-       "name": "技嘉 GAMING A16 Ryzen 7 260/RTX5060/16G/512G/16吋 黑｛3VHK3TW893SH｝",
-       "price": 48900,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 341,
-       "name": "【稀有1T版】技嘉 GAMING A16 Ryzen 7 170/RTX5060/16G/1T/16吋 黑｛5VHP3TW894SH｝",
-       "price": 45900,
-       "list_price": null,
-       "flags": []
-      }
-     ]
-    },
-    {
-     "label": "16 吋 技嘉 AORUS MASTER 16",
      "items": [
       {
        "id": 343,
@@ -3464,20 +3414,82 @@
       },
       {
        "id": 345,
+       "name": "技嘉 GAMING A16 i5-13420H/RTX5050/16G/512G/16吋 黑｛CTHH3TW893SH｝",
+       "price": 39900,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 346,
+       "name": "技嘉 GAMING A16 i5-13420H/RTX5060/16G/512G/16吋 黑｛CVHH3TW893SH｝",
+       "price": 42900,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 347,
+       "name": "技嘉 GAMING A16 i7-13620H/RTX5070/16G/512G/16吋 黑｛CWHI3TW893SH｝",
+       "price": 51900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 348,
+       "name": "技嘉 GAMING A16 Ryzen 7 260/RTX5060/16G/512G/16吋 黑｛3VHK3TW893SH｝",
+       "price": 48900,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 349,
+       "name": "【稀有1T版】技嘉 GAMING A16 Ryzen 7 170/RTX5060/16G/1T/16吋 黑｛5VHP3TW894SH｝",
+       "price": 45900,
+       "list_price": null,
+       "flags": []
+      }
+     ]
+    },
+    {
+     "label": "16 吋 技嘉 AORUS MASTER 16",
+     "items": [
+      {
+       "id": 351,
+       "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
+       "price": 6999,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 352,
+       "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
+       "price": 4599,
+       "list_price": null,
+       "flags": [
+        "熱賣"
+       ]
+      },
+      {
+       "id": 353,
        "name": "技嘉 AORUS MASTER 16 R9-8940HX/RTX5070Ti/16G/1T/16吋OLED 黑｛8XJJ4TWE94SH｝",
        "price": 78900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 346,
+       "id": 354,
        "name": "技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5080/32G/1T/16吋OLED 黑｛6YJM5TWE64SH｝",
        "price": 119900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 347,
+       "id": 355,
        "name": "技嘉 AORUS MASTER 16 R9-9955HX3D/RTX5090/32G/1T/16吋OLED 黑｛6ZJM6TWE64SH｝",
        "price": 152900,
        "list_price": null,
@@ -3493,7 +3505,7 @@
      "label": "13吋 微星 - 輕薄商務系列 Prestige",
      "items": [
       {
-       "id": 350,
+       "id": 358,
        "name": "微星 Prestige 13 Ultra 7-355/32G/1T/13吋/WIN11 PRO 灰｛A3MG-049TW｝極致輕890g▼下殺到 11/1 23:59",
        "price": 59999,
        "list_price": 63900,
@@ -3508,42 +3520,42 @@
      "label": "14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture",
      "items": [
       {
-       "id": 352,
+       "id": 360,
        "name": "微星 Venture A14 AI+ Ryzen AI 5 340/16G/512G/14吋 穩固灰｛A3HMG-016TW｝",
        "price": 27900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 353,
+       "id": 361,
        "name": "微星 Commercial 14 C5-120U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1005TW ｝",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 354,
+       "id": 362,
        "name": "微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 355,
+       "id": 363,
        "name": "微星 Prestige 14 AI+ Ultra 7-355/32G/1T/14吋/WIN11 Pro 黑｛D3MG-031TW｝",
        "price": 56000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 356,
+       "id": 364,
        "name": "微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝",
        "price": 64700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 357,
+       "id": 365,
        "name": "微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝",
        "price": 74900,
        "list_price": null,
@@ -3555,21 +3567,21 @@
      "label": "15吋 微星 - 輕薄商務系列 Modern / Venture Pro",
      "items": [
       {
-       "id": 359,
+       "id": 367,
        "name": "微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝",
        "price": 31900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 360,
+       "id": 368,
        "name": "微星 Modern 15 Core 7-150U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1041TW｝",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 361,
+       "id": 369,
        "name": "微星 VenturePro 15 Core 7-240H/16G/512G/RTX5050/15.6吋/WIN11 Pro 灰｛A2RWEG-1246TW｝",
        "price": 52900,
        "list_price": null,
@@ -3581,14 +3593,14 @@
      "label": "16吋 微星 - 輕薄商務系列 Prestige / Modern S",
      "items": [
       {
-       "id": 363,
+       "id": 371,
        "name": "微星 Modern 16S AI+ Ultra 7-355/16G/1T/16吋 灰｛G3MG-030TW｝",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 364,
+       "id": 372,
        "name": "微星 Prestige 16 AI+ Ultra X7-358H/32G/1T/16吋 金｛C3MG-233TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 69900,
@@ -3598,7 +3610,7 @@
        ]
       },
       {
-       "id": 365,
+       "id": 373,
        "name": "微星 Prestige 16 Flip AI+ Ultra X9-388H/32G/1T/16吋 灰｛C3MTG-041TW｝【翻轉觸控】",
        "price": 74900,
        "list_price": null,
@@ -3610,7 +3622,7 @@
      "label": "15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX",
      "items": [
       {
-       "id": 367,
+       "id": 375,
        "name": "微星 Katana 15 i7-14650HX/RTX5060/16G/1T/15.6吋 黑｛B14WFK-1071TW｝▼下殺到 11/1 23:59",
        "price": 52999,
        "list_price": 54900,
@@ -3620,7 +3632,7 @@
        ]
       },
       {
-       "id": 368,
+       "id": 376,
        "name": "微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝▼下殺到 11/1 23:59",
        "price": 56999,
        "list_price": 59900,
@@ -3630,14 +3642,14 @@
        ]
       },
       {
-       "id": 369,
+       "id": 377,
        "name": "微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身) 店內促",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 370,
+       "id": 378,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝▼下殺到 11/1 23:59",
        "price": 33999,
        "list_price": 34900,
@@ -3647,7 +3659,7 @@
        ]
       },
       {
-       "id": 371,
+       "id": 379,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝▼下殺到 11/1 23:59",
        "price": 34999,
        "list_price": 39900,
@@ -3657,14 +3669,14 @@
        ]
       },
       {
-       "id": 372,
+       "id": 380,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 381,
        "name": "微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身)▼下殺到 11/1 23:59",
        "price": 33999,
        "list_price": 34900,
@@ -3674,17 +3686,7 @@
        ]
       },
       {
-       "id": 374,
-       "name": "微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝▼下殺到 11/1 23:59",
-       "price": 29999,
-       "list_price": 35900,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
-      },
-      {
-       "id": 375,
+       "id": 382,
        "name": "微星 Cyborg 15 Core 7-240H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2095TW｝",
        "price": 33900,
        "list_price": null,
@@ -3693,7 +3695,7 @@
        ]
       },
       {
-       "id": 376,
+       "id": 383,
        "name": "微星 Cyborg 15 MAX i7-13620H/RTX5050/16G/512G/15.6吋 灰｛C13WE-054TW｝▼下殺到 11/1 23:59",
        "price": 42999,
        "list_price": 44900,
@@ -3703,7 +3705,7 @@
        ]
       },
       {
-       "id": 377,
+       "id": 384,
        "name": "微星 Cyborg 15 MAX Core 7-240H/RTX5070/16G/512G/15.6吋 灰｛C2WG-006TW｝▼下殺到 11/1 23:59",
        "price": 49999,
        "list_price": 52900,
@@ -3719,7 +3721,7 @@
      "label": "16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX",
      "items": [
       {
-       "id": 379,
+       "id": 386,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5060/16G/1T/16吋 黑｛E8WFK-015TW｝",
        "price": 53900,
        "list_price": null,
@@ -3728,14 +3730,14 @@
        ]
       },
       {
-       "id": 380,
+       "id": 387,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5070/16G/1T/16吋｛E8WGK-017TW｝",
        "price": 65900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 381,
+       "id": 388,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5060/16G/1T/16吋 黑｛E14WFK-013TW｝▼下殺到 11/1 23:59",
        "price": 57999,
        "list_price": 59900,
@@ -3745,7 +3747,7 @@
        ]
       },
       {
-       "id": 382,
+       "id": 389,
        "name": "微星 Crosshair 16 HX i9-14900HX/RTX5060/16G/1T/16吋 黑｛E14WFK-014TW｝▼下殺到 11/1 23:59",
        "price": 62999,
        "list_price": 64900,
@@ -3755,7 +3757,7 @@
        ]
       },
       {
-       "id": 383,
+       "id": 390,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5070/16G/1T/16吋 黑｛E14WGK-002TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 67900,
@@ -3765,7 +3767,7 @@
        ]
       },
       {
-       "id": 384,
+       "id": 391,
        "name": "微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5060/16G/512G/16吋 黑｛E2WFK-024TW｝",
        "price": 62900,
        "list_price": null,
@@ -3774,14 +3776,14 @@
        ]
       },
       {
-       "id": 385,
+       "id": 392,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5060/16G/1T/16吋 黑｛B3WF-005TW｝",
        "price": 85490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 393,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5080/32G/1T/16吋 黑｛B3WI-006TW｝",
        "price": 129000,
        "list_price": null,
@@ -3790,14 +3792,14 @@
        ]
       },
       {
-       "id": 387,
+       "id": 394,
        "name": "微星 Raider 16 Ultra 9-275HX/RTX5080/16G/1T/16吋 黑｛B2WI-025TW｝",
        "price": 119000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 388,
+       "id": 395,
        "name": "微星 Raider 16 MAX Ultra 9-290HX+/RTX5080/32G/2T/16吋 黑｛B2WI-028TW｝",
        "price": 144900,
        "list_price": null,
@@ -3806,7 +3808,7 @@
        ]
       },
       {
-       "id": 389,
+       "id": 396,
        "name": "微星 Raider 16 MAX Ultra 9-290HX+/RTX5090/32G/2T/16吋 黑｛B2WJ-027TW｝",
        "price": 159900,
        "list_price": null,
@@ -3820,7 +3822,7 @@
      "label": "17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair",
      "items": [
       {
-       "id": 391,
+       "id": 398,
        "name": "微星 Katana 17 i7-14700HX/RTX5060/16G/1T/17.3吋 黑｛B14WFK-288TW｝▼下殺到 11/1 23:59",
        "price": 49999,
        "list_price": 59900,
@@ -3830,21 +3832,21 @@
        ]
       },
       {
-       "id": 392,
+       "id": 399,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5050/16G/512G/17.3吋 黑｛B2RWEKG-425TW｝店內促",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 400,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5060/16G/512G/17.3吋 黑｛B2RWFKG-426TW｝店內促",
        "price": 46900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 401,
        "name": "微星 Crosshair 17 HX AI Ultra 7-255HX/RTX5060/16G/1T/17.3吋 黑｛D2XWFKG-010TW｝▼下殺到 11/1 23:59",
        "price": 57999,
        "list_price": 62900,
@@ -3859,7 +3861,7 @@
      "label": "18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主",
      "items": [
       {
-       "id": 396,
+       "id": 403,
        "name": "微星 Crosshair 18 HX AI Ultra 9-275HX/RTX5060/16G/1T/18吋 黑｛A2XWFKG-058TW｝▼下殺到 11/1 23:59",
        "price": 64999,
        "list_price": 67900,
@@ -3869,7 +3871,7 @@
        ]
       },
       {
-       "id": 397,
+       "id": 404,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/64G/2T/18吋 黑｛A2WJ-1041TW｝",
        "price": 199900,
        "list_price": null,
@@ -3878,7 +3880,7 @@
        ]
       },
       {
-       "id": 398,
+       "id": 405,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/96G/4T/18吋 天龍座｛A2WJ-1215TW｝",
        "price": 229900,
        "list_price": null,
@@ -3894,7 +3896,7 @@
      "label": "16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電",
      "items": [
       {
-       "id": 401,
+       "id": 408,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 白｛16Z90TL-G.AS54C2｝",
        "price": 36300,
        "list_price": null,
@@ -3903,7 +3905,7 @@
        ]
       },
       {
-       "id": 402,
+       "id": 409,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 黑｛16Z90TL-G.AS55C2｝",
        "price": 36300,
        "list_price": null,
@@ -3917,21 +3919,21 @@
      "label": "16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅",
      "items": [
       {
-       "id": 404,
+       "id": 411,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/16吋 純淨白｛16Z90U-G.AU87C2｝",
        "price": 102500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 405,
+       "id": 412,
        "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝",
        "price": 111500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 406,
+       "id": 413,
        "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 星曜黑｛16Z90U-K.AUB8C2｝",
        "price": 111500,
        "list_price": null,
@@ -3943,7 +3945,7 @@
      "label": "17 吋 LG Gram 高科技奈米碳鎂通過美國軍規測試",
      "items": [
       {
-       "id": 408,
+       "id": 415,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/17吋 曜石黑｛17Z90U-G.AU88C2｝",
        "price": 106500,
        "list_price": null,
@@ -3959,7 +3961,7 @@
      "label": "14 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 412,
+       "id": 419,
        "name": "HP OmniBook 3 U5-325/16G/512G/14吋 冰川銀｛14-hs0018TU｝",
        "price": 39900,
        "list_price": null,
@@ -3971,7 +3973,7 @@
      "label": "16 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 414,
+       "id": 421,
        "name": "HP OmniBook 3 C5-120U/16G/512G/16吋 冰川銀｛16-bu0029TU｝",
        "price": 34900,
        "list_price": null,
@@ -3983,7 +3985,7 @@
      "label": "17 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 416,
+       "id": 423,
        "name": "HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝",
        "price": 36900,
        "list_price": null,
@@ -3995,7 +3997,7 @@
      "label": "14 吋 HP OmniBook 5 Flip 翻轉觸控筆電",
      "items": [
       {
-       "id": 418,
+       "id": 425,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝",
        "price": 32900,
        "list_price": null,
@@ -4004,7 +4006,7 @@
        ]
       },
       {
-       "id": 419,
+       "id": 426,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝",
        "price": 32900,
        "list_price": null,
@@ -4013,14 +4015,14 @@
        ]
       },
       {
-       "id": 420,
+       "id": 427,
        "name": "HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 421,
+       "id": 428,
        "name": "HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝",
        "price": 41900,
        "list_price": null,
@@ -4032,7 +4034,7 @@
      "label": "14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列",
      "items": [
       {
-       "id": 423,
+       "id": 430,
        "name": "HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝",
        "price": 49900,
        "list_price": null,
@@ -4044,7 +4046,7 @@
      "label": "14 吋 HP OmniBook UltraNGAI 觸控系列",
      "items": [
       {
-       "id": 425,
+       "id": 432,
        "name": "HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝",
        "price": 74900,
        "list_price": null,
@@ -4056,28 +4058,28 @@
      "label": "15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列",
      "items": [
       {
-       "id": 427,
+       "id": 434,
        "name": "HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝",
        "price": 35999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 428,
+       "id": 435,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝",
        "price": 61888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 430,
+       "id": 437,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝",
        "price": 72900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 431,
+       "id": 438,
        "name": "HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝",
        "price": 79900,
        "list_price": null,
@@ -4093,14 +4095,14 @@
      "label": "14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉",
      "items": [
       {
-       "id": 435,
+       "id": 442,
        "name": "HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 436,
+       "id": 443,
        "name": "【升級延保加價購】HP ZBook Firefly G11A 升級3年保",
        "price": 36899,
        "list_price": null,
@@ -4112,7 +4114,7 @@
      "label": "16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列",
      "items": [
       {
-       "id": 439,
+       "id": 446,
        "name": "HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保",
        "price": 57900,
        "list_price": null,
@@ -4124,7 +4126,7 @@
      "label": "筆電周邊",
      "items": [
       {
-       "id": 442,
+       "id": 449,
        "name": "3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒",
        "price": 390,
        "list_price": null,
@@ -4136,119 +4138,119 @@
      "label": "快速充電器",
      "items": [
       {
-       "id": 444,
+       "id": 451,
        "name": "｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 445,
+       "id": 452,
        "name": "Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966)",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 446,
+       "id": 453,
        "name": "台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固)",
        "price": 299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 447,
+       "id": 454,
        "name": "｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 450,
+       "id": 457,
        "name": "｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 451,
+       "id": 458,
        "name": "｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 549,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 452,
+       "id": 459,
        "name": "｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 453,
+       "id": 460,
        "name": "｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白)",
        "price": 899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 454,
+       "id": 461,
        "name": "【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝",
        "price": 1398,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 455,
+       "id": 462,
        "name": "｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 1499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 456,
+       "id": 463,
        "name": "｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 1699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 457,
+       "id": 464,
        "name": "｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 458,
+       "id": 465,
        "name": "｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座",
        "price": 1299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 459,
+       "id": 466,
        "name": "【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器",
        "price": 1848,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 460,
+       "id": 467,
        "name": "【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】",
        "price": 2598,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 461,
+       "id": 468,
        "name": "｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座",
        "price": 1399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 462,
+       "id": 469,
        "name": "｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑)",
        "price": 599,
        "list_price": null,
@@ -4260,49 +4262,49 @@
      "label": "行動電源",
      "items": [
       {
-       "id": 465,
+       "id": 472,
        "name": "｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 429,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 466,
+       "id": 473,
        "name": "｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 467,
+       "id": 474,
        "name": "｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 469,
+       "id": 476,
        "name": "｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 470,
+       "id": 477,
        "name": "【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 471,
+       "id": 478,
        "name": "【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 472,
+       "id": 479,
        "name": "｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】▼下殺到 10/31 23:59",
        "price": 499,
        "list_price": 599,
@@ -4312,49 +4314,49 @@
        ]
       },
       {
-       "id": 473,
+       "id": 480,
        "name": "【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 474,
+       "id": 481,
        "name": "【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 475,
+       "id": 482,
        "name": "｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 476,
+       "id": 483,
        "name": "｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】",
        "price": 659,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 477,
+       "id": 484,
        "name": "【兩件優惠】｛Gigastone QP-10200B｝【兩件】",
        "price": 1318,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 478,
+       "id": 485,
        "name": "｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 479,
+       "id": 486,
        "name": "｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線",
        "price": 1299,
        "list_price": null,
@@ -5634,6 +5636,16 @@
       },
       {
        "id": 26,
+       "name": "[搭板專案 ]｛AMD R5 7500F MPK｝(含風扇)【6核/12緒】3.7G(↑5.0G)搭主機板省300",
+       "price": 4590,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "搭板專案"
+       ]
+      },
+      {
+       "id": 27,
        "name": "｛AMD R7 7700 MPK｝(代理含風扇)【8核/16緒】3.8G(↑5.3G)65W /具內顯 /代理商三年保",
        "price": 7290,
        "list_price": null,
@@ -5642,7 +5654,17 @@
        ]
       },
       {
-       "id": 27,
+       "id": 28,
+       "name": "[搭板專案]｛AMD R7 7700 MPK｝(代理含風扇【8核/16緒】3.8G(↑5.3G)搭主機板省450",
+       "price": 6840,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "搭板專案"
+       ]
+      },
+      {
+       "id": 29,
        "name": "｛AMD R7 7800X3D Tray盤｝【8核/16緒】4.2G(↑5.0G)96M/120W/具內顯三年保",
        "price": 10290,
        "list_price": null,
@@ -5656,7 +5678,7 @@
      "label": "AMD AM5 8000系列",
      "items": [
       {
-       "id": 29,
+       "id": 31,
        "name": "｛AMD R5 8400F盒｝【6核/12緒】4.2G(↑4.7G)65W",
        "price": 4950,
        "list_price": null,
@@ -5665,7 +5687,7 @@
        ]
       },
       {
-       "id": 30,
+       "id": 32,
        "name": "｛AMD R5 8400F盒｝【6核/12緒】4.2G(↑4.7G)65W【任搭主機板】",
        "price": 4450,
        "list_price": null,
@@ -5675,14 +5697,14 @@
        ]
       },
       {
-       "id": 31,
+       "id": 33,
        "name": "｛AMD R5 8500G盒｝【6核/12緒】3.5G(↑5.0G)65W /RDNA 3內顯 /新4奈米技術 /最低45W",
        "price": 5190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 32,
+       "id": 34,
        "name": "｛AMD R5 8600G盒｝【6核/12緒】4.3G(↑5.0G)65W /RDNA 3內顯 /內建NPU支持AI",
        "price": 6550,
        "list_price": null,
@@ -5694,63 +5716,93 @@
      "label": "AMD AM5 9000系列",
      "items": [
       {
-       "id": 34,
+       "id": 36,
        "name": "｛AMD R5 9600X｝代理盒裝【6核/12緒】3.9G(↑5.4G)65W /具RDNA內顯",
        "price": 8150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 35,
+       "id": 37,
+       "name": "[搭板專案 ]｛AMD R5 9600X｝代理盒裝【6核/12緒】3.9G(↑5.4G)任搭主機板現省600",
+       "price": 7550,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "搭板專案"
+       ]
+      },
+      {
+       "id": 38,
        "name": "｛AMD R7 9700X｝代理盒裝【8核/16緒】3.8G(↑5.5G)65W /具RDNA內顯",
        "price": 11550,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 36,
+       "id": 39,
+       "name": "[搭板專案 ]｛AMD R7 9700X｝代理盒裝【8核/16緒】3.8G(↑5.5G)任搭主機板現省900",
+       "price": 10650,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "搭板專案"
+       ]
+      },
+      {
+       "id": 40,
        "name": "｛AMD R9 9900X｝代理盒裝【12核/24緒】4.4G(↑5.6G)120W /具內顯",
        "price": 14450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 37,
+       "id": 41,
        "name": "｛AMD R9 9950X｝代理盒裝【16核/32緒】4.3G(↑5.7G)170W /具內顯",
        "price": 20350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 39,
+       "id": 43,
        "name": "｛AMD R7 9800X3D｝代理盒裝【8核/16緒】4.7G(↑5.2G)120W /96M /具RDNA內顯",
        "price": 16150,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 40,
+       "id": 44,
+       "name": "[搭板專案 ]｛AMD R7 9800X3D｝代理盒【8核/16緒】4.7G(↑5.2G)任搭主機板現省900",
+       "price": 15250,
+       "list_price": null,
+       "flags": [
+        "熱賣",
+        "搭板專案"
+       ]
+      },
+      {
+       "id": 45,
        "name": "｛AMD R7 9850X3D｝代理盒裝【8核/16緒】4.7G(↑5.6G)120W/96M/具內顯",
        "price": 17050,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 41,
+       "id": 46,
        "name": "｛AMD R9 9900X3D｝代理盒裝【12核/24緒】4.4G(↑5.5G)120W /具內顯",
        "price": 20450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 42,
+       "id": 47,
        "name": "｛AMD R9 9950X3D｝代理盒裝【16核/32緒】4.3G(↑5.7G)170W /具內顯",
        "price": 23950,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 43,
+       "id": 48,
        "name": "｛AMD R9 9950X3D2｝雙3D-V-Cache技術【16核/32緒】4.3G(↑5.6G)200W /具內顯",
        "price": 31450,
        "list_price": null,
@@ -5762,21 +5814,21 @@
      "label": "AMD Ryzen Threadripper TRX50系列 (不含散熱器)",
      "items": [
       {
-       "id": 45,
+       "id": 50,
        "name": "｛AMD Ryzen TR 9960X盒｝【24核/48緒】4.2G(↑5.4G)350W /128M /4nm",
        "price": 51960,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 46,
+       "id": 51,
        "name": "｛AMD Ryzen TR 9970X盒｝【32核/64緒】4.0G(↑5.4G)350W /128M /4nm",
        "price": 86550,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 47,
+       "id": 52,
        "name": "｛AMD Ryzen TR 9980X盒｝【64核/128緒】3.2G(↑5.4G)350W /256M /4nm",
        "price": 173550,
        "list_price": null,
@@ -5788,35 +5840,35 @@
      "label": "AMD Ryzen Threadripper WRX90系列 (不含散熱器)",
      "items": [
       {
-       "id": 49,
+       "id": 54,
        "name": "｛AMD Ryzen TR PRO 9955WX盒｝【16核/32緒】4.5G(↑5.4G)350W /64M /4nm",
        "price": 56750,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 50,
+       "id": 55,
        "name": "｛AMD Ryzen TR PRO 9965WX盒｝【24核/48緒】4.2G(↑5.4G)350W /128M /4nm",
        "price": 99950,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 51,
+       "id": 56,
        "name": "｛AMD Ryzen TR PRO 9975WX盒｝【32核/64緒】4.0G(↑5.4G)350W /128M /4nm",
        "price": 143250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 52,
+       "id": 57,
        "name": "｛AMD Ryzen TR PRO 9985WX盒｝【64核/128緒】3.2G(↑5.4G)350W /256M /4nm",
        "price": 276850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 53,
+       "id": 58,
        "name": "｛AMD Ryzen TR PRO 9995WX盒｝【96核/192緒】2.5G(↑5.4G)350W /384M /4nm",
        "price": 392000,
        "list_price": null,
@@ -10283,6 +10335,13 @@
       },
       {
        "id": 196,
+       "name": "金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Micron 顆粒｛KSM56R46BD4/64MH｝",
+       "price": 82000,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 197,
        "name": "金士頓96G 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 Micron C｛KSM64R52BD4/96MC｝",
        "price": 125000,
        "list_price": null,
@@ -10294,14 +10353,14 @@
      "label": "伺服器專用記憶體 DDR4 RDIMM",
      "items": [
       {
-       "id": 198,
+       "id": 199,
        "name": "金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus｛KSM32RD8/32HD｝",
        "price": 15200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 199,
+       "id": 200,
        "name": "金士頓64GB 3200MHz D4 ECC Reg CL22 DIMM 2R*4 Hynix C Rambus｛KSM32RD4/64HCR｝",
        "price": 29900,
        "list_price": null,
@@ -17812,6 +17871,15 @@
       },
       {
        "id": 75,
+       "name": "｛華碩 DUAL-RTX5060-8G-WHITE｝2527MHz/23cm/雙風扇/註冊四年/白/金屬背板",
+       "price": 16290,
+       "list_price": null,
+       "flags": [
+        "任搭折190"
+       ]
+      },
+      {
+       "id": 76,
        "name": "｛華碩 DUAL-RTX5060-O8G-WHITE｝2565MHz/23cm/雙風扇/註冊四年/白/金屬背板",
        "price": 16590,
        "list_price": null,
@@ -17820,7 +17888,16 @@
        ]
       },
       {
-       "id": 76,
+       "id": 77,
+       "name": "｛華碩 PRIME-RTX5060-O8G｝2595MHz/27cm/三風扇/註冊五年/金屬背板",
+       "price": 16590,
+       "list_price": null,
+       "flags": [
+        "任搭折190"
+       ]
+      },
+      {
+       "id": 78,
        "name": "｛技嘉 RTX5060 WINDFORCE 8G｝2497MHz/20cm/雙風扇/註冊四年",
        "price": 15490,
        "list_price": null,
@@ -17829,7 +17906,7 @@
        ]
       },
       {
-       "id": 77,
+       "id": 79,
        "name": "｛技嘉 RTX5060 WINDFORCE OC 8G｝2512MHz/20cm/雙風扇/註冊四年",
        "price": 15990,
        "list_price": null,
@@ -17838,7 +17915,7 @@
        ]
       },
       {
-       "id": 78,
+       "id": 80,
        "name": "｛技嘉 RTX5060 WINDFORCE MAX OC 8G｝2512MHz/20cm/雙風扇/註冊四年",
        "price": 15990,
        "list_price": null,
@@ -17847,14 +17924,14 @@
        ]
       },
       {
-       "id": 79,
+       "id": 81,
        "name": "｛技嘉 RTX5060 WINDFORCE MAX OC V2 8G｝2512MHz/20cm/雙風扇/註冊四年",
        "price": 15990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 80,
+       "id": 82,
        "name": "｛技嘉 RTX5060 OC Low Profile 8G｝2512MHz/19cm/三風扇/註冊四年",
        "price": 15990,
        "list_price": null,
@@ -17863,8 +17940,8 @@
        ]
       },
       {
-       "id": 81,
-       "name": "｛技嘉 RTX5060 EAGLE OC 8G｝2550MHz/21cm/雙風扇/註冊五年",
+       "id": 83,
+       "name": "｛技嘉 RTX5060 EAGLE OC 8G｝2550MHz/21cm/雙風扇/註冊五年 *尾盤",
        "price": 16490,
        "list_price": null,
        "flags": [
@@ -17872,7 +17949,7 @@
        ]
       },
       {
-       "id": 82,
+       "id": 84,
        "name": "｛技嘉 RTX5060 EAGLE MAX OC 8G｝2550MHZ/28cm/三風扇/註五年/Hawk 風扇",
        "price": 16490,
        "list_price": null,
@@ -17881,7 +17958,7 @@
        ]
       },
       {
-       "id": 83,
+       "id": 85,
        "name": "｛技嘉 RTX5060 EAGLE OC ICE 8G 白｝2550MHz/21cm/雙風扇/註五年/銀白",
        "price": 16990,
        "list_price": null,
@@ -17890,7 +17967,16 @@
        ]
       },
       {
-       "id": 84,
+       "id": 86,
+       "name": "｛技嘉 RTX5060 GAMING OC 8G｝2595MHz/28cm/三風扇/註冊五年",
+       "price": 17490,
+       "list_price": null,
+       "flags": [
+        "任搭折190"
+       ]
+      },
+      {
+       "id": 87,
        "name": "｛技嘉 RTX5060 GAMING OC V2 8G｝2602MHz/28cm/三風扇/註冊五年",
        "price": 17490,
        "list_price": null,
@@ -17899,7 +17985,7 @@
        ]
       },
       {
-       "id": 85,
+       "id": 88,
        "name": "｛技嘉 RTX5060 AERO OC 8G｝2595MHz/28cm/三風扇/註冊五年/銀白",
        "price": 17990,
        "list_price": null,
@@ -17909,7 +17995,7 @@
        ]
       },
       {
-       "id": 86,
+       "id": 89,
        "name": "｛技嘉 AORUS RTX5060 ELITE 8G｝2722MHz/33cm/三風扇/註冊五年",
        "price": 18490,
        "list_price": null,
@@ -17918,7 +18004,7 @@
        ]
       },
       {
-       "id": 87,
+       "id": 90,
        "name": "｛微星 RTX5060 8G VENTUS 2X OC｝2535MHz/20cm/雙風扇/註冊四年",
        "price": 15990,
        "list_price": null,
@@ -17927,7 +18013,7 @@
        ]
       },
       {
-       "id": 88,
+       "id": 91,
        "name": "｛微星 RTX5060 8G VENTUS 2X OC V1｝2535MHz/20cm/雙風扇/註冊四年",
        "price": 15990,
        "list_price": null,
@@ -17936,7 +18022,7 @@
        ]
       },
       {
-       "id": 89,
+       "id": 92,
        "name": "｛微星 RTX5060 8G VENTUS 2X OC WHITE｝2535MHz/20cm/雙風扇/註冊四年/純白",
        "price": 16590,
        "list_price": null,
@@ -17945,7 +18031,7 @@
        ]
       },
       {
-       "id": 90,
+       "id": 93,
        "name": "｛微星 RTX5060 8G CYCLONE OC｝2535MHz/16cm/免註冊五年保 [獨家-雪螳螂]",
        "price": 15990,
        "list_price": null,
@@ -17954,7 +18040,7 @@
        ]
       },
       {
-       "id": 91,
+       "id": 94,
        "name": "｛微星 RTX5060 8G VENTUS 3X OC｝2550MHz/31cm/三風扇/註冊五年",
        "price": 16990,
        "list_price": null,
@@ -17963,7 +18049,7 @@
        ]
       },
       {
-       "id": 92,
+       "id": 95,
        "name": "｛微星 RTX5060 8G GAMING TRIO OC｝2640MHz/30cm/三風扇/註冊五年",
        "price": 17990,
        "list_price": null,
@@ -17972,7 +18058,7 @@
        ]
       },
       {
-       "id": 93,
+       "id": 96,
        "name": "｛微星 RTX5060 8G GAMING TRIO OC WHITE｝2640MHz/30cm/三風扇/註冊五年",
        "price": 18590,
        "list_price": null,
@@ -17981,7 +18067,7 @@
        ]
       },
       {
-       "id": 95,
+       "id": 98,
        "name": "｛ZOTAC RTX5060 8GB 星辰 OC｝2512MHz/24cm/雙風扇/免註冊五年保/白 [獨家款]",
        "price": 15990,
        "list_price": null,
@@ -17991,7 +18077,7 @@
        ]
       },
       {
-       "id": 96,
+       "id": 99,
        "name": "｛ZOTAC RTX5060 SOLO｝2497MHz/17cm/單風扇/註冊五年",
        "price": 16490,
        "list_price": null,
@@ -18000,7 +18086,7 @@
        ]
       },
       {
-       "id": 97,
+       "id": 100,
        "name": "｛ZOTAC RTX5060 Twin Edge OC｝2527MHz/22cm/雙風扇/註冊五年/金屬背板",
        "price": 15990,
        "list_price": null,
@@ -18009,7 +18095,7 @@
        ]
       },
       {
-       "id": 98,
+       "id": 101,
        "name": "｛ZOTAC RTX5060 Twin Edge OC White Edition｝2527MHz/22cm/雙風扇/註五年/金屬背板",
        "price": 16490,
        "list_price": null,
@@ -18018,7 +18104,7 @@
        ]
       },
       {
-       "id": 99,
+       "id": 102,
        "name": "｛ZOTAC RTX5060 Low Profile｝2497MHz/18.3cm/三風扇/短卡設計/註冊五年",
        "price": 16490,
        "list_price": null,
@@ -18027,7 +18113,7 @@
        ]
       },
       {
-       "id": 100,
+       "id": 103,
        "name": "｛ZOTAC RTX5060 AMP｝2550MHz/22cm/雙風扇/註冊五年",
        "price": 16990,
        "list_price": null,
@@ -18036,7 +18122,7 @@
        ]
       },
       {
-       "id": 101,
+       "id": 104,
        "name": "｛INNO3D RTX5060 8GB TWIN X2 V2｝2497MHz/23cm/註四年/雙風扇",
        "price": 15488,
        "list_price": null,
@@ -18045,7 +18131,7 @@
        ]
       },
       {
-       "id": 102,
+       "id": 105,
        "name": "｛INNO3D RTX5060 8GB TWIN X2 OC WHITE｝2527MHz/25cm/超頻雙風扇/映雪",
        "price": 16488,
        "list_price": null,
@@ -18054,7 +18140,7 @@
        ]
       },
       {
-       "id": 103,
+       "id": 106,
        "name": "｛INNO3D RTX5060 X3 LOW PROFILE｝2497MHz/18cm/三風扇/註冊四年/短卡",
        "price": 15488,
        "list_price": null,
@@ -18068,23 +18154,14 @@
      "label": "NVIDIA RTX5060Ti-8GB(GDDR7)",
      "items": [
       {
-       "id": 105,
-       "name": "｛華碩 PRIME-RTX5060TI-O8G｝2647MHz/31cm/三風扇/註五年/2.5 Slot 設計",
-       "price": 20990,
-       "list_price": null,
-       "flags": [
-        "任搭折190"
-       ]
-      },
-      {
-       "id": 106,
+       "id": 108,
        "name": "｛華碩 T1-RTX5060TI-O8G-GAMING｝2662MHz/26.7cm/三風扇/註五年/T1冠軍戰隊版",
        "price": 21990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 107,
+       "id": 109,
        "name": "｛技嘉 RTX5060Ti WINDFORCE 8G｝2572MHz/21cm/雙風扇/註冊四年保",
        "price": 18590,
        "list_price": null,
@@ -18093,7 +18170,7 @@
        ]
       },
       {
-       "id": 108,
+       "id": 110,
        "name": "｛技嘉 RTX5060Ti WINDFORCE OC 8G｝2587MHz/21cm/雙風扇/註四年保",
        "price": 18990,
        "list_price": null,
@@ -18102,7 +18179,7 @@
        ]
       },
       {
-       "id": 109,
+       "id": 111,
        "name": "｛技嘉 RTX5060Ti WINDFORCE MAX OC 8G｝2587MHz/21cm/雙風扇/註冊四年保",
        "price": 18990,
        "list_price": null,
@@ -18111,7 +18188,7 @@
        ]
       },
       {
-       "id": 110,
+       "id": 112,
        "name": "｛技嘉 RTX5060Ti EAGLE OC 8G｝2617MHz/22cm/雙風扇/註冊五年保",
        "price": 19490,
        "list_price": null,
@@ -18120,7 +18197,7 @@
        ]
       },
       {
-       "id": 111,
+       "id": 113,
        "name": "｛技嘉 RTX5060Ti EAGLE MAX OC 8G｝2617MHz/28cm/三風扇/註冊五年保",
        "price": 19490,
        "list_price": null,
@@ -18129,7 +18206,7 @@
        ]
       },
       {
-       "id": 112,
+       "id": 114,
        "name": "｛技嘉 RTX5060Ti EAGLE OC ICE 8G｝2617MHz/22cm/雙風扇/註冊五年保/白",
        "price": 19990,
        "list_price": null,
@@ -18138,7 +18215,7 @@
        ]
       },
       {
-       "id": 113,
+       "id": 115,
        "name": "｛技嘉 RTX5060Ti GAMING OC 8G｝2647MHz/28cm/三風扇/註冊五年保",
        "price": 20990,
        "list_price": null,
@@ -18147,7 +18224,7 @@
        ]
       },
       {
-       "id": 114,
+       "id": 116,
        "name": "｛技嘉 RTX5060Ti AERO OC 8G｝2647MHz/28cm/三風扇/註冊五年保/白",
        "price": 21590,
        "list_price": null,
@@ -18156,7 +18233,7 @@
        ]
       },
       {
-       "id": 115,
+       "id": 117,
        "name": "｛微星 RTX5060Ti 8G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂]",
        "price": 18990,
        "list_price": null,
@@ -18165,7 +18242,7 @@
        ]
       },
       {
-       "id": 116,
+       "id": 118,
        "name": "｛微星 RTX5060Ti 8G VENTUS 2X PLUS｝2587MHz/23cm/雙風扇/註四年",
        "price": 18990,
        "list_price": null,
@@ -18174,7 +18251,7 @@
        ]
       },
       {
-       "id": 117,
+       "id": 119,
        "name": "｛微星 RTX5060Ti 8G SHADOW 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年",
        "price": 18990,
        "list_price": null,
@@ -18183,7 +18260,7 @@
        ]
       },
       {
-       "id": 118,
+       "id": 120,
        "name": "｛微星 RTX5060Ti 8G VENTUS 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年",
        "price": 19590,
        "list_price": null,
@@ -18192,7 +18269,7 @@
        ]
       },
       {
-       "id": 119,
+       "id": 121,
        "name": "｛微星 RTX5060Ti 8G VENTUS 2X OC WHITE PLUS｝2617MHz/23cm/雙風/註四年/白",
        "price": 19990,
        "list_price": null,
@@ -18201,7 +18278,7 @@
        ]
       },
       {
-       "id": 120,
+       "id": 122,
        "name": "｛微星 RTX5060Ti 8G VENTUS 3X OC｝2617MHz/31cm/三風扇/註五年",
        "price": 19990,
        "list_price": null,
@@ -18210,7 +18287,7 @@
        ]
       },
       {
-       "id": 121,
+       "id": 123,
        "name": "｛微星 RTX5060Ti 8G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年",
        "price": 20990,
        "list_price": null,
@@ -18219,7 +18296,7 @@
        ]
       },
       {
-       "id": 122,
+       "id": 124,
        "name": "｛微星 RTX5060Ti 8G GAMING TRIO OC WHITE｝2662MHz/30cm/三風扇/註五年/白",
        "price": 21590,
        "list_price": null,
@@ -18228,7 +18305,7 @@
        ]
       },
       {
-       "id": 124,
+       "id": 126,
        "name": "｛ZOTAC RTX5060Ti 8GB 月白 OC｝2602MHz/30cm/三風扇/免註冊五年保/白 [獨家版]",
        "price": 19490,
        "list_price": null,
@@ -18237,7 +18314,7 @@
        ]
       },
       {
-       "id": 125,
+       "id": 127,
        "name": "｛ZOTAC RTX5060Ti 8GB Twin Edge OC｝2602MHz/22cm/雙風扇/註五年/金屬背板",
        "price": 19490,
        "list_price": null,
@@ -18246,21 +18323,21 @@
        ]
       },
       {
-       "id": 126,
+       "id": 128,
        "name": "｛ZOTAC RTX5060Ti 8GB AMP｝2632MHz/22cm/雙風扇/註五年/金屬背板",
        "price": 20490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 127,
+       "id": 129,
        "name": "｛INNO3D RTX5060Ti 8GB TWIN X2｝2572MHz/25cm/註四年/雙風扇",
        "price": 18488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 130,
        "name": "｛INNO3D RTX5060Ti 8GB TWIN X2 OC WHITE｝2602MHz/25cm/註四年/雙風/映雪",
        "price": 19488,
        "list_price": null,
@@ -18272,7 +18349,7 @@
      "label": "NVIDIA RTX5060Ti-16GB(GDDR7)",
      "items": [
       {
-       "id": 130,
+       "id": 132,
        "name": "｛華碩 DUAL-RTX5060TI-O16G｝2632MHz/23cm/雙風扇/註冊四年保固",
        "price": 25590,
        "list_price": null,
@@ -18281,7 +18358,7 @@
        ]
       },
       {
-       "id": 131,
+       "id": 133,
        "name": "｛華碩 DUAL-RTX5060TI-O16G-WHITE｝2632MHz/23cm/雙風扇/註冊四年保/白",
        "price": 26590,
        "list_price": null,
@@ -18290,7 +18367,7 @@
        ]
       },
       {
-       "id": 132,
+       "id": 134,
        "name": "｛華碩 PRIME-RTX5060TI-16G｝2602MHz/31cm/三風扇/註冊五年保固",
        "price": 26590,
        "list_price": null,
@@ -18299,7 +18376,7 @@
        ]
       },
       {
-       "id": 133,
+       "id": 135,
        "name": "｛華碩 PRIME-RTX5060TI-O16G｝2647MHz/31cm/三風扇/註冊五年保固",
        "price": 27590,
        "list_price": null,
@@ -18308,14 +18385,14 @@
        ]
       },
       {
-       "id": 134,
+       "id": 136,
        "name": "｛華碩 TUF-RTX5060TI-O16G-GAMING｝2692MHz/30cm/三風扇/註五年",
        "price": 28990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 137,
        "name": "｛技嘉 RTX5060Ti WINDFORCE OC 16G(2587MHz/21cm/雙風扇/註冊四年保)",
        "price": 27490,
        "list_price": null,
@@ -18324,7 +18401,7 @@
        ]
       },
       {
-       "id": 136,
+       "id": 138,
        "name": "｛技嘉 RTX5060Ti EAGLE MAX OC 16G｝2617MHz/28cm/三風扇/註冊五年保",
        "price": 27990,
        "list_price": null,
@@ -18333,7 +18410,7 @@
        ]
       },
       {
-       "id": 137,
+       "id": 139,
        "name": "｛技嘉 RTX5060Ti EAGLE OC ICE 16G｝2617MHz/22cm/雙風扇/註五年/冰魄白",
        "price": 28290,
        "list_price": null,
@@ -18342,7 +18419,7 @@
        ]
       },
       {
-       "id": 138,
+       "id": 140,
        "name": "｛技嘉 RTX5060Ti AERO OC 16G｝白/2647MHz/28cm/三風扇/註五年",
        "price": 28990,
        "list_price": null,
@@ -18351,7 +18428,7 @@
        ]
       },
       {
-       "id": 139,
+       "id": 141,
        "name": "｛技嘉 AORUS RTX5060Ti AI BOX｝2572MHz/外接式顯示卡/Thunderbolt 5隨插即用",
        "price": 31990,
        "list_price": null,
@@ -18360,7 +18437,7 @@
        ]
       },
       {
-       "id": 140,
+       "id": 142,
        "name": "｛微星 RTX5060Ti 16G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂]",
        "price": 25590,
        "list_price": null,
@@ -18370,7 +18447,7 @@
        ]
       },
       {
-       "id": 141,
+       "id": 143,
        "name": "｛微星 RTX5060Ti 16G SHADOW 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年",
        "price": 25590,
        "list_price": null,
@@ -18379,7 +18456,7 @@
        ]
       },
       {
-       "id": 142,
+       "id": 144,
        "name": "｛微星 RTX5060Ti 16G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年",
        "price": 27990,
        "list_price": null,
@@ -18388,7 +18465,7 @@
        ]
       },
       {
-       "id": 144,
+       "id": 146,
        "name": "｛INNO3D RTX5060Ti 16GB TWIN X2｝2572MHz/25cm/註四年/雙風扇",
        "price": 24488,
        "list_price": null,
@@ -18402,14 +18479,14 @@
      "label": "NVIDIA RTX5070-12GB(GDDR7)",
      "items": [
       {
-       "id": 146,
+       "id": 148,
        "name": "｛華碩 T1-RTX5070-O12G-GAMING｝2595MHz/31cm/三風扇/註五年/T1冠軍戰隊版",
        "price": 32990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 149,
        "name": "｛技嘉 RTX5070 WINDFORCE OC SFF 12G｝2542MHz/29cm/三風扇/註冊四年保",
        "price": 29990,
        "list_price": null,
@@ -18419,7 +18496,7 @@
        ]
       },
       {
-       "id": 148,
+       "id": 150,
        "name": "｛技嘉 RTX5070 EAGLE OC SFF 12G｝2587MHz/29cm/三風扇/註五年",
        "price": 30990,
        "list_price": null,
@@ -18428,7 +18505,7 @@
        ]
       },
       {
-       "id": 149,
+       "id": 151,
        "name": "｛技嘉 RTX5070 EAGLE OC ICE SFF 12G｝2587MHz/29cm/三風扇/註五年/冰魄白",
        "price": 31490,
        "list_price": null,
@@ -18437,7 +18514,7 @@
        ]
       },
       {
-       "id": 150,
+       "id": 152,
        "name": "｛技嘉 RTX5070 GAMING OC 12G｝2625MHz/33cm/三風扇/註五年",
        "price": 32490,
        "list_price": null,
@@ -18446,7 +18523,7 @@
        ]
       },
       {
-       "id": 151,
+       "id": 153,
        "name": "｛技嘉 RTX5070 AERO OC 12G｝2625MHz/33cm/三風扇/註五年",
        "price": 32990,
        "list_price": null,
@@ -18455,7 +18532,7 @@
        ]
       },
       {
-       "id": 152,
+       "id": 154,
        "name": "｛技嘉 AORUS RTX5070 MASTER 12G｝2715MHz/32cm/三風扇/註五年",
        "price": 33990,
        "list_price": null,
@@ -18464,7 +18541,7 @@
        ]
       },
       {
-       "id": 153,
+       "id": 155,
        "name": "｛技嘉 AORUS RTX5070 INFINITY 12G｝2715MHz/31cm/渦流雙風扇/註五年",
        "price": 33990,
        "list_price": null,
@@ -18473,7 +18550,7 @@
        ]
       },
       {
-       "id": 154,
+       "id": 156,
        "name": "｛微星 RTX5070 12G SHADOW 2X OC｝2557MHz/24cm/雙風扇/註四年",
        "price": 29990,
        "list_price": null,
@@ -18482,7 +18559,7 @@
        ]
       },
       {
-       "id": 155,
+       "id": 157,
        "name": "｛微星 RTX5070 12G VENTUS 2X OC｝2557MHz/24cm/雙風扇/註四年",
        "price": 30590,
        "list_price": null,
@@ -18491,7 +18568,7 @@
        ]
       },
       {
-       "id": 156,
+       "id": 158,
        "name": "｛微星 RTX5070 12G VENTUS 2X OC WHITE｝2557MHz/24cm/雙風扇/雪白",
        "price": 30990,
        "list_price": null,
@@ -18501,7 +18578,7 @@
        ]
       },
       {
-       "id": 157,
+       "id": 159,
        "name": "｛微星 RTX5070 12G INSPIRE 3X OC｝2557MHz/29cm/三風扇/註五年",
        "price": 30990,
        "list_price": null,
@@ -18510,7 +18587,7 @@
        ]
       },
       {
-       "id": 158,
+       "id": 160,
        "name": "｛微星 RTX5070 12G VENTUS 3X OC｝2557MHz/31cm/三風扇/註五年",
        "price": 31590,
        "list_price": null,
@@ -18519,7 +18596,7 @@
        ]
       },
       {
-       "id": 159,
+       "id": 161,
        "name": "｛微星 RTX5070 12G GAMING TRIO OC｝2625MHz/34cm/三風扇/註五年",
        "price": 32990,
        "list_price": null,
@@ -18528,7 +18605,7 @@
        ]
       },
       {
-       "id": 161,
+       "id": 163,
        "name": "｛ZOTAC RTX5070 Twin Edge｝2512MHz/24cm/雙風扇/註五年",
        "price": 28990,
        "list_price": null,
@@ -18537,7 +18614,7 @@
        ]
       },
       {
-       "id": 162,
+       "id": 164,
        "name": "｛ZOTAC RTX5070 Twin Edge OC｝2542MHz/24cm/雙風扇/註五年",
        "price": 29990,
        "list_price": null,
@@ -18546,7 +18623,7 @@
        ]
       },
       {
-       "id": 163,
+       "id": 165,
        "name": "｛ZOTAC RTX5070 SOLID｝2512MHz/31cm/三風扇/註五年",
        "price": 30990,
        "list_price": null,
@@ -18555,7 +18632,7 @@
        ]
       },
       {
-       "id": 164,
+       "id": 166,
        "name": "｛ZOTAC RTX5070 SOLID OC｝2542MHz/31cm/三風扇/註五年",
        "price": 31490,
        "list_price": null,
@@ -18565,7 +18642,7 @@
        ]
       },
       {
-       "id": 165,
+       "id": 167,
        "name": "｛ZOTAC RTX5070 AMP White Edition｝2587MHz/31cm/三風扇/註五年",
        "price": 31990,
        "list_price": null,
@@ -18574,21 +18651,21 @@
        ]
       },
       {
-       "id": 166,
+       "id": 168,
        "name": "｛INNO3D RTX5070 TWIN X2｝2512MHz/25cm/雙風扇/註四年",
        "price": 28888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 167,
+       "id": 169,
        "name": "｛INNO3D RTX5070 TWIN X2 OC WHITE｝2542MHz/25cm/超頻雙風/白註四年",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 168,
+       "id": 170,
        "name": "｛INNO3D RTX5070 iChill X3｝2572MHz/34cm/ARGB三風扇/註冊五年",
        "price": 30888,
        "list_price": null,
@@ -18600,7 +18677,7 @@
      "label": "NVIDIA RTX5070Ti-16GB(GDDR7)",
      "items": [
       {
-       "id": 170,
+       "id": 172,
        "name": "限搭機｛技嘉 RTX5070Ti WINDFORCE OC SFF 16G｝2497MHz/31cm/三風扇/註四年",
        "price": 44990,
        "list_price": null,
@@ -18610,17 +18687,7 @@
        ]
       },
       {
-       "id": 171,
-       "name": "限搭機｛技嘉 RTX5070Ti EAGLE OC SFF 16G｝2542MHz/31cm/三風扇/註五年",
-       "price": 45990,
-       "list_price": null,
-       "flags": [
-        "限搭機",
-        "任搭折190"
-       ]
-      },
-      {
-       "id": 172,
+       "id": 173,
        "name": "限搭機｛技嘉 RTX5070Ti GAMING OC 16G｝2588MHz/34cm/三風扇/註五年",
        "price": 46990,
        "list_price": null,
@@ -18630,7 +18697,27 @@
        ]
       },
       {
-       "id": 173,
+       "id": 174,
+       "name": "限搭機｛技嘉 AORUS RTX5070Ti MASTER 16G｝2670MHz/36cm/三風扇/註五年",
+       "price": 47990,
+       "list_price": null,
+       "flags": [
+        "限搭機",
+        "任搭折190"
+       ]
+      },
+      {
+       "id": 175,
+       "name": "限搭機｛技嘉 AORUS RTX5070Ti INFINITY 16G｝2670MHz/33cm/渦流雙風扇/註五年",
+       "price": 47990,
+       "list_price": null,
+       "flags": [
+        "限搭機",
+        "任搭折190"
+       ]
+      },
+      {
+       "id": 176,
        "name": "限搭機｛微星 RTX5070Ti 16G SHADOW 3X OC｝2497MHz/31cm/三風扇/註四年",
        "price": 44990,
        "list_price": null,
@@ -18640,7 +18727,7 @@
        ]
       },
       {
-       "id": 174,
+       "id": 177,
        "name": "｛微星 RTX5070Ti 16G INSPIRE 3X OC｝2497MHz/29cm/三風扇/註五年",
        "price": 45990,
        "list_price": null,
@@ -18650,7 +18737,7 @@
        ]
       },
       {
-       "id": 176,
+       "id": 179,
        "name": "｛ZOTAC RTX5070Ti 16GB 天啟 OC｝2572MHz/36cm/三風扇/免註冊五年保 [獨家版]",
        "price": 46490,
        "list_price": null,
@@ -18664,43 +18751,13 @@
      "label": "NVIDIA RTX5080-16GB(GDDR7)",
      "items": [
       {
-       "id": 178,
-       "name": "限搭機｛華碩 PRIME-RTX5080-16G-EVO｝2640MHz/31cm/三風扇/註五年/2.5 Slot",
-       "price": 53990,
-       "list_price": null,
-       "flags": [
-        "限搭機",
-        "任搭折190"
-       ]
-      },
-      {
-       "id": 179,
+       "id": 181,
        "name": "限搭機｛技嘉 RTX5080 WINDFORCE OC SFF 16G｝2670MHz/31cm/三風扇/註冊四年保",
        "price": 53990,
        "list_price": null,
        "flags": [
         "限搭機",
         "任搭折190"
-       ]
-      },
-      {
-       "id": 180,
-       "name": "限搭機｛技嘉 AORUS RTX5080 MASTER 16G｝2805MHz/36cm/三風扇/註冊五年保",
-       "price": 57990,
-       "list_price": null,
-       "flags": [
-        "限搭機",
-        "任搭折190"
-       ]
-      },
-      {
-       "id": 181,
-       "name": "限搭機｛微星 RTX5080 16G SHADOW 3X OC｝2655MHz/31cm/三風扇/註四年",
-       "price": 53990,
-       "list_price": null,
-       "flags": [
-        "限搭機",
-        "任搭折290"
        ]
       },
       {
@@ -18715,17 +18772,6 @@
       },
       {
        "id": 184,
-       "name": "｛ZOTAC RTX5080 SOLID CORE OC｝2640MHz/31cm/三風扇/註五年 *限購一張",
-       "price": 53990,
-       "list_price": null,
-       "flags": [
-        "熱賣",
-        "限購",
-        "任搭折1000"
-       ]
-      },
-      {
-       "id": 185,
        "name": "｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色 *限購一張",
        "price": 54990,
        "list_price": null,
@@ -18735,7 +18781,7 @@
        ]
       },
       {
-       "id": 186,
+       "id": 185,
        "name": "｛ZOTAC RTX5080 SOLID CORE OC 20th Anniversary Edition｝二十周年紀念版 *限購一張",
        "price": 55990,
        "list_price": null,
@@ -18749,7 +18795,7 @@
      "label": "NVIDIA 專業工作站繪圖卡",
      "items": [
       {
-       "id": 189,
+       "id": 188,
        "name": "｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固",
        "price": 9100,
        "list_price": null,
@@ -18758,7 +18804,7 @@
        ]
       },
       {
-       "id": 190,
+       "id": 189,
        "name": "｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固",
        "price": 20600,
        "list_price": null,
@@ -18767,7 +18813,7 @@
        ]
       },
       {
-       "id": 191,
+       "id": 190,
        "name": "｛麗臺 NVIDIA RTX 2000 Ada｝16GB GDDR6/CUDA:2816/16.76cm/三年保固 *尾盤",
        "price": 29300,
        "list_price": null,
@@ -18776,7 +18822,7 @@
        ]
       },
       {
-       "id": 192,
+       "id": 191,
        "name": "｛麗臺 NVIDIA RTX 6000 Ada｝48GB GDDR6 ECC/26.67cm/三年保固",
        "price": 279900,
        "list_price": null,
@@ -18786,7 +18832,7 @@
        ]
       },
       {
-       "id": 193,
+       "id": 192,
        "name": "｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡",
        "price": 66300,
        "list_price": null,
@@ -18795,7 +18841,7 @@
        ]
       },
       {
-       "id": 194,
+       "id": 193,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -18804,7 +18850,7 @@
        ]
       },
       {
-       "id": 195,
+       "id": 194,
        "name": "｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡",
        "price": 124000,
        "list_price": null,
@@ -18813,7 +18859,7 @@
        ]
       },
       {
-       "id": 196,
+       "id": 195,
        "name": "｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡",
        "price": 189000,
        "list_price": null,
@@ -18822,7 +18868,7 @@
        ]
       },
       {
-       "id": 197,
+       "id": 196,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡",
        "price": 325000,
        "list_price": null,
@@ -18831,7 +18877,7 @@
        ]
       },
       {
-       "id": 198,
+       "id": 197,
        "name": "｛麗臺 NVIDIA RTX PRO 5000 Blackwell 72GB GDDR7｝工作站繪圖卡",
        "price": 455000,
        "list_price": null,
@@ -18840,7 +18886,7 @@
        ]
       },
       {
-       "id": 199,
+       "id": 198,
        "name": "｛麗臺 NVIDIA RTX PRO 6000 Blackwell Max-Q 96GB GDDR7｝工作站級",
        "price": 575000,
        "list_price": null,
@@ -18849,7 +18895,7 @@
        ]
       },
       {
-       "id": 200,
+       "id": 199,
        "name": "[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝",
        "price": 190,
        "list_price": null,
@@ -18861,21 +18907,21 @@
      "label": "AMD Radeon RX7650GRE-8G",
      "items": [
       {
-       "id": 202,
+       "id": 201,
        "name": "｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板",
        "price": 10590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 203,
+       "id": 202,
        "name": "｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 10390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 204,
+       "id": 203,
        "name": "｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年",
        "price": 11990,
        "list_price": null,
@@ -18887,7 +18933,7 @@
      "label": "AMD Radeon RX9060XT-8G",
      "items": [
       {
-       "id": 206,
+       "id": 205,
        "name": "｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保",
        "price": 14890,
        "list_price": null,
@@ -18896,7 +18942,7 @@
        ]
       },
       {
-       "id": 207,
+       "id": 206,
        "name": "｛撼訊 RX9060XT 8G-L/OC Hellhound 暗黑犬｝3310MHz/33cm/三風/註四年/MIT台灣製",
        "price": 15290,
        "list_price": null,
@@ -18910,7 +18956,7 @@
      "label": "AMD Radeon RX9060XT-16G",
      "items": [
       {
-       "id": 209,
+       "id": 208,
        "name": "｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保",
        "price": 21000,
        "list_price": null,
@@ -18919,7 +18965,7 @@
        ]
       },
       {
-       "id": 211,
+       "id": 210,
        "name": "｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保",
        "price": 20900,
        "list_price": null,
@@ -18928,7 +18974,7 @@
        ]
       },
       {
-       "id": 212,
+       "id": 211,
        "name": "｛技嘉 RX9060XT GAMING OC 16G｝3300MHz/28cm/三風扇/註冊五年保",
        "price": 20990,
        "list_price": null,
@@ -18937,7 +18983,7 @@
        ]
       },
       {
-       "id": 213,
+       "id": 212,
        "name": "｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白",
        "price": 21890,
        "list_price": null,
@@ -18946,7 +18992,7 @@
        ]
       },
       {
-       "id": 214,
+       "id": 213,
        "name": "｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保",
        "price": 19490,
        "list_price": null,
@@ -18955,7 +19001,7 @@
        ]
       },
       {
-       "id": 215,
+       "id": 214,
        "name": "｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固",
        "price": 19990,
        "list_price": null,
@@ -18964,7 +19010,7 @@
        ]
       },
       {
-       "id": 216,
+       "id": 215,
        "name": "｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板",
        "price": 20490,
        "list_price": null,
@@ -18973,7 +19019,7 @@
        ]
       },
       {
-       "id": 217,
+       "id": 216,
        "name": "｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板",
        "price": 20990,
        "list_price": null,
@@ -18982,7 +19028,7 @@
        ]
       },
       {
-       "id": 218,
+       "id": 217,
        "name": "｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板",
        "price": 21490,
        "list_price": null,
@@ -18991,7 +19037,7 @@
        ]
       },
       {
-       "id": 219,
+       "id": 218,
        "name": "｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製",
        "price": 20990,
        "list_price": null,
@@ -19006,7 +19052,7 @@
      "label": "AMD Radeon RX9070GRE-12G",
      "items": [
       {
-       "id": 221,
+       "id": 220,
        "name": "｛華碩 ATS-RX9070GRE-O12G｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊]",
        "price": 22000,
        "list_price": null,
@@ -19015,7 +19061,7 @@
        ]
       },
       {
-       "id": 222,
+       "id": 221,
        "name": "｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保",
        "price": 21990,
        "list_price": null,
@@ -19024,7 +19070,7 @@
        ]
       },
       {
-       "id": 223,
+       "id": 222,
        "name": "｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保",
        "price": 22000,
        "list_price": null,
@@ -19033,7 +19079,7 @@
        ]
       },
       {
-       "id": 224,
+       "id": 223,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING 12GB｝2790MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19043,7 +19089,7 @@
        ]
       },
       {
-       "id": 225,
+       "id": 224,
        "name": "｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年",
        "price": 21490,
        "list_price": null,
@@ -19052,7 +19098,7 @@
        ]
       },
       {
-       "id": 226,
+       "id": 225,
        "name": "｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板",
        "price": 21990,
        "list_price": null,
@@ -19061,7 +19107,7 @@
        ]
       },
       {
-       "id": 227,
+       "id": 226,
        "name": "｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固",
        "price": 21990,
        "list_price": null,
@@ -19070,7 +19116,7 @@
        ]
       },
       {
-       "id": 228,
+       "id": 227,
        "name": "｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年",
        "price": 22090,
        "list_price": null,
@@ -19084,7 +19130,7 @@
      "label": "AMD Radeon RX9070-16G",
      "items": [
       {
-       "id": 230,
+       "id": 229,
        "name": "｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保",
        "price": 26000,
        "list_price": null,
@@ -19093,7 +19139,7 @@
        ]
       },
       {
-       "id": 231,
+       "id": 230,
        "name": "｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保",
        "price": 25990,
        "list_price": null,
@@ -19102,7 +19148,7 @@
        ]
       },
       {
-       "id": 232,
+       "id": 231,
        "name": "｛華擎 RX9070 Challenger 16GB｝2520MHz/29cm/三風扇/五年保",
        "price": 24590,
        "list_price": null,
@@ -19116,16 +19162,7 @@
      "label": "AMD Radeon RX9070XT-16G",
      "items": [
       {
-       "id": 234,
-       "name": "｛技嘉 RX9070XT GAMING OC ICE 16G｝3060MHz/29cm/三風扇/五年保/白",
-       "price": 31390,
-       "list_price": null,
-       "flags": [
-        "任搭折190"
-       ]
-      },
-      {
-       "id": 235,
+       "id": 233,
        "name": "｛技嘉 AORUS RX9070XT ELITE 16G｝3100MHz/34cm/三風扇/五年保",
        "price": 32890,
        "list_price": null,
@@ -19134,7 +19171,7 @@
        ]
       },
       {
-       "id": 236,
+       "id": 234,
        "name": "｛華擎 RX9070XT Challenger 16GB｝2970MHz/29cm/三風扇/註五年保",
        "price": 29890,
        "list_price": null,
@@ -19143,7 +19180,7 @@
        ]
       },
       {
-       "id": 237,
+       "id": 235,
        "name": "｛華擎 RX9070XT Taichi 16GB OC｝3100MHz/33cm/三風扇/註五年",
        "price": 30990,
        "list_price": null,
@@ -19152,7 +19189,7 @@
        ]
       },
       {
-       "id": 238,
+       "id": 236,
        "name": "｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 31290,
        "list_price": null,
@@ -19162,7 +19199,7 @@
        ]
       },
       {
-       "id": 239,
+       "id": 237,
        "name": "任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保)",
        "price": 29990,
        "list_price": null,
@@ -19172,7 +19209,7 @@
        ]
       },
       {
-       "id": 240,
+       "id": 238,
        "name": "｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板",
        "price": 31490,
        "list_price": null,
@@ -19181,7 +19218,7 @@
        ]
       },
       {
-       "id": 241,
+       "id": 239,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計",
        "price": 32990,
        "list_price": null,
@@ -19191,7 +19228,7 @@
        ]
       },
       {
-       "id": 242,
+       "id": 240,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板",
        "price": 32990,
        "list_price": null,
@@ -19200,7 +19237,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 241,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白",
        "price": 34490,
        "list_price": null,
@@ -19209,7 +19246,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 242,
        "name": "｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製",
        "price": 30990,
        "list_price": null,
@@ -19218,7 +19255,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 243,
        "name": "｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製",
        "price": 31090,
        "list_price": null,
@@ -19227,7 +19264,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 244,
        "name": "｛撼訊 RX9070XT 16G-L/OC/WHITE 暗黑犬(白)｝3010MHz/34cm/三風扇/MIT台灣製",
        "price": 31490,
        "list_price": null,
@@ -19236,7 +19273,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 245,
        "name": "｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板",
        "price": 31490,
        "list_price": null,
@@ -19245,7 +19282,7 @@
        ]
       },
       {
-       "id": 248,
+       "id": 246,
        "name": "｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製",
        "price": 32990,
        "list_price": null,
