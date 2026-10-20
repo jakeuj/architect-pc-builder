@@ -1,4 +1,4 @@
-# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/10/20 13:38)
+# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/10/20 18:52)
 # price	id	flags	name
 
 ## RJ-45 網路線材
@@ -58,10 +58,10 @@
 350	57		｛3C Pig TC-C+200｝Type-C 公-公 USB20G 傳輸線 / 最高支援5A100W / 2M
 399	58		｛3C Pig TC-R1000｝Type-C 轉接器 USB-C to RJ-45 1Gb LAN / 支援Mac
 699	59		｛3C Pig TC-R2500｝Type-C 轉接器 USB-C to RJ-45 2.5Gb LAN / 支援Mac
-699	60		｛3C Pig TC-DP200｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 2M
-799	61		｛3C Pig TC-DP300｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 3M
-799	62		｛3C Pig TC-H200｝Type-C to HDMI 轉接線 / 4K60Hz / 2M
-899	63		｛3C Pig TC-H300｝Type-C to HDMI 轉接線 / 4K60Hz / 3M
+499	60		｛3C Pig TC-DP200｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 2M
+599	61		｛3C Pig TC-DP300｝Type-C to Display Port 1.4 轉接線 / 8K60Hz / 3M
+499	62		｛3C Pig TC-H200｝Type-C to HDMI 轉接線 / 4K60Hz / 2M
+599	63		｛3C Pig TC-H300｝Type-C to HDMI 轉接線 / 4K60Hz / 3M
 149	65		｛Gigastone GC-6800B｝Type-A to C USB5G / 鋁合金 / 黑 / 1.2M
 199	66		｛Gigastone CC-7600W｝Type-C to C 60W充電線 / 白 / 1.5M
 399	67		｛Gigastone CC-7800B｝Type-C to C USB10G / 100W充電傳輸線 / 黑 / 1.5M
