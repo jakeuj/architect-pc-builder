@@ -50,6 +50,13 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - `id` 只為相容 Pages 快取中的舊版網頁，新版網頁不用；之後可拿掉。
 - 內容沒變時沿用上次的 `generated`，workflow 才能用 git diff 判斷要不要提交。
 
+## 分享連結版本 2、QR Code、最近開過 (2026-10-22 起)
+
+- `encodeQuote` / `decodeQuote` 是 async：'2' + base64url(deflate-raw(JSON))，沒有 `CompressionStream` 的瀏覽器編碼退回 '1'，解碼 '1' / '2' 都收 (舊連結永遠要能開)；解開後超過 256KB 就擋 (壓縮炸彈)。實測 8 列主機單 1,243 → 1,028 字元 (中文品名本身難壓，其他商品多時省更多)。`encodeStore` 維持 '1'。
+- index.html：`encoded(t)` 以 quoteOf 的 JSON 當 key 快取壓縮結果，每次重畫 `syncHash` (async，用序號只採最後一次) 先算好，分享時 `shareUrlNow` 同步拿到；拿不到時 `copyText` 把 promise 交給 `ClipboardItem` (Safari 離開使用者手勢就不給寫剪貼簿)。
+- 唯讀估價單右上角 `#sheet-qr`：`U.qrSvg(url)` (builder-ui.js 內建 QR 產生器，byte 模式、版本 1–40、糾錯 M／版本 > 20 改 L，與 python-qrcode 逐格對照過，有已知答案測試)，連結沒變不重畫；列印 30mm。
+- 最近開過：`localStorage` `coolpc.recent` = `[{n, d, total, hash, at}]` (`U.recentUpsert` 最多 30 筆、同 hash 只留一筆；讀回用 `U.recentClean` 驗證)，分享或檢視模式 syncHash 時 `rememberRecent`；起始配置區多一個「最近開過」用途，卡片點了改 `location.hash` 重新載入，附清除按鈕。
+
 ## docs/history.json (價格歷史，2026-10-22 起)
 
 - 平的物件：`{"<分類 id>|<型號>": [["YYYY-MM-DD", price], …]}`，型號取品名 `｛…｝` 內的字 (沒有型號的品項不記)，日期是該次快照的報價日期；只在價格跟上一筆不同時追加、同一天變動兩次只留最新、同型號多件 (代理 / 平輸、搭板價 vs 原價) 取最低價。

@@ -6,6 +6,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 require('../templates/coolpc-live.js');
 const C = globalThis.CoolPC;
+const zlib = require('node:zlib');
+// 連結裡的 JSON：'1' 直接 base64url，'2' 先 inflateRaw
+const rawOf = s => JSON.parse((s[0] === '2' ? zlib.inflateRawSync(Buffer.from(s.slice(1), 'base64url')) : Buffer.from(s.slice(1), 'base64url')).toString());
 
 const SLOTS = [
   { key: 'cpu', label: 'CPU', cats: [4] },
@@ -40,25 +43,25 @@ const CATS = {
 };
 const IDX = C.indexCatalog(CATS);
 
-test('分享連結編解碼來回一致 (中文品名、數量、各列日期)', () => {
+test('分享連結編解碼來回一致 (中文品名、數量、各列日期)', async () => {
   const rows = [
     { slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/9/21 14:51' },
     { slot: 'vga', cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', price: 11490, qty: 2, d: '2026/9/21 14:51' },
     { slot: 'cooler', cat: 11, name: '利民 Frozen Warframe 360 黑', price: 2990, qty: 1, d: '2026/10/2 14:55' },
   ];
-  const s = C.encodeQuote({ n: '中階', b: 'mid', rows });
-  assert.match(s, /^1[A-Za-z0-9_-]+$/);           // 網址安全、沒有 padding
-  const q = C.decodeQuote(s, SLOTS);
+  const s = await C.encodeQuote({ n: '中階', b: 'mid', rows });
+  assert.match(s, /^2[A-Za-z0-9_-]+$/);           // 版本 2 (deflate)、網址安全、沒有 padding
+  const q = await C.decodeQuote(s, SLOTS);
   assert.equal(q.d, '2026/9/21 14:51');           // 最多列共用的日期
   assert.equal(q.n, '中階'); assert.equal(q.b, 'mid'); assert.equal(q.dropped, 0);
   assert.deepEqual(q.rows, rows);
-  const o = JSON.parse(Buffer.from(s.slice(1), 'base64url').toString());
+  const o = rawOf(s);
   assert.deepEqual(o.r[0], ['cpu', 4, rows[0].name, 7990]);          // qty=1、同日期 -> 尾欄省略
   assert.deepEqual(o.r[1], ['vga', 12, rows[1].name, 11490, 2]);
   assert.deepEqual(o.r[2], ['cooler', 11, rows[2].name, 2990, 1, '2026/10/2 14:55']);
 });
 
-test('網址：readLink / linkHash (檢視模式 v=1、q 優先、舊格式判斷)', () => {
+test('網址：readLink / linkHash (檢視模式 v=1、q 優先、舊格式判斷)', async () => {
   assert.deepEqual(C.readLink('#v=1&q=1a-_'), { view: true, q: '1a-_', b: null, s: null, store: false, legacy: false });
   assert.deepEqual(C.readLink('#q='), { view: false, q: '', b: null, s: null, store: false, legacy: false });   // 空 q 照樣交給 decodeQuote 報錯
   assert.deepEqual(C.readLink('#v=1&b=mid'), { view: true, q: null, b: 'mid', s: null, store: false, legacy: false });
@@ -70,40 +73,64 @@ test('網址：readLink / linkHash (檢視模式 v=1、q 優先、舊格式判�
   assert.equal(C.linkHash({ view: true, b: 'mid' }), '#v=1&b=mid');
   assert.equal(C.linkHash({ view: true }), '');
   // 舊版網頁用 URLSearchParams 讀 q：檢視版連結取回的 q 要跟 encodeQuote 原字串一模一樣
-  const s = C.encodeQuote({ n: '中階 & 測試', rows: [{ slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/10/6 11:13' }] });
+  const s = await C.encodeQuote({ n: '中階 & 測試', rows: [{ slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/10/6 11:13' }] });
   assert.equal(new URLSearchParams(C.linkHash({ view: true, q: s }).slice(1)).get('q'), s);
   assert.equal(C.readLink(C.linkHash({ view: true, q: s })).q, s);
   assert.equal(C.commonDate([{ d: 'a' }, { d: 'b' }, { d: 'b' }]), 'b');
   assert.equal(C.commonDate([]), '');
 });
 
-test('壞掉的連結丟錯 (截斷、非法字元、版本、超長、空)', () => {
-  const s = C.encodeQuote({ rows: [{ slot: 'cpu', cat: 4, name: 'x'.repeat(50), price: 1, qty: 1, d: 'd' }] });
-  assert.throws(() => C.decodeQuote(s.slice(0, s.length - 9), SLOTS));
-  assert.throws(() => C.decodeQuote(s + '%', SLOTS));
-  assert.throws(() => C.decodeQuote('2' + s.slice(1), SLOTS));
-  assert.throws(() => C.decodeQuote('1' + 'A'.repeat(40000), SLOTS));
-  assert.throws(() => C.decodeQuote('', SLOTS));
+test('壞掉的連結丟錯 (截斷、非法字元、版本、超長、空)', async () => {
+  const s = await C.encodeQuote({ rows: [{ slot: 'cpu', cat: 4, name: 'x'.repeat(50), price: 1, qty: 1, d: 'd' }] });
+  await assert.rejects(C.decodeQuote(s.slice(0, s.length - 9), SLOTS));
+  await assert.rejects(C.decodeQuote(s + '%', SLOTS));
+  await assert.rejects(C.decodeQuote('3' + s.slice(1), SLOTS), /版本/);
+  await assert.rejects(C.decodeQuote('1' + 'A'.repeat(40000), SLOTS));
+  await assert.rejects(C.decodeQuote('', SLOTS));
   const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
-  assert.throws(() => C.decodeQuote(enc({ d: 'x', r: [] }), SLOTS));
-  assert.throws(() => C.decodeQuote(enc({ d: 'x', r: Array(61).fill(['cpu', 4, 'a', 1]) }), SLOTS));
+  await assert.rejects(C.decodeQuote(enc({ d: 'x', r: [] }), SLOTS));
+  await assert.rejects(C.decodeQuote(enc({ d: 'x', r: Array(61).fill(['cpu', 4, 'a', 1]) }), SLOTS));
+  // 壓縮炸彈：解開超過 256KB 就擋 (JSON 合法、r 只有一列，但塞了 1MB 的空白)
+  const bomb = '2' + zlib.deflateRawSync(Buffer.from('{"d":"x","r":[["cpu",4,"a",1]]' + ' '.repeat(1 << 20) + '}')).toString('base64url');
+  assert.ok(bomb.length < 40000);
+  await assert.rejects(C.decodeQuote(bomb, SLOTS), /過大/);
 });
 
-test('其他商品 (multi 欄位)：可重複、分類要在清單內、10 格 + 40 件解得開', () => {
+test('壓縮連結 (版本 2)：解開的內容跟版本 1 相同、沒有 CompressionStream 時退回版本 1、各自都能開', async () => {
+  const rows = [{ slot: 'cpu', cat: 4, name: '｛AMD R7 7700｝(含風扇)【8核/16緒】', price: 7990, qty: 1, d: '2026/9/21 14:51' }, { slot: 'vga', cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', price: 11490, qty: 2, d: '2026/9/21 14:51' }];
+  const q = { n: '中階', b: 'mid', rows, issuer: { name: '吳記電腦', tel: '0985-378-701' }, biz: { price: 30000, ref: 30970, memo: '含三年保固' } };
+  const s2 = await C.encodeQuote(q);
+  const CS = globalThis.CompressionStream;
+  globalThis.CompressionStream = undefined;
+  const s1 = await C.encodeQuote(q);
+  globalThis.CompressionStream = CS;
+  assert.equal(s2[0], '2'); assert.equal(s1[0], '1');
+  assert.deepEqual(rawOf(s2), rawOf(s1));
+  assert.deepEqual(await C.decodeQuote(s2, SLOTS), await C.decodeQuote(s1, SLOTS));
+  assert.ok(s2.length < s1.length, `${s2.length} < ${s1.length}`);
+  // 舊版瀏覽器 (沒有 DecompressionStream) 開版本 2 的連結：明確的錯誤訊息
+  const DS = globalThis.DecompressionStream;
+  globalThis.DecompressionStream = undefined;
+  await assert.rejects(C.decodeQuote(s2, SLOTS), /瀏覽器/);
+  assert.equal((await C.decodeQuote(s1, SLOTS)).rows.length, 2);
+  globalThis.DecompressionStream = DS;
+});
+
+test('其他商品 (multi 欄位)：可重複、分類要在清單內、10 格 + 40 件解得開', async () => {
   const MORE = { key: '+', label: '其他商品', cats: [4, 12, 13, 17], multi: true };
   const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
-  const q = C.decodeQuote(enc({ d: 'x', r: [
+  const q = await C.decodeQuote(enc({ d: 'x', r: [
     ['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 4990], ['+', 13, '螢幕 B', 2990, 2], ['+', 99, '不明分類', 1], ['+', 17, '椅子', 1990],
   ] }), [...SLOTS, MORE]);
   assert.equal(q.dropped, 1);
   assert.deepEqual(q.rows.map(r => [r.slot, r.cat, r.name, r.qty]), [
     ['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 1], ['+', 13, '螢幕 B', 2], ['+', 17, '椅子', 1]]);
   // 沒傳 multi 欄位 (舊版網頁) 時其他商品列整列略過，主機列照常還原
-  assert.equal(C.decodeQuote(enc({ d: 'x', r: [['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 4990]] }), SLOTS).dropped, 1);
+  assert.equal((await C.decodeQuote(enc({ d: 'x', r: [['cpu', 4, 'a', 1], ['+', 13, '螢幕 A', 4990]] }), SLOTS)).dropped, 1);
   const long = '｛某品牌 27吋 2K 180Hz IPS 電競螢幕｝' + '規'.repeat(150);
   const rows = [...SLOTS.map(x => ({ slot: x.key, cat: x.cats[0], name: long, price: 9999, qty: 2, d: 'x' })),
     ...Array.from({ length: 40 }, (_, i) => ({ slot: '+', cat: 13, name: long + i, price: 9999, qty: 2, d: 'y' + i }))];
-  assert.equal(C.decodeQuote(C.encodeQuote({ rows }), [...SLOTS, MORE]).rows.length, rows.length);
+  assert.equal((await C.decodeQuote(await C.encodeQuote({ rows }), [...SLOTS, MORE])).rows.length, rows.length);
 });
 
 // ---- 店家模式 ----
@@ -113,22 +140,23 @@ const QROWS = [
   { slot: 'vga', cat: 12, name: '｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm', price: 11490, qty: 2, d: '2026/9/21 14:51' },
 ];
 const encRaw = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
-const rawOf = s => JSON.parse(Buffer.from(s.slice(1), 'base64url').toString());
 
-test('店家：沒有店家資料時編碼跟先前版本逐字相同 (biz 沒有店家也不帶)', () => {
+test('店家：沒有店家資料時編碼跟先前版本逐字相同 (biz 沒有店家也不帶)', async () => {
   // 2026-10-06 加店家模式前 encodeQuote 的輸出
   const before = '1eyJkIjoiMjAyNi85LzIxIDE0OjUxIiwibiI6IuS4remajiIsImIiOiJtaWQiLCJyIjpbWyJjcHUiLDQsIu-9m0FNRCBSNyA3NzAw772dKOWQq-miqOaJhynjgJA45qC4LzE257eS44CRIiw3OTkwXSxbInZnYSIsMTIsIu-9m-aKgOWYiSBSWDkwNjBYVCBHQU1JTkcgT0MgOEfvvZ0zMzIwTUh6LzI4Y20iLDExNDkwLDJdXX0';
-  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS }), before);
-  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: null, biz: { price: 100 } }), before);
-  assert.equal(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: { name: '  ', rep: '業務' }, biz: { price: 100 } }), before);
-  const q = C.decodeQuote(before, SLOTS);
+  // 2026-10-22 起連結改壓縮 (版本 2)，比的是解開後的 JSON；版本 1 的舊連結照樣要能開
+  assert.deepEqual(rawOf(await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS })), rawOf(before));
+  assert.deepEqual(rawOf(await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: null, biz: { price: 100 } })), rawOf(before));
+  assert.deepEqual(rawOf(await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: { name: '  ', rep: '業務' }, biz: { price: 100 } })), rawOf(before));
+  const q = await C.decodeQuote(before, SLOTS);
+  assert.deepEqual(q.rows, QROWS);
   assert.equal(q.issuer, null); assert.equal(q.biz, null);
 });
 
-test('店家：店家資訊與店家報價來回一致，連結欄位精簡', () => {
+test('店家：店家資訊與店家報價來回一致，連結欄位精簡', async () => {
   const biz = { price: 30000, ref: 30970, extras: [['組裝費', 0], ['灌 Windows', 500], ['舊機折抵', -2000]], cust: '王先生', until: '2026-10-13', memo: '含三年保固\n\n\n交期 3 天', hide: true };
-  const s = C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz });
-  const q = C.decodeQuote(s, SLOTS);
+  const s = await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz });
+  const q = await C.decodeQuote(s, SLOTS);
   assert.deepEqual(q.rows, QROWS);
   assert.deepEqual(q.issuer, { ...STORE, line: 'fatgo99' });
   assert.deepEqual(q.biz, { ...biz, memo: '含三年保固\n\n交期 3 天' });
@@ -136,48 +164,48 @@ test('店家：店家資訊與店家報價來回一致，連結欄位精簡', ()
   assert.deepEqual(o.s, ['吳記電腦', '吳英豪', '0985-378-701', 'fatgo99', '台北市市民大道三段8號2樓', '組裝・到府收送']);
   assert.deepEqual(o.p, [30000, 30970]); assert.equal(o.h, 1); assert.equal(o.c, '王先生');
   // 尾端空欄位省略；沒填的報價欄位不出現
-  const o2 = rawOf(C.encodeQuote({ rows: QROWS, issuer: { name: '小店', tel: '02-2391-1234' }, biz: { hide: false, extras: [['', 5]], memo: '  ' } }));
+  const o2 = rawOf(await C.encodeQuote({ rows: QROWS, issuer: { name: '小店', tel: '02-2391-1234' }, biz: { hide: false, extras: [['', 5]], memo: '  ' } }));
   assert.deepEqual(o2.s, ['小店', '', '02-2391-1234']);
   for (const k of ['p', 'x', 'c', 'u', 'm', 'h']) assert.equal(k in o2, false, k);
   assert.ok(s.length < 2500, '一般店家單的連結長度 ' + s.length);
 });
 
-test('店家：舊版網頁看得到的部分 (d / n / b / rows) 有沒有店家欄位都一樣', () => {
-  const plain = C.decodeQuote(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS }), SLOTS);
-  const store = C.decodeQuote(C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz: { price: 1 } }), SLOTS);
+test('店家：舊版網頁看得到的部分 (d / n / b / rows) 有沒有店家欄位都一樣', async () => {
+  const plain = await C.decodeQuote(await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS }), SLOTS);
+  const store = await C.decodeQuote(await C.encodeQuote({ n: '中階', b: 'mid', rows: QROWS, issuer: STORE, biz: { price: 1 } }), SLOTS);
   for (const k of ['d', 'n', 'b', 'rows', 'dropped']) assert.deepEqual(store[k], plain[k], k);
 });
 
-test('店家：不合格的欄位只丟該欄，品項照常還原', () => {
+test('店家：不合格的欄位只丟該欄，品項照常還原', async () => {
   const r = [['cpu', 4, 'a', 1]];
-  const dec = o => C.decodeQuote(encRaw({ d: 'x', r, ...o }), SLOTS);
+  const dec = o => C.decodeQuote(encRaw({ d: 'x', r, ...o }), SLOTS);   // 回 promise
   const xss = '<img src=x onerror=alert(1)>';
   // 店名必填、不可冒用原價屋；其他欄位各自驗證
-  assert.equal(dec({ s: ['', '業務'] }).issuer, null);
-  assert.equal(dec({ s: ['原價屋光華店'] }).issuer, null);
-  assert.equal(dec({ s: ['CoolPC 分店'] }).issuer, null);
-  assert.equal(dec({ s: 'not-array' }).issuer, null);
-  assert.equal(dec({ s: [123] }).issuer, null);
-  const st = dec({ s: [xss, 'x'.repeat(21), 'javascript:alert(1)', 'bad id with space', '地'.repeat(61), '‮​標語\u0007'] }).issuer;
+  assert.equal((await dec({ s: ['', '業務'] })).issuer, null);
+  assert.equal((await dec({ s: ['原價屋光華店'] })).issuer, null);
+  assert.equal((await dec({ s: ['CoolPC 分店'] })).issuer, null);
+  assert.equal((await dec({ s: 'not-array' })).issuer, null);
+  assert.equal((await dec({ s: [123] })).issuer, null);
+  const st = (await dec({ s: [xss, 'x'.repeat(21), 'javascript:alert(1)', 'bad id with space', '地'.repeat(61), '‮​標語\u0007'] })).issuer;
   assert.deepEqual(st, { name: xss, rep: '', tel: '', line: '', addr: '', tag: '標語' });   // 文字照收 (畫面一律 esc)，網址類欄位擋掉
-  assert.equal(dec({ s: ['店', '', '12345'] }).issuer.tel, '');            // 少於 6 碼
-  assert.equal(dec({ s: ['店', '', '', 'javascript:alert(1)'] }).issuer.line, '');
-  assert.equal(dec({ s: ['店', '', '', '@abc_123'] }).issuer.line, '@abc_123');
+  assert.equal((await dec({ s: ['店', '', '12345'] })).issuer.tel, '');            // 少於 6 碼
+  assert.equal((await dec({ s: ['店', '', '', 'javascript:alert(1)'] })).issuer.line, '');
+  assert.equal((await dec({ s: ['店', '', '', '@abc_123'] })).issuer.line, '@abc_123');
   // 店家報價：沒有店家就不還原；壞欄位各自丟
-  assert.equal(dec({ p: [100, 100], c: '王先生' }).biz, null);
+  assert.equal((await dec({ p: [100, 100], c: '王先生' })).biz, null);
   const s = ['店'];
-  assert.equal(dec({ s, p: [-1] }).biz, null);
-  assert.equal(dec({ s, p: [1.5, 1] }).biz, null);
-  assert.equal(dec({ s, p: ['100'] }).biz, null);
-  assert.deepEqual(dec({ s, p: [100, 'x'] }).biz, { price: 100 });       // ref 壞掉 -> 視為需重新確認
-  assert.deepEqual(dec({ s, x: [['組裝', 0], ['', 1], ['折', -1e6 - 1], 'x', ['運費', 1.5], ...Array(10).fill(['服務', 1])] }).biz.extras,
+  assert.equal((await dec({ s, p: [-1] })).biz, null);
+  assert.equal((await dec({ s, p: [1.5, 1] })).biz, null);
+  assert.equal((await dec({ s, p: ['100'] })).biz, null);
+  assert.deepEqual((await dec({ s, p: [100, 'x'] })).biz, { price: 100 });       // ref 壞掉 -> 視為需重新確認
+  assert.deepEqual((await dec({ s, x: [['組裝', 0], ['', 1], ['折', -1e6 - 1], 'x', ['運費', 1.5], ...Array(10).fill(['服務', 1])] })).biz.extras,
     [['組裝', 0], ...Array(7).fill(['服務', 1])]);
-  for (const u of ['2026/10/01', '2026-13-01', '2026-02-30', '20261001', 20261001]) assert.equal(dec({ s, u }).biz, null, String(u));
-  assert.equal(dec({ s, u: '2028-02-29' }).biz.until, '2028-02-29');
-  assert.equal(dec({ s, c: '王'.repeat(21) }).biz, null);
-  assert.equal(dec({ s, m: '備'.repeat(201) }).biz, null);
-  assert.equal(dec({ s, h: true }).biz, null);                            // 只認 1
-  assert.equal(dec({ s, h: 1 }).biz.hide, true);
+  for (const u of ['2026/10/01', '2026-13-01', '2026-02-30', '20261001', 20261001]) assert.equal((await dec({ s, u })).biz, null, String(u));
+  assert.equal((await dec({ s, u: '2028-02-29' })).biz.until, '2028-02-29');
+  assert.equal((await dec({ s, c: '王'.repeat(21) })).biz, null);
+  assert.equal((await dec({ s, m: '備'.repeat(201) })).biz, null);
+  assert.equal((await dec({ s, h: true })).biz, null);                            // 只認 1
+  assert.equal((await dec({ s, h: 1 })).biz.hide, true);
 });
 
 test('店家：normBiz 空值正規化 (有沒有改過用它比)', () => {
@@ -228,7 +256,7 @@ test('店家：設定連結編解碼與網址判斷', () => {
   assert.equal(C.readLink('#b=mid&cpu=4:22').legacy, true);
 });
 
-test('店家：最大的單 (10 格 + 40 件 + 店家欄位填滿) 仍在連結上限內', () => {
+test('店家：最大的單 (10 格 + 40 件 + 店家欄位填滿) 仍在連結上限內', async () => {
   const MORE = { key: '+', label: '其他商品', cats: [13], multi: true };
   const slots = [...Array.from({ length: 10 }, (_, i) => ({ key: 's' + i, label: 'S' + i, cats: [4] })), MORE];
   const long = '｛某品牌 27吋 2K 180Hz IPS 電競螢幕｝' + '規'.repeat(150);
@@ -236,9 +264,9 @@ test('店家：最大的單 (10 格 + 40 件 + 店家欄位填滿) 仍在連結�
     ...Array.from({ length: 40 }, (_, i) => ({ slot: '+', cat: 13, name: long + i, price: 9999, qty: 2, d: 'y' + i }))];
   const issuer = { name: '店'.repeat(30), rep: '業'.repeat(20), tel: '0'.repeat(24), line: 'a'.repeat(20), addr: '地'.repeat(60), tag: '標'.repeat(40) };
   const biz = { price: 1e7, ref: 1e7, extras: Array(8).fill(['服'.repeat(20), 1e6]), cust: '客'.repeat(20), until: '2026-12-31', memo: '備'.repeat(200), hide: true };
-  const s = C.encodeQuote({ rows, issuer, biz });
+  const s = await C.encodeQuote({ rows, issuer, biz });
   assert.ok(s.length < 40000, '長度 ' + s.length);
-  const q = C.decodeQuote(s, slots);
+  const q = await C.decodeQuote(s, slots);
   assert.equal(q.rows.length, 50); assert.equal(q.biz.extras.length, 8); assert.equal(q.issuer.addr.length, 60);
 });
 
@@ -272,9 +300,9 @@ test('mergeCatalog：同名群組接在後面、新分類依編號排、不改�
   assert.equal(all[4].groups[0].items[0], base[4].groups[0].items[0]);  // 品項物件共用
 });
 
-test('解碼時逐列驗證：不明欄位 / 分類不符 / 價格與數量範圍 / 重複欄位', () => {
+test('解碼時逐列驗證：不明欄位 / 分類不符 / 價格與數量範圍 / 重複欄位', async () => {
   const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
-  const q = C.decodeQuote(enc({ d: '2026/9/21 14:51', n: 'x'.repeat(61), r: [
+  const q = await C.decodeQuote(enc({ d: '2026/9/21 14:51', n: 'x'.repeat(61), r: [
     ['cpu', 4, '<img src=x onerror=alert(1)>', 100, 99],  // 品名原樣保留 (頁面負責跳脫)，qty 夾到 9
     ['cpu', 4, '第二個 cpu', 100],                          // 同欄位第二列略過
     ['gpu', 12, 'a', 100],                                 // 不明欄位

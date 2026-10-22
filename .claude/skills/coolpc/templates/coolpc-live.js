@@ -1,7 +1,7 @@
 // 原價屋估價頁 (evaluate.php) 的瀏覽器端解析器。
 // 邏輯對應 .claude/skills/coolpc/scripts/parse_coolpc.py (解析) 與 build_site.py (主機分類剔除無關群組、其餘另成補集)；
 // 原價屋改版時兩邊要一起改。後半段是估價單快照 (分享連結) 的品名對照與編解碼。
-// 純函式、不碰 DOM，也能在 Node 跑 (node -e 'require("./docs/coolpc-live.js")'；測試見 tests/)。
+// 純函式、不碰 DOM，也能在 Node 跑 (node -e 'require("./docs/coolpc-live.js")'；測試見 tests/)。encodeQuote / decodeQuote 是 async (deflate 壓縮)。
 (function (root) {
   const CAT_RE = /<TD class=w>(\d+)<TD class=t>([^<]*)<[\s\S]*?<SELECT[^>]*name=n\1[^>]*>([\s\S]*?)<\/SELECT>/g;
   const OPT_RE = /<(OPTGROUP|OPTION)([^>]*)>([^<]*)/gi;
@@ -206,17 +206,46 @@
     return m ? +m[1] * 1e8 + +m[2] * 1e6 + +m[3] * 1e4 + (+m[4] || 0) * 100 + (+m[5] || 0) : 0;
   }
 
-  // 分享連結：'1' + base64url(UTF-8 JSON)。'1' 是格式版本 (日後要壓縮可用別的字首)
+  // 分享連結格式 (字首是版本)：'1' + base64url(UTF-8 JSON)；'2' + base64url(deflate-raw(UTF-8 JSON))，2026-10-22 起，約省一半長度
+  // 解碼兩種都收 (舊連結永遠要能開)；瀏覽器沒有 CompressionStream 時編碼退回 '1'。店家設定連結 (encodeStore) 很短，維持 '1'
   // JSON = {d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}；d 取最多列共用的報價日期，同 d / qty=1 的尾欄省略
   // 店家單另有選用欄位 (舊版網頁會忽略)：s 店家資訊、p [本店價, 填價時的原價屋合計]、x 服務列、c 客戶稱呼、u 有效期限、m 備註、h 隱藏原價屋單價
-  function b64urlEncode(str) {
-    let bin = ''; for (const b of new TextEncoder().encode(str)) bin += String.fromCharCode(b);
-    return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-  }
-  function b64urlDecode(s) {
+  const b64urlBytes = bytes => { let bin = ''; for (const b of bytes) bin += String.fromCharCode(b); return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+  function bytesB64url(s) {
     if (!/^[A-Za-z0-9_-]*$/.test(s)) throw new Error('連結含有非法字元');
     const bin = atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4));
-    return new TextDecoder('utf-8', { fatal: true }).decode(Uint8Array.from(bin, c => c.charCodeAt(0)));
+    return Uint8Array.from(bin, c => c.charCodeAt(0));
+  }
+  const b64urlEncode = str => b64urlBytes(new TextEncoder().encode(str));
+  const b64urlDecode = s => new TextDecoder('utf-8', { fatal: true }).decode(bytesB64url(s));
+  const canZip = () => typeof CompressionStream === 'function' && typeof DecompressionStream === 'function';
+  // bytes 經過 (De)CompressionStream；max = 解開後的上限 (連結長度已限制，再擋住惡意壓縮炸彈)
+  async function pipeBytes(bytes, stream, max = Infinity) {
+    const reader = new Blob([bytes]).stream().pipeThrough(stream).getReader();
+    const chunks = []; let n = 0;
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      n += value.length;
+      if (n > max) { reader.cancel(); throw new Error('連結內容過大'); }
+      chunks.push(value);
+    }
+    const out = new Uint8Array(n); let i = 0;
+    for (const c of chunks) { out.set(c, i); i += c.length; }
+    return out;
+  }
+  async function packJSON(o) {
+    const text = JSON.stringify(o);
+    if (canZip()) {
+      try { return '2' + b64urlBytes(await pipeBytes(new TextEncoder().encode(text), new CompressionStream('deflate-raw'))); } catch (e) { /* 退回 '1' */ }
+    }
+    return '1' + b64urlEncode(text);
+  }
+  const MAX_UNPACKED = 256 * 1024;
+  async function unpackJSON(s) {
+    if (s[0] === '1') return JSON.parse(b64urlDecode(s.slice(1)));
+    const bytes = await pipeBytes(bytesB64url(s.slice(1)), new DecompressionStream('deflate-raw'), MAX_UNPACKED);
+    return JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes));
   }
 
   // 最多列共用的報價日期 (估價單抬頭與連結的 d 都用它)
@@ -314,8 +343,8 @@
     return s;
   }
 
-  // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}], issuer?, biz?}；沒有店家 (issuer) 時不帶店家報價
-  function encodeQuote(q) {
+  // q = {n?, b?, rows: [{slot, cat, name, price, qty, d}], issuer?, biz?}；沒有店家 (issuer) 時不帶店家報價。async (壓縮)
+  async function encodeQuote(q) {
     const d = commonDate(q.rows);
     const o = { d };
     if (q.n) o.n = q.n;
@@ -336,16 +365,17 @@
       if (a[4] === 1) a.pop();
       return a;
     });
-    return '1' + b64urlEncode(JSON.stringify(o));
+    return packJSON(o);
   }
 
-  // 解析分享連結；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類；multi: true 的欄位可重複 (其他商品)。
+  // 解析分享連結 (async)；格式或內容不對就丟錯 (呼叫端退回預設配置)。slots 用來驗證欄位與分類；multi: true 的欄位可重複 (其他商品)。
   // 回傳 {d, n, b, rows: [{slot, cat, name, price, qty, d}], dropped, issuer, biz}；issuer / biz 沒有或不合格為 null
-  function decodeQuote(s, slots) {
+  async function decodeQuote(s, slots) {
     if (!s || s.length > 40000) throw new Error('連結長度不對');
-    if (s[0] !== '1') throw new Error('不支援的連結版本');
+    if (s[0] !== '1' && s[0] !== '2') throw new Error('不支援的連結版本');
+    if (s[0] === '2' && !canZip()) throw new Error('這個瀏覽器太舊，無法讀取壓縮的連結');
     let o;
-    try { o = JSON.parse(b64urlDecode(s.slice(1))); } catch (e) { throw new Error('連結不完整，可能在複製時被截斷'); }
+    try { o = await unpackJSON(s); } catch (e) { throw new Error(e.message === '連結內容過大' ? e.message : '連結不完整，可能在複製時被截斷'); }
     if (!o || !Array.isArray(o.r) || !o.r.length || o.r.length > 60) throw new Error('連結內容不完整');
     const str = (v, max) => typeof v === 'string' && v.length <= max ? v : '';
     const d = str(o.d, 32);

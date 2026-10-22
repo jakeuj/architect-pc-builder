@@ -28,7 +28,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="builder.css?v=20261022-history">
+<link rel="stylesheet" href="builder.css?v=20261022-share">
 </head>
 <body>
 <main class="wrap">
@@ -67,6 +67,7 @@
         </div>
         <p class="sheet-issuer" id="sheet-issuer"><strong id="sheet-site"></strong><span>原價屋含稅報價整理</span></p>
         <div class="sheet-store" id="sheet-store" hidden></div>
+        <div class="sheet-qr" id="sheet-qr" hidden></div>
       </header>
       <dl class="sheet-meta" id="sheet-meta"></dl>
       <div class="sheet-top-total"><span id="sheet-top-label">合計（含稅）</span><strong id="sheet-top-total"></strong></div>
@@ -214,6 +215,7 @@
         <li>零件旁的「30 天最低／最高」與小折線是從每小時快照整理的同型號價格變動（同型號多件取最低價，只記主機零件分類；30 天內沒變只寫文字），用來看最近是漲是跌、現在的價格算高還是低。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，上方會列出跟分享時的內容比換了哪幾格、各差多少，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
+        <li>分享連結從 2026/10/22 起會壓縮（網址較短），舊連結照樣能開；唯讀估價單右上角有這條連結的 QR Code，列印也會帶著，店家可以直接給客人掃。分享或預覽過的估價單會記在這台裝置的「最近開過」（起始配置區的分頁，最多 30 筆，只存在你的瀏覽器，可清除），不用再翻聊天紀錄找連結。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
         <li>「帶到原價屋估價頁」會在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量，可以接著在那邊列印或聯絡原價屋。那邊一律是原價屋現價；已下架的品項不會帶入，搭板、裝機價等優惠結束的改帶同型號現行品項。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
@@ -280,8 +282,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-history"></script>
-<script src="builder-ui.js?v=20261022-history"></script>
+<script src="coolpc-live.js?v=20261022-share"></script>
+<script src="builder-ui.js?v=20261022-share"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -388,12 +390,26 @@
   }
   const presets = tabs.slice();
 
+  // ---- 最近開過的估價單：分享或預覽時存這台裝置的 localStorage (最多 30 筆，不上伺服器)，起始配置區的「最近開過」分頁可一鍵開回 ----
+  const RECENT_LS = 'coolpc.recent';
+  let recent = [];
+  try { recent = U.recentClean(JSON.parse(localStorage.getItem(RECENT_LS) || '[]')); } catch (e) {}
+  function rememberRecent(hash){
+    if (!hash || isEmpty(cur)) return;
+    const T = C.totals(allRows(cur), find), B = issuerFor(cur) ? C.bizTotals(T.quoted, cur.biz) : null;
+    const next = U.recentUpsert(recent, { n: quoteName(cur), d: quoteDate(cur), total: B ? B.final : T.quoted, hash, at: C.isoDate() });
+    if (JSON.stringify(next) === JSON.stringify(recent)) return;
+    recent = next;
+    try { localStorage.setItem(RECENT_LS, JSON.stringify(recent)); } catch (e) {}
+  }
+  function openRecent(hash){ if (location.hash === hash) location.reload(); else location.hash = hash; }
+
   // 從網址還原：#q=<估價單快照> → #b=<預設配置> → 預設中間那套；前面多 v=1 就先開唯讀估價單 (檢視模式)
   const L = C.readLink(location.hash);
   let cur = null, startMsg = '', viewable = false;
   if (L.q !== null) {
     try {
-      const q = C.decodeQuote(L.q, MORE ? [...D.slots, MORE] : D.slots);
+      const q = await C.decodeQuote(L.q, MORE ? [...D.slots, MORE] : D.slots);
       const rows = {}, more = []; for (const s of D.slots) rows[s.key] = null;
       for (const r of q.rows) { const row = mkRow(r.cat, r.name, r.qty, { price: r.price, d: r.d }, r.slot === '+'); if (row.x) more.push(row); else rows[r.slot] = row; }
       const base = presets.find(t => t.key === q.b);
@@ -454,7 +470,7 @@
   // 用途只篩選；卡片 key 對應方案，不依 DOM 子元素的順序。
   const tabsEl = $('#tabs');
   function buildTabs(){
-    const purposes = U.purposesFor(presets);
+    const purposes = [...U.purposesFor(presets), ...(recent.length ? [['recent', '最近開過']] : [])];
     if (!purposes.some(([key]) => key === selectedPurpose)) selectedPurpose = purposes[0][0];
     const purposesEl = $('#purposes'); purposesEl.replaceChildren();
     for (const [key, label] of purposes) {
@@ -464,6 +480,7 @@
       purposesEl.appendChild(button);
     }
     tabsEl.replaceChildren();
+    if (selectedPurpose === 'recent') { renderRecentTabs(); $('#shared-return').hidden = !tabs.some(t => t.kind === 'shared'); return; }
     for (const t of presets.filter(t => U.purposeOf(t) === selectedPurpose)) {
       const T = C.totals(allRows(t.orig), find);
       const el = document.createElement('button'); el.className = 'tab' + (t === cur ? ' on' : ''); el.dataset.key = t.key;
@@ -473,6 +490,26 @@
       tabsEl.appendChild(el);
     }
     $('#shared-return').hidden = !tabs.some(t => t.kind === 'shared');
+  }
+
+  // 「最近開過」：每筆是分享 / 預覽過的估價單連結，點了直接開 (重新載入)；清除只刪這台裝置的紀錄
+  function renderRecentTabs(){
+    for (const e of recent) {
+      const el = document.createElement('button'); el.className = 'tab recent'; el.dataset.hash = e.hash;
+      el.innerHTML = `<div class="tab-title">${esc(e.n)}</div><small>報價日期 ${esc(e.d)}${e.at ? '・' + esc(e.at) + ' 開過' : ''}</small><div class="tab-price">$${fmt(e.total)}<span>合計</span></div>`;
+      el.onclick = () => openRecent(e.hash);
+      tabsEl.appendChild(el);
+    }
+    const clear = document.createElement('button'); clear.className = 'text-button remove recent-clear'; clear.textContent = '清除這台裝置的「最近開過」紀錄';
+    clear.onclick = () => {
+      if (!confirm('清除「最近開過」的紀錄？只刪這台裝置的清單，已分享的連結不受影響。')) return;
+      recent = [];
+      try { localStorage.removeItem(RECENT_LS); } catch (e) {}
+      selectedPurpose = U.purposeOf(cur.kind === 'shared' ? presets.find(t => t.key === cur.base) || {} : cur);
+      buildTabs(); toast('已清除最近開過的紀錄');
+      $('#purposes').querySelector('[aria-pressed="true"]')?.focus({ preventScroll: true });
+    };
+    tabsEl.appendChild(clear);
   }
 
   function renderPreset(){
@@ -830,6 +867,15 @@
       : `本估價單由「${store.name}」製作，` + (hide ? '' : `零件價格參考原價屋線上含稅報價（${qd}），`)
         + '本店價、服務內容與庫存以店家確認為準。相容性提示依品名自動判讀，僅供參考。店家資訊與價格由製作者自行填寫，本網站未經查核。';
     $('#sheet-made').textContent = store && location.host ? `由 ${location.host} 免費估價工具產生` : `由「${D.title}」產生` + (location.host ? ` · ${location.host}` : '');
+    withShareUrl(cur, true, renderQr);
+  }
+  // 右上角的 QR Code (這張估價單的唯讀連結，店家給客人掃；列印也帶)：連結沒變不重畫
+  function renderQr(url){
+    const box = $('#sheet-qr');
+    if (mode !== 'view' || box.dataset.url === url) return;
+    const svg = U.qrSvg(url, 104);
+    box.dataset.url = url; box.hidden = !svg;
+    box.innerHTML = svg ? svg + '<small>掃描開啟這張估價單</small>' : '';
   }
   // 切換模式只換顯示；網址由 render() 的 syncHash 依 mode 加上 / 拿掉 v=1 (replaceState，不留歷史)
   function applyMode(){
@@ -1080,18 +1126,32 @@
   // 沒動過的分享單原樣保留 (不重新編碼)；沒動過的預設配置用 #b= 跟著每小時更新；其餘存成快照
   // 全部清空的單沒有東西可存 (decodeQuote 也不收)，網址就不帶 #；檢視模式前面加 v=1
   const isEmpty = t => !allRows(t).length;
-  const hashFor = t => C.linkHash({ view: mode === 'view', ...(!dirty(t) ? (t.kind === 'shared' ? { q: t.raw } : { b: t.key }) : isEmpty(t) ? {} : { q: C.encodeQuote(quoteOf(t)) }) });
+  // encodeQuote 是 async (deflate 壓縮)：同一份內容只壓一次。每次重畫 syncHash 都會先算，按分享時通常已有結果 (encodedNow)，
+  // 剪貼簿寫入就不用等 await (Safari 離開使用者手勢就不給寫)
+  let encKey = '', encVal = '';
+  async function encoded(t){ const q = quoteOf(t), k = JSON.stringify(q); if (k !== encKey) { const v = await C.encodeQuote(q); encKey = k; encVal = v; } return encVal; }
+  const encodedNow = t => JSON.stringify(quoteOf(t)) === encKey ? encVal : null;
+  const hashFor = async t => C.linkHash({ view: mode === 'view', ...(!dirty(t) ? (t.kind === 'shared' ? { q: t.raw } : { b: t.key }) : isEmpty(t) ? {} : { q: await encoded(t) }) });
   // 分享一律是快照 (#q=)；view = 唯讀估價單 (#v=1&q=)，否則打開直接是編輯畫面
   // 沒動過、店家也沒換的分享單才沿用原連結 (店家打開客人的單再轉傳，要帶上自己的店家資訊)；網址不帶 ?query (例如設定連結的 openExternalBrowser)
   const pristine = t => t.kind === 'shared' && !dirty(t) && sameIssuer(issuerFor(t), t.issuer);
-  const shareUrl = (t, view) => location.href.split(/[?#]/)[0] + C.linkHash({ view, q: pristine(t) ? t.raw : C.encodeQuote(quoteOf(t)) });
-  let lastHash = location.hash, syncTimer = 0;
+  const urlWith = (view, q) => location.href.split(/[?#]/)[0] + C.linkHash({ view, q });
+  const shareUrl = async (t, view) => urlWith(view, pristine(t) ? t.raw : await encoded(t));
+  const shareUrlNow = (t, view) => { const q = pristine(t) ? t.raw : encodedNow(t); return q ? urlWith(view, q) : null; };
+  // 有算好的連結就同步用 (fn 回傳字串)，否則回 promise；copyText 兩種都收
+  const withShareUrl = (t, view, fn) => { const now = shareUrlNow(t, view); return now != null ? fn(now) : shareUrl(t, view).then(fn); };
+  let lastHash = location.hash, syncTimer = 0, syncSeq = 0;
   // replaceState 太頻繁 (例如注音輸入每個鍵) Safari 會丟 SecurityError：打字時延遲寫入，出錯也不中斷畫面
-  function syncHash(){
+  // 壓縮是 async：連續幾次重畫只採用最後一次的結果
+  async function syncHash(){
     clearTimeout(syncTimer);
-    const h = hashFor(cur);
+    const seq = ++syncSeq;
+    let h;
+    try { h = await hashFor(cur); } catch (e) { console.error('無法產生連結：', e); return; }
+    if (seq !== syncSeq) return;
     try { if (h !== location.hash) history.replaceState(null, '', h || location.pathname + location.search); } catch (e) { scheduleSync(); }
     lastHash = location.hash;
+    if (mode === 'view' && h) rememberRecent(h);
   }
   const scheduleSync = () => { clearTimeout(syncTimer); syncTimer = setTimeout(syncHash, 400); };
   // 在同一個分頁貼上別的連結 (只改 # 後面) 時重新載入；店家設定連結 / #store 直接開店家設定
@@ -1104,8 +1164,14 @@
 
   function toast(m, ms){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove('show'), ms || 1600); }
   // 有些 App 內建瀏覽器 (LINE 等) 不給寫剪貼簿，退回跳出視窗讓人手動複製
+  // text 可以是 promise (連結還在壓縮)：Safari 要在使用者手勢內呼叫，所以把 promise 交給 ClipboardItem；不支援的瀏覽器等完再寫
   async function copyText(text, ok, ms){
-    try { await navigator.clipboard.writeText(text); toast(ok, ms); } catch (e) { prompt('無法自動複製，請手動複製：', text); }
+    try {
+      if (typeof text !== 'string' && typeof ClipboardItem === 'function' && navigator.clipboard.write) {
+        await navigator.clipboard.write([new ClipboardItem({ 'text/plain': Promise.resolve(text).then(t => new Blob([t], { type: 'text/plain' })) })]);
+      } else await navigator.clipboard.writeText(await text);
+      toast(ok, ms);
+    } catch (e) { prompt('無法自動複製，請手動複製：', await text); }
   }
   $('#reset').onclick = () => {
     cur.rows = clone(cur.orig.rows); cur.more = clone(cur.orig.more); cur.biz = clone(cur.orig.biz); cur.issuer = clone(cur.orig.issuer);
@@ -1135,7 +1201,7 @@
         const it = find(r).item, name = r.pin || !it ? r.name : it.name;
         return { label, name: C.modelOf(name) || name, qty: r.qty, price: r.pin ? r.pin.price : it ? it.price : 0 };
       });
-      const text = U.storeMessage({ store: profile, biz: b, totals: C.bizTotals(T.quoted, b), quoted: T.quoted, lines, url: shareUrl(cur, true), until: b.until && dateText(b.until) });
+      const text = withShareUrl(cur, true, url => U.storeMessage({ store: profile, biz: b, totals: C.bizTotals(T.quoted, b), quoted: T.quoted, lines, url, until: b.until && dateText(b.until) }));
       return copyText(text, '已複製給客戶的訊息' + warn, warn ? 5000 : 0);
     }
     const lines = [cur.kind === 'shared' ? `【${cur.label}${cur.sub ? '：' + cur.sub : ''}】報價日期 ${cur.d}（現價資料 ${SRC.quote_date}）` : `【${cur.label}${cur.sub ? ' — ' + cur.sub : ''}】原價屋含稅報價 ${SRC.quote_date}`];
@@ -1146,15 +1212,14 @@
     }
     const T = C.totals(allRows(cur), find);
     lines.push(`總計 $${fmt(T.quoted)}` + (T.diff ? `（以現價計 $${fmt(T.current)} ${arrow(T.diff)}）` : '') + (T.goneCount ? `（${T.goneCount} 項已下架）` : '') + (T.off ? `（任搭折 -${fmt(T.off)} → 約 $${fmt(T.current - T.off)}）` : ''));
-    lines.push(shareUrl(cur, true));
-    copyText(lines.join('\n'), '已複製清單');
+    copyText(withShareUrl(cur, true, url => [...lines, url].join('\n')), '已複製清單');
   };
   $('#share').onclick = $('#mobile-share').onclick = $('#sheet-copy').onclick = () => {
     if (isEmpty(cur)) return toast(emptyMsg);
     const warn = storeCheck();
-    copyText(shareUrl(cur, true), '已複製估價單連結' + warn, warn ? 5000 : 0);
+    copyText(withShareUrl(cur, true, url => { rememberRecent(url.slice(url.indexOf('#'))); return url; }), '已複製估價單連結' + warn, warn ? 5000 : 0);
   };
-  $('#share-edit').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(shareUrl(cur, false), '已複製可編輯連結');
+  $('#share-edit').onclick = () => isEmpty(cur) ? toast(emptyMsg) : copyText(withShareUrl(cur, false, url => url), '已複製可編輯連結');
   $('#preview').onclick = $('#mobile-preview').onclick = e => { returnFocus = e.currentTarget; setMode('view'); };
   $('#sheet-edit').onclick = () => setMode('edit');
   $('#sheet-print').onclick = () => window.print();

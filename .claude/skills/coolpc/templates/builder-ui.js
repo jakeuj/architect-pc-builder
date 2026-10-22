@@ -209,10 +209,162 @@
     return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
   }
 
+  // ---- 最近開過的估價單 (localStorage)：list = [{n 名稱, d 報價日期, total 合計, hash '#v=1&q=…', at 'YYYY-MM-DD'}]，新的在前、同 hash 只留一筆 ----
+  function recentUpsert(list, entry, max = 30) {
+    const rest = (Array.isArray(list) ? list : []).filter(e => e && e.hash !== entry.hash);
+    return [entry, ...rest].slice(0, max);
+  }
+  // 讀回來的資料逐筆驗證 (localStorage 可能被改過)，不合格的丟掉
+  const recentClean = list => (Array.isArray(list) ? list : []).filter(e => e && typeof e === 'object' && typeof e.hash === 'string' && e.hash[0] === '#' && e.hash.length <= 40000
+    && typeof e.n === 'string' && Number.isFinite(e.total)).map(e => ({ n: e.n.slice(0, 80), d: String(e.d || '').slice(0, 32), total: e.total, hash: e.hash, at: String(e.at || '').slice(0, 10) })).slice(0, 30);
+
+  // ---- QR Code：byte 模式、版本 1–40、糾錯 L / M (ISO/IEC 18004；流程與表格同 Nayuki 的 QR Code generator) ----
+  // 給唯讀估價單右上角 (店家給客人掃)，不引入套件。qrMatrix(text, {ecl, version?, mask?}) -> {size, modules (Uint8Array, 1 = 黑), version, mask}；放不下丟錯
+  const QR_EC = {
+    L: { bits: 1, ecc: [7, 10, 15, 20, 26, 18, 20, 24, 30, 18, 20, 24, 26, 30, 22, 24, 28, 30, 28, 28, 28, 28, 30, 30, 26, 28, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+      blocks: [1, 1, 1, 1, 1, 2, 2, 2, 2, 4, 4, 4, 4, 4, 6, 6, 6, 6, 7, 8, 8, 9, 9, 10, 12, 12, 12, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21, 22, 24, 25] },
+    M: { bits: 0, ecc: [10, 16, 26, 18, 24, 16, 18, 22, 22, 26, 30, 22, 22, 24, 24, 28, 28, 26, 26, 26, 26, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28],
+      blocks: [1, 1, 1, 2, 2, 4, 4, 4, 5, 5, 5, 8, 9, 9, 10, 10, 11, 13, 14, 16, 17, 17, 18, 20, 21, 23, 25, 26, 28, 29, 31, 33, 35, 37, 38, 40, 43, 45, 47, 49] },
+  };
+  const qrRawModules = v => { let n = (16 * v + 128) * v + 64; if (v >= 2) { const a = Math.floor(v / 7) + 2; n -= (25 * a - 10) * a - 55; if (v >= 7) n -= 36; } return n; };
+  const qrDataCodewords = (v, ec) => Math.floor(qrRawModules(v) / 8) - ec.ecc[v - 1] * ec.blocks[v - 1];
+  const gfMul = (x, y) => { let z = 0; for (let i = 7; i >= 0; i--) { z = (z << 1) ^ ((z >>> 7) * 0x11D); z ^= ((y >>> i) & 1) * x; } return z; };
+  function rsDivisor(deg) {
+    const r = Array(deg).fill(0); r[deg - 1] = 1;
+    let root = 1;
+    for (let i = 0; i < deg; i++) { for (let j = 0; j < deg; j++) { r[j] = gfMul(r[j], root); if (j + 1 < deg) r[j] ^= r[j + 1]; } root = gfMul(root, 2); }
+    return r;
+  }
+  function rsRemainder(data, div) {
+    const r = Array(div.length).fill(0);
+    for (const b of data) { const f = b ^ r.shift(); r.push(0); div.forEach((c, i) => { r[i] ^= gfMul(c, f); }); }
+    return r;
+  }
+  function qrAlignPos(v) {
+    if (v === 1) return [];
+    const n = Math.floor(v / 7) + 2, size = v * 4 + 17, step = v === 32 ? 26 : Math.ceil((v * 4 + 4) / (n * 2 - 2)) * 2, pos = [6];
+    for (let p = size - 7; pos.length < n; p -= step) pos.splice(1, 0, p);
+    return pos;
+  }
+  const QR_MASKS = [(x, y) => (x + y) % 2 === 0, (x, y) => y % 2 === 0, (x, y) => x % 3 === 0, (x, y) => (x + y) % 3 === 0,
+    (x, y) => (Math.floor(x / 3) + Math.floor(y / 2)) % 2 === 0, (x, y) => (x * y) % 2 + (x * y) % 3 === 0,
+    (x, y) => ((x * y) % 2 + (x * y) % 3) % 2 === 0, (x, y) => ((x + y) % 2 + (x * y) % 3) % 2 === 0];
+  // 懲罰分：同色連續 ≥5、2×2 同色、1:1:3:1:1 找尋圖形、黑白比例偏離 50%
+  function qrPenalty(m, size) {
+    let score = 0, dark = 0;
+    const line = cells => {
+      let s = 0, run = 0, prev = -1, str = '';
+      for (const c of cells) { if (c === prev) run++; else { if (run >= 5) s += run - 2; run = 1; prev = c; } str += c; }
+      if (run >= 5) s += run - 2;
+      const pat = str.match(/10111010000|00001011101/g);
+      return s + (pat ? pat.length * 40 : 0);
+    };
+    for (let y = 0; y < size; y++) {
+      const row = [], col = [];
+      for (let x = 0; x < size; x++) { row.push(m[y * size + x]); col.push(m[x * size + y]); dark += m[y * size + x]; }
+      score += line(row) + line(col);
+    }
+    for (let y = 0; y < size - 1; y++) for (let x = 0; x < size - 1; x++) {
+      const c = m[y * size + x];
+      if (c === m[y * size + x + 1] && c === m[(y + 1) * size + x] && c === m[(y + 1) * size + x + 1]) score += 3;
+    }
+    const total = size * size;
+    return score + Math.max(0, Math.ceil(Math.abs(dark * 20 - total * 10) / total) - 1) * 10;
+  }
+  function qrMatrix(text, { ecl = 'M', version = 0, mask = null } = {}) {
+    const bytes = new TextEncoder().encode(String(text)), ec = QR_EC[ecl] || QR_EC.M;
+    const need = v => 4 + (v < 10 ? 8 : 16) + bytes.length * 8;
+    let v = version;
+    if (!v) for (v = 1; v <= 40 && need(v) > qrDataCodewords(v, ec) * 8; v++);
+    const cap = v <= 40 ? qrDataCodewords(v, ec) * 8 : 0;
+    if (v > 40 || need(v) > cap) throw new Error('內容太長，QR Code 放不下');
+    const size = v * 4 + 17;
+    // 位元流：模式 0100、長度、資料、終止符、補到整 byte、交替填 0xEC / 0x11
+    const bits = [], push = (val, n) => { for (let i = n - 1; i >= 0; i--) bits.push((val >>> i) & 1); };
+    push(4, 4); push(bytes.length, v < 10 ? 8 : 16);
+    for (const b of bytes) push(b, 8);
+    push(0, Math.min(4, cap - bits.length));
+    while (bits.length % 8) bits.push(0);
+    for (let pad = 0xEC; bits.length < cap; pad ^= 0xEC ^ 0x11) push(pad, 8);
+    const data = [];
+    for (let i = 0; i < bits.length; i += 8) data.push(bits.slice(i, i + 8).reduce((a, b) => a * 2 + b, 0));
+    // 分塊、RS 糾錯、交錯
+    const nb = ec.blocks[v - 1], el = ec.ecc[v - 1], raw = Math.floor(qrRawModules(v) / 8), nShort = nb - raw % nb, shortLen = Math.floor(raw / nb);
+    const div = rsDivisor(el), blocks = [];
+    for (let i = 0, k = 0; i < nb; i++) {
+      const n = shortLen - el + (i < nShort ? 0 : 1), dat = data.slice(k, k + n); k += n;
+      const ecc = rsRemainder(dat, div);
+      if (i < nShort) dat.push(0);
+      blocks.push(dat.concat(ecc));
+    }
+    const cw = [];
+    for (let i = 0; i < blocks[0].length; i++) blocks.forEach((b, j) => { if (i !== shortLen - el || j >= nShort) cw.push(b[i]); });
+    // 功能圖形 (fn 標記不能放資料的格子)：定位、校正、對齊、格式與版本資訊
+    const m = new Uint8Array(size * size), fn = new Uint8Array(size * size);
+    const set = (x, y, dark) => { if (x >= 0 && y >= 0 && x < size && y < size) { m[y * size + x] = dark ? 1 : 0; fn[y * size + x] = 1; } };
+    for (let i = 0; i < size; i++) { set(6, i, i % 2 === 0); set(i, 6, i % 2 === 0); }
+    const finder = (x, y) => { for (let dy = -4; dy <= 4; dy++) for (let dx = -4; dx <= 4; dx++) { const d = Math.max(Math.abs(dx), Math.abs(dy)); set(x + dx, y + dy, d !== 2 && d !== 4); } };
+    finder(3, 3); finder(size - 4, 3); finder(3, size - 4);
+    const ap = qrAlignPos(v), last = ap.length - 1;
+    ap.forEach((ay, i) => ap.forEach((ax, j) => {
+      if ((i === 0 && j === 0) || (i === 0 && j === last) || (i === last && j === 0)) return;
+      for (let dy = -2; dy <= 2; dy++) for (let dx = -2; dx <= 2; dx++) set(ax + dx, ay + dy, Math.max(Math.abs(dx), Math.abs(dy)) !== 1);
+    }));
+    const format = mk => {
+      const d = (ec.bits << 3) | mk; let r = d;
+      for (let i = 0; i < 10; i++) r = (r << 1) ^ ((r >>> 9) * 0x537);
+      const b = ((d << 10) | r) ^ 0x5412, bit = i => (b >>> i) & 1;
+      for (let i = 0; i <= 5; i++) set(8, i, bit(i));
+      set(8, 7, bit(6)); set(8, 8, bit(7)); set(7, 8, bit(8));
+      for (let i = 9; i < 15; i++) set(14 - i, 8, bit(i));
+      for (let i = 0; i < 8; i++) set(size - 1 - i, 8, bit(i));
+      for (let i = 8; i < 15; i++) set(8, size - 15 + i, bit(i));
+      set(8, size - 8, 1);
+    };
+    format(0);
+    if (v >= 7) {
+      let r = v;
+      for (let i = 0; i < 12; i++) r = (r << 1) ^ ((r >>> 11) * 0x1F25);
+      const b = (v << 12) | r;
+      for (let i = 0; i < 18; i++) { const bit = (b >>> i) & 1, a = size - 11 + i % 3, c = Math.floor(i / 3); set(a, c, bit); set(c, a, bit); }
+    }
+    // 資料位元之字形填入 (從右下往上、兩欄一組，跳過第 6 欄的對齊線)
+    let i = 0;
+    for (let right = size - 1; right >= 1; right -= 2) {
+      if (right === 6) right = 5;
+      for (let vert = 0; vert < size; vert++) for (let j = 0; j < 2; j++) {
+        const x = right - j, y = ((right + 1) & 2) === 0 ? size - 1 - vert : vert;
+        if (!fn[y * size + x] && i < cw.length * 8) { m[y * size + x] = (cw[i >>> 3] >>> (7 - (i & 7))) & 1; i++; }
+      }
+    }
+    // 遮罩：8 種都試，取懲罰分最低 (指定 mask 時直接用，測試對照用)
+    const apply = mk => { for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) if (!fn[y * size + x] && QR_MASKS[mk](x, y)) m[y * size + x] ^= 1; };
+    let best = mask;
+    if (best == null) {
+      let bestScore = Infinity;
+      for (let mk = 0; mk < 8; mk++) { apply(mk); format(mk); const sc = qrPenalty(m, size); if (sc < bestScore) { bestScore = sc; best = mk; } apply(mk); }
+    }
+    apply(best); format(best);
+    return { size, modules: m, version: v, mask: best };
+  }
+  // 唯讀估價單用的 SVG 字串 (外圍留 4 格空白)：短的用糾錯 M，版本超過 20 (網址較長) 改用 L 讓格子少一點、好掃；放不下回 ''
+  function qrSvg(text, px = 104) {
+    let q;
+    try { q = qrMatrix(text, { ecl: 'M' }); if (q.version > 20) q = qrMatrix(text, { ecl: 'L' }); } catch (e) { return ''; }
+    const n = q.size + 8;
+    let d = '';
+    for (let y = 0; y < q.size; y++) for (let x = 0; x < q.size; x++) {
+      if (!q.modules[y * q.size + x]) continue;
+      let w = 1; while (x + w < q.size && q.modules[y * q.size + x + w]) w++;
+      d += `M${x + 4} ${y + 4}h${w}v1h-${w}z`; x += w - 1;
+    }
+    return `<svg viewBox="0 0 ${n} ${n}" width="${px}" height="${px}" role="img" aria-label="這張估價單連結的 QR Code" shape-rendering="crispEdges"><rect width="${n}" height="${n}" fill="#fff"/><path d="${d}" fill="#000"/></svg>`;
+  }
+
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
     sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
     cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote,
-    historyKey, isoOfQD, historyStats, sparkline };
+    historyKey, isoOfQD, historyStats, sparkline, recentUpsert, recentClean, qrMatrix, qrSvg };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);

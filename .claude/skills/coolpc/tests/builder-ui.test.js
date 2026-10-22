@@ -262,3 +262,62 @@ test('sparkline：階梯路徑落在 w×h 內，沒變或沒資料回空字串',
   assert.equal(U.sparkline(U.historyStats([['2026-09-01', 100]], '2026-10-22')), '');
   assert.equal(U.sparkline(null), '');
 });
+
+// ---- 最近開過的估價單 ----
+test('recentUpsert / recentClean：新的在前、同 hash 只留一筆、最多 30 筆、壞資料丟掉', () => {
+  const e = (i, hash = '#v=1&q=' + i) => ({ n: '單 ' + i, d: '2026/10/22', total: i * 100, hash, at: '2026-10-22' });
+  let list = [];
+  for (let i = 1; i <= 35; i++) list = U.recentUpsert(list, e(i));
+  assert.equal(list.length, 30); assert.equal(list[0].n, '單 35'); assert.equal(list[29].n, '單 6');
+  const again = U.recentUpsert(list, { ...e(10), at: '2026-10-23' });
+  assert.equal(again.length, 30); assert.equal(again[0].at, '2026-10-23'); assert.equal(again.filter(x => x.hash === e(10).hash).length, 1);
+  assert.deepEqual(U.recentUpsert(null, e(1)), [e(1)]);
+  assert.deepEqual(U.recentClean([e(1), null, 'x', { n: 'no hash' }, { ...e(2), hash: 'v=1&q=2' }, { ...e(3), total: 'x' }, { ...e(4), n: 5 }, { n: '長', total: 1, hash: '#b=mid' }]),
+    [e(1), { n: '長', d: '', total: 1, hash: '#b=mid', at: '' }]);
+  assert.equal(U.recentClean('nope').length, 0);
+});
+
+// ---- QR Code ----
+const qrRows = q => Array.from({ length: q.size }, (_, y) => Array.from({ length: q.size }, (_, x) => q.modules[y * q.size + x]).join(''));
+test('qrMatrix：已知答案 (版本 5、糾錯 M、遮罩 3，與 python-qrcode 逐格相同)', () => {
+  const q = U.qrMatrix('https://pc.jakeuj.com/#v=1&q=2eJyLjgQAAXwA-Q7yK9vsU3ZJ9mmz0f_f2XlvBj8nz00UYsEkIj9m', { ecl: 'M', mask: 3 });
+  assert.equal(q.version, 5); assert.equal(q.size, 37);
+  const bits = Array.from(q.modules).join('');
+  const hex = 'fedbe923fc156718106e81c05ebb758380d5dba01463aec104df2107faaaaaafe01ccd1500b73f6e2258421bf2608ed4a05b7891652380c5f935847b960e4a5fe73d794a82989992b0b302ac7791f14f60dda0daad12bee6699bc355a1a013539a8af665e42f69a91f3c0db5177d5ed7484bf7b180b215eddff40481f552d70d6283b75ec5ff007d26a457fba781aab0580b3710ba1cdf8fc5d5d493f7eebfb2d3b104f562e7cfeca08f0b8';
+  const expect = [...hex].map(h => parseInt(h, 16).toString(2).padStart(4, '0')).join('').slice(0, bits.length);
+  assert.equal(bits, expect);
+});
+
+test('qrMatrix：版本依長度自動選最小、定位與對齊圖形、遮罩自動選 0–7、放不下丟錯', () => {
+  assert.equal(U.qrMatrix('a', { ecl: 'M' }).version, 1);
+  assert.equal(U.qrMatrix('a'.repeat(14), { ecl: 'M' }).version, 1);    // v1-M 容量 14 bytes
+  assert.equal(U.qrMatrix('a'.repeat(15), { ecl: 'M' }).version, 2);
+  assert.equal(U.qrMatrix('a'.repeat(17), { ecl: 'L' }).version, 1);    // v1-L 容量 17 bytes
+  assert.equal(U.qrMatrix('a'.repeat(2953), { ecl: 'L' }).version, 40);
+  assert.throws(() => U.qrMatrix('a'.repeat(2954), { ecl: 'L' }), /放不下/);
+  for (const [text, ecl] of [['原價屋', 'M'], ['x'.repeat(500), 'L'], ['y'.repeat(1300), 'L']]) {
+    const q = U.qrMatrix(text, { ecl }), rows = qrRows(q);
+    assert.ok(q.mask >= 0 && q.mask <= 7);
+    assert.equal(q.size, q.version * 4 + 17);
+    // 三個定位圖形 7×7 + 分隔白邊；第 6 行 / 列是黑白相間的校正線
+    const finder = ['1111111', '1000001', '1011101', '1011101', '1011101', '1000001', '1111111'];
+    for (const [ox, oy] of [[0, 0], [q.size - 7, 0], [0, q.size - 7]]) for (let i = 0; i < 7; i++) assert.equal(rows[oy + i].slice(ox, ox + 7), finder[i]);
+    assert.equal(rows[7].slice(0, 8), '00000000');
+    for (let i = 8; i < q.size - 8; i++) { assert.equal(rows[6][i], String((i + 1) % 2)); assert.equal(rows[i][6], String((i + 1) % 2)); }
+    assert.equal(rows[q.size - 8][8], '1');   // 固定黑點
+    const dark = Array.from(q.modules).reduce((a, b) => a + b, 0) / (q.size * q.size);
+    assert.ok(dark > 0.35 && dark < 0.65, '黑白比例 ' + dark);
+  }
+  // 同內容同結果 (確定性)
+  assert.deepEqual(qrRows(U.qrMatrix('abc', { ecl: 'M' })), qrRows(U.qrMatrix('abc', { ecl: 'M' })));
+});
+
+test('qrSvg：短網址用 M、長網址改 L (版本 > 20)、放不下回空字串', () => {
+  const short = U.qrSvg('https://pc.jakeuj.com/#b=mid', 80);
+  assert.match(short, /^<svg viewBox="0 0 (\d+) \1" width="80" height="80" role="img"/);
+  assert.equal(+short.match(/viewBox="0 0 (\d+)/)[1], U.qrMatrix('https://pc.jakeuj.com/#b=mid', { ecl: 'M' }).size + 8);   // 4 格空白 ×2
+  const long = U.qrSvg('https://pc.jakeuj.com/#v=1&q=2' + 'A'.repeat(1300));
+  assert.equal(+long.match(/viewBox="0 0 (\d+)/)[1], U.qrMatrix('https://pc.jakeuj.com/#v=1&q=2' + 'A'.repeat(1300), { ecl: 'L' }).size + 8);
+  assert.equal(U.qrSvg('A'.repeat(3000)), '');
+  assert.ok(!/[<>&"]/.test(short.replace(/<[^>]+>/g, '').replace(/"/g, '')), 'path 只有數字與指令');
+});
