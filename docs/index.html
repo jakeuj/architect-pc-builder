@@ -28,7 +28,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="builder.css?v=20261006-store">
+<link rel="stylesheet" href="builder.css?v=20261022-compat">
 </head>
 <body>
 <main class="wrap">
@@ -209,7 +209,7 @@
         <li>價格為原價屋線上估價頁的<b>含稅價</b>，不含作業系統、螢幕、鍵盤滑鼠等週邊；原價屋購買整機組裝免費。</li>
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
-        <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度）是從品名自動判讀的，僅供參考，下單前請再確認。</li>
+        <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度、CPU 內顯、電源瓦數）是從品名自動判讀的，電源瓦數依顯示卡原廠建議值，僅供參考，下單前請再確認。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
@@ -278,8 +278,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261006-store"></script>
-<script src="builder-ui.js?v=20261006-store"></script>
+<script src="coolpc-live.js?v=20261022-compat"></script>
+<script src="builder-ui.js?v=20261022-compat"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -307,7 +307,12 @@
   // 目前型錄來源：快照 (data.json) 或即時抓取
   const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
   function meta(status){
-    $('#meta').innerHTML = `<span><i class="source-dot" aria-hidden="true"></i>報價日期 <b>${esc(SRC.quote_date)}</b></span><span>${SRC.live ? '即時抓取' : '快照'} ${esc(SRC.at)}</span><span>資料來源 <a href="${esc(D.source)}" target="_blank" rel="noopener">原價屋 ↗</a></span>` + (status ? `<span>${status}</span>` : '');
+    $('#meta').innerHTML = `<span><i class="source-dot" aria-hidden="true"></i>報價日期 <b>${esc(SRC.quote_date)}</b></span><span>${SRC.live ? '即時抓取' : '快照'} ${esc(SRC.at)}</span><span>資料來源 <a href="${esc(D.source)}" target="_blank" rel="noopener">原價屋 ↗</a></span>` + (status ? `<span>${status}</span>` : '') + staleNote();
+  }
+  // 快照超過 24 小時沒更新 (generated 在內容沒變時沿用上次值，報價一天通常變 1～2 次，門檻太低會誤報)；即時模式不提示
+  function staleNote(){
+    const h = SRC.live ? null : U.snapshotAgeHours(D.generated);
+    return h != null && h >= 24 ? `<span class="stale">快照已 ${Math.floor(h / 24)} 天${Math.floor(h % 24)} 小時沒更新（GitHub 排程可能延後），價格請以原價屋為準</span>` : '';
   }
   meta();
   $('#repo').href = D.repo || '#';
@@ -625,7 +630,7 @@
   function warnings(view, store){
     const w = [];
     const g = k => cur.rows[k] ? find(cur.rows[k]).item : null;
-    const cpu = g('cpu'), mb = g('mb'), ram = g('ram'), vga = g('vga'), cs = g('case'), cl = g('cooler');
+    const cpu = g('cpu'), mb = g('mb'), ram = g('ram'), vga = g('vga'), cs = g('case'), cl = g('cooler'), psu = g('psu');
     if (!view) for (const { label, r } of entries(cur)) if (!find(r).item && !(r.x && !IDXA)) w.push(`${label}「${r.name.slice(0, 30)}…」${goneText(r)}，請按「更換」改選`);
     if (cur.more.length && !IDXA && !store) w.push(view ? '其他商品的現價暫時載入失敗，以估價單上的報價計' : '其他商品的現價暫時載入失敗，先以估價單上的報價計；切換「全部分類」可以重試');
     if (cpu && mb) { const a = socket(cpu.group), b = socket(mb.group); if (a && b && a !== b) w.push(`CPU 腳位 ${a} 與主機板腳位 ${b} 不合`); }
@@ -634,6 +639,10 @@
     if (vga && cs) { const L = num(/\/(\d+(?:\.\d+)?)cm/, vga.name), M = num(/顯卡長?(\d+(?:\.\d+)?)/, cs.name); if (L && M && L > M) w.push(`顯示卡長 ${L}cm 超過機殼限制 ${M}cm`); }
     if (cl && cs && cl.cat === 10) { const H = num(/高(\d+(?:\.\d+)?)cm/, cl.name), M = num(/(?:CPU|U)高(\d+(?:\.\d+)?)/, cs.name); if (H && M && H > M) w.push(`散熱器高 ${H}cm 超過機殼限制 ${M}cm`); }
     if (cpu && !cl && !/含風扇|MPK|附.*扇/.test(cpu.name)) w.push(view ? '此 CPU 不附風扇，單上沒有散熱器；需沿用舊的或另購' : '此 CPU 不附風扇；沒有沿用舊散熱器的話，請選一顆');
+    // 無內顯又沒顯示卡 (品名「無內顯」或型號 F/KF 等，見 builder-ui.js cpuGraphics)；判不出來不提示
+    if (cpu && !vga && U.cpuGraphics(cpu.name, cpu.group) === false) w.push(view ? 'CPU 無內顯且單上沒有顯示卡，需沿用舊顯示卡或另購' : 'CPU 無內顯，這張單沒有顯示卡，開機不會有畫面；請選一張顯示卡，或改選有內顯的 CPU');
+    // 電源低於顯示卡原廠建議瓦數 (NVIDIA / AMD 官方建議值，表在 builder-ui.js VGA_PSU)
+    if (vga && psu) { const rec = U.vgaPower(vga.group), pw = U.psuWatts(psu.name); if (rec && pw && pw < rec.watts) w.push(`電源 ${pw}W 低於 ${rec.model} 原廠建議的 ${rec.watts}W（整機實際耗電依 CPU 而定，請再確認）`); }
     if (store) return w;
     // 已下架的 CPU 查不到 flags，改看品名 (同 coolpc-live.js parse 的搭板判斷)
     const cr = cur.rows.cpu;

@@ -134,7 +134,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - `openPicker(slot)`／`openMorePicker(index)` 共用 dialog；`preparePickerGroups()` 建立當前分類的型錄條目與規格群組。每次開啟重設群組與排序，搜尋範例依欄位變動；下架但有同型號候選時保留型號預填。
 - `renderPicker()` 呼叫 `BuilderUI.searchEntries()`：NFKC／小寫／空白分詞 AND，比對品名、群組和分類；原順序分組，價格排序跨群組且同價穩定。其他商品未選分類、群組或關鍵字時顯示入口；跨分類先篩選排序再截取 300 件，回報完整符合數。
 - `applyCandidate()` 與價差預覽分別使用 `BuilderUI.selectCandidate()`／`previewCandidate()`，後者共用前者且不改 cur。價差為套用後 quoted − 目前 quoted，保留數量、原 pin 與加購合併規則，不扣任搭折；替換為已在其他商品清單的品項時回傳錯誤並保留面板，不顯示數字價差。移除主機欄位把 row 設為 null，支援部分零件估價單。
-- 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。
+- 相容性 regex：CPU/MB 腳位取群組名 `AM4|AM5|1851|1700|…`；DDR 取群組名 `DDR[345]`；顯卡長 `/(\d+)cm`；機殼 `顯卡長?(\d+)`、`(?:CPU|U)高(\d+)`；塔散 `高(\d+)cm`（只對分類 10 檢查，水冷不查）。內顯：品名「無內顯／具內顯」優先，否則看型號（Intel `\d{3,5}K?F`、AMD `\d{4}F`、Xeon／Threadripper 無；AMD G 與 7000 以上有、AM4 非 G 無）；電源 `(\d{3,4})W` 對 `builder-ui.js` 的 `VGA_PSU`（顯卡群組標籤含型號）。`#meta` 在 `generated` 超過 24 小時時提示快照過期（12 小時會因內容沒變沿用舊 `generated` 而誤報）。
 - 資訊類提示 (非錯誤) 用 `ok` 樣式：文字含「OK）」。已下架是要處理的警告 (紅色)。
 - 搭板 CPU：單上有主機板 → ok 樣式；沒有 → 紅色警告 (單買不是這個價)。已下架的 CPU 查不到 flags，改用品名 `/搭板|任搭|搭主機板/` 判斷 (同 `parse()`)。CPU 無風扇提示寫成「沒有沿用舊散熱器的話，請選一顆」，因為只換零件的單常常不含散熱器 (估價單檢視頁改成「需沿用舊的或另購」)。
 - 即時報價：`CAT` 是 `let`，`index()` 重建 `IDX`；`refreshLive()` 抓 `live_url` → `CoolPC.decode` (TextDecoder big5) → `CoolPC.parse` → `CoolPC.select(parsed, D.slots, D.filters)` → `applyLive()` 整份換掉 (完整型錄已載入時，補集也用 `selectRest` 從現頁重算；之後才開全部分類就用最後一次的現頁，不再抓 data-more.json)。因為估價單都用分類 + 品名對照，換型錄只要重畫；換之前把「跟著型錄」但新型錄找不到、或只剩條件不同的同型號 (`variant`) 的列用舊型錄價格 pin 住 (之後顯示已下架 / 優惠已結束)，不會默默從搭板價換成原價。`SRC` 記目前來源 (快照 / 即時 + 時間)，`meta()` 顯示。載入時自動抓一次，按鈕再抓；失敗只在 meta 下方加一行，不影響使用。`live_url` 空字串時完全不抓、按鈕隱藏。

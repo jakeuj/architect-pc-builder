@@ -102,8 +102,51 @@
     return out.join('\n');
   }
 
+  // ---- 相容性：內顯、電源瓦數、快照年齡 (純規則，不確定一律回 null 不提示) ----
+  const modelOf = name => { const m = String(name || '').match(/｛([^｝]+)｝/); return m ? m[1].trim() : null; };
+  // CPU 有沒有內顯：先看品名「無內顯／具內顯」，再看型號 (Intel F/KF、Xeon、Threadripper 無；AMD F 無、G 有、7000 以上有、AM4 非 G 無)
+  function cpuGraphics(name, group) {
+    const text = String(name || '');
+    if (/無內顯/.test(text)) return false;
+    if (/內顯/.test(text)) return true;
+    const model = modelOf(text) || text;
+    if (/Xeon|Threadripper|\bTR\b/i.test(model + ' ' + (group || ''))) return false;
+    if (/Intel/i.test(model)) return /\d{3,5}K?F\b/.test(model) ? false : true;
+    if (/AMD|Ryzen/i.test(model)) {
+      if (/\d{4}F\b/.test(model)) return false;
+      if (/\d{3,4}G\b|\d{3,4}GE?\b/.test(model)) return true;
+      const series = model.match(/\b([3-9])\d{3}(?:X3D|X|GT)?\b/);
+      if (series) return series[1] >= '7';
+    }
+    return null;
+  }
+  // 電源瓦數：品名裡的 750W / 1000W
+  function psuWatts(name) {
+    const m = String(name || '').match(/(\d{3,4})\s?W\b/i);
+    return m ? Number(m[1]) : null;
+  }
+  // 顯示卡原廠建議電源 (NVIDIA「Required System Power」/ AMD「Minimum PSU Recommendation」，2026/10 查官方產品頁)
+  // 比對原價屋分類 12 的群組標籤 (例「NVIDIA RTX5060Ti-8GB(GDDR7)」「AMD Radeon RX9070GRE-12G」)；不在表內不提示
+  const VGA_PSU = [
+    ['RTX5080', 850], ['RTX5070Ti', 750], ['RTX5070', 650], ['RTX5060Ti', 600], ['RTX5060', 550], ['RTX5050', 550],
+    ['RTX3060', 550], ['RTX3050-6GB', 300], ['RTX3050', 550],
+    ['RX9070XT', 750], ['RX9070GRE', 650], ['RX9070', 650], ['RX9060XT', 450],
+    ['GT1030', 300], ['GT730', 300], ['GT710', 300],
+  ];
+  function vgaPower(group) {
+    const key = String(group || '').replace(/\s+/g, '').toUpperCase();
+    const hit = VGA_PSU.find(([model]) => key.includes(model.toUpperCase()));
+    return hit ? { model: hit[0].replace(/-\d+GB$/, ''), watts: hit[1] } : null;
+  }
+  // 快照年齡 (小時)：generated 是 ISO 字串 (含 +08:00)；讀不出來回 null
+  function snapshotAgeHours(generated, now = Date.now()) {
+    const t = Date.parse(String(generated || ''));
+    return Number.isFinite(t) ? Math.max(0, (now - t) / 36e5) : null;
+  }
+
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
-    sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage };
+    sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
+    cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);

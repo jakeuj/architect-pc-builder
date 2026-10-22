@@ -142,3 +142,47 @@ test('複製給客戶的訊息：店家資訊、本店價、服務列；隱藏�
   assert.ok(!noPrice.includes('本店價 ')); assert.match(noPrice, /本店合計 \$31,270/);
   assert.match(noPrice, /^這是「吳記電腦」/);
 });
+
+// ---- 相容性規則：內顯、電源瓦數、快照年齡 ----
+test('cpuGraphics 先看品名「無內顯／具內顯」，再看型號', () => {
+  assert.equal(U.cpuGraphics('｛Intel Core Ultra 5 225F｝【10核】3.3G /無內顯【代理盒裝】'), false);
+  assert.equal(U.cpuGraphics('｛AMD R7 7700 MPK｝(代理含風扇)【8核/16緒】65W /具內顯'), true);
+  for (const m of ['Intel Core Ultra 5 225F', 'Intel Core Ultra 5 245KF', 'Intel Core Ultra 5 250KF Plus', 'Intel i5-12400F', 'Intel i5-14400F',
+    'AMD R5 7500F MPK', 'AMD R5 8400F盒', 'Intel Xeon W7-3465X']) assert.equal(U.cpuGraphics(`｛${m}｝【規格】`), false, m);
+  assert.equal(U.cpuGraphics('｛AMD Ryzen TR 9960X盒｝', 'AMD Ryzen Threadripper TRX50系列'), false);
+  assert.equal(U.cpuGraphics('｛AMD R5 5600X MPK｝', 'AMD AM4 腳位'), false);
+  assert.equal(U.cpuGraphics('｛AMD R7 5800X3D｝', 'AMD AM4 腳位'), false);
+  for (const m of ['Intel Core Ultra 5 225', 'Intel Core Ultra 7 265K', 'Intel i3-14100', 'Intel i5-14400',
+    'AMD R5 9600X', 'AMD R7 9700X', 'AMD R7 9800X3D', 'AMD R5 8500G盒', 'AMD R5 3400G']) assert.equal(U.cpuGraphics(`｛${m}｝【規格】`), true, m);
+  assert.equal(U.cpuGraphics('｛某牌 處理器｝'), null);
+  assert.equal(U.cpuGraphics(''), null);
+});
+
+test('psuWatts 讀品名的瓦數，不被「原價$3190」誤導', () => {
+  assert.equal(U.psuWatts('｛XPG CORE REACTOR II VE 750W｝雙8/金牌/全模/ATX3.1 原價$3190'), 750);
+  assert.equal(U.psuWatts('｛COUGAR ATLAS 1000W｝雙8/銅牌'), 1000);
+  assert.equal(U.psuWatts('｛某牌 電源｝金牌'), null);
+  assert.equal(U.psuWatts(''), null);
+});
+
+test('vgaPower 依群組標籤對原廠建議電源，不在表內不提示', () => {
+  assert.deepEqual(U.vgaPower('NVIDIA RTX5060Ti-8GB(GDDR7)'), { model: 'RTX5060Ti', watts: 600 });
+  assert.deepEqual(U.vgaPower('NVIDIA RTX5060-8GB(GDDR7)'), { model: 'RTX5060', watts: 550 });
+  assert.deepEqual(U.vgaPower('NVIDIA RTX5080-16GB(GDDR7)'), { model: 'RTX5080', watts: 850 });
+  assert.deepEqual(U.vgaPower('NVIDIA RTX3050-6GB'), { model: 'RTX3050', watts: 300 });
+  assert.deepEqual(U.vgaPower('NVIDIA RTX3050-8GB'), { model: 'RTX3050', watts: 550 });
+  assert.deepEqual(U.vgaPower('AMD Radeon RX9070GRE-12G'), { model: 'RX9070GRE', watts: 650 });
+  assert.deepEqual(U.vgaPower('AMD Radeon RX9070XT-16G'), { model: 'RX9070XT', watts: 750 });
+  assert.equal(U.vgaPower('NVIDIA RTX6000 Ada 48GB 工作站'), null);
+  assert.equal(U.vgaPower('AMD Radeon RX7650GRE-8G'), null);
+  assert.equal(U.vgaPower(''), null);
+  for (const [model, watts] of U.VGA_PSU) assert.ok(/^(RTX|RX|GT)\d{3,4}/.test(model) && watts >= 300 && watts <= 1000, model);
+});
+
+test('snapshotAgeHours 讀 generated 的 ISO 時間 (含 +08:00)', () => {
+  const now = Date.parse('2026-10-07T16:11+08:00');
+  assert.equal(U.snapshotAgeHours('2026-10-06T16:11+08:00', now), 24);
+  assert.equal(U.snapshotAgeHours('2026-10-07T20:11+08:00', now), 0);   // 未來時間 (時鐘不準) 不當過期
+  assert.equal(U.snapshotAgeHours('不是時間', now), null);
+  assert.equal(U.snapshotAgeHours(undefined, now), null);
+});

@@ -245,7 +245,9 @@ class InitTest(unittest.TestCase):
             parser = AssetParser()
             parser.feed((root / "docs/index.html").read_text(encoding="utf-8"))
             self.assertTrue(parser.assets)
-            self.assertIn("builder-ui.js?v=20261006-store", parser.assets)
+            # 三個介面資源都要帶 ?v= 快取版本號 (版本字串會隨改版變, 不寫死)
+            self.assertEqual(sorted(a.split("?")[0] for a in parser.assets), ["builder-ui.js", "builder.css", "coolpc-live.js"])
+            self.assertTrue(all("?v=" in a for a in parser.assets), parser.assets)
             for asset in parser.assets:  # ?v= 是快取版本號，檔名在 ? 前面
                 self.assertTrue((root / "docs" / asset.split("?")[0]).is_file(), asset)
             self.assertEqual(parser.site_urls, [])  # 新站尚未決定 URL，不能繼承範例站身分。
