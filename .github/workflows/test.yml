@@ -29,7 +29,7 @@ jobs:
           node-version: 22
 
       - name: 網頁 JS 測試 (coolpc-live / builder-ui)
-        run: node --test .claude/skills/coolpc/tests/
+        run: node --test '.claude/skills/coolpc/tests/*.test.js'   # Node 22 的 --test 不吃目錄, 用 glob
 
       - name: 抓價與建站腳本測試
         run: python3 -m unittest discover -s .claude/skills/coolpc/tests
