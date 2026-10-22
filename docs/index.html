@@ -28,7 +28,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="builder.css?v=20261022-diff">
+<link rel="stylesheet" href="builder.css?v=20261022-history">
 </head>
 <body>
 <main class="wrap">
@@ -211,6 +211,7 @@
         <li>標籤：<span class="flag cond">搭板專案</span> CPU 需與主機板同購才是此價；<span class="flag cond">組裝價 / 裝機價 / 限搭機</span> 需整機組裝才適用（買整機沒問題）；<span class="flag">任搭折N</span> 任搭其他商品再折 N 元，估價頁不會顯示、結帳才減；<span class="flag">下殺</span> 限時價。</li>
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度、CPU 內顯、電源瓦數）是從品名自動判讀的，電源瓦數依顯示卡原廠建議值，僅供參考，下單前請再確認。</li>
+        <li>零件旁的「30 天最低／最高」與小折線是從每小時快照整理的同型號價格變動（同型號多件取最低價，只記主機零件分類；30 天內沒變只寫文字），用來看最近是漲是跌、現在的價格算高還是低。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，上方會列出跟分享時的內容比換了哪幾格、各差多少，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
@@ -279,8 +280,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-diff"></script>
-<script src="builder-ui.js?v=20261022-diff"></script>
+<script src="coolpc-live.js?v=20261022-history"></script>
+<script src="builder-ui.js?v=20261022-history"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -304,6 +305,23 @@
   // 列跟現行型錄比：dv = 現價 − 鎖定的報價 (分享當時的價格)；it 為 null = 已下架 (alts = 同型號但挑不出唯一一件)
   // how === 'variant'：同型號還在賣但價格條件變了 (搭板優惠結束…)，it 是同型號現行那件，note 說明怎麼變
   const cmp = r => { const { item: it, how, alts } = find(r); return { it, how, alts, dv: it && r.pin ? it.price - r.pin.price : 0, note: how === 'variant' ? C.condNote(r.name, it.name) : '' }; };
+  // 價格歷史 (history.json，build_site.py 產出：分類|型號 -> 價格變動紀錄)：主畫面畫好後背景載入，載入前或沒資料時不顯示
+  let HIST = null;
+  const histOf = (cat, name) => { const k = HIST && U.historyKey(cat, name); return k && HIST[k] ? U.historyStats(HIST[k], U.isoOfQD(SRC.quote_date)) : null; };
+  // 小字「30 天最低／最高」+ 迷你折線 (builder-ui.js)；price = 這件的現價，跟紀錄的同型號最低價不同 (代理 / 平輸、搭板價) 時標「同型號」
+  function histHtml(cat, name, price){
+    const s = histOf(cat, name); if (!s) return '';
+    const who = price != null && price !== s.last ? '同型號 ' : '';
+    return `<span class="d hist">${who}${s.flat ? `30 天價格沒變（$${fmt(s.min)}）` : `30 天最低 $${fmt(s.min)}／最高 $${fmt(s.max)}${U.sparkline(s)}`}</span>`;
+  }
+  async function loadHistory(){
+    try {
+      const r = await fetch('history.json?' + Date.now()); if (!r.ok) return;
+      const h = await r.json(); if (!h || typeof h !== 'object' || Array.isArray(h)) return;
+      HIST = h;
+      if (!picker.open && (!document.activeElement || document.activeElement === document.body)) render();
+    } catch (e) { console.warn('價格歷史載入失敗：', e); }
+  }
 
   // 目前型錄來源：快照 (data.json) 或即時抓取
   const SRC = { live: false, quote_date: D.quote_date, at: D.generated.slice(0,16).replace('T',' ') };
@@ -570,7 +588,7 @@
       if (!preview.error) button.dataset.delta = preview.delta;
       button.setAttribute('aria-pressed', String(!!selected));
       button.innerHTML = (sort !== 'source' ? `<span class="picker-item-group">${esc((prefix ? category + ' · ' : '') + group)}</span>` : '')
-        + `<span class="picker-name">${esc(it.name)}</span><span class="flags">${flagsOf(it)}</span><span class="picker-price">$${fmt(it.price)}<small>${selected ? '目前選擇 ✓' : same ? '同型號現行品項' : '選擇此零件'}</small></span>`
+        + `<span class="picker-name">${esc(it.name)}</span><span class="flags">${flagsOf(it)}</span><span class="picker-price">$${fmt(it.price)}<small>${selected ? '目前選擇 ✓' : same ? '同型號現行品項' : '選擇此零件'}</small></span>${histHtml(cat, it.name, it.price)}`
         + `<span class="picker-delta${!preview.error && preview.delta < 0 ? ' down' : ''}">${esc(delta)}</span>`;
       button.onclick = () => applyCandidate(cat, it.name); results.appendChild(button);
     }
@@ -667,7 +685,7 @@
       const c = dv > 0 ? 'up' : 'down';
       const q = r.qty > 1 && dv ? ` ×${r.qty}，小計 <span class="${c}">${arrow(dv * r.qty)}</span>` : '';
       const v = how === 'variant' ? `<span class="renamed">${esc(note)}</span>，` : '';
-      return `<li>${esc(s.label)}：${v}$${fmt(r.pin.price)} → ${how === 'variant' ? '同型號現價 ' : ''}$${fmt(it.price)} ${dv ? `<span class="${c}">${arrow(dv)}</span>` : '（價格沒變）'}${q}${when}</li>`;
+      return `<li>${esc(s.label)}：${v}$${fmt(r.pin.price)} → ${how === 'variant' ? '同型號現價 ' : ''}$${fmt(it.price)} ${dv ? `<span class="${c}">${arrow(dv)}</span>` : '（價格沒變）'}${q}${when}${histHtml(r.cat, it.name, it.price)}</li>`;
     });
     if (T.diff) li.push(`<li><b>合計 <span class="${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span></b>（$${fmt(T.quoted)} → $${fmt(T.current)}）</li>`);
     el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
@@ -863,7 +881,7 @@
       <p class="part-name">${r ? esc(shownName) + (how === 'variant' ? `<span class="d">同型號現行品項：${esc(it.name)}</span>` : '') : '尚未選擇 · 可沿用舊零件或按需要新增'}</p>
       ${r ? `<div class="flags">${flagsOf(it)}</div><div class="part-bottom">
         <label class="quantity">數量 <input type="number" aria-label="${esc(label)}數量" min="1" max="9" value="${r.qty}"></label>
-        <div class="part-price"><span class="unit-price">單價 ${price != null ? '$' + fmt(price) : '–'}</span><strong class="subtotal">${price != null ? '$' + fmt(price * r.qty) : '–'}</strong>${sub}</div>
+        <div class="part-price"><span class="unit-price">單價 ${price != null ? '$' + fmt(price) : '–'}</span><strong class="subtotal">${price != null ? '$' + fmt(price * r.qty) : '–'}</strong>${sub}${histHtml(r.cat, it ? it.name : r.name, it ? it.price : null)}</div>
       </div>` : ''}
     </div>`;
     container.appendChild(part);
@@ -1249,6 +1267,7 @@
   $('#load-state').hidden = true;
   applyMode();
   if (startMsg) toast(startMsg, 5000);
+  loadHistory();
   if (L.s !== null || L.store) openStoreFromLink(L);
 
   const mobileBar = $('#mobile-bar');

@@ -18,6 +18,7 @@ docs/builder-ui.js   用途分類、搜尋／排序與選件預覽／套用的�
 docs/coolpc-live.js  瀏覽器端解析器 (parse_coolpc.py + build_site.py 剔除規則的 JS 版)
 docs/data.json       build_site.py 產出, 網頁的快照資料 (有 live_url 時載入後會被即時資料換掉)
 docs/data-more.json  build_site.py 產出, 補集 (其他分類 + 被剔除的群組 / 品項), 網頁切到「全部分類」才載入
+docs/history.json    build_site.py 產出, 主機型錄每個型號的價格變動紀錄 (近 30 天最低 / 最高與迷你折線), 主畫面畫好後背景載入
 worker/              Cloudflare Worker 代理 (wrangler.toml + src/index.js), 可選; 本 repo 未部署
 docs/graph/index.html 開發者知識圖 (本 repo 限定; scripts/publish_graph.py 從 graphify-out/graph.html 產生)
 graphify-out/        graphify 本機輸出 (graph.json / graph.html / manifest / cache); --update 靠它找變動檔
@@ -48,6 +49,13 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - 對不到 (下架) 或命中多個不同品名時，沿用上一版 data.json 同 build / 同欄位的品名、價格，`d` = 當時的報價日期，標 `gone: true`；上一版是舊格式 (沒有 price) 就從舊 `categories` 查價。沒有上一版才 exit (新 build 打錯)。
 - `id` 只為相容 Pages 快取中的舊版網頁，新版網頁不用；之後可拿掉。
 - 內容沒變時沿用上次的 `generated`，workflow 才能用 git diff 判斷要不要提交。
+
+## docs/history.json (價格歷史，2026-10-22 起)
+
+- 平的物件：`{"<分類 id>|<型號>": [["YYYY-MM-DD", price], …]}`，型號取品名 `｛…｝` 內的字 (沒有型號的品項不記)，日期是該次快照的報價日期；只在價格跟上一筆不同時追加、同一天變動兩次只留最新、同型號多件 (代理 / 平輸、搭板價 vs 原價) 取最低價。
+- 只涵蓋主機型錄 (`data.json` 的分類與剔除規則)：全部分類 6,600 多件 35 天就 310KB，主機型錄約 2,700 個型號 150KB；保留 `HISTORY_DAYS` = 90 天 (cutoff 之前只留最後一筆當走勢起點；已下架且最後一筆超過 90 天的型號整個拿掉)，估 200KB 內。
+- `build_site.py` 每次讀上一版併入這次快照 (`update_history()` 純函式，壞檔就重新開始記)，key 排序、不放時間戳，內容沒變時逐位元相同；`--backfill-history` 從 `git log -- data/coolpc_prices.json` 依序回填 (一次性)。CI 的 `paths-ignore` 有這個檔。
+- 網頁：`loadHistory()` 背景抓，失敗只 console.warn；`U.historyKey` / `U.historyStats(series, today, 30)` / `U.sparkline(stats)` 算近 30 天 (視窗起點承接之前的價格、尾端延伸到報價日期)；零件卡、選件面板每個品項、分享單漲跌摘要各加一行 `.d.hist`；30 天內沒變只寫「30 天價格沒變」、沒資料不顯示；這件的現價跟紀錄的同型號最低價不同時標「同型號」。唯讀估價單不顯示。
 
 ## docs/data-more.json (全部分類，2026-10-06 起)
 

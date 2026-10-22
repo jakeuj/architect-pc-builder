@@ -174,9 +174,45 @@
     return { changed, added, removed, total: { from, to, delta: to - from }, count: changed.length + added.length + removed.length };
   }
 
+  // ---- 價格歷史 (docs/history.json：{"分類 id|型號": [[YYYY-MM-DD, price]…]}，只在價格變動時加一筆、同型號取最低價) ----
+  const historyKey = (cat, name) => { const m = modelOf(name); return m ? cat + '|' + m : null; };
+  // 原價屋報價日期 '2026/9/18 14:19' -> '2026-09-18'
+  const isoOfQD = qd => { const m = String(qd || '').match(/(\d{4})\/(\d{1,2})\/(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : null; };
+  const dayOf = iso => { const t = Date.parse(String(iso) + 'T00:00:00Z'); return Number.isFinite(t) ? Math.floor(t / 864e5) : NaN; };
+  // 近 days 天的統計：series 依日期遞增；today = 'YYYY-MM-DD' (報價日期)。視窗起點承接之前的最後一筆 (價格一直維持到下次變動)
+  // 回傳 {min, max, last, flat, changes (視窗內變動次數), days, points: [[x 0..days, price]]} 或 null (沒資料 / 全在未來)
+  function historyStats(series, today, days = 30) {
+    const end = dayOf(today);
+    if (!Array.isArray(series) || !series.length || !Number.isFinite(end)) return null;
+    const start = end - days, points = [];
+    let carry = null, changes = 0;
+    for (const e of series) {
+      if (!Array.isArray(e)) continue;
+      const x = dayOf(e[0]) - start, p = e[1];
+      if (!Number.isFinite(x) || x > days || typeof p !== 'number') continue;
+      if (x <= 0) { carry = p; continue; }
+      if (!points.length && carry != null) points.push([0, carry]);
+      points.push([x, p]); changes++;
+    }
+    if (!points.length) { if (carry == null) return null; points.push([0, carry]); }
+    const last = points[points.length - 1][1];
+    if (points[points.length - 1][0] < days) points.push([days, last]);
+    const prices = points.map(pt => pt[1]), min = Math.min(...prices), max = Math.max(...prices);
+    return { min, max, last, flat: min === max, changes, days, points };
+  }
+  // 迷你階梯折線 (inline SVG，線條用 currentColor)；沒資料或價格沒變回 ''
+  function sparkline(stats, w = 64, h = 18) {
+    if (!stats || stats.flat) return '';
+    const sx = x => (1 + x / stats.days * (w - 2)).toFixed(1);
+    const sy = p => (h - 1 - (p - stats.min) / (stats.max - stats.min) * (h - 2)).toFixed(1);
+    const d = stats.points.map(([x, p], i) => !i ? `M${sx(x)},${sy(p)}` : `H${sx(x)}` + (p === stats.points[i - 1][1] ? '' : `V${sy(p)}`)).join('');
+    return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>`;
+  }
+
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
     sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
-    cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote };
+    cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote,
+    historyKey, isoOfQD, historyStats, sparkline };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);

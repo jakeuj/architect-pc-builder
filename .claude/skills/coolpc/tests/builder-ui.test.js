@@ -221,3 +221,44 @@ test('diffQuote：換件、數量、改用現價、新增與移除 (含其他商
     { rows: {}, more: [{ ...row('old', 1, 80), x: true }] }, find);
   assert.equal(dup.count, 1); assert.equal(dup.removed[0].price, 70); assert.equal(dup.total.delta, -70);
 });
+
+// ---- 價格歷史 ----
+test('historyKey / isoOfQD：分類|型號、報價日期轉 ISO', () => {
+  assert.equal(U.historyKey(4, '｛AMD R7 9700X｝代理盒裝'), '4|AMD R7 9700X');
+  assert.equal(U.historyKey(4, '搭板價｛ R5 9600X ｝'), '4|R5 9600X');
+  assert.equal(U.historyKey(10, '利民 Frozen Warframe 360 黑'), null);
+  assert.equal(U.isoOfQD('2026/9/18 14:19'), '2026-09-18');
+  assert.equal(U.isoOfQD('2026/10/22'), '2026-10-22');
+  assert.equal(U.isoOfQD('不是日期'), null);
+});
+
+test('historyStats：視窗起點承接之前的價格、視窗內的變動、尾端延伸到今天', () => {
+  const series = [['2026-08-01', 100], ['2026-09-25', 90], ['2026-10-10', 120], ['2026-10-20', 110]];
+  const s = U.historyStats(series, '2026-10-22', 30);   // 視窗 9/22 ~ 10/22
+  assert.deepEqual(s.points, [[0, 100], [3, 90], [18, 120], [28, 110], [30, 110]]);
+  assert.deepEqual([s.min, s.max, s.last, s.flat, s.changes, s.days], [90, 120, 110, false, 3, 30]);
+  // 30 天內沒變：只有起點承接的價格 -> flat
+  const flat = U.historyStats([['2026-08-01', 100], ['2026-09-01', 95]], '2026-10-22');
+  assert.deepEqual(flat.points, [[0, 95], [30, 95]]); assert.equal(flat.flat, true); assert.equal(flat.changes, 0);
+  // 視窗內剛上架：從第一筆開始，不補起點
+  const fresh = U.historyStats([['2026-10-15', 300]], '2026-10-22');
+  assert.deepEqual(fresh.points, [[23, 300], [30, 300]]); assert.equal(fresh.flat, true);
+  // 剛好在今天變動：尾端不再延伸
+  assert.deepEqual(U.historyStats([['2026-10-01', 1], ['2026-10-22', 2]], '2026-10-22').points, [[9, 1], [30, 2]]);
+  // 沒資料 / 全在未來 / 壞日期 / 壞值 -> null 或略過
+  assert.equal(U.historyStats([], '2026-10-22'), null);
+  assert.equal(U.historyStats(null, '2026-10-22'), null);
+  assert.equal(U.historyStats([['2026-11-01', 1]], '2026-10-22'), null);
+  assert.equal(U.historyStats([['2026-10-01', 1]], null), null);
+  assert.deepEqual(U.historyStats([['壞', 1], ['2026-10-01', 'x'], ['2026-10-02', 5], 7], '2026-10-22').points, [[10, 5], [30, 5]]);
+});
+
+test('sparkline：階梯路徑落在 w×h 內，沒變或沒資料回空字串', () => {
+  const s = U.historyStats([['2026-09-01', 100], ['2026-10-02', 80], ['2026-10-12', 120]], '2026-10-22');
+  const svg = U.sparkline(s, 64, 18);
+  assert.match(svg, /^<svg class="spark" viewBox="0 0 64 18" width="64" height="18" aria-hidden="true"><path d="M1\.0,9\.0H21\.7V17\.0H42\.3V1\.0H63\.0" /);
+  const nums = [...svg.matchAll(/[MHV]([\d.]+)(?:,([\d.]+))?/g)].flatMap(m => [m[1], m[2]]).filter(Boolean).map(Number);
+  assert.ok(nums.every(n => n >= 0 && n <= 64));
+  assert.equal(U.sparkline(U.historyStats([['2026-09-01', 100]], '2026-10-22')), '');
+  assert.equal(U.sparkline(null), '');
+});

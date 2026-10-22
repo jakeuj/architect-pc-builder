@@ -111,6 +111,9 @@ input[type=number] { width: 58px; height: 32px; padding: 3px 5px 3px 10px; borde
 .up, .gone, .d.up, .d.gone { color: var(--warn); }
 .down, .d.down { color: var(--ok); }
 .renamed, .d.renamed { color: var(--accent); }
+.hist { color: var(--muted); }
+.hist .spark { display: inline-block; vertical-align: middle; margin-left: 6px; color: var(--accent); }
+.picker-item .hist { margin-top: 4px; }
 .summary-card { position: sticky; top: 24px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
 .summary-card h2 { font-size: 16px; margin: 0 0 16px; }
 .summary-label { color: var(--muted); font-size: 12px; }

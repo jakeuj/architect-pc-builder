@@ -4,6 +4,7 @@
 用法:
   python3 build_site.py --init            # 複製技能到目標專案 .claude/skills/coolpc/, 並建立 site.json / docs/index.html / docs/builder.css / docs/coolpc-live.js / docs/builder-ui.js / worker/ / docs/.nojekyll / workflow (已存在的不覆寫)
   python3 build_site.py [--config site.json]
+  python3 build_site.py --backfill-history   # 從 git 歷史 (data/coolpc_prices.json 每次提交) 回填 docs/history.json, 一次性
 
 site.json 欄位:
   title   網頁標題 (h1 與 <title>)
@@ -18,6 +19,8 @@ site.json 欄位:
 
 data.json 只保留主機相關分類, 並剔除與組機無關的群組 (筆記型記憶體、散熱膏、線材...)。
 其餘分類與被剔除的群組 / 品項 (補集) 另存 data-more.json, 網頁切到「全部分類」加購其他商品時才載入。
+docs/history.json 是主機型錄每個型號的價格變動紀錄 (key = "分類 id|型號", value = [[YYYY-MM-DD, price], ...]), 網頁顯示近 30 天最低 / 最高與走勢;
+只在價格變動時追加、保留 HISTORY_DAYS 天, 內容沒變時輸出逐位元相同 (排程靠 git diff 判斷要不要提交)。
 build 裡的零件對不到 (下架或命中多筆) 時, 沿用上一版 docs/data.json 對到的品名與價格並標 gone,
 網頁顯示「已下架」讓訪客自行改選; 不自動換品項, 也不讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才報錯。
 """
@@ -26,6 +29,7 @@ import datetime
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -64,6 +68,111 @@ EXCLUDE_GROUPS = {
     16: r"線材|燈條|延長排線|轉接支架|控制器|集線器",
 }
 EXCLUDE_ITEMS = r"限搭NAS|限搭購QNAP|套裝加購"
+# 價格歷史保留天數 (網頁只看 30 天; 主機型錄約 2,700 個型號, 90 天估 200KB 內)
+HISTORY_DAYS = 90
+MODEL_RE = re.compile(r"｛([^｝]+)｝")
+
+
+def split_catalog(db, slots):
+    """coolpc_prices.json -> (主機型錄, 補集)。主機型錄 = slots 用到的分類, 剔除 EXCLUDE_GROUPS / EXCLUDE_ITEMS;
+    補集 = 其他分類整類 + 被剔除的群組 / 品項 (收成同名群組)。兩者都是網頁用的 {"<cat_id>": {id, name, groups}}。"""
+    need = sorted({cid for s in slots for cid in s["cats"]})
+    categories, rest = {}, {}
+    for c in db["categories"]:
+        cid = c["id"]
+        if cid not in need:
+            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": c["groups"]}
+            continue
+        ex = re.compile(EXCLUDE_GROUPS[cid]) if cid in EXCLUDE_GROUPS else None
+        groups, hidden = [], []
+        for g in c["groups"]:
+            if ex and ex.search(g["label"]):
+                hidden.append(g)
+                continue
+            items = [it for it in g["items"] if not re.search(EXCLUDE_ITEMS, it["name"])]
+            if items:
+                groups.append({"label": g["label"], "items": items})
+            if len(items) < len(g["items"]):
+                hidden.append({"label": g["label"], "items": [it for it in g["items"] if re.search(EXCLUDE_ITEMS, it["name"])]})
+        categories[str(cid)] = {"id": cid, "name": c["name"], "groups": groups}
+        if hidden:
+            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": hidden}
+    return categories, rest
+
+
+def iso_date(quote_date):
+    """原價屋報價日期 '2026/9/18 14:19' -> '2026-09-18'; 看不懂回 None。"""
+    m = re.match(r"(\d{4})/(\d{1,2})/(\d{1,2})", str(quote_date or ""))
+    return f"{m[1]}-{int(m[2]):02d}-{int(m[3]):02d}" if m else None
+
+
+def model_prices(categories):
+    """主機型錄 -> {"分類 id|型號": 價格}; 沒有 ｛型號｝ 的品項不記, 同型號多件 (代理 / 平輸、搭板價 vs 原價) 取最低價。"""
+    low = {}
+    for c in categories.values():
+        for g in c["groups"]:
+            for it in g["items"]:
+                m = MODEL_RE.search(it["name"])
+                if not m:
+                    continue
+                k = f"{c['id']}|{m[1].strip()}"
+                low[k] = min(low.get(k, it["price"]), it["price"])
+    return low
+
+
+def update_history(hist, prices, date, keep=HISTORY_DAYS):
+    """純函式: 把這次快照 (prices = model_prices(), date = iso_date()) 併進 history, 回傳新的 dict (不改輸入)。
+    只在價格跟上一筆不同時追加; 同一天變動兩次只留最新 (改回原價就把那筆拿掉); 比最後一筆還舊的快照 (回填順序錯) 不寫。
+    裁切: date 往前 keep 天的 cutoff 之前只留最後一筆 (走勢的起點); 這次快照沒有、最後一筆又早於 cutoff 的型號 (下架超過 keep 天) 整個拿掉。"""
+    out = {k: [list(e) for e in v] for k, v in hist.items()}
+    for k, p in prices.items():
+        s = out.setdefault(k, [])
+        if s and s[-1][1] == p:
+            continue
+        if s and s[-1][0] > date:
+            continue
+        if s and s[-1][0] == date:
+            s[-1][1] = p
+            if len(s) > 1 and s[-2][1] == p:
+                s.pop()
+        else:
+            s.append([date, p])
+    cutoff = (datetime.date.fromisoformat(date) - datetime.timedelta(days=keep)).isoformat()
+    for k in list(out):
+        s = out[k]
+        i = 0
+        while i + 1 < len(s) and s[i + 1][0] <= cutoff:
+            i += 1
+        del s[:i]
+        if not s or (k not in prices and s[-1][0] < cutoff):
+            del out[k]
+    return out
+
+
+def dump_history(hist):
+    return json.dumps(dict(sorted(hist.items())), ensure_ascii=False, separators=(",", ":"))
+
+
+def backfill_history(root, data_rel, slots, keep=HISTORY_DAYS):
+    """從 git 歷史依時間順序讀每次 data/coolpc_prices.json, 累積成 history (一次性回填)。"""
+    shas = subprocess.run(["git", "log", "--reverse", "--format=%H", "--", data_rel], cwd=root,
+                          capture_output=True, text=True, check=True).stdout.split()
+    hist, n = {}, 0
+    for sha in shas:
+        blob = subprocess.run(["git", "show", f"{sha}:{data_rel}"], cwd=root, capture_output=True, text=True)
+        if blob.returncode:
+            continue
+        try:
+            db = json.loads(blob.stdout)
+            date = iso_date(db["quote_date"])
+        except (ValueError, KeyError, TypeError):
+            continue
+        if not date:
+            continue
+        hist = update_history(hist, model_prices(split_catalog(db, slots)[0]), date, keep)
+        n += 1
+    print(f"  從 git 回填 {n} 次快照")
+    return hist
 
 
 def init(root: Path, force: bool):
@@ -108,6 +217,7 @@ def main():
     ap.add_argument("--out", default="docs/data.json")
     ap.add_argument("--init", action="store_true", help="建立 site.json / docs / workflow 骨架")
     ap.add_argument("--force", action="store_true", help="--init 時覆寫既有檔案")
+    ap.add_argument("--backfill-history", action="store_true", help="從 git 歷史回填 docs/history.json 後再照常產出")
     a = ap.parse_args()
     root = Path.cwd()
     if a.init:
@@ -122,6 +232,7 @@ def main():
     build_keys = cfg.get("builds") or ["low", "mid", "high"]
     out_path = root / a.out
     more_path = out_path.with_name("data-more.json")
+    hist_path = out_path.with_name("history.json")
 
     db = json.loads((root / a.data).read_text(encoding="utf-8"))
     cats_all = {c["id"]: c for c in db["categories"]}
@@ -129,26 +240,7 @@ def main():
     all_cats = cfg.get("all_categories", True)
 
     # categories = 主機分類 (剔除無關群組 / 品項); rest = 補集 (其他分類整類 + 被剔除的群組 / 品項)
-    categories, rest = {}, {}
-    for c in db["categories"]:
-        cid = c["id"]
-        if cid not in need:
-            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": c["groups"]}
-            continue
-        ex = re.compile(EXCLUDE_GROUPS[cid]) if cid in EXCLUDE_GROUPS else None
-        groups, hidden = [], []
-        for g in c["groups"]:
-            if ex and ex.search(g["label"]):
-                hidden.append(g)
-                continue
-            items = [it for it in g["items"] if not re.search(EXCLUDE_ITEMS, it["name"])]
-            if items:
-                groups.append({"label": g["label"], "items": items})
-            if len(items) < len(g["items"]):
-                hidden.append({"label": g["label"], "items": [it for it in g["items"] if re.search(EXCLUDE_ITEMS, it["name"])]})
-        categories[str(cid)] = {"id": cid, "name": c["name"], "groups": groups}
-        if hidden:
-            rest[str(cid)] = {"id": cid, "name": c["name"], "groups": hidden}
+    categories, rest = split_catalog(db, slots)
     missing = [cid for cid in need if cid not in cats_all]
     if missing:
         sys.exit(f"報價資料缺少分類 {missing}")
@@ -226,6 +318,27 @@ def main():
     for b in builds:
         gone = sum(1 for it in b["items"].values() if it.get("gone"))
         print(f"  {b['key']}: {len(b['items'])} 件" + (f" ({gone} 件已下架)" if gone else ""))
+
+    # 價格歷史: 讀上一版 (壞掉就從頭記), 併入這次快照; 內容沒變就不重寫
+    hist = {}
+    if a.backfill_history:
+        hist = backfill_history(root, a.data, slots)
+    elif hist_path.exists():
+        try:
+            hist = json.loads(hist_path.read_text(encoding="utf-8"))
+            if not isinstance(hist, dict):
+                raise ValueError("不是物件")
+        except Exception as e:
+            print(f"  ! 讀不到上一版 {hist_path.name}, 重新開始記錄: {e}", file=sys.stderr)
+            hist = {}
+    date = iso_date(db["quote_date"])
+    if date:
+        hist = update_history(hist, model_prices(categories), date)
+        text = dump_history(hist)
+        if not hist_path.exists() or hist_path.read_text(encoding="utf-8") != text:
+            hist_path.write_text(text, encoding="utf-8")
+        changed = sum(1 for v in hist.values() if len(v) > 1)
+        print(f"{Path(a.out).with_name(hist_path.name)}: {len(hist)} 個型號, {changed} 個有變動, {hist_path.stat().st_size/1024:.0f} KB")
 
 
 if __name__ == "__main__":

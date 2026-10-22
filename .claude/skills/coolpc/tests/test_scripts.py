@@ -14,6 +14,7 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 from coolpc_match import resolve  # noqa: E402
 from fetch_coolpc import decode, gunzip  # noqa: E402
+from build_site import iso_date, model_prices, update_history  # noqa: E402
 
 
 def it(i, name, price):
@@ -92,6 +93,49 @@ class ParseTest(unittest.TestCase):
             data = json.loads((out / "coolpc_prices.json").read_text(encoding="utf-8"))
             items = [(i["id"], i["name"], i["price"]) for g in data["categories"][0]["groups"] for i in g["items"]]
             self.assertEqual(items, [(2, "｛Dell XPS 13｝", 39900)])
+
+
+class HistoryTest(unittest.TestCase):
+    """價格歷史的純函式: 只在變動時追加、同日覆蓋、裁切、下架移除、同型號取最低。"""
+
+    def test_iso_date(self):
+        self.assertEqual(iso_date("2026/9/18 14:19"), "2026-09-18")
+        self.assertEqual(iso_date("2026/10/2"), "2026-10-02")
+        self.assertIsNone(iso_date("今天"))
+        self.assertIsNone(iso_date(None))
+
+    def test_model_prices_lowest_of_same_model_and_skips_no_model(self):
+        cats = {"4": {"id": 4, "name": "CPU", "groups": [
+            {"label": "a", "items": [it(1, "｛R7 9800X3D｝代理盒裝", 15900), it(2, "｛R7 9800X3D｝平輸盒裝", 14900)]},
+            {"label": "b", "items": [it(3, "沒有型號的品項", 100), it(4, "搭板價｛ R5 9600X ｝", 6000)]}]},
+            "12": {"id": 12, "name": "VGA", "groups": [{"label": "c", "items": [it(5, "｛R5 9600X｝", 7000)]}]}}
+        self.assertEqual(model_prices(cats), {"4|R7 9800X3D": 14900, "4|R5 9600X": 6000, "12|R5 9600X": 7000})
+
+    def test_append_only_on_change_and_same_day_keeps_latest(self):
+        h = update_history({}, {"4|A": 100, "4|B": 50}, "2026-09-18")
+        self.assertEqual(h, {"4|A": [["2026-09-18", 100]], "4|B": [["2026-09-18", 50]]})
+        h2 = update_history(h, {"4|A": 100, "4|B": 50}, "2026-09-19")      # 沒變不追加
+        self.assertEqual(h2, h)
+        h3 = update_history(h2, {"4|A": 90, "4|B": 50}, "2026-09-20")
+        self.assertEqual(h3["4|A"], [["2026-09-18", 100], ["2026-09-20", 90]])
+        h4 = update_history(h3, {"4|A": 80, "4|B": 50}, "2026-09-20")      # 同一天再變: 覆蓋
+        self.assertEqual(h4["4|A"], [["2026-09-18", 100], ["2026-09-20", 80]])
+        h5 = update_history(h4, {"4|A": 100, "4|B": 50}, "2026-09-20")     # 同一天改回原價: 那筆拿掉
+        self.assertEqual(h5["4|A"], [["2026-09-18", 100]])
+        h6 = update_history(h5, {"4|A": 70}, "2026-09-10")                 # 比最後一筆舊的快照不寫
+        self.assertEqual(h6["4|A"], [["2026-09-18", 100]])
+        self.assertEqual(h, {"4|A": [["2026-09-18", 100]], "4|B": [["2026-09-18", 50]]})   # 不改輸入
+
+    def test_trim_keeps_one_entry_before_cutoff_and_drops_long_gone(self):
+        series = [["2026-01-01", 100], ["2026-02-01", 90], ["2026-03-01", 80], ["2026-04-01", 70]]
+        h = {"4|A": [list(e) for e in series], "4|gone": [["2026-01-01", 10]], "4|recent": [["2026-05-20", 5]]}
+        out = update_history(h, {"4|A": 70}, "2026-06-01", keep=90)       # cutoff = 2026-03-03
+        self.assertEqual(out["4|A"], [["2026-03-01", 80], ["2026-04-01", 70]])
+        self.assertNotIn("4|gone", out)          # 這次沒有、最後一筆早於 cutoff
+        self.assertEqual(out["4|recent"], [["2026-05-20", 5]])   # 這次沒有但還在 90 天內, 保留
+        # 還在賣的型號即使很久沒變也留一筆
+        still = update_history({"4|A": [["2025-01-01", 100]]}, {"4|A": 100}, "2026-06-01")
+        self.assertEqual(still["4|A"], [["2025-01-01", 100]])
 
 
 class PipelineTest(unittest.TestCase):
@@ -205,6 +249,44 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIsNone(self.out()["more"])
         self.assertFalse((self.root / "docs" / "data-more.json").exists())
+
+    def test_history_json_appends_on_change_and_is_byte_stable(self):
+        """docs/history.json: 只記主機型錄、同型號取最低、沒變時內容逐位元相同、改價追加一筆。"""
+        build_path = self.root / "builds/mid.json"
+        build = json.loads(build_path.read_text(encoding="utf-8"))
+        build["items"][1]["match"] = "｛RX9070XT｝ 三風"      # 同型號兩件時 build 要指明
+        build_path.write_text(json.dumps(build, ensure_ascii=False), encoding="utf-8")
+        self.write_data("2026/9/21 14:51", [it(5, "｛RX9070XT｝ 三風", 25990), it(6, "｛RX9070XT｝ 搭板價", 24990)],
+                        vga_groups=[{"label": "NVIDIA 專業工作站繪圖卡", "items": [it(8, "｛RTX A2000｝", 19990)]}],
+                        other=[{"id": 13, "name": "螢幕", "groups": [{"label": "27吋", "items": [it(9, "｛27吋螢幕｝", 4990)]}]}])
+        r = self.run_script("build_site.py")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        hist_path = self.root / "docs" / "history.json"
+        first = hist_path.read_text(encoding="utf-8")
+        self.assertEqual(json.loads(first), {"4|R5 7500F": [["2026-09-21", 4790]], "12|RX9070XT": [["2026-09-21", 24990]]})
+        self.assertEqual(self.run_script("build_site.py").returncode, 0)
+        self.assertEqual(hist_path.read_text(encoding="utf-8"), first)     # 沒變: 逐位元相同
+        self.write_data("2026/10/2 14:55", [it(5, "｛RX9070XT｝ 三風", 23990)])
+        self.assertEqual(self.run_script("build_site.py").returncode, 0)
+        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-09-21", 24990], ["2026-10-02", 23990]])
+        # 壞掉的 history.json 不讓排程失敗, 重新開始記
+        hist_path.write_text("[1,2", encoding="utf-8")
+        r = self.run_script("build_site.py")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-10-02", 23990]])
+
+    def test_backfill_history_from_git(self):
+        git = lambda *args: subprocess.run(["git", *args], cwd=self.root, capture_output=True, text=True, check=True)
+        git("init", "-q"); git("config", "user.email", "t@t"); git("config", "user.name", "t")
+        for date, price in [("2026/9/18 11:28", 25990), ("2026/9/25 9:00", 25990), ("2026/10/2 14:55", 23990)]:
+            self.write_data(date, [it(5, "｛RX9070XT｝ 三風", price)])
+            git("add", "data"); git("commit", "-q", "-m", date)
+        self.write_data("2026/10/6 11:13", [it(5, "｛RX9070XT｝ 三風", 22990)])   # 工作區最新一次 (還沒提交)
+        r = self.run_script("build_site.py", "--backfill-history")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("回填 3 次快照", r.stdout)
+        hist = json.loads((self.root / "docs" / "history.json").read_text(encoding="utf-8"))
+        self.assertEqual(hist["12|RX9070XT"], [["2026-09-18", 25990], ["2026-10-02", 23990], ["2026-10-06", 22990]])
 
     def test_new_build_typo_still_fails(self):
         self.write_data("2026/10/2 14:55", [it(6, "｛RX9070GRE｝", 21490)])
