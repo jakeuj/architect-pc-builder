@@ -28,7 +28,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 只有內容真的變了才提交 (build_site.py 在內容沒變時會沿用上次的 generated 時間戳)
-          # 先 add 再比 staged：新產生的 docs/data-more.json 也算；site.json 關掉全部分類時沒有這個檔也不會出錯
+          # 先 add 再比 staged：新產生的 docs/data-more.json、docs/history.json 也算；site.json 關掉全部分類時沒有 data-more.json 也不會出錯
           git add -A -- data docs quote.md
           if git diff --cached --quiet; then
             echo "報價無變化"

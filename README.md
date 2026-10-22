@@ -30,11 +30,11 @@
    - `coolpc_prices.csv` — 扁平版
    - `by_category/NN_*.tsv` — 每分類一檔，方便 grep
 2. `quote.py` 依 `builds/*.json` 產出 [quote.md](quote.md)
-3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），把主機相關分類連同預設配置寫成 `docs/data.json`，其餘分類與被剔除的群組另存 `docs/data-more.json`（切到「全部分類」才載入）；`docs/index.html` 讀它們渲染，`docs/builder.css` 提供深色科技風與響應式樣式
+3. `build_site.py` 讀 `site.json`（標題、遊戲需求、要放上網頁的 builds），把主機相關分類連同預設配置寫成 `docs/data.json`，其餘分類與被剔除的群組另存 `docs/data-more.json`（切到「全部分類」才載入）；同時把主機型錄每個型號的價格變動併進 `docs/history.json`（只在價格變動時追加、搭板等條件價另記、保留 90 天；第一次用 `--backfill-history` 從 git 歷史回填）。`docs/index.html` 讀它們渲染，`docs/builder.css` 提供深色科技風與響應式樣式
 
-GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上述流程，報價有變才 commit；也可在 Actions 頁手動觸發。
+GitHub Actions（`.github/workflows/update-prices.yml`）每小時跑一次上述流程，報價有變才 commit（`history.json` 只在價格變動時改變，跟 `data.json` 同一個 commit）；也可在 Actions 頁手動觸發。
 repo 是公開的，Actions 不花額度；不過 GitHub 的排程常延後好幾個小時、偶爾整次跳過，所以 `data.json` 快照的時間不一定準，網頁上方會標出報價日期，快照超過 24 小時沒更新會另外提示。
-`.github/workflows/test.yml` 在 push／PR 時跑 `.claude/skills/coolpc/tests/` 的 node 與 Python 測試，並檢查 `docs/` 與技能 `templates/` 的介面檔一致（機器人的報價 commit 不觸發）。
+`.github/workflows/test.yml` 在 push／PR 時跑 `.claude/skills/coolpc/tests/` 的 node 與 Python 測試，並檢查 `docs/` 與技能 `templates/` 的介面檔一致（含 `index.html` 去掉站台專屬 meta 後的程式部分；機器人的報價 commit 不觸發）。
 原價屋的零件 id 只是清單位置、每次抓價都可能變，所以估價單一律用「分類＋品名」對照；品名消失但同型號還在賣（只是優惠條件變了）就跟同型號現價比，真的找不到才標示「已下架」。
 
 ### 即時報價（目前停用）
