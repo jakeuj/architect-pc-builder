@@ -9,7 +9,7 @@
 <meta property="og:title" content="PC 組裝估價">
 <meta property="og:description" content="用原價屋含稅報價配電腦：每個零件都能換，自動提示相容性；整張估價單存成一條連結，日後打開還看得到漲跌。">
 <meta name="theme-color" content="#0b0f14">
-<link rel="stylesheet" href="builder.css?v=20261022-share">
+<link rel="stylesheet" href="builder.css?v=20261022-qr">
 </head>
 <body>
 <main class="wrap">
@@ -263,8 +263,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-share"></script>
-<script src="builder-ui.js?v=20261022-share"></script>
+<script src="coolpc-live.js?v=20261022-qr"></script>
+<script src="builder-ui.js?v=20261022-qr"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -853,12 +853,20 @@
     withShareUrl(cur, true, renderQr);
   }
   // 右上角的 QR Code (這張估價單的唯讀連結，店家給客人掃；列印也帶)：連結沒變不重畫
+  // 估價單先畫出來，QR (版本 20 幾、8 種遮罩各算一次懲罰分，手機要幾十 ms) 延後一拍再算；回來時確認還是這張單、這條連結
+  // 尺寸隨格數 (builder-ui.js qrSvg：每格 2px)，--qr-n 給列印 CSS 算 mm；連結超過 QR 上限 (約 2,950 字) 顯示提示而不是藏起來
   function renderQr(url){
     const box = $('#sheet-qr');
     if (mode !== 'view' || box.dataset.url === url) return;
-    const svg = U.qrSvg(url, 104);
-    box.dataset.url = url; box.hidden = !svg;
-    box.innerHTML = svg ? svg + '<small>掃描開啟這張估價單</small>' : '';
+    box.dataset.url = url;
+    setTimeout(() => {
+      const now = shareUrlNow(cur, true);
+      if (mode !== 'view' || box.dataset.url !== url || (now && now !== url)) return;
+      const svg = U.qrSvg(url, 104), n = svg ? +svg.match(/data-n="(\d+)"/)[1] : 0;
+      box.style.setProperty('--qr-n', n);
+      box.hidden = false;
+      box.innerHTML = svg ? svg + '<small>掃描開啟這張估價單</small>' : '<small class="qr-none">連結太長，無法產生 QR Code；請改用「複製估價單連結」</small>';
+    }, 0);
   }
   // 切換模式只換顯示；網址由 render() 的 syncHash 依 mode 加上 / 拿掉 v=1 (replaceState，不留歷史)
   function applyMode(){

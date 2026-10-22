@@ -319,12 +319,17 @@ test('qrMatrix：版本依長度自動選最小、定位與對齊圖形、遮罩
   assert.deepEqual(qrRows(U.qrMatrix('abc', { ecl: 'M' })), qrRows(U.qrMatrix('abc', { ecl: 'M' })));
 });
 
-test('qrSvg：短網址用 M、長網址改 L (版本 > 20)、放不下回空字串', () => {
+test('qrSvg：短網址用 M、長網址改 L (版本 > 20)、M 放不下也退 L、尺寸隨格數放大、放不下回空字串', () => {
   const short = U.qrSvg('https://pc.jakeuj.com/#b=mid', 80);
-  assert.match(short, /^<svg viewBox="0 0 (\d+) \1" width="80" height="80" role="img"/);
-  assert.equal(+short.match(/viewBox="0 0 (\d+)/)[1], U.qrMatrix('https://pc.jakeuj.com/#b=mid', { ecl: 'M' }).size + 8);   // 4 格空白 ×2
-  const long = U.qrSvg('https://pc.jakeuj.com/#v=1&q=2' + 'A'.repeat(1300));
-  assert.equal(+long.match(/viewBox="0 0 (\d+)/)[1], U.qrMatrix('https://pc.jakeuj.com/#v=1&q=2' + 'A'.repeat(1300), { ecl: 'L' }).size + 8);
-  assert.equal(U.qrSvg('A'.repeat(3000)), '');
+  const n = U.qrMatrix('https://pc.jakeuj.com/#b=mid', { ecl: 'M' }).size + 8;   // 4 格空白 ×2
+  assert.match(short, new RegExp(`^<svg viewBox="0 0 ${n} ${n}" width="${Math.max(80, n * 2)}" height="${Math.max(80, n * 2)}" data-n="${n}" role="img"`));   // 至少 px，格數多時每格 2px
+  assert.equal(U.qrVersionFor(new TextEncoder().encode('https://pc.jakeuj.com/#b=mid').length, { ecc: [10, 16, 26], blocks: [1, 1, 1] }), 3);
+  const longUrl = 'https://pc.jakeuj.com/#v=1&q=2' + 'A'.repeat(1300), longQ = U.qrMatrix(longUrl, { ecl: 'L' });
+  const long = U.qrSvg(longUrl);
+  assert.equal(+long.match(/viewBox="0 0 (\d+)/)[1], longQ.size + 8);
+  assert.equal(+long.match(/width="(\d+)"/)[1], (longQ.size + 8) * 2);
+  assert.notEqual(U.qrSvg('A'.repeat(2500)), '');     // 糾錯 M 放不下 (上限 2,331)，L 放得下 (2,953)
+  assert.notEqual(U.qrSvg('A'.repeat(2953)), '');
+  assert.equal(U.qrSvg('A'.repeat(2954)), '');
   assert.ok(!/[<>&"]/.test(short.replace(/<[^>]+>/g, '').replace(/"/g, '')), 'path 只有數字與指令');
 });

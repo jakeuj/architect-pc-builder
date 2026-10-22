@@ -276,13 +276,19 @@
     const total = size * size;
     return score + Math.max(0, Math.ceil(Math.abs(dark * 20 - total * 10) / total) - 1) * 10;
   }
+  // byte 模式 n 個位元組在糾錯等級 ec 下最小的版本 (1–40)；放不下回 0
+  const qrNeed = (v, n) => 4 + (v < 10 ? 8 : 16) + n * 8;
+  function qrVersionFor(n, ec) {
+    let v = 1;
+    while (v <= 40 && qrNeed(v, n) > qrDataCodewords(v, ec) * 8) v++;
+    return v <= 40 ? v : 0;
+  }
   function qrMatrix(text, { ecl = 'M', version = 0, mask = null } = {}) {
     const bytes = new TextEncoder().encode(String(text)), ec = QR_EC[ecl] || QR_EC.M;
-    const need = v => 4 + (v < 10 ? 8 : 16) + bytes.length * 8;
-    let v = version;
-    if (!v) for (v = 1; v <= 40 && need(v) > qrDataCodewords(v, ec) * 8; v++);
-    const cap = v <= 40 ? qrDataCodewords(v, ec) * 8 : 0;
-    if (v > 40 || need(v) > cap) throw new Error('內容太長，QR Code 放不下');
+    const need = v => qrNeed(v, bytes.length);
+    const v = version || qrVersionFor(bytes.length, ec);
+    const cap = v ? qrDataCodewords(v, ec) * 8 : 0;
+    if (!v || need(v) > cap) throw new Error('內容太長，QR Code 放不下');
     const size = v * 4 + 17;
     // 位元流：模式 0100、長度、資料、終止符、補到整 byte、交替填 0xEC / 0x11
     const bits = [], push = (val, n) => { for (let i = n - 1; i >= 0; i--) bits.push((val >>> i) & 1); };
@@ -352,24 +358,27 @@
     apply(best); format(best);
     return { size, modules: m, version: v, mask: best };
   }
-  // 唯讀估價單用的 SVG 字串 (外圍留 4 格空白)：短的用糾錯 M，版本超過 20 (網址較長) 改用 L 讓格子少一點、好掃；放不下回 ''
+  // 唯讀估價單用的 SVG 字串 (外圍留 4 格空白)。糾錯等級依長度決定、只算一次：放得進版本 20 的用 M，否則用 L (格子少一點、好掃，最多 2,953 bytes)；放不下回 ''
+  // 實際分享連結多半是版本 21–27 (109–133 格含留白)，顯示尺寸要跟著格數放大：width/height = max(px, 格數×2) 讓每格至少 2 CSS px；
+  // data-n = 含留白的格數，列印由 CSS 以每格 0.4mm 算 (固定 104px / 30mm 時每格不到 1px / 0.3mm，相機掃不到)
   function qrSvg(text, px = 104) {
+    const len = new TextEncoder().encode(String(text)).length, vM = qrVersionFor(len, QR_EC.M);
     let q;
-    try { q = qrMatrix(text, { ecl: 'M' }); if (q.version > 20) q = qrMatrix(text, { ecl: 'L' }); } catch (e) { return ''; }
-    const n = q.size + 8;
+    try { q = qrMatrix(text, { ecl: vM && vM <= 20 ? 'M' : 'L' }); } catch (e) { return ''; }
+    const n = q.size + 8, side = Math.max(px, n * 2);
     let d = '';
     for (let y = 0; y < q.size; y++) for (let x = 0; x < q.size; x++) {
       if (!q.modules[y * q.size + x]) continue;
       let w = 1; while (x + w < q.size && q.modules[y * q.size + x + w]) w++;
       d += `M${x + 4} ${y + 4}h${w}v1h-${w}z`; x += w - 1;
     }
-    return `<svg viewBox="0 0 ${n} ${n}" width="${px}" height="${px}" role="img" aria-label="這張估價單連結的 QR Code" shape-rendering="crispEdges"><rect width="${n}" height="${n}" fill="#fff"/><path d="${d}" fill="#000"/></svg>`;
+    return `<svg viewBox="0 0 ${n} ${n}" width="${side}" height="${side}" data-n="${n}" role="img" aria-label="這張估價單連結的 QR Code" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg"><rect width="${n}" height="${n}" fill="#fff"/><path d="${d}" fill="#000"/></svg>`;
   }
 
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
     sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
     cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote,
-    historyKey, isoOfQD, historyStats, sparkline, recentUpsert, recentClean, qrMatrix, qrSvg };
+    historyKey, isoOfQD, historyStats, sparkline, recentUpsert, recentClean, qrMatrix, qrVersionFor, qrSvg };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);

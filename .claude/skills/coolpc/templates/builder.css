@@ -290,9 +290,11 @@ body.view-mode .hero, body.view-mode #meta, body.view-mode .info-card { display:
 /* 店家估價單：抬頭換成店家區塊、合計最後一列是本店合計、店家備註保留換行 */
 .sheet-store { display: flex; flex-direction: column; align-items: flex-end; text-align: right; gap: 1px; max-width: 360px; font-size: 12.5px; color: var(--muted); }
 .sheet-head > div:first-child { margin-right: auto; }
+/* QR：svg 自帶 width/height (每格 2px，版本 23 約 234px)，不在這裡定死；--qr-n = 含留白的格數，列印每格 0.4mm */
 .sheet-qr { text-align: center; }
-.sheet-qr svg { display: block; width: 104px; height: 104px; border-radius: 4px; }
+.sheet-qr svg { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 4px; }
 .sheet-qr small { display: block; margin-top: 3px; font-size: 10px; color: var(--muted); }
+.sheet-qr .qr-none { max-width: 200px; margin: 0 auto; font-size: 11px; }
 .recent-clear { grid-column: 1 / -1; justify-self: start; }
 .sheet-store .store-name { color: var(--text); font-size: 18px; font-weight: 700; letter-spacing: .02em; overflow-wrap: anywhere; }
 .sheet-store .store-tag { color: var(--accent); font-size: 12px; margin-bottom: 4px; overflow-wrap: anywhere; }
@@ -337,8 +339,7 @@ body.view-mode .hero, body.view-mode #meta, body.view-mode .info-card { display:
   .store-body { padding-inline: 18px; }
   .store-actions { padding-inline: 18px; }
   .sheet-store { order: -1; flex-basis: 100%; align-items: flex-start; text-align: left; max-width: none; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
-  .sheet-qr { flex-basis: 100%; display: flex; align-items: center; gap: 12px; text-align: left; }
-  .sheet-qr svg { width: 88px; height: 88px; }
+  .sheet-qr { flex-basis: 100%; }
   .sheet-store a.store-link { display: inline-flex; align-items: center; min-height: 44px; }
   .topbar { height: 64px; }
   .topbar-note { font-size: 10px; }
@@ -429,7 +430,7 @@ body.view-mode .hero, body.view-mode #meta, body.view-mode .info-card { display:
   .sheet-view { max-width: none; margin: 0; }
   .sheet { box-shadow: none; border-radius: 0; padding: 0 1mm; --text: #000; --muted: #333; --line: #999; }
   .sheet-table thead { display: table-header-group; }
-  .sheet-qr svg { width: 30mm; height: 30mm; }
+  .sheet-qr svg { width: calc(var(--qr-n, 117) * 0.4mm); height: calc(var(--qr-n, 117) * 0.4mm); max-width: none; }
   .sheet-table tr, .sheet-totals, .sheet-notes li, .sheet-meta, .sheet-store { break-inside: avoid; }
   .sheet-store a.store-link { text-decoration: none; }
   .sheet-notes li.memo { background: none; }
