@@ -195,10 +195,13 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
   - 過期門檻用 24 小時不是 6 或 12：`build_site.py` 在內容沒變時沿用上次 `generated`，而原價屋一天只改價 1～2 次，門檻太低會把「沒漲價」當「排程壞了」。
   - 顯卡品名沒有瓦數，才需要 `VGA_PSU` 表；CPU 品名只有部分寫「無內顯／具內顯」，其餘靠型號規則，判不出來一律 null 不提示。
   - Node 22（GitHub runner）的 `node --test` 不接受目錄參數，CI 用 glob `'…/tests/*.test.js'`；本機 Node 26 給目錄可以跑。
-- **改單差異比較**（高價值、純前端）：分享單被改過時，用 `cur.orig` 與 `entries()` 以 `CoolPC.key`（分類＋品名）比對，列「原 → 新，±$」、新增／移除、數量變更、合計差；唯讀估價單是快照，不顯示。差異算法放 builder-ui.js 純函式並測試。
-- **零件價格歷史**（高價值、要改資料流）：`docs/data.json` 的 git 歷史從 2026/9/18 起，每次報價 commit 都是一份快照，可回填。設計：`docs/history.json` key = `分類 id|modelOf 型號`，value `[[YYYY-MM-DD, price]…]` 只記變動點、裁 90 天、另檔延遲載入、控管 < 300KB；前端迷你折線用 inline SVG 不引套件。注意 history 有變就會讓 `git diff` 非空，報價沒變的小時也可能 commit（接受或改成只在 data.json 變時才寫）。先寫 `sdd/price-history/` 提案再做。
-- **分享連結壓縮＋QR＋最近清單**：8 列主機單的 `#v=1&q=` 連結約 1,270 字元，加其他商品可到數千字元（LINE／FB 會截斷，decodeQuote 已有「可能在複製時被截斷」錯誤）。壓縮用 `CompressionStream('deflate-raw')`，格式字首 `2`，`decodeQuote` 同時收 `1` 與 `2`（舊連結永遠要能開）；encode 會變成 async，share／copy／hashFor／syncHash 與測試都要改，不支援的瀏覽器退回 `1`。QR 用 inline 小型產生器（約 5KB，不用 CDN），唯讀估價單右上與列印都帶。「最近的估價單」存 localStorage（名稱、日期、合計、hash，最多 30 筆），不上伺服器。
-- **低優先、先不做**：淺色主題（promo 寫「也有深色模式」，其實只有深色、沒有 `prefers-color-scheme`；要做就是跟隨系統＋可切換）；PWA 離線快取（有 `site.webmanifest` 沒 service worker，data.json 約 420KB、data-more.json 約 615KB，GitHub Pages 已 gzip）；拆 `index.html` 的 1000 行 inline 主程式（先拆 `renderSheet`、`renderBiz` 系列、連結／分享三塊，沒有使用者可見價值，順手做）；分享連結的 OG 預覽永遠是通用圖（hash 路由，純靜態站無解，除非 Worker 產動態 OG）。
+- **已完成 (10/22 第二輪)**：改單差異比較、零件價格歷史、分享連結壓縮＋QR＋最近開過（commit 4b8992c、4bedb4c、235876e），之後用 54 個 agent 六視角審查、確認 23 條並修完（f005f8e 價格歷史正確性、a6efd87 QR 可掃性、8f8da1b 分享連結與最近開過、eb8e6c2 改單差異文案、6afb2fd 歷史載入成本、3444214 CI index.html、e9946ff 文案；審查清單與接續 prompt 在 `sdd/backlog-2026-10-22/`）。設計與實作細節見本檔「分享連結版本 2、QR Code、最近開過」「docs/history.json」兩段與 `sdd/price-history/`。
+  - 改單差異：`U.diffQuote(orig, cur, find)` 以 `cat|name` 逐 slot 比、其他商品逐件配對，回傳 changed（含 same／sameModel）／added／removed／total；`renderDiff` 顯示在 `#diff`，同型號換品名（改用現價後品名更新、搭板優惠結束）不當成換件。
+  - 價格歷史：條件價件（搭板／組裝價／裝機價／限搭機／限組裝）另記 key「分類|型號|條件碼」，一般件的 30 天最低不會是搭板價；同一 key 內多件取最低並標「同型號最低款」；視窗內才上架寫「上架 N 天」。只涵蓋主機型錄：全部分類 35 天就 310KB，主機型錄 2,761 個 key 158KB（gzip 25KB）。結論：history 只在價格變動時改寫，價格變時 data.json 一定也變，不會多出 history-only 的 commit。唯讀估價單不載、進編輯畫面才 `fetch('history.json')`（不加時間戳，CDN 不看 query）。
+  - 連結壓縮：實測 8 列主機單 1,243 → 1,028 字元只省 17%（中文品名難壓），加 12 件其他商品省 38%、店家單省 20%；`canZip` 實際試建 `deflate-raw`（Chromium 80–102 有類別但不支援）。
+  - QR：實際連結是版本 21–27，固定 104px／30mm 每格不到 1px 掃不到；改成 svg 自帶 width = max(104, 格數×2)、列印每格 0.4mm（版本 23 約 47mm），糾錯依長度只算一次、M 放不下退 L，超過 2,953 bytes 顯示提示。DPR 1 原尺寸用 BarcodeDetector 驗過。
+  - 最近開過：一律記快照連結（#v=1&q=），預覽與分享同一筆；目前這張標 aria-current。
+- **低優先、先不做（目前真正的待辦）**：淺色主題（網站只有深色、沒有 `prefers-color-scheme`；要做就是跟隨系統＋可切換）；PWA 離線快取（有 `site.webmanifest` 沒 service worker，data.json 約 420KB、data-more.json 約 615KB，GitHub Pages 已 gzip）；拆 `index.html` 的 1,400 行 inline 主程式（先拆 `renderSheet`、`renderBiz` 系列、連結／分享三塊，沒有使用者可見價值，順手做）；分享連結的 OG 預覽永遠是通用圖（hash 路由，純靜態站無解，除非 Worker 產動態 OG）；價格歷史擴到其他商品（要另出 history-more.json 控管大小）；history 不記下架期間（搭板件下架那兩週序列仍是上一個價）。
 - **判定不做**：主機板 M.2 插槽數、記憶體容量上限、顯卡實際功耗都無法從原價屋品名判讀，不要硬猜；同型號多件（代理／平輸）維持「不猜、給候選」。
 
 ## 專案知識圖 (docs/graph/，本 repo 限定)
