@@ -9,7 +9,7 @@
 <meta property="og:title" content="PC 組裝估價">
 <meta property="og:description" content="用原價屋含稅報價配電腦：每個零件都能換，自動提示相容性；整張估價單存成一條連結，日後打開還看得到漲跌。">
 <meta name="theme-color" content="#0b0f14">
-<link rel="stylesheet" href="builder.css?v=20261022-compat">
+<link rel="stylesheet" href="builder.css?v=20261022-diff">
 </head>
 <body>
 <main class="wrap">
@@ -96,6 +96,7 @@
         <details class="build-note" id="build-note"><summary>配置說明</summary><p class="note" id="bnote"></p></details>
         <p class="note" id="shared-note" hidden></p>
         <div class="chg" id="chg" hidden></div>
+        <div class="chg diff" id="diff" hidden></div>
         <div class="parts" id="rows"></div>
         <section class="more" id="more" aria-labelledby="more-title" hidden>
           <div class="section-heading"><h2 id="more-title"><span class="step">03</span>其他商品</h2><span id="more-count"></span></div>
@@ -192,7 +193,7 @@
         <li>分享的估價單上的 ▲▼ 是「這張單的報價（分享當時的價格）」跟原價屋現價的差額；品名裡的「▼下殺到…」與下方的「價格異動」「下殺」「原價」是原價屋自己的近期調價標示，跟分享連結無關。</li>
         <li>相容性提示（腳位、DDR 世代、顯卡長度、散熱器高度、CPU 內顯、電源瓦數）是從品名自動判讀的，電源瓦數依顯示卡原廠建議值，僅供參考，下單前請再確認。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
-        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
+        <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，上方會列出跟分享時的內容比換了哪幾格、各差多少，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
         <li>「帶到原價屋估價頁」會在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量，可以接著在那邊列印或聯絡原價屋。那邊一律是原價屋現價；已下架的品項不會帶入，搭板、裝機價等優惠結束的改帶同型號現行品項。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
@@ -259,8 +260,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-compat"></script>
-<script src="builder-ui.js?v=20261022-compat"></script>
+<script src="coolpc-live.js?v=20261022-diff"></script>
+<script src="builder-ui.js?v=20261022-diff"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -653,6 +654,30 @@
     el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
   }
 
+  // 分享單改過後：跟分享時的內容 (orig) 逐格比，列出換了哪幾格、各差多少、新增 / 移除與數量變更 (builder-ui.js diffQuote)
+  // 唯讀估價單是快照，不顯示；「複製零件清單」與「複製分享連結」不受影響
+  function renderDiff(){
+    const el = $('#diff');
+    if (cur.kind !== 'shared' || !rowsDirty(cur)) { el.hidden = true; return; }
+    const d = U.diffQuote(cur.orig, cur, find);
+    const labelOf = x => x.slot === '+' ? '其他商品・' + catName(x.cat) : (D.slots.find(s => s.key === x.slot) || {}).label || x.slot;
+    const m = n => n != null ? '$' + fmt(n) : '–';
+    const delta = n => n ? `<span class="${n > 0 ? 'up' : 'down'}">${arrow(n)}</span>` : '';
+    const qtyOf = x => x.qty > 1 ? ` ×${x.qty}` : '';
+    const li = [];
+    for (const x of d.changed) {
+      const tail = `${m(x.from.sub)} → ${m(x.to.sub)} ${delta(x.delta) || '（金額不變）'}`;
+      if (!x.same) li.push(`<li>${esc(labelOf(x))}：<span class="from">${esc(x.from.name)}</span> → ${esc(x.to.name)}${qtyOf(x.to)}，${tail}</li>`);
+      else if (x.from.qty !== x.to.qty) li.push(`<li>${esc(labelOf(x))}：${esc(x.to.name)} 數量 ${x.from.qty} → ${x.to.qty}，${tail}</li>`);
+      else li.push(`<li>${esc(labelOf(x))}：${esc(x.to.name)}${qtyOf(x.to)} 改用現價，${tail}</li>`);
+    }
+    for (const x of d.added) li.push(`<li>${esc(labelOf(x))}：<span class="added">＋ 新增</span> ${esc(x.name)}${qtyOf(x)} ${m(x.sub)} ${delta(x.sub)}</li>`);
+    for (const x of d.removed) li.push(`<li>${esc(labelOf(x))}：<span class="removed">－ 移除</span> ${esc(x.name)}${qtyOf(x)} ${m(x.sub)} ${delta(-x.sub)}</li>`);
+    li.push(`<li><b>合計 ${d.total.delta ? delta(d.total.delta) : '不變'}</b>（$${fmt(d.total.from)} → $${fmt(d.total.to)}）</li>`);
+    el.hidden = false;
+    el.innerHTML = `<b>跟分享時的內容（${esc(cur.d || '先前')}）比</b><span class="small">這張單改了 ${d.count} 處；換掉的零件以現價計。按「還原分享時的內容」可以復原</span><ul>${li.join('')}</ul>`;
+  }
+
   // ---- 唯讀估價單 (檢視模式，#v=1&q=…) ----
   // 只重填 #sheet-* 內層：動作列與標題是靜態的，即時報價 / 全部分類載入後重畫時焦點不會掉
   // 單價與合計照估價單的報價 (pin)；跟現價不同、下架、優惠條件變了的列在品名下加一行小字
@@ -890,6 +915,7 @@
     $('#requote').hidden = !canRequote;
     $('#clear').hidden = !allRows(cur).length;
     changes(pinned, T);
+    renderDiff();
     const w = warnings(), ul = $('#warns'); ul.innerHTML = '';
     for (const x of w.length ? w : ['未偵測到相容性問題（自動判讀，僅供參考）']) {
       const li = document.createElement('li'); li.textContent = x;

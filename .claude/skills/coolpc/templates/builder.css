@@ -135,6 +135,9 @@ input[type=number] { width: 58px; height: 32px; padding: 3px 5px 3px 10px; borde
 .chg .small { display: block; margin-top: 4px; }
 .chg ul { margin: 10px 0 0; list-style: none; padding: 0; }
 .chg li { padding: 3px 0; font-variant-numeric: tabular-nums; }
+.chg .from { color: var(--muted); text-decoration: line-through; }
+.chg .added { color: var(--ok); }
+.chg .removed { color: var(--warn); }
 .info-card { border-top: 1px solid var(--line); margin-top: 36px; padding: 12px 0; }
 details { padding: 12px 0; }
 summary { cursor: pointer; font-weight: 500; font-size: 13px; }

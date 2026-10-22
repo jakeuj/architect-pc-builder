@@ -186,3 +186,38 @@ test('snapshotAgeHours 讀 generated 的 ISO 時間 (含 +08:00)', () => {
   assert.equal(U.snapshotAgeHours('不是時間', now), null);
   assert.equal(U.snapshotAgeHours(undefined, now), null);
 });
+
+// ---- 改單差異 ----
+test('diffQuote：換件、數量、改用現價、新增與移除 (含其他商品)，合計差', () => {
+  const orig = { rows: { cpu: row('old', 1, 80), ram: row('old', 2, 80), ssd: row('new', 1), hdd: null },
+    more: [{ ...row('old', 1, 80), x: true }, { ...row('new', 2), x: true }] };
+  const cur = { rows: { cpu: row('new', 1), ram: row('old', 3, 80), ssd: null, hdd: row('old') },
+    more: [{ ...row('new', 1), x: true }, { ...row('已下架', 1, 60), x: true }] };
+  const before = structuredClone([orig, cur]);
+  const d = U.diffQuote(orig, cur, find);
+  assert.deepEqual(d.changed.map(x => [x.slot, x.same, x.from.sub, x.to.sub, x.delta]),
+    [['cpu', false, 80, 250, 170], ['ram', true, 160, 240, 80], ['+', true, 500, 250, -250]]);
+  assert.deepEqual(d.changed[0].from, { name: 'old', qty: 1, price: 80, sub: 80 });
+  assert.deepEqual(d.changed[0].to, { name: 'new', qty: 1, price: 250, sub: 250 });
+  assert.deepEqual(d.added.map(x => [x.slot, x.name, x.sub]), [['hdd', 'old', 100], ['+', '已下架', 60]]);
+  assert.deepEqual(d.removed.map(x => [x.slot, x.name, x.sub]), [['ssd', 'new', 250], ['+', 'old', 80]]);
+  assert.equal(d.count, 7);
+  // 合計 = 兩邊各自的 totals().quoted
+  const T = s => C.totals([...Object.values(s.rows).filter(Boolean), ...s.more], find).quoted;
+  assert.deepEqual(d.total, { from: T(orig), to: T(cur), delta: T(cur) - T(orig) });
+  assert.deepEqual([orig, cur], before);   // 不改到輸入
+  // 沒改 -> 全空
+  const none = U.diffQuote(orig, structuredClone(orig), find);
+  assert.equal(none.count, 0); assert.deepEqual(none.total, { from: T(orig), to: T(orig), delta: 0 });
+  // 改用現價 (同品名、同數量、pin 拿掉) 也算一處
+  const requoted = U.diffQuote({ rows: { cpu: row('old', 1, 80) }, more: [] }, { rows: { cpu: row('old', 1) }, more: [] }, find);
+  assert.deepEqual(requoted.changed.map(x => [x.same, x.from.price, x.to.price, x.delta]), [[true, 80, 100, 20]]);
+  // 已下架且沒鎖價：單價 null、以 0 計；兩邊都空格不列
+  const gone = U.diffQuote({ rows: { cpu: null, ram: null }, more: [] }, { rows: { cpu: row('已下架'), ram: null }, more: [] }, find);
+  assert.deepEqual(gone.added.map(x => [x.price, x.sub]), [[null, 0]]);
+  assert.equal(gone.count, 1); assert.equal(gone.total.delta, 0);
+  // 其他商品同品名重複出現時逐件配對，不重複計
+  const dup = U.diffQuote({ rows: {}, more: [{ ...row('old', 1, 80), x: true }, { ...row('old', 1, 70), x: true }] },
+    { rows: {}, more: [{ ...row('old', 1, 80), x: true }] }, find);
+  assert.equal(dup.count, 1); assert.equal(dup.removed[0].price, 70); assert.equal(dup.total.delta, -70);
+});

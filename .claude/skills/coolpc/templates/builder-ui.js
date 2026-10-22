@@ -144,9 +144,39 @@
     return Number.isFinite(t) ? Math.max(0, (now - t) / 36e5) : null;
   }
 
+  // ---- 改單差異：分享單被改過後，跟分享時的內容 (orig) 逐格比 ----
+  // orig / cur = {rows: {slot: row | null}, more: [row]}；row = {cat, name, qty, pin}；find(row).item = 現行型錄品項
+  // 單價同 CoolPC.totals：鎖定的報價 (pin) 優先，否則用現價；查不到 (已下架且沒鎖價) 為 null、以 0 計
+  // 回傳 {changed, added, removed, total: {from, to, delta}, count}
+  //   changed = [{slot, cat, same, from, to, delta}]：from / to = {name, qty, price, sub}；same = 同一件 (只改數量或改用現價)
+  //   added / removed = [{slot, cat, name, qty, price, sub}]；其他商品 slot 為 '+'、用分類 + 品名配對
+  function diffQuote(orig, cur, find) {
+    const priceOf = r => r.pin ? r.pin.price : (find(r).item || {}).price ?? null;
+    const snap = r => { const price = priceOf(r); return { name: r.name, qty: r.qty, price, sub: (price || 0) * r.qty }; };
+    const key = r => r.cat + '|' + r.name;
+    const changed = [], added = [], removed = [];
+    let from = 0, to = 0;
+    const compare = (slot, a, b) => {
+      const A = a && snap(a), B = b && snap(b);
+      if (A) from += A.sub;
+      if (B) to += B.sub;
+      if (!a && !b) return;
+      if (!a) return added.push({ slot, cat: b.cat, ...B });
+      if (!b) return removed.push({ slot, cat: a.cat, ...A });
+      const same = key(a) === key(b);
+      if (same && A.qty === B.qty && A.price === B.price) return;
+      changed.push({ slot, cat: b.cat, same, from: A, to: B, delta: B.sub - A.sub });
+    };
+    for (const slot of new Set([...Object.keys(cur.rows), ...Object.keys(orig.rows)])) compare(slot, orig.rows[slot] || null, cur.rows[slot] || null);
+    const rest = cur.more.slice();
+    for (const a of orig.more) { const i = rest.findIndex(b => key(b) === key(a)); compare('+', a, i < 0 ? null : rest.splice(i, 1)[0]); }
+    for (const b of rest) compare('+', null, b);
+    return { changed, added, removed, total: { from, to, delta: to - from }, count: changed.length + added.length + removed.length };
+  }
+
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
     sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
-    cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours };
+    cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);
