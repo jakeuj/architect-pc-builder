@@ -141,7 +141,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## 即時報價代理 (worker/)
 
-- **本 repo 狀態**：程式在 `worker/`，但從沒部署 (`coolpc.jakeuj.com` 沒有 DNS 紀錄)。10/2 曾先把網址填進 `live_url`，結果網頁每次載入都「即時報價暫時抓不到（Failed to fetch）」再退回快照，還多一個沒作用的按鈕；同日改回空字串。使用者目前不要即時查價，價格只靠 workflow。
+- **本 repo 狀態 (2026-10-22)**：程式在 `worker/`，尚未部署。10/22 已在這台 Mac `npx wrangler login`（jakeuj@hotmail.com，憑證在 `~/Library/Preferences/.wrangler/config/default.toml`，不用再登），`npx wrangler deploy --dry-run` 通過（3.26 KiB，兩個 vars 綁定正常），`dig NS jakeuj.com` 是 Cloudflare 的 nameserver，所以 `custom_domain = true` 可用、deploy 會自動建 `coolpc.jakeuj.com`。使用者決定先不部署；要部署時順序一定是 `cd worker && npx wrangler deploy` → `curl -sI https://coolpc.jakeuj.com/evaluate.php` 看到 `access-control-allow-origin` → 才填 `site.json` 的 `live_url` 並跑 `build_site.py`。部署會公開上線並動到 DNS，先問過使用者。10/2 曾先把網址填進 `live_url`，結果網頁每次載入都「即時報價暫時抓不到（Failed to fetch）」再退回快照，還多一個沒作用的按鈕；同日改回空字串。使用者目前不要即時查價，價格只靠 workflow。
 - 看到 Failed to fetch 先 `dig +short coolpc.<domain>`：沒結果就是沒部署 (或自訂網域沒建好)，不是程式壞了。
 - 原價屋回應沒有 `Access-Control-Allow-Origin`，Pages 上的 JS 不能直接 fetch，一定要代理。Worker 只做三件事：抓 evaluate.php 原始 Big5 位元組、加 CORS、`caches.default` 快取 `CACHE_TTL` 秒 (預設 300)。不解碼、不解析，內容檢查只看 `id=Mdy` 與 Big5 的「共有商品」位元組。
 - **Cache API 只在自訂網域上有效，`*.workers.dev` 不會快取**，所以 wrangler.toml 用 `routes = [{ pattern = "coolpc.<domain>", custom_domain = true }]`；該 zone 的 DNS 必須在 Cloudflare，部署時會自動建 DNS 紀錄。
@@ -165,6 +165,20 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - `csv.DictWriter` 要 `lineterminator="\n"`，否則 CSV 進 git 會有 CRLF 警告。
 - 本機預覽可放 `.claude/launch.json`（python3 -m http.server 8765 --directory docs），已在 .gitignore。
 - `build_site.py --init` 從載入的技能目錄建立目標專案 `.claude/skills/coolpc/` 執行副本（已存在則略過），workflow 呼叫這個可攜路徑；另建立 HTML、builder.css、JS 等資源。維護共用正本後，僅同步受影響檔案到指定專案，保留既有客製與設定。
+
+## 功能評估與待辦 (2026-10-22，本 repo)
+
+10/22 評估過一輪「還能加什麼」，選了低成本組先做；其餘方向的結論記在這裡，之後接手不用重查。計畫原文在 `~/.claude/plans/zazzy-splashing-liskov.md`（評估版已被實作版覆蓋，要點如下）。
+
+- **已完成 (10/22)**：CPU 內顯與電源瓦數檢查、快照過期提示、`test.yml` CI（見 SKILL.md 維護段與本檔「index.html 內部重點」）。
+  - 過期門檻用 24 小時不是 6 或 12：`build_site.py` 在內容沒變時沿用上次 `generated`，而原價屋一天只改價 1～2 次，門檻太低會把「沒漲價」當「排程壞了」。
+  - 顯卡品名沒有瓦數，才需要 `VGA_PSU` 表；CPU 品名只有部分寫「無內顯／具內顯」，其餘靠型號規則，判不出來一律 null 不提示。
+  - Node 22（GitHub runner）的 `node --test` 不接受目錄參數，CI 用 glob `'…/tests/*.test.js'`；本機 Node 26 給目錄可以跑。
+- **改單差異比較**（高價值、純前端）：分享單被改過時，用 `cur.orig` 與 `entries()` 以 `CoolPC.key`（分類＋品名）比對，列「原 → 新，±$」、新增／移除、數量變更、合計差；唯讀估價單是快照，不顯示。差異算法放 builder-ui.js 純函式並測試。
+- **零件價格歷史**（高價值、要改資料流）：`docs/data.json` 的 git 歷史從 2026/9/18 起，每次報價 commit 都是一份快照，可回填。設計：`docs/history.json` key = `分類 id|modelOf 型號`，value `[[YYYY-MM-DD, price]…]` 只記變動點、裁 90 天、另檔延遲載入、控管 < 300KB；前端迷你折線用 inline SVG 不引套件。注意 history 有變就會讓 `git diff` 非空，報價沒變的小時也可能 commit（接受或改成只在 data.json 變時才寫）。先寫 `sdd/price-history/` 提案再做。
+- **分享連結壓縮＋QR＋最近清單**：8 列主機單的 `#v=1&q=` 連結約 1,270 字元，加其他商品可到數千字元（LINE／FB 會截斷，decodeQuote 已有「可能在複製時被截斷」錯誤）。壓縮用 `CompressionStream('deflate-raw')`，格式字首 `2`，`decodeQuote` 同時收 `1` 與 `2`（舊連結永遠要能開）；encode 會變成 async，share／copy／hashFor／syncHash 與測試都要改，不支援的瀏覽器退回 `1`。QR 用 inline 小型產生器（約 5KB，不用 CDN），唯讀估價單右上與列印都帶。「最近的估價單」存 localStorage（名稱、日期、合計、hash，最多 30 筆），不上伺服器。
+- **低優先、先不做**：淺色主題（promo 寫「也有深色模式」，其實只有深色、沒有 `prefers-color-scheme`；要做就是跟隨系統＋可切換）；PWA 離線快取（有 `site.webmanifest` 沒 service worker，data.json 約 420KB、data-more.json 約 615KB，GitHub Pages 已 gzip）；拆 `index.html` 的 1000 行 inline 主程式（先拆 `renderSheet`、`renderBiz` 系列、連結／分享三塊，沒有使用者可見價值，順手做）；分享連結的 OG 預覽永遠是通用圖（hash 路由，純靜態站無解，除非 Worker 產動態 OG）。
+- **判定不做**：主機板 M.2 插槽數、記憶體容量上限、顯卡實際功耗都無法從原價屋品名判讀，不要硬猜；同型號多件（代理／平輸）維持「不猜、給候選」。
 
 ## 專案知識圖 (docs/graph/，本 repo 限定)
 
