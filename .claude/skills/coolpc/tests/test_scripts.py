@@ -14,7 +14,7 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 from coolpc_match import resolve  # noqa: E402
 from fetch_coolpc import decode, gunzip  # noqa: E402
-from build_site import iso_date, model_prices, update_history  # noqa: E402
+from build_site import cond_code, history_key, iso_date, model_prices, update_history, valid_history  # noqa: E402
 
 
 def it(i, name, price):
@@ -104,12 +104,32 @@ class HistoryTest(unittest.TestCase):
         self.assertIsNone(iso_date("今天"))
         self.assertIsNone(iso_date(None))
 
-    def test_model_prices_lowest_of_same_model_and_skips_no_model(self):
+    def test_history_key_separates_conditional_prices(self):
+        """條件價件 (搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝) 另記 key, 條件碼同 coolpc-live.js 的 COND_RE。"""
+        self.assertEqual(cond_code("｛AMD R7 9700X｝代理盒裝"), "00000")
+        self.assertEqual(cond_code("[搭板專案]｛AMD R7 9700X｝任搭主機板現省"), "10000")
+        self.assertEqual(cond_code("｛華碩 B860M-E｝ *任搭優惠價"), "10000")
+        self.assertEqual(cond_code("｛美光 32GB｝~組裝價~"), "01000")
+        self.assertEqual(cond_code("｛某 SSD｝裝機價 限搭機"), "00110")
+        self.assertEqual(cond_code("｛某機殼｝限組裝"), "00001")
+        self.assertEqual(history_key(4, "｛AMD R7 9700X｝代理盒裝"), "4|AMD R7 9700X")
+        self.assertEqual(history_key(4, "[搭板專案]｛ AMD R7 9700X ｝任搭主機板現省"), "4|AMD R7 9700X|10000")
+        self.assertIsNone(history_key(10, "利民 Frozen Warframe 360 黑"))
+
+    def test_model_prices_lowest_within_key_and_skips_no_model(self):
         cats = {"4": {"id": 4, "name": "CPU", "groups": [
             {"label": "a", "items": [it(1, "｛R7 9800X3D｝代理盒裝", 15900), it(2, "｛R7 9800X3D｝平輸盒裝", 14900)]},
-            {"label": "b", "items": [it(3, "沒有型號的品項", 100), it(4, "搭板價｛ R5 9600X ｝", 6000)]}]},
+            {"label": "b", "items": [it(3, "沒有型號的品項", 100), it(4, "搭板價｛ R5 9600X ｝", 6000), it(6, "｛R5 9600X｝盒裝", 6500)]}]},
             "12": {"id": 12, "name": "VGA", "groups": [{"label": "c", "items": [it(5, "｛R5 9600X｝", 7000)]}]}}
-        self.assertEqual(model_prices(cats), {"4|R7 9800X3D": 14900, "4|R5 9600X": 6000, "12|R5 9600X": 7000})
+        # 代理 / 平輸取最低; 搭板價跟一般件分開, 一般件的歷史不會是搭板價
+        self.assertEqual(model_prices(cats), {"4|R7 9800X3D": 14900, "4|R5 9600X|10000": 6000, "4|R5 9600X": 6500, "12|R5 9600X": 7000})
+
+    def test_valid_history_shape(self):
+        self.assertTrue(valid_history({"4|A": [["2026-09-18", 100], ["2026-10-01", 90.5]]}))
+        self.assertTrue(valid_history({}))
+        for bad in [[], {"4|A": 123}, {"4|A": None}, {"4|A": []}, {"4|A": [["2026-09-18"]]}, {"4|A": "2026"}, {"4|A": [["2026-09-18", "100"]]},
+                    {"4|A": [["2026-09-18", True]]}, {"4|A": [[20260918, 100]]}, {"4|A": [["2026-09-18", 100], "x"]}]:
+            self.assertFalse(valid_history(bad), repr(bad))
 
     def test_append_only_on_change_and_same_day_keeps_latest(self):
         h = update_history({}, {"4|A": 100, "4|B": 50}, "2026-09-18")
@@ -251,7 +271,7 @@ class PipelineTest(unittest.TestCase):
         self.assertFalse((self.root / "docs" / "data-more.json").exists())
 
     def test_history_json_appends_on_change_and_is_byte_stable(self):
-        """docs/history.json: 只記主機型錄、同型號取最低、沒變時內容逐位元相同、改價追加一筆。"""
+        """docs/history.json: 只記主機型錄、條件價件另記 key、沒變時內容逐位元相同、改價追加一筆、壞檔不中斷。"""
         build_path = self.root / "builds/mid.json"
         build = json.loads(build_path.read_text(encoding="utf-8"))
         build["items"][1]["match"] = "｛RX9070XT｝ 三風"      # 同型號兩件時 build 要指明
@@ -263,30 +283,51 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stderr)
         hist_path = self.root / "docs" / "history.json"
         first = hist_path.read_text(encoding="utf-8")
-        self.assertEqual(json.loads(first), {"4|R5 7500F": [["2026-09-21", 4790]], "12|RX9070XT": [["2026-09-21", 24990]]})
+        self.assertEqual(json.loads(first), {"4|R5 7500F": [["2026-09-21", 4790]], "12|RX9070XT": [["2026-09-21", 25990]],
+                                             "12|RX9070XT|10000": [["2026-09-21", 24990]]})   # 搭板價另記
         self.assertEqual(self.run_script("build_site.py").returncode, 0)
         self.assertEqual(hist_path.read_text(encoding="utf-8"), first)     # 沒變: 逐位元相同
         self.write_data("2026/10/2 14:55", [it(5, "｛RX9070XT｝ 三風", 23990)])
         self.assertEqual(self.run_script("build_site.py").returncode, 0)
-        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-09-21", 24990], ["2026-10-02", 23990]])
-        # 壞掉的 history.json 不讓排程失敗, 重新開始記
-        hist_path.write_text("[1,2", encoding="utf-8")
-        r = self.run_script("build_site.py")
-        self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-10-02", 23990]])
+        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-09-21", 25990], ["2026-10-02", 23990]])
+        self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT|10000"], [["2026-09-21", 24990]])   # 搭板件下架但還在 90 天內, 保留
+        # 壞掉的 history.json 不讓排程失敗, 重新開始記: JSON 壞掉、頂層不是物件、值的形狀不對都算
+        for bad in ["[1,2", "[]", json.dumps({"12|RX9070XT": 123}), json.dumps({"12|RX9070XT": [["2026-09-21"]]}), json.dumps({"x": None})]:
+            hist_path.write_text(bad, encoding="utf-8")
+            r = self.run_script("build_site.py")
+            self.assertEqual(r.returncode, 0, bad + "\n" + r.stderr)
+            self.assertIn("重新開始記錄", r.stderr)
+            self.assertEqual(json.loads(hist_path.read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-10-02", 23990]], bad)
+            self.assertEqual(self.out()["quote_date"], "2026/10/2 14:55")   # data.json 照常更新
 
     def test_backfill_history_from_git(self):
         git = lambda *args: subprocess.run(["git", *args], cwd=self.root, capture_output=True, text=True, check=True)
         git("init", "-q"); git("config", "user.email", "t@t"); git("config", "user.name", "t")
         for date, price in [("2026/9/18 11:28", 25990), ("2026/9/25 9:00", 25990), ("2026/10/2 14:55", 23990)]:
             self.write_data(date, [it(5, "｛RX9070XT｝ 三風", price)])
-            git("add", "data"); git("commit", "-q", "-m", date)
+            git("add", "-A"); git("commit", "-q", "-m", date)
         self.write_data("2026/10/6 11:13", [it(5, "｛RX9070XT｝ 三風", 22990)])   # 工作區最新一次 (還沒提交)
         r = self.run_script("build_site.py", "--backfill-history")
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn("回填 3 次快照", r.stdout)
         hist = json.loads((self.root / "docs" / "history.json").read_text(encoding="utf-8"))
         self.assertEqual(hist["12|RX9070XT"], [["2026-09-18", 25990], ["2026-10-02", 23990], ["2026-10-06", 22990]])
+        # 淺 clone 讀不到歷史: 直接失敗提示, 不覆寫既有 history.json; 子目錄也能回填 (路徑相對 repo 根目錄)
+        shallow = Path(self.tmp.name) / "shallow"
+        subprocess.run(["git", "clone", "-q", "--depth", "1", f"file://{self.root}", str(shallow)], check=True, capture_output=True)
+        r = subprocess.run([sys.executable, str(SCRIPTS / "build_site.py"), "--backfill-history"], cwd=shallow, capture_output=True, text=True)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("淺 clone", r.stderr)
+        self.assertFalse((shallow / "docs" / "history.json").exists())
+        sub = self.root / "site"
+        sub.mkdir()
+        for name in ["builds", "data", "site.json"]:
+            (self.root / name).rename(sub / name)
+        git("add", "-A"); git("commit", "-q", "-m", "移到子目錄")
+        r = subprocess.run([sys.executable, str(SCRIPTS / "build_site.py"), "--backfill-history"], cwd=sub, capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("回填 1 次快照", r.stdout)   # 搬進子目錄後的那一次提交 (路徑變了, git log 只看得到它)
+        self.assertEqual(json.loads((sub / "docs" / "history.json").read_text(encoding="utf-8"))["12|RX9070XT"], [["2026-10-06", 22990]])
 
     def test_new_build_typo_still_fails(self):
         self.write_data("2026/10/2 14:55", [it(6, "｛RX9070GRE｝", 21490)])

@@ -19,7 +19,8 @@ site.json 欄位:
 
 data.json 只保留主機相關分類, 並剔除與組機無關的群組 (筆記型記憶體、散熱膏、線材...)。
 其餘分類與被剔除的群組 / 品項 (補集) 另存 data-more.json, 網頁切到「全部分類」加購其他商品時才載入。
-docs/history.json 是主機型錄每個型號的價格變動紀錄 (key = "分類 id|型號", value = [[YYYY-MM-DD, price], ...]), 網頁顯示近 30 天最低 / 最高與走勢;
+docs/history.json 是主機型錄每個型號的價格變動紀錄 (key = "分類 id|型號" 或條件價件的 "分類 id|型號|條件碼", value = [[YYYY-MM-DD, price], ...]),
+網頁顯示近 30 天最低 / 最高與走勢;
 只在價格變動時追加、保留 HISTORY_DAYS 天, 內容沒變時輸出逐位元相同 (排程靠 git diff 判斷要不要提交)。
 build 裡的零件對不到 (下架或命中多筆) 時, 沿用上一版 docs/data.json 對到的品名與價格並標 gone,
 網頁顯示「已下架」讓訪客自行改選; 不自動換品項, 也不讓排程失敗。只有上一版也沒有 (新寫的 build 打錯) 才報錯。
@@ -71,6 +72,24 @@ EXCLUDE_ITEMS = r"限搭NAS|限搭購QNAP|套裝加購"
 # 價格歷史保留天數 (網頁只看 30 天; 主機型錄約 2,700 個型號, 90 天估 200KB 內)
 HISTORY_DAYS = 90
 MODEL_RE = re.compile(r"｛([^｝]+)｝")
+# 影響價格的條件 (與 coolpc-live.js 的 COND_RE / parse_coolpc.py 的標記一致): 搭板專案、組裝價、裝機價、限搭機、限組裝
+# 同型號的條件價件 (搭板價、組裝價…) 跟一般件是不同的價格, 歷史要分開記, 否則一般件的「30 天最低」會是搭板價
+COND_RE = [re.compile(r"搭板|任搭|搭主機板"), re.compile(r"組裝價"), re.compile(r"裝機價"), re.compile(r"限搭機"), re.compile(r"限組裝")]
+NO_COND = "00000"
+
+
+def cond_code(name):
+    """品名 -> 五位 0/1 條件碼 (順序同 COND_RE); 沒有任何條件是 NO_COND。"""
+    return "".join("1" if re.search(r, name) else "0" for r in COND_RE)
+
+
+def history_key(cid, name):
+    """品名 -> 歷史的 key「分類 id|型號」, 條件價件加上「|條件碼」; 沒有 ｛型號｝ 回 None。同 builder-ui.js historyKey。"""
+    m = MODEL_RE.search(name)
+    if not m:
+        return None
+    code = cond_code(name)
+    return f"{cid}|{m[1].strip()}" + ("" if code == NO_COND else f"|{code}")
 
 
 def split_catalog(db, slots):
@@ -107,17 +126,30 @@ def iso_date(quote_date):
 
 
 def model_prices(categories):
-    """主機型錄 -> {"分類 id|型號": 價格}; 沒有 ｛型號｝ 的品項不記, 同型號多件 (代理 / 平輸、搭板價 vs 原價) 取最低價。"""
+    """主機型錄 -> {history_key: 價格}; 沒有 ｛型號｝ 的品項不記。
+    一般件與條件價件 (搭板 / 組裝價…) 各自一個 key; 同一 key 內多件 (代理 / 平輸) 取最低價 (網頁標「同型號最低款」)。"""
     low = {}
     for c in categories.values():
         for g in c["groups"]:
             for it in g["items"]:
-                m = MODEL_RE.search(it["name"])
-                if not m:
+                k = history_key(c["id"], it["name"])
+                if k is None:
                     continue
-                k = f"{c['id']}|{m[1].strip()}"
                 low[k] = min(low.get(k, it["price"]), it["price"])
     return low
+
+
+def valid_history(hist):
+    """上一版 history.json 的形狀: {key: [[日期字串, 數字], …]} 全部合格才 True (壞檔就從頭記, 不能讓排程失敗)。"""
+    if not isinstance(hist, dict):
+        return False
+    for k, v in hist.items():
+        if not isinstance(k, str) or not isinstance(v, list) or not v:
+            return False
+        for e in v:
+            if not (isinstance(e, list) and len(e) == 2 and isinstance(e[0], str) and isinstance(e[1], (int, float)) and not isinstance(e[1], bool)):
+                return False
+    return True
 
 
 def update_history(hist, prices, date, keep=HISTORY_DAYS):
@@ -154,12 +186,22 @@ def dump_history(hist):
 
 
 def backfill_history(root, data_rel, slots, keep=HISTORY_DAYS):
-    """從 git 歷史依時間順序讀每次 data/coolpc_prices.json, 累積成 history (一次性回填)。"""
-    shas = subprocess.run(["git", "log", "--reverse", "--format=%H", "--", data_rel], cwd=root,
-                          capture_output=True, text=True, check=True).stdout.split()
+    """從 git 歷史依時間順序讀每次 data/coolpc_prices.json, 累積成 history (一次性回填, 從頭重算)。
+    淺 clone 讀不到歷史、或網站在 repo 子目錄 (git show 的路徑相對 repo 根目錄) 都要處理, 不能靜默只剩一次快照。"""
+    top = subprocess.run(["git", "rev-parse", "--show-toplevel"], cwd=root, capture_output=True, text=True)
+    if top.returncode:
+        sys.exit("不在 git repo 裡, 無法回填")
+    top = Path(top.stdout.strip()).resolve()
+    git = lambda *args: subprocess.run(["git", *args], cwd=top, capture_output=True, text=True)   # pathspec 一律相對 repo 根目錄
+    if git("rev-parse", "--is-shallow-repository").stdout.strip() == "true":
+        sys.exit("這是淺 clone, git 歷史不完整; 先 git fetch --unshallow 再回填")
+    rel = (Path(root) / data_rel).resolve().relative_to(top).as_posix()
+    shas = git("log", "--reverse", "--format=%H", "--", rel).stdout.split()
+    if not shas:
+        sys.exit(f"git 歷史裡找不到 {rel} 的提交, 沒有可回填的快照")
     hist, n = {}, 0
     for sha in shas:
-        blob = subprocess.run(["git", "show", f"{sha}:{data_rel}"], cwd=root, capture_output=True, text=True)
+        blob = git("show", f"{sha}:{rel}")
         if blob.returncode:
             continue
         try:
@@ -319,21 +361,29 @@ def main():
         gone = sum(1 for it in b["items"].values() if it.get("gone"))
         print(f"  {b['key']}: {len(b['items'])} 件" + (f" ({gone} 件已下架)" if gone else ""))
 
-    # 價格歷史: 讀上一版 (壞掉就從頭記), 併入這次快照; 內容沒變就不重寫
-    hist = {}
-    if a.backfill_history:
-        hist = backfill_history(root, a.data, slots)
-    elif hist_path.exists():
+    # 價格歷史: 讀上一版 (壞掉就從頭記), 併入這次快照; 內容沒變就不重寫。這段不能讓每小時排程失敗 (data.json 要照常更新)
+    prev_hist = {}
+    if hist_path.exists():
         try:
-            hist = json.loads(hist_path.read_text(encoding="utf-8"))
-            if not isinstance(hist, dict):
-                raise ValueError("不是物件")
+            prev_hist = json.loads(hist_path.read_text(encoding="utf-8"))
+            if not valid_history(prev_hist):
+                raise ValueError("格式不對 (應為 {key: [[日期, 價格], …]})")
         except Exception as e:
             print(f"  ! 讀不到上一版 {hist_path.name}, 重新開始記錄: {e}", file=sys.stderr)
-            hist = {}
+            prev_hist = {}
+    hist = prev_hist
+    if a.backfill_history:
+        hist = backfill_history(root, a.data, slots)
+        dates = lambda h: {e[0] for v in h.values() for e in v}
+        if len(dates(hist)) < len(dates(prev_hist)):
+            print(f"::warning::回填只涵蓋 {len(dates(hist))} 個日期, 比既有的 {len(dates(prev_hist))} 個少 (git 歷史不完整?), 仍以回填結果覆寫", file=sys.stderr)
     date = iso_date(db["quote_date"])
     if date:
-        hist = update_history(hist, model_prices(categories), date)
+        try:
+            hist = update_history(hist, model_prices(categories), date)
+        except Exception as e:
+            print(f"  ! 價格歷史併入失敗, 重新開始記錄: {e}", file=sys.stderr)
+            hist = update_history({}, model_prices(categories), date)
         text = dump_history(hist)
         if not hist_path.exists() or hist_path.read_text(encoding="utf-8") != text:
             hist_path.write_text(text, encoding="utf-8")
