@@ -138,6 +138,9 @@ input[type=number] { width: 58px; height: 32px; padding: 3px 5px 3px 10px; borde
 .chg .small { display: block; margin-top: 4px; }
 .chg ul { margin: 10px 0 0; list-style: none; padding: 0; }
 .chg li { padding: 3px 0; font-variant-numeric: tabular-nums; }
+/* #diff (這張單跟分享時的內容比) 跟 #chg (跟分享時的報價比) 是兩回事：換個邊框色與記號，別看成同一框 */
+.chg.diff { border-color: #6a5a2e; background: #1c1810; }
+.chg-mark { display: inline-block; margin-right: 6px; color: #e3b341; }
 .chg .from { color: var(--muted); text-decoration: line-through; }
 .chg .added { color: var(--ok); }
 .chg .removed { color: var(--warn); }

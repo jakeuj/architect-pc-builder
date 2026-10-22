@@ -198,6 +198,7 @@ test('diffQuote：換件、數量、改用現價、新增與移除 (含其他商
   assert.deepEqual(d.changed.map(x => [x.slot, x.same, x.from.sub, x.to.sub, x.delta]),
     [['cpu', false, 80, 250, 170], ['ram', true, 160, 240, 80], ['+', true, 500, 250, -250]]);
   assert.deepEqual(d.changed[0].from, { name: 'old', qty: 1, price: 80, sub: 80 });
+  assert.deepEqual(d.changed.map(x => x.sameModel), [false, true, true]);   // 沒型號的品名：同一件才算同型號
   assert.deepEqual(d.changed[0].to, { name: 'new', qty: 1, price: 250, sub: 250 });
   assert.deepEqual(d.added.map(x => [x.slot, x.name, x.sub]), [['hdd', 'old', 100], ['+', '已下架', 60]]);
   assert.deepEqual(d.removed.map(x => [x.slot, x.name, x.sub]), [['ssd', 'new', 250], ['+', 'old', 80]]);
@@ -216,6 +217,13 @@ test('diffQuote：換件、數量、改用現價、新增與移除 (含其他商
   const gone = U.diffQuote({ rows: { cpu: null, ram: null }, more: [] }, { rows: { cpu: row('已下架'), ram: null }, more: [] }, find);
   assert.deepEqual(gone.added.map(x => [x.price, x.sub]), [[null, 0]]);
   assert.equal(gone.count, 1); assert.equal(gone.total.delta, 0);
+  // 同型號換品名 (改用現價後品名更新、搭板優惠結束)：same=false 但 sameModel=true，不同型號則 false
+  const renamed = U.diffQuote({ rows: { cpu: row('[搭板專案]｛R7 9700X｝任搭主機板', 1, 9950) }, more: [] },
+    { rows: { cpu: { cat: 6, name: '｛R7 9700X｝代理盒裝', qty: 1, pin: { price: 11550, d: 'x' } } }, more: [] }, find);
+  assert.deepEqual(renamed.changed.map(x => [x.same, x.sameModel, x.delta]), [[false, true, 1600]]);
+  const swapped = U.diffQuote({ rows: { cpu: row('｛R7 9700X｝代理盒裝', 1, 11550) }, more: [] }, { rows: { cpu: row('｛R5 9600X｝代理盒裝', 1, 8150) }, more: [] }, find);
+  assert.deepEqual(swapped.changed.map(x => [x.same, x.sameModel]), [[false, false]]);
+  assert.equal(U.condCode('[搭板專案]｛R7 9700X｝任搭主機板'), '10000'); assert.equal(U.condCode('｛R7 9700X｝代理盒裝'), '00000');
   // 其他商品同品名重複出現時逐件配對，不重複計
   const dup = U.diffQuote({ rows: {}, more: [{ ...row('old', 1, 80), x: true }, { ...row('old', 1, 70), x: true }] },
     { rows: {}, more: [{ ...row('old', 1, 80), x: true }] }, find);

@@ -148,7 +148,7 @@
   // orig / cur = {rows: {slot: row | null}, more: [row]}；row = {cat, name, qty, pin}；find(row).item = 現行型錄品項
   // 單價同 CoolPC.totals：鎖定的報價 (pin) 優先，否則用現價；查不到 (已下架且沒鎖價) 為 null、以 0 計
   // 回傳 {changed, added, removed, total: {from, to, delta}, count}
-  //   changed = [{slot, cat, same, from, to, delta}]：from / to = {name, qty, price, sub}；same = 同一件 (只改數量或改用現價)
+  //   changed = [{slot, cat, same, sameModel, from, to, delta}]：from / to = {name, qty, price, sub}；same = 同一件 (只改數量或改用現價)、sameModel = 同型號
   //   added / removed = [{slot, cat, name, qty, price, sub}]；其他商品 slot 為 '+'、用分類 + 品名配對
   function diffQuote(orig, cur, find) {
     const priceOf = r => r.pin ? r.pin.price : (find(r).item || {}).price ?? null;
@@ -163,9 +163,10 @@
       if (!a && !b) return;
       if (!a) return added.push({ slot, cat: b.cat, ...B });
       if (!b) return removed.push({ slot, cat: a.cat, ...A });
-      const same = key(a) === key(b);
+      const same = key(a) === key(b), ma = modelOf(a.name);
       if (same && A.qty === B.qty && A.price === B.price) return;
-      changed.push({ slot, cat: b.cat, same, from: A, to: B, delta: B.sub - A.sub });
+      // sameModel：品名不同但｛型號｝相同 (改用現價後品名更新、搭板優惠結束換成同型號一般件)，介面不當成換件
+      changed.push({ slot, cat: b.cat, same, sameModel: same || (!!ma && ma === modelOf(b.name)), from: A, to: B, delta: B.sub - A.sub });
     };
     for (const slot of new Set([...Object.keys(cur.rows), ...Object.keys(orig.rows)])) compare(slot, orig.rows[slot] || null, cur.rows[slot] || null);
     const rest = cur.more.slice();
@@ -378,7 +379,7 @@
   const api = { PURPOSES, purposeOf, purposesFor, normalize, catalogEntries, searchEntries, selectCandidate, previewCandidate,
     sameStore, storeOn, owned, issuerFor, parseMoney, storeMessage,
     cpuGraphics, psuWatts, VGA_PSU, vgaPower, snapshotAgeHours, diffQuote,
-    historyKey, isoOfQD, historyStats, sparkline, recentUpsert, recentClean, qrMatrix, qrVersionFor, qrSvg };
+    historyKey, condCode, isoOfQD, historyStats, sparkline, recentUpsert, recentClean, qrMatrix, qrVersionFor, qrSvg };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.BuilderUI = api;
 })(globalThis);
