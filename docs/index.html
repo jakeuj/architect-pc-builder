@@ -28,7 +28,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="builder.css?v=20261022-diff2">
+<link rel="stylesheet" href="builder.css?v=20261022-hist2">
 </head>
 <body>
 <main class="wrap">
@@ -282,8 +282,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-diff2"></script>
-<script src="builder-ui.js?v=20261022-diff2"></script>
+<script src="coolpc-live.js?v=20261022-hist2"></script>
+<script src="builder-ui.js?v=20261022-hist2"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -312,18 +312,32 @@
   const histOf = (cat, name) => { const k = HIST && U.historyKey(cat, name); return k && HIST[k] ? U.historyStats(HIST[k], U.isoOfQD(SRC.quote_date)) : null; };
   // 小字「30 天最低／最高」+ 迷你折線 (builder-ui.js)；price = 這件的現價，跟紀錄值不同 (同型號多件：代理 / 平輸，紀錄的是最低那件) 時標「同型號最低款」
   // 視窗內才上架的型號 (since < 30) 寫「上架 N 天」，不說「30 天沒變」
-  function histHtml(cat, name, price){
+  // histHtml 只放一個帶 data-* 的佔位 span，內容由 fillHist 填：history.json 還沒載好就先空著，載好後只填 span、不重畫卡片 (焦點不會掉)
+  const histHtml = (cat, name, price) => `<span class="d hist" data-cat="${cat}" data-name="${esc(name)}"${price != null ? ` data-price="${price}"` : ''}></span>`;
+  function histText(cat, name, price){
     const s = histOf(cat, name); if (!s) return '';
     const who = price != null && price !== s.last ? '同型號最低款：' : '';
     const span = s.since < s.days ? (s.since ? `上架 ${s.since} 天` : '今天上架') : '30 天';
-    return `<span class="d hist">${who}${s.flat ? `${span}${s.since < s.days ? '，' : ''}價格沒變（$${fmt(s.min)}）` : `${span}${s.since < s.days ? '：' : ''}最低 $${fmt(s.min)}／最高 $${fmt(s.max)}${U.sparkline(s)}`}</span>`;
+    return `${who}${s.flat ? `${span}${s.since < s.days ? '，' : ''}價格沒變（$${fmt(s.min)}）` : `${span}${s.since < s.days ? '：' : ''}最低 $${fmt(s.min)}／最高 $${fmt(s.max)}${U.sparkline(s)}`}`;
   }
+  function fillHist(root){
+    if (!HIST) return;
+    for (const el of root.querySelectorAll('.hist[data-name]')) {
+      const text = histText(+el.dataset.cat, el.dataset.name, el.dataset.price == null ? null : +el.dataset.price);
+      if (text) el.innerHTML = text; else el.remove();   // 沒資料不留空行
+      el.removeAttribute('data-name');
+    }
+  }
+  // 第一次進編輯畫面才載 (唯讀估價單不顯示歷史)；不加 ?時間戳：GitHub Pages 的 CDN 不看 query，加了只會讓瀏覽器永遠不能用快取與 ETag
+  let histLoading = false;
   async function loadHistory(){
+    if (HIST || histLoading || mode !== 'edit') return;
+    histLoading = true;
     try {
-      const r = await fetch('history.json?' + Date.now()); if (!r.ok) return;
+      const r = await fetch('history.json'); if (!r.ok) return;
       const h = await r.json(); if (!h || typeof h !== 'object' || Array.isArray(h)) return;
       HIST = h;
-      if (!picker.open && (!document.activeElement || document.activeElement === document.body)) render();
+      fillHist(document);
     } catch (e) { console.warn('價格歷史載入失敗：', e); }
   }
 
@@ -654,6 +668,7 @@
       const empty = document.createElement('p'); empty.className = 'no-results';
       empty.textContent = '找不到符合的零件，試試減少關鍵字或切回全部規格群組。'; results.appendChild(empty);
     }
+    fillHist(results);
     results.scrollTop = 0;
   }
   function showPicker(title, r, more){
@@ -745,6 +760,7 @@
     });
     if (T.diff) li.push(`<li><b>合計 <span class="${T.diff > 0 ? 'up' : 'down'}">${arrow(T.diff)}</span></b>（$${fmt(T.quoted)} → $${fmt(T.current)}）</li>`);
     el.innerHTML = head + '<ul>' + li.join('') + '</ul>';
+    fillHist(el);
   }
 
   // 分享單改過後：跟分享時的內容 (orig) 逐格比，列出換了哪幾格、各差多少、新增 / 移除與數量變更 (builder-ui.js diffQuote)
@@ -924,6 +940,7 @@
     if (m === 'view') scrollBack = window.scrollY;
     mode = m; applyMode(); render();
     if (m === 'view') { window.scrollTo(0, 0); $('#sheet-title').focus({ preventScroll: true }); return; }
+    loadHistory();
     // 回編輯：回到按「預覽」前的位置與按鈕；直接開檢視連結進來的就回頁首
     const back = returnFocus && returnFocus.getClientRects().length ? returnFocus : null;
     returnFocus = null;
@@ -964,6 +981,7 @@
       </div>` : ''}
     </div>`;
     container.appendChild(part);
+    fillHist(part);
     part.querySelector('.text-button').onclick = choose;
     const rm = part.querySelector('.remove');
     if (rm) rm.onclick = () => {
