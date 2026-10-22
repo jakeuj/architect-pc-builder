@@ -37,8 +37,11 @@ jobs:
         run: python3 -m unittest discover -s .claude/skills/coolpc/tests
 
       # 測試跑的是 templates/ 副本, docs/ 若只改一邊測試照樣會過, 所以要求兩邊一致
+      # index.html 兩邊只差站台專屬的 title / og / twitter / canonical / 圖示 / manifest / h1 / repo 連結：去掉那些行再比, inline 主程式只改一邊會紅燈
       - name: docs/ 與 templates/ 介面檔一致
         run: |
           for f in builder-ui.js coolpc-live.js builder.css; do
             diff -u ".claude/skills/coolpc/templates/$f" "docs/$f" || { echo "::error::docs/$f 與 templates/$f 不一致"; exit 1; }
           done
+          norm() { grep -v -E '<title>|property="og:|name="twitter:|rel="canonical"|rel="icon"|rel="apple-touch-icon"|rel="manifest"|<h1 id="title">|id="repo"' "$1"; }
+          diff -u <(norm .claude/skills/coolpc/templates/index.html) <(norm docs/index.html) || { echo "::error::docs/index.html 與 templates/index.html 的程式部分不一致 (只差站台專屬的 meta / 標題 / 圖示 / repo 連結才算一致)"; exit 1; }
