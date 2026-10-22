@@ -373,7 +373,7 @@ body.view-mode .hero, body.view-mode #meta, body.view-mode .info-card { display:
   .part-actions { gap: 4px; }
   .part-actions .text-button { min-width: 44px; min-height: 44px; padding: 6px; }
   input[type=number] { min-height: 44px; }
-  .scope-btn, .mobile-actions .b, .purpose-toolbar > .text-button, .build-note summary { min-height: 44px; }
+  .scope-btn, .mobile-actions .b, .purpose-toolbar > .text-button, .build-note summary, .recent-clear { min-height: 44px; }
   .part-price { max-width: 100%; }
   .unit-price { font-size: 10px; }
   .subtotal { font-size: 15px; }

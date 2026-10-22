@@ -206,7 +206,8 @@
     return m ? +m[1] * 1e8 + +m[2] * 1e6 + +m[3] * 1e4 + (+m[4] || 0) * 100 + (+m[5] || 0) : 0;
   }
 
-  // 分享連結格式 (字首是版本)：'1' + base64url(UTF-8 JSON)；'2' + base64url(deflate-raw(UTF-8 JSON))，2026-10-22 起，約省一半長度
+  // 分享連結格式 (字首是版本)：'1' + base64url(UTF-8 JSON)；'2' + base64url(deflate-raw(UTF-8 JSON))，2026-10-22 起
+  // (中文品名本身難壓：實測 8 列主機單 1,243 → 1,028 字元只省 17%，加 12 件其他商品省 38%、店家單省 20%)
   // 解碼兩種都收 (舊連結永遠要能開)；瀏覽器沒有 CompressionStream 時編碼退回 '1'。店家設定連結 (encodeStore) 很短，維持 '1'
   // JSON = {d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}；d 取最多列共用的報價日期，同 d / qty=1 的尾欄省略
   // 店家單另有選用欄位 (舊版網頁會忽略)：s 店家資訊、p [本店價, 填價時的原價屋合計]、x 服務列、c 客戶稱呼、u 有效期限、m 備註、h 隱藏原價屋單價
@@ -218,7 +219,17 @@
   }
   const b64urlEncode = str => b64urlBytes(new TextEncoder().encode(str));
   const b64urlDecode = s => new TextDecoder('utf-8', { fatal: true }).decode(bytesB64url(s));
-  const canZip = () => typeof CompressionStream === 'function' && typeof DecompressionStream === 'function';
+  // 瀏覽器有沒有 deflate-raw：Chromium 80–102 (舊 Android 的 LINE / FB 內建瀏覽器) 有 CompressionStream 類別但不支援 'deflate-raw'，
+  // 建構會丟 TypeError，所以實際建一次並記住 (以類別本身當 key，測試換掉類別時會重算)
+  let zipSeen = null, zipOk = false;
+  const canZip = () => {
+    const CS = typeof CompressionStream === 'function' ? CompressionStream : null, DS = typeof DecompressionStream === 'function' ? DecompressionStream : null;
+    if (!zipSeen || zipSeen[0] !== CS || zipSeen[1] !== DS) {
+      zipSeen = [CS, DS];
+      try { new CS('deflate-raw'); new DS('deflate-raw'); zipOk = true; } catch (e) { zipOk = false; }
+    }
+    return zipOk;
+  };
   // bytes 經過 (De)CompressionStream；max = 解開後的上限 (連結長度已限制，再擋住惡意壓縮炸彈)
   async function pipeBytes(bytes, stream, max = Infinity) {
     const reader = new Blob([bytes]).stream().pipeThrough(stream).getReader();
@@ -379,12 +390,13 @@
     if (!o || !Array.isArray(o.r) || !o.r.length || o.r.length > 60) throw new Error('連結內容不完整');
     const str = (v, max) => typeof v === 'string' && v.length <= max ? v : '';
     const d = str(o.d, 32);
-    const slotMap = Object.fromEntries(slots.map(x => [x.key, x]));
+    const slotMap = new Map(slots.map(x => [x.key, x]));   // Map：slot 寫成 'constructor' / '__proto__' 這類原型鍵只會查不到、算 dropped
     const rows = [], seen = new Set();
     let dropped = 0;
     for (const a of o.r) {
-      const ok = Array.isArray(a) && slotMap[a[0]] && (slotMap[a[0]].multi || !seen.has(a[0]))
-        && Number.isInteger(a[1]) && slotMap[a[0]].cats.includes(a[1])
+      const slot = Array.isArray(a) ? slotMap.get(a[0]) : null;
+      const ok = !!slot && (slot.multi || !seen.has(a[0]))
+        && Number.isInteger(a[1]) && slot.cats.includes(a[1])
         && typeof a[2] === 'string' && a[2].length > 0 && a[2].length <= 200
         && Number.isInteger(a[3]) && a[3] >= 0 && a[3] <= 1e7;
       if (!ok) { dropped++; continue; }

@@ -90,6 +90,9 @@ test('壞掉的連結丟錯 (截斷、非法字元、版本、超長、空)', as
   const enc = o => '1' + Buffer.from(JSON.stringify(o)).toString('base64url');
   await assert.rejects(C.decodeQuote(enc({ d: 'x', r: [] }), SLOTS));
   await assert.rejects(C.decodeQuote(enc({ d: 'x', r: Array(61).fill(['cpu', 4, 'a', 1]) }), SLOTS));
+  // slot 寫成原型鏈上的名字：那一列算 dropped，其他列照常，不丟 TypeError
+  const proto = await C.decodeQuote(enc({ d: 'x', r: [['constructor', 4, 'a', 1], ['__proto__', 4, 'a', 1], ['toString', 4, 'a', 1], [7, 4, 'a', 1], ['cpu', 4, 'b', 2]] }), SLOTS);
+  assert.equal(proto.dropped, 4); assert.deepEqual(proto.rows.map(r => r.name), ['b']);
   // 壓縮炸彈：解開超過 256KB 就擋 (JSON 合法、r 只有一列，但塞了 1MB 的空白)
   const bomb = '2' + zlib.deflateRawSync(Buffer.from('{"d":"x","r":[["cpu",4,"a",1]]' + ' '.repeat(1 << 20) + '}')).toString('base64url');
   assert.ok(bomb.length < 40000);
@@ -114,6 +117,13 @@ test('壓縮連結 (版本 2)：解開的內容跟版本 1 相同、沒有 Compr
   await assert.rejects(C.decodeQuote(s2, SLOTS), /瀏覽器/);
   assert.equal((await C.decodeQuote(s1, SLOTS)).rows.length, 2);
   globalThis.DecompressionStream = DS;
+  // Chromium 80–102：有類別但 'deflate-raw' 建構會丟 TypeError -> 編碼退回 1、解碼版本 2 也要報「太舊」而不是「連結不完整」
+  const Old = class { constructor(format) { if (format === 'deflate-raw') throw new TypeError('unsupported format'); } };
+  globalThis.CompressionStream = Old; globalThis.DecompressionStream = Old;
+  assert.equal((await C.encodeQuote(q))[0], '1');
+  await assert.rejects(C.decodeQuote(s2, SLOTS), /太舊/);
+  globalThis.CompressionStream = CS; globalThis.DecompressionStream = DS;
+  assert.equal((await C.encodeQuote(q))[0], '2');   // 換回真的類別後重新偵測
 });
 
 test('其他商品 (multi 欄位)：可重複、分類要在清單內、10 格 + 40 件解得開', async () => {

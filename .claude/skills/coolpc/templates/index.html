@@ -9,7 +9,7 @@
 <meta property="og:title" content="PC 組裝估價">
 <meta property="og:description" content="用原價屋含稅報價配電腦：每個零件都能換，自動提示相容性；整張估價單存成一條連結，日後打開還看得到漲跌。">
 <meta name="theme-color" content="#0b0f14">
-<link rel="stylesheet" href="builder.css?v=20261022-qr">
+<link rel="stylesheet" href="builder.css?v=20261022-recent">
 </head>
 <body>
 <main class="wrap">
@@ -196,7 +196,7 @@
         <li>零件旁的「30 天最低／最高」與小折線是從每小時快照整理的同型號價格變動，用來看最近是漲是跌、現在的價格算高還是低。搭板價、組裝價等條件價跟一般價分開記；同型號有代理／平輸多件時記最低那件並標「同型號最低款」；只記主機零件分類；30 天內沒變、或上架未滿 30 天，只寫文字不畫折線。</li>
         <li id="note-more" hidden>切到「全部分類」可以另外加購原價屋其他分類的商品（螢幕、鍵鼠、喇叭耳機、作業系統，或第二顆 SSD、散熱膏等），同一類可以加好幾件；選件面板可以選分類，也可以跨分類搜尋。</li>
         <li>「複製分享連結」會把整張估價單（品名、當時價格、日期）存進網址，打開是一張唯讀的估價單：可以列印或存成 PDF，任何時候打開都看得到當初的報價，並標出原價屋現價的漲跌與已下架品項（搭板、裝機價等優惠結束但同型號還在賣的，改跟同型號的現價比）。按「編輯這張估價單」就能改單，改過的品項以現價計，上方會列出跟分享時的內容比換了哪幾格、各差多少，再分享就是新的連結；「複製可編輯連結」打開直接是編輯畫面，「預覽估價單」可以先看看分享出去的樣子。</li>
-        <li>分享連結從 2026/10/22 起會壓縮（網址較短），舊連結照樣能開；唯讀估價單右上角有這條連結的 QR Code，列印也會帶著，店家可以直接給客人掃。分享或預覽過的估價單會記在這台裝置的「最近開過」（起始配置區的分頁，最多 30 筆，只存在你的瀏覽器，可清除），不用再翻聊天紀錄找連結。</li>
+        <li>分享連結從 2026/10/22 起會壓縮（網址較短），舊連結照樣能開；唯讀估價單右上角有這條連結的 QR Code，列印也會帶著，店家可以直接給客人掃。分享、預覽或打開過的估價單會記在這台裝置的「最近開過」（起始配置區的分頁，記的是快照連結，最多 30 筆，只存在你的瀏覽器，可清除），不用再翻聊天紀錄找連結。</li>
         <li>按「全部清空」可以從空白開始，只分享單一零件（例如只分享記憶體）；按「重設為預設」可以復原。</li>
         <li>「帶到原價屋估價頁」會在新分頁開啟原價屋官方估價頁，預先選好這張單的品項與數量，可以接著在那邊列印或聯絡原價屋。那邊一律是原價屋現價；已下架的品項不會帶入，搭板、裝機價等優惠結束的改帶同型號現行品項。</li>
         <li id="note-live">每小時自動抓取原價屋報價快照；預設配置的零件若下架，會保留原品項並標示「已下架」，請按「更換」改選。</li>
@@ -263,8 +263,8 @@
 </dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="coolpc-live.js?v=20261022-qr"></script>
-<script src="builder-ui.js?v=20261022-qr"></script>
+<script src="coolpc-live.js?v=20261022-recent"></script>
+<script src="builder-ui.js?v=20261022-recent"></script>
 <script>
 (async function(){
   const $ = s => document.querySelector(s);
@@ -475,11 +475,25 @@
     $('#shared-return').hidden = !tabs.some(t => t.kind === 'shared');
   }
 
-  // 「最近開過」：每筆是分享 / 預覽過的估價單連結，點了直接開 (重新載入)；清除只刪這台裝置的紀錄
+  // 「最近開過」：每筆是分享 / 預覽 / 打開過的估價單快照連結，點了直接開 (重新載入)；清除只刪這台裝置的紀錄
+  // 目前開著的那張 (連結裡的 q 跟這張單一樣) 標 .on 與 aria-current (markRecent)；這些卡片沒有 dataset.key，renderPreset 的 aria-pressed 不會動它們
+  let recentSync = false;
+  function markRecent(){
+    const cards = tabsEl.querySelectorAll('.tab.recent');
+    if (!cards.length) return;
+    const curQ = cur.kind === 'shared' && !dirty(cur) ? cur.raw : encodedNow(cur);
+    // 壓縮結果還沒算 (剛載入預設配置) 就算一次再補標記
+    if (!curQ && !isEmpty(cur) && !recentSync) { recentSync = true; encoded(cur).then(() => { recentSync = false; markRecent(); }, () => { recentSync = false; }); }
+    for (const el of cards) {
+      const on = !!curQ && C.readLink(el.dataset.hash).q === curQ;
+      el.classList.toggle('on', on);
+      if (on) el.setAttribute('aria-current', 'true'); else el.removeAttribute('aria-current');
+    }
+  }
   function renderRecentTabs(){
     for (const e of recent) {
       const el = document.createElement('button'); el.className = 'tab recent'; el.dataset.hash = e.hash;
-      el.innerHTML = `<div class="tab-title">${esc(e.n)}</div><small>報價日期 ${esc(e.d)}${e.at ? '・' + esc(e.at) + ' 開過' : ''}</small><div class="tab-price">$${fmt(e.total)}<span>合計</span></div>`;
+      el.innerHTML = `<div class="tab-title">${esc(e.n)}<span class="tab-check" aria-hidden="true">✓</span></div><small>報價日期 ${esc(e.d)}${e.at ? '・最近使用 ' + esc(dateText(e.at)) : ''}</small><div class="tab-price">$${fmt(e.total)}<span>合計</span></div>`;
       el.onclick = () => openRecent(e.hash);
       tabsEl.appendChild(el);
     }
@@ -493,6 +507,7 @@
       $('#purposes').querySelector('[aria-pressed="true"]')?.focus({ preventScroll: true });
     };
     tabsEl.appendChild(clear);
+    markRecent();
   }
 
   function renderPreset(){
@@ -503,9 +518,11 @@
     $('#preset-state').textContent = dirty(cur) ? '已調整' : cur.kind === 'shared' ? '分享時內容' : '預設配置';
     $('#preset-total').textContent = '$' + fmt(C.totals(allRows(cur), find).quoted);
     for (const el of tabsEl.children) {
+      if (!('key' in el.dataset)) continue;   // 最近開過的卡片 (markRecent 處理) 與清除按鈕
       const on = el.dataset.key === cur.key;
       el.classList.toggle('on', on); el.setAttribute('aria-pressed', String(on));
     }
+    markRecent();
   }
 
   function select(t){
@@ -1136,13 +1153,15 @@
   // 壓縮是 async：連續幾次重畫只採用最後一次的結果
   async function syncHash(){
     clearTimeout(syncTimer);
-    const seq = ++syncSeq;
+    const seq = ++syncSeq, before = location.hash;
     let h;
     try { h = await hashFor(cur); } catch (e) { console.error('無法產生連結：', e); return; }
-    if (seq !== syncSeq) return;
+    // 等壓縮的期間又重畫了 (以最新為準)，或網址被外部改掉 (點了最近開過、網址列貼新連結)：放棄這次，別把人家的網址蓋回去
+    if (seq !== syncSeq || location.hash !== before) return;
     try { if (h !== location.hash) history.replaceState(null, '', h || location.pathname + location.search); } catch (e) { scheduleSync(); }
     lastHash = location.hash;
-    if (mode === 'view' && h) rememberRecent(h);
+    // 檢視模式 (預覽、打開唯讀連結) 記進最近開過：一律記快照連結 (#v=1&q=)，跟「複製分享連結」存的是同一筆；預設配置的 #v=1&b= 會跟著現價走，不記
+    if (mode === 'view' && !isEmpty(cur)) withShareUrl(cur, true, url => rememberRecent(url.slice(url.indexOf('#'))));
   }
   const scheduleSync = () => { clearTimeout(syncTimer); syncTimer = setTimeout(syncHash, 400); };
   // 在同一個分頁貼上別的連結 (只改 # 後面) 時重新載入；店家設定連結 / #store 直接開店家設定
