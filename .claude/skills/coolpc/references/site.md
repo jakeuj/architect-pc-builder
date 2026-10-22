@@ -24,6 +24,7 @@ docs/graph/index.html 開發者知識圖 (本 repo 限定; scripts/publish_graph
 graphify-out/        graphify 本機輸出 (graph.json / graph.html / manifest / cache); --update 靠它找變動檔
 docs/.nojekyll
 quote.md             quote.py --summary 產出
+sdd/<feature>/       功能提案與驗收 (sdd 技能的 proposal.md / tasks.md, 部分另有 verification.md 驗收紀錄與 evidence/ 截圖; builder-ui-optimization / dark-builder / store-quote / price-history; 本 repo 限定, 不進網站)
 .github/workflows/update-prices.yml
 .gitignore           evaluate*.php, .claude/launch.json, .claude/settings.local.json, __pycache__/, .DS_Store
 game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
@@ -52,17 +53,19 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## 分享連結版本 2、QR Code、最近開過 (2026-10-22 起)
 
-- `encodeQuote` / `decodeQuote` 是 async：'2' + base64url(deflate-raw(JSON))，沒有 `CompressionStream` 的瀏覽器編碼退回 '1'，解碼 '1' / '2' 都收 (舊連結永遠要能開)；解開後超過 256KB 就擋 (壓縮炸彈)。實測 8 列主機單 1,243 → 1,028 字元 (中文品名本身難壓，其他商品多時省更多)。`encodeStore` 維持 '1'。
+- `encodeQuote` / `decodeQuote` 是 async：'2' + base64url(deflate-raw(JSON))，沒有 `CompressionStream` 的瀏覽器編碼退回 '1'，解碼 '1' / '2' 都收 (舊連結永遠要能開)；解開後超過 256KB (`MAX_UNPACKED`) 就擋 (壓縮炸彈)。實測 8 列主機單 1,243 → 1,028 字元，只省約 17% (中文品名本身難壓，其他商品多時省更多；LINE／FB 截斷問題只緩解)；同一張單加滿店家欄位 1,572 → 1,259。`encodeStore` 維持 '1'。
+- 反向相容的邊界：沒有 `DecompressionStream` 的舊瀏覽器開 '2' 連結，`decodeQuote` 丟「這個瀏覽器太舊，無法讀取壓縮的連結」，頁面 toast「分享連結無法讀取（…）」後退回預設配置；改版後 Pages 快取的舊頁 (約 10 分鐘) 開新連結同樣退回，訊息是「不支援的連結版本」(用 53a1f19 的 `coolpc-live.js` 驗過)。有串流類別但不認 `deflate-raw` 的環境 (Chrome 103 以前、Node 20.12／21.2 以前) 編碼照樣退回 '1'，但開 '2' 連結會報「連結不完整，可能在複製時被截斷」：跑測試與「從現成估價單產生連結」的腳本要 Node 20.12+ (CI 用 22)，而且 `encodeQuote` / `decodeQuote` 都要 `await`。
 - index.html：`encoded(t)` 以 quoteOf 的 JSON 當 key 快取壓縮結果，每次重畫 `syncHash` (async，用序號只採最後一次) 先算好，分享時 `shareUrlNow` 同步拿到；拿不到時 `copyText` 把 promise 交給 `ClipboardItem` (Safari 離開使用者手勢就不給寫剪貼簿)。
-- 唯讀估價單右上角 `#sheet-qr`：`U.qrSvg(url)` (builder-ui.js 內建 QR 產生器，byte 模式、版本 1–40、糾錯 M／版本 > 20 改 L，與 python-qrcode 逐格對照過，有已知答案測試)，連結沒變不重畫；列印 30mm。
-- 最近開過：`localStorage` `coolpc.recent` = `[{n, d, total, hash, at}]` (`U.recentUpsert` 最多 30 筆、同 hash 只留一筆；讀回用 `U.recentClean` 驗證)，分享或檢視模式 syncHash 時 `rememberRecent`；起始配置區多一個「最近開過」用途，卡片點了改 `location.hash` 重新載入，附清除按鈕。
+- 唯讀估價單右上角 `#sheet-qr`：`U.qrSvg(url)` (builder-ui.js 內建 QR 產生器，byte 模式、版本 1–40、糾錯 L／M，與 python-qrcode 逐格對照過，有已知答案測試)，連結沒變不重畫 (`box.dataset.url`)；店家版也有。糾錯等級依長度只算一次 (`qrVersionFor`)：放得進版本 20 的用 M (可修 15% 損壞)，更長的用 L (只修 7%，但同一條網址少 3–4 個版本、格子少比較好掃；實測 1,028 字元的連結 M 是版本 26／121 格、L 版本 23／109 格)，上限是 L 的 2,953 bytes。尺寸隨格數放大 (a6efd87 起)：svg 自帶 `data-n` (含 4 格留白的格數)，`width`／`height` = max(104px, n×2) 讓每格至少 2 CSS px，列印由 CSS `calc(var(--qr-n) * 0.4mm)` 算 (版本 23 約 47mm；固定 104px／30mm 時每格不到 1px／0.3mm，相機掃不到)；`renderQr` 先把估價單畫出來、`setTimeout` 延後一拍再算 (版本 20 幾、8 種遮罩各算一次懲罰分，手機要幾十 ms)，回來時確認還是同一張單、同一條連結才放。放不下 (`qrSvg` 回 '') 時改顯示「連結太長，無法產生 QR Code；請改用「複製估價單連結」」而不是藏起來。
+- 最近開過：`localStorage` `coolpc.recent` = `[{n, d, total, hash, at}]` (`U.recentUpsert` 最多 30 筆、同 hash 只留一筆；讀回用 `U.recentClean` 驗證)，按「複製分享連結」與檢視模式 (預覽、打開唯讀連結) 的 syncHash 時 `rememberRecent`；記的一律是快照連結 `#v=1&q=` (預設配置的預覽也記快照，不記會跟著現價走的 `#v=1&b=`，跟「複製分享連結」存的是同一筆)；起始配置區多一個「最近開過」用途，卡片點了改 `location.hash` 重新載入，附清除按鈕。
 
 ## docs/history.json (價格歷史，2026-10-22 起)
 
-- 平的物件：`{"<分類 id>|<型號>": [["YYYY-MM-DD", price], …]}`，型號取品名 `｛…｝` 內的字 (沒有型號的品項不記)，日期是該次快照的報價日期；只在價格跟上一筆不同時追加、同一天變動兩次只留最新、同型號多件 (代理 / 平輸、搭板價 vs 原價) 取最低價。
-- 只涵蓋主機型錄 (`data.json` 的分類與剔除規則)：全部分類 6,600 多件 35 天就 310KB，主機型錄約 2,700 個型號 150KB；保留 `HISTORY_DAYS` = 90 天 (cutoff 之前只留最後一筆當走勢起點；已下架且最後一筆超過 90 天的型號整個拿掉)，估 200KB 內。
+- 平的物件：`{"<分類 id>|<型號>": [["YYYY-MM-DD", price], …]}`，條件價件 (品名含搭板／任搭／搭主機板、組裝價、裝機價、限搭機、限組裝，`COND_RE` 同 coolpc-live.js) 的 key 另加 `|<五位 0/1 條件碼>` (例 `4|AMD R7 9700X|10000`；`build_site.py` 的 `history_key()` 與 builder-ui.js 的 `U.historyKey` 同一套，兩邊都有測試釘住，f005f8e 起)，型號取品名 `｛…｝` 內的字 (沒有型號的品項不記)，日期是該次快照的報價日期；只在價格跟上一筆不同時追加、同一天變動兩次只留最新 (同日改回前一筆的價格就把那筆拿掉)、比最後一筆還舊的快照 (回填順序錯) 不寫、同一 key 內多件 (代理 / 平輸) 取最低價 (網頁標「同型號最低款」)；搭板價 vs 原價已是不同 key，一般件的歷史不會混到搭板價。
+- 只涵蓋主機型錄 (`data.json` 的分類與剔除規則)：全部分類 6,600 多件 35 天就 310KB，主機型錄回填後 2,761 個 key (含 162 個條件價件) 158KB；保留 `HISTORY_DAYS` = 90 天 (cutoff 之前只留最後一筆當走勢起點；已下架且最後一筆超過 90 天的型號整個拿掉)，估 200KB 內。
 - `build_site.py` 每次讀上一版併入這次快照 (`update_history()` 純函式，壞檔就重新開始記)，key 排序、不放時間戳，內容沒變時逐位元相同；`--backfill-history` 從 `git log -- data/coolpc_prices.json` 依序回填 (一次性)。CI 的 `paths-ignore` 有這個檔。
-- 網頁：`loadHistory()` 背景抓，失敗只 console.warn；`U.historyKey` / `U.historyStats(series, today, 30)` / `U.sparkline(stats)` 算近 30 天 (視窗起點承接之前的價格、尾端延伸到報價日期)；零件卡、選件面板每個品項、分享單漲跌摘要各加一行 `.d.hist`；30 天內沒變只寫「30 天價格沒變」、沒資料不顯示；這件的現價跟紀錄的同型號最低價不同時標「同型號」。唯讀估價單不顯示。
+- 網頁：`loadHistory()` 在主畫面畫好後背景 `fetch('history.json?' + Date.now())` (跟 `data-more.json` 一樣加時間戳防快取)；非 2xx 或不是物件就略過，例外只 console.warn；載完只在選件面板沒開 (`picker.open` 為 false) 且頁面沒有元素聚焦 (`document.activeElement` 是 body) 時才 `render()`，否則等下一次重畫才看得到。
+- 顯示：`U.historyKey` / `U.historyStats(series, today, 30)` / `U.sparkline(stats)` 算近 30 天 (視窗起點承接之前的價格、尾端延伸到報價日期)；零件卡、選件面板每個品項、分享單漲跌摘要各加一行 `.d.hist`；30 天內沒變只寫「30 天價格沒變（$X）」不畫線；視窗內才上架的型號 (`historyStats` 回傳的 `since` < 30) 寫「上架 N 天，價格沒變（$X）」／「今天上架，價格沒變（$X）」，有變動則「上架 N 天：最低 $X／最高 $Y」+ 折線 (f005f8e 起)；沒資料不顯示；這件的現價跟紀錄的最後一筆 (`s.last`) 不同時前綴「同型號最低款：」(條件價件已另記 key，會不同的只剩同一 key 內代理／平輸多件、紀錄的是最低那件)。唯讀估價單不顯示 (檢視模式整個 `#builder` 隱藏，`renderSheet` 不查)。其他商品 (`data-more.json`) 沒另外記，`histHtml` 對其他商品列照查、查不到就不顯示；被剔除群組裡跟主機型錄同型號的品項 (例如 NAS 機殼群的同一款機殼) 會共用主機型錄那件的紀錄。提案、取捨與驗收條件在 `sdd/price-history/` (proposal.md / tasks.md)。
 
 ## docs/data-more.json (全部分類，2026-10-06 起)
 
@@ -76,9 +79,9 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 
 ## 分享連結 (估價單快照)
 
-- `#q=1<base64url(UTF-8 JSON)>`，`1` 是格式版本 (日後要壓縮可用別的字首；實測 deflate 只省約 20%，中文品名壓不太動)。一套 8 件約 1.1–1.3K 字元。
+- `#q=<版本字首><資料>`：`1` + base64url(UTF-8 JSON) 是原始格式，`2` + base64url(deflate-raw(UTF-8 JSON)) 是 2026-10-22 起 `encodeQuote` 的預設輸出 (沒有 `CompressionStream` 的瀏覽器仍退回 `1`；細節見「分享連結版本 2、QR Code、最近開過」)；`decodeQuote` 兩種都收，其他字首丟「不支援的連結版本」。一套 8 件 `1` 約 1.1–1.3K 字元、`2` 約 1K (中文品名壓不太動，實測只省 17–19%)。Pages 快取的舊版網頁 (約 10 分鐘) 開到版本 2 連結會 toast「分享連結無法讀取（不支援的連結版本），先顯示預設配置」並退回預設配置，不會壞掉。
 - JSON = `{d, n?, b?, r: [[slot, cat, name, price, qty?, d?]]}`：`d` 是最多列共用的報價日期，列的日期與 `d` 相同就省略；qty = 1 且後面沒欄位就省略；`n` 標籤、`b` 來源 build。
-- 解碼 (`CoolPC.decodeQuote`) 逐列驗證：最多 60 列 / 40000 字元、slot 要在 `D.slots`、cat 要屬於該 slot、品名 ≤ 200 字、價格 0–10⁷ 整數、qty 夾 1–9、同 slot 取第一列。整個壞掉 (截斷) 就 toast 後回預設。
+- 解碼 (`CoolPC.decodeQuote`，async) 逐列驗證：最多 60 列 / 40000 字元、slot 要在 `D.slots`、cat 要屬於該 slot、品名 ≤ 200 字、價格 0–10⁷ 整數、qty 夾 1–9、同 slot 取第一列。字首只收 '1' / '2'；版本 2 要 `canZip()` (`CompressionStream` 與 `DecompressionStream` 都在)，沒有就丟「這個瀏覽器太舊，無法讀取壓縮的連結」；解開後超過 256KB (`MAX_UNPACKED`，`pipeBytes` 邊讀邊算) 丟「連結內容過大」(壓縮炸彈；這兩種都有測試)。整個壞掉 (截斷) 就 toast 後回預設。
 - 其他商品 (全部分類) 存成 slot `'+'` 的列，可重複；網頁解碼時多傳 `{key: '+', cats: D.more.cats 的 id, multi: true}`。上限要涵蓋 UI 能產生的最大單 (10 格 + 其他商品 40 件)，改 UI 上限時一起改。舊版網頁不認得 `'+'`，會略過這些列並 toast「N 個品項格式不符」，主機格照常還原。
 - 連結內容任何人都能捏造：品名、標籤、日期一律 `textContent` 或 `esc()` 後才放進 DOM (估價單檢視頁、`document.title` 也一樣)。
 - 唯讀估價單 (檢視模式，2026-10-06 起)：`#v=1&q=…` (沒動過的預設配置是 `#v=1&b=mid`)。`v=1` 一律放最前、`q` 優先於 `b`，網址由 `CoolPC.readLink(hash)` / `CoolPC.linkHash({view, q, b})` 讀寫 (有測試)。舊版網頁有 `q` 時只讀 `q`、忽略 `v`，所以新連結在快取的舊頁照樣開編輯模式。檢視模式只給解得開的 `q` 或對得到的 `b`；壞連結、`#v=1&b=不存在` 都退回編輯模式，不把預設配置當成別人的估價單顯示。
@@ -89,7 +92,7 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 給電腦店老闆／業務幫客人報價：估價單抬頭換成店家、整單本店價、服務加價列、客戶稱呼、有效期限、備註、可隱藏原價屋單價。UI 見 site-ui.md「店家模式」。
 
 - 本機店家資料 localStorage `coolpc.store` = `{on, name, rep, tel, line, addr, tag}` (try/catch；存不了只在本次有效)。每個分頁另有 `issuer` (連結帶來的店家) 與 `biz` (店家報價)，`orig` 也存這兩個，重設會一起還原。
-- 連結在版本 `1` 加選用欄位 (舊版網頁 `decodeQuote` 忽略不認得的鍵；沒有店家時 `encodeQuote` 輸出跟以前逐字相同，有測試釘住)：`s` = `[店名, 業務, 電話, LINE, 地址, 標語]` (尾端空字串省略)、`p` = `[本店價, 填價時的原價屋合計]`、`x` = `[[服務名稱, 金額]]` (≤ 8 列，±10⁶，0 = 免費，負數 = 折抵)、`c` 客戶稱呼 ≤ 20、`u` 有效期限 `YYYY-MM-DD`、`m` 備註 ≤ 200 (可換行)、`h: 1` 隱藏原價屋單價。沒有 `s` (或店名不合格) 時不編碼也不還原其餘店家欄位。一般店家單約 2–2.5K 字元。
+- 連結的 JSON 加選用欄位 (版本 1、2 都一樣；舊版網頁 `decodeQuote` 忽略不認得的鍵；沒有店家時 `encodeQuote` 解開後的 JSON 跟 2026-10-06 前逐字相同，測試釘的是解開後的 JSON，因為 2026-10-22 起字串本身已是壓縮的版本 2)：`s` = `[店名, 業務, 電話, LINE, 地址, 標語]` (尾端空字串省略)、`p` = `[本店價, 填價時的原價屋合計]`、`x` = `[[服務名稱, 金額]]` (≤ 8 列，±10⁶，0 = 免費，負數 = 折抵)、`c` 客戶稱呼 ≤ 20、`u` 有效期限 `YYYY-MM-DD`、`m` 備註 ≤ 200 (可換行)、`h: 1` 隱藏原價屋單價。沒有 `s` (或店名不合格) 時不編碼也不還原其餘店家欄位。8 列主機單加店家資訊與店家報價約 1.3K 字元 (版本 1 約 1.6K)；測試只釘 `< 2500` 當寬鬆保險，連結上限仍是 40000 字元。
 - 驗證 (`cleanStore` / `normBiz`，連結與設定表單共用)：先清控制、零寬、bidi 字元；店名必填 ≤ 30 且不可含「原價屋」/coolpc；電話只收數字、空白、`+-()#` 且至少 6 碼；LINE ID `^@?[a-z0-9._-]{3,20}$` (轉小寫)；長度超過就丟該欄 (不截斷)，壞欄位只丟該欄、品項照常還原。文字欄照收但畫面一律 `textContent`/`esc()`；`tel:`／LINE 連結只由 `CoolPC.telHref` / `lineHref` 產生 (個人 ID → `https://line.me/ti/p/~id`，`@` 官方帳號 → `https://line.me/R/ti/p/%40id`)，備註與地址不轉成連結。
 - 本店價失效：`p[1]` 是填價當下的 `totals().quoted`；之後只要原價屋合計不同 (換件、改數量、全部改用現價、清空、即時報價更新了跟著型錄的列) 就 `stale`，編輯區提示「保留本店價」，估價單標「本店價（需向店家確認）」。`bizTotals(quoted, biz)` 算本店合計 = (本店價，沒填用原價屋合計) + 服務列。
 - 歸屬 (`BuilderUI.owned` / `issuerFor`)：店家模式開著且已填店名，這張單沒有店家或店名正規化後相同 → 自己的單，可填店家報價，分享時抬頭用本機資料；別家店的單唯讀，「改用本店報價」清掉對方的 `issuer`/`biz`。沒動過的分享單只有在店家也沒換時才沿用原連結 (`pristine`)，所以店家打開客人的單直接轉傳，也會帶上自己的店家資訊。
@@ -114,15 +117,17 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
    ```bash
    node -e '
    require("./docs/coolpc-live.js"); const C = globalThis.CoolPC, D = require("./docs/data.json");
+   (async () => {                               // encodeQuote / decodeQuote 是 async (2026-10-22 起 deflate 壓縮)，要 await
    const d = "2026/10/1";                       // 截圖上的報價日期
    const q = { n: "R7 9800X3D 自組", rows: [    // n = 分頁標籤；slot / cat 要符合 D.slots，不符的列會被丟掉
      { slot: "cpu", cat: 4, name: "[搭板專案 ]｛AMD R7 9800X3D｝代理盒【8核/16緒】4.7G(↑5.2G)任搭主機板現省900", price: 15000, qty: 1, d },
      { slot: "mb",  cat: 5, name: "｛技嘉 B850 EAGLE WIFI6E｝/ATX/1G+無線/註四年/8+2+2相", price: 6490, qty: 1, d },
    ]};
-   const s = C.encodeQuote(q), back = C.decodeQuote(s, D.slots);
+   const s = await C.encodeQuote(q), back = await C.decodeQuote(s, D.slots);   // s 以 "2" 開頭 (壓縮)；Node 20.12 以前的 CompressionStream 不收 deflate-raw，會退回 "1"
    console.log("rows", back.rows.length, "dropped", back.dropped, "total", back.rows.reduce((a, r) => a + r.price * r.qty, 0));
    console.log("估價單：<網頁網址>" + C.linkHash({ view: true, q: s }));   // 給人看 (唯讀、可列印)
-   console.log("可編輯：<網頁網址>" + C.linkHash({ q: s }));'
+   console.log("可編輯：<網頁網址>" + C.linkHash({ q: s }));
+   })();'
    ```
 
 4. 開連結確認總計 = 截圖的含稅現金價，回覆時一併說明：
@@ -136,16 +141,17 @@ game_requirements.md 遊戲需求原文 (可選，遊戲專屬網站才需要)
 - 分頁 `tabs[] = {kind: 'preset'|'shared', key, label, sub, note, purpose?, platform?, d?, base?, raw?, rows, more, orig: {rows, more}}`；`rows[slot] = {cat, name, qty, pin}`，`more = [{cat, name, qty, pin, x: true}]`。`pin = {price, d}` 是鎖定的報價 (分享連結的每列、已下架的預設品項)，`null` 跟著現行型錄。`allRows(t 或 t.orig)` 取全部列、`entries(t)` 取 `{slot, label, r}` (主機格依欄位順序再接其他商品)，合計、提示、複製清單、分享都走這兩個。
 - 全部分類：`#scope` 開關存 localStorage `coolpc.allCategories` (每位訪客記住，讀寫包 try/catch)，只管能不能新增 (`#more-add`)；已選的其他商品有算進總計，關著也照樣列出。`ensureMore()` 只載一次 `data-more.json` (失敗清掉 promise，下次切開關重試)；分享單有其他商品時先 `await` 再畫，載入失敗則以連結報價計並標「其他分類的報價載入失敗」，不誤標已下架。同一件再加一次改成數量 +1，最多 40 件 (`MAX_MORE`)。
 - 改選品項 → 該列 `pin = null` (分享時才以現價定價)；改回原品項還原 `orig` 的 pin；只改數量保留 pin。「全部改用現價」把對得到的列 unpin。
-- 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、全部清空的單不帶 `#` (`decodeQuote` 不收空單；複製清單 / 分享按鈕改 toast 提示)、其餘 `#q=`；檢視模式前面加 `v=1&` (`hashFor` 看 `mode`)；`hashchange` (貼上別的連結) 會重新載入，regex `/[#&][qb]=/` 也比得到 `&q=`。分享按鈕 (摘要、手機底部列、估價單的「複製估價單連結」、複製清單最後一行) 一律產生 `#v=1&q=`，「複製可編輯連結」產生 `#q=` (`shareUrl(t, view)`)。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
+- 網址：沒動過的分享單保留原 `raw` 不重新編碼、沒動過的預設配置 `#b=key`、全部清空的單不帶 `#` (`decodeQuote` 不收空單；複製清單 / 分享按鈕改 toast 提示)、其餘 `#q=`；檢視模式前面加 `v=1&` (`hashFor` 看 `mode`)；`hashchange` (貼上別的連結) 會重新載入，regex `/[#&][qb]=/` 也比得到 `&q=`。分享按鈕 (摘要、手機底部列、估價單的「複製估價單連結」、複製清單最後一行) 一律產生 `#v=1&q=`，「複製可編輯連結」產生 `#q=`。2026-10-22 起 `hashFor` / `shareUrl(t, view)` 是 async (`encodeQuote` 壓縮)，按鈕都走 `withShareUrl(t, view, fn)`：`shareUrlNow` 拿得到 (沒動過、店家也沒換的分享單用 `raw`，其餘用 `encoded` 的快取) 就同步呼叫 fn，否則回 promise；`copyText` 收字串直接 `writeText`，收 promise 交給 `ClipboardItem`，沒有 `ClipboardItem` 的瀏覽器才 await 完再寫 (快取與 `syncSeq` 見上方「分享連結版本 2」段)。剪貼簿被擋 (App 內建瀏覽器) 時退回 `prompt()` 讓人手動複製。
 - 檢視模式 (`mode` = `'view'` / `'edit'`)：網址有 `v=1` 且 `viewable` 時一開始就是 view，要在第一次 `select(cur)` 前決定 (不然第一次 `syncHash` 會洗掉 `v=1`)。`applyMode()` 只切顯示 (`body.view-mode` 藏 hero / `#meta` / 說明，`#builder`、`#mobile-bar` 與 `#sheet` 互斥)；`setMode(m)` 切換後 `render()`，網址用 `replaceState` 不留歷史；空單不能預覽 (toast)。進檢視捲到頂並聚焦 `#sheet-title`；回編輯回到按「預覽」前的捲動位置與按鈕，直接開檢視連結的回頁首 `#preset-title`。
-- `renderSheet()` 由 `render()` 結尾在檢視模式呼叫 (即時報價、全部分類載入、切分頁都會走到)，只重填 `#sheet-*` 內層，動作列與標題是靜態的，重畫時焦點不會掉。單價與合計照估價單報價 (`pin`)；品名下小字：已下架 (`goneText`)、`variant` 的 `note` + 同型號現價、漲跌「現價 $X ▲N」、與抬頭不同的報價日期、條件標記 (只列搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝 / 任搭折 / 限購 / 訂購)。合計區：合計 (含稅) → 有漲跌或查無時「以現價計」與「N 項查無現價，以報價計」→ 有任搭折時任搭折扣與估計實付。備註用 `warnings(true)`：不列下架 (各列已標)、不寫「按更換」「切換全部分類」這類編輯指示。抬頭報價日期 `quoteDate()`：沒動過的分享單用連結的 `d`，其餘用 `CoolPC.commonDate(quoteOf(t).rows)` (同分享連結會帶的 `d`)。
+- `renderSheet()` 由 `render()` 結尾在檢視模式呼叫 (即時報價、全部分類載入、切分頁都會走到)，只重填 `#sheet-*` 內層，動作列與標題是靜態的，重畫時焦點不會掉。單價與合計照估價單報價 (`pin`)；品名下小字：已下架 (`goneText`)、`variant` 的 `note` + 同型號現價、漲跌「現價 $X ▲N」、與抬頭不同的報價日期、條件標記 (只列搭板 / 組裝價 / 裝機價 / 限搭機 / 限組裝 / 任搭折 / 限購 / 訂購)。合計區：合計 (含稅) → 有漲跌或查無時「以現價計」與「N 項查無現價，以報價計」→ 有任搭折時任搭折扣與估計實付。備註用 `warnings(true)`：不列下架 (各列已標)、不寫「按更換」「切換全部分類」這類編輯指示。抬頭報價日期 `quoteDate()`：沒動過的分享單用連結的 `d`，其餘用 `CoolPC.commonDate(quoteOf(t).rows)` (同分享連結會帶的 `d`)。最後一行 `withShareUrl(cur, true, renderQr)` 用唯讀連結 (`#v=1&q=`) 畫右上角 `#sheet-qr`：`renderQr(url)` 在非檢視模式或 `dataset.url` 跟上次相同時直接返回，否則 `setTimeout` 延後一拍再算、回來確認還是這張單這條連結，`U.qrSvg(url, 104)` 的 `data-n` 寫進 `--qr-n` 給列印 CSS，放不下 (回 '') 時顯示「連結太長，無法產生 QR Code」提示；產生器與尺寸細節見「分享連結版本 2、QR Code、最近開過」一節。
 - 資源版本：`index.html` 引用 builder.css、builder-ui.js 與 coolpc-live.js，各帶版本 query。改動相依 CSS／JS 時更新版本（同日可加修訂後綴）；同步模板引用，避免新 HTML 配到快取的舊介面或缺少匯出函式。
 - 合計 (`CoolPC.totals`)：估價單總計 = 報價；以現價計 = 對得到的用現價 (`variant` 用同型號現價)、已下架以報價計，所以差額只反映漲跌；任搭折只看對得到的列。
 - 漲跌一律用 `cmp(r)` (`dv = 現價 − pin.price`，即分享連結裡的當時價格)，單價欄「現價 X（比 9/21 ▲N）」、分享單上方摘要 `#chg` (`changes()`：鎖價列逐列 + 合計，全沒變顯示「價格都一樣」，預設配置不顯示)與複製清單都用它。原價屋自己的近期調價標示 (品名裡的「▼下殺到…」、`價格異動` / `下殺` 旗標、原價) 跟這個無關，頁面上有寫明，別混用。
+- 改單差異 (2026-10-22 起)：`renderDiff()` 在 `render()` 的 `changes()` 之後畫 `#diff` (樣式沿用 `.chg`，另加 `.from` 劃線／`.added`／`.removed`)，只在 `cur.kind === 'shared' && rowsDirty(cur)` 時顯示——預設配置、只改店家欄位 (`bizDirty`)、唯讀估價單 (快照) 都不顯示。算法是 `BuilderUI.diffQuote(cur.orig, cur, find)` 純函式 (有測試、不改輸入)：主機格逐 slot 比，其他商品用分類＋品名配對 (重複品名依序配對，剩下的算新增／移除)；單價同 `totals()`——`pin` 優先、否則現價、查不到 (已下架且沒鎖價) 以 0 計；回傳 `changed` (`same` = 同一件只改數量或改用現價)、`added`、`removed`、`total {from, to, delta}`、`count`。畫面逐列「原品名 → 新品名，$舊小計 → $新小計 ±$」、「數量 a → b」、「改用現價」、「＋ 新增」「－ 移除」，最後合計差，標題帶 `cur.d`；提示用「還原分享時的內容」(`#reset` 在分享單上的文字) 復原。複製清單與分享連結不受影響。
 - `variant` 的顯示 (`cmp(r)` 另帶 `how`、`alts`、`note`)：品名仍顯示原本報價那件 (`r.name`)，下面小字「同型號現行品項：…」；單價欄 `.d.renamed` 標 `note`，再接「同型號現價 X（比 10/1 ▲N）」；摘要一定列出 (價格沒變也列「價格沒變」)；算可重報 (「全部改用現價」換成同型號那件)；選件面板不把同型號那件標「目前選擇」，改標「同型號現行品項」；複製清單尾巴寫 note 與同型號現價。`alts` (挑不出唯一) 時仍是已下架，另提示「同型號還有 N 件」，開選件面板先用型號篩選。
 - 「帶到原價屋估價頁」(`#coolpc`，摘要按鈕區整列寬 `.b.wide`；估價單動作列的 `#sheet-coolpc` 共用同一個處理器，`action` 取 `e.currentTarget.href`)：本身是 `href=evaluate.php` 的連結，空單不攔截 = 開空白估價頁；有東西時 `CoolPC.evaluateForm()` 組 `iname` / `icnt` (同品名合併、數量上限 10)，臨時建 `<form method=post accept-charset=big5 target=_blank rel=noopener>` 送出，原價屋預先選好品項與數量 (協定見 [coolpc-pages.md](coolpc-pages.md))。每列送 `find(r).item` 的現行品名 (`variant` 是同型號現行那件、`model` 是改名後的)，查不到的照送 `r.name` (原價屋對不到會略過) 並 toast「N 項目前查不到」。原價屋那邊一律現價，鎖價列的舊報價帶不過去。
 - 介面用方案卡、零件列、原生 dialog 選件面板與響應式摘要；布局、搜尋、焦點及驗收見 [site-ui.md](site-ui.md)。
-- 配置：`buildTabs()` 只畫目前用途的預設配置，選中以 key 對應；`renderPreset()` 畫目前總計／修改狀態和收合摘要。用途篩選不呼叫 `select()` 或 syncHash；點配置才 select，保留 tabs 內各方案草稿。分享單有獨立返回入口。起始／收合和焦點規則見 [site-ui.md](site-ui.md)。
+- 配置：`buildTabs()` 只畫目前用途的預設配置，選中以 key 對應；用途列是 `U.purposesFor(presets)` 再接「最近開過」(`'recent'`，不在 `PURPOSES` 裡，`recent` 清單有紀錄才出現)，選到它改走 `renderRecentTabs()`：每筆紀錄一張卡 (名稱、報價日期、開過日期、合計)，點了 `openRecent(hash)` 改 `location.hash` 由 `hashchange` 重新載入 (跟目前網址同一條就直接 `location.reload()`)；最後一顆 `.recent-clear` 清除按鈕自己佔一列 (`grid-column: 1 / -1`，靠左不撐滿)，要 `confirm`，清完切回目前配置的用途重畫。`renderPreset()` 畫目前總計／修改狀態和收合摘要。用途篩選不呼叫 `select()` 或 syncHash；點配置才 select，保留 tabs 內各方案草稿。分享單有獨立返回入口。起始／收合和焦點規則見 [site-ui.md](site-ui.md)。
 - `openPicker(slot)`／`openMorePicker(index)` 共用 dialog；`preparePickerGroups()` 建立當前分類的型錄條目與規格群組。每次開啟重設群組與排序，搜尋範例依欄位變動；下架但有同型號候選時保留型號預填。
 - `renderPicker()` 呼叫 `BuilderUI.searchEntries()`：NFKC／小寫／空白分詞 AND，比對品名、群組和分類；原順序分組，價格排序跨群組且同價穩定。其他商品未選分類、群組或關鍵字時顯示入口；跨分類先篩選排序再截取 300 件，回報完整符合數。
 - `applyCandidate()` 與價差預覽分別使用 `BuilderUI.selectCandidate()`／`previewCandidate()`，後者共用前者且不改 cur。價差為套用後 quoted − 目前 quoted，保留數量、原 pin 與加購合併規則，不扣任搭折；替換為已在其他商品清單的品項時回傳錯誤並保留面板，不顯示數字價差。移除主機欄位把 row 設為 null，支援部分零件估價單。
