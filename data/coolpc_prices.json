@@ -20514,10 +20514,13 @@
      "items": [
       {
        "id": 189,
-       "name": "｛BenQ ZOWIE XQ2566X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態精準技術",
-       "price": 29900,
-       "list_price": null,
-       "flags": []
+       "name": "｛BenQ ZOWIE XQ2566X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態精準技術▼下殺到 10/25 23:59",
+       "price": 28500,
+       "list_price": 29900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -21701,10 +21704,13 @@
       },
       {
        "id": 363,
-       "name": "｛BenQ ZOWIE XQ2766X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態清晰技術",
-       "price": 34900,
-       "list_price": null,
-       "flags": []
+       "name": "｛BenQ ZOWIE XQ2766X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態清晰技術▼下殺到 10/25 23:59",
+       "price": 32900,
+       "list_price": 34900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 365,
@@ -21963,11 +21969,12 @@
       },
       {
        "id": 400,
-       "name": "｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉",
-       "price": 10490,
-       "list_price": null,
+       "name": "｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉▼下殺到 10/25 23:59",
+       "price": 8888,
+       "list_price": 10490,
        "flags": [
-        "酷幣1602"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -23452,10 +23459,13 @@
       },
       {
        "id": 637,
-       "name": "｛技嘉 MO32U24｝〈2H1P1C/OLED/240Hz/含喇叭/HDR500/HDMI 2.1〉可升降旋轉",
-       "price": 27900,
-       "list_price": null,
-       "flags": []
+       "name": "｛技嘉 MO32U24｝〈2H1P1C/OLED/240Hz/含喇叭/HDR500/HDMI 2.1〉可升降旋轉▼下殺到 10/25 23:59",
+       "price": 26400,
+       "list_price": 27900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 638,
@@ -45677,13 +45687,10 @@
       },
       {
        "id": 163,
-       "name": "｛TP-LINK Archer BE400｝BE6500/Wi-Fi 7/雙頻/6*天線/3*1Gb/2.5Gb▼下殺到 10/22 23:59",
-       "price": 4199,
-       "list_price": 4399,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛TP-LINK Archer BE400｝BE6500/Wi-Fi 7/雙頻/6*天線/3*1Gb/2.5Gb",
+       "price": 4399,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 164,
@@ -45854,10 +45861,13 @@
       },
       {
        "id": 187,
-       "name": "｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb",
-       "price": 27990,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb▼下殺到 10/27 23:59",
+       "price": 24999,
+       "list_price": 27990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 188,
@@ -45961,21 +45971,19 @@
       },
       {
        "id": 202,
-       "name": "｛TP-LINK Deco BE22 三入組｝BE3600/雙頻/Mesh WiFi 7隱藏四天線/1Gb*2▼下殺到 10/22 23:59",
-       "price": 6799,
-       "list_price": 6999,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛TP-LINK Deco BE22 三入組｝BE3600/雙頻/Mesh WiFi 7隱藏四天線/1Gb*2",
+       "price": 6999,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 203,
-       "name": "｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2",
-       "price": 5699,
-       "list_price": null,
+       "name": "｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 10/31 23:59",
+       "price": 5499,
+       "list_price": 5699,
        "flags": [
-        "酷幣200"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -46607,20 +46615,20 @@
       },
       {
        "id": 9,
-       "name": "｛TP-LINK Tapo C225｝Wi-Fi 攝影機 / 2K QHD / 四百萬畫素 星光全彩▼下殺到 10/22 23:59",
+       "name": "｛TP-LINK Tapo C225｝Wi-Fi 攝影機 / 2K QHD / 四百萬畫素 星光全彩",
+       "price": 1399,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 10,
+       "name": "｛TP-LINK Tapo C250｝Wi-Fi 攝影機 / 智慧AI偵測與通知 / 4K 8MP / AI自動變焦追蹤▼下殺到 10/31 23:59",
        "price": 1299,
-       "list_price": 1399,
+       "list_price": 1499,
        "flags": [
         "價格異動",
         "下殺"
        ]
-      },
-      {
-       "id": 10,
-       "name": "｛TP-LINK Tapo C250｝Wi-Fi 攝影機 / 智慧AI偵測與通知 / 4K 8MP / AI自動變焦追蹤",
-       "price": 1499,
-       "list_price": null,
-       "flags": []
       },
       {
        "id": 11,
@@ -46671,13 +46679,10 @@
       },
       {
        "id": 18,
-       "name": "｛TP-LINK Tapo C320WS｝Wi-Fi 戶外攝影機 / 防水防塵 / 2K QHD / 全彩夜視▼下殺到 10/22 23:59",
-       "price": 1399,
-       "list_price": 1499,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛TP-LINK Tapo C320WS｝Wi-Fi 戶外攝影機 / 防水防塵 / 2K QHD / 全彩夜視",
+       "price": 1499,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 19,
@@ -46826,10 +46831,13 @@
      "items": [
       {
        "id": 40,
-       "name": "｛TP-LINK Tapo C236｝ Wi-Fi 攝影機 / 2K / 五百萬畫素 /智慧AI偵測 / 彩色夜視 / 旋轉功能",
-       "price": 1499,
-       "list_price": null,
-       "flags": []
+       "name": "｛TP-LINK Tapo C236｝ Wi-Fi 攝影機 / 2K / 五百萬畫素 /智慧AI偵測 / 彩色夜視 / 旋轉功能▼下殺到 10/31 23:59",
+       "price": 1399,
+       "list_price": 1499,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 41,
@@ -46858,12 +46866,11 @@
       },
       {
        "id": 45,
-       "name": "｛TP-LINK Tapo C410｝ Wi-Fi 攝影機 / IP65 防水防塵 / 2K 3MP /全彩夜視/內建電池▼下殺到 10/22 23:59",
-       "price": 1699,
-       "list_price": 1799,
+       "name": "｛TP-LINK Tapo C410｝ Wi-Fi 攝影機 / IP65 防水防塵 / 2K 3MP /全彩夜視/內建電池",
+       "price": 1799,
+       "list_price": null,
        "flags": [
-        "價格異動",
-        "下殺"
+        "酷幣199"
        ]
       },
       {
@@ -46877,12 +46884,11 @@
       },
       {
        "id": 47,
-       "name": "｛TP-LINK Tapo C411 ｝Wi-Fi 攝影機 / IP65 防水防塵 / 2K 3MP /全彩夜視/內建電池▼下殺到 10/22 23:59",
-       "price": 1699,
-       "list_price": 1799,
+       "name": "｛TP-LINK Tapo C411 ｝Wi-Fi 攝影機 / IP65 防水防塵 / 2K 3MP /全彩夜視/內建電池",
+       "price": 1799,
+       "list_price": null,
        "flags": [
-        "價格異動",
-        "下殺"
+        "酷幣199"
        ]
       },
       {
