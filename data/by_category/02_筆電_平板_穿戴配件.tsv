@@ -1,4 +1,4 @@
-# 02 筆電｜平板｜穿戴配件  (報價日期 2026/10/26 11:49)
+# 02 筆電｜平板｜穿戴配件  (報價日期 2026/10/26 17:58)
 # price	id	flags	name
 
 ## PAD 智慧平板
@@ -69,16 +69,16 @@
 ## 15吋 Acer宏碁 Aspire Lite 系列
 20900	59		Acer Aspire Lite R7-7730U/8G/512G/15.6吋/白｛AL15-49P-R1J4｝
 27900	60		Acer Aspire Lite Core 7-150U/16G/512G/15.6吋/銀｛AL15-53P-706M｝
-33900	61		Acer Aspire Lite Ultra 5-125H/32G/512G/15.6吋/銀｛AL15-74P-589G｝
+31900	61		Acer Aspire Lite Ultra 5-125H/32G/512G/15.6吋/銀｛AL15-74P-589G｝
 27900	62		Acer Aspire Lite Ultra 5-125H/16G/512G/15.6吋/銀｛AL15-74T-51XV｝〈觸控〉
-31900	63		Acer Aspire Lite Ultra 7-155H/16G/512G/15.6吋/銀｛AL15-74P-712A｝
+30888	63		Acer Aspire Lite Ultra 7-155H/16G/512G/15.6吋/銀｛AL15-74P-712A｝
 28900	64		Acer Aspire Lite Core 5-210H/16G/512G/15.6吋/藍｛AL15-73P-56AE｝
 29900	65		Acer Aspire Lite Ultra 5-226V/16G/512G/15.6吋/銀｛AL15-57P-50AK｝
 
 ## 16吋 Acer宏碁 Aspire Lite 系列
 25900	67		Acer Aspire Lite Ultra 5-115U/16G/512G/16吋/銀｛AM16-53P-53HR｝
 28900	68		Acer Aspire Lite Ultra 5-125H/16G/512G/16吋/銀｛AL16-74T-56K4｝〈觸控〉
-31900	69		Acer Aspire Lite Ultra 7-155H/16G/512G/16吋/銀｛AL16-74P-70L5｝
+30888	69		Acer Aspire Lite Ultra 7-155H/16G/512G/16吋/銀｛AL16-74P-70L5｝
 35900	70		Acer Aspire Lite Ultra 7-155H/16G/512G/16吋/銀｛AL16-71P-74AH｝
 
 ## 17吋 Acer宏碁 Aspire Lite 系列
@@ -102,13 +102,13 @@
 
 ## 16吋 Acer宏碁 Nitro V 電競機
 52900	86		Acer Nitro V R5-240/RTX5050/16G/512G/16吋/黑｛ANV16S-41-R14L｝
-56900	87		Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝
+54900	87		Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝
 58900	88		Acer Nitro V Ryzen AI 7 450/RTX5060/16G/512G/16吋/黑｛ANV16-A71-R0P1｝
 66900	89		Acer Nitro V Ryzen AI 9 465/RTX5070/16G/512G/16吋/黑｛ANV16-A71-R2A2｝
 
 ## 14吋 Acer宏碁 Predator Helios Neo 14 電競機〈官網登錄送一年延保〉
 86900	91		Acer Helios Neo Ultra 7-255H/RTX5060/32G/1T/14.5吋/黑｛PHN14-71-74GT｝
-92900	92	酷幣9999	Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝
+89900	92	酷幣9999	Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝
 
 ## 16吋 Acer宏碁 Predator Helios Neo 16 電競機〈官網登錄送一年延保〉
 65900	94		Acer Helios Neo Ultra 7-255HX/RTX5060/16G/512G/16吋/黑｛PHN16-73-71BP｝
@@ -128,7 +128,7 @@
 35900	106		Acer Swift Lite Ultra 7-155U/32G/512G/14吋/銀｛SFL14-54M-72JK｝【極致輕999克】
 
 ## 16吋 Acer宏碁 Swift Lite 系列
-29900	108		Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝
+29111	108		Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝
 28900	109		Acer Swift Lite Ultra 5-115U/16G/512G/16吋/銀｛SFL16-51M-5184｝
 29900	110		Acer Swift Lite Ultra 5-115U/16G/512G/16吋/銀｛SFL16-52M-54S8｝
 35900	111		Acer Swift Lite Ultra 5-115U/32G/1T/16吋/銀｛SFL16-52M-58U4｝
@@ -350,7 +350,7 @@
 35911(原47990)	320	價格異動 下殺	DELL Pro Ultra 5-235U/16G/512G/16吋 銀｛PC16250-U5216G512G｝▼下殺到 11/11 23:59
 
 ## 14吋 戴爾 DELL Pro Essential 系列
-39999	323		DELL Pro Essential Ultra 5-225U/16G/512G/14吋 黑｛PV14260-R1508BTW｝
+37999	323		DELL Pro Essential Ultra 5-225U/16G/512G/14吋 黑｛PV14260-R1508BTW｝
 
 ## 15吋 戴爾 DELL Pro Essential 系列
 37990	326		DELL Pro Essential Ultra 5-225H/16G/512G/15.6吋 黑｛PV15260-R1508BTW｝
