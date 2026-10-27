@@ -1,4 +1,4 @@
-# 19 IP分享器｜網卡｜網通設備  (報價日期 2026/10/27 17:37)
+# 19 IP分享器｜網卡｜網通設備  (報價日期 2026/10/27 19:41)
 # price	id	flags	name
 
 ## 【網通促銷專區】
@@ -21,7 +21,7 @@
 1990	17		TP-LINK 智慧家庭安全組 T110+T100+H200
 2799	18		TP-LINK 智慧家庭安全燈光組 T110+T100+H200+L920-5
 4990	19	酷幣500	｛TP-LINK Tapo H500｝ 智慧網關 (可擴2.5 HDD/SSD本地儲存/無須接線簡單安裝/AI 偵測)
-1999	20	酷幣200	｛TP-LINK Tapo D210｝ 視訊門鈴 (電池續航六個月/2K/160度視角/全彩夜視/IP65防水防塵)
+1799	20		｛TP-LINK Tapo D210｝ 視訊門鈴 (電池續航六個月/2K/160度視角/全彩夜視/IP65防水防塵)
 3299	21		｛TP-LINK Tapo D235｝視訊門鈴(電池續航210天/2K/180度視角/全彩夜視/IP66防水防塵)
 
 ## 電力線網路(HomePlug)
@@ -68,7 +68,7 @@
 1899	59		｛TP-LINK TL-SG1016D｝【16埠】1Gb 交換器/鐵殼/桌上型/壁掛兩用
 2399	60	熱賣	｛TP-LINK TL-SG1024D｝【24埠】1Gb 交換器/鐵殼/桌上型/可機架裝載
 3999	61		｛TP-LINK ER605｝【5埠】VPN 有線路由器/1Gb/鐵殼/Omada雲端管理
-6990	62	酷幣2000	｛TP-LINK TL-SG2210P｝【10埠】8*1Gb PoE+(總功率61W)/2*1Gb SFP/鐵殼
+6990	62		｛TP-LINK TL-SG2210P｝【10埠】8*1Gb PoE+(總功率61W)/2*1Gb SFP/鐵殼
 399	63		｛MERCUSYS水星 MS108G｝【8埠】1Gb 交換器/塑膠殼/桌上型
 299	64		｛MERCUSYS水星 MS105GS｝【5埠】1Gb 交換器/金屬殼/桌上型
 499	65		｛MERCUSYS水星 MS108GS｝【8埠】1Gb 交換器/金屬殼/桌上型
@@ -202,95 +202,98 @@
 5190	191		｛ZyXEL合勤 NWA90BE｝BE5100/2.5Gb PoE/企業級安全防護台灣製造
 5690	192		｛ZyXEL合勤 NWA90BE PRO｝BE6500 2.5Gb PoE/企業級安全防護/台灣製造
 
+## Wi-Fi 8 三頻 系列無線路由器/AP基地台
+27990	194		｛華碩 ROG Rapture GT-BN98｝Wi-Fi 8/三頻/8*天線/4*2.5Gb/雙10Gb
+
 ## Mesh網狀路由器 無線新技術
-2599	194	酷幣600	｛TP-LINK Deco M4 兩入組｝AC1200/Mesh/隱藏雙天線/1Gb*2
-3699	195	酷幣600	｛TP-LINK Deco M4 三入組｝AC1200/Mesh/隱藏雙天線/1Gb*2
-3199	196		｛TP-LINK Deco X10 兩入組｝AX1500/AX Mesh/隱藏雙天線/1Gb*2
-4399	197		｛TP-LINK Deco X10 三入組｝AX1500/AX Mesh/隱藏雙天線/1Gb*2
-3999	198		｛TP-LINK Deco X20 兩入組｝AX1800/AX Mesh/隱藏雙天線/1Gb*2
-5699	199		｛TP-LINK Deco X20 三入組｝AX1800/AX Mesh/隱藏雙天線/1Gb*2
-4599	200	熱賣	｛TP-LINK Deco X50 兩入組｝AX3000/AX Mesh/隱藏雙天線/1Gb*3
-6399	201	熱賣	｛TP-LINK Deco X50 三入組｝AX3000/AX Mesh/隱藏雙天線/1Gb*3
-4999	202		｛TP-LINK Deco BE22 兩入組｝BE3600/雙頻/Mesh WiFi 7/隱藏四天線/1Gb*2
-6799	203		｛TP-LINK Deco BE22 三入組｝BE3600/雙頻/Mesh WiFi 7隱藏四天線/1Gb*2
-5499(原5699)	204	價格異動 下殺	｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 10/31 23:59
-7999	205		｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2
-6999	206		｛TP-LINK Deco BE65 單入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
-11999	207	熱賣 酷幣300	｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
-16999	208	酷幣300	｛TP-LINK Deco BE65 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
-17999	209	酷幣2000	｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2
-32999	210	酷幣5000	｛TP-LINK Deco BE85 兩入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2
-48888	212		｛TP-LINK Deco BE85 三入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2
-2999	213		｛MERCUSYS水星 Halo H80X 兩入組｝AX3000/Mesh/隱藏雙天線/3*1Gb
-4990	214		｛MERCUSYS水星 Halo H80X 三入組｝AX3000/Mesh/隱藏雙天線/3*1Gb
-2290	216		｛華碩 ZENWIFI XD4 Plus 單入組｝AX1800/AX Mesh/隱藏雙天線/可壁掛
-3999	217		｛華碩 ZENWIFI XD4 Plus 兩入組｝AX1800/AX Mesh/隱藏雙天線/可壁掛-[內洽驚喜價]
-3499	218		｛華碩 ZENWIFI BD5 單入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb/支援壁掛
-5999	219		｛華碩 ZENWIFI BD5 兩入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb-[內洽驚喜價]
-7999	220		｛華碩 ZENWIFI BD5 三入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb-[內洽驚喜價]
-7999	221		｛華碩 ZENWIFI BT8 單入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb
-12999(原14990)	222	價格異動 下殺	｛華碩 ZENWIFI BT8 兩入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb▼下殺到 10/27 23:59
-12990	223		｛華碩 ZENWIFI BT10 單入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
-24990	224		｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
-1099	225		｛TOTOLINK X30｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*4
-849	226		｛TOTOLINK X30SE｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*1
-1299	227	熱賣	｛TOTOLINK BE3600 一入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
-2550	228	熱賣	｛TOTOLINK BE3600 二入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
-3799	229		｛TOTOLINK BE3600 三入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
-1650	230	熱賣	｛TOTOLINK BE5100 一入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
-3290	231	熱賣	｛TOTOLINK BE5100 二入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
-4899	232		｛TOTOLINK BE5100 三入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
-8990	233		｛MSI Roamii BE Pro 二入組｝BE11000/Wi-Fi 7/三頻/MESH/隱藏六天線/4*2.5Gb
+2599	196	酷幣600	｛TP-LINK Deco M4 兩入組｝AC1200/Mesh/隱藏雙天線/1Gb*2
+3699	197	酷幣600	｛TP-LINK Deco M4 三入組｝AC1200/Mesh/隱藏雙天線/1Gb*2
+3199	198		｛TP-LINK Deco X10 兩入組｝AX1500/AX Mesh/隱藏雙天線/1Gb*2
+4399	199		｛TP-LINK Deco X10 三入組｝AX1500/AX Mesh/隱藏雙天線/1Gb*2
+3999	200		｛TP-LINK Deco X20 兩入組｝AX1800/AX Mesh/隱藏雙天線/1Gb*2
+5699	201		｛TP-LINK Deco X20 三入組｝AX1800/AX Mesh/隱藏雙天線/1Gb*2
+4599	202	熱賣	｛TP-LINK Deco X50 兩入組｝AX3000/AX Mesh/隱藏雙天線/1Gb*3
+6399	203	熱賣	｛TP-LINK Deco X50 三入組｝AX3000/AX Mesh/隱藏雙天線/1Gb*3
+4999	204		｛TP-LINK Deco BE22 兩入組｝BE3600/雙頻/Mesh WiFi 7/隱藏四天線/1Gb*2
+6799	205		｛TP-LINK Deco BE22 三入組｝BE3600/雙頻/Mesh WiFi 7隱藏四天線/1Gb*2
+5499(原5699)	206	價格異動 下殺	｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 10/31 23:59
+7999	207		｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2
+6999	208		｛TP-LINK Deco BE65 單入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
+11999	209	熱賣 酷幣300	｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
+16999	210	酷幣300	｛TP-LINK Deco BE65 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
+17999	211	酷幣2000	｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2
+32999	212	酷幣5000	｛TP-LINK Deco BE85 兩入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2
+48888	214		｛TP-LINK Deco BE85 三入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2 客訂
+2999	215		｛MERCUSYS水星 Halo H80X 兩入組｝AX3000/Mesh/隱藏雙天線/3*1Gb
+4990	216		｛MERCUSYS水星 Halo H80X 三入組｝AX3000/Mesh/隱藏雙天線/3*1Gb
+2290	218		｛華碩 ZENWIFI XD4 Plus 單入組｝AX1800/AX Mesh/隱藏雙天線/可壁掛
+3999	219		｛華碩 ZENWIFI XD4 Plus 兩入組｝AX1800/AX Mesh/隱藏雙天線/可壁掛-[內洽驚喜價]
+3499	220		｛華碩 ZENWIFI BD5 單入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb/支援壁掛
+5999	221		｛華碩 ZENWIFI BD5 兩入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb-[內洽驚喜價]
+7999	222		｛華碩 ZENWIFI BD5 三入組｝BE5000/Wi-Fi 7/雙頻/MESH/隱藏四天線/2.5Gb-[內洽驚喜價]
+7999	223		｛華碩 ZENWIFI BT8 單入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb
+12999(原14990)	224	價格異動 下殺	｛華碩 ZENWIFI BT8 兩入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb▼下殺到 10/27 23:59
+12990	225		｛華碩 ZENWIFI BT10 單入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
+24990	226		｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
+1099	227		｛TOTOLINK X30｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*4
+849	228		｛TOTOLINK X30SE｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*1
+1299	229	熱賣	｛TOTOLINK BE3600 一入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
+2550	230	熱賣	｛TOTOLINK BE3600 二入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
+3799	231		｛TOTOLINK BE3600 三入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
+1650	232	熱賣	｛TOTOLINK BE5100 一入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
+3290	233	熱賣	｛TOTOLINK BE5100 二入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
+4899	234		｛TOTOLINK BE5100 三入組｝BE5100/Wi-Fi 7/雙頻/MESH/隱藏四天線/2*1Gb/WAN*2.5Gb
+8990	235		｛MSI Roamii BE Pro 二入組｝BE11000/Wi-Fi 7/三頻/MESH/隱藏六天線/4*2.5Gb
 
 ## Wi-Fi 4 單頻USB無線網卡
-119	235		｛MERCUSYS水星 MW150US｝150Mbps/超迷你型/隱藏天線
-199	236		｛MERCUSYS水星 MW300UM｝300Mbps/迷你型/隱藏天線
-199	237		｛華碩 USB-N10 NANO B1｝150Mbps/隱藏天線/超迷你設計/鍍金接頭/三年換新
+119	237		｛MERCUSYS水星 MW150US｝150Mbps/超迷你型/隱藏天線
+199	238		｛MERCUSYS水星 MW300UM｝300Mbps/迷你型/隱藏天線
+199	239		｛華碩 USB-N10 NANO B1｝150Mbps/隱藏天線/超迷你設計/鍍金接頭/三年換新
 
 ## Wi-Fi 5 AC/ Wi-FI 6&7 USB無線網卡
-299	239	熱賣	｛TP-LINK Archer T2U Nano｝AC600/Wi-Fi 5/迷你型/微型設計/鍍金接口不易氧化
-399	240		｛TP-LINK Archer T2U Plus｝AC600/Wi-Fi 5/5dBi高增益天線
-399	241		｛TP-LINK Archer T2UB Nano｝AC600/Wi-Fi 5/超迷你型/Wi-Fi 藍牙4.2 二合一
-449	242		｛TP-LINK Archer T3U｝AC1300/Wi-Fi 5/迷你機身便攜/MU-MIMO/USB3.0
-449	243		｛TP-LINK Archer T3U Nano｝AC1300/Wi-Fi 5/超迷你機身/MU-MIMO/USB2.0
-499	244		｛TP-LINK Archer T3U PLUS｝AC1300/Wi-Fi 5/高增益可調天線/MU-MIMO/USB3.0
-189	245		｛TP-LINK Archer TX1U Nano｝AX300/Wi-Fi 6/輕巧迷你型
-599	246		｛TP-LINK Archer TX10UB Nano｝AX900/Wi-Fi 6/超迷你型/Wi-Fi 藍牙5.3 二合一
-539	247		｛TP-LINK Archer TX20U Nano｝AX1800/Wi-Fi 6/微型設計簡單安裝
-799	248	熱賣	｛TP-LINK Archer TX20U Plus｝AX1800/Wi-Fi 6/雙天線/一米長USB3.0/可擺放桌面
-749	249		｛TP-LINK Archer TX20UH｝AX1800/Wi-Fi 6/高增益天線/附延長底座(1.2米)
-690	250		｛TP-LINK Archer TX35U Plus｝AX1800/Wi-Fi 6/高增益天線/MU-MIMO/USB3.0
-899	251		｛TP-LINK Archer TXE50UH｝AXE3000/Wi-Fi 6E/高增益天線/附延長底座/USB3.0
-799	252		｛TP-LINK Archer TXE70UH｝AXE5400/Wi-Fi 6E/高增益天線/附延長底座/USB3.0
-1699	253		｛TP-LINK Archer TBE400UH｝BE6500/Wi-Fi 7/高增益天線/附延長底座/USB3.0
-149	254		｛MERCUSYS水星 MA14N｝AX300/Wi-Fi 6/輕巧迷你型
-199	255		｛MERCUSYS水星 MA14H｝AX300/Wi-Fi 6/高增益可調式接天線
-229	256		｛MERCUSYS水星 MA20N｝AC650/Wi-Fi 5/輕巧迷你型
-229	257		｛MERCUSYS水星 MU6H｝AC650/Wi-Fi 5/高增益可調式天線
-299	258		｛MERCUSYS水星 MA30H｝AC1300/Wi-Fi 5/高增益可式接天線
-549	259		｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新
-1299	260		｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新
-999	261	熱賣 搭板專案	｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新【任搭價】
-1399(原1699)	262	價格異動 下殺	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/1 23:59
-1499	263	搭板專案	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新【任搭價】
-1799	264		｛華碩 USB-BE93 MINI｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新/Type-C
-1999	265		｛華碩 ROG USB-BE92｝BE6500/Wi-Fi 7/三頻/隱藏天線/附延長底座/三年換新
-290	266		｛TOTOLINK A600UB｝AC650/Wi-Fi 5/雙頻/Wi-Fi 藍牙4.2 二合一
-290	267		｛TOTOLINK X900USM｝AX900/Wi-Fi 6/雙頻/隱藏天線/迷你輕巧
-1990	268		｛MSI BE6500 WiFi 7 USB｝BE6500/Wi-Fi 7/三頻/附延長底座
+299	241	熱賣	｛TP-LINK Archer T2U Nano｝AC600/Wi-Fi 5/迷你型/微型設計/鍍金接口不易氧化
+399	242		｛TP-LINK Archer T2U Plus｝AC600/Wi-Fi 5/5dBi高增益天線
+399	243		｛TP-LINK Archer T2UB Nano｝AC600/Wi-Fi 5/超迷你型/Wi-Fi 藍牙4.2 二合一
+449	244		｛TP-LINK Archer T3U｝AC1300/Wi-Fi 5/迷你機身便攜/MU-MIMO/USB3.0
+449	245		｛TP-LINK Archer T3U Nano｝AC1300/Wi-Fi 5/超迷你機身/MU-MIMO/USB2.0
+499	246		｛TP-LINK Archer T3U PLUS｝AC1300/Wi-Fi 5/高增益可調天線/MU-MIMO/USB3.0
+189	247		｛TP-LINK Archer TX1U Nano｝AX300/Wi-Fi 6/輕巧迷你型
+599	248		｛TP-LINK Archer TX10UB Nano｝AX900/Wi-Fi 6/超迷你型/Wi-Fi 藍牙5.3 二合一
+539	249		｛TP-LINK Archer TX20U Nano｝AX1800/Wi-Fi 6/微型設計簡單安裝
+799	250	熱賣	｛TP-LINK Archer TX20U Plus｝AX1800/Wi-Fi 6/雙天線/一米長USB3.0/可擺放桌面
+749	251		｛TP-LINK Archer TX20UH｝AX1800/Wi-Fi 6/高增益天線/附延長底座(1.2米)
+690	252		｛TP-LINK Archer TX35U Plus｝AX1800/Wi-Fi 6/高增益天線/MU-MIMO/USB3.0
+899	253		｛TP-LINK Archer TXE50UH｝AXE3000/Wi-Fi 6E/高增益天線/附延長底座/USB3.0
+799	254		｛TP-LINK Archer TXE70UH｝AXE5400/Wi-Fi 6E/高增益天線/附延長底座/USB3.0
+1699	255		｛TP-LINK Archer TBE400UH｝BE6500/Wi-Fi 7/高增益天線/附延長底座/USB3.0
+149	256		｛MERCUSYS水星 MA14N｝AX300/Wi-Fi 6/輕巧迷你型
+199	257		｛MERCUSYS水星 MA14H｝AX300/Wi-Fi 6/高增益可調式接天線
+229	258		｛MERCUSYS水星 MA20N｝AC650/Wi-Fi 5/輕巧迷你型
+229	259		｛MERCUSYS水星 MU6H｝AC650/Wi-Fi 5/高增益可調式天線
+299	260		｛MERCUSYS水星 MA30H｝AC1300/Wi-Fi 5/高增益可式接天線
+549	261		｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新
+1299	262		｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新
+999	263	熱賣 搭板專案	｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新【任搭價】
+1399(原1699)	264	價格異動 下殺	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/1 23:59
+1499	265	搭板專案	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新【任搭價】
+1799	266		｛華碩 USB-BE93 MINI｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新/Type-C
+1999	267		｛華碩 ROG USB-BE92｝BE6500/Wi-Fi 7/三頻/隱藏天線/附延長底座/三年換新
+290	268		｛TOTOLINK A600UB｝AC650/Wi-Fi 5/雙頻/Wi-Fi 藍牙4.2 二合一
+290	269		｛TOTOLINK X900USM｝AX900/Wi-Fi 6/雙頻/隱藏天線/迷你輕巧
+1990	270		｛MSI BE6500 WiFi 7 USB｝BE6500/Wi-Fi 7/三頻/附延長底座
 
 ## 內接式無線網卡
-1999	270		｛華碩 PCE-BE6500｝BE6500/Wi-Fi 7/雙天線/支援三頻＆藍牙5.4/PCI-E
-1399	271	熱賣 搭板專案	｛華碩 PCE-BE6500｝BE6500/Wi-Fi 7/雙天線/支援三頻＆藍牙5.4/PCI-E【任搭價】
-2499	272		｛華碩 PCE-BE92BT｝BE9400/Wi-Fi 7/外接磁吸底座/藍牙5.4/PCI-E 僅相容 lntel主機板
-1290	273		｛TP-LINK Archer TX3000E｝AX3000/Wi-Fi 6/外接天線磁吸底座/藍牙/PCI-E
-1299	274		｛TP-LINK Archer TBE400E｝ BE6500/Wi-Fi 7/雙天線/藍牙5.4/PCI-E
-1990	275		｛TP-LINK Archer TBE550E｝BE9300/Wi-Fi 7/延伸雙天線/磁吸底座/藍牙5.4/PCI-E
+1999	272		｛華碩 PCE-BE6500｝BE6500/Wi-Fi 7/雙天線/支援三頻＆藍牙5.4/PCI-E
+1399	273	熱賣 搭板專案	｛華碩 PCE-BE6500｝BE6500/Wi-Fi 7/雙天線/支援三頻＆藍牙5.4/PCI-E【任搭價】
+2499	274		｛華碩 PCE-BE92BT｝BE9400/Wi-Fi 7/外接磁吸底座/藍牙5.4/PCI-E 僅相容 lntel主機板
+1290	275		｛TP-LINK Archer TX3000E｝AX3000/Wi-Fi 6/外接天線磁吸底座/藍牙/PCI-E
+1299	276		｛TP-LINK Archer TBE400E｝ BE6500/Wi-Fi 7/雙天線/藍牙5.4/PCI-E
+1990	277		｛TP-LINK Archer TBE550E｝BE9300/Wi-Fi 7/延伸雙天線/磁吸底座/藍牙5.4/PCI-E
 
 ## USB 藍牙接收器
-629	277		｛華碩 USB-BT600｝藍牙 6.0 USB收發器 / 最高可達40m(開放空間 )/ 三年換新
-469	278		｛TP-LINK UB500｝藍牙5.4 微型 USB 接收器 / 最高可達50m(開放空間) / 一年保
-499	279		｛TP-LINK UB500 Plus} 遠距離藍牙5.4 USB 接收器 / 可調式天線 / 一年保
-599	280		｛TP-LINK UB600｝藍牙6.0 微型 USB 接收器 / 可同時支援七個藍芽裝置 / 一年保
-299	281		｛MERCUSYS水星 MA530｝藍牙 5.4 微型 USB 接收器 / 三年保
-399	282		｛KTnet BTD530｝ 藍牙5.3 迷你USB接收器 / 低延遲＆抗干擾 / 一年保
+629	279		｛華碩 USB-BT600｝藍牙 6.0 USB收發器 / 最高可達40m(開放空間 )/ 三年換新
+469	280		｛TP-LINK UB500｝藍牙5.4 微型 USB 接收器 / 最高可達50m(開放空間) / 一年保
+499	281		｛TP-LINK UB500 Plus} 遠距離藍牙5.4 USB 接收器 / 可調式天線 / 一年保
+599	282		｛TP-LINK UB600｝藍牙6.0 微型 USB 接收器 / 可同時支援七個藍芽裝置 / 一年保
+299	283		｛MERCUSYS水星 MA530｝藍牙 5.4 微型 USB 接收器 / 三年保
+399	284		｛KTnet BTD530｝ 藍牙5.3 迷你USB接收器 / 低延遲＆抗干擾 / 一年保
