@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/10/27 12:44",
+ "quote_date": "2026/10/27 17:37",
  "categories": [
   {
    "id": 1,
@@ -85,6 +85,13 @@
        "price": 219000,
        "list_price": null,
        "flags": []
+      },
+      {
+       "id": 16,
+       "name": "GIGABYTE AI TOP ATOM G4 GB10 / 128G / Gen4 4TB SSD",
+       "price": 239000,
+       "list_price": null,
+       "flags": []
       }
      ]
     },
@@ -92,7 +99,7 @@
      "label": "微星 MSI 限量大全套",
      "items": [
       {
-       "id": 17,
+       "id": 18,
        "name": "微星魔龍姬-大全配(B850主機板/5070TI顯卡/850W電源/360水冷/主題機殼/魔龍姬公仔)",
        "price": 62990,
        "list_price": null,
@@ -106,28 +113,28 @@
      "label": "華碩 ASUS 品牌主機專區",
      "items": [
       {
-       "id": 22,
+       "id": 23,
        "name": "｛ASUS ROG GM700TZ-R9800X149W｝R7 9800X3D / 16G / 1T / 850W電供 / 水冷",
        "price": 50990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 23,
+       "id": 24,
        "name": "｛ASUS ROG GM1000TY-R9800X009X8｝9800X3D / 32G / 2T / 5080 / 1000W電供",
        "price": 199990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 26,
+       "id": 27,
        "name": "｛ASUS H-T500MV-13420H269W6｝i5-13420H / 16G / 1T / WIN11 / 5060 / 330W電供",
        "price": 46990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 27,
+       "id": 28,
        "name": "｛ASUS H-T500MV-05210H111W5｝C5 210H / 16G / 512G / WIN11 / 3050 / 330W電供▼下殺到 10/31 23:59",
        "price": 33990,
        "list_price": 43990,
@@ -137,7 +144,7 @@
        ]
       },
       {
-       "id": 28,
+       "id": 29,
        "name": "｛ASUS H-T500MV-05210H151W55｝C5 210H / 16G / 1T / WIN11 / 5050 / 330W電供▼下殺到 10/31 23:59",
        "price": 36990,
        "list_price": 49990,
@@ -147,35 +154,35 @@
        ]
       },
       {
-       "id": 29,
+       "id": 30,
        "name": "｛ASUS H-T500MV-05210H015W6T｝C5 210H / 16G / 1T / WIN11 / 5060Ti / 500W電供",
        "price": 44888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 31,
+       "id": 32,
        "name": "｛ASUS H-V501MV-03100U0250A｝C3 100U / 8G / 512G / NON-OS / 白 / 180W電供",
        "price": 16990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 32,
+       "id": 33,
        "name": "｛ASUS H-V501MV-03100U010WB｝C3 100U / 8G / 512G / WIN11 / 黑 / 180W電供",
        "price": 19990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 33,
+       "id": 34,
        "name": "｛ASUS H-V501MV-05210H0480B｝C5 210H / 8G / 1T / NON-OS / 黑 / 330W電供",
        "price": 20990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 34,
+       "id": 35,
        "name": "｛ASUS H-V501MV-05210H115WB｝C5 210H / 16G / 512G / WIN11 / 黑 / 330W電供▼下殺到 10/31 23:59",
        "price": 23990,
        "list_price": 31990,
@@ -185,42 +192,42 @@
        ]
       },
       {
-       "id": 35,
+       "id": 36,
        "name": "｛ASUS H-V501MV-09270H003WB｝C9 270H / 16G / 1T / WIN11 / 黑 / 330W電供",
        "price": 36990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 36,
+       "id": 37,
        "name": "｛ASUS H-V501MV-09270H003WB｝+ 華碩 DUAL-RTX5060-O8G-A",
        "price": 44990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 38,
+       "id": 39,
        "name": "｛ASUS H-V501MV-09270H001XB｝C9 270H / 16G / 1T / WIN11 P / 黑 / 330W電供",
        "price": 36990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 39,
+       "id": 40,
        "name": "｛ASUS H-V501MV-09270H002XA｝C9 270H / 16G / 1T / WIN11 P / 白 / 330W電供",
        "price": 39990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 41,
+       "id": 42,
        "name": "｛ASUS H-S500TER-514500036W｝i5-14500 / 16G / 512G / WIN11 / 500W電供",
        "price": 33990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 42,
+       "id": 43,
        "name": "｛ASUS H-S500TER-514500002X｝i5-14500 / 8G / 512G / WIN11 P / 500W電供",
        "price": 35990,
        "list_price": null,
@@ -382,7 +389,7 @@
       {
        "id": 74,
        "name": "【加購優惠】買 ASUS NUC 16 Pro 準系統 加購 美光 NB 16G D5-6400 (一台限購1)",
-       "price": 5199,
+       "price": 5499,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -564,7 +571,7 @@
       {
        "id": 108,
        "name": "【加購優惠】買 MSI CUBI 5 1MA 準系統 加購 美光 NB 16G D4-3200 (一台限購1)",
-       "price": 3699,
+       "price": 3999,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -598,7 +605,7 @@
       {
        "id": 112,
        "name": "【加購優惠】買 MSI CUBI 5 1M 準系統 加購 威剛 NB 16G D5-5600 (一台限購1)",
-       "price": 4699,
+       "price": 5199,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -632,7 +639,7 @@
       {
        "id": 118,
        "name": "【加購優惠】買 MSI CUBI Z AI 準系統 加購 威剛 NB 16G D5-5600 (一台限購1)",
-       "price": 4699,
+       "price": 5199,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -671,7 +678,7 @@
       {
        "id": 124,
        "name": "【加購優惠】買 MSI CUBI NUC AI 準系統 加購 威剛 NB 16G D5-5600 (一台限購1)",
-       "price": 4699,
+       "price": 5199,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -1656,10 +1663,13 @@
       },
       {
        "id": 53,
-       "name": "Acer Aspire 7 Core 5-210H/RTX4050/16G/512G/15.6吋/黑｛A715-59G-565X｝",
-       "price": 38900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Aspire 7 Core 5-210H/RTX4050/16G/512G/15.6吋/黑｛A715-59G-565X｝▼下殺到 11/15 23:59",
+       "price": 37811,
+       "list_price": 38900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -1694,24 +1704,33 @@
       },
       {
        "id": 59,
-       "name": "Acer Aspire Lite Core 7-150U/16G/512G/15.6吋/銀｛AL15-53P-706M｝",
-       "price": 27900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Aspire Lite Core 7-150U/16G/512G/15.6吋/銀｛AL15-53P-706M｝▼下殺到 11/15 23:59",
+       "price": 24811,
+       "list_price": 27900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 60,
-       "name": "Acer Aspire Lite Ultra 5-125H/32G/512G/15.6吋/銀｛AL15-74P-589G｝",
+       "name": "Acer Aspire Lite Ultra 5-125H/32G/512G/15.6吋/銀｛AL15-74P-589G｝▼下殺到 11/15 23:59",
        "price": 31900,
-       "list_price": null,
-       "flags": []
+       "list_price": 33900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 61,
-       "name": "Acer Aspire Lite Ultra 5-125H/16G/512G/15.6吋/銀｛AL15-74T-51XV｝〈觸控〉",
-       "price": 27900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Aspire Lite Ultra 5-125H/16G/512G/15.6吋/銀｛AL15-74T-51XV｝〈觸控〉▼下殺到 11/15 23:59",
+       "price": 26900,
+       "list_price": 27900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 62,
@@ -1836,10 +1855,13 @@
      "items": [
       {
        "id": 81,
-       "name": "Acer Nitro R9-365/RTX5060/16G/512G/16吋/黑｛AN16S-61-R9JT｝",
-       "price": 56900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Nitro R9-365/RTX5060/16G/512G/16吋/黑｛AN16S-61-R9JT｝▼下殺到 11/15 23:59",
+       "price": 54900,
+       "list_price": 56900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 82,
@@ -1850,10 +1872,13 @@
       },
       {
        "id": 83,
-       "name": "Acer Nitro V i7-13620H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-71YL｝",
-       "price": 48900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Nitro V i7-13620H/RTX5060/16G/512G/15.6吋/黑｛ANV15-52-71YL｝▼下殺到 11/15 23:59",
+       "price": 48111,
+       "list_price": 48900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -1862,17 +1887,23 @@
      "items": [
       {
        "id": 85,
-       "name": "Acer Nitro V R5-240/RTX5050/16G/512G/16吋/黑｛ANV16S-41-R14L｝",
-       "price": 52900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Nitro V R5-240/RTX5050/16G/512G/16吋/黑｛ANV16S-41-R14L｝▼下殺到 11/15 23:59",
+       "price": 50900,
+       "list_price": 52900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 86,
-       "name": "Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝",
+       "name": "Acer Nitro V R5-240/RTX5060/16G/512G/16吋/黑｛ANV16S-41-R5FT｝▼下殺到 11/15 23:59",
        "price": 54900,
-       "list_price": null,
-       "flags": []
+       "list_price": 56900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 87,
@@ -1902,10 +1933,12 @@
       },
       {
        "id": 91,
-       "name": "Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝",
+       "name": "Acer Helios Neo Ultra 9-285H/RTX5070/32G/1T/14.5吋/黑｛PHN14-71-96GV｝▼下殺到 11/15 23:59",
        "price": 89900,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       }
      ]
     },
@@ -1997,10 +2030,13 @@
      "items": [
       {
        "id": 107,
-       "name": "Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝",
+       "name": "Acer Swift Lite R5-240/16G/512G/16吋/銀｛SFL16-41M-R10R｝▼下殺到 11/15 23:59",
        "price": 29111,
-       "list_price": null,
-       "flags": []
+       "list_price": 30900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 108,
@@ -2117,10 +2153,13 @@
       },
       {
        "id": 125,
-       "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝",
-       "price": 42900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Swift Air Ultra 7-155H/32G/512G/14吋/銀｛SFA14-71M-791S｝▼下殺到 11/15 23:59",
+       "price": 41111,
+       "list_price": 42900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 126,
@@ -2150,10 +2189,13 @@
       },
       {
        "id": 130,
-       "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】",
-       "price": 37900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Swift Air Ryzen AI 7 350/16G/512G/16吋/銀｛SFA16-61M-R1PN｝【極致輕999克】▼下殺到 11/15 23:59",
+       "price": 37111,
+       "list_price": 38900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 131,
@@ -2169,10 +2211,13 @@
      "items": [
       {
        "id": 133,
-       "name": "Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝",
-       "price": 58900,
-       "list_price": null,
-       "flags": []
+       "name": "Acer Swift Edge Ultra 7-355/32G/512G/14吋/極光銀｛SFE14-I51-77SW｝▼下殺到 11/15 23:59",
+       "price": 56900,
+       "list_price": 58900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -2468,7 +2513,7 @@
       {
        "id": 195,
        "name": "華碩 Zenbook Ryzen AI 5-430/16G/512G/14吋 玉石黑｛UM3406GA-0042K430H｝OLED",
-       "price": 40999,
+       "price": 39999,
        "list_price": null,
        "flags": []
       },
@@ -2489,14 +2534,14 @@
       {
        "id": 198,
        "name": "華碩 Zenbook Ultra 7-255H/16G/512G/14吋 紳士藍｛UX3405CA-0202B255H｝",
-       "price": 44999,
+       "price": 43999,
        "list_price": null,
        "flags": []
       },
       {
        "id": 199,
        "name": "華碩 Zenbook Ultra 7-255H/16G/512G/14吋 白霧銀｛UX3405CA-0192S255H｝",
-       "price": 44999,
+       "price": 43999,
        "list_price": null,
        "flags": []
       },
@@ -2592,14 +2637,14 @@
       {
        "id": 215,
        "name": "華碩 Vivobook Ultra 5-226V/16G/512G/14吋 迷霧藍｛S5406SA-0068B226V｝超值OLED",
-       "price": 35999,
+       "price": 34999,
        "list_price": null,
        "flags": []
       },
       {
        "id": 216,
        "name": "華碩 Vivobook Ultra 5-226V/16G/512G/14吋 玫瑰金｛S5406SA-0078C226V｝超值OLED",
-       "price": 35999,
+       "price": 34999,
        "list_price": null,
        "flags": []
       },
@@ -2847,7 +2892,7 @@
       {
        "id": 254,
        "name": "華碩 ROG Ryzen AI 9 465/RTX5060/32G/2T/14吋 鉑月銀｛GA403GM-0092H465H-NBLO｝",
-       "price": 95999,
+       "price": 92888,
        "list_price": null,
        "flags": []
       },
@@ -10276,8 +10321,22 @@
      "items": [
       {
        "id": 190,
+       "name": "金士頓16GB 5600MT/s D5 ECC CL46 DIMM 1Rx8 Micron H｛KSM56E46BS8/16MH｝",
+       "price": 22000,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 191,
+       "name": "金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Micron H｛KSM56T46BD8/32MH｝",
+       "price": 43800,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 192,
        "name": "金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Hynix A｛KSM56E46BD8KM/32HA｝",
-       "price": 29900,
+       "price": 43800,
        "list_price": null,
        "flags": []
       }
@@ -10287,21 +10346,35 @@
      "label": "伺服器專用記憶體 DDR5 RDIMM",
      "items": [
       {
-       "id": 192,
+       "id": 194,
+       "name": "金士頓16G 5600MT/s D5 ECC Reg CL46 DIMM 1R*8 Micron H｛KSM56R46BS8/16MH｝",
+       "price": 22300,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 195,
+       "name": "金士頓32G 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Micron H｛KSM56R46BD8/32MH｝",
+       "price": 44500,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 196,
+       "name": "金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Micron H｛KSM56R46BD4/64MH｝",
+       "price": 88000,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 197,
        "name": "金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Hynix A Rambus｛KSM56R46BD4/64HA｝",
        "price": 88000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 193,
-       "name": "金士頓64G 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Micron 顆粒｛KSM56R46BD4/64MH｝",
-       "price": 88000,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 194,
+       "id": 198,
        "name": "金士頓96G 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 Micron C｛KSM64R52BD4/96MC｝",
        "price": 125000,
        "list_price": null,
@@ -10313,14 +10386,14 @@
      "label": "伺服器專用記憶體 DDR4 RDIMM",
      "items": [
       {
-       "id": 196,
+       "id": 200,
        "name": "金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus｛KSM32RD8/32HD｝",
        "price": 19200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 197,
+       "id": 201,
        "name": "金士頓64GB 3200MHz D4 ECC Reg CL22 DIMM 2R*4 Hynix C Rambus｛KSM32RD4/64HCR｝",
        "price": 29900,
        "list_price": null,
@@ -18811,9 +18884,11 @@
       {
        "id": 203,
        "name": "｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板",
-       "price": 10390,
+       "price": 10690,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "任搭折190"
+       ]
       },
       {
        "id": 204,
@@ -19125,6 +19200,15 @@
       },
       {
        "id": 241,
+       "name": "｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板",
+       "price": 31490,
+       "list_price": null,
+       "flags": [
+        "任搭折290"
+       ]
+      },
+      {
+       "id": 242,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計",
        "price": 32990,
        "list_price": null,
@@ -19134,7 +19218,7 @@
        ]
       },
       {
-       "id": 242,
+       "id": 243,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板",
        "price": 32990,
        "list_price": null,
@@ -19143,7 +19227,7 @@
        ]
       },
       {
-       "id": 243,
+       "id": 244,
        "name": "｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白",
        "price": 34490,
        "list_price": null,
@@ -19152,7 +19236,7 @@
        ]
       },
       {
-       "id": 244,
+       "id": 245,
        "name": "｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製",
        "price": 30990,
        "list_price": null,
@@ -19161,7 +19245,7 @@
        ]
       },
       {
-       "id": 245,
+       "id": 246,
        "name": "｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製",
        "price": 31090,
        "list_price": null,
@@ -19170,7 +19254,7 @@
        ]
       },
       {
-       "id": 246,
+       "id": 247,
        "name": "｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板",
        "price": 31490,
        "list_price": null,
@@ -19179,7 +19263,7 @@
        ]
       },
       {
-       "id": 247,
+       "id": 248,
        "name": "｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製",
        "price": 32990,
        "list_price": null,
@@ -19302,76 +19386,69 @@
       },
       {
        "id": 22,
-       "name": "【主機搭購】MSI PRO MP242 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉省$200",
-       "price": 2388,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 23,
        "name": "【主機搭購】MSI PRO MP272 E14C〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉",
        "price": 2688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 24,
+       "id": 23,
        "name": "【主機搭購】三星 S3 S27D300GAC〈1A1H/IPS/100Hz〉省$400",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 25,
+       "id": 24,
        "name": "【主機搭購】｛三星 S3 S27D362GAC｝〈1A1H/VA曲面/1800R/100Hz〉省$200",
        "price": 3777,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 26,
+       "id": 25,
        "name": "【主機搭購】三星 Odyssey G5 S27FG502EC〈1H1P/IPS/180Hz/HDR10〉可升降旋轉",
        "price": 5590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 27,
+       "id": 26,
        "name": "【主機搭購】Acer Nitro VG240Y P6〈1H1P/IPS/144Hz/含喇叭〉省$300",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 28,
+       "id": 27,
        "name": "【主機搭購】｛Acer Nitro ED270 W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭〉",
        "price": 3588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 29,
+       "id": 28,
        "name": "【主機搭購】BenQ GW2790〈2H1P/IPS/100Hz/含喇叭〉.光智慧2.0 省$1200",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 30,
+       "id": 29,
        "name": "【主機搭購】BenQ GW2491P〈1H1P/IPS/120Hz〉省$200",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 31,
+       "id": 30,
        "name": "【主機搭購】BenQ GW2791P〈1H1P/IPS/120Hz〉省$200",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 32,
+       "id": 31,
        "name": "【主機搭購】AOPEN 16PM1Q J〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 1999,
        "list_price": null,
@@ -19383,7 +19460,7 @@
      "label": "19吋(1280*1024)(5:4)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 35,
+       "id": 34,
        "name": "｛DELL P1917S｝〈1A1H1P/IPS/四年保〉",
        "price": 4990,
        "list_price": null,
@@ -19395,14 +19472,14 @@
      "label": "20吋(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 38,
+       "id": 37,
        "name": "｛AOPEN 20E0Q｝〈1A1H/TN〉",
        "price": 1899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 39,
+       "id": 38,
        "name": "｛華碩 VS207DF｝〈1A/TN〉Splendid 影像智慧技術",
        "price": 1988,
        "list_price": null,
@@ -19414,14 +19491,14 @@
      "label": "22吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 42,
+       "id": 41,
        "name": "｛MSI PRO MP225 E12VL｝〈1A1H/VA/120Hz〉",
        "price": 1888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 43,
+       "id": 42,
        "name": "｛Acer EK220Q E3｝〈1A1H/IPS/100Hz〉▼下殺到 11/15 23:59",
        "price": 1811,
        "list_price": 1888,
@@ -19431,7 +19508,7 @@
        ]
       },
       {
-       "id": 44,
+       "id": 43,
        "name": "｛Acer EK220Q J0｝〈1A1H/VA/120Hz〉▼下殺到 11/15 23:59",
        "price": 1811,
        "list_price": 1899,
@@ -19441,70 +19518,70 @@
        ]
       },
       {
-       "id": 45,
+       "id": 44,
        "name": "｛Acer KA222Q J0｝〈1A1H/VA/120Hz/含喇叭〉",
        "price": 2188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 46,
+       "id": 45,
        "name": "｛Acer UT222Q E｝〈1A1H1P/IPS/100Hz/含喇叭〉10點觸控螢幕",
        "price": 7499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 47,
+       "id": 46,
        "name": "｛AOPEN 22CL1Q J0｝〈1A1H/VA/120Hz〉",
        "price": 1799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 48,
+       "id": 47,
        "name": "｛AOPEN 22SA2Q H｝〈1A1H/VA/100Hz〉",
        "price": 1688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 49,
+       "id": 48,
        "name": "｛ViewSonic VA220-H｝〈1A1H/VA/100Hz〉",
        "price": 2368,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 50,
+       "id": 49,
        "name": "｛AOC 22B15H2｝〈1A1H/IPS/120Hz〉",
        "price": 1888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 51,
+       "id": 50,
        "name": "｛華碩 VP227HF｝〈1A1H/VA/100Hz〉",
        "price": 1955,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 52,
+       "id": 51,
        "name": "｛華碩 VP229QF｝〈1A1H1P/IPS/100Hz/含喇叭〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 53,
+       "id": 52,
        "name": "｛華碩 VY229HE｝〈1A1H/IPS〉",
        "price": 2340,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 54,
+       "id": 53,
        "name": "｛DELL SE2225HM｝〈1A1H/VA/100Hz/四年保〉",
        "price": 2598,
        "list_price": null,
@@ -19516,77 +19593,77 @@
      "label": "24吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 58,
+       "id": 57,
        "name": "｛MSI PRO MP243L E14｝〈1A1H/IPS/144Hz〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 59,
+       "id": 58,
        "name": "｛MSI PRO MP243 E14｝〈1H1P/IPS/144Hz/含喇叭〉",
        "price": 2458,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 60,
+       "id": 59,
        "name": "｛MSI PRO MP243W E14｝〈1H1P/IPS/144Hz/白色/含喇叭〉",
        "price": 2458,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 61,
-       "name": "｛MSI PRO MP242 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉【優惠洽門市】",
-       "price": 2588,
+       "id": 60,
+       "name": "｛MSI PRO MP242 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉",
+       "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 62,
+       "id": 61,
        "name": "｛MSI PRO MAX 241PHW E14｝〈1H1P1C/IPS/144Hz/含喇叭〉可升降旋轉",
        "price": 4076,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 63,
+       "id": 62,
        "name": "｛MSI Modern MD2412PW｝〈1H1C/IPS/100Hz/含喇叭/白色〉可升降旋轉",
        "price": 3222,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 64,
+       "id": 63,
        "name": "｛MSI G242L E14｝〈1H1P/IPS/144Hz〉",
        "price": 2511,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 65,
+       "id": 64,
        "name": "｛MSI MAG 245C X24｝〈2H1P/VA曲面/1500R/240Hz〉",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 66,
+       "id": 65,
        "name": "｛MSI MAG 245PF X24｝〈2H1P/IPS/240Hz〉",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 67,
+       "id": 66,
        "name": "｛MSI MAG 245F X24｝〈2H1P/IPS/240Hz〉",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 68,
+       "id": 67,
        "name": "｛MSI MPG 242R X60N｝〈2H1P1C/TN/600Hz/HDR400〉",
        "price": 14100,
        "list_price": null,
@@ -19595,175 +19672,175 @@
        ]
       },
       {
-       "id": 69,
+       "id": 68,
        "name": "｛Acer EK241Y P6｝〈1A1H/IPS/144Hz〉",
        "price": 2188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 70,
+       "id": 69,
        "name": "｛Acer SA243Y P0｝〈1A1H/VA/144Hz〉",
        "price": 2488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 71,
+       "id": 70,
        "name": "｛Acer SA243Y P1b｝〈1A1H/IPS/144Hz/含喇叭/黑色〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 72,
+       "id": 71,
        "name": "｛Acer SA243Y P1w｝〈1A1H/IPS/144Hz/含喇叭/白色〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 73,
+       "id": 72,
        "name": "｛Acer SB243Y G0｝〈1A1H/IPS/120Hz/含喇叭〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 74,
+       "id": 73,
        "name": "｛Acer KA242Y P6｝〈1A1H/IPS/144Hz/含喇叭〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 75,
+       "id": 74,
        "name": "｛Acer Nitro KG241Y X3｝〈1H1P/VA/200Hz/HDR10〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 76,
+       "id": 75,
        "name": "｛Acer Nitro VG240Y P6｝〈1H1P/IPS/144Hz/含喇叭〉【優惠洽門市】",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 77,
+       "id": 76,
        "name": "｛Acer Nitro VG240Y S6｝〈1A1H/IPS/180Hz/含喇叭〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 78,
+       "id": 77,
        "name": "｛Acer Nitro VG240Y X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 2799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 79,
+       "id": 78,
        "name": "｛Acer Nitro VG240Y W3｝〈2H1P/IPS/240Hz/含喇叭/HDR10〉",
        "price": 3099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 80,
+       "id": 79,
        "name": "｛Acer Nitro VG240Y W5｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉",
        "price": 3199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 81,
+       "id": 80,
        "name": "｛Acer Nitro XV240Y X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 82,
+       "id": 81,
        "name": "｛Acer Nitro ED240Q P0｝〈1A1H/VA曲面/1500R/144Hz〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 83,
+       "id": 82,
        "name": "｛Acer Nitro ED240Q W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭/HDR10〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 84,
+       "id": 83,
        "name": "｛Acer Nitro XV240 F6｝〈2H1P/TN/600Hz/含喇叭/HDR400〉600Hz高速更新率~",
        "price": 8999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 85,
+       "id": 84,
        "name": "｛BenQ GW2491｝〈1H1P/IPS/100Hz〉",
        "price": 2488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 86,
+       "id": 85,
        "name": "｛BenQ GW2491P｝〈1H1P/IPS/120Hz〉",
        "price": 2488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 87,
+       "id": 86,
        "name": "｛BenQ GW2490P｝〈1H1P/IPS/120Hz/含喇叭〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 88,
+       "id": 87,
        "name": "｛BenQ GW2490C｝〈1H1P1C/IPS/144Hz/含喇叭〉光智慧2.0",
        "price": 2749,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 89,
+       "id": 88,
        "name": "｛BenQ GW2490TC｝〈1H1P1C/IPS/144Hz/含喇叭〉光智慧.可升降旋轉",
        "price": 4729,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 90,
+       "id": 89,
        "name": "｛PHILIPS 24E1N2100A｝〈1A1H/IPS/120Hz/含喇叭〉",
        "price": 2488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 91,
+       "id": 90,
        "name": "｛PHILIPS 24M2N2100NF｝〈1H/IPS/144Hz〉",
        "price": 2488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 92,
+       "id": 91,
        "name": "｛PHILIPS 24E2G2200｝〈1H1P/IPS/180Hz/HDR10〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 93,
+       "id": 92,
        "name": "｛PHILIPS 242V8AB｝〈1A1H1P/IPS〉台灣製造▼下殺到 10/31 23:59",
        "price": 2988,
        "list_price": 3388,
@@ -19773,133 +19850,133 @@
        ]
       },
       {
-       "id": 94,
+       "id": 93,
        "name": "｛AOC 24B36XE｝〈1A1H/IPS/144Hz〉",
        "price": 2268,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 94,
        "name": "｛AOC 24G10ZNE｝〈2H1P/VA/240Hz〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 96,
+       "id": 95,
        "name": "｛AOC 24G11ZE｝〈1H1P/IPS/240Hz〉",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 98,
+       "id": 97,
        "name": "｛AOC 24G50Z｝〈1H1P/IPS/260Hz〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 99,
+       "id": 98,
        "name": "｛AOPEN 24CL1Y P6｝〈1A1H/IPS/144Hz〉",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 100,
+       "id": 99,
        "name": "｛AOPEN 24HC5QR S3｝〈2H1P/VA曲面/1500R/180Hz/含喇叭/HDR10〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 101,
+       "id": 100,
        "name": "｛DELL SE2426H｝〈2H/IPS/144Hz/四年保〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 102,
+       "id": 101,
        "name": "｛DELL S2425HSM｝〈2H/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 3888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 103,
+       "id": 102,
        "name": "｛DELL P2425HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 104,
+       "id": 103,
        "name": "｛DELL P2426H｝〈1H1P/IPS/120Hz/無亮點/四年保〉可升降旋轉",
        "price": 5588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 104,
        "name": "｛DELL P2426HE｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 7488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 106,
+       "id": 105,
        "name": "｛DELL U2424H｝〈1H2P1C/IPS/120Hz/無亮點/四年保〉可升降旋轉",
        "price": 6688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 107,
+       "id": 106,
        "name": "｛DELL U2424HE｝〈1H2P1C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 10900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 107,
        "name": "｛terra 2441W｝〈1A1H/IPS/含喇叭/144Hz〉",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 108,
        "name": "｛terra 2427W HA｝〈1H1P/VA/含喇叭〉可升降",
        "price": 2899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 109,
        "name": "｛ViewSonic VA2432-H-2｝〈1A1H/IPS/100Hz〉",
        "price": 3088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 110,
        "name": "｛ViewSonic VA2432-MHD-3｝〈1A1H1P/IPS/100Hz/含喇叭〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 111,
        "name": "｛ViewSonic VA2408-HDJ｝〈1A1H1P/IPS/100Hz〉可升降旋轉",
        "price": 4580,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 113,
+       "id": 112,
        "name": "｛ViewSonic VX2479-HD-PRO｝〈2H1P/IPS/180Hz/HDR10/無亮點〉",
        "price": 3288,
        "list_price": null,
@@ -19909,28 +19986,28 @@
        ]
       },
       {
-       "id": 114,
+       "id": 113,
        "name": "｛ViewSonic VX24G30-W｝〈2H1P/IPS/240Hz/HDR10/無亮點/白色〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 114,
        "name": "｛ViewSonic VX24G30-BL｝〈2H1P/IPS/240Hz/HDR10/無亮點/蘇打藍〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 115,
        "name": "｛ViewSonic VX24G30-PK｝〈2H1P/IPS/240Hz/HDR10/無亮點/粉紅色〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 117,
+       "id": 116,
        "name": "｛ViewSonic VX2479A-HD-PRO｝〈2H1P/IPS/240Hz/HDR10/無亮點〉",
        "price": 2880,
        "list_price": null,
@@ -19939,161 +20016,161 @@
        ]
       },
       {
-       "id": 118,
+       "id": 117,
        "name": "｛ViewSonic VX2485-MHU｝〈1A1H1C/IPS/含喇叭/無亮點〉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 119,
+       "id": 118,
        "name": "｛三星 S3 S24F332EAC｝〈1A1H/VA/100Hz〉",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 120,
+       "id": 119,
        "name": "｛華碩 VA249HG｝〈1A1H/IPS/120Hz〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 121,
+       "id": 120,
        "name": "｛華碩 VA249QG｝〈1A1H1P/IPS/120Hz/含喇叭〉",
        "price": 2718,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 122,
+       "id": 121,
        "name": "｛華碩 VA249HG2｝〈1A1H/IPS/144Hz/HDR10〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 123,
+       "id": 122,
        "name": "｛華碩 VA249HG3｝〈1A1H/IPS/180Hz/HDR10〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 124,
+       "id": 123,
        "name": "｛華碩 VA249QGS-W｝〈1A1H1P/IPS/120Hz/含喇叭/白色〉可升降旋轉",
        "price": 3588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 125,
+       "id": 124,
        "name": "｛華碩 VZ249HE-W｝〈1A1H/IPS/白色〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 126,
+       "id": 125,
        "name": "｛華碩 VZ249HG｝〈1A1H/IPS/120Hz〉",
        "price": 2328,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 127,
+       "id": 126,
        "name": "｛華碩 VZ249HG-W｝〈1A1H/IPS/120Hz/白色〉",
        "price": 2328,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 128,
+       "id": 127,
        "name": "｛華碩 VU249CFE-B｝〈1H1C/IPS/100Hz/靜謐藍色〉",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 129,
+       "id": 128,
        "name": "｛華碩 VU249CFE-G｝〈1H1C/IPS/100Hz/灰綠色〉",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 130,
+       "id": 129,
        "name": "｛華碩 VU249CFE-M｝〈1H1C/IPS/100Hz/燕麥奶色〉",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 131,
+       "id": 130,
        "name": "｛華碩 VU249CFE-P｝〈1H1C/IPS/100Hz/淡玫瑰色〉",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 132,
+       "id": 131,
        "name": "｛華碩 VU249HFI-W｝〈2H/IPS/100Hz/白色〉負離子產生器螢幕",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 133,
+       "id": 132,
        "name": "｛華碩 VY249HGR｝〈1A1H/IPS/120Hz〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 134,
+       "id": 133,
        "name": "｛華碩 VY249HG2｝〈1A1H/IPS/144Hz〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 134,
        "name": "｛華碩 VY249HG3｝〈1A1H/IPS/180Hz〉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 136,
+       "id": 135,
        "name": "｛華碩 VG249QM5F ｝〈2H1P/IPS/260Hz〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 136,
        "name": "｛華碩 ProArt PA247CV｝〈1H2P1C/IPS/含喇叭/無亮點〉可升降旋轉",
        "price": 5888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 138,
+       "id": 137,
        "name": "｛華碩 ProArt PA249CGV｝〈1H2P1C/IPS/144Hz/含喇叭/無亮點〉可升降旋轉",
        "price": 6488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 139,
+       "id": 138,
        "name": "｛華碩 TUF Gaming VG249QE5A｝〈1H1P/IPS/146Hz/含喇叭〉",
        "price": 2688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 140,
+       "id": 139,
        "name": "｛華碩 ROG Strix XG248QSG Ace｝〈2H1P/TN/610Hz/HDR400〉",
        "price": 19888,
        "list_price": null,
@@ -20105,35 +20182,35 @@
      "label": "24吋(1920*1200)(16:10)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 144,
+       "id": 143,
        "name": "｛AOC CS24A/P｝〈2H1P/TN/610Hz/HDR400/HDMI2.1〉《絕對武力 2》聯名款",
        "price": 18800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 146,
+       "id": 145,
        "name": "｛DELL P2425E｝〈1H2P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 146,
        "name": "｛DELL P2426｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉",
        "price": 6488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 148,
+       "id": 147,
        "name": "｛華碩 ProArt PA248QV｝〈1A1H1P/IPS/含喇叭/無亮點〉可升降旋轉",
        "price": 5809,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 149,
+       "id": 148,
        "name": "｛華碩 ProArt PA248QFV｝〈1H1P/IPS/100Hz/含喇叭/無亮點〉可升降旋轉",
        "price": 5618,
        "list_price": null,
@@ -20145,21 +20222,21 @@
      "label": "24吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 153,
+       "id": 152,
        "name": "｛三星 ViewFinity S6 S24D606EAC｝〈1H1P3USB3.0/IPS/100Hz/HDR10〉可升降",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 154,
+       "id": 153,
        "name": "｛DELL P2425D｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉",
        "price": 8999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 155,
+       "id": 154,
        "name": "｛華碩 ProArt PA24ACRV｝〈1H2P1C/IPS/含喇叭/HDR400/無亮點〉可升降旋轉",
        "price": 8809,
        "list_price": null,
@@ -20171,14 +20248,14 @@
      "label": "24吋(2560*1600)(16:10)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 158,
+       "id": 157,
        "name": "｛BenQ RD240Q｝〈1H1P1C/IPS/含喇叭〉光智慧2.0.可升降旋轉",
        "price": 8988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 160,
+       "id": 159,
        "name": "｛BenQ SW242Q｝〈1H1P1C/IPS/HDR10〉SDI轉HDMI設備兼容性",
        "price": 16888,
        "list_price": null,
@@ -20192,140 +20269,140 @@
      "label": "25吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 163,
+       "id": 162,
        "name": "｛MSI MAG 255F E20｝〈2H1P/IPS/200Hz〉",
        "price": 2890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 164,
+       "id": 163,
        "name": "｛MSI MAG 255F X24｝〈2H1P/IPS/240Hz〉",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 165,
+       "id": 164,
        "name": "｛華碩 VA259HGA｝〈1A1H/IPS/120Hz/含喇叭〉",
        "price": 2607,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 166,
+       "id": 165,
        "name": "｛華碩 TUF Gaming VG257Q5A｝〈2H1P/VA/200Hz/含喇叭/HDR10〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 167,
+       "id": 166,
        "name": "｛華碩 TUF Gaming VG259Q5A｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 168,
+       "id": 167,
        "name": "｛華碩 TUF Gaming VG259QMR5A｝〈2H1P/IPS/310Hz/含喇叭/HDR10〉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 169,
+       "id": 168,
        "name": "｛華碩 ROG Strix XG259QNS｝〈2H1P/IPS/380Hz/HDR400〉可升降旋轉",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 170,
+       "id": 169,
        "name": "｛華碩 ROG Strix XG259QNS-W｝〈2H1P/IPS/380Hz/HDR400/白色〉可升降旋轉",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 171,
+       "id": 170,
        "name": "｛華碩 ROG Strix XG259QNSR｝〈2H1P/IPS/420Hz/HDR400〉可升降旋轉",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 172,
        "name": "｛華碩 ROG Strix XG259QNSR-W｝〈2H1P/IPS/420Hz/HDR400/白色〉可升降旋轉",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 174,
        "name": "｛AOC 25B40HM｝〈1A1H/VA/100Hz〉",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 175,
        "name": "｛AOC CS25G｝〈2H1P/IPS/310Hz/HDR400〉《絕對武力 2》聯名款",
        "price": 5388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 177,
+       "id": 176,
        "name": "｛DELL Alienware AW2525HM｝〈2H1P/IPS/320Hz/無亮點〉可升降旋轉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 177,
        "name": "｛Acer KA252Q P0｝〈1A1H/IPS/144Hz〉",
        "price": 2188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 179,
+       "id": 178,
        "name": "｛Acer Nitro VG250Q W5｝〈2H1P/IPS/260Hz〉",
        "price": 3299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 179,
        "name": "｛Acer Nitro VG250Q F3｝〈2H1P/IPS/320Hz/含喇叭〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 180,
        "name": "｛Acer Predator XB253Q F3｝〈2H1P/IPS/320Hz/含喇叭/HDR10〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 181,
        "name": "｛BenQ ZOWIE XL2540X+｝〈3H1P/TN/280Hz〉",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 183,
+       "id": 182,
        "name": "｛BenQ ZOWIE XL2546X+｝〈3H1P/TN/280Hz〉DyAc 2動態精準技術",
        "price": 14490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 183,
        "name": "｛BenQ ZOWIE XL2566X+｝〈3H1P/TN/400Hz〉DyAc 2動態精準技術▼下殺到 11/16 23:59",
        "price": 18900,
        "list_price": 19490,
@@ -20335,7 +20412,7 @@
        ]
       },
       {
-       "id": 185,
+       "id": 184,
        "name": "｛BenQ ZOWIE XL2586X+｝〈3H1P/TN/600Hz/HDMI 2.1〉DyAc 2動態精準技術",
        "price": 31900,
        "list_price": null,
@@ -20347,7 +20424,7 @@
      "label": "25吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 188,
+       "id": 187,
        "name": "｛BenQ ZOWIE XQ2566X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態精準技術▼下殺到 11/16 23:59",
        "price": 28900,
        "list_price": 29900,
@@ -20357,7 +20434,7 @@
        ]
       },
       {
-       "id": 190,
+       "id": 189,
        "name": "ZOWIE 組合 XQ2566X螢幕+EC2-DW滑鼠+G-SR-SE Rouge II(ZC05)鼠墊 原價$33830",
        "price": 31800,
        "list_price": null,
@@ -20369,14 +20446,14 @@
      "label": "27吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 194,
+       "id": 193,
        "name": "｛MSI PRO MP273L E14｝〈1A1H/IPS/144Hz〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 195,
+       "id": 194,
        "name": "｛MSI PRO MP272 E14C｝〈1H1C/IPS/144Hz/含喇叭/Type-C連接埠〉獨家款",
        "price": 2788,
        "list_price": null,
@@ -20385,140 +20462,140 @@
        ]
       },
       {
-       "id": 196,
+       "id": 195,
        "name": "｛MSI PRO MP273 E14A｝〈1A1H1P/IPS/144Hz/含喇叭〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 197,
+       "id": 196,
        "name": "｛MSI PRO MP273W E14A｝〈1A1H1P/IPS/144Hz/含喇叭/白色〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 198,
+       "id": 197,
        "name": "｛MSI PRO MP275PG E14｝〈1A1H1P/IPS/144Hz/含喇叭〉可升降旋轉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 199,
+       "id": 198,
        "name": "｛MSI PRO MAX 271PHW E14｝〈1H1P1C/IPS/144Hz/含喇叭/白色〉可升降旋轉",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 200,
+       "id": 199,
        "name": "｛MSI G275L E14｝〈1H1P/IPS/144Hz〉",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 201,
+       "id": 200,
        "name": "｛MSI MAG 274CF E20｝〈2H1P/VA曲面/200Hz〉",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 201,
        "name": "｛MSI MAG 272F X24｝〈2H1P/IPS/240Hz〉",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 203,
+       "id": 202,
        "name": "｛MSI MAG 272PF X24｝〈2H1P/IPS/240Hz/含喇叭〉",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 204,
+       "id": 203,
        "name": "｛MSI MAG 274CF X24｝〈2H1P/VA曲面/1500R/240Hz〉",
        "price": 4390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 205,
+       "id": 204,
        "name": "｛MSI MAG 276CXF｝〈2H1P/VA曲面/1500R/280Hz〉",
        "price": 4666,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 206,
+       "id": 205,
        "name": "｛MSI MAG 276CPXF｝〈2H1P/VA曲面/1500R/280Hz〉可升降",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 207,
+       "id": 206,
        "name": "｛Acer Vero CB272 P6｝〈1A1H1P/IPS/144Hz/含喇叭〉可升降旋轉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 208,
+       "id": 207,
        "name": "｛Acer CS272｝〈3H/IPS/含喇叭/HDR10/白色〉智慧螢幕.支援Airplay",
        "price": 5488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 209,
+       "id": 208,
        "name": "｛Acer EK271 P6｝〈1A1H/IPS/144Hz〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 210,
+       "id": 209,
        "name": "｛Acer SA273 P1｝〈1A1H/IPS/144Hz/含喇叭〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 211,
+       "id": 210,
        "name": "｛Acer SA273 P1｝〈1A1H/IPS/144Hz/含喇叭/白色〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 212,
+       "id": 211,
        "name": "｛Acer SH272 E｝〈1H1C/IPS/100Hz/含喇叭〉支援PD 65W",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 213,
+       "id": 212,
        "name": "｛Acer KA272 P6｝〈1A1H/IPS/144Hz/含喇叭〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 214,
+       "id": 213,
        "name": "｛Acer Nitro ED270 P0｝〈1H1P/VA曲面/1500R/144Hz/含喇叭〉",
        "price": 3499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 215,
+       "id": 214,
        "name": "｛Acer Nitro ED270 S0｝〈1H1P/VA曲面/1500R/180Hz〉▼下殺到 11/15 23:59",
        "price": 3111,
        "list_price": 3499,
@@ -20528,21 +20605,21 @@
        ]
       },
       {
-       "id": 216,
+       "id": 215,
        "name": "｛Acer Nitro ED273 P0｝〈1H1P/VA曲面/1500R/144Hz/含喇叭〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 217,
+       "id": 216,
        "name": "｛Acer Nitro ED270 X0｝〈2H1P/VA曲面/1500R/200Hz/含喇叭〉",
        "price": 3599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 218,
+       "id": 217,
        "name": "｛Acer Nitro ED270 W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭〉▼下殺到 11/15 23:59",
        "price": 3611,
        "list_price": 3699,
@@ -20552,91 +20629,91 @@
        ]
       },
       {
-       "id": 219,
+       "id": 218,
        "name": "｛Acer Nitro ED270 Z｝〈2H1P/VA曲面/1500R/280Hz/含喇叭〉",
        "price": 3888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 220,
+       "id": 219,
        "name": "｛Acer Nitro KG271 X1｝〈2H1P/IPS/200Hz/HDR10〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 221,
+       "id": 220,
        "name": "｛Acer Nitro VG270 P6｝〈1H1P/IPS/144Hz/含喇叭〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 222,
+       "id": 221,
        "name": "｛Acer Nitro VG270 S6｝〈1A1H/IPS/180Hz/含喇叭〉",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 223,
+       "id": 222,
        "name": "｛Acer Nitro VG270 X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 224,
+       "id": 223,
        "name": "｛Acer Nitro VG270 W3｝〈2H1P/IPS/240Hz/含喇叭/HDR10〉",
        "price": 3388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 225,
+       "id": 224,
        "name": "｛Acer Nitro VG270 W5｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉",
        "price": 3699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 226,
+       "id": 225,
        "name": "｛Acer Nitro VG271 Z｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 227,
+       "id": 226,
        "name": "｛Acer Nitro XV270 X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉可升降旋轉",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 228,
+       "id": 227,
        "name": "｛Acer Nitro XV270 W3｝〈2H1P/IPS/240Hz/含喇叭/HDR10〉可升降旋轉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 229,
+       "id": 228,
        "name": "｛Acer Nitro XV271 Z｝〈2H1P/IPS/280Hz/含喇叭/HDR400〉可升降旋轉",
        "price": 3888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 230,
+       "id": 229,
        "name": "｛Acer Nitro XV270 W5｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉可升降旋轉",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 231,
+       "id": 230,
        "name": "｛Acer Nitro XV275 F｝〈2H1P/IPS/360Hz/含喇叭/HDR400〉360Hz高速更新率~▼下殺到 11/15 23:59",
        "price": 4288,
        "list_price": 6699,
@@ -20646,14 +20723,14 @@
        ]
       },
       {
-       "id": 232,
+       "id": 231,
        "name": "｛BenQ GW2791P｝〈1H1P/IPS/120Hz〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 233,
+       "id": 232,
        "name": "｛BenQ GW2790｝〈2H1P/IPS/100Hz/含喇叭〉光智慧2.0",
        "price": 2988,
        "list_price": null,
@@ -20662,399 +20739,399 @@
        ]
       },
       {
-       "id": 234,
+       "id": 233,
        "name": "｛BenQ GW2790C｝〈1H1P1C/IPS/144Hz/含喇叭〉光智慧2.0",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 235,
+       "id": 234,
        "name": "｛BenQ GW2790T｝〈2H1P/IPS/100Hz/含喇叭〉光智慧.可升降旋轉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 236,
+       "id": 235,
        "name": "｛BenQ GW2790TC｝〈1H1P1C/IPS/144Hz/含喇叭〉光智慧.可升降旋轉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 237,
+       "id": 236,
        "name": "｛BenQ GW2786TC｝〈1H1P1C/IPS/100Hz/含喇叭/白色〉降噪麥克風.可升降旋轉",
        "price": 5388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 238,
+       "id": 237,
        "name": "｛PHILIPS 27E2G2200｝〈1H1P/IPS/144Hz/HDR10〉",
        "price": 2777,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 239,
+       "id": 238,
        "name": "｛PHILIPS 27M2N2100NF｝〈1H/IPS/144Hz〉",
        "price": 2750,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 240,
+       "id": 239,
        "name": "｛PHILIPS 27E1N1300A｝〈1H1C/IPS/100Hz/含喇叭/無亮點〉",
        "price": 2799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 241,
+       "id": 240,
        "name": "｛AOC 27B30H｝〈1A1H/IPS/100Hz〉",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 242,
+       "id": 241,
        "name": "｛AOC 27B36XE｝〈1A1H/IPS/144Hz〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 243,
+       "id": 242,
        "name": "｛AOC 27G11ZE2｝〈1H1P/IPS/240Hz〉",
        "price": 3075,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 245,
+       "id": 244,
        "name": "｛AOC 27G50Z｝〈1H1P/IPS/260Hz〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 246,
+       "id": 245,
        "name": "｛AOC C27G4Z｝〈1H1P/VA曲面/1500R/280Hz/HDR10〉",
        "price": 4799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 247,
+       "id": 246,
        "name": "｛AOPEN 27CL1 P6｝〈1A1H/IPS/144Hz〉",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 248,
+       "id": 247,
        "name": "｛AOPEN 27KG3 M3｝〈1H1P/IPS/180Hz/HDR10〉",
        "price": 3088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 249,
+       "id": 248,
        "name": "｛AOPEN 27KG3 X1｝〈1H1P/IPS/200Hz/HDR10〉",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 250,
+       "id": 249,
        "name": "｛AOPEN 27HC5R P0｝〈1H1P/VA曲面/1500R/144Hz/含喇叭〉",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 251,
+       "id": 250,
        "name": "｛AOPEN 27HC5R X0｝〈2H1P/VA曲面/1500R/200Hz/含喇叭〉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 252,
+       "id": 251,
        "name": "｛AOPEN 27HC5R X2｝〈2H1P/VA曲面/1500R/240Hz/含喇叭/HDR10〉",
        "price": 2788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 253,
+       "id": 252,
        "name": "｛AOPEN 27HC5R Z1｝〈2H1P/VA曲面/1500R/280Hz/含喇叭/HDR10〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 254,
+       "id": 253,
        "name": "｛DELL SE2725HM｝〈1A1H/IPS/100Hz/四年保〉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 255,
+       "id": 254,
        "name": "｛DELL SE2726H｝〈2H/IPS/144Hz/四年保〉",
        "price": 3468,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 256,
+       "id": 255,
        "name": "｛DELL S2725HS｝〈2H/IPS/100Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 257,
+       "id": 256,
        "name": "｛DELL S2725HSM｝〈2H/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 4588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 258,
+       "id": 257,
        "name": "｛DELL P2726H｝〈1H1P/IPS/120Hz/無亮點/四年保〉可升降旋轉",
        "price": 6699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 259,
+       "id": 258,
        "name": "｛LG 27U411A-B｝〈1A1H/IPS/120Hz/HDR10〉",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 260,
+       "id": 259,
        "name": "｛LG 27MR400-B｝〈1A1H/IPS/100Hz〉",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 261,
+       "id": 260,
        "name": "｛LG 27U511SA-W｝〈2H/IPS/100Hz/含喇叭/HDR10/白色〉智慧螢幕.支援Airplay",
        "price": 6590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 262,
+       "id": 261,
        "name": "｛LG UltraGear 27G550B-B｝〈2H1P/IPS/300Hz/HDR10〉可升降旋轉",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 263,
+       "id": 262,
        "name": "｛terra 2742W V2｝〈1A1H/IPS/100Hz/含喇叭〉硬體低藍光",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 264,
+       "id": 263,
        "name": "｛ViewSonic VA2732-H-2｝〈1A1H/IPS/100Hz〉",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 265,
+       "id": 264,
        "name": "｛ViewSonic VA2732-H-W-2｝〈1A1H/IPS/100Hz/白色〉",
        "price": 3099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 266,
+       "id": 265,
        "name": "｛ViewSonic VA2732-MH-2｝〈1A1H/IPS/100Hz/含喇叭〉",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 267,
+       "id": 266,
        "name": "｛ViewSonic VX2776-SH｝〈1A2H/IPS/無亮點〉金屬質感底座",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 268,
+       "id": 267,
        "name": "｛三星 S3 S27D300GAC｝〈1A1H/IPS/100Hz〉",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 269,
+       "id": 268,
        "name": "｛三星 S3 S27D362GAC｝〈1A1H/VA曲面/1800R/100Hz〉",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 270,
+       "id": 269,
        "name": "｛華碩 VA279HG｝〈1A1H/IPS/120Hz〉",
        "price": 2820,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 271,
+       "id": 270,
        "name": "｛華碩 VA279QG｝〈1A1H1P/IPS/120Hz/含喇叭〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 272,
+       "id": 271,
        "name": "｛華碩 VA279HG2｝〈1A1H/IPS/144Hz/HDR10〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 273,
+       "id": 272,
        "name": "｛華碩 VA279HG3｝〈1A1H/IPS/180Hz/HDR10〉",
        "price": 3488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 274,
+       "id": 273,
        "name": "｛華碩 VA279QGS｝〈1A1H1P/IPS/120Hz/含喇叭〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 275,
+       "id": 274,
        "name": "｛華碩 VA279QGS-W｝〈1A1H1P/IPS/120Hz/含喇叭/白色〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 276,
+       "id": 275,
        "name": "｛華碩 VZ279HG-W｝〈1A1H/IPS/120Hz/白色〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 277,
+       "id": 276,
        "name": "｛華碩 VU279CFE-B｝〈1H1C/IPS/100Hz/靜謐藍〉",
        "price": 3788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 278,
+       "id": 277,
        "name": "｛華碩 VU279CFE-G｝〈1H1C/IPS/100Hz/灰綠色〉",
        "price": 4888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 279,
+       "id": 278,
        "name": "｛華碩 VU279CFE-M｝〈1H1C/IPS/100Hz/燕麥奶色〉",
        "price": 4889,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 280,
+       "id": 279,
        "name": "｛華碩 VU279CFE-P｝〈1H1C/IPS/100Hz/淡玫瑰色〉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 281,
+       "id": 280,
        "name": "｛華碩 VU279HFI-W｝〈2H/IPS/100Hz/白色〉負離子產生器螢幕",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 282,
+       "id": 281,
        "name": "｛華碩 VY279HF｝〈1H/IPS/100Hz〉抗菌處理",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 283,
+       "id": 282,
        "name": "｛華碩 VY279HF-W｝〈1H/IPS/100Hz/白色〉抗菌處理",
        "price": 3188,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 284,
+       "id": 283,
        "name": "｛華碩 VY279HGR｝〈1A1H/IPS/120Hz〉",
        "price": 2988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 285,
+       "id": 284,
        "name": "｛華碩 VY279HG2｝〈1A1H/IPS/144Hz〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 286,
+       "id": 285,
        "name": "｛華碩 VY279HG3｝〈1A1H/IPS/180Hz〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 287,
+       "id": 286,
        "name": "｛華碩 TUF Gaming VG279Q5A｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 288,
+       "id": 287,
        "name": "｛華碩 TUF Gaming VG279Q5A-W｝〈2H1P/IPS/200Hz/含喇叭/HDR10/白色〉",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 289,
+       "id": 288,
        "name": "｛華碩 TUF Gaming VG279QM5A｝〈2H1P/IPS/240Hz/含喇叭/HDR10〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 290,
+       "id": 289,
        "name": "｛華碩 TUF Gaming VG279QM5F｝〈2H1P/IPS/260Hz/含喇叭/HDR10〉",
        "price": 3988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 291,
+       "id": 290,
        "name": "｛華碩 ROG Strix XG279CNS｝〈1H1P1C/IPS/380Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 8888,
        "list_price": null,
@@ -21066,65 +21143,63 @@
      "label": "27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 295,
+       "id": 294,
        "name": "｛MSI PRO MP273Q E14｝〈2H1P/IPS/144Hz/含喇叭〉",
        "price": 3988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 296,
+       "id": 295,
        "name": "｛MSI PRO MP273QW E14｝〈2H1P/IPS/144Hz/含喇叭/白色〉",
        "price": 3988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 297,
+       "id": 296,
        "name": "｛MSI PRO MP273QP E14｝〈2H1P/IPS/144Hz/含喇叭/HDR400〉可升降旋轉 (獨家款)",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 299,
+       "id": 297,
        "name": "｛MSI Modern MD272QXPW｝〈1H1P1C/IPS/100Hz/含喇叭/HDR400/白色〉可升降旋轉",
-       "price": 5690,
+       "price": 4990,
        "list_price": null,
-       "flags": [
-        "酷幣700"
-       ]
+       "flags": []
       },
       {
-       "id": 300,
+       "id": 299,
        "name": "｛MSI PRO MAX 271QPHW E14｝〈2H1P1C/IPS/144Hz/含喇叭/白色〉可升降旋轉",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 301,
+       "id": 300,
        "name": "｛MSI MAG 274QF X24｝〈2H1P/IPS/240Hz〉",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 302,
+       "id": 301,
        "name": "｛MSI MAG 275QF E21｝〈2H1P/IPS/210Hz/HDR400〉",
        "price": 4388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 303,
+       "id": 302,
        "name": "｛MSI MAG 274QPF E20｝〈2H1P1C/IPS/200Hz/HDR400〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 304,
+       "id": 303,
        "name": "｛MSI MAG 275CQF E18｝〈2H1P/VA曲面/1500R/180Hz〉",
        "price": 4288,
        "list_price": null,
@@ -21133,140 +21208,140 @@
        ]
       },
       {
-       "id": 305,
+       "id": 304,
        "name": "｛MSI MAG 275CQPF｝〈2H1P/VA曲面/1500R/180Hz〉可升降",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 306,
+       "id": 305,
        "name": "｛MSI MAG 274QRFW E20｝〈2H1P/IPS/200Hz/HDR400/白色〉",
        "price": 5288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 307,
+       "id": 306,
        "name": "｛MSI MAG 275CQRF QD E2｝〈2H1P1C/VA曲面/1500R/180Hz〉",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 308,
+       "id": 307,
        "name": "｛MSI MAG 274QRFW X32｝〈2H1P/IPS/320Hz/HDR400/白色〉",
        "price": 6590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 309,
+       "id": 308,
        "name": "｛MSI MAG 274QPF X32｝〈2H1P/IPS/320Hz/HDR400〉",
        "price": 6590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 310,
+       "id": 309,
        "name": "｛MSI MAG 275CQDF X24｝〈2H1P/VA曲面/1500R/240Hz〉2K-240Hz/HD-400Hz 雙模式",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 311,
+       "id": 310,
        "name": "｛MSI MAG 274CQPDF X32｝〈2H1P/VA曲面/1500R/240Hz〉2K-320Hz/HD-400Hz 雙模式",
        "price": 7450,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 312,
+       "id": 311,
        "name": "｛MSI MAG 272QP QD-OLED X24｝〈2H1P1C/OLED/240Hz/HDMI 2.1〉",
        "price": 10888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 313,
+       "id": 312,
        "name": "｛MSI MAG 274QP QD-OLED X24｝〈2H1P/OLED/240Hz/HDMI 2.1〉可升降旋轉",
        "price": 12980,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 314,
+       "id": 313,
        "name": "｛MSI MAG 272QP QD-OLED X50｝〈2H1P1C/OLED/500Hz/HDR500/HDMI 2.1〉",
        "price": 16900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 315,
+       "id": 314,
        "name": "｛MSI MPG 271QRX QD-OLED｝〈2H1P1C/OLED/360Hz/HDR400/HDMI 2.1〉",
        "price": 17777,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 316,
+       "id": 315,
        "name": "｛MSI MPG 271QR QD-OLED X50｝〈2H1P1C/OLED/500Hz/HDR500/HDMI&DP 2.1〉",
        "price": 23900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 317,
+       "id": 316,
        "name": "｛MSI MPG 272QRF X36｝〈2H1P1C/IPS/360Hz/G-SYNC Pulsar/HDMI 2.1〉",
        "price": 23900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 318,
+       "id": 317,
        "name": "｛ViewSonic VG2708U-2K｝〈1H1P1C/IPS/75Hz/含喇叭〉可升降旋轉",
        "price": 5288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 319,
+       "id": 318,
        "name": "｛ViewSonic VP2766-2K｝〈1H1C/IPS/120Hz/含喇叭〉可升降旋轉",
        "price": 7688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 320,
+       "id": 319,
        "name": "｛ViewSonic VX2758A-2K-PRO-4｝〈2H1P/IPS/180Hz〉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 321,
+       "id": 320,
        "name": "｛ViewSonic XG2735-2K-W｝〈2H1P/IPS/210Hz/HDR400/白色〉可升降旋轉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 322,
+       "id": 321,
        "name": "｛ViewSonic XG2738-2K-OLED｝〈2H2P/OLED/240Hz/HDR10/含喇叭〉可升降旋轉",
-       "price": 13888,
+       "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 323,
+       "id": 322,
        "name": "｛Acer SA272U P1｝〈1H1P/IPS/144Hz/含喇叭/HDR10〉",
        "price": 3888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 324,
+       "id": 323,
        "name": "｛Acer Nitro VG270U P6｝〈2H1P/IPS/144Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 3599,
        "list_price": 3999,
@@ -21276,7 +21351,7 @@
        ]
       },
       {
-       "id": 325,
+       "id": 324,
        "name": "｛Acer Nitro KG272U X2｝〈2H1P/IPS/210Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 3999,
        "list_price": 4099,
@@ -21286,7 +21361,7 @@
        ]
       },
       {
-       "id": 326,
+       "id": 325,
        "name": "｛Acer Nitro XV272U X2｝〈2H1P/IPS/210Hz/含喇叭/HDR400〉▼下殺到 11/15 23:59",
        "price": 4488,
        "list_price": 4788,
@@ -21296,7 +21371,7 @@
        ]
       },
       {
-       "id": 327,
+       "id": 326,
        "name": "｛Acer Nitro ED270U S3｝〈2H1P/VA曲面/1500R/180Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 4799,
        "list_price": 4999,
@@ -21306,42 +21381,42 @@
        ]
       },
       {
-       "id": 328,
+       "id": 327,
        "name": "｛Acer Nitro ED270U F｝〈2H1P/VA曲面/1500R/300Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 5499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 329,
+       "id": 328,
        "name": "｛Acer Nitro ED270U F6｝〈2H1P/VA曲面/1500R/320Hz/含喇叭〉2K-320Hz/HD-400Hz 雙模式",
        "price": 5499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 330,
+       "id": 329,
        "name": "｛Acer Nitro GA271U P｝〈1H1P1C/IPS/180Hz/含喇叭/白色〉智慧螢幕",
        "price": 6999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 331,
+       "id": 330,
        "name": "｛Acer Nitro KG271U X1｝〈2H1P/IPS/200Hz/含喇叭/HDR10〉",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 332,
+       "id": 331,
        "name": "｛Acer Nitro VG272U W2｝〈2H1P/IPS/240Hz/含喇叭/HDR400〉",
        "price": 4999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 333,
+       "id": 332,
        "name": "｛Acer Nitro VG270U Z1｝〈2H1P/IPS/270Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 4611,
        "list_price": 4688,
@@ -21351,21 +21426,21 @@
        ]
       },
       {
-       "id": 334,
+       "id": 333,
        "name": "｛Acer Nitro XV270U X1｝〈2H1P/IPS/200Hz/含喇叭HDR10/黑色〉可升降旋轉",
        "price": 4388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 335,
+       "id": 334,
        "name": "｛Acer Nitro XV270U X1w｝〈2H1P/IPS/200Hz/含喇叭HDR10/白色〉可升降旋轉",
        "price": 4699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 336,
+       "id": 335,
        "name": "｛Acer Nitro XV272U X1｝〈2H1P/IPS/200Hz/含喇叭HDR400〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 4488,
        "list_price": null,
@@ -21374,7 +21449,7 @@
        ]
       },
       {
-       "id": 337,
+       "id": 336,
        "name": "｛Acer Nitro VG270U Z2｝〈2H1P/IPS/275Hz/含喇叭HDR10/HDMI2.1〉▼下殺到 11/15 23:59",
        "price": 4688,
        "list_price": 4788,
@@ -21384,14 +21459,14 @@
        ]
       },
       {
-       "id": 338,
+       "id": 337,
        "name": "｛Acer Nitro XV272U W2｝〈2H1P/IPS/240Hz/含喇叭/HDR400〉可升降旋轉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 339,
+       "id": 338,
        "name": "｛Acer Nitro XV270U Z1｝〈2H1P/IPS/270Hz/含喇叭/HDR10〉可升降旋轉",
        "price": 5288,
        "list_price": null,
@@ -21400,21 +21475,21 @@
        ]
       },
       {
-       "id": 340,
+       "id": 339,
        "name": "｛Acer Nitro XV272U Z2｝〈2H1P/IPS/275Hz/含喇叭/HDR400〉可升降旋轉",
        "price": 5588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 341,
+       "id": 340,
        "name": "｛Acer Nitro XV272U F3｝〈2H1P/IPS/300Hz/含喇叭/HDR400/HDMI 2.1〉300Hz高速更新率",
        "price": 6799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 341,
        "name": "｛Acer Nitro XV270U F3｝〈2H1P/IPS/320Hz/含喇叭/HDR10/HDMI 2.1〉320Hz高速更新率",
        "price": 5799,
        "list_price": null,
@@ -21423,7 +21498,7 @@
        ]
       },
       {
-       "id": 343,
+       "id": 342,
        "name": "｛Acer Nitro XV275U F2｝〈2H1P/IPS/320Hz/含喇叭/HDR1000〉Mini-LED 可升降旋轉",
        "price": 7999,
        "list_price": null,
@@ -21432,7 +21507,7 @@
        ]
       },
       {
-       "id": 345,
+       "id": 344,
        "name": "｛Acer Predator XB273U X1｝〈2H1P/IPS/200Hz/含喇叭/HDR400〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 4711,
        "list_price": 4999,
@@ -21442,14 +21517,14 @@
        ]
       },
       {
-       "id": 346,
+       "id": 345,
        "name": "｛Acer Predator X27U X2｝〈2H1P/OLED/240Hz/含喇叭/HDMI 2.1/無亮點〉",
        "price": 10999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 347,
+       "id": 346,
        "name": "｛Acer Predator X27U P2｝〈2H1P/OLED/144Hz/含喇叭/HDMI 2.1〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 9111,
        "list_price": 10490,
@@ -21459,7 +21534,7 @@
        ]
       },
       {
-       "id": 348,
+       "id": 347,
        "name": "｛Acer Predator X27U W2｝〈2H1P/OLED/240Hz/含喇叭/HDMI 2.1〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 9911,
        "list_price": 10999,
@@ -21469,7 +21544,7 @@
        ]
       },
       {
-       "id": 349,
+       "id": 348,
        "name": "｛Acer Predator X27U Z2｝〈2H1P/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉",
        "price": 11999,
        "list_price": null,
@@ -21478,42 +21553,42 @@
        ]
       },
       {
-       "id": 350,
+       "id": 349,
        "name": "｛Acer Predator XB273U F5｝〈2H1P/IPS/360Hz/含喇叭/HDMI 2.1/G-SYNC Pulsar〉",
        "price": 15999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 351,
+       "id": 350,
        "name": "｛Acer Predator X27U F3｝〈2H1P1C/OLED/480Hz/含喇叭/HDR10/HDMI 2.1/無亮點〉",
        "price": 17999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 352,
+       "id": 351,
        "name": "｛BenQ GW2790Q｝〈2H1P/IPS/含喇叭〉光智慧.護眼提醒",
        "price": 3988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 353,
+       "id": 352,
        "name": "｛BenQ EW270Q｝〈1H1P1C/IPS/200Hz/含喇叭/HDR10/白色〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 354,
+       "id": 353,
        "name": "｛BenQ EW2790Q｝〈3H1C/IPS/100Hz/含喇叭/HDR10/白色〉光智慧.類瞳孔.可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 355,
+       "id": 354,
        "name": "｛BenQ MOBIUZ EX271QP｝〈2H1P/260Hz/光智慧/含喇叭/HDR10〉▼下殺到 10/30 23:59",
        "price": 6988,
        "list_price": 7988,
@@ -21523,7 +21598,7 @@
        ]
       },
       {
-       "id": 356,
+       "id": 355,
        "name": "｛BenQ MOBIUZ EX271QM｝〈2H1P/320Hz/光智慧/含喇叭/HDR10〉可升降▼下殺到 10/30 23:59",
        "price": 7988,
        "list_price": 8988,
@@ -21533,21 +21608,21 @@
        ]
       },
       {
-       "id": 357,
+       "id": 356,
        "name": "｛BenQ MOBIUZ EX271QMZ｝〈2H1P/OLED/240Hz/HDR10〉",
        "price": 14888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 358,
+       "id": 357,
        "name": "｛BenQ MOBIUZ EX271QZ｝〈2H1P/OLED/500Hz/HDR500〉",
        "price": 18888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 359,
+       "id": 358,
        "name": "｛BenQ RD270Q｝〈1H1P1C/IPS/144Hz/含喇叭/HDR10〉可升降旋轉▼下殺到 10/30 23:59",
        "price": 9988,
        "list_price": null,
@@ -21556,35 +21631,35 @@
        ]
       },
       {
-       "id": 360,
+       "id": 359,
        "name": "｛BenQ PD2706QN｝〈1H1P1C/IPS/含喇叭/HDR400〉可升降旋轉.Pantone色彩認證",
        "price": 9688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 361,
+       "id": 360,
        "name": "｛BenQ SW272Q｝〈2H1P1C/IPS/HDR10〉數位紙技術.SDI轉HDMI設備兼容性",
        "price": 25888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 362,
+       "id": 361,
        "name": "｛BenQ ZOWIE XQ2766X｝〈3H1P/TN/360Hz/HDMI 2.1〉DyAc 3動態清晰技術",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 364,
+       "id": 363,
        "name": "ZOWIE 組合 XQ2766X螢幕+EC2-DW滑鼠+G-SR-SE Rouge II(ZC05)鼠墊 原價$39740",
        "price": 35700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 365,
+       "id": 364,
        "name": "｛PHILIPS 27E2N1500L｝〈1H1P/IPS/75Hz/HDR10〉",
        "price": 3088,
        "list_price": null,
@@ -21593,28 +21668,28 @@
        ]
       },
       {
-       "id": 366,
+       "id": 365,
        "name": "｛PHILIPS Evnia 27M3N3540Q｝〈2H1P/IPS/210Hz/HDR10〉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 367,
+       "id": 366,
        "name": "｛PHILIPS Evnia 27M2N3500PF｝〈2H1P/IPS/260Hz/HDR10〉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 368,
+       "id": 367,
        "name": "｛PHILIPS Evnia 27M2N3500UK｝〈1H1P/IPS/300Hz/HDR400/HDMI2.1/圓偏光護眼〉",
        "price": 6588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 369,
+       "id": 368,
        "name": "｛AOC Q27B36X｝〈1H1P/IPS/144Hz/HDR10〉",
        "price": 3788,
        "list_price": null,
@@ -21623,35 +21698,35 @@
        ]
       },
       {
-       "id": 370,
+       "id": 369,
        "name": "｛AOC Q27G42ZE｝〈1H1P/IPS/260Hz/HDR10〉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 371,
+       "id": 370,
        "name": "｛AOC Q27G4SL/WS｝〈2H1P/IPS/320Hz/HDR400/HDMI2.1/圓偏光認證/白色〉",
        "price": 6999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 372,
+       "id": 371,
        "name": "｛AOC Q27G40XMN｝〈2H1P/VA/180Hz/Mini-LED〉",
        "price": 7111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 372,
        "name": "｛AOC Q27G4ZMN｝〈2H1P/VA/240Hz/HDR1000〉1152區 Mini-LED分區控光.可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 374,
+       "id": 373,
        "name": "｛AOC Q27G40ZDF｝〈1H1P/OLED/240Hz/HDR10〉",
        "price": 9111,
        "list_price": null,
@@ -21660,14 +21735,14 @@
        ]
       },
       {
-       "id": 375,
+       "id": 374,
        "name": "｛DELL SE2726D｝〈1H1P/IPS/144Hz〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 376,
+       "id": 375,
        "name": "｛DELL S2725DSM｝〈1H1P/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 7499,
        "list_price": null,
@@ -21676,112 +21751,112 @@
        ]
       },
       {
-       "id": 377,
+       "id": 376,
        "name": "｛DELL S2725DC｝〈1H1P1C/IPS/144Hz/含喇叭/無亮點/四年保〉可升降旋轉",
        "price": 8488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 378,
+       "id": 377,
        "name": "｛DELL P2725D｝〈1H1P/IPS/100Hz/無亮點/四年保〉可升降旋轉",
        "price": 9250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 379,
+       "id": 378,
        "name": "｛DELL P2725DE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 11599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 380,
+       "id": 379,
        "name": "｛DELL U2724D｝〈1H2P/IPS/120Hz/無亮點/四年保〉可升降旋轉",
        "price": 12500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 381,
+       "id": 380,
        "name": "｛DELL U2724DE｝〈1H2P2C/IPS/120Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 16288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 382,
+       "id": 381,
        "name": "｛DELL Alienware AW2726DL｝〈1H1P/IPS/280Hz/HDMI 2.1〉可升降旋轉",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 383,
+       "id": 382,
        "name": "｛DELL Alienware AW2726DM｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 11888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 384,
+       "id": 383,
        "name": "｛LG UltraGear 27G610A-B｝〈2H1P/IPS/200Hz/HDR400〉可升降旋轉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 385,
+       "id": 384,
        "name": "｛LG UltraGear 27GX790A-B｝〈2H1P/OLED/480Hz/HDR400/DP 2.1/二年保〉",
        "price": 19600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 385,
        "name": "｛LG UltraGear 27GX790B-B｝〈2H1P/OLED/HDR500/二年保〉2K-540Hz/HD-720Hz 雙模",
        "price": 28900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 386,
        "name": "｛三星 ViewFinity S6 S27F612EAC｝〈2H1P/IPS/100Hz〉可升降旋轉",
        "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 388,
+       "id": 387,
        "name": "｛三星 ViewFinity S6 S27D606UAC｝〈1H1P1C/IPS/100Hz/HDR10〉可升降旋轉",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 389,
+       "id": 388,
        "name": "｛三星 Odyssey G5 S27CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 390,
+       "id": 389,
        "name": "｛三星 Odyssey G5 S27FG532EC｝〈1H1P/IPS/200Hz/HDR10〉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 391,
+       "id": 390,
        "name": "｛三星 Odyssey G5 S27FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉",
        "price": 5690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 392,
+       "id": 391,
        "name": "｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉",
        "price": 11900,
        "list_price": null,
@@ -21790,21 +21865,21 @@
        ]
       },
       {
-       "id": 393,
+       "id": 392,
        "name": "｛三星 Odyssey G6 S27DG602SC｝〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉",
        "price": 16900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 393,
        "name": "｛三星 Odyssey G6 S27FG602SC｝〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 395,
+       "id": 394,
        "name": "｛技嘉 G27Q20T｝〈2H1P/IPS/210Hz/HDR10〉▼下殺到 11/29 23:59",
        "price": 3690,
        "list_price": 4058,
@@ -21814,35 +21889,35 @@
        ]
       },
       {
-       "id": 396,
+       "id": 395,
        "name": "｛技嘉 G27Q20｝〈2H1P/IPS/200Hz(OC 210Hz)/HDR10〉",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 397,
+       "id": 396,
        "name": "｛技嘉 M27Q2 QD｝〈2H1P1C/量子點/200Hz/HDR400〉可升降旋轉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 398,
+       "id": 397,
        "name": "｛技嘉 M27Q2 QD ICE｝〈2H1P1C/量子點/200Hz/HDR400/白色〉可升降旋轉\"",
        "price": 6999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 399,
+       "id": 398,
        "name": "｛技嘉 M27QS｝〈1H1P1C/IPS/180Hz/HDR400〉Google TV 智慧螢幕",
        "price": 7666,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 400,
+       "id": 399,
        "name": "｛技嘉 GO27Q24｝〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉",
        "price": 10490,
        "list_price": null,
@@ -21851,7 +21926,7 @@
        ]
       },
       {
-       "id": 401,
+       "id": 400,
        "name": "｛技嘉 GO27Q24A｝〈2H1P/QD-OLED/240Hz/HDR10〉可升降旋轉",
        "price": 10490,
        "list_price": null,
@@ -21860,14 +21935,14 @@
        ]
       },
       {
-       "id": 402,
+       "id": 401,
        "name": "｛技嘉 GO27Q24G｝〈2H1P1C/WOLED/240Hz/HDR400〉可升降旋轉",
        "price": 11990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 403,
+       "id": 402,
        "name": "｛技嘉 MO27Q28G｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉▼下殺到 11/29 23:59",
        "price": 11990,
        "list_price": 14990,
@@ -21877,70 +21952,70 @@
        ]
       },
       {
-       "id": 404,
+       "id": 403,
        "name": "｛技嘉 MO27Q2A｝〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 14190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 405,
+       "id": 404,
        "name": "｛技嘉 MO27Q28GR｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉",
        "price": 14990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 406,
+       "id": 405,
        "name": "｛技嘉 FO27Q28G｝〈2H1P1C/WOLED/280Hz/HDR10/DP 2.1〉面板四年防烙印",
        "price": 16990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 408,
+       "id": 407,
        "name": "｛華碩 VA27AQ｝〈1A1H1P/IPS/含喇叭/HDR10〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 409,
+       "id": 408,
        "name": "｛華碩 VA27AQSE｝〈1A1H1P/IPS/含喇叭/HDR10〉可升降旋轉",
        "price": 4550,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 410,
+       "id": 409,
        "name": "｛華碩 ProArt PA278QEV｝〈1D1H2P/IPS/無亮點〉可升降旋轉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 411,
+       "id": 410,
        "name": "｛華碩 ProArt PA278QGV｝〈1H1P/IPS/120Hz/含喇叭/無亮點〉可升降旋轉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 412,
+       "id": 411,
        "name": "｛華碩 ProArt PA278CFRV｝〈1H2P1C/IPS/100Hz/含喇叭/HDR400/無亮點〉可升降旋轉",
        "price": 9888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 413,
+       "id": 412,
        "name": "｛華碩 ProArt PA278CGRV｝〈1H2P1C/IPS/144Hz/含喇叭HDR400〉可升降旋轉",
        "price": 9878,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 414,
+       "id": 413,
        "name": "｛華碩 TUF Gaming VG27AQE5A｝〈2H1P/IPS/165Hz/含喇叭〉",
        "price": 3988,
        "list_price": null,
@@ -21949,168 +22024,168 @@
        ]
       },
       {
-       "id": 415,
+       "id": 414,
        "name": "｛華碩 TUF Gaming VG27AQ5A｝〈2H1P/IPS/210Hz/含喇叭/HDR10〉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 416,
+       "id": 415,
        "name": "｛華碩 TUF Gaming VG27AQL5A｝〈2H1P/IPS/210Hz/含喇叭/HDR400〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 417,
+       "id": 416,
        "name": "｛華碩 TUF Gaming VG27AQL5A-W｝〈2H1P/IPS/210Hz/含喇叭/HDR400/白色〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 418,
+       "id": 417,
        "name": "｛華碩 TUF Gaming VG27AQ5F｝〈2H1P/IPS/220Hz/含喇叭/HDR10〉",
        "price": 4588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 419,
+       "id": 418,
        "name": "｛華碩 TUF Gaming VG27AQL5F｝〈2H1P/IPS/220Hz/含喇叭/HDR400〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 420,
+       "id": 419,
        "name": "｛華碩 TUF Gaming VG27AQME5F｝〈2H1P/IPS/255Hz/含喇叭/HDR10〉",
        "price": 5111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 421,
+       "id": 420,
        "name": "｛華碩 TUF Gaming VG27WQ5F｝〈2H1P/VA曲面/220Hz/含喇叭/HDR10〉三模切換",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 422,
+       "id": 421,
        "name": "｛華碩 TUF Gaming VG27AQM5A｝〈2H1P/IPS/300Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 423,
+       "id": 422,
        "name": "｛華碩 TUF Gaming VG27AQM5F｝〈2H1P1C/IPS/320Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 6988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 424,
+       "id": 423,
        "name": "｛華碩 ROG Strix XG27ACS｝〈1H1P1C/IPS/180Hz/HDR400〉",
        "price": 5218,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 425,
+       "id": 424,
        "name": "｛華碩 ROG Strix XG27ACS-W｝〈1H1P1C/IPS/180Hz/HDR400/白色〉",
        "price": 5218,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 426,
+       "id": 425,
        "name": "｛華碩 ROG Strix XG27ACSR｝〈1H1P1C/IPS/220Hz/HDR400〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 427,
+       "id": 426,
        "name": "｛華碩 ROG Strix XG27ACSR-W｝〈1H1P1C/IPS/220Hz/HDR400/白色〉",
        "price": 6588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 428,
+       "id": 427,
        "name": "｛華碩 ROG Strix XG27ACMES｝〈1H1P1C/IPS/255Hz/HDR400/〉",
        "price": 6618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 429,
+       "id": 428,
        "name": "｛華碩 ROG Strix XG27ACMES-W｝〈1H1P1C/IPS/255Hz/HDR400/白色〉",
        "price": 6618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 430,
+       "id": 429,
        "name": "｛華碩 ROG Strix XG27WCMS｝〈1H1P1C/VA曲面/1500R/280Hz/HDR400/HDMI 2.1〉",
        "price": 9688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 431,
+       "id": 430,
        "name": "｛華碩 ROG Strix XG27AQDMGR｝〈2H1P/WOLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 432,
+       "id": 431,
        "name": "｛華碩 ROG Strix XG27AQDMES｝〈2H1P/OLED/240Hz/HDR10/HDMI2.1〉",
        "price": 10888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 433,
+       "id": 432,
        "name": "｛華碩 ROG Strix XG27AQWMG｝〈2H1P/WOLED/280Hz/HDR500/HDMI 2.1〉可升降旋轉",
        "price": 15888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 434,
+       "id": 433,
        "name": "｛華碩 ROG Strix XG27ACDMS｝〈1H1P1C/OLED/280Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 435,
+       "id": 434,
        "name": "｛華碩 ROG Strix XG27AQDNG｝〈2H1P/OLED/360Hz/HDR400/HDMI 2.1〉",
        "price": 17888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 436,
+       "id": 435,
        "name": "｛華碩 ROG Strix XG27AQNGV｝〈2H1P/Ultrafast IPS/360Hz/G-Sync Pulsar/電競雙模〉可升降旋轉",
        "price": 16888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 438,
+       "id": 437,
        "name": "｛華碩 ROG Swift PG27AQWP-G 20周年限定版｝〈2H1P/OLED/HDR500〉2K-540Hz/HD-720Hz切換",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 439,
+       "id": 438,
        "name": "｛華碩 ROG Swift PG27AQWP-W｝〈2H1P/OLED/540Hz/HDR500/DP 2.1〉2K-540Hz/HD-720Hz切換",
        "price": 32888,
        "list_price": null,
@@ -22122,27 +22197,25 @@
      "label": "27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 443,
+       "id": 442,
        "name": "｛MSI PRO MP273UP E6｝〈2H1P/IPS/含喇叭〉",
        "price": 5488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 444,
+       "id": 443,
        "name": "｛MSI Modern MD272UPHW｝〈2H1P1C/IPS/含喇叭/HDR400/白色〉可升降旋轉",
        "price": 7490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 445,
+       "id": 444,
        "name": "｛MSI Modern MD272UPSW｝〈1H1P1C/IPS/含喇叭/白色〉智慧螢幕.可升降旋轉",
-       "price": 6990,
+       "price": 6490,
        "list_price": null,
-       "flags": [
-        "酷幣500"
-       ]
+       "flags": []
       },
       {
        "id": 446,
@@ -22439,7 +22512,7 @@
       {
        "id": 486,
        "name": "｛ViewSonic VX2740D-4K｝〈2H1P1C/IPS/HDR10/無亮點〉4K-160Hz/FHD-320Hz 雙模式",
-       "price": 8999,
+       "price": 6909,
        "list_price": null,
        "flags": []
       },
@@ -23905,7 +23978,7 @@
       {
        "id": 728,
        "name": "｛Acer EI491CUR S ｝〈2H2P/VA曲面/1800R/120Hz/含喇叭/HDR400〉▼下殺到 11/15 23:59",
-       "price": 16888,
+       "price": 16111,
        "list_price": 18888,
        "flags": [
         "價格異動",
@@ -30581,83 +30654,92 @@
      "items": [
       {
        "id": 2,
+       "name": "｛Montech CENTURY II 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年",
+       "price": 2990,
+       "list_price": null,
+       "flags": [
+        "酷幣200"
+       ]
+      },
+      {
+       "id": 3,
        "name": "｛振華 LEADEX VIII PRO 850W 黑色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 4,
+       "id": 5,
        "name": "｛振華 LEADEX VIII PRO 850W 白色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 6,
+       "id": 7,
        "name": "｛XPG CORE REACTOR II VE 750W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3190",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 7,
+       "id": 8,
        "name": "｛XPG CORE REACTOR II VE 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3490",
        "price": 3190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 8,
+       "id": 9,
        "name": "｛COUGAR ATLAS 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2090！",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 9,
+       "id": 10,
        "name": "｛COUGAR GR 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2990！",
        "price": 2590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 10,
+       "id": 11,
        "name": "｛COUGAR GR 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$3290！",
        "price": 2890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 11,
+       "id": 12,
        "name": "｛台達 超實在 1100W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)/10年保 原價$6990！",
        "price": 5390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 12,
+       "id": 13,
        "name": "｛Apexgaming GTR-750MW(750W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年 原價$2790",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 13,
+       "id": 14,
        "name": "｛Apexgaming GTR-850MW(850W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年 原價$3090",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 14,
+       "id": 15,
        "name": "｛Apexgaming GTR Plus-1000M(1000W)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/10年 原價$5590",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 15,
+       "id": 16,
        "name": "｛Apexgaming GTR Plus-1000MW(1000W) 白色｝白金/全模/ATX3.1(PCIe 5.1)10年 原價$5790",
        "price": 3590,
        "list_price": null,
@@ -30669,126 +30751,126 @@
      "label": "特規 SFX SFX-L 電源供應器",
      "items": [
       {
-       "id": 19,
+       "id": 20,
        "name": "｛華碩 ROG LOKI 750W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 20,
+       "id": 21,
        "name": "｛華碩 ROG LOKI 850W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 21,
+       "id": 22,
        "name": "｛華碩 ROG LOKI 850W 白色版｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB/10年保【SFX-L規格】",
        "price": 7490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 22,
+       "id": 23,
        "name": "｛華碩 ROG LOKI 1000W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 8490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 23,
+       "id": 24,
        "name": "｛華碩 ROG LOKI 1200W｝雙8/鈦金/ATX3.1(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 24,
+       "id": 25,
        "name": "｛Apexgaming KR-750M(750W)｝雙8/白金/全模/ATX3.0(PCIe 5.0)/全日系/10年【SFX】",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 25,
+       "id": 26,
        "name": "｛Apexgaming KR-850MW(850W) 白色｝雙8/白金/全模/ATX3.0(PCIe 5.0)/10年【SFX】",
        "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 26,
+       "id": 27,
        "name": "｛銀欣 ST30SF 300W｝銅牌/直出線/5年保 (ST30SF.V2.0)【SFX規格】",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 27,
+       "id": 28,
        "name": "｛銀欣 ST45SF 450W｝銅牌/直出線/5年保 (ST45SF.V3.0)【SFX規格】",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 28,
+       "id": 29,
        "name": "｛銀欣 Extreme 550Rz(550W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 29,
+       "id": 30,
        "name": "｛銀欣 Extreme 650Rz(650W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 30,
+       "id": 31,
        "name": "｛酷碼 V SFX GOLD 850W ATX3.1 黑色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 31,
+       "id": 32,
        "name": "｛酷碼 V SFX GOLD 850W ATX3.1 白色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 32,
+       "id": 33,
        "name": "｛全漢 金鋼彈 650W｝雙8/金牌/全模/全日系/DC-DC/10年保固【SFX規格】",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 33,
+       "id": 34,
        "name": "｛全漢 金鋼彈 750W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 34,
+       "id": 35,
        "name": "｛全漢 金鋼彈 850W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 35,
+       "id": 36,
        "name": "｛全漢 金鋼彈 850W ATX3.0(PCIe 5.0) 白色｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 36,
+       "id": 37,
        "name": "｛全漢 DAGGER PM 1200W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年【SFX-L】",
        "price": 7990,
        "list_price": null,
@@ -30800,112 +30882,112 @@
      "label": "華碩 ASUS【0800到府收送】",
      "items": [
       {
-       "id": 39,
+       "id": 40,
        "name": "｛華碩 ROG LOKI 750W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 40,
+       "id": 41,
        "name": "｛華碩 ROG LOKI 850W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 41,
+       "id": 42,
        "name": "｛華碩 ROG LOKI 850W 白色版｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB/10年保【SFX-L規格】",
        "price": 7490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 42,
+       "id": 43,
        "name": "｛華碩 ROG LOKI 1000W｝雙8/白金/ATX3.0(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 8490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 43,
+       "id": 44,
        "name": "｛華碩 ROG LOKI 1200W｝雙8/鈦金/ATX3.1(PCIe 5.0)/ARGB風扇/10年保【SFX-L規格】",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 44,
+       "id": 45,
        "name": "｛華碩 PRIME 750W 銅牌 白色版｝雙8/直出線/雙滾珠風扇/壓紋線材/6年保",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 45,
+       "id": 46,
        "name": "｛華碩 TUF GAMING 650W EVO｝銅牌/全模組/ATX3.1/防潮塗層/6年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 46,
+       "id": 47,
        "name": "｛華碩 TUF GAMING 750W EVO｝雙8/銅牌/全模組/ATX3.1/防潮塗層/6年保",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 47,
+       "id": 48,
        "name": "｛華碩 TUF GAMING 650W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 48,
+       "id": 49,
        "name": "｛華碩 TUF GAMING 750W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 49,
+       "id": 50,
        "name": "｛華碩 TUF GAMING 850W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 3490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 50,
+       "id": 51,
        "name": "｛華碩 TUF GAMING 850W Gold EVO 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 51,
+       "id": 52,
        "name": "｛華碩 TUF GAMING 1000W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 4390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 52,
+       "id": 53,
        "name": "｛華碩 TUF GAMING 1200W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 53,
+       "id": 54,
        "name": "｛華碩 TUF GAMING 1000W Gold｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/防潮塗層/10年保",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 54,
+       "id": 55,
        "name": "｛華碩 TUF GAMING 850W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
        "price": 4390,
        "list_price": null,
@@ -30914,7 +30996,7 @@
        ]
       },
       {
-       "id": 55,
+       "id": 56,
        "name": "｛華碩 TUF GAMING 1000W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
        "price": 4990,
        "list_price": null,
@@ -30923,7 +31005,7 @@
        ]
       },
       {
-       "id": 56,
+       "id": 57,
        "name": "｛華碩 TUF GAMING 1200W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
        "price": 5990,
        "list_price": null,
@@ -30932,7 +31014,7 @@
        ]
       },
       {
-       "id": 57,
+       "id": 58,
        "name": "｛華碩 ROG STRIX 1000W 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
        "price": 6490,
        "list_price": null,
@@ -30941,7 +31023,7 @@
        ]
       },
       {
-       "id": 58,
+       "id": 59,
        "name": "｛華碩 ROG STRIX 1000W(白色) 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
        "price": 6590,
        "list_price": null,
@@ -30950,7 +31032,7 @@
        ]
       },
       {
-       "id": 59,
+       "id": 60,
        "name": "｛華碩 ROG STRIX 1200W 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
        "price": 7490,
        "list_price": null,
@@ -30959,7 +31041,7 @@
        ]
       },
       {
-       "id": 61,
+       "id": 62,
        "name": "｛華碩 ROG THOR III 1000W｝雙8/白金/全模組/OLED監控/ATX3.1(PCIe 5.1)/10年保",
        "price": 10490,
        "list_price": null,
@@ -30968,35 +31050,35 @@
        ]
       },
       {
-       "id": 63,
+       "id": 64,
        "name": "｛華碩 ROG THOR III 1200W 白金 ROG Equalizer｝全模/OLED監控/ATX3.1(PCIe 5.1)/10年",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 64,
+       "id": 65,
        "name": "｛華碩 ROG THOR III 1200W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年",
        "price": 14590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 65,
+       "id": 66,
        "name": "｛華碩 ROG THOR III EVO 1600W｝鈦金/全模/OLED/ATX3.1(雙PCie 5.1/Equalizer線)10年",
        "price": 23990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 66,
+       "id": 67,
        "name": "｛華碩 Pro WS 2200W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座)",
        "price": 19990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 67,
+       "id": 68,
        "name": "｛華碩 Pro WS 3000W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座)",
        "price": 29990,
        "list_price": null,
@@ -31008,175 +31090,175 @@
      "label": "海韻 Seasonic",
      "items": [
       {
-       "id": 70,
+       "id": 71,
        "name": "｛海韻 S12III-500W｝銅牌/智慧溫控風扇/5年保",
        "price": 1550,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 71,
+       "id": 72,
        "name": "｛海韻 S12III-550W｝銅牌/智慧溫控風扇/5年保",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 72,
+       "id": 73,
        "name": "｛海韻 S12III-650W｝銅牌/智慧溫控風扇/5年保",
        "price": 1850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 73,
+       "id": 74,
        "name": "｛海韻 CORE BC-750(750W)｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 74,
+       "id": 75,
        "name": "｛海韻 CORE GX-650 ATX3(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 75,
+       "id": 76,
        "name": "｛海韻 CORE GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 76,
+       "id": 77,
        "name": "｛海韻 CORE GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 77,
+       "id": 78,
        "name": "｛海韻 FOCUS GX-650(650W)｝雙8/金牌/全模組/10年保",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 78,
+       "id": 79,
        "name": "｛海韻 FOCUS GX-750(750W)｝雙8/金牌/全模組/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 79,
+       "id": 80,
        "name": "｛海韻 FOCUS GX-850(850W)｝雙8/金牌/全模組/10年保",
        "price": 3490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 80,
+       "id": 81,
        "name": "｛海韻 FOCUS GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 81,
+       "id": 82,
        "name": "｛海韻 FOCUS GX-750 ATX3(750W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 4090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 82,
+       "id": 83,
        "name": "｛海韻 FOCUS GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 4290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 83,
+       "id": 84,
        "name": "｛海韻 FOCUS GX-850 ATX3(850W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 84,
+       "id": 85,
        "name": "｛海韻 FOCUS GX-1000 ATX3(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 85,
+       "id": 86,
        "name": "｛海韻 FOCUS GX-1000 ATX3(1000W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 5790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 86,
+       "id": 87,
        "name": "｛海韻 FOCUS PX-850 ATX3.1(850W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 87,
+       "id": 88,
        "name": "｛海韻 FOCUS PX-1000 ATX3.1(1000W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保",
        "price": 6090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 88,
+       "id": 89,
        "name": "｛海韻 VERTEX GX-1200(1200W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 89,
+       "id": 90,
        "name": "｛海韻 VERTEX GX-1200(1200W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 90,
+       "id": 91,
        "name": "｛海韻 VERTEX PX-1200(1200W)｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/12年保",
        "price": 7590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 92,
+       "id": 93,
        "name": "｛海韻 PRIME PX-1600 ATX3.0(1600W)｝雙8/白金/全模組/雙PCIe 5.1/12年保",
        "price": 16490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 93,
+       "id": 94,
        "name": "｛海韻 PRIME PX-2200 ATX3(2200W)｝雙8/白金/全模組/4*PCIe 5.1/12年(限220V H型插座)",
        "price": 17490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 94,
+       "id": 95,
        "name": "｛海韻 PRIME TX-1300 ATX3(1300W)｝雙8/鈦金/全模組/PCIe 5.1/12年保",
        "price": 16490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 95,
+       "id": 96,
        "name": "｛海韻 PRIME TX-1600 ATX3(1600W)｝雙8/鈦金/全模組/雙PCIe 5.1/12年保",
        "price": 18490,
        "list_price": null,
@@ -31188,35 +31270,35 @@
      "label": "台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】",
      "items": [
       {
-       "id": 98,
+       "id": 99,
        "name": "｛台達 550W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-550GB A",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 99,
+       "id": 100,
        "name": "｛台達 650W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-650FB A",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 100,
+       "id": 101,
        "name": "｛台達 650W 金牌｝雙8/全模組/DC-DC/10年保固/3年換新/GPS-650MB A",
        "price": 2890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 101,
+       "id": 102,
        "name": "｛台達 超實在 850W 金牌｝雙8/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 102,
+       "id": 103,
        "name": "｛台達 超實在 1100W 白金｝雙8/全模組/ATX3.0(PCIe 5.0)/10年保 原價$6990！",
        "price": 5390,
        "list_price": null,
@@ -31230,70 +31312,70 @@
      "label": "Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】",
      "items": [
       {
-       "id": 104,
+       "id": 105,
        "name": "｛Apexgaming KR-750M(750W)｝雙8/白金/全模/ATX3.0(PCIe 5.0)/全日系/10年【SFX】",
        "price": 3590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 105,
+       "id": 106,
        "name": "｛Apexgaming KR-850MW(850W) 白色｝雙8/白金/全模/ATX3.0(PCIe 5.0)/10年【SFX】",
        "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 106,
+       "id": 107,
        "name": "｛Apexgaming(首利) A-550(550W)｝銀牌/直出線/主日系/5年保",
        "price": 1390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 107,
+       "id": 108,
        "name": "｛Apexgaming(首利) A-650(650W)｝雙8/銀牌/直出線/主日系/5年保",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 108,
+       "id": 109,
        "name": "｛Apexgaming(首利) A-750(750W)｝雙8/銀牌/直出線/PCIe 5.1/主日系/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 109,
+       "id": 110,
        "name": "｛Apexgaming(首利) A-850(850W)｝雙8/銀牌/直出線/ATX3.1(PCIe 5.1)/全日系/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 110,
+       "id": 111,
        "name": "｛Apexgaming(首利) AJ-650M(650W)｝雙8/金牌/全模/全日系/智慧停轉/10年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 111,
+       "id": 112,
        "name": "｛Apexgaming(首利) STR650MW(650W) 白色｝雙8/金牌/全模/全日系/10年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 112,
+       "id": 113,
        "name": "｛Apexgaming GTR-750M(750W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 113,
+       "id": 114,
        "name": "｛Apexgaming GTR-750MW(750W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年",
        "price": 2490,
        "list_price": null,
@@ -31302,21 +31384,21 @@
        ]
       },
       {
-       "id": 114,
+       "id": 115,
        "name": "｛Apexgaming GTR-850M(850W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年",
        "price": 2890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 115,
+       "id": 116,
        "name": "｛Apexgaming GTR-850MW(850W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 116,
+       "id": 117,
        "name": "｛Apexgaming GTR Plus-1000M(1000W)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/10年 原價$5590",
        "price": 3390,
        "list_price": null,
@@ -31325,7 +31407,7 @@
        ]
       },
       {
-       "id": 117,
+       "id": 118,
        "name": "｛Apexgaming GTR Plus-1000MW(1000W) 白色｝白金/全模/ATX3.1(PCIe 5.1)10年 原價$5790",
        "price": 3590,
        "list_price": null,
@@ -31334,14 +31416,14 @@
        ]
       },
       {
-       "id": 118,
+       "id": 119,
        "name": "｛Apexgaming(首利) ODIN 1200W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 4390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 119,
+       "id": 120,
        "name": "｛Apexgaming(首利) ODIN 1650W｝雙8/白金/全模組/ATX3.0(雙PCIe 5.0)/全日系/10年保",
        "price": 14990,
        "list_price": null,
@@ -31353,28 +31435,28 @@
      "label": "美洲獅 COUGAR 電源【偉訓30年品質保證】",
      "items": [
       {
-       "id": 122,
+       "id": 123,
        "name": "｛COUGAR VTE 400W 銅牌｝主日系/DC-DC/5年保",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 123,
+       "id": 124,
        "name": "｛COUGAR ATLAS 550W 銅牌｝主日系/DC-DC/5年保",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 124,
+       "id": 125,
        "name": "｛COUGAR ATLAS 650W｝雙8/銅牌/主日系/DC-DC/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 125,
+       "id": 126,
        "name": "｛COUGAR ATLAS 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2090！",
        "price": 1790,
        "list_price": null,
@@ -31383,7 +31465,7 @@
        ]
       },
       {
-       "id": 126,
+       "id": 127,
        "name": "｛COUGAR GR 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2990！",
        "price": 2590,
        "list_price": null,
@@ -31392,7 +31474,7 @@
        ]
       },
       {
-       "id": 127,
+       "id": 128,
        "name": "｛COUGAR GR 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$3290！",
        "price": 2890,
        "list_price": null,
@@ -31401,14 +31483,14 @@
        ]
       },
       {
-       "id": 128,
+       "id": 129,
        "name": "｛COUGAR GR 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/壓紋線/10年保",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 129,
+       "id": 130,
        "name": "｛COUGAR GEX PRO 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 10/31 20:00",
        "price": 3090,
        "list_price": 3590,
@@ -31418,7 +31500,7 @@
        ]
       },
       {
-       "id": 130,
+       "id": 131,
        "name": "｛COUGAR POLAR X2 1050W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 10/31 20:00",
        "price": 4990,
        "list_price": 5990,
@@ -31428,7 +31510,7 @@
        ]
       },
       {
-       "id": 131,
+       "id": 132,
        "name": "｛COUGAR POLAR X2 1200W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 10/31 20:00",
        "price": 5990,
        "list_price": 6990,
@@ -31443,35 +31525,35 @@
      "label": "振華 Super Flower",
      "items": [
       {
-       "id": 134,
+       "id": 135,
        "name": "｛振華 BRONZE KING II 400W｝銅牌/5年保",
        "price": 1250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 135,
+       "id": 136,
        "name": "｛振華 BRONZE KING II 500W｝雙8/銅牌/5年保",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 136,
+       "id": 137,
        "name": "｛振華 BRONZE KING II PLUS 650W｝雙8/銅牌/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 137,
+       "id": 138,
        "name": "｛振華 COMBAT DG 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 138,
+       "id": 139,
        "name": "｛振華 COMBAT DG 1000W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年 原價$3290！",
        "price": 2790,
        "list_price": null,
@@ -31480,126 +31562,126 @@
        ]
       },
       {
-       "id": 139,
+       "id": 140,
        "name": "｛振華 COMBAT SG PLUS 550W｝雙8/金牌/半模/ATX3.1/全日系/10年保",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 140,
+       "id": 141,
        "name": "｛振華 COMBAT SG PLUS 650W｝雙8/金牌/半模/ATX3.1/全日系/10年保",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 141,
+       "id": 142,
        "name": "｛振華 COMBAT FG 650W 黑色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 142,
+       "id": 143,
        "name": "｛振華 COMBAT FG 650W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 143,
+       "id": 144,
        "name": "｛振華 COMBAT FG 850W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 144,
+       "id": 145,
        "name": "｛振華 LEADEX III 850W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 145,
+       "id": 146,
        "name": "｛振華 LEADEX III 1000W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 4190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 146,
+       "id": 147,
        "name": "｛振華 LEADEX III 750W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 147,
+       "id": 148,
        "name": "｛振華 LEADEX III 750W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 3490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 148,
+       "id": 149,
        "name": "｛振華 LEADEX III 850W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 149,
+       "id": 150,
        "name": "｛振華 LEADEX III 850W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 150,
+       "id": 151,
        "name": "｛振華 LEADEX III 1000W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 151,
+       "id": 152,
        "name": "｛振華 LEADEX III 1300W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 152,
+       "id": 153,
        "name": "｛振華 LEADEX VII PRO 850W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保",
        "price": 4390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 153,
+       "id": 154,
        "name": "｛振華 LEADEX VII PRO 850W 白色｝ 雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 154,
+       "id": 155,
        "name": "｛振華 LEADEX VII PRO 1200W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 155,
+       "id": 156,
        "name": "｛振華 LEADEX VII PRO 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保",
        "price": 7190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 156,
+       "id": 157,
        "name": "｛振華 LEADEX VIII PRO 850W 黑色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 4790,
        "list_price": null,
@@ -31608,7 +31690,7 @@
        ]
       },
       {
-       "id": 158,
+       "id": 159,
        "name": "｛振華 LEADEX VIII PRO 850W 白色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 4990,
        "list_price": null,
@@ -31617,7 +31699,7 @@
        ]
       },
       {
-       "id": 160,
+       "id": 161,
        "name": "｛振華 LEADEX VIII PRO 1000W 黑色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 5390,
        "list_price": null,
@@ -31626,7 +31708,7 @@
        ]
       },
       {
-       "id": 162,
+       "id": 163,
        "name": "｛振華 LEADEX VIII PRO 1000W 白色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 5590,
        "list_price": null,
@@ -31635,7 +31717,7 @@
        ]
       },
       {
-       "id": 164,
+       "id": 165,
        "name": "｛振華 LEADEX VIII PRO 1200W 黑色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 7490,
        "list_price": null,
@@ -31644,7 +31726,7 @@
        ]
       },
       {
-       "id": 166,
+       "id": 167,
        "name": "｛振華 LEADEX VIII PRO 1200W 白色｝白金/全模/ATX3.1(PCIe 5.1)/全日系/短機身/10年",
        "price": 7690,
        "list_price": null,
@@ -31653,7 +31735,7 @@
        ]
       },
       {
-       "id": 168,
+       "id": 169,
        "name": "｛振華 LEADEX Titanium 2800W｝鈦金/ATX3.1(4組PCIe 5.1)/全日系/10年(限220V T型插座)",
        "price": 22900,
        "list_price": null,
@@ -31665,91 +31747,94 @@
      "label": "君主 Montech 【原廠兩年換新】",
      "items": [
       {
-       "id": 170,
+       "id": 171,
        "name": "｛Montech BETA 2 550W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 171,
+       "id": 172,
        "name": "｛Montech BETA 2 650W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 172,
+       "id": 173,
        "name": "｛Montech BETA 2 750W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 173,
+       "id": 174,
        "name": "｛Montech BETA 2 850W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/直出壓紋線/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 174,
+       "id": 175,
        "name": "｛Montech GAMMA 3 650W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 175,
+       "id": 176,
        "name": "｛Montech GAMMA 3 750W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 176,
+       "id": 177,
        "name": "｛Montech GAMMA 3 850W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 177,
+       "id": 178,
        "name": "｛Montech CENTURY II 650W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 178,
+       "id": 179,
        "name": "｛Montech CENTURY II 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年",
        "price": 2990,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "熱賣",
+        "酷幣200"
+       ]
       },
       {
-       "id": 179,
+       "id": 180,
        "name": "｛Montech CENTURY II 1050W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 180,
+       "id": 181,
        "name": "｛Montech CENTURY II 1200W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 181,
+       "id": 182,
        "name": "｛Montech TITAN GOLD 1200W｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/智慧停轉/10年",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 182,
+       "id": 183,
        "name": "｛Montech TITAN PLA 750W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1) /智慧停轉/10年",
        "price": 3690,
        "list_price": null,
@@ -31758,21 +31843,21 @@
        ]
       },
       {
-       "id": 183,
+       "id": 184,
        "name": "｛Montech TITAN PLA 850W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年",
        "price": 4290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 184,
+       "id": 185,
        "name": "｛Montech TITAN PLA 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年",
        "price": 6290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 185,
+       "id": 186,
        "name": "｛Montech TITAN PLA 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年",
        "price": 7490,
        "list_price": null,
@@ -31784,112 +31869,112 @@
      "label": "銀欣 SilverStone【原價屋售出 2年快換】",
      "items": [
       {
-       "id": 188,
+       "id": 189,
        "name": "｛銀欣 ST30SF 300W｝銅牌/直出線/5年保 (ST30SF.V2.0)【SFX規格】",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 189,
+       "id": 190,
        "name": "｛銀欣 ST45SF 450W｝銅牌/直出線/5年保 (ST45SF.V3.0)【SFX規格】",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 190,
+       "id": 191,
        "name": "｛銀欣 Extreme 550Rz(550W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 191,
+       "id": 192,
        "name": "｛銀欣 Extreme 650Rz(650W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 192,
+       "id": 193,
        "name": "｛銀欣 ET450-B(450W)｝銅牌/直出線/5年保",
        "price": 1350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 193,
+       "id": 194,
        "name": "｛銀欣 ET650-B(650W)｝雙8/銅牌/直出線/扁平線/5年保",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 194,
+       "id": 195,
        "name": "｛銀欣 ATTIS 650R(650W) 白｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 195,
+       "id": 196,
        "name": "｛銀欣 ATTIS 750R(750W) 黑｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 196,
+       "id": 197,
        "name": "｛銀欣 Triton 650Rx(650W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 197,
+       "id": 198,
        "name": "｛銀欣 Triton 750Rx(750W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 198,
+       "id": 199,
        "name": "｛銀欣 Triton 850Rx(850W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 199,
+       "id": 200,
        "name": "｛銀欣 DA750R Gold(750W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年",
        "price": 2590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 200,
+       "id": 201,
        "name": "｛銀欣 DA750R Gold(750W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 201,
+       "id": 202,
        "name": "｛銀欣 DA850R Gold(850W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年",
        "price": 2890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 202,
+       "id": 203,
        "name": "｛銀欣 DA850R Gold(850W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 203,
+       "id": 204,
        "name": "｛銀欣 HELA 850R Platinum(850W)｝雙8/白金/全模組/全日系/ATX3.0(PCIe 5.0)/5年保",
        "price": 3590,
        "list_price": null,
@@ -31901,154 +31986,154 @@
      "label": "酷碼 Cooler Master",
      "items": [
       {
-       "id": 206,
+       "id": 207,
        "name": "｛酷碼 V SFX GOLD 850W ATX3.1 黑色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 207,
+       "id": 208,
        "name": "｛酷碼V SFX GOLD 850W ATX3.1 白色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 208,
+       "id": 209,
        "name": "｛酷碼 MWE BRONZE V2 450W｝銅牌/DC-DC+LLC/5年保/2020年版",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 209,
+       "id": 210,
        "name": "｛酷碼 MWE GOLD V3 550W 黑色｝雙8/金牌/直出線/ATX3.1/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 210,
+       "id": 211,
        "name": "｛酷碼 MWE GOLD V3 550W 白色｝雙8/金牌/直出線/ATX3.1/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 211,
+       "id": 212,
        "name": "｛酷碼 MWE GOLD V3 650W 黑色｝雙8/金牌/直出線/ATX3.1/5年",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 212,
+       "id": 213,
        "name": "｛酷碼 MWE GOLD V3 650W 白色｝雙8/金牌/直出線/ATX3.1/5年",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 213,
+       "id": 214,
        "name": "｛酷碼 MWE GOLD V3 750W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 214,
+       "id": 215,
        "name": "｛酷碼 MWE GOLD V3 750W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 215,
+       "id": 216,
        "name": "｛酷碼 MWE GOLD V3 850W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 216,
+       "id": 217,
        "name": "｛酷碼 MWE GOLD V3 850W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 217,
+       "id": 218,
        "name": "｛酷碼 GX II GOLD 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1垂直線)/主日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 218,
+       "id": 219,
        "name": "｛酷碼 MWE GOLD V4 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 219,
+       "id": 220,
        "name": "｛酷碼 MWE GOLD V4 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 220,
+       "id": 221,
        "name": "｛酷碼 MWE GOLD V4 1000W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年",
        "price": 4690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 221,
+       "id": 222,
        "name": "｛酷碼 ELITE PLATINUM 850W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 222,
+       "id": 223,
        "name": "｛酷碼 ELITE PLATINUM 1000W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 223,
+       "id": 224,
        "name": "｛酷碼 ELITE PLATINUM 1000W 白色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 224,
+       "id": 225,
        "name": "｛酷碼 V Platinum V2 1100W｝雙8/白金/全模組/ATX3.1(PCIe 5.1垂直線)/12年",
        "price": 6250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 225,
+       "id": 226,
        "name": "｛酷碼 V Platinum V2 1300W｝雙8/白金/全模組/ATX3.1(PCIe 5.1垂直線)/12年",
        "price": 7250,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 226,
+       "id": 227,
        "name": "｛酷碼 V Platinum 3000W Workstation｝白金/ATX3.1(4組PCIe 5.1)12年(限220V T型插座)",
        "price": 28900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 227,
+       "id": 228,
        "name": "｛酷碼 X Silent Max Platinum 1300W｝雙8/白金/全模組/數位電源/ATX3.1(PCIe 5.0)/15年",
        "price": 11990,
        "list_price": null,
@@ -32060,56 +32145,56 @@
      "label": "威剛 XPG【保內原廠展服快換】",
      "items": [
       {
-       "id": 229,
+       "id": 230,
        "name": "｛XPG CORE PYLON II 550W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 230,
+       "id": 231,
        "name": "｛XPG CORE PYLON II 650W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 231,
+       "id": 232,
        "name": "｛XPG CORE PYLON II 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 232,
+       "id": 233,
        "name": "｛XPG CORE SHIFT II VE 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 233,
+       "id": 234,
        "name": "｛XPG CORE SHIFT II VE 850W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 234,
+       "id": 235,
        "name": "｛XPG KYBER II 750W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 235,
+       "id": 236,
        "name": "｛XPG KYBER II 850W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 236,
+       "id": 237,
        "name": "｛XPG CORE REACTOR II VE 750W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3190",
        "price": 2790,
        "list_price": null,
@@ -32118,7 +32203,7 @@
        ]
       },
       {
-       "id": 237,
+       "id": 238,
        "name": "｛XPG CORE REACTOR II VE 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3490",
        "price": 3190,
        "list_price": null,
@@ -32127,35 +32212,35 @@
        ]
       },
       {
-       "id": 238,
+       "id": 239,
        "name": "｛XPG CORE REACTOR II 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 3690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 239,
+       "id": 240,
        "name": "｛XPG CORE REACTOR II 850W 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 240,
+       "id": 241,
        "name": "｛XPG CORE REACTOR II 1000W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 241,
+       "id": 242,
        "name": "｛XPG CORE REACTOR II 1200W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保",
        "price": 5590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 242,
+       "id": 243,
        "name": "｛XPG FUSION 1600W｝雙8/鈦金/全模組/ATX3.0(雙PCIe 5.0)/全日系/12年",
        "price": 19900,
        "list_price": null,
@@ -32167,98 +32252,98 @@
      "label": "全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】",
      "items": [
       {
-       "id": 245,
+       "id": 246,
        "name": "｛全漢 金鋼彈 650W｝金牌/全模/全日系/DC-DC/10年保【SFX規格】",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 246,
+       "id": 247,
        "name": "｛全漢 金鋼彈 750W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 247,
+       "id": 248,
        "name": "｛全漢 金鋼彈 850W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 248,
+       "id": 249,
        "name": "｛全漢 金鋼彈 850W ATX3.0(PCIe 5.0) 白色｝雙8/金牌/全模/主日系/10年保【SFX規格】",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 249,
+       "id": 250,
        "name": "｛全漢 DAGGER PM 1200W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年【SFX-L】",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 250,
+       "id": 251,
        "name": "｛全漢 HEXA 85+ PRO GEN5 750W｝雙8/銅牌/主日系/ATX3.0(PCIe 5.0)/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 251,
+       "id": 252,
        "name": "｛全漢 HYDRO G PRO 1200W ATX3.0(PCIe 5.0)｝雙8/金牌/全模/全日系/防潮塗層/10年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 252,
+       "id": 253,
        "name": "｛全漢 VIC BD+ 550W｝雙8/銅牌/ATX3.1/壓紋線/3+2年(憑發票)",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 253,
+       "id": 254,
        "name": "｛全漢 VIC BD+ 650W｝雙8/銅牌/ATX3.1/壓紋線/3+2年(憑發票)",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 254,
+       "id": 255,
        "name": "｛全漢 VIC GD 650W｝雙8/金牌/直出線/ATX3.1/壓紋線/3+2年(憑發票)",
        "price": 1890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 255,
+       "id": 256,
        "name": "｛全漢 VIC GM 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/5年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 256,
+       "id": 257,
        "name": "｛全漢 VITA GD 750W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 257,
+       "id": 258,
        "name": "｛全漢 VITA GD 850W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 258,
+       "id": 259,
        "name": "｛全漢 VITA GM 650W(MIT)｝雙8/金牌/全模/ATX3.1/主日系/10年保",
        "price": 2990,
        "list_price": null,
@@ -32267,56 +32352,56 @@
        ]
       },
       {
-       "id": 259,
+       "id": 260,
        "name": "｛全漢 VITA GM 650W(MIT) 白色版｝雙8/金牌/全模/ATX3.1/主日系/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 260,
+       "id": 261,
        "name": "｛全漢 VITA GM 750W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 261,
+       "id": 262,
        "name": "｛全漢 VITA GM 750W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 262,
+       "id": 263,
        "name": "｛全漢 VITA GM 850W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 263,
+       "id": 264,
        "name": "｛全漢 VITA GM 1000W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 264,
+       "id": 265,
        "name": "｛全漢 VITA PM 750W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 265,
+       "id": 266,
        "name": "｛全漢 VITA PM 850W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 266,
+       "id": 267,
        "name": "｛全漢 VITA PM 1000W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 5290,
        "list_price": null,
@@ -32325,49 +32410,49 @@
        ]
       },
       {
-       "id": 268,
+       "id": 269,
        "name": "｛全漢 VITA PM 1000W(MIT) 白色版｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 269,
+       "id": 270,
        "name": "｛全漢 MEGA GM 850W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 270,
+       "id": 271,
        "name": "｛全漢 MEGA GM 1000W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保",
        "price": 6290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 271,
+       "id": 272,
        "name": "｛全漢 MEGA GM 1200W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保",
        "price": 7290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 272,
+       "id": 273,
        "name": "｛全漢 MEGA TI 1350W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保",
        "price": 17500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 273,
+       "id": 274,
        "name": "｛全漢 MEGA TI 1650W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保",
        "price": 19500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 274,
+       "id": 275,
        "name": "｛全漢 CANNON PRO 2500W(MIT)｝白金/ATX3.1(4組PCIe 5.1)/3年(限220V T型插座)【無快換】",
        "price": 26900,
        "list_price": null,
@@ -32379,98 +32464,98 @@
      "label": "保銳 ENERMAX【原價屋售出 2年快換】",
      "items": [
       {
-       "id": 277,
+       "id": 278,
        "name": "｛保銳 EB450-C 450W｝銅牌/直出壓紋線/全日系/5年",
        "price": 1090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 278,
+       "id": 279,
        "name": "｛保銳 EB550-C 550W｝銅牌/直出壓紋線/ATX3.1/全日系/5年",
        "price": 1490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 279,
+       "id": 280,
        "name": "｛保銳 EB650-C 650W｝雙8/銅牌/直出壓紋線/ATX3.1/全日系/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 280,
+       "id": 281,
        "name": "｛保銳 Cyberbron II 700W｝雙8/銅牌/直出扁線/主日系/5年",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 281,
+       "id": 282,
        "name": "｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 282,
+       "id": 283,
        "name": "｛保銳 CyberG II 750W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 283,
+       "id": 284,
        "name": "｛保銳 CyberG II 850W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年",
        "price": 2390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 284,
+       "id": 285,
        "name": "｛保銳 Revolution III 650W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 285,
+       "id": 286,
        "name": "｛保銳 Revolution III 650W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 286,
+       "id": 287,
        "name": "｛保銳 Revolution III 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 287,
+       "id": 288,
        "name": "｛保銳 Revolution III 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 288,
+       "id": 289,
        "name": "｛保銳 Revolution III 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 289,
+       "id": 290,
        "name": "｛保銳 Revolution III 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 290,
+       "id": 291,
        "name": "｛保銳 Revolution III 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4290,
        "list_price": null,
@@ -32479,35 +32564,35 @@
        ]
       },
       {
-       "id": 292,
+       "id": 293,
        "name": "｛保銳 Revolution III S 1000W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 293,
+       "id": 294,
        "name": "｛保銳 Revolution III S 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 294,
+       "id": 295,
        "name": "｛保銳 PlatimaxII 1200DF(1200W) 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 295,
+       "id": 296,
        "name": "｛保銳 PlatimaxII 1200DF(1200W) 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 296,
+       "id": 297,
        "name": "｛保銳 PlatiGemini 1200W｝雙8/白金/符合ATX12VO/全模/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 5990,
        "list_price": null,
@@ -32519,28 +32604,28 @@
      "label": "安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】",
      "items": [
       {
-       "id": 299,
+       "id": 300,
        "name": "｛Antec CSK550DC(550W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 300,
+       "id": 301,
        "name": "｛Antec CSK650DC(650W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 301,
+       "id": 302,
        "name": "｛Antec CSK750DC(750W) 白色｝雙8/銅牌/直出線/PCIe 5.1/DC-DC/5年保",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 302,
+       "id": 303,
        "name": "｛Antec CSK750H(750W)｝雙8/銅牌/半模組/靜音風扇/5年保",
        "price": 1890,
        "list_price": null,
@@ -32549,28 +32634,28 @@
        ]
       },
       {
-       "id": 303,
+       "id": 304,
        "name": "｛Antec GSK 750W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 304,
+       "id": 305,
        "name": "｛Antec GSK 850W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 305,
+       "id": 306,
        "name": "｛Antec GSK 1000W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 306,
+       "id": 307,
        "name": "｛Antec NE850GM(850W) 白色｝雙8/黑色線材/金牌/全模/全日系/智慧溫控風扇/10年保",
        "price": 2490,
        "list_price": null,
@@ -32579,7 +32664,7 @@
        ]
       },
       {
-       "id": 307,
+       "id": 308,
        "name": "｛Antec NE1300G M ATX3.0(1300W)｝雙8/金牌/全模/PCIe 5.0/全日系/10年保",
        "price": 3990,
        "list_price": null,
@@ -32588,21 +32673,21 @@
        ]
       },
       {
-       "id": 308,
+       "id": 309,
        "name": "｛Antec NE850(850W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 309,
+       "id": 310,
        "name": "｛Antec NE1000(1000W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 310,
+       "id": 311,
        "name": "｛Antec NE1200(1200W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 4790,
        "list_price": null,
@@ -32614,63 +32699,63 @@
      "label": "微星 MSI 【到府收件 兩年展服快換】",
      "items": [
       {
-       "id": 313,
+       "id": 314,
        "name": "｛微星 MAG A550BN 550W｝銅牌/DC-DC/5年保",
        "price": 1790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 314,
+       "id": 315,
        "name": "｛微星 MAG A650BN 650W｝銅牌/DC-DC/5年保",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 315,
+       "id": 316,
        "name": "｛微星 MAG A650BNL WHITE 650W 白｝銅牌/DC-DC/5年保",
        "price": 2090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 316,
+       "id": 317,
        "name": "｛微星 MAG A750BN PCIE5 III 750W｝雙8/銅牌/ATX3.1/5年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 317,
+       "id": 318,
        "name": "｛微星 MAG A650GL 650W｝雙8/金牌/全模組/DC-DC/7年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 318,
+       "id": 319,
        "name": "｛微星 MAG A750GL PCIE5 750W｝雙8/金牌/全模組/ATX3.0/7年保",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 319,
+       "id": 320,
        "name": "｛微星 MAG A850GL PCIE5 850W｝雙8/金牌/全模組/ATX3.0/7年保",
        "price": 3690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 320,
+       "id": 321,
        "name": "｛微星 MAG A850GL PCIE5 WHITE 850W 白｝雙8/金牌/全模組/ATX3.0/7年保",
        "price": 3790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 321,
+       "id": 322,
        "name": "｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保▼下殺到 10/31 20:00",
        "price": 3790,
        "list_price": 4790,
@@ -32680,7 +32765,7 @@
        ]
       },
       {
-       "id": 322,
+       "id": 323,
        "name": "｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
        "price": 3690,
        "list_price": 4390,
@@ -32690,7 +32775,7 @@
        ]
       },
       {
-       "id": 323,
+       "id": 324,
        "name": "｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
        "price": 4590,
        "list_price": 5290,
@@ -32700,21 +32785,21 @@
        ]
       },
       {
-       "id": 324,
+       "id": 325,
        "name": "｛微星 MAG A1000PLS PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/10年保",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 325,
+       "id": 326,
        "name": "｛微星 MPG Ai1300TS PCIE5 1300W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年",
        "price": 16490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 326,
+       "id": 327,
        "name": "｛微星 MPG Ai1600TS PCIE5 1600W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年",
        "price": 18490,
        "list_price": null,
@@ -32726,21 +32811,21 @@
      "label": "DEEPCOOL 九州風神",
      "items": [
       {
-       "id": 329,
+       "id": 330,
        "name": "｛九州風神 PK550D(550W)｝雙8/銅牌/DC-DC/5年",
        "price": 1390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 330,
+       "id": 331,
        "name": "｛九州風神 PK650D(650W)｝雙8/銅牌/DC-DC/5年",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 331,
+       "id": 332,
        "name": "｛九州風神 PN650D(650W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！",
        "price": 2190,
        "list_price": null,
@@ -32749,7 +32834,7 @@
        ]
       },
       {
-       "id": 332,
+       "id": 333,
        "name": "｛九州風神 PN750D(750W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！",
        "price": 2490,
        "list_price": null,
@@ -32758,35 +32843,35 @@
        ]
       },
       {
-       "id": 333,
+       "id": 334,
        "name": "｛九州風神 PN850D(850W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 334,
+       "id": 335,
        "name": "｛九州風神 PN650M(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 335,
+       "id": 336,
        "name": "｛九州風神 PN750M(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 2790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 336,
+       "id": 337,
        "name": "｛九州風神 PN850M(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 337,
+       "id": 338,
        "name": "｛九州風神 PN850M WH(850W) 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年",
        "price": 3190,
        "list_price": null,
@@ -32798,28 +32883,28 @@
      "label": "大飛 darkFlash",
      "items": [
       {
-       "id": 340,
+       "id": 341,
        "name": "｛darkFlash PMT 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 341,
+       "id": 342,
        "name": "｛darkFlash PMT 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 343,
        "name": "｛darkFlash PMT 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 343,
+       "id": 344,
        "name": "｛darkFlash PMT 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保",
        "price": 3390,
        "list_price": null,
@@ -32831,49 +32916,49 @@
      "label": "恩傑 NZXT【原價屋售出 2年快換】",
      "items": [
       {
-       "id": 346,
+       "id": 347,
        "name": "｛NZXT C750(750W) 銅牌｝雙8/直出線/ATX3.1(PCIe 5.1)/5年",
        "price": 2490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 347,
+       "id": 348,
        "name": "｛NZXT C850(850W) CORE 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)壓紋線/7年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 348,
+       "id": 349,
        "name": "｛NZXT C850(850W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 4290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 349,
+       "id": 350,
        "name": "｛NZXT C1000(1000W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 350,
+       "id": 351,
        "name": "｛NZXT C1000(1000W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 5690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 351,
+       "id": 352,
        "name": "｛NZXT C1200(1200W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年",
        "price": 7390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 352,
+       "id": 353,
        "name": "｛NZXT C1500(1500W) ATX3.1｝雙8/白金/數位電源/全模組/雙PCIe 5.1/全日系/10年",
        "price": 11990,
        "list_price": null,
@@ -32885,35 +32970,35 @@
      "label": "華擎 ASRock",
      "items": [
       {
-       "id": 355,
+       "id": 356,
        "name": "｛ASRock SL-750G(750W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 356,
+       "id": 357,
        "name": "｛ASRock SL-850G(850W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 357,
+       "id": 358,
        "name": "｛ASRock SL-850GW(850W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 358,
+       "id": 359,
        "name": "｛ASRock SL-1000G(1000W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 359,
+       "id": 360,
        "name": "｛ASRock SL-1000GW(1000W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年",
        "price": 4690,
        "list_price": null,
@@ -32925,84 +33010,84 @@
      "label": "技嘉 GIGABYTE",
      "items": [
       {
-       "id": 362,
+       "id": 363,
        "name": "｛技嘉 P550B(550W)｝銅牌/3年保",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 363,
+       "id": 364,
        "name": "｛技嘉 P650G PG5(650W)｝ 雙8/金牌/ATX3.1(PCIe 5.1)/主日系/5年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 364,
+       "id": 365,
        "name": "｛技嘉 UD750GM PG5 V2(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 365,
+       "id": 366,
        "name": "｛技嘉 UD750GM PG5 V2 ICE(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 366,
+       "id": 367,
        "name": "｛技嘉 UD850GM PG5 V2(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 367,
+       "id": 368,
        "name": "｛技嘉 UD850GM PG5 V2 ICE(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 368,
+       "id": 369,
        "name": "｛技嘉 UD1000GM PG5 V2(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 369,
+       "id": 370,
        "name": "｛技嘉 UD1000GM PG5 V2 ICE(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 370,
+       "id": 371,
        "name": "｛技嘉 UD1600PM PG5(1600W)｝雙8/白金/全模組/ATX3.1(雙PCIe 5.1)主日系/10年",
        "price": 14990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 371,
+       "id": 372,
        "name": "｛技嘉 GAMING 1000GM PG5(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 372,
+       "id": 373,
        "name": "｛技嘉 AORUS ELITE 1000W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 373,
+       "id": 374,
        "name": "｛技嘉 AORUS ELITE 1000W ICE(白色)｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年",
        "price": 6490,
        "list_price": null,
@@ -33014,21 +33099,21 @@
      "label": "曜越 Thermaltake【原價屋售出 3年快換 !!】",
      "items": [
       {
-       "id": 376,
+       "id": 377,
        "name": "｛曜越 Toughpower GF A3 750W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保",
        "price": 2690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 377,
+       "id": 378,
        "name": "｛曜越 Toughpower GF A3 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 378,
+       "id": 379,
        "name": "｛曜越 Toughpower GF3 1350W ATX3.0(PCIe 5.0)｝雙8/金牌/全模組/10年保",
        "price": 4990,
        "list_price": null,
@@ -33040,70 +33125,70 @@
      "label": "聯力工業 LIAN LI",
      "items": [
       {
-       "id": 380,
+       "id": 381,
        "name": "｛聯力 RS1000G(1000W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 4399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 381,
+       "id": 382,
        "name": "｛聯力 RS1200G(1200W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 5299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 382,
+       "id": 383,
        "name": "｛聯力 RS1200G(1200W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年",
        "price": 5449,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 383,
+       "id": 384,
        "name": "｛聯力 EDGE 850W V2｝金牌/全模組/ATX3.1(PCIe 5.1)/10年(分艙機殼專用)",
        "price": 3199,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 384,
+       "id": 385,
        "name": "｛聯力 EDGE 1000W V2 黑｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用)",
        "price": 4449,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 385,
+       "id": 386,
        "name": "｛聯力 EDGE 1000W V2 白｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用)",
        "price": 4449,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 386,
+       "id": 387,
        "name": "｛聯力 EDGE 1200W V2 黑｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用)",
        "price": 5799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 387,
+       "id": 388,
        "name": "｛聯力 EDGE 1200W V2 白｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用)",
        "price": 5799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 388,
+       "id": 389,
        "name": "｛聯力 EDGE 1350W V2 黑｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用)",
        "price": 8299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 389,
+       "id": 390,
        "name": "｛聯力 EDGE 1350W V2 白｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用)",
        "price": 8299,
        "list_price": null,
@@ -39369,28 +39454,28 @@
       {
        "id": 538,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(黑曜橡木)/靜音雙馬達/乘重:100KG/120x80cm",
-       "price": 14790,
+       "price": 14911,
        "list_price": null,
        "flags": []
       },
       {
        "id": 539,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(黑曜橡木)/靜音雙馬達/乘重:100KG/150x80cm",
-       "price": 15490,
+       "price": 15911,
        "list_price": null,
        "flags": []
       },
       {
        "id": 540,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(黑曜橡木)/靜音雙馬達/乘重:100KG/180x80cm",
-       "price": 16490,
+       "price": 16911,
        "list_price": null,
        "flags": []
       },
       {
        "id": 541,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(北歐雲杉)/靜音雙馬達/乘重:100KG/120x80cm",
-       "price": 14790,
+       "price": 14911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39399,7 +39484,7 @@
       {
        "id": 542,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(北歐雲杉)/靜音雙馬達/乘重:100KG/140x80cm",
-       "price": 15490,
+       "price": 15911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39408,7 +39493,7 @@
       {
        "id": 543,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(北歐雲杉)/靜音雙馬達/乘重:100KG/160x80cm",
-       "price": 15490,
+       "price": 16211,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39417,7 +39502,7 @@
       {
        "id": 544,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(北歐雲杉)/靜音雙馬達/乘重:100KG/180x80cm",
-       "price": 16490,
+       "price": 16911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39426,7 +39511,7 @@
       {
        "id": 545,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(菸草橡木)/靜音雙馬達/乘重:100KG/120x80cm",
-       "price": 14790,
+       "price": 14911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39435,7 +39520,7 @@
       {
        "id": 546,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(菸草橡木)/靜音雙馬達/乘重:100KG/150x80cm",
-       "price": 15490,
+       "price": 15911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39444,7 +39529,7 @@
       {
        "id": 547,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(菸草橡木)/靜音雙馬達/乘重:100KG/160x80cm",
-       "price": 15490,
+       "price": 16211,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -39453,7 +39538,7 @@
       {
        "id": 548,
        "name": "｛irocks D01-SL-DX｝電競桌-電動升降(菸草橡木)/靜音雙馬達/乘重:100KG/180x80cm",
-       "price": 16490,
+       "price": 16911,
        "list_price": null,
        "flags": [
         "熱賣"
@@ -40175,335 +40260,328 @@
      "items": [
       {
        "id": 660,
-       "name": "｛irocks T02 Plus｝電競椅/4D/PU+PVC材質/90°~160°/Z字托盤/黑",
-       "price": 6790,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 661,
        "name": "｛irocks T16｝ 電競椅(石墨黑)/全網布透氣設計/3D/四級氣壓棒/無頭枕/兩年保",
        "price": 6311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 662,
+       "id": 661,
        "name": "｛irocks T16｝ 電競椅(石墨灰)/全網布透氣設計/3D/四級氣壓棒/無頭枕/兩年保",
        "price": 6311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 663,
+       "id": 662,
        "name": "｛irocks T16｝ 電競椅(星空藍)/全網布透氣設計/3D/四級氣壓棒/無頭枕/兩年保",
        "price": 6311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 664,
+       "id": 663,
        "name": "｛irocks T16｝ 電競椅(莓果紅)/全網布透氣設計/3D/四級氣壓棒/無頭枕/兩年保",
        "price": 6311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 665,
+       "id": 664,
        "name": "｛irocks T16｝ 電競椅(可可棕)/全網布透氣設計/3D/四級氣壓棒/無頭枕/兩年保",
        "price": 6311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 666,
+       "id": 665,
        "name": "｛Irocks T36｝ 人體工學椅(單寧藍)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構",
        "price": 5911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 667,
+       "id": 666,
        "name": "｛Irocks T36｝ 人體工學椅(暮織灰)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構",
        "price": 5911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 668,
+       "id": 667,
        "name": "｛Irocks T36｝ 人體工學椅(晨光綠)/高彈力網眼編織布/4D/後仰三段鎖定/坐深可調機構",
        "price": 5911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 669,
+       "id": 668,
        "name": "｛irocks T03｝ 電競椅(菁英黑)/高彈力網布/3D扶手/四級氣壓棒/兩年保",
        "price": 7911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 670,
+       "id": 669,
        "name": "｛irocks T03｝ 電競椅(灰)/高彈力網布/3D扶手/四級氣壓棒/兩年保",
        "price": 7911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 671,
+       "id": 670,
        "name": "｛Irocks T03 Neo｝ 電競椅(白框灰布)/高彈力網布/4D扶手/3D可調頭枕",
        "price": 8311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 672,
+       "id": 671,
        "name": "｛Irocks T03 Neo｝ 電競椅(黑)/高彈力網布/4D扶手/3D可調頭枕",
        "price": 8311,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 673,
+       "id": 672,
        "name": "｛irocks T05｝ 電競椅(黑)/尼龍網布/金屬托盤/27°可調椅背/4D/五年保",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 674,
+       "id": 673,
        "name": "｛irocks T05｝ 電競椅(灰)/尼龍網布/金屬托盤/27°可調椅背/4D/五年保",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 675,
+       "id": 674,
        "name": "｛irocks T05 Plus｝ 電競椅(黑)/人性化托盤改良/尼龍網布/可調椅背/4D/五年保",
        "price": 12911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 676,
+       "id": 675,
        "name": "｛irocks T05 Plus｝ 電競椅(灰)/人性化托盤改良/尼龍網布/可調椅背/4D/五年保",
        "price": 12911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 677,
+       "id": 676,
        "name": "｛irocks T07｝ 電競椅(黑)/傾仰21度/高彈力網布/4D/五星椅腳/四級桿/兩年保",
        "price": 9511,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 678,
+       "id": 677,
        "name": "｛irocks T07｝ 電競椅(灰)/傾仰21度/高彈力網布/4D/五星椅腳/四級桿/兩年保",
        "price": 9511,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 679,
+       "id": 678,
        "name": "｛irocks T07-SE｝電競椅(琥珀白)/傾仰21度/高彈力網布/4D/五星椅腳/四級桿/兩年保",
        "price": 10111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 680,
+       "id": 679,
        "name": "｛irocks T07-SE｝電競椅(棉糖粉)/高彈力鯊魚網布/4D/五星椅腳/四級桿/PU耐用椅輪/兩年保",
        "price": 10111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 681,
+       "id": 680,
        "name": "｛irocks T07-SE｝電競椅(芋泥紫)/高彈力鯊魚網布/4D/五星椅腳/四級桿/PU耐用椅輪/兩年保",
        "price": 10111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 682,
+       "id": 681,
        "name": "｛irocks T07-SE｝電競椅(曜石黑)/高彈力鯊魚網布/4D/五星椅腳/四級桿/PU耐用椅輪/兩年保",
        "price": 10111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 683,
+       "id": 682,
        "name": "｛irocks T07 Evo｝ 電競椅(松石綠)/水遁革(耐磨-防刮-去汙)/3D可調頭枕/5D曲面扶手",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 684,
+       "id": 683,
        "name": "｛irocks T07 Evo｝ 電競椅(砂岩棕)/水遁革(耐磨-防刮-去汙)/3D可調頭枕/5D曲面扶手",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 685,
+       "id": 684,
        "name": "｛irocks T07 Evo｝ 電競椅(鼠尾草綠)/水遁革(耐磨-防刮-去汙)/3D可調頭枕/5D曲面扶手",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 686,
+       "id": 685,
        "name": "｛irocks T07 Evo｝ 電競椅(日光灰)/水遁革(耐磨-防刮-去汙)/3D可調頭枕/5D曲面扶手",
        "price": 11911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 687,
+       "id": 686,
        "name": "｛irocks T07 Plus｝ 電競椅(黑曜銀)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 688,
+       "id": 687,
        "name": "｛irocks T07 Plus｝ 電競椅(隕石灰)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保",
        "price": 11511,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 689,
+       "id": 688,
        "name": "｛irocks T07 Plus｝ 電競椅(莓果紅)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 690,
+       "id": 689,
        "name": "｛irocks T07 Plus｝ 電競椅(星空藍)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 691,
+       "id": 690,
        "name": "｛irocks T07 Plus｝ 電競椅(可可棕)/高彈力網布/5D/五段後仰調整/Pu靜音輪/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 692,
+       "id": 691,
        "name": "｛irocks T07 Neo｝ 電競椅/高彈力網布/5D/多功頸枕/大尺寸泡棉坐墊設計/灰/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 693,
+       "id": 692,
        "name": "｛irocks T07 Neo｝ 電競椅/高彈力網布/5D/多功頸枕/大尺寸泡棉坐墊設計/黑/兩年保",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 694,
+       "id": 693,
        "name": "｛irocks T25S｝電競椅(黑)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/高強度尼龍椅腳",
        "price": 8911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 695,
+       "id": 694,
        "name": "｛irocks T25S｝電競椅(灰)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/高強度尼龍椅腳",
        "price": 8911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 696,
+       "id": 695,
        "name": "｛irocks T25ES｝電競椅(黑)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/鋁合金椅腳",
        "price": 9911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 697,
+       "id": 696,
        "name": "｛irocks T25ES｝電競椅(灰)/高彈力網布/2D腰靠/5D後仰聯動扶手/舒適腳靠/鋁合金椅腳",
        "price": 9911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 698,
+       "id": 697,
        "name": "｛irocks T27｝ 電競椅(黑色)/雲岩網布/4D多段頭枕-扶手/三段追蹤腰靠",
        "price": 12911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 699,
+       "id": 698,
        "name": "｛irocks T27｝ 電競椅(灰色)/雲岩網布/4D多段頭枕-扶手/三段追蹤腰靠",
        "price": 113111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 700,
+       "id": 699,
        "name": "｛irocks T27S｝ 電競椅(黑色)/雲岩網布/4D多段頭枕-扶手/三段追蹤腰靠/鋁合金摺疊腿托款",
        "price": 14911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 701,
+       "id": 700,
        "name": "｛irocks T27S｝ 電競椅(灰色)/雲岩網布/4D多段頭枕-扶手/三段追蹤腰靠/鋁合金摺疊腿托款",
        "price": 15111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 702,
+       "id": 701,
        "name": "｛irocks T28 Plus｝電競椅-貓抓布 布面(灰色)/防潑水/4D/PU穩重椅輪/特殊編織布料",
        "price": 7911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 703,
+       "id": 702,
        "name": "｛irocks T28 Plus｝電競椅-貓抓布 布面(米色)/防潑水/4D/PU穩重椅輪/特殊編織布料",
        "price": 7911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 704,
+       "id": 703,
        "name": "｛irocks T28 Plus｝電競椅-貓抓布 布面(孔雀綠)/防潑水/4D/PU穩重椅輪/特殊編織布料",
        "price": 7911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 705,
+       "id": 704,
        "name": "｛irocks T29｝旗艦工學電競椅(黑色)/4D/寬版坐墊/彈性針織布面/防水/防污/防油/磁吸記憶棉頸枕",
        "price": 8911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 706,
+       "id": 705,
        "name": "｛irocks T29｝旗艦工學電競椅(灰色)/4D/寬版坐墊/彈性針織布面/防水/防污/防油/磁吸記憶棉頸枕",
        "price": 8911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 707,
+       "id": 706,
        "name": "｛iRocks x hololive｝白上吹雪 聯名款 T29 人體工學椅/水盾革皮面 親膚/耐磨/防刮",
        "price": 14900,
        "list_price": null,
@@ -40517,7 +40595,7 @@
      "label": "Razer 電競椅 [捷元代理-三年保固]",
      "items": [
       {
-       "id": 711,
+       "id": 710,
        "name": "｛Razer Iskur V2 X NewGen｝電競椅(綠)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝)",
        "price": 11990,
        "list_price": null,
@@ -40526,7 +40604,7 @@
        ]
       },
       {
-       "id": 713,
+       "id": 712,
        "name": "｛Razer Iskur V2 X NewGen｝電競椅(粉)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝)",
        "price": 11990,
        "list_price": null,
@@ -40535,7 +40613,7 @@
        ]
       },
       {
-       "id": 715,
+       "id": 714,
        "name": "｛Razer Iskur V2 NewGen｝電競椅(黑)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝)",
        "price": 20990,
        "list_price": null,
@@ -40544,7 +40622,7 @@
        ]
       },
       {
-       "id": 717,
+       "id": 716,
        "name": "｛Razer Iskur V2 NewGen｝電競椅(灰)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝)",
        "price": 20990,
        "list_price": null,
@@ -40553,7 +40631,7 @@
        ]
       },
       {
-       "id": 719,
+       "id": 718,
        "name": "｛Razer Iskur V2 NewGen｝電競椅(粉)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝)",
        "price": 20990,
        "list_price": null,
@@ -40562,7 +40640,7 @@
        ]
       },
       {
-       "id": 721,
+       "id": 720,
        "name": "｛Razer Iskur V2 NewGen｝電競椅(綠)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝)",
        "price": 20990,
        "list_price": null,
@@ -40571,7 +40649,7 @@
        ]
       },
       {
-       "id": 723,
+       "id": 722,
        "name": "｛Razer Enki｝電競椅(綠)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝)",
        "price": 14900,
        "list_price": null,
@@ -40580,7 +40658,7 @@
        ]
       },
       {
-       "id": 724,
+       "id": 723,
        "name": "｛Razer Enki Black｝電競椅(黑)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝)",
        "price": 14900,
        "list_price": null,
@@ -40589,7 +40667,7 @@
        ]
       },
       {
-       "id": 725,
+       "id": 724,
        "name": "｛Razer Enki Quartz｝電競椅(粉)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝)",
        "price": 14900,
        "list_price": null,
@@ -40598,7 +40676,7 @@
        ]
       },
       {
-       "id": 726,
+       "id": 725,
        "name": "｛Razer Fujin Pro｝電競椅-風靈網狀人體工學/4D扶手/後仰136度/鋁合金椅框/頭枕(需自行組裝)",
        "price": 28489,
        "list_price": null,
@@ -40607,7 +40685,7 @@
        ]
       },
       {
-       "id": 728,
+       "id": 727,
        "name": "｛Razer Iskur V2 X EVA ｝新世紀福音戰士 聯名電競椅/2D扶手/纖維布面/內置腰枕(需自行組裝)",
        "price": 8888,
        "list_price": null,
@@ -40621,28 +40699,28 @@
      "label": "Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！",
      "items": [
       {
-       "id": 732,
+       "id": 731,
        "name": "｛Marsrhino YO｝電競椅-折疊沙發/加厚減壓泡棉/360度旋轉全方位/折疊式設計/最大承重120公斤",
        "price": 4790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 733,
+       "id": 732,
        "name": "｛Marsrhino Viper Pro｝電競椅-沙發(魅影)/一鍵控制/PU人造皮革/USB充電座設計",
        "price": 9600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 734,
+       "id": 733,
        "name": "｛Marsrhino Lander｝電競椅-凳(哨兵)/多功能/獨創紓壓技術/強化框架/椅座360度旋轉",
        "price": 2850,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 735,
+       "id": 734,
        "name": "Marsrhino UL3 超跑人體工學椅/2D/150度椅背傾仰/伸縮式腿托/拆卸式頭枕與腰靠",
        "price": 5900,
        "list_price": null,
@@ -40651,21 +40729,21 @@
        ]
       },
       {
-       "id": 736,
+       "id": 735,
        "name": "Marsrhino ZEN 01 人體工學椅/3D扶手/高彈力透氣網布/可調式腰靠/瀑布式椅座",
        "price": 9900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 737,
+       "id": 736,
        "name": "Marsrhino Spyder Rs 電競椅(幻影)/無段追背支撐調節系統/4D/PU靜音滑輪/搖椅功能",
        "price": 7100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 738,
+       "id": 737,
        "name": "｛Marsrhino Infinite One Air｝電競椅(無限)/黑色/透氣高彈力網布/4D扶手/2D紓壓頭枕",
        "price": 6180,
        "list_price": null,
@@ -40674,35 +40752,35 @@
        ]
       },
       {
-       "id": 740,
+       "id": 739,
        "name": "｛Marsrhino Infinite Air｝電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布",
        "price": 8350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 741,
+       "id": 740,
        "name": "｛Marsrhino Infinite Air Black｝ 電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布",
        "price": 8350,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 742,
+       "id": 741,
        "name": "｛Marsrhino Infinite GT｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔",
        "price": 11100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 744,
+       "id": 743,
        "name": "｛Marsrhino Infinite GT Black｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔+贈Lander椅凳",
        "price": 11100,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 746,
+       "id": 745,
        "name": "｛Marsrhino Infinite Max｝電競椅(無限)/2D頭枕/3D腰靠/4D扶手/獨創透氣紓壓椅背",
        "price": 12500,
        "list_price": null,
@@ -40714,7 +40792,7 @@
      "label": "(隨貨贈)｛Marsrhino Infinite Max｝電競椅 贈Lander椅凳",
      "items": [
       {
-       "id": 748,
+       "id": 747,
        "name": "｛Marsrhino Speed R｝電競椅-人體工學(流線)/舒適網布/4D頭枕/3D扶手/瀑布式滑動椅座",
        "price": 9400,
        "list_price": null,
@@ -40723,7 +40801,7 @@
        ]
       },
       {
-       "id": 750,
+       "id": 749,
        "name": "｛Marsrhino Wind｝電競椅(御風)/黑色/高彈力透氣網布設計/8D扶手/PU靜音滑輪/承重120公斤",
        "price": 10300,
        "list_price": null,
@@ -40735,42 +40813,42 @@
      "label": "海盜船 電競椅【客訂指送】捷元代理",
      "items": [
       {
-       "id": 752,
+       "id": 751,
        "name": "｛海盜船 T3-Rush V2｝電競椅(灰+黑)布質款/賽車風格設計/4D/90-160°傾斜度(不含組裝)",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 753,
+       "id": 752,
        "name": "｛海盜船 T3-Rush V2｝電競椅(黑+黑)布質款/賽車風格設計/4D/90-160°傾斜度(不含組裝)",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 754,
+       "id": 753,
        "name": "｛海盜船 TC80｝電競椅-辦公椅(黑)布皮款/100mm座椅高度可調/最大可後仰115°",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 755,
+       "id": 754,
        "name": "｛海盜船 TC500 LUXE｝旗艦電競椅(暗影灰)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝)",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 756,
+       "id": 755,
        "name": "｛海盜船 TC500 LUXE｝旗艦電競椅(雪白)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝)",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 757,
+       "id": 756,
        "name": "｛海盜船 Elgato Embrace｝電競椅-人體工學/瀑布式座緣/4D/網布椅背/可調頭枕(不含組裝)",
        "price": 17900,
        "list_price": null,
@@ -40784,7 +40862,7 @@
      "label": "ThunderX3 電競椅",
      "items": [
       {
-       "id": 761,
+       "id": 760,
        "name": "｛ThunderX3 SOLO 360｝電競椅(灰)/LOFT Air多層透氣布/3Dx360度全方向扶手/可調式頭枕",
        "price": 7990,
        "list_price": null,
@@ -40793,7 +40871,7 @@
        ]
       },
       {
-       "id": 762,
+       "id": 761,
        "name": "｛ThunderX3 XTC Loft｝電競椅/沙發透氣布面/X型設計3D扶手/動態調整靠背",
        "price": 9990,
        "list_price": null,
@@ -40802,7 +40880,7 @@
        ]
       },
       {
-       "id": 763,
+       "id": 762,
        "name": "｛ThunderX3 XTC PRO 360｝電競椅/透氣網布/4Dx360度全方向扶手/動態調整座墊",
        "price": 11990,
        "list_price": null,
@@ -40811,7 +40889,7 @@
        ]
       },
       {
-       "id": 764,
+       "id": 763,
        "name": "｛ThunderX3 Flex Pro Mesh Black｝電競椅(黑)/網布/2D頭枕/3D椅背/5D扶手",
        "price": 18990,
        "list_price": null,
@@ -40820,7 +40898,7 @@
        ]
       },
       {
-       "id": 765,
+       "id": 764,
        "name": "｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(灰)/網布/2D頭枕/3D椅背/5D扶手",
        "price": 18990,
        "list_price": null,
@@ -40829,7 +40907,7 @@
        ]
       },
       {
-       "id": 766,
+       "id": 765,
        "name": "｛ThunderX3 Flex Pro Loft Dark Grey｝電競椅(深灰布面)/布料/2D頭枕/3D椅背/5D扶手",
        "price": 18990,
        "list_price": null,
@@ -40838,7 +40916,7 @@
        ]
       },
       {
-       "id": 767,
+       "id": 766,
        "name": "｛ThunderX3 Flex Pro Mesh Black｝電競椅(附腳拖)(黑)/網布/2D頭枕/3D椅背/5D扶手",
        "price": 19990,
        "list_price": null,
@@ -40847,7 +40925,7 @@
        ]
       },
       {
-       "id": 768,
+       "id": 767,
        "name": "｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(附腳拖)(灰)/網布/2D頭枕/3D椅背/5D扶手",
        "price": 19990,
        "list_price": null,
@@ -40861,7 +40939,7 @@
      "label": "搖桿 遊戲周邊",
      "items": [
       {
-       "id": 771,
+       "id": 770,
        "name": "｛微軟 Xbox｝無線控制器/搖桿/磨砂黑/無線-藍牙/防滑握把/附電腦連接線(Type-c)(無接收器)",
        "price": 1990,
        "list_price": null,
@@ -40870,49 +40948,49 @@
        ]
       },
       {
-       "id": 773,
+       "id": 772,
        "name": "｛微軟 Xbox｝無線控制器/搖桿/黑/無線-藍牙/防滑握把/(無接收器)",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 774,
+       "id": 773,
        "name": "｛微軟 Xbox｝無線控制器/搖桿/冰雪白/無線-藍牙/防滑握把/(無接收器)",
        "price": 1590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 775,
+       "id": 774,
        "name": "｛微軟 Xbox｝無線控制器(狙擊紅)/搖桿/無線-藍牙/防滑握把/(無接收器)",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 776,
+       "id": 775,
        "name": "｛微軟 Xbox｝無線控制器(衝擊藍)/搖桿/無線-藍牙/防滑握把/(無接收器)",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 777,
+       "id": 776,
        "name": "｛微軟 Xbox｝無線控制器(愛戀粉)/搖桿/無線-藍牙/防滑握把/(無接收器)",
        "price": 1690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 778,
+       "id": 777,
        "name": "｛華碩 ROG Tessen｝手遊控制器/僅支援Android 手機/可折疊/光環Rgb/Type-C 充電",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 779,
+       "id": 778,
        "name": "｛華碩 Raikiri II Pro PC｝無線三模搖桿(黑)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率",
        "price": 7490,
        "list_price": null,
@@ -40921,7 +40999,7 @@
        ]
       },
       {
-       "id": 781,
+       "id": 780,
        "name": "｛華碩 Raikiri II Pro PC｝無線三模搖桿(白)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率",
        "price": 7490,
        "list_price": null,
@@ -40930,7 +41008,7 @@
        ]
       },
       {
-       "id": 783,
+       "id": 782,
        "name": "｛華碩 ROG Raikiri II Xbox｝無線控制器/三模(有線/2.4g/藍牙)/防飄移TMR搖桿/微動開關按鈕",
        "price": 6490,
        "list_price": null,
@@ -40939,7 +41017,7 @@
        ]
       },
       {
-       "id": 784,
+       "id": 783,
        "name": "｛Razer Wolverine V2 Chroma｝有線搖桿(白)/機械觸感動作鍵和方向鍵/適用PC",
        "price": 2488,
        "list_price": null,
@@ -40948,7 +41026,7 @@
        ]
       },
       {
-       "id": 785,
+       "id": 784,
        "name": "｛Razer Prio｝手遊遊戲手把/極致便攜/可摺疊設計/全尺寸控制器按鍵配置/電容式拇指搖桿",
        "price": 3490,
        "list_price": null,
@@ -40957,7 +41035,7 @@
        ]
       },
       {
-       "id": 786,
+       "id": 785,
        "name": "｛Razer Wolverine V3 TE 8k｝有線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿",
        "price": 3090,
        "list_price": null,
@@ -40966,7 +41044,7 @@
        ]
       },
       {
-       "id": 787,
+       "id": 786,
        "name": "｛Razer Wolverine V3 Pro 8k｝無線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿",
        "price": 5990,
        "list_price": null,
@@ -40975,7 +41053,7 @@
        ]
       },
       {
-       "id": 788,
+       "id": 787,
        "name": "｛Razer Raiju V3 Pro｝無線搖桿(黑)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒",
        "price": 5288,
        "list_price": null,
@@ -40984,7 +41062,7 @@
        ]
       },
       {
-       "id": 789,
+       "id": 788,
        "name": "｛Razer Raiju V3 Pro｝無線搖桿(白)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒",
        "price": 5288,
        "list_price": null,
@@ -40993,7 +41071,7 @@
        ]
       },
       {
-       "id": 790,
+       "id": 789,
        "name": "｛SONY DualSense｝無線控制器(午夜黑)/藍牙+Type-c連接線/觸覺回饋/自適應扳機",
        "price": 2380,
        "list_price": null,
@@ -41002,7 +41080,7 @@
        ]
       },
       {
-       "id": 791,
+       "id": 790,
        "name": "(主機搭購優惠)Turtle Beach Rematch Core 系列手把 原價$990",
        "price": 590,
        "list_price": null,
@@ -41011,35 +41089,35 @@
        ]
       },
       {
-       "id": 792,
+       "id": 791,
        "name": "｛Turtle Beach Rematch Core｝有線搖桿 黑綠/專利音訊控制/人體工學/雙震動馬達",
        "price": 749,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 793,
+       "id": 792,
        "name": "｛Turtle Beach Rematch Core｝有線搖桿 白綠/專利音訊控制/人體工學/雙震動馬達",
        "price": 749,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 794,
+       "id": 793,
        "name": "｛Turtle Beach Rematch Core｝有線搖桿 迷彩黑綠/專利音訊控制/人體工學/雙震動馬達",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 795,
+       "id": 794,
        "name": "｛Turtle Beach Rematch Core 有線搖桿 迷彩黑橘/專利音訊控制/人體工學/雙震動馬達",
        "price": 799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 796,
+       "id": 795,
        "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 黑暗宇宙/專利音訊控制/可自訂遊戲操作",
        "price": 1290,
        "list_price": null,
@@ -41048,7 +41126,7 @@
        ]
       },
       {
-       "id": 797,
+       "id": 796,
        "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 京都之花/專利音訊控制/可自訂遊戲操作",
        "price": 1290,
        "list_price": null,
@@ -41057,7 +41135,7 @@
        ]
       },
       {
-       "id": 798,
+       "id": 797,
        "name": "｛Turtle Beach Afterglow Ignite｝有線搖桿 時光機/專利音訊控制/雙段霍爾效應板機/Rgb",
        "price": 1290,
        "list_price": null,
@@ -41066,7 +41144,7 @@
        ]
       },
       {
-       "id": 799,
+       "id": 798,
        "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 黑色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
        "price": 1290,
        "list_price": null,
@@ -41075,7 +41153,7 @@
        ]
       },
       {
-       "id": 800,
+       "id": 799,
        "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 白色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
        "price": 1290,
        "list_price": null,
@@ -41084,7 +41162,7 @@
        ]
       },
       {
-       "id": 801,
+       "id": 800,
        "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 藍色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
        "price": 1290,
        "list_price": null,
@@ -41093,35 +41171,35 @@
        ]
       },
       {
-       "id": 802,
+       "id": 801,
        "name": "｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(黑)/有線-無線-藍牙/動態觸覺回饋",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 803,
+       "id": 802,
        "name": "｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(白)/有線-無線-藍牙/動態觸覺回饋",
        "price": 1990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 804,
+       "id": 803,
        "name": "｛羅技 F310｝遊戲搖桿/有線/浮動式D-Pad舒適防滑握把",
        "price": 679,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 805,
+       "id": 804,
        "name": "｛羅技 F710｝遊戲搖桿/無線/2.4GHz/雙震動馬達回饋",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 806,
+       "id": 805,
        "name": "｛Varmilo FK2｝全按鍵遊戲控制器(黑)/Cherry電感軸/快速觸發模式/網頁驅動軟體/可調式觸發",
        "price": 2990,
        "list_price": null,
@@ -41135,7 +41213,7 @@
      "label": "方向盤 方向盤支架 賽車座艙 賽車組套件組",
      "items": [
       {
-       "id": 808,
+       "id": 807,
        "name": "｛羅技 G29｝Driving Force方向盤/支援PC.PS4 送Logi Shifter變速器",
        "price": 8490,
        "list_price": null,
@@ -41145,7 +41223,7 @@
        ]
       },
       {
-       "id": 809,
+       "id": 808,
        "name": "｛羅技 G923｝模擬賽車方向盤/Trueforce功能/支援PC.PS4/扭力2.2Nm 送Logi Shifter變速器▼下殺到 11/15 23:59",
        "price": 8990,
        "list_price": 10490,
@@ -41156,7 +41234,7 @@
        ]
       },
       {
-       "id": 810,
+       "id": 809,
        "name": "(預購11/2到貨)｛羅技 G RS50｝麥拉倫聯名賽車模擬方向盤(含踏板)/8Nm扭力/支援Trueforce",
        "price": 29900,
        "list_price": null,
@@ -41166,7 +41244,7 @@
        ]
       },
       {
-       "id": 811,
+       "id": 810,
        "name": "｛羅技 G RS50｝賽車模擬方向盤/8Nm扭力/支援Trueforce/支援PC.PS(廠商指送)",
        "price": 22990,
        "list_price": null,
@@ -41176,7 +41254,7 @@
        ]
       },
       {
-       "id": 812,
+       "id": 811,
        "name": "｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 離合器模組(廠商指送)",
        "price": 26990,
        "list_price": null,
@@ -41185,7 +41263,7 @@
        ]
       },
       {
-       "id": 813,
+       "id": 812,
        "name": "｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 排檔桿+手煞車(廠商指送)",
        "price": 29990,
        "list_price": null,
@@ -41194,21 +41272,21 @@
        ]
       },
       {
-       "id": 814,
+       "id": 813,
        "name": "｛羅技 G PRO｝模擬賽車方向盤/11nm扭力/支援Trueforce/僅限PC使用/(廠商指送)",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 815,
+       "id": 814,
        "name": "｛羅技 G PRO｝模擬賽車方向盤 + 羅技 G PRO 模擬賽車踏板(廠商指送)",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 816,
+       "id": 815,
        "name": "｛Thrustmaster T98-P-FERRARI 296GTB｝法拉利聯名方向盤組/7:10 比例復刻版(廠商指送)▼下殺到 11/22 23:59",
        "price": 2711,
        "list_price": 2980,
@@ -41219,7 +41297,7 @@
        ]
       },
       {
-       "id": 817,
+       "id": 816,
        "name": "｛Thrustmaster T248R｝賽車套裝(方向盤+基座+雙踏板)/3.1Nm扭力(廠商指送)▼下殺到 11/22 23:59",
        "price": 8111,
        "list_price": 9490,
@@ -41230,7 +41308,7 @@
        ]
       },
       {
-       "id": 818,
+       "id": 817,
        "name": "｛Thrustmaster T598｝賽車套裝(方向盤+基座+雙踏板)/5Nm扭力(廠商指送)▼下殺到 11/22 23:59",
        "price": 13111,
        "list_price": 15990,
@@ -41241,7 +41319,7 @@
        ]
       },
       {
-       "id": 819,
+       "id": 818,
        "name": "｛MOZA R3｝套裝(方向盤+基座+雙踏板)PC版/3.9Nm扭力/鋁合金機身/車規級環保PU(廠商指送)",
        "price": 8390,
        "list_price": null,
@@ -41250,7 +41328,7 @@
        ]
       },
       {
-       "id": 820,
+       "id": 819,
        "name": "｛MOZA R5｝卡車套裝(TSW卡車盤+R5基座+SRP-LITE 雙踏板+卡車夾)(廠商指送)",
        "price": 16290,
        "list_price": null,
@@ -41259,7 +41337,7 @@
        ]
       },
       {
-       "id": 821,
+       "id": 820,
        "name": "｛MOZA mBooster｝主動踏板/軟體智能調節/雙200KG壓力感測器/真實動態模擬(廠商指送)",
        "price": 24990,
        "list_price": null,
@@ -41268,7 +41346,7 @@
        ]
       },
       {
-       "id": 822,
+       "id": 821,
        "name": "｛MOZA R9 V3｝基座/9Nm扭力/智慧溫控系統/鋁合金機身/APP雲端控制(廠商指送)",
        "price": 9990,
        "list_price": null,
@@ -41277,7 +41355,7 @@
        ]
       },
       {
-       "id": 823,
+       "id": 822,
        "name": "｛MOZA R12 V2｝基座/12Nm扭力/智慧溫控系統/NexGen Force 4.0力回饋系統(廠商指送)",
        "price": 11990,
        "list_price": null,
@@ -41286,7 +41364,7 @@
        ]
       },
       {
-       "id": 824,
+       "id": 823,
        "name": "｛MOZA R25 Ultra｝基座/25Nm扭力/高精度扭力感測器/600MHz高性能CPU(廠商指送)",
        "price": 25490,
        "list_price": null,
@@ -41295,7 +41373,7 @@
        ]
       },
       {
-       "id": 825,
+       "id": 824,
        "name": "｛MOZA TSW｝卡車方向盤/400mm標準直徑/超纖皮手工縫線/鋁合金骨架(廠商指送)",
        "price": 7390,
        "list_price": null,
@@ -41304,7 +41382,7 @@
        ]
       },
       {
-       "id": 826,
+       "id": 825,
        "name": "｛MOZA Revuelto｝藍寶堅尼模擬賽車方向盤/超纖皮手工縫線/3K斜紋碳纖維撥片(廠商指送)",
        "price": 12490,
        "list_price": null,
@@ -41313,7 +41391,7 @@
        ]
       },
       {
-       "id": 827,
+       "id": 826,
        "name": "｛MOZA Mission R｝保時捷模擬賽車方向盤/5.4吋柔性OLED顯示屏/300R超高曲度儀表(廠商指送)",
        "price": 38800,
        "list_price": null,
@@ -41322,63 +41400,63 @@
        ]
       },
       {
-       "id": 829,
+       "id": 828,
        "name": "｛Raymii GameArm LGAME-1｝飛行遊戲搖桿支架 飛行模擬器支架(廠商指送)",
        "price": 1099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 830,
+       "id": 829,
        "name": "｛Raymii GameArm LGAME-2｝賽車遊戲支架 夾桌式方向盤/排檔桿/踏板固定座(廠商指送)",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 831,
+       "id": 830,
        "name": "｛Raymii GameArm LGAME-3｝賽車遊戲支架/方向盤/落地式折疊可調式賽車架(廠商指送)",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 832,
+       "id": 831,
        "name": "｛Raymii GameArm LSA-37｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送)",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 833,
+       "id": 832,
        "name": "｛Raymii GameArm LSA-36-V2｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送)",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 834,
+       "id": 833,
        "name": "｛Raymii GameArm LRACE-3｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送)",
        "price": 4499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 835,
+       "id": 834,
        "name": "｛Raymii GameArm LRACE-1-RF-SEAT｝賽車遊戲模擬器駕駛艙座椅 (廠商指送)",
        "price": 11999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 836,
+       "id": 835,
        "name": "｛Raymii GameArm LRACE-6｝賽車遊戲模擬器駕駛艙(廠商指送)",
        "price": 18999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 837,
+       "id": 836,
        "name": "｛Raymii GameArm LRACE-5｝鋁合金RGB賽車遊戲模擬器駕駛艙(廠商指送)",
        "price": 22999,
        "list_price": null,
@@ -42830,7 +42908,7 @@
       {
        "id": 223,
        "name": "｛Zowie EC2-DW｝ 無線電競滑鼠/3200Dpi/非對稱人體工學外型/24段滾輪/流暢曲線設計/中尺寸",
-       "price": 3390,
+       "price": 2990,
        "list_price": null,
        "flags": [
         "熱賣",
@@ -47094,7 +47172,7 @@
       {
        "id": 77,
        "name": "｛QNAP TS-873A-8G｝【8Bay】AMD V1500B 四核 (2.2GHz/8GB/2.5Gb*2/PCIe*2)",
-       "price": 44500,
+       "price": 41850,
        "list_price": null,
        "flags": []
       }
