@@ -1,4 +1,4 @@
-# 14 CASE 機殼(+電源)  (報價日期 2026/10/29 17:20)
+# 14 CASE 機殼(+電源)  (報價日期 2026/10/30 9:55)
 # price	id	flags	name
 
 ## 特價 or 活動專區
@@ -421,382 +421,380 @@
 1990	410		｛Phanteks Eclipse G370A｝顯卡長40/CPU高17/玻璃透側/EEB(EC370A_DBK01)
 3390	411		｛Phanteks Eclipse G400A 黑｝卡41.5/U高18.4/玻璃透側/背插/E-ATX(EC400GA_DBK01)
 3390	412		｛Phanteks Eclipse G400A 白｝卡41.5/U高18.4/玻璃透側/背插/E-ATX(EC400GA_DMW01)
-4100	413		｛Phanteks Enthoo Pro2 黑(非透側)｝顯卡50/U高19.5/支援雙電供/EEB(ES620PC_BK)
-4410	414		｛Phanteks Enthoo Pro2 黑｝顯卡50/U高19.5/玻璃透側/雙電供/EEB(ES620PTG_DBK)
-5090	415		｛Phanteks Enthoo Pro2 V2 伺服器版(非透側)｝顯卡50/U高19.5/EEB(ES620PC_BK03)
-32450	416		｛Phanteks Enthoo Elite 黑｝顯卡51.5/U高21/支援雙電供/玻璃透側/EEB(ES916E_BK)
+5090	413		｛Phanteks Enthoo Pro2 V2 伺服器版(非透側)｝顯卡50/U高19.5/EEB(ES620PC_BK03)
+32450	414		｛Phanteks Enthoo Elite 黑｝顯卡51.5/U高21/支援雙電供/玻璃透側/EEB(ES916E_BK)
 
 ## Fractal Design 機殼
-7900	418		｛Fractal Design Era 2 銀色｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
-7900	419		｛Fractal Design Era 2 深灰｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
-7900	420		｛Fractal Design Era 2 午夜藍｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
-4890	421		｛Fractal Design Ridge 白｝顯卡33.5(32.5)/厚8.2(5.7)/高13.7(12.5)/CPU高7/ITX【SFX】
-6790	422		｛Fractal Design Terra 黑｝顯卡32.2(厚4.3-7.2)/U高7.7(4.8)/鋁機身/胡桃木面板/ITX【SFX】
-6790	423		｛Fractal Design Terra 銀｝顯卡32.2(厚4.3-7.2)/U高7.7(4.8)/鋁機身/胡桃木面板/ITX【SFX】
-5990	424		｛Fractal Design Mood 灰｝顯卡長32.5(厚5.6)/CPU高11.4/透氣織布柱狀設計/ITX【SFX】
-5990	425		｛Fractal Design Mood 黑｝顯卡長32.5(厚5.6)/CPU高11.4/透氣織布柱狀設計/ITX【SFX】
-3690	426		｛Fractal Design Pop 2 Air RGB 黑｝顯卡長41.6/CPU高17.5/玻璃透側/ATX(POA2A-03)
-3690	427		｛Fractal Design Pop 2 Air RGB 白｝顯卡長41.6/CPU高17.5/玻璃透側/ATX(POA2A-04)
-3690	428		｛Fractal Design Pop 2 Vision RGB 黑｝顯卡41.2/U高17.2/全景玻璃/背插/ATX(POV2A-02)
-3690	429		｛Fractal Design Pop 2 Vision RGB 白｝顯卡41.2/U高17.2/全景玻璃/背插/ATX(POV2A-03)
-3590	430		｛Fractal Design Epoch TG 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-02)
-3590	431		｛Fractal Design Epoch TG 白｝透明玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-03)
-4390	432	酷幣300	｛Fractal Design Epoch TG RGB 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-04)
-4390	433	酷幣300	｛Fractal Design Epoch TG RGB 白｝透明玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-05)
-4690	434		｛Fractal Design Epoch XL 黑｝金屬側板/顯卡42.5/CPU高17.6/背插/E-ATX(EPO1X-01)
-4690	435		｛Fractal Design Epoch XL TG 黑｝淺色玻璃/顯卡42.5/U高17.6/背插/E-ATX(EPO1X-02)
-4690	436		｛Fractal Design Epoch XL TG 白｝透明玻璃/顯卡42.5/U高17.6/背插/E-ATX(EPO1X-03)
-5390	437		｛Fractal Design Epoch XL TG RGB 白｝透明玻璃/卡42.5/U高17.6/背插/E-ATX(EPO1X-05)
-3790	438		｛Fractal Design Define 7 Compact 黑｝金屬側板/顯卡長34/CPU高16.9/ATX(DEF7C-01)
-7090	439		｛Fractal Design Define 7 XL 黑｝金屬側板/顯卡長52.4/CPU高18.5/EEB(DEF7X-01)
-5499	440		｛Fractal Design Define One 黑｝金屬側板/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-01)
-5499	441		｛Fractal Design Define One 黑｝淺色玻璃/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-02)
-5499	442		｛Fractal Design Define One 白｝透明玻璃/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-03)
-5499	443		｛Fractal Design Define One 白｝金屬側板/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-04)
-5790	444		｛Fractal Design Torrent Compact RGB 黑｝淺色玻璃/卡33/CPU高17.4/E-ATX(TOR1C-02)
-5990	445		｛Fractal Design Torrent 黑｝金屬側板/顯卡長42.3/CPU高18.8/EEB(TOR1A-05)
-6490	446		｛Fractal Design Torrent 黑｝淺色玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-01)
-6490	447		｛Fractal Design Torrent 白｝透明玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-03)
-7990	448		｛Fractal Design Torrent RGB 黑｝淺色玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-04)
-7990	449		｛Fractal Design Torrent RGB 白｝透明玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-07)
-5290	450		｛Fractal Design North Charcoal 黑｝網孔側板/卡35.5/U高17/胡桃木面板/ATX(NOR1C-01)
-5290	451		｛Fractal Design North Charcoal 黑｝淺色玻璃/卡35.5/U高17/胡桃木面板/ATX(NOR1C-02)
-5290	452		｛Fractal Design North Chalk 白｝網孔側板/顯卡35.5/CPU高17/橡木面板/ATX(NOR1C-03)
-5290	453		｛Fractal Design North Chalk 白｝透明玻璃/顯卡35.5/CPU高17/橡木面板/ATX(NOR1C-04)
-6390	454		｛Fractal Design North Momentum｝顯卡35.5/U高17/玻璃透側/黑橡木面板/ATX(NOR1C-05)
-6290	455		｛Fractal Design North XL Charcoal 黑｝網孔側板/卡41.3/U18.5/胡桃木/E-ATX(NOR1X-01)
-6290	456		｛Fractal Design North XL Charcoal 黑｝深色玻璃/卡41.3/U18.5/胡桃木/E-ATX(NOR1X-02)
-6290	457		｛Fractal Design North XL Chalk 白｝網孔側板/顯卡41.3/U高18.5/橡木/E-ATX(NOR1X-03)
-6290	458		｛Fractal Design North XL Chalk 白｝透明玻璃/顯卡41.3/U高18.5/橡木/E-ATX(NOR1X-04)
-6490	459		｛Fractal Design North XL RC Charcoal 黑｝深色玻璃/卡41.3/U16.9/限背插/ATX(NOR1X-05)
-6490	460		｛Fractal Design North XL RC Chalk 白｝透明玻璃/卡41.3/U16.9/限背插/ATX(NOR1X-06)
-7390	461		｛Fractal Design North XL Momentum｝卡41.3/U17.6/玻璃透側/黑橡木/E-ATX(NOR1X-07)
-5390	462		｛Fractal Design Meshify 3 黑｝金屬側板/顯卡長34.9/CPU高17.6/E-ATX(MES3A-01)
-5390	463		｛Fractal Design Meshify 3 TG 黑｝淺色玻璃/顯卡長34.9/CPU高17.6/E-ATX(MES3A-02)
-5390	464		｛Fractal Design Meshify 3 TG 白｝透明玻璃/顯卡長34.95/CPU高17.6/E-ATX(MES3A-04)
-6190	465		｛Fractal Design Meshify 3 RGB 黑｝淺色玻璃/顯卡長34.9/CPU高17.6/E-ATX(MES3A-06)
-6190	466		｛Fractal Design Meshify 3 RGB 白｝透明玻璃/顯卡長34.95/CPU高17.6/E-ATX(MES3A-07)
-8490	467		｛Fractal Design Meshify 3(環境燈)RGB Pro 黑｝淺色玻璃/卡34.9/U17.6/E-ATX(MES3A-03)
-8490	468		｛Fractal Design Meshify 3(環境燈)RGB Pro 白｝透明玻璃/卡34.9/U17.6/E-ATX(MES3A-05)
-6590	469		｛Fractal Design Meshify 3 XL 黑｝金屬側板/顯卡長51.2/CPU高18.2/E-ATX(MES3X-01)
-6590	470		｛Fractal Design Meshify 3 XL 黑｝淺色玻璃/顯卡長51.2/CPU高18.2/E-ATX(MES3X-02)
-9590	471		｛Fractal Design Meshify 3 XL(環境燈)RGB Pro 黑｝淺色玻璃/卡51.2/U18.2/E-ATX(MES3X-03)
-9590	472		｛Fractal Design Meshify 3 XL(環境燈)RGB Pro 白｝透明玻璃/卡51.2/U18.2/E-ATX(MES3X-05)
-6399	473		｛Fractal Design Summit Chalk 白｝金屬側板/顯卡42.5/U高17.3/背插/E-ATX(SUM1A-01)
-6399	474		｛Fractal Design Summit Chalk 白｝透明玻璃/顯卡42.5/U高17.3/背插/E-ATX(SUM1A-02)
-6399	475		｛Fractal Design Summit 黑｝金屬側板/顯卡長42.5/CPU17.3/背插/E-ATX(SUM1A-03)
-6399	476		｛Fractal Design Summit 極致黑｝淺色玻璃/顯卡42.5/CPU17.3/背插/E-ATX(SUM1A-05)
-7599	477		｛Fractal Design Summit(環境燈) 極致黑｝淺色玻璃/卡42.5/U17.3/背插/E-ATX(SUM1A-06)
+7900	416		｛Fractal Design Era 2 銀色｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
+7900	417		｛Fractal Design Era 2 深灰｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
+7900	418		｛Fractal Design Era 2 午夜藍｝顯卡長32.6/厚4.8(6.3)/高13.7/CPU高5.5(7)/ITX【SFX】
+4890	419		｛Fractal Design Ridge 白｝顯卡33.5(32.5)/厚8.2(5.7)/高13.7(12.5)/CPU高7/ITX【SFX】
+6790	420		｛Fractal Design Terra 黑｝顯卡32.2(厚4.3-7.2)/U高7.7(4.8)/鋁機身/胡桃木面板/ITX【SFX】
+6790	421		｛Fractal Design Terra 銀｝顯卡32.2(厚4.3-7.2)/U高7.7(4.8)/鋁機身/胡桃木面板/ITX【SFX】
+5990	422		｛Fractal Design Mood 灰｝顯卡長32.5(厚5.6)/CPU高11.4/透氣織布柱狀設計/ITX【SFX】
+5990	423		｛Fractal Design Mood 黑｝顯卡長32.5(厚5.6)/CPU高11.4/透氣織布柱狀設計/ITX【SFX】
+3690	424		｛Fractal Design Pop 2 Air RGB 黑｝顯卡長41.6/CPU高17.5/玻璃透側/ATX(POA2A-03)
+3690	425		｛Fractal Design Pop 2 Air RGB 白｝顯卡長41.6/CPU高17.5/玻璃透側/ATX(POA2A-04)
+3690	426		｛Fractal Design Pop 2 Vision RGB 黑｝顯卡41.2/U高17.2/全景玻璃/背插/ATX(POV2A-02)
+3690	427		｛Fractal Design Pop 2 Vision RGB 白｝顯卡41.2/U高17.2/全景玻璃/背插/ATX(POV2A-03)
+3590	428		｛Fractal Design Epoch TG 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-02)
+3590	429		｛Fractal Design Epoch TG 白｝透明玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-03)
+4390	430	酷幣300	｛Fractal Design Epoch TG RGB 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-04)
+4390	431	酷幣300	｛Fractal Design Epoch TG RGB 白｝透明玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-05)
+4690	432		｛Fractal Design Epoch XL 黑｝金屬側板/顯卡42.5/CPU高17.6/背插/E-ATX(EPO1X-01)
+4690	433		｛Fractal Design Epoch XL TG 黑｝淺色玻璃/顯卡42.5/U高17.6/背插/E-ATX(EPO1X-02)
+4690	434		｛Fractal Design Epoch XL TG 白｝透明玻璃/顯卡42.5/U高17.6/背插/E-ATX(EPO1X-03)
+5390	435		｛Fractal Design Epoch XL TG RGB 白｝透明玻璃/卡42.5/U高17.6/背插/E-ATX(EPO1X-05)
+3790	436		｛Fractal Design Define 7 Compact 黑｝金屬側板/顯卡長34/CPU高16.9/ATX(DEF7C-01)
+7090	437		｛Fractal Design Define 7 XL 黑｝金屬側板/顯卡長52.4/CPU高18.5/EEB(DEF7X-01)
+5499	438		｛Fractal Design Define One 黑｝金屬側板/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-01)
+5499	439		｛Fractal Design Define One 黑｝淺色玻璃/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-02)
+5499	440		｛Fractal Design Define One 白｝透明玻璃/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-03)
+5499	441		｛Fractal Design Define One 白｝金屬側板/顯卡36.8/U高17.1/背插/E-ATX(DEFOA-04)
+5790	442		｛Fractal Design Torrent Compact RGB 黑｝淺色玻璃/卡33/CPU高17.4/E-ATX(TOR1C-02)
+5990	443		｛Fractal Design Torrent 黑｝金屬側板/顯卡長42.3/CPU高18.8/EEB(TOR1A-05)
+6490	444		｛Fractal Design Torrent 黑｝淺色玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-01)
+6490	445		｛Fractal Design Torrent 白｝透明玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-03)
+7990	446		｛Fractal Design Torrent RGB 黑｝淺色玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-04)
+7990	447		｛Fractal Design Torrent RGB 白｝透明玻璃/顯卡長42.3/CPU高18.8/EEB(TOR1A-07)
+5290	448		｛Fractal Design North Charcoal 黑｝網孔側板/卡35.5/U高17/胡桃木面板/ATX(NOR1C-01)
+5290	449		｛Fractal Design North Charcoal 黑｝淺色玻璃/卡35.5/U高17/胡桃木面板/ATX(NOR1C-02)
+5290	450		｛Fractal Design North Chalk 白｝網孔側板/顯卡35.5/CPU高17/橡木面板/ATX(NOR1C-03)
+5290	451		｛Fractal Design North Chalk 白｝透明玻璃/顯卡35.5/CPU高17/橡木面板/ATX(NOR1C-04)
+6390	452		｛Fractal Design North Momentum｝顯卡35.5/U高17/玻璃透側/黑橡木面板/ATX(NOR1C-05)
+6290	453		｛Fractal Design North XL Charcoal 黑｝網孔側板/卡41.3/U18.5/胡桃木/E-ATX(NOR1X-01)
+6290	454		｛Fractal Design North XL Charcoal 黑｝深色玻璃/卡41.3/U18.5/胡桃木/E-ATX(NOR1X-02)
+6290	455		｛Fractal Design North XL Chalk 白｝網孔側板/顯卡41.3/U高18.5/橡木/E-ATX(NOR1X-03)
+6290	456		｛Fractal Design North XL Chalk 白｝透明玻璃/顯卡41.3/U高18.5/橡木/E-ATX(NOR1X-04)
+6490	457		｛Fractal Design North XL RC Charcoal 黑｝深色玻璃/卡41.3/U16.9/限背插/ATX(NOR1X-05)
+6490	458		｛Fractal Design North XL RC Chalk 白｝透明玻璃/卡41.3/U16.9/限背插/ATX(NOR1X-06)
+7390	459		｛Fractal Design North XL Momentum｝卡41.3/U17.6/玻璃透側/黑橡木/E-ATX(NOR1X-07)
+5390	460		｛Fractal Design Meshify 3 黑｝金屬側板/顯卡長34.9/CPU高17.6/E-ATX(MES3A-01)
+5390	461		｛Fractal Design Meshify 3 TG 黑｝淺色玻璃/顯卡長34.9/CPU高17.6/E-ATX(MES3A-02)
+5390	462		｛Fractal Design Meshify 3 TG 白｝透明玻璃/顯卡長34.95/CPU高17.6/E-ATX(MES3A-04)
+6190	463		｛Fractal Design Meshify 3 RGB 黑｝淺色玻璃/顯卡長34.9/CPU高17.6/E-ATX(MES3A-06)
+6190	464		｛Fractal Design Meshify 3 RGB 白｝透明玻璃/顯卡長34.95/CPU高17.6/E-ATX(MES3A-07)
+8490	465		｛Fractal Design Meshify 3(環境燈)RGB Pro 黑｝淺色玻璃/卡34.9/U17.6/E-ATX(MES3A-03)
+8490	466		｛Fractal Design Meshify 3(環境燈)RGB Pro 白｝透明玻璃/卡34.9/U17.6/E-ATX(MES3A-05)
+6590	467		｛Fractal Design Meshify 3 XL 黑｝金屬側板/顯卡長51.2/CPU高18.2/E-ATX(MES3X-01)
+6590	468		｛Fractal Design Meshify 3 XL 黑｝淺色玻璃/顯卡長51.2/CPU高18.2/E-ATX(MES3X-02)
+9590	469		｛Fractal Design Meshify 3 XL(環境燈)RGB Pro 黑｝淺色玻璃/卡51.2/U18.2/E-ATX(MES3X-03)
+9590	470		｛Fractal Design Meshify 3 XL(環境燈)RGB Pro 白｝透明玻璃/卡51.2/U18.2/E-ATX(MES3X-05)
+6399	471		｛Fractal Design Summit Chalk 白｝金屬側板/顯卡42.5/U高17.3/背插/E-ATX(SUM1A-01)
+6399	472		｛Fractal Design Summit Chalk 白｝透明玻璃/顯卡42.5/U高17.3/背插/E-ATX(SUM1A-02)
+6399	473		｛Fractal Design Summit 黑｝金屬側板/顯卡長42.5/CPU17.3/背插/E-ATX(SUM1A-03)
+6399	474		｛Fractal Design Summit 極致黑｝淺色玻璃/顯卡42.5/CPU17.3/背插/E-ATX(SUM1A-05)
+7599	475		｛Fractal Design Summit(環境燈) 極致黑｝淺色玻璃/卡42.5/U17.3/背插/E-ATX(SUM1A-06)
 
 ## 酷碼 CoolerMaster 機殼
-1990	479		｛酷碼 MasterBox NR200 白｝顯卡長33/CPU高15.5(7.6)/ITX【SFX】
-3490	480		｛酷碼 MasterBox NR200P V3 黑｝顯卡長36.1/U高7/網孔側板/PCIe5.0延長線/ITX【SFX】
-990	481		｛酷碼 RC-343｝顯卡長25(36)/CPU高14.8/網孔面板/M-ATX
-1390	482		｛酷碼 N200｝顯卡長35.5/CPU高16/M-ATX
-1290	483		｛酷碼 N300 升級版｝顯卡長32/CPU高16.4/NSE-300-KKN3/ATX
-1490	484		｛酷碼 N400｝顯卡長32/CPU高16.4/全沖孔網面板/ATX
-790	485		｛酷碼 殺手 102｝顯卡長34/CPU高15.6/SSD*2/ATX(RC-102C-KKN4)
-790	486		｛酷碼 殺手 103｝顯卡長34.4/CPU高15.6/SSD*2/ATX(RC-103-KKN1)
-1290	487		｛酷碼 Elite 300｝顯卡長36.5/CPU高16.5/M-ATX(E300-KN5N-S00)
-1190	488		｛酷碼 Elite 301 Lite 透側版｝顯卡長36.5/CPU高16.3/玻璃透側/M-ATX
-1290	489		｛酷碼 Elite 301 Lite 金屬版｝顯卡長36.5/CPU高16.3/金屬側板/三風扇/M-ATX
-1590	490		｛酷碼 Elite 350 黑｝顯卡長31.7/CPU高16.3/玻璃透側/M-ATX
-1690	491		｛酷碼 Elite 350 白｝顯卡長31.7/CPU高16.3/玻璃透側/M-ATX
-1690	492		｛酷碼 Elite 481 黑｝顯卡長41/CPU高16/木質飾板/全景玻璃透側/分艙設計/M-ATX
-1790	493		｛酷碼 Elite 481 白｝顯卡長41/CPU高16/木質飾板/全景玻璃透側/分艙設計/M-ATX
-1490	494		｛酷碼 Elite 490 黑｝顯卡長42.5/CPU高17/全景玻璃透側/M-ATX
-1590	495		｛酷碼 Elite 490 白｝顯卡長42.5/CPU高17/全景玻璃透側/M-ATX
-1390	496		｛酷碼 Elite 500 玻璃透側版｝顯卡長35/CPU高16.1/ATX(E500-KGNN-S00)
-1390	497		｛酷碼 Elite 500 ODD｝顯卡長40/CPU高16.3/ATX(E500-KN5N-S00)
-1390	498		｛酷碼 Elite 502 Lite 黑｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
-1490	499		｛酷碼 Elite 502 Lite 白｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
-3090	500		｛酷碼 Elite 600 黑｝顯卡長42.5/CPU高16/全景曲面玻璃/分艙設計/七風扇/支援背插/ATX
-3290	501		｛酷碼 Elite 600 白｝顯卡長42.5/CPU高16/全景曲面玻璃/分艙設計/七風扇/支援背插/ATX
-1890	502		｛酷碼 Elite 681 黑｝顯卡長41/CPU高16/全景玻璃透側/分艙設計/ATX
-1990	503		｛酷碼 Elite 681 白｝顯卡長41/CPU高16/全景玻璃透側/分艙設計/ATX
-1690	504		｛酷碼 Elite 690 黑｝顯卡長42.5/CPU高17/木質飾板/全景玻璃透側/ATX
-1790	505		｛酷碼 Elite 690 白｝顯卡長42.5/CPU高17/木質飾板/全景玻璃透側/ATX
-1590	506		｛酷碼 Q300L V3 黑｝顯卡長36.6/CPU高17.8/玻璃透側/M-ATX
-1590	507		｛酷碼 Q300L V3 白｝顯卡長36.6/CPU高17.8/玻璃透側/M-ATX
-1690	508		｛酷碼 Qube 340 黑｝顯卡長36.6/CPU高17.8/玻璃透側/提把設計/耳機架/M-ATX
-1690	509		｛酷碼 Qube 340 白｝顯卡長36.6/CPU高17.8/玻璃透側/提把設計/耳機架/M-ATX
-1990	510		｛酷碼 Qube 500 Flatpack DIY版 黑｝顯卡36/CPU高17.2/玻璃透側/ATX(不提供組裝服務)
-1990	511		｛酷碼 Qube 500 Flatpack DIY版 白｝顯卡36/CPU高17.2/玻璃透側/ATX(不提供組裝服務)
-2490	512		｛酷碼 Qube 500 Flatpack DIY 馬卡龍版｝卡長36/U高17.2/玻璃透側/ATX(不提供組裝服務)
-2690	513		｛酷碼 Qube 540 月石灰｝顯卡長41.5/CPU高17.2/玻璃透側/可調式I/O面板+把手/ATX
-2690	514		｛酷碼 Qube 540 星塵黑｝顯卡長41.5/CPU高17.2/玻璃透側/可調式I/O面板+把手/ATX
-3690	515		｛酷碼 Qube 540 不銹鋼特別版｝顯卡長41.5/CPU高17.2/玻璃透側/鏡面不銹鋼面板/ATX
-3290	516		｛酷碼 HAF 500 黑色｝顯卡長41/CPU高16.7/玻璃透側/顯卡專用風扇/E-ATX
-3290	517		｛酷碼 HAF 500 白色｝顯卡長41/CPU高16.7/玻璃透側/顯卡專用風扇/E-ATX
-5690	518		｛酷碼 HAF II 500｝顯卡長44/U高22/玻璃透側/內含雙220x40mm+180x40mm風扇/E-ATX
-2290	519		｛酷碼 Silencio S400 黑/靜音版｝顯卡長31.9/CPU高16.7/M-ATX(S400-KN5N-S00)
-2790	520		｛酷碼 Silencio S600 靜音版｝顯卡長39.8/CPU高16.7/ATX(S600-KN5N-S00)
-2290	521		｛酷碼 MasterBox 600 黑｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
-2290	522		｛酷碼 MasterBox 600 白｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
-3090	523		｛酷碼 MasterBox CM695/金屬側板｝顯卡長39.8/CPU高16.6/ATX(KN5N-S00)
-3290	524		｛酷碼 MasterBox CM695/玻璃透側｝顯卡長39.8/CPU高16.6/ATX(KG5N-S00)
-1490	525		｛酷碼 MasterBox MB600L V2 光碟機版｝顯卡40/CPU高16.1/玻璃透側/髮絲紋面板/ATX
-1390	526		｛酷碼 MasterBox MB600L V2 無光碟機版｝顯卡35/U高16.1/玻璃透側/髮絲紋面板/ATX
-2690	527		｛酷碼 MasterBox TD500 Mesh V2 黑｝顯卡長41/U高16.5/玻璃透側/可拆式上蓋/ATX
-1690	528		｛酷碼 MasterBox Q500L｝顯卡長36/CPU高16/壓克力透側/ATX
-2990	529		｛酷碼 MasterCase MC500｝顯卡長41/CPU高19/玻璃透側/沖孔面板/E-ATX
-6490	530		｛酷碼 MasterFrame 360 舞台(封閉式前玻璃)｝顯卡長43/U高14.5/PCIe5延長線/背插/ATX
-6290	531		｛酷碼 MasterFrame 360 舞台(開放式鏡面)｝顯卡長43/CPU高14.5/PCIe5延長線/背插/ATX
-8990	532		｛酷碼 MasterFrame 360 舞台(開放式LCD螢幕) ｝顯卡43/U高14.5/PCIe5延長線/背插/ATX
-4290	533		｛酷碼 MasterFrame 400 Mesh 黑｝顯卡長39/CPU高19/玻璃透側/雙向擺放/M-ATX
-4290	534		｛酷碼 MasterFrame 400 Mesh 銀｝顯卡長39/CPU高19/玻璃透側/雙向擺放/M-ATX
-5490	535		｛酷碼 MasterFrame 600 銀｝顯卡長48.5/CPU高19/玻璃透側/ARGB風扇/支援背插/ATX
-12990	536		｛酷碼 COSMOS ALPHA｝顯卡長40/CPU高18.6/玻璃透側/滑動式主板托盤/E-ATX【客訂】
+1990	477		｛酷碼 MasterBox NR200 白｝顯卡長33/CPU高15.5(7.6)/ITX【SFX】
+3490	478		｛酷碼 MasterBox NR200P V3 黑｝顯卡長36.1/U高7/網孔側板/PCIe5.0延長線/ITX【SFX】
+990	479		｛酷碼 RC-343｝顯卡長25(36)/CPU高14.8/網孔面板/M-ATX
+1390	480		｛酷碼 N200｝顯卡長35.5/CPU高16/M-ATX
+1290	481		｛酷碼 N300 升級版｝顯卡長32/CPU高16.4/NSE-300-KKN3/ATX
+1490	482		｛酷碼 N400｝顯卡長32/CPU高16.4/全沖孔網面板/ATX
+790	483		｛酷碼 殺手 102｝顯卡長34/CPU高15.6/SSD*2/ATX(RC-102C-KKN4)
+790	484		｛酷碼 殺手 103｝顯卡長34.4/CPU高15.6/SSD*2/ATX(RC-103-KKN1)
+1290	485		｛酷碼 Elite 300｝顯卡長36.5/CPU高16.5/M-ATX(E300-KN5N-S00)
+1190	486		｛酷碼 Elite 301 Lite 透側版｝顯卡長36.5/CPU高16.3/玻璃透側/M-ATX
+1290	487		｛酷碼 Elite 301 Lite 金屬版｝顯卡長36.5/CPU高16.3/金屬側板/三風扇/M-ATX
+1590	488		｛酷碼 Elite 350 黑｝顯卡長31.7/CPU高16.3/玻璃透側/M-ATX
+1690	489		｛酷碼 Elite 350 白｝顯卡長31.7/CPU高16.3/玻璃透側/M-ATX
+1690	490		｛酷碼 Elite 481 黑｝顯卡長41/CPU高16/木質飾板/全景玻璃透側/分艙設計/M-ATX
+1790	491		｛酷碼 Elite 481 白｝顯卡長41/CPU高16/木質飾板/全景玻璃透側/分艙設計/M-ATX
+1490	492		｛酷碼 Elite 490 黑｝顯卡長42.5/CPU高17/全景玻璃透側/M-ATX
+1590	493		｛酷碼 Elite 490 白｝顯卡長42.5/CPU高17/全景玻璃透側/M-ATX
+1390	494		｛酷碼 Elite 500 玻璃透側版｝顯卡長35/CPU高16.1/ATX(E500-KGNN-S00)
+1390	495		｛酷碼 Elite 500 ODD｝顯卡長40/CPU高16.3/ATX(E500-KN5N-S00)
+1390	496		｛酷碼 Elite 502 Lite 黑｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
+1490	497		｛酷碼 Elite 502 Lite 白｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
+3090	498		｛酷碼 Elite 600 黑｝顯卡長42.5/CPU高16/全景曲面玻璃/分艙設計/七風扇/支援背插/ATX
+3290	499		｛酷碼 Elite 600 白｝顯卡長42.5/CPU高16/全景曲面玻璃/分艙設計/七風扇/支援背插/ATX
+1890	500		｛酷碼 Elite 681 黑｝顯卡長41/CPU高16/全景玻璃透側/分艙設計/ATX
+1990	501		｛酷碼 Elite 681 白｝顯卡長41/CPU高16/全景玻璃透側/分艙設計/ATX
+1690	502		｛酷碼 Elite 690 黑｝顯卡長42.5/CPU高17/木質飾板/全景玻璃透側/ATX
+1790	503		｛酷碼 Elite 690 白｝顯卡長42.5/CPU高17/木質飾板/全景玻璃透側/ATX
+1590	504		｛酷碼 Q300L V3 黑｝顯卡長36.6/CPU高17.8/玻璃透側/M-ATX
+1590	505		｛酷碼 Q300L V3 白｝顯卡長36.6/CPU高17.8/玻璃透側/M-ATX
+1690	506		｛酷碼 Qube 340 黑｝顯卡長36.6/CPU高17.8/玻璃透側/提把設計/耳機架/M-ATX
+1690	507		｛酷碼 Qube 340 白｝顯卡長36.6/CPU高17.8/玻璃透側/提把設計/耳機架/M-ATX
+1990	508		｛酷碼 Qube 500 Flatpack DIY版 黑｝顯卡36/CPU高17.2/玻璃透側/ATX(不提供組裝服務)
+1990	509		｛酷碼 Qube 500 Flatpack DIY版 白｝顯卡36/CPU高17.2/玻璃透側/ATX(不提供組裝服務)
+2490	510		｛酷碼 Qube 500 Flatpack DIY 馬卡龍版｝卡長36/U高17.2/玻璃透側/ATX(不提供組裝服務)
+2690	511		｛酷碼 Qube 540 月石灰｝顯卡長41.5/CPU高17.2/玻璃透側/可調式I/O面板+把手/ATX
+2690	512		｛酷碼 Qube 540 星塵黑｝顯卡長41.5/CPU高17.2/玻璃透側/可調式I/O面板+把手/ATX
+3690	513		｛酷碼 Qube 540 不銹鋼特別版｝顯卡長41.5/CPU高17.2/玻璃透側/鏡面不銹鋼面板/ATX
+3290	514		｛酷碼 HAF 500 黑色｝顯卡長41/CPU高16.7/玻璃透側/顯卡專用風扇/E-ATX
+3290	515		｛酷碼 HAF 500 白色｝顯卡長41/CPU高16.7/玻璃透側/顯卡專用風扇/E-ATX
+5690	516		｛酷碼 HAF II 500｝顯卡長44/U高22/玻璃透側/內含雙220x40mm+180x40mm風扇/E-ATX
+2290	517		｛酷碼 Silencio S400 黑/靜音版｝顯卡長31.9/CPU高16.7/M-ATX(S400-KN5N-S00)
+2790	518		｛酷碼 Silencio S600 靜音版｝顯卡長39.8/CPU高16.7/ATX(S600-KN5N-S00)
+2290	519		｛酷碼 MasterBox 600 黑｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
+2290	520		｛酷碼 MasterBox 600 白｝顯卡長41/CPU高17/玻璃透側/支援背插/ATX
+3090	521		｛酷碼 MasterBox CM695/金屬側板｝顯卡長39.8/CPU高16.6/ATX(KN5N-S00)
+3290	522		｛酷碼 MasterBox CM695/玻璃透側｝顯卡長39.8/CPU高16.6/ATX(KG5N-S00)
+1490	523		｛酷碼 MasterBox MB600L V2 光碟機版｝顯卡40/CPU高16.1/玻璃透側/髮絲紋面板/ATX
+1390	524		｛酷碼 MasterBox MB600L V2 無光碟機版｝顯卡35/U高16.1/玻璃透側/髮絲紋面板/ATX
+2690	525		｛酷碼 MasterBox TD500 Mesh V2 黑｝顯卡長41/U高16.5/玻璃透側/可拆式上蓋/ATX
+1690	526		｛酷碼 MasterBox Q500L｝顯卡長36/CPU高16/壓克力透側/ATX
+2990	527		｛酷碼 MasterCase MC500｝顯卡長41/CPU高19/玻璃透側/沖孔面板/E-ATX
+6490	528		｛酷碼 MasterFrame 360 舞台(封閉式前玻璃)｝顯卡長43/U高14.5/PCIe5延長線/背插/ATX
+6290	529		｛酷碼 MasterFrame 360 舞台(開放式鏡面)｝顯卡長43/CPU高14.5/PCIe5延長線/背插/ATX
+8990	530		｛酷碼 MasterFrame 360 舞台(開放式LCD螢幕) ｝顯卡43/U高14.5/PCIe5延長線/背插/ATX
+4290	531		｛酷碼 MasterFrame 400 Mesh 黑｝顯卡長39/CPU高19/玻璃透側/雙向擺放/M-ATX
+4290	532		｛酷碼 MasterFrame 400 Mesh 銀｝顯卡長39/CPU高19/玻璃透側/雙向擺放/M-ATX
+5490	533		｛酷碼 MasterFrame 600 銀｝顯卡長48.5/CPU高19/玻璃透側/ARGB風扇/支援背插/ATX
+12990	534		｛酷碼 COSMOS ALPHA｝顯卡長40/CPU高18.6/玻璃透側/滑動式主板托盤/E-ATX【客訂】
 
 ## 幾何未來 Geometric Future 機殼
-3390	538		｛幾何未來 Model 3 哪吒 黑黃｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
-3980	539	熱賣	幾何未來 Model 3 哪吒 黑黃/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
-3390	540		｛幾何未來 Model 3 哪吒 黑灰｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
-3980	541	熱賣	幾何未來 Model 3 哪吒 黑灰/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
-3490	542		｛幾何未來 Model 3 哪吒 全白｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
-4080	543	熱賣	幾何未來 Model 3 哪吒 全白/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36W水冷 現省$1900
-3490	544		｛幾何未來 Model 3 哪吒 黑綠｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
-4080	545	熱賣	幾何未來 Model 3 哪吒 黑綠/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
-3790	546		｛幾何未來 Model 3 哪吒 AMD信仰版｝卡43.5/U17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
-3690	547		｛幾何未來 Model 5 悟空 黑黃｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3690	548		｛幾何未來 Model 5 悟空 黑灰｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3690	549		｛幾何未來 Model 5 悟空 蒂芬尼藍｝卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3890	550		｛幾何未來 Model 5 悟空 全白｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3890	551		｛幾何未來 Model 5 悟空 黑綠｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3890	552		｛幾何未來 Model 5 悟空 粉紅｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3890	553		｛幾何未來 Model 5 悟空 粉藍｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-4190	554		｛幾何未來 Model 5 悟空 AMD信仰版｝顯卡46/U高18/龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
-3690	555	熱賣	｛幾何未來 Model 5 Vent 鐵扇 黑｝顯卡長46/CPU高18/14cm龍鱗扇*5/玻璃透側/E-ATX
-3890	557	熱賣	｛幾何未來 Model 5 Vent 鐵扇 全白｝顯卡46/CPU高18/14cm龍鱗扇*5/玻璃透側/E-ATX
+3390	536		｛幾何未來 Model 3 哪吒 黑黃｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
+3980	537	熱賣	幾何未來 Model 3 哪吒 黑黃/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
+3390	538		｛幾何未來 Model 3 哪吒 黑灰｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
+3980	539	熱賣	幾何未來 Model 3 哪吒 黑灰/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
+3490	540		｛幾何未來 Model 3 哪吒 全白｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
+4080	541	熱賣	幾何未來 Model 3 哪吒 全白/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36W水冷 現省$1900
+3490	542		｛幾何未來 Model 3 哪吒 黑綠｝顯卡43.5/U高17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
+4080	543	熱賣	幾何未來 Model 3 哪吒 黑綠/全景玻璃/M-ATX+幾何未來 Eskimo Pro 36B水冷 現省$1900
+3790	544		｛幾何未來 Model 3 哪吒 AMD信仰版｝卡43.5/U17.5/龍鱗扇*5/全景玻璃/公仔平臺/M-ATX
+3690	545		｛幾何未來 Model 5 悟空 黑黃｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3690	546		｛幾何未來 Model 5 悟空 黑灰｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3690	547		｛幾何未來 Model 5 悟空 蒂芬尼藍｝卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3890	548		｛幾何未來 Model 5 悟空 全白｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3890	549		｛幾何未來 Model 5 悟空 黑綠｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3890	550		｛幾何未來 Model 5 悟空 粉紅｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3890	551		｛幾何未來 Model 5 悟空 粉藍｝顯卡46/U高18/14cm龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+4190	552		｛幾何未來 Model 5 悟空 AMD信仰版｝顯卡46/U高18/龍鱗扇*5/全景玻璃/公仔平臺/E-ATX
+3690	553	熱賣	｛幾何未來 Model 5 Vent 鐵扇 黑｝顯卡長46/CPU高18/14cm龍鱗扇*5/玻璃透側/E-ATX
+3890	555	熱賣	｛幾何未來 Model 5 Vent 鐵扇 全白｝顯卡46/CPU高18/14cm龍鱗扇*5/玻璃透側/E-ATX
 
 ## 威剛 XPG 機殼
-1890	560		｛XPG VALOR MESH NANO 黑｝顯卡長37/CPU高17/四面金屬網孔/顯卡支架/M-ATX
-4290	561	熱賣	XPG VALOR MESH NANO 黑/M-ATX+XPG REACTOR II VE 750W金牌/全模 現省$400
-1890	563		｛XPG VALOR MESH NANO 白｝顯卡長37/CPU高17/四面金屬網孔/顯卡支架/M-ATX
-4290	564	熱賣	XPG VALOR MESH NANO 白/M-ATX+XPG REACTOR II VE 750W金牌/全模 現省$400
-1790	566		｛XPG VALOR AIR PRO 黑｝顯卡長40/CPU高16.7/玻璃透側/磁吸面板/E-ATX
-1790	567		｛XPG VALOR AIR PRO 白｝顯卡長40/CPU高16.7/玻璃透側/磁吸面板/E-ATX
+1890	558		｛XPG VALOR MESH NANO 黑｝顯卡長37/CPU高17/四面金屬網孔/顯卡支架/M-ATX
+4290	559	熱賣	XPG VALOR MESH NANO 黑/M-ATX+XPG REACTOR II VE 750W金牌/全模 現省$400
+1890	561		｛XPG VALOR MESH NANO 白｝顯卡長37/CPU高17/四面金屬網孔/顯卡支架/M-ATX
+4290	562	熱賣	XPG VALOR MESH NANO 白/M-ATX+XPG REACTOR II VE 750W金牌/全模 現省$400
+1790	564		｛XPG VALOR AIR PRO 黑｝顯卡長40/CPU高16.7/玻璃透側/磁吸面板/E-ATX
+1790	565		｛XPG VALOR AIR PRO 白｝顯卡長40/CPU高16.7/玻璃透側/磁吸面板/E-ATX
 
 ## 銀欣 SilverStone 機殼
-2990	569		｛銀欣 ALTA G1M 黑｝顯卡長35.5/CPU高15.9/垂直風流/M-ATX(ALG1MB)【SFX】
-3090	570		｛銀欣 ALTA G1M 白｝顯卡長35.5/CPU高15.9/垂直風流/M-ATX(ALG1MW)【SFX】
-1990	571		｛銀欣 ML03 黑｝短板顯卡/CPU高7/薄型橫式機殼/M-ATX(ML03B)
-2490	572		｛銀欣 ML04 黑｝短板顯卡/CPU高7/薄型橫式機殼/M-ATX(ML04B)
-2040	573		｛銀欣 ML09 黑｝顯卡長17.5(LP)/CPU高3.7(7)/ITX(ML09B)【SFX】【客訂】
-1690	574		｛銀欣 Lucid 04 黑｝顯卡長35/CPU高17.7/全景玻璃透側/M-ATX
-1790	575		｛銀欣 Lucid 04 白｝顯卡長35/CPU高17.7/全景玻璃透側/M-ATX
-1790	576		｛銀欣 Lucid 05 黑｝顯卡長41/CPU高17.3/全景玻璃透側/ATX
-1890	577		｛銀欣 Lucid 05 白｝顯卡長41/CPU高17.3/全景玻璃透側/ATX
-1190	578		｛銀欣 FARA 311｝顯卡長35.4/CPU高15.6/全沖孔網前面板/M-ATX
-1890	579		｛銀欣 FARA 514X 黑｝顯卡37.8/CPU高16.8/精密沖孔網面板/玻璃透側/ATX 原價$2590
-2090	580		｛銀欣 FARA 514X 白｝顯卡37.8/CPU高16.8/精密沖孔網面板/玻璃透側/ATX 原價$2690
-2790	582		｛銀欣 FLP01｝HTPC 復古機殼 顯卡長30.9/CPU高8.8~13.8/橫躺式/ATX
-4990	583		｛銀欣 FLP02｝復古機殼 顯卡長38.6/CPU高18.2/電源鑰匙鎖/仿軟碟機擋板/ATX
-3790	584		｛銀欣 FLP03｝復古機殼 顯卡長41.3/CPU高16.9/電源鑰匙鎖/仿軟碟機擋板/M-ATX
-3090	585		｛銀欣 SETA H1｝顯卡長39.4/CPU高18.2/玻璃透側E-ATX(SEH1B-G)
-4300	586		｛銀欣 SETA Q1｝靜音機殼 顯卡長39.4/CPU高18.2/迷宮式降噪面板/E-ATX(SEQ1B)
-1990	587	熱賣	｛銀欣 LD03｝顯卡長30.9(2 slots)/CPU高19/垂直風道/玻璃透側/ITX【SFX】原價$4490
-1400	588		｛銀欣 SG05-LITE 黑｝顯卡長22.8/CPU高8/ITX(SG05BB-LITE)【SFX】
-1230	589		｛銀欣 SG13 鐵網版｝顯卡長27/CPU高6/SSD*3/網孔面板/ITX(SG13B)
-1290	590		｛銀欣 SG13 仿金屬紋版｝顯卡長27/CPU高6/拉絲面板/ITX(SG13B-Q)
-2090	591	熱賣	｛銀欣 SUGO 14 白｝顯卡長33/CPU高18.2/電供深15/ITX(SG14W) 原價$3200
-1790	592		｛銀欣 SUGO 16 黑｝顯卡長27.5/CPU高8.5(17.2)/ITX(SG16B)【建議搭配SFX電供】
-1790	593		｛銀欣 SUGO 16 白｝顯卡長27.5/CPU高8.5(17.2)/ITX(SG16W)【建議搭配SFX電供】
+2990	567		｛銀欣 ALTA G1M 黑｝顯卡長35.5/CPU高15.9/垂直風流/M-ATX(ALG1MB)【SFX】
+3090	568		｛銀欣 ALTA G1M 白｝顯卡長35.5/CPU高15.9/垂直風流/M-ATX(ALG1MW)【SFX】
+1990	569		｛銀欣 ML03 黑｝短板顯卡/CPU高7/薄型橫式機殼/M-ATX(ML03B)
+2490	570		｛銀欣 ML04 黑｝短板顯卡/CPU高7/薄型橫式機殼/M-ATX(ML04B)
+2040	571		｛銀欣 ML09 黑｝顯卡長17.5(LP)/CPU高3.7(7)/ITX(ML09B)【SFX】【客訂】
+1690	572		｛銀欣 Lucid 04 黑｝顯卡長35/CPU高17.7/全景玻璃透側/M-ATX
+1790	573		｛銀欣 Lucid 04 白｝顯卡長35/CPU高17.7/全景玻璃透側/M-ATX
+1790	574		｛銀欣 Lucid 05 黑｝顯卡長41/CPU高17.3/全景玻璃透側/ATX
+1890	575		｛銀欣 Lucid 05 白｝顯卡長41/CPU高17.3/全景玻璃透側/ATX
+1190	576		｛銀欣 FARA 311｝顯卡長35.4/CPU高15.6/全沖孔網前面板/M-ATX
+1890	577		｛銀欣 FARA 514X 黑｝顯卡37.8/CPU高16.8/精密沖孔網面板/玻璃透側/ATX 原價$2590
+2090	578		｛銀欣 FARA 514X 白｝顯卡37.8/CPU高16.8/精密沖孔網面板/玻璃透側/ATX 原價$2690
+2790	580		｛銀欣 FLP01｝HTPC 復古機殼 顯卡長30.9/CPU高8.8~13.8/橫躺式/ATX
+4990	581		｛銀欣 FLP02｝復古機殼 顯卡長38.6/CPU高18.2/電源鑰匙鎖/仿軟碟機擋板/ATX
+3790	582		｛銀欣 FLP03｝復古機殼 顯卡長41.3/CPU高16.9/電源鑰匙鎖/仿軟碟機擋板/M-ATX
+3090	583		｛銀欣 SETA H1｝顯卡長39.4/CPU高18.2/玻璃透側E-ATX(SEH1B-G)
+4300	584		｛銀欣 SETA Q1｝靜音機殼 顯卡長39.4/CPU高18.2/迷宮式降噪面板/E-ATX(SEQ1B)
+1990	585	熱賣	｛銀欣 LD03｝顯卡長30.9(2 slots)/CPU高19/垂直風道/玻璃透側/ITX【SFX】原價$4490
+1400	586		｛銀欣 SG05-LITE 黑｝顯卡長22.8/CPU高8/ITX(SG05BB-LITE)【SFX】
+1230	587		｛銀欣 SG13 鐵網版｝顯卡長27/CPU高6/SSD*3/網孔面板/ITX(SG13B)
+1290	588		｛銀欣 SG13 仿金屬紋版｝顯卡長27/CPU高6/拉絲面板/ITX(SG13B-Q)
+2090	589	熱賣	｛銀欣 SUGO 14 白｝顯卡長33/CPU高18.2/電供深15/ITX(SG14W) 原價$3200
+1790	590		｛銀欣 SUGO 16 黑｝顯卡長27.5/CPU高8.5(17.2)/ITX(SG16B)【建議搭配SFX電供】
+1790	591		｛銀欣 SUGO 16 白｝顯卡長27.5/CPU高8.5(17.2)/ITX(SG16W)【建議搭配SFX電供】
 
 ## 曜越 Thermaltake 機殼
-1690	595		｛曜越 View 270 TG ARGB V2 黑｝顯卡長42/CPU高18/三風扇/全景玻璃透側/ATX
-1690	596		｛曜越 View 270 TG ARGB V2 白｝顯卡長42/CPU高18/三風扇/全景玻璃透側/ATX
-2390	597	熱賣	｛曜越 View 290 TG ARGB 黑｝顯卡45/U高18/全景曲面玻璃/支援背插/ATX 原價$2690！
-2390	598	熱賣	｛曜越 View 290 TG ARGB 白｝顯卡45/U高18/全景曲面玻璃/支援背插/ATX 原價$2690！
-3490	599		｛曜越 View 380 XL TG ARGB 黑｝顯卡42/CPU高16/全景玻璃/分艙設計/支援背插/ATX
-3490	600		｛曜越 View 380 XL TG ARGB 白｝顯卡42/CPU高16/全景玻璃/分艙設計/支援背插/ATX
-3490	601		｛曜越 View 380 XL TG ARGB 鋒芒黃｝顯卡42/CPU高16/全景玻璃/分艙設計/背插/ATX
-3490	602		｛曜越 View 380 XL TG ARGB 礫石沙｝顯卡42/CPU高16/全景玻璃/分艙設計/背插/ATX
-4890	603		｛曜越 View 390 Air 黑｝顯卡長42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
-4990	604		曜越 View 390 Air 黑 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
-4890	605		｛曜越 View 390 Air 白｝顯卡長42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
-4990	606		曜越 View 390 Air 白 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
-4890	607		｛曜越 View 390 Air 暮光紫｝顯卡42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
-4990	608		曜越 View 390 Air 暮光紫 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
-4890	609		｛曜越 View 390 Air 奶油焦糖｝顯卡42/U高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
-4990	610		曜越 View 390 Air 奶油焦糖/鷗翼式曲面玻璃/ATX+曜越 6.0吋 LCD 擴充螢幕(原價$2490)
-2890	611		｛曜越 Vision 330 CR ARGB 黑｝卡42/U高17.5/側掀曲面玻璃/分艙設計/六風扇/背插/ATX
-2890	612		｛曜越 Vision 330 CR ARGB 白｝卡42/U高17.5/側掀曲面玻璃/分艙設計/六風扇/背插/ATX
-3690	613		｛曜越 The Tower 250 黑｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
-3690	614		｛曜越 The Tower 250 白｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
-3690	615		｛曜越 The Tower 250 抹茶綠｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
-3690	616		｛曜越 The Tower 250 繡球花藍｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
-3990	617		｛曜越 The Tower 300 黑｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
-4790	618		曜越 The Tower 300 黑 /全景玻璃/支援背插/M-ATX + 橫躺展示支架 黑(含下蓋面板)
-3990	619		｛曜越 The Tower 300 白｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
-4790	620		曜越 The Tower 300 白 /全景玻璃/支援背插/M-ATX + 橫躺展示支架 白(含下蓋面板)
-4290	621		｛曜越 The Tower 300 抹茶綠｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
-4290	622		｛曜越 The Tower 300 繡球花藍｝顯卡長40/U高21/全景玻璃/八角柱造型/支援背插/M-ATX
-4290	623		｛曜越 The Tower 300 泡泡粉｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
-4890	624		｛曜越 The Tower 600 黑｝顯卡28(40)/CPU高21/全景直立式/三面玻璃/支援背插(限ATX)
-4890	625		｛曜越 The Tower 600 白｝顯卡28(40)/CPU高21/全景直立式/三面玻璃/支援背插(限ATX)
-4890	626		｛曜越 The Tower 600 抹茶綠｝顯卡28(40)/U高21/全景直立/三面玻璃/支援背插(限ATX)
-4890	627		｛曜越 The Tower 600 繡球花藍｝顯卡28(40)/U高21/全景直立/三面玻璃/支援背插(限ATX)
+1690	593		｛曜越 View 270 TG ARGB V2 黑｝顯卡長42/CPU高18/三風扇/全景玻璃透側/ATX
+1690	594		｛曜越 View 270 TG ARGB V2 白｝顯卡長42/CPU高18/三風扇/全景玻璃透側/ATX
+2390	595	熱賣	｛曜越 View 290 TG ARGB 黑｝顯卡45/U高18/全景曲面玻璃/支援背插/ATX 原價$2690！
+2390	596	熱賣	｛曜越 View 290 TG ARGB 白｝顯卡45/U高18/全景曲面玻璃/支援背插/ATX 原價$2690！
+3490	597		｛曜越 View 380 XL TG ARGB 黑｝顯卡42/CPU高16/全景玻璃/分艙設計/支援背插/ATX
+3490	598		｛曜越 View 380 XL TG ARGB 白｝顯卡42/CPU高16/全景玻璃/分艙設計/支援背插/ATX
+3490	599		｛曜越 View 380 XL TG ARGB 鋒芒黃｝顯卡42/CPU高16/全景玻璃/分艙設計/背插/ATX
+3490	600		｛曜越 View 380 XL TG ARGB 礫石沙｝顯卡42/CPU高16/全景玻璃/分艙設計/背插/ATX
+4890	601		｛曜越 View 390 Air 黑｝顯卡長42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
+4990	602		曜越 View 390 Air 黑 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
+4890	603		｛曜越 View 390 Air 白｝顯卡長42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
+4990	604		曜越 View 390 Air 白 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
+4890	605		｛曜越 View 390 Air 暮光紫｝顯卡42/CPU高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
+4990	606		曜越 View 390 Air 暮光紫 /鷗翼式曲面玻璃/ATX + 曜越 6.0吋 LCD 擴充螢幕(原價$2490)
+4890	607		｛曜越 View 390 Air 奶油焦糖｝顯卡42/U高16/鷗翼式曲面玻璃/分艙設計/支援背插/ATX
+4990	608		曜越 View 390 Air 奶油焦糖/鷗翼式曲面玻璃/ATX+曜越 6.0吋 LCD 擴充螢幕(原價$2490)
+2890	609		｛曜越 Vision 330 CR ARGB 黑｝卡42/U高17.5/側掀曲面玻璃/分艙設計/六風扇/背插/ATX
+2890	610		｛曜越 Vision 330 CR ARGB 白｝卡42/U高17.5/側掀曲面玻璃/分艙設計/六風扇/背插/ATX
+3690	611		｛曜越 The Tower 250 黑｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
+3690	612		｛曜越 The Tower 250 白｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
+3690	613		｛曜越 The Tower 250 抹茶綠｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
+3690	614		｛曜越 The Tower 250 繡球花藍｝顯卡長36/CPU高21/全景玻璃/八角柱造型/ITX
+3990	615		｛曜越 The Tower 300 黑｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
+4790	616		曜越 The Tower 300 黑 /全景玻璃/支援背插/M-ATX + 橫躺展示支架 黑(含下蓋面板)
+3990	617		｛曜越 The Tower 300 白｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
+4790	618		曜越 The Tower 300 白 /全景玻璃/支援背插/M-ATX + 橫躺展示支架 白(含下蓋面板)
+4290	619		｛曜越 The Tower 300 抹茶綠｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
+4290	620		｛曜越 The Tower 300 繡球花藍｝顯卡長40/U高21/全景玻璃/八角柱造型/支援背插/M-ATX
+4290	621		｛曜越 The Tower 300 泡泡粉｝顯卡長40/CPU高21/全景玻璃/八角柱造型/支援背插/M-ATX
+4890	622		｛曜越 The Tower 600 黑｝顯卡28(40)/CPU高21/全景直立式/三面玻璃/支援背插(限ATX)
+4890	623		｛曜越 The Tower 600 白｝顯卡28(40)/CPU高21/全景直立式/三面玻璃/支援背插(限ATX)
+4890	624		｛曜越 The Tower 600 抹茶綠｝顯卡28(40)/U高21/全景直立/三面玻璃/支援背插(限ATX)
+4890	625		｛曜越 The Tower 600 繡球花藍｝顯卡28(40)/U高21/全景直立/三面玻璃/支援背插(限ATX)
 
 ## DEEPCOOL 九州風神
-990	629		｛DEEPCOOL CC310｝顯卡28/U高16/透氣柵格面板/M-ATX
-1890	630		｛DEEPCOOL CH260 黑｝顯卡長41.3/CPU高17.4/玻璃透側/支援背插/M-ATX
-1990	631		｛DEEPCOOL CH260 白｝顯卡長41.3/CPU高17.4/玻璃透側/支援背插/M-ATX
-2190	632		｛DEEPCOOL CH260 WOOD 黑｝顯卡長41.3/CPU高17.4/玻璃透側/背插/M-ATX
-2290	633		｛DEEPCOOL CH260 WOOD 白｝顯卡長41.3/CPU高17.4/玻璃透側/背插/M-ATX
-2790	634		｛DEEPCOOL CH270 DIGITAL 白｝顯卡長41.3/U高17.4/數位監控底座/支援背插/M-ATX
-1690	636		｛DEEPCOOL CG380 3F 黑｝顯卡長41/CPU高17.6/全景玻璃透側/支援背插/M-ATX
-1790	637		｛DEEPCOOL CG380 3F 白｝顯卡長41/CPU高17.6/全景玻璃透側/支援背插/M-ATX
-1990	638		｛DEEPCOOL CG530 4F 黑｝顯卡41/CPU高16/全景玻璃透側/支援背插/分艙設計/ATX
-2090	639		｛DEEPCOOL CG530 4F 白｝顯卡41/CPU高16/全景玻璃透側/支援背插/分艙設計/ATX
-5690	640		｛DEEPCOOL MORPHEUS(墨菲斯) 黑｝卡48/U高19.5/PCIe4.0/溫度顯示/玻璃透側/E-ATX
-5990	642		｛DEEPCOOL MORPHEUS(墨菲斯) 白｝卡48/U高19.5/PCIe4.0/溫度顯示/玻璃透側/E-ATX
+990	627		｛DEEPCOOL CC310｝顯卡28/U高16/透氣柵格面板/M-ATX
+1890	628		｛DEEPCOOL CH260 黑｝顯卡長41.3/CPU高17.4/玻璃透側/支援背插/M-ATX
+1990	629		｛DEEPCOOL CH260 白｝顯卡長41.3/CPU高17.4/玻璃透側/支援背插/M-ATX
+2190	630		｛DEEPCOOL CH260 WOOD 黑｝顯卡長41.3/CPU高17.4/玻璃透側/背插/M-ATX
+2290	631		｛DEEPCOOL CH260 WOOD 白｝顯卡長41.3/CPU高17.4/玻璃透側/背插/M-ATX
+2790	632		｛DEEPCOOL CH270 DIGITAL 白｝顯卡長41.3/U高17.4/數位監控底座/支援背插/M-ATX
+1690	634		｛DEEPCOOL CG380 3F 黑｝顯卡長41/CPU高17.6/全景玻璃透側/支援背插/M-ATX
+1790	635		｛DEEPCOOL CG380 3F 白｝顯卡長41/CPU高17.6/全景玻璃透側/支援背插/M-ATX
+1990	636		｛DEEPCOOL CG530 4F 黑｝顯卡41/CPU高16/全景玻璃透側/支援背插/分艙設計/ATX
+2090	637		｛DEEPCOOL CG530 4F 白｝顯卡41/CPU高16/全景玻璃透側/支援背插/分艙設計/ATX
+5690	638		｛DEEPCOOL MORPHEUS(墨菲斯) 黑｝卡48/U高19.5/PCIe4.0/溫度顯示/玻璃透側/E-ATX
+5990	640		｛DEEPCOOL MORPHEUS(墨菲斯) 白｝卡48/U高19.5/PCIe4.0/溫度顯示/玻璃透側/E-ATX
 
 ## 保銳 ENERMAX 機殼
-1690	645		｛保銳 Enclave A31黑｝-脈衝 顯卡長42.5/U高18/全景玻璃透側/獨立TypeC 45W快充/ATX
-1790	646		｛保銳 Enclave A31白｝-脈衝 顯卡長42.5/U高18/全景玻璃透側/獨立TypeC 45W快充/ATX
-2490	647		｛保銳 Enclave A41黑｝-脈動 顯卡長41.5/CPU高16/全景曲面玻璃/分艙/溫度警示/ATX
-2590	648		｛保銳 Enclave A41白｝-脈動 顯卡長41.5/CPU高16/全景曲面玻璃/分艙/溫度警示/ATX
+1690	643		｛保銳 Enclave A31黑｝-脈衝 顯卡長42.5/U高18/全景玻璃透側/獨立TypeC 45W快充/ATX
+1790	644		｛保銳 Enclave A31白｝-脈衝 顯卡長42.5/U高18/全景玻璃透側/獨立TypeC 45W快充/ATX
+2490	645		｛保銳 Enclave A41黑｝-脈動 顯卡長41.5/CPU高16/全景曲面玻璃/分艙/溫度警示/ATX
+2590	646		｛保銳 Enclave A41白｝-脈動 顯卡長41.5/CPU高16/全景曲面玻璃/分艙/溫度警示/ATX
 
 ## 迎廣 InWin 機殼
-3650	650		｛迎廣 Chopin 蕭邦 Max 銀｝內附200W 金牌電源 /CPU高5.4/ITX
-3490	651		｛迎廣 PRISM 黑｝顯卡長43.5/CPU高17.5/鏡面玻璃透側/支援背插/ATX
-3490	652		｛迎廣 PRISM 白｝顯卡長43.5/CPU高17.5/玻璃透側/支援背插/ATX
-2390	653		｛迎廣 L50 BREEZE｝顯卡長43.5/CPU高17.5/長虹玻璃面板/支援背插(限ATX)/E-ATX
-2590	654		｛迎廣 W31｝顯卡長41/CPU高16/全景曲面玻璃/分艙設計/支援背插(限ATX)
-3290	655		｛迎廣 W50｝顯卡長43.5/CPU高17.5/鏡面拼接W造型側板/支援背插(限ATX)
-1990	656		｛迎廣 A3 黑｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/M-ATX
-1990	657		｛迎廣 A3 白｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/M-ATX
-2090	658		｛迎廣 A5 黑｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/E-ATX
-2090	659		｛迎廣 A5 白｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/E-ATX
-2890	660	酷幣100	｛迎廣 F3 黑｝顯卡長34/CPU高16/玻璃透側/支援背插/M-ATX
-3190	661	酷幣100	｛迎廣 F3 白｝顯卡長34/CPU高16/玻璃透側/支援背插/M-ATX
-3990	662	酷幣100	｛迎廣 F5 黑｝顯卡長43.5/CPU高18/玻璃透側/支援背插(限ATX)/E-ATX
-4290	663	酷幣100	｛迎廣 F5 白｝顯卡長43.5/CPU高18/玻璃透側/支援背插(限ATX)/E-ATX
-3990	664		｛迎廣 COVALENT｝全塔式機殼 顯卡長48/CPU高19/玻璃透側/支援*8 PCI/支援背插/EEB
-2990	665		｛迎廣 DLITE 摩卡棕｝顯卡長38/CPU高16.5/波浪紋網孔面板/玻璃透側/支援背插/ATX
-2990	666		｛迎廣 DLITE 丁香紫｝顯卡長38/CPU高16.5/波浪紋網孔面板/玻璃透側/支援背插/ATX
-6790	667	酷幣100	｛迎廣 DUBILI 鈦灰｝顯卡長43/CPU高16/鋁合金/玻璃透側/E-ATX【客訂】
-6790	668	酷幣100	｛迎廣 DUBILI 奶油香檳｝顯卡長43/CPU高16/鋁合金/玻璃透側/E-ATX【客訂】
+3650	648		｛迎廣 Chopin 蕭邦 Max 銀｝內附200W 金牌電源 /CPU高5.4/ITX
+3490	649		｛迎廣 PRISM 黑｝顯卡長43.5/CPU高17.5/鏡面玻璃透側/支援背插/ATX
+3490	650		｛迎廣 PRISM 白｝顯卡長43.5/CPU高17.5/玻璃透側/支援背插/ATX
+2390	651		｛迎廣 L50 BREEZE｝顯卡長43.5/CPU高17.5/長虹玻璃面板/支援背插(限ATX)/E-ATX
+2590	652		｛迎廣 W31｝顯卡長41/CPU高16/全景曲面玻璃/分艙設計/支援背插(限ATX)
+3290	653		｛迎廣 W50｝顯卡長43.5/CPU高17.5/鏡面拼接W造型側板/支援背插(限ATX)
+1990	654		｛迎廣 A3 黑｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/M-ATX
+1990	655		｛迎廣 A3 白｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/M-ATX
+2090	656		｛迎廣 A5 黑｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/E-ATX
+2090	657		｛迎廣 A5 白｝顯卡長34/CPU高16.2/玻璃透側/垂直風道/E-ATX
+2890	658	酷幣100	｛迎廣 F3 黑｝顯卡長34/CPU高16/玻璃透側/支援背插/M-ATX
+3190	659	酷幣100	｛迎廣 F3 白｝顯卡長34/CPU高16/玻璃透側/支援背插/M-ATX
+3990	660	酷幣100	｛迎廣 F5 黑｝顯卡長43.5/CPU高18/玻璃透側/支援背插(限ATX)/E-ATX
+4290	661	酷幣100	｛迎廣 F5 白｝顯卡長43.5/CPU高18/玻璃透側/支援背插(限ATX)/E-ATX
+3990	662		｛迎廣 COVALENT｝全塔式機殼 顯卡長48/CPU高19/玻璃透側/支援*8 PCI/支援背插/EEB
+2990	663		｛迎廣 DLITE 摩卡棕｝顯卡長38/CPU高16.5/波浪紋網孔面板/玻璃透側/支援背插/ATX
+2990	664		｛迎廣 DLITE 丁香紫｝顯卡長38/CPU高16.5/波浪紋網孔面板/玻璃透側/支援背插/ATX
+6790	665	酷幣100	｛迎廣 DUBILI 鈦灰｝顯卡長43/CPU高16/鋁合金/玻璃透側/E-ATX【客訂】
+6790	666	酷幣100	｛迎廣 DUBILI 奶油香檳｝顯卡長43/CPU高16/鋁合金/玻璃透側/E-ATX【客訂】
 
 ## 恩傑 NZXT 機殼
-1990	670		｛NZXT H3 Flow 黑｝顯卡長37.7/CPU高17/玻璃透側/支援背插/M-ATX(H31FB-01)
-1990	671		｛NZXT H3 Flow 白｝顯卡長37.7/CPU高17/玻璃透側/支援背插/M-ATX(H31FW-01)
-2490	672		｛NZXT H5 Flow(2024) 黑｝顯卡長41/CPU高17/玻璃透側/E-ATX(H52FB-01)
-2490	673		｛NZXT H5 Flow(2024) 白｝顯卡長41/CPU高17/玻璃透側/E-ATX(H52FW-01)
-2990(原3490)	674	價格異動 下殺	｛NZXT H6 Flow 黑｝顯卡36.5/CPU高16.3/全景玻璃/傾斜前風扇/分艙/ATX(H61FB-01)▼下殺到 10/31 20:00
-5990	675	熱賣	NZXT H6 Flow 黑 /全景玻璃/傾斜前風扇/ATX + NZXT Kraken Core 360 RGB 水冷散熱器
-4290	676		｛NZXT H6 黑｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FB-01)
-4290	677		｛NZXT H6 白｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FW-01)
-7990	678		｛NZXT H6 RGB+ 黑｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FB-P1)
-7990	679		｛NZXT H6 RGB+ 白｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FW-P1)
-4290	680		｛NZXT H7 Flow(2024) 黑｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FB-01)
-4290	681		｛NZXT H7 Flow(2024) 白｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FW-01)
-5290	682		｛NZXT H7 Flow RGB(2024) 黑｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FB-R1)
-5290	683		｛NZXT H7 Flow RGB(2024) 白｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FW-R1)
-5590	684		｛NZXT H9 Flow(2025) 黑｝顯卡43.5/U高16.5/玻璃透側/分艙設計/背插(限ATX)(H92FB-01)
-5590	685		｛NZXT H9 Flow(2025) 白｝顯卡43.5/U高16.5/玻璃透側/分艙設計/背插(限ATX)(H92FW-01)
+1990	668		｛NZXT H3 Flow 黑｝顯卡長37.7/CPU高17/玻璃透側/支援背插/M-ATX(H31FB-01)
+1990	669		｛NZXT H3 Flow 白｝顯卡長37.7/CPU高17/玻璃透側/支援背插/M-ATX(H31FW-01)
+2490	670		｛NZXT H5 Flow(2024) 黑｝顯卡長41/CPU高17/玻璃透側/E-ATX(H52FB-01)
+2490	671		｛NZXT H5 Flow(2024) 白｝顯卡長41/CPU高17/玻璃透側/E-ATX(H52FW-01)
+2990(原3490)	672	價格異動 下殺	｛NZXT H6 Flow 黑｝顯卡36.5/CPU高16.3/全景玻璃/傾斜前風扇/分艙/ATX(H61FB-01)▼下殺到 10/31 20:00
+5990	673	熱賣	NZXT H6 Flow 黑 /全景玻璃/傾斜前風扇/ATX + NZXT Kraken Core 360 RGB 水冷散熱器
+4290	674		｛NZXT H6 黑｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FB-01)
+4290	675		｛NZXT H6 白｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FW-01)
+7990	676		｛NZXT H6 RGB+ 黑｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FB-P1)
+7990	677		｛NZXT H6 RGB+ 白｝顯卡長39/CPU高16.5/全景曲面玻璃/分艙/背插(限ATX)(H62FW-P1)
+4290	678		｛NZXT H7 Flow(2024) 黑｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FB-01)
+4290	679		｛NZXT H7 Flow(2024) 白｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FW-01)
+5290	680		｛NZXT H7 Flow RGB(2024) 黑｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FB-R1)
+5290	681		｛NZXT H7 Flow RGB(2024) 白｝顯卡長41/CPU高18.5/玻璃透側/E-ATX(H72FW-R1)
+5590	682		｛NZXT H9 Flow(2025) 黑｝顯卡43.5/U高16.5/玻璃透側/分艙設計/背插(限ATX)(H92FB-01)
+5590	683		｛NZXT H9 Flow(2025) 白｝顯卡43.5/U高16.5/玻璃透側/分艙設計/背插(限ATX)(H92FW-01)
 
 ## 全漢 FSP 機殼
-790	687		｛全漢 S110-B｝顯卡長28.5/CPU高16/網狀面板/簡約設計/M-ATX
-1690	688		｛全漢 S380-BA 黑｝顯卡長44.5/CPU高16/分艙設計/全景玻璃透側/M-ATX
-1790	689		｛全漢 S380-WA 白｝顯卡長44.5/CPU高16/分艙設計/全景玻璃透側/M-ATX
-1690	690		｛全漢 M320-BA 黑｝顯卡長42.5/CPU高17/玻璃透側/E-ATX
-1690	691		｛全漢 M320-WA 白｝顯卡長42.5/CPU高17/玻璃透側/E-ATX
-3290	692		｛全漢 M580 PRO-BA 黑｝顯卡44.5/U高16/全景曲面玻璃/數顯後風扇/背插/分艙/ATX
-3290	693		｛全漢 M580 PRO-WA 白｝顯卡44.5/U高16/全景曲面玻璃/數顯後風扇/背插/分艙/ATX
-1090	694		｛全漢 CST130 Basic 黑｝顯卡長30/CPU高16.5/壓克力透側/M-ATX
-1190	695		｛全漢 CST130 Basic 白｝顯卡長30/CPU高16.5/壓克力透側/M-ATX
-990	696		｛全漢 CST351｝顯卡長33.6/CPU高13.8/底部ARGB氣氛燈/前置Type-C/ITX【SFX】
-990	697		｛全漢 CMT195B 黑｝顯卡長34/CPU高16/鑽切造型面板/壓克力透側/ATX
-1090	698		｛全漢 CMT195W 白｝顯卡長34/CPU高16/鑽切造型面板/壓克力透側/ATX
-1590	699		｛全漢 CMT223S｝靜音機殼 顯卡長30/CPU高16/內建4風扇/ATX
-3990	700		｛全漢 U500-B｝顯卡長42/CPU高18/雙顯卡支架/支援*9 PCI slot/E-ATX
+790	685		｛全漢 S110-B｝顯卡長28.5/CPU高16/網狀面板/簡約設計/M-ATX
+1690	686		｛全漢 S380-BA 黑｝顯卡長44.5/CPU高16/分艙設計/全景玻璃透側/M-ATX
+1790	687		｛全漢 S380-WA 白｝顯卡長44.5/CPU高16/分艙設計/全景玻璃透側/M-ATX
+1690	688		｛全漢 M320-BA 黑｝顯卡長42.5/CPU高17/玻璃透側/E-ATX
+1690	689		｛全漢 M320-WA 白｝顯卡長42.5/CPU高17/玻璃透側/E-ATX
+3290	690		｛全漢 M580 PRO-BA 黑｝顯卡44.5/U高16/全景曲面玻璃/數顯後風扇/背插/分艙/ATX
+3290	691		｛全漢 M580 PRO-WA 白｝顯卡44.5/U高16/全景曲面玻璃/數顯後風扇/背插/分艙/ATX
+1090	692		｛全漢 CST130 Basic 黑｝顯卡長30/CPU高16.5/壓克力透側/M-ATX
+1190	693		｛全漢 CST130 Basic 白｝顯卡長30/CPU高16.5/壓克力透側/M-ATX
+990	694		｛全漢 CST351｝顯卡長33.6/CPU高13.8/底部ARGB氣氛燈/前置Type-C/ITX【SFX】
+990	695		｛全漢 CMT195B 黑｝顯卡長34/CPU高16/鑽切造型面板/壓克力透側/ATX
+1090	696		｛全漢 CMT195W 白｝顯卡長34/CPU高16/鑽切造型面板/壓克力透側/ATX
+1590	697		｛全漢 CMT223S｝靜音機殼 顯卡長30/CPU高16/內建4風扇/ATX
+3990	698		｛全漢 U500-B｝顯卡長42/CPU高18/雙顯卡支架/支援*9 PCI slot/E-ATX
 
 ## 聯力工業 LIAN LI 機殼
-4700	702		｛聯力 A4-H2O 黑｝PCIe 5.0/顯卡長32.2/CPU高5.5/鋁合金/ITX【SFX】
-4700	703		｛聯力 A4-H2O 銀｝PCIe 5.0/顯卡長32.2/CPU高5.5/鋁合金/ITX【SFX】
-1899	704		｛聯力 A3-mATX 黑｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
-1899	705		｛聯力 A3-mATX 白｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
-2369	706		｛聯力 A3-mATX 實木黑｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
-2369	707		｛聯力 A3-mATX 實木白｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
-1899	708		｛聯力 B4 m-ATX 黑｝卡35.8/CPU高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
-1899	709		｛聯力 B4 m-ATX 白｝卡35.8/CPU高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
-2369	710		｛聯力 B4 m-ATX 實木黑｝卡35.8/U高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
-2369	711		｛聯力 B4 m-ATX 實木白｝卡35.8/U高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
-1590	712		｛聯力 Vector V100R MINI｝顯卡41.5/U高16.3/全景玻璃/內建燈條,顯卡支架/背插/M-ATX
-1750	713		｛聯力 Vector V100R 黑｝顯卡41.5/U高18/全景玻璃/內建燈條,顯卡支架/支援背插/ATX
-1900	714		｛聯力 Vector V100R 白｝顯卡41.5/U高18/全景玻璃/內建燈條,顯卡支架/支援背插/ATX
-2499	715		｛聯力 Vector V150 INF｝顯卡長40/CPU高16.3/玻璃開孔面板+透側/支援背插/M-ATX
-2700	716		｛聯力 LANCOOL 216 RGB 黑｝顯卡長39.2/CPU高18/含磁吸前濾網/玻璃透側/E-ATX
-2900	717		｛聯力 LANCOOL 216 RGB 白｝顯卡長39.2/CPU高18/含磁吸前濾網/玻璃透側/E-ATX
-3490	718		｛聯力 LANCOOL 217 黑｝顯卡38/CPU高18/玻璃透側/木質裝飾/支援背插/E-ATX(EEB)
-3690	719		｛聯力 LANCOOL 217 白｝顯卡38/CPU高18/玻璃透側/木質裝飾/支援背插/E-ATX(EEB)
-3650	720		｛聯力 LANCOOL 217 INF 黑｝顯卡38/U高18/玻璃開孔面板+透側/支援背插/E-ATX(EEB)
-3850	721		｛聯力 LANCOOL 217 INF 白｝顯卡38/U高18/玻璃開孔面板+透側/支援背插/E-ATX(EEB)
-2499	722		｛聯力 O11 Vision-M 黑｝顯卡長41/CPU高16.2/三面全景玻璃/分艙設計/M-ATX
-2699	723		｛聯力 O11 Vision-M 白｝顯卡長41/CPU高16.2/三面全景玻璃/分艙設計/M-ATX
-4199	724		｛聯力 O11 Vision-M 數位版 黑｝顯卡41/U高16.2/9.2吋LCD/三面全景玻璃/分艙/M-ATX
-4399	725		｛聯力 O11 Vision-M 數位版 白｝顯卡41/U高16.2/9.2吋LCD/三面全景玻璃/分艙/M-ATX
-3599	726		｛聯力 O11 Vision Compact 黑｝卡40.8/U高16.4/雙頂蓋模式/全景玻璃/支援背插(限ATX)
-3599	727		｛聯力 O11 Vision Compact 白｝卡40.8/U高16.4/雙頂蓋模式/全景玻璃/支援背插(限ATX)
-2699	728		｛聯力 O11 Dynamic Mini V2 黑｝卡40/U高16/全景玻璃/無風扇/僅支援5slots/背插(限ATX)
-2699	729		｛聯力 O11 Dynamic Mini V2 白｝卡40/U高16/全景玻璃/無風扇/僅支援5slots/背插(限ATX)
-2999	730		｛聯力 O11 Dynamic Mini V2 Flow 黑｝卡40/U16/全景玻璃/5風扇/僅支援5slots/背插(限ATX)
-2999	731		｛聯力 O11 Dynamic Mini V2 Flow 白｝卡40/U16/全景玻璃/5風扇/僅支援5slots/背插(限ATX)
-4800	732		｛聯力 O11 Dynamic EVO RGB 黑｝顯卡45.5/U高16.7/頂底部L型燈條/全景玻璃/E-ATX
-5100	733		｛聯力 O11 Dynamic EVO RGB 白｝顯卡45.5/U高16.7/頂底部L型燈條/全景玻璃/E-ATX
-7200	734		｛聯力 O11 Dynamic EVO XL 黑｝顯卡46/CPU高16.7/雙向翻轉設計/玻璃透側/E-ATX
-7500	735		｛聯力 O11 Dynamic EVO XL 白｝顯卡46/CPU高16.7/雙向翻轉設計/玻璃透側/E-ATX
+4700	700		｛聯力 A4-H2O 黑｝PCIe 5.0/顯卡長32.2/CPU高5.5/鋁合金/ITX【SFX】
+4700	701		｛聯力 A4-H2O 銀｝PCIe 5.0/顯卡長32.2/CPU高5.5/鋁合金/ITX【SFX】
+1899	702		｛聯力 A3-mATX 黑｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
+1899	703		｛聯力 A3-mATX 白｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
+2369	704		｛聯力 A3-mATX 實木黑｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
+2369	705		｛聯力 A3-mATX 實木白｝顯卡長41.5/CPU高16.5/3面網孔/含顯卡支架/M-ATX
+1899	706		｛聯力 B4 m-ATX 黑｝卡35.8/CPU高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
+1899	707		｛聯力 B4 m-ATX 白｝卡35.8/CPU高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
+2369	708		｛聯力 B4 m-ATX 實木黑｝卡35.8/U高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
+2369	709		｛聯力 B4 m-ATX 實木白｝卡35.8/U高16.8/ATX電源(≦14cm)/雙向擺放/M-ATX【建議SFX】
+1590	710		｛聯力 Vector V100R MINI｝顯卡41.5/U高16.3/全景玻璃/內建燈條,顯卡支架/背插/M-ATX
+1750	711		｛聯力 Vector V100R 黑｝顯卡41.5/U高18/全景玻璃/內建燈條,顯卡支架/支援背插/ATX
+1900	712		｛聯力 Vector V100R 白｝顯卡41.5/U高18/全景玻璃/內建燈條,顯卡支架/支援背插/ATX
+2499	713		｛聯力 Vector V150 INF｝顯卡長40/CPU高16.3/玻璃開孔面板+透側/支援背插/M-ATX
+2700	714		｛聯力 LANCOOL 216 RGB 黑｝顯卡長39.2/CPU高18/含磁吸前濾網/玻璃透側/E-ATX
+2900	715		｛聯力 LANCOOL 216 RGB 白｝顯卡長39.2/CPU高18/含磁吸前濾網/玻璃透側/E-ATX
+3490	716		｛聯力 LANCOOL 217 黑｝顯卡38/CPU高18/玻璃透側/木質裝飾/支援背插/E-ATX(EEB)
+3690	717		｛聯力 LANCOOL 217 白｝顯卡38/CPU高18/玻璃透側/木質裝飾/支援背插/E-ATX(EEB)
+3650	718		｛聯力 LANCOOL 217 INF 黑｝顯卡38/U高18/玻璃開孔面板+透側/支援背插/E-ATX(EEB)
+3850	719		｛聯力 LANCOOL 217 INF 白｝顯卡38/U高18/玻璃開孔面板+透側/支援背插/E-ATX(EEB)
+2499	720		｛聯力 O11 Vision-M 黑｝顯卡長41/CPU高16.2/三面全景玻璃/分艙設計/M-ATX
+2699	721		｛聯力 O11 Vision-M 白｝顯卡長41/CPU高16.2/三面全景玻璃/分艙設計/M-ATX
+4199	722		｛聯力 O11 Vision-M 數位版 黑｝顯卡41/U高16.2/9.2吋LCD/三面全景玻璃/分艙/M-ATX
+4399	723		｛聯力 O11 Vision-M 數位版 白｝顯卡41/U高16.2/9.2吋LCD/三面全景玻璃/分艙/M-ATX
+3599	724		｛聯力 O11 Vision Compact 黑｝卡40.8/U高16.4/雙頂蓋模式/全景玻璃/支援背插(限ATX)
+3599	725		｛聯力 O11 Vision Compact 白｝卡40.8/U高16.4/雙頂蓋模式/全景玻璃/支援背插(限ATX)
+2699	726		｛聯力 O11 Dynamic Mini V2 黑｝卡40/U高16/全景玻璃/無風扇/僅支援5slots/背插(限ATX)
+2699	727		｛聯力 O11 Dynamic Mini V2 白｝卡40/U高16/全景玻璃/無風扇/僅支援5slots/背插(限ATX)
+2999	728		｛聯力 O11 Dynamic Mini V2 Flow 黑｝卡40/U16/全景玻璃/5風扇/僅支援5slots/背插(限ATX)
+2999	729		｛聯力 O11 Dynamic Mini V2 Flow 白｝卡40/U16/全景玻璃/5風扇/僅支援5slots/背插(限ATX)
+4800	730		｛聯力 O11 Dynamic EVO RGB 黑｝顯卡45.5/U高16.7/頂底部L型燈條/全景玻璃/E-ATX
+5100	731		｛聯力 O11 Dynamic EVO RGB 白｝顯卡45.5/U高16.7/頂底部L型燈條/全景玻璃/E-ATX
+7200	732		｛聯力 O11 Dynamic EVO XL 黑｝顯卡46/CPU高16.7/雙向翻轉設計/玻璃透側/E-ATX
+7500	733		｛聯力 O11 Dynamic EVO XL 白｝顯卡46/CPU高16.7/雙向翻轉設計/玻璃透側/E-ATX
 
 ## 創氪星系 TRYX
-5690	737		｛TRYX FLOVA F50 黑｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
-5690	738		｛TRYX FLOVA F50 白｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
-5690	739		｛TRYX FLOVA F50 粉｝顯卡長(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
-7990	740		｛TRYX LUCA L70 黑｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
-7990	741		｛TRYX LUCA L70 白｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
+5690	735		｛TRYX FLOVA F50 黑｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
+5690	736		｛TRYX FLOVA F50 白｝顯卡(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
+5690	737		｛TRYX FLOVA F50 粉｝顯卡長(36~42)/U高17/玻璃透側/布面織材/貫流風機/背插(限ATX)
+7990	738		｛TRYX LUCA L70 黑｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
+7990	739		｛TRYX LUCA L70 白｝顯卡46/U高17/鋁合金框架/全景玻璃/支援背插/E-ATX【客訂】
 
 ## 喬思伯 JONSBO 機殼
-3990	744		｛喬思伯 N3｝顯卡長25/CPU高13/3.5*8 硬碟位/NAS推薦/上下分艙/ITX【SFX】
-2990	745		｛喬思伯 N4 黑｝顯卡長23(Low Profile)/U高7/硬碟位3.5*6+2.5*2/NAS推薦/M-ATX【SFX】
-2990	746		｛喬思伯 N4 白｝顯卡長23(Low Profile)/U高7/硬碟位3.5*6+2.5*2/NAS推薦/M-ATX【SFX】
-5990	747		｛喬思伯 N5｝顯卡長35/CPU高16/3.5*12 硬碟位/NAS推薦/上下分艙/E-ATX
-3990	748		｛喬思伯 N6 黑｝顯卡長(27.5~32)/CPU高6.5/3.5*9 硬碟位/NAS推薦/上下分艙/M-ATX
-1190	749		｛喬思伯 C6 黑｝顯卡長(20~25.5)/CPU高7.5/4面網孔/M-ATX
-1190	750		｛喬思伯 C6 白｝顯卡長(20~25.5)/CPU高7.5/4面網孔/M-ATX
-1490	751		｛喬思伯 C6 MAX 黑｝顯卡長(30~33.5)/CPU高17/玻璃透側/自帶提把/M-ATX
-1490	752		｛喬思伯 C6 MAX 白｝顯卡長(30~33.5)/CPU高17/玻璃透側/自帶提把/M-ATX
-1590	753		｛喬思伯 D31 Mesh 黑｝顯卡長(33~40)/CPU高16.8/玻璃透側/M-ATX
-1590	754		｛喬思伯 D31 Mesh 白｝顯卡長(33~40)/CPU高16.8/玻璃透側/M-ATX
-2190	755		｛喬思伯 D32 Pro Mesh 黑｝顯卡36.5/CPU高(16.3~16.9)/網孔側板/背插(B模式)/M-ATX
-2190	756		｛喬思伯 D32 Pro Mesh 白｝顯卡36.5/CPU高(16.3~16.9)/網孔側板/背插(B模式)/M-ATX
-2190	757		｛喬思伯 D32 Pro 黑｝顯卡36.5/CPU高(16.3~16.9)/玻璃透側/支援背插(B模式)/M-ATX
-2190	758		｛喬思伯 D32 Pro 白｝顯卡36.5/CPU高(16.3~16.9)/玻璃透側/支援背插(B模式)/M-ATX
-3190	759		｛喬思伯 D33 WOOD 黑｝顯卡長43.5/CPU高17.2/玻璃透側/支援背插/M-ATX
-3190	760		｛喬思伯 D33 WOOD 白｝顯卡長43.5/CPU高17.2/玻璃透側/支援背插/M-ATX
-3290	761		｛喬思伯 D34 黑｝顯卡長33.3/CPU高16.5/全景玻璃透側/支援背插/監控面板/M-ATX
-3290	762		｛喬思伯 D34 白｝顯卡長33.3/CPU高16.5/全景玻璃透側/支援背插/監控面板/M-ATX
-2690	763		｛喬思伯 Z20 黑｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
-2690	764		｛喬思伯 Z20 白｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
-2690	765		｛喬思伯 Z20 拼色版 黑橘｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
-2990	766		｛喬思伯 Z20 拼色版 白粉｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
-1990	767		｛喬思伯 D200 黑｝顯卡長41/CPU高17.1/全景曲面玻璃/面板溫度顯示/M-ATX
-1990	768		｛喬思伯 D200 白｝顯卡長41/CPU高17.1/全景曲面玻璃/面板溫度顯示/M-ATX
-2690	769		｛喬思伯 D300(TW) 黑｝顯卡長43/U高18/SL-120風扇*4/全景曲面玻璃/支援背插/M-ATX
-2690	770		｛喬思伯 D300(TW) 白｝顯卡長43/U高18/SL-120風扇*4/全景曲面玻璃/支援背插/M-ATX
-2990	771		｛喬思伯 D400(TW) 黑｝顯卡45/CPU高16.9/SL-120風扇*4/全景曲面玻璃/支援背插/ATX
-2990	772		｛喬思伯 D400(TW) 白｝顯卡45/CPU高16.9/SL-120風扇*4/全景曲面玻璃/支援背插/ATX
-3690	773		｛喬思伯 TK-0 黑｝顯卡長23/CPU高13.7/雙折彎環形玻璃/胡桃木面板/ITX【SFX】
-3690	774		｛喬思伯 TK-0 白｝顯卡長23/CPU高13.7/雙折彎環形玻璃/胡桃木面板/ITX【SFX】
-3990	775		｛喬思伯 TK-1 黑｝顯卡長28/CPU高16.5/雙折彎環形玻璃/支援背插/M-ATX
-3990	776		｛喬思伯 TK-1 白｝顯卡長28/CPU高16.5/雙折彎環形玻璃/支援背插/M-ATX
-4190	777		｛喬思伯 TK-2 V2 黑｝顯卡長40.5/CPU高16.5/雙折彎環形玻璃/ATX
-4190	778		｛喬思伯 TK-2 V2 白｝顯卡長40.5/CPU高16.5/雙折彎環形玻璃/ATX
-2990	779		｛喬思伯 TK-3(TW) 黑｝顯卡長42/U高16.5/SL-120風扇*4/全景曲面玻璃/分艙設計/ATX
-3990	780		｛喬思伯 TK-5 黑｝顯卡長46/CPU高18/雙折彎環形玻璃/支援背插/ATX
-5490	781		｛喬思伯 T9 黑｝顯卡長31/CPU高(5.8~7.8)/PCIe5.0線/胡桃木底座/鋁合金外殼/ITX【SFX】
-5490	782		｛喬思伯 T9 銀｝顯卡長31/CPU高(5.8~7.8)/PCIe5.0線/胡桃木底座/鋁合金外殼/ITX【SFX】
-3990	783		｛喬思伯 V12 黑｝顯卡長26/CPU高14/全景曲面玻璃上蓋/胡桃木飾板/分艙設計/M-ATX
-3990	784		｛喬思伯 V12 白｝顯卡長26/CPU高14/全景曲面玻璃上蓋/胡桃木飾板/分艙設計/M-ATX
-3990	785		｛喬思伯 X400 鈦灰｝顯卡長42.7/CPU高17.6/全景玻璃透側/分艙設計/支援背插/ATX
-3990	786		｛喬思伯 X400 銀白｝顯卡長42.7/CPU高17.6/全景玻璃透側/分艙設計/支援背插/ATX
+3990	742		｛喬思伯 N3｝顯卡長25/CPU高13/3.5*8 硬碟位/NAS推薦/上下分艙/ITX【SFX】
+2990	743		｛喬思伯 N4 黑｝顯卡長23(Low Profile)/U高7/硬碟位3.5*6+2.5*2/NAS推薦/M-ATX【SFX】
+2990	744		｛喬思伯 N4 白｝顯卡長23(Low Profile)/U高7/硬碟位3.5*6+2.5*2/NAS推薦/M-ATX【SFX】
+5990	745		｛喬思伯 N5｝顯卡長35/CPU高16/3.5*12 硬碟位/NAS推薦/上下分艙/E-ATX
+3990	746		｛喬思伯 N6 黑｝顯卡長(27.5~32)/CPU高6.5/3.5*9 硬碟位/NAS推薦/上下分艙/M-ATX
+1190	747		｛喬思伯 C6 黑｝顯卡長(20~25.5)/CPU高7.5/4面網孔/M-ATX
+1190	748		｛喬思伯 C6 白｝顯卡長(20~25.5)/CPU高7.5/4面網孔/M-ATX
+1490	749		｛喬思伯 C6 MAX 黑｝顯卡長(30~33.5)/CPU高17/玻璃透側/自帶提把/M-ATX
+1490	750		｛喬思伯 C6 MAX 白｝顯卡長(30~33.5)/CPU高17/玻璃透側/自帶提把/M-ATX
+1590	751		｛喬思伯 D31 Mesh 黑｝顯卡長(33~40)/CPU高16.8/玻璃透側/M-ATX
+1590	752		｛喬思伯 D31 Mesh 白｝顯卡長(33~40)/CPU高16.8/玻璃透側/M-ATX
+2190	753		｛喬思伯 D32 Pro Mesh 黑｝顯卡36.5/CPU高(16.3~16.9)/網孔側板/背插(B模式)/M-ATX
+2190	754		｛喬思伯 D32 Pro Mesh 白｝顯卡36.5/CPU高(16.3~16.9)/網孔側板/背插(B模式)/M-ATX
+2190	755		｛喬思伯 D32 Pro 黑｝顯卡36.5/CPU高(16.3~16.9)/玻璃透側/支援背插(B模式)/M-ATX
+2190	756		｛喬思伯 D32 Pro 白｝顯卡36.5/CPU高(16.3~16.9)/玻璃透側/支援背插(B模式)/M-ATX
+3190	757		｛喬思伯 D33 WOOD 黑｝顯卡長43.5/CPU高17.2/玻璃透側/支援背插/M-ATX
+3190	758		｛喬思伯 D33 WOOD 白｝顯卡長43.5/CPU高17.2/玻璃透側/支援背插/M-ATX
+3290	759		｛喬思伯 D34 黑｝顯卡長33.3/CPU高16.5/全景玻璃透側/支援背插/監控面板/M-ATX
+3290	760		｛喬思伯 D34 白｝顯卡長33.3/CPU高16.5/全景玻璃透側/支援背插/監控面板/M-ATX
+2690	761		｛喬思伯 Z20 黑｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
+2690	762		｛喬思伯 Z20 白｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
+2690	763		｛喬思伯 Z20 拼色版 黑橘｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
+2990	764		｛喬思伯 Z20 拼色版 白粉｝顯卡長36.3/CPU高16.3/玻璃透側/M-ATX【建議SFX】
+1990	765		｛喬思伯 D200 黑｝顯卡長41/CPU高17.1/全景曲面玻璃/面板溫度顯示/M-ATX
+1990	766		｛喬思伯 D200 白｝顯卡長41/CPU高17.1/全景曲面玻璃/面板溫度顯示/M-ATX
+2690	767		｛喬思伯 D300(TW) 黑｝顯卡長43/U高18/SL-120風扇*4/全景曲面玻璃/支援背插/M-ATX
+2690	768		｛喬思伯 D300(TW) 白｝顯卡長43/U高18/SL-120風扇*4/全景曲面玻璃/支援背插/M-ATX
+2990	769		｛喬思伯 D400(TW) 黑｝顯卡45/CPU高16.9/SL-120風扇*4/全景曲面玻璃/支援背插/ATX
+2990	770		｛喬思伯 D400(TW) 白｝顯卡45/CPU高16.9/SL-120風扇*4/全景曲面玻璃/支援背插/ATX
+3690	771		｛喬思伯 TK-0 黑｝顯卡長23/CPU高13.7/雙折彎環形玻璃/胡桃木面板/ITX【SFX】
+3690	772		｛喬思伯 TK-0 白｝顯卡長23/CPU高13.7/雙折彎環形玻璃/胡桃木面板/ITX【SFX】
+3990	773		｛喬思伯 TK-1 黑｝顯卡長28/CPU高16.5/雙折彎環形玻璃/支援背插/M-ATX
+3990	774		｛喬思伯 TK-1 白｝顯卡長28/CPU高16.5/雙折彎環形玻璃/支援背插/M-ATX
+4190	775		｛喬思伯 TK-2 V2 黑｝顯卡長40.5/CPU高16.5/雙折彎環形玻璃/ATX
+4190	776		｛喬思伯 TK-2 V2 白｝顯卡長40.5/CPU高16.5/雙折彎環形玻璃/ATX
+2990	777		｛喬思伯 TK-3(TW) 黑｝顯卡長42/U高16.5/SL-120風扇*4/全景曲面玻璃/分艙設計/ATX
+3990	778		｛喬思伯 TK-5 黑｝顯卡長46/CPU高18/雙折彎環形玻璃/支援背插/ATX
+5490	779		｛喬思伯 T9 黑｝顯卡長31/CPU高(5.8~7.8)/PCIe5.0線/胡桃木底座/鋁合金外殼/ITX【SFX】
+5490	780		｛喬思伯 T9 銀｝顯卡長31/CPU高(5.8~7.8)/PCIe5.0線/胡桃木底座/鋁合金外殼/ITX【SFX】
+3990	781		｛喬思伯 V12 黑｝顯卡長26/CPU高14/全景曲面玻璃上蓋/胡桃木飾板/分艙設計/M-ATX
+3990	782		｛喬思伯 V12 白｝顯卡長26/CPU高14/全景曲面玻璃上蓋/胡桃木飾板/分艙設計/M-ATX
+3990	783		｛喬思伯 X400 鈦灰｝顯卡長42.7/CPU高17.6/全景玻璃透側/分艙設計/支援背插/ATX
+3990	784		｛喬思伯 X400 銀白｝顯卡長42.7/CPU高17.6/全景玻璃透側/分艙設計/支援背插/ATX
