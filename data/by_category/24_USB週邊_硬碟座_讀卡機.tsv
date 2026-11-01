@@ -6,23 +6,23 @@
 999	5		｛華碩 ESD-A1A 塵霧灰｝Cobble / 雙模 / IP55 / USB-C to C
 1290	6		｛華碩 ESD-T1A｝TUF Gaming A1 / 雙模 / USB-C to C
 1590	8		｛華碩 ESD-S1C Lite｝ROG Strix Arion Lite / NVMe / USB-C to C
-1790	10		｛華碩 ESD-S1C 黑｝ROG Strix Arion / NVMe / 附雙USB線
-1590(原1890)	12	價格異動 下殺	｛華碩 ESD-S1C 白｝ROG Strix Arion / NVMe / 附雙USB線▼下殺到 10/31 23:59
+1411(原1790)	10	價格異動 下殺	｛華碩 ESD-S1C 黑｝ROG Strix Arion / NVMe / 附雙USB線▼下殺到 11/30 23:59
+1890	12		｛華碩 ESD-S1C 白｝ROG Strix Arion / NVMe / 附雙USB線
 1690	14		｛酷碼 Oracle Air｝NVMe / 鋁合金 / 免螺絲快拆設計 / 雙層散熱
 699	15		｛CyberSLIM M2E｝NGFF / NVMe / 灰 / 免螺絲 / USB-A to C
 650	16		｛伽利略 M2NVU35｝黑 / 鋁合金 / 免螺絲 / 翻蓋式 / USB-A、C
 785	17		｛伽利略 M2NVU32｝雙模 / 黑 / 鋁合金 / 免螺絲 / USB-A、C
 900	18		｛伽利略 NV10GB｝鋁合金 / 免螺絲 / 翻蓋式 / USB-A、C
 1170	19		｛銀欣 RVS03｝雙模 / 黑 / USB-C to C
-1100(原1250)	20	價格異動 下殺	｛銀欣 MS13｝雙模 / 黑 / RGB / USB-A、C▼下殺到 10/31 23:59
+1250	20		｛銀欣 MS13｝雙模 / 黑 / RGB / USB-A、C
 499	21		｛KTnet EM500｝NVMe / 黑 / 鋁合金 / USB-C to C
 699	22		｛KTnet EM600｝雙模 / 黑 / 鋁合金 / USB-C to C、A
 599	23		｛Probox HM6-P32C｝NVMe / 銀 / 鋁合金 / USB-C to C
-1590(原1990)	25	價格異動 下殺	｛華碩 ESD-T1W｝TUF Gaming A2 / 雙模 / USB-C to C▼下殺到 10/31 23:59
+1990	25		｛華碩 ESD-T1W｝TUF Gaming A2 / 雙模 / USB-C to C
 2490	27		｛華碩 ESD-S1W｝ROG Strix Aiolos / 雙模 / USB-C to C
 2250	28		｛伽利略 DMC322B｝【雙槽】雙M.2硬碟外接拷貝機 / USB-A、C
-1590(原1850)	30	價格異動 下殺	｛銀欣 MS12｝NVMe / 黑 / 20Gb / USB-C to C▼下殺到 10/31 23:59
-2790	32		｛華碩 ESD-P1NL｝ProArt PA40SU / 四段式智慧風扇
+1850	30		｛銀欣 MS12｝NVMe / 黑 / 20Gb / USB-C to C
+2211(原2790)	32	價格異動 下殺	｛華碩 ESD-P1NL｝ProArt PA40SU / 四段式智慧風扇▼下殺到 11/30 23:59
 3690	33		｛CyberSLIM M2-U4｝NVMe / 黑 / 免螺絲 / USB-C
 1990	34		｛伽利略 M2NVU4F｝鋁合金 / 散熱風扇 / 翻蓋式 / 免螺絲 / USB-C
 2790	35		｛銀欣 MS12-40G｝NVMe / 黑 / 40Gb / USB-C to C
@@ -103,9 +103,9 @@
 699	120		｛Gigastone HUB-P7｝【7Port/USB5G】USB(2A2C) / MicroSD、SD / HDMI
 629	121		｛Gigastone HUB-P870｝【8Port/USB5G】USB(2A2C) / MicroSD / SD / HDMI / RJ-45
 750	122		｛Ktnet T701｝【7Port/USB5G】USB(1A1C) / MicroSD、SD / HDMI / RJ-45
-599	123		｛UNITEK V1126A｝【2Port/USB5G】HDMI 4K60Hz / VGA MST轉接器
-699	124		｛UNITEK D1049A｝【4Port/USB5G】HDMI / VGA / USB(1A1C(PD))
-1399	125		｛UNITEK V1404B｝【2Port/USB5G】雙HDMI 4K60Hz MST轉接器
+499(原599)	123	價格異動 下殺	｛UNITEK V1126A｝【2Port/USB5G】HDMI 4K60Hz / VGA MST轉接器▼下殺到 12/31 23:59
+599(原699)	124	價格異動 下殺	｛UNITEK D1049A｝【4Port/USB5G】HDMI / VGA / USB(1A1C(PD))▼下殺到 12/31 23:59
+1299(原1399)	125	價格異動 下殺	｛UNITEK V1404B｝【2Port/USB5G】雙HDMI 4K60Hz MST轉接器▼下殺到 12/31 23:59
 
 ## Docking Station
 4290	127		｛ASUS ROG Bulwark Dock DG300｝ USB(10G*3A1C) / RJ-45 / HDMI2.1 七合一基座

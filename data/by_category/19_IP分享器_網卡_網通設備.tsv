@@ -127,7 +127,7 @@
 2299	116	熱賣 酷幣100	｛TP-LINK TL-MR6400｝300M/雙天線/SIM卡/4G LTE無線路由器
 2399	117		｛TP-LINK TL-MR6500v｝300M/雙天線/SIM卡/支援VoIP電話/4G LTE無線路由器
 2799	118	熱賣	｛TP-LINK Archer MR400｝AC1200/雙天線/SIM卡/3*100M/4G LTE無線路由器
-3299	119		｛TP-LINK Archer MX700｝AX1500/SIM卡/1Gb/4G LTE無線路由器
+2999(原3299)	119	價格異動 下殺	｛TP-LINK Archer MX700｝AX1500/SIM卡/1Gb/4G LTE無線路由器▼下殺到 11/9 23:59
 3999	120		｛TP-LINK Archer MR600｝AC1200/雙天線/SIM卡/1Gb/4G LTE無線路由器
 3799	121		｛TP-LINK Deco X20-4G｝AX1800/AX Mesh/1Gb/4G LTE 無線路由器
 4999	122		｛TP-LINK Deco X50-4G｝AX3000/AX Mesh/1Gb/4G LTE 無線路由器
@@ -140,7 +140,7 @@
 ## 單頻.無線路由器/AP基地台
 499	129	熱賣	｛TP-LINK TL-WR840N｝300M/雙天線/4*100M/小套房、小坪數適用
 399	130		｛MERCUSYS水星 MW325R｝300M/四天線/4*100M/小套房、學生宿舍適用
-699	131		｛華碩 RT-N12+ B1｝300M/雙天線/4*100M/三年換新
+649(原699)	131	價格異動 下殺	｛華碩 RT-N12+ B1｝300M/雙天線/4*100M/三年換新▼下殺到 11/15 23:59
 
 ## AC Wi-Fi 5 雙頻 系列無線路由器/AP基地台
 649	133		｛TP-LINK Archer C24｝AC750/四天線/4*100M/路由器、基地台、訊號延伸三合一
@@ -148,7 +148,7 @@
 949	135		｛TP-LINK Archer C64｝AC1200/雙頻/四天線/4埠1Gb/MU-MIMO/三年保固
 499	136		｛MERCUSYS水星 AC10｝AC1200/雙頻/四天線/100M*2
 1099	137		｛華碩 RT-AC52｝AC750/雙頻/四天線/4*100M/支援MOD/三年換新
-1199(原1299)	138	價格異動 下殺	｛華碩 RT-AC1200 V2｝AC1200/雙頻/四天線/4*100M/三年換新-[內洽驚喜價]▼下殺到 10/31 23:59
+1199(原1299)	138	價格異動 下殺	｛華碩 RT-AC1200 V2｝AC1200/雙頻/四天線/4*100M/三年換新-[內洽驚喜價]▼下殺到 11/30 23:59
 
 ## Wi-Fi 6 雙頻 / 三頻 系列無線路由器/AP基地台
 1199	140	熱賣	｛TP-LINK Archer AX12｝AX1500/Wi-Fi 6/4*天線/3*1Gb/App簡單設定/入門首選
@@ -156,9 +156,9 @@
 1999	142	熱賣 酷幣100	｛TP-LINK Archer AX53｝AX3000/Wi-Fi 6/4*高功率天線/4*1Gb/支援OneMesh
 3199	143	熱賣	｛TP-LINK EAP610｝AX1800/Wi-Fi 6/吸頂式/1Gb*1/支援PoE/Omada 雲端管理
 1599	144	酷幣200	｛MERCUSYS水星 MR80X｝AX3000/Wi-Fi 6/4*天線/3*1Gb/中文APP
-2290	145		｛華碩 RT-AX1800S｝AX1800/Wi-Fi 6/4*高功率天線/4*1Gb-[內洽驚喜價]
-2299(原2399)	146	價格異動 下殺	｛華碩 RT-AX1800HP｝AX1800/Wi-Fi 6/4*高功率大天線/4*1Gb/三年換新▼下殺到 11/1 23:59
-2499	147		｛華碩 RT-AX3000S｝1.3GHz雙核心/AX3000/雙頻/4*天線/4*1Gb/三年換新
+2099(原2290)	145	價格異動 下殺	｛華碩 RT-AX1800S｝AX1800/Wi-Fi 6/4*高功率天線/4*1Gb▼下殺到 11/15 23:59
+2299(原2399)	146	價格異動 下殺	｛華碩 RT-AX1800HP｝AX1800/Wi-Fi 6/4*高功率大天線/4*1Gb/三年換新▼下殺到 11/15 23:59
+2411(原2499)	147	價格異動 下殺	｛華碩 RT-AX3000S｝1.3GHz雙核心/AX3000/雙頻/4*天線/4*1Gb/三年換新▼下殺到 11/4 23:59
 3411	148	熱賣	｛ZyXEL合勤 NWA50AX｝AX1800/1Gb PoE/手機APP 雲端管理/台灣製造
 4211	149	熱賣	｛ZyXEL合勤 NWA50AX PRO｝AX3000/2.5Gb PoE/手機APP 雲端管理/台灣製造
 3990	150		｛ZyXEL合勤 NWA90AX｝AX1800/1Gb PoE/手機APP 雲端管理/企業級資安防護
@@ -170,14 +170,14 @@
 2999	156		｛TP-LINK Archer AXE75｝AXE5400/Wi-Fi 6E/三頻/6*天線/5*1Gb
 1890	157		｛TP-LINK WR3002X｝AX3000/Wi-Fi 6/雙頻/1*2.5Gb/1*1Gb/便攜式路由器
 2999	158		｛TP-LINK WR3602BE｝BE3600/Wi-Fi 7/雙頻/2*天線/1*2.5Gb/1*1Gb/便攜式路由器
-1990	159		｛TP-LINK Archer BE220｝BE3600/Wi-Fi 7/雙頻/4*天線/4*1Gb
+2099	159	下殺	｛TP-LINK Archer BE220｝BE3600/Wi-Fi 7/雙頻/4*天線/4*1Gb▼下殺到 11/9 23:59
 2799	160		｛TP-LINK Archer BE225｝BE3600/Wi-Fi 7/雙頻/4*天線/4*1Gb/2.5Gb
 2799	161		｛TP-LINK Archer BE230｝BE3600/Wi-Fi 7/雙頻/4*天線/3*1Gb/2.5Gb
 4399	162		｛TP-LINK Archer BE400｝BE6500/Wi-Fi 7/雙頻/6*天線/3*1Gb/2.5Gb
 5599	163	熱賣	｛TP-LINK Archer BE550｝BE9300/Wi-Fi 7/三頻/320MHz頻道/5*2.5Gb/高通晶片
 6999	164		｛TP-LINK Archer BE600｝BE9700/Wi-Fi 7/三頻/320MHz頻道/1*10Gb+4*2.5Gb
 12999	165	熱賣	｛TP-LINK Archer BE805｝BE19000/Wi-Fi 7/三頻/320MHz頻道/2*10Gb/4*1Gb
-2999	167		｛TP-LINK Archer GE230｝BE3600/Wi-Fi 7/雙頻/3*1Gb/1*2.5Gb/遊戲加速技術
+2799(原2999)	167	價格異動 下殺	｛TP-LINK Archer GE230｝BE3600/Wi-Fi 7/雙頻/3*1Gb/1*2.5Gb/遊戲加速技術▼下殺到 11/9 23:59
 6999	168	熱賣 酷幣1000	｛TP-LINK Archer GE550｝BE9300/Wi-Fi 7/三頻/2*5Gb/3*2.5Gb/遊戲加速技術
 14111(原16999)	169	價格異動 下殺	｛TP-LINK Archer GE800｝BE19000/Wi-Fi 7/三頻/8*隱藏天線/2*10Gb/遊戲加速技術▼下殺到 11/1 23:59
 1799	170		｛MERCUSYS水星 MR27BE｝BE3600/雙頻/Wi-Fi 7/4*天線/2*2.5Gb
@@ -189,14 +189,14 @@
 3290	176		｛華碩 RT-BE3600HP｝BE3600/Wi-Fi 7/雙頻/1*2.5Gb/4*1Gb/三年換新
 3699	177		｛華碩 RT-BE58U｝BE3600/Wi-Fi 7/雙頻/1*2.5Gb/4*1Gb/三年換新
 3999(原4099)	178	價格異動 下殺	｛華碩 PRT-BE5000｝BE5000/Wi-Fi 7/5*隱藏天線/雙頻/2*2.5Gb/3*1Gb/三年換新▼下殺到 11/1 23:59
-4999	179		｛華碩 RT-BE82U｝BE6500/Wi-Fi 7/雙頻/4*2.5Gb/三年換新-[內洽驚喜價]
+4611(原4999)	179	價格異動 下殺	｛華碩 RT-BE82U｝BE6500/Wi-Fi 7/雙頻/4*2.5Gb/三年換新▼下殺到 11/5 23:59
 7199	180		｛華碩 RT-BE86U｝BE6800/Wi-Fi 7/雙頻/3*2.5Gb/10Gb/三年換新
 9999	181		｛華碩 RT-BE88U｝BE7200/Wi-Fi 7/雙頻/4*2.5Gb/4*1Gb/1*10Gb RJ45&SFP+
 8699	182		｛華碩 RT-BE92U｝BE9700/Wi-Fi 7/三頻/4*2.5Gb/10Gb/三年換新-[內洽驚喜價]
 12999	183		｛華碩 ROG STRIX GS-BE18000｝Wi-Fi 7/三頻/8*隱藏天線/7*2.5Gb-[內洽驚喜價]
 23990	184		｛華碩 ROG Rapture GT-BE25000｝Wi-Fi 7/四頻/8*天線/4*2.5Gb/雙10Gb[內洽驚喜價]
 25888	185		｛華碩 ROG Rapture GT-BE25000 Edition 20｝Wi-Fi 7/四頻/8*天線/4*2.5Gb/雙10Gb
-27990	186	酷幣500	｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb
+21111(原27990)	186	價格異動 下殺	｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb▼下殺到 11/9 23:59
 3881	187		｛ZyXEL合勤 NWA50BE｝BE5100/2.5Gb PoE/手機APP 雲端管理/台灣製造
 4691	188		｛ZyXEL合勤 NWA50BE PRO ｝BE6500/2.5Gb PoE/手機APP 雲端管理/台灣製造
 5190	189		｛ZyXEL合勤 NWA90BE｝BE5100/2.5Gb PoE/企業級安全防護台灣製造
@@ -216,12 +216,12 @@
 6399	201	熱賣	｛TP-LINK Deco X50 三入組｝AX3000/AX Mesh/隱藏雙天線/1Gb*3
 4999	202		｛TP-LINK Deco BE22 兩入組｝BE3600/雙頻/Mesh WiFi 7/隱藏四天線/1Gb*2
 6799	203		｛TP-LINK Deco BE22 三入組｝BE3600/雙頻/Mesh WiFi 7隱藏四天線/1Gb*2
-5499(原5699)	204	價格異動 下殺	｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 10/31 23:59
-7999	205		｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2
+5699	204	酷幣200	｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2
+7299(原7999)	205	價格異動 下殺	｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 11/9 23:59
 6999	206		｛TP-LINK Deco BE65 單入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
-11999	207	熱賣 酷幣300	｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
+11111(原11999)	207	熱賣 價格異動 下殺	｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4▼下殺到 11/9 23:59
 16999	208	酷幣300	｛TP-LINK Deco BE65 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4
-17999	209	酷幣2000	｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2
+17111(原17999)	209	價格異動 下殺	｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2▼下殺到 11/9 23:59
 32999	210	酷幣5000	｛TP-LINK Deco BE85 兩入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2
 48888	212		｛TP-LINK Deco BE85 三入組｝BE22000/三頻/Mesh WiFi 7/2.5Gb*2/10Gb*2 客訂
 2999	213		｛MERCUSYS水星 Halo H80X 兩入組｝AX3000/Mesh/隱藏雙天線/3*1Gb
@@ -234,7 +234,7 @@
 7999	221		｛華碩 ZENWIFI BT8 單入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb
 14990	222		｛華碩 ZENWIFI BT8 兩入組｝BE14000/Wi-Fi 7/三頻/MESH/隱藏八天線/2.5Gb-[內洽驚喜價]
 12300	223		｛華碩 ZENWIFI BT10 單入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
-24990	224		｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2
+19111(原24990)	224	價格異動 下殺	｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2▼下殺到 11/5 23:59
 1099	225		｛TOTOLINK X30｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*4
 849	226		｛TOTOLINK X30SE｝AX3000/Wi-Fi 6/雙頻/MESH/隱藏四天線/1Gb*1
 1299	227	熱賣	｛TOTOLINK BE3600 一入組｝BE3600/Wi-Fi 7/雙頻/MESH/隱藏四天線/1Gb
@@ -271,10 +271,10 @@
 229	256		｛MERCUSYS水星 MA20N｝AC650/Wi-Fi 5/輕巧迷你型
 229	257		｛MERCUSYS水星 MU6H｝AC650/Wi-Fi 5/高增益可調式天線
 299	258		｛MERCUSYS水星 MA30H｝AC1300/Wi-Fi 5/高增益可式接天線
-549	259		｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新
-1299	260		｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新
+499(原549)	259	價格異動 下殺	｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新▼下殺到 11/15 23:59
+999(原1299)	260	價格異動 下殺	｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新▼下殺到 11/15 23:59
 999	261	熱賣 搭板專案	｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新【任搭價】
-1399(原1699)	262	價格異動 下殺	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/1 23:59
+1399(原1699)	262	價格異動 下殺	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/15 23:59
 1499	263	搭板專案	｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新【任搭價】
 1799	264		｛華碩 USB-BE93 MINI｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新/Type-C
 1999	265		｛華碩 ROG USB-BE92｝BE6500/Wi-Fi 7/三頻/隱藏天線/附延長底座/三年換新

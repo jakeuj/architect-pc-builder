@@ -193,10 +193,13 @@
       },
       {
        "id": 36,
-       "name": "｛ASUS H-VM501MH-0R7260060WB｝R7 260 / 16G / 1T / WIN11 / 黑 / 330W電供",
-       "price": 27900,
-       "list_price": null,
-       "flags": []
+       "name": "｛ASUS H-VM501MH-0R7260060WB｝R7 260 / 16G / 1T / WIN11 / 黑 / 330W電供▼下殺到 11/15 23:59",
+       "price": 27111,
+       "list_price": 27900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 37,
@@ -1165,7 +1168,7 @@
      "items": [
       {
        "id": 222,
-       "name": "｛ASUS V440VAK-10UWPC001W｝23.8吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 10/31 23:59",
+       "name": "｛ASUS V440VAK-10UWPC001W｝23.8吋 / Core 3 100U / 16G / 512G / WIN11 / 白▼下殺到 11/30 23:59",
        "price": 28990,
        "list_price": 29990,
        "flags": [
@@ -1217,7 +1220,7 @@
       },
       {
        "id": 230,
-       "name": "｛ASUS VM670KA-350WPF002W｝27吋 / Ryzen AI 7 350 / 16G / 1T / WIN11 / 白▼下殺到 10/31 23:59",
+       "name": "｛ASUS VM670KA-350WPF002W｝27吋 / Ryzen AI 7 350 / 16G / 1T / WIN11 / 白▼下殺到 11/30 23:59",
        "price": 41990,
        "list_price": 45990,
        "flags": [
@@ -1244,13 +1247,10 @@
      "items": [
       {
        "id": 235,
-       "name": "｛Terra AIO PC 2710HA｝27吋 / Core Ultra 5 225 / 16G / 1T▼下殺到 10/31 23:59",
-       "price": 23900,
-       "list_price": 24900,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛Terra AIO PC 2710HA｝27吋 / Core Ultra 5 225 / 16G / 1T",
+       "price": 24900,
+       "list_price": null,
+       "flags": []
       }
      ]
     },
@@ -1351,10 +1351,13 @@
      "items": [
       {
        "id": 2,
-       "name": "｛ASUS Pad T3201M5A｝雲朵白 / 12.2吋 / 聯發科 MT8792Z 八核 / 8G / 256G / WIFI",
-       "price": 17999,
-       "list_price": null,
-       "flags": []
+       "name": "｛ASUS Pad T3201M5A｝雲朵白 / 12.2吋 / 聯發科 MT8792Z 八核 / 8G / 256G / WIFI▼下殺到 11/15 23:59",
+       "price": 16888,
+       "list_price": 17999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 3,
@@ -4465,13 +4468,10 @@
       },
       {
        "id": 496,
-       "name": "｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】▼下殺到 10/31 23:59",
-       "price": 499,
-       "list_price": 599,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】",
+       "price": 599,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 497,
@@ -11003,10 +11003,13 @@
       },
       {
        "id": 80,
-       "name": "微星｛SPATIUM M560 1TB｝/Gen5/讀10200/寫8400/TLC【五年保】",
-       "price": 8390,
-       "list_price": null,
-       "flags": []
+       "name": "微星｛SPATIUM M560 1TB｝/Gen5/讀10200/寫8400/TLC【五年保】▼下殺到 11/12 23:59",
+       "price": 4999,
+       "list_price": 8390,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 81,
@@ -11372,10 +11375,13 @@
       },
       {
        "id": 130,
-       "name": "MSI 微星｛M480PRO 2TB｝/Gen4/讀7400/寫7000/3D TLC顆粒/DRAM快取【五年保】",
-       "price": 12490,
-       "list_price": null,
-       "flags": []
+       "name": "MSI 微星｛M480PRO 2TB｝/Gen4/讀7400/寫7000/3D TLC顆粒/DRAM快取【五年保】▼下殺到 11/14 23:59",
+       "price": 7999,
+       "list_price": 12490,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 131,
@@ -15631,18 +15637,15 @@
       },
       {
        "id": 32,
-       "name": "｛華碩 ROG RYUJIN III 360 ARGB Extreme 龍神三代｝3.5吋液晶/Asetek8 v2/6年【WXZ】▼下殺到 10/31 20:00",
-       "price": 8888,
-       "list_price": 9790,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛華碩 ROG RYUJIN III 360 ARGB Extreme 龍神三代｝3.5吋液晶/Asetek8 v2/6年【WXZ】",
+       "price": 9790,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 33,
-       "name": "｛華碩 ROG RYUJIN III 360 ARGB Extreme 白龍神｝3.5吋液晶/Asetek8 v2/6年【WXZ】▼下殺到 10/31 20:00",
-       "price": 8888,
+       "name": "｛華碩 ROG RYUJIN III 360 ARGB Extreme 白龍神｝3.5吋液晶/Asetek8 v2/6年【WXZ】▼下殺到 11/30 20:00",
+       "price": 7990,
        "list_price": 9990,
        "flags": [
         "價格異動",
@@ -15862,48 +15865,36 @@
       },
       {
        "id": 68,
-       "name": "｛COUGAR Poseidon Vistek ARGB 240(黑) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 2290,
-       "list_price": 2590,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛COUGAR Poseidon Vistek ARGB 240(黑) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】",
+       "price": 2590,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 69,
-       "name": "｛COUGAR Poseidon Vistek ARGB 240(白) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 2390,
-       "list_price": 2690,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛COUGAR Poseidon Vistek ARGB 240(白) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】",
+       "price": 2690,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 70,
-       "name": "｛COUGAR Poseidon Vistek ARGB 360(黑) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 2690,
-       "list_price": 3090,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛COUGAR Poseidon Vistek ARGB 360(黑) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】",
+       "price": 3090,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 71,
-       "name": "｛COUGAR Poseidon Vistek ARGB 360(白) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 2790,
-       "list_price": 3190,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛COUGAR Poseidon Vistek ARGB 360(白) 水冷｝數位監控螢幕/一體式風扇/5年【WXZ】",
+       "price": 3190,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 72,
-       "name": "｛COUGAR Poseidon Vistek Pro ARGB 240(黑) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 3290,
+       "name": "｛COUGAR Poseidon Vistek Pro ARGB 240(黑) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 11/30 20:00",
+       "price": 2990,
        "list_price": 3590,
        "flags": [
         "價格異動",
@@ -15912,8 +15903,8 @@
       },
       {
        "id": 73,
-       "name": "｛COUGAR Poseidon Vistek Pro ARGB 240(白) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
-       "price": 3390,
+       "name": "｛COUGAR Poseidon Vistek Pro ARGB 240(白) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 11/30 20:00",
+       "price": 3090,
        "list_price": 3690,
        "flags": [
         "價格異動",
@@ -15922,7 +15913,7 @@
       },
       {
        "id": 74,
-       "name": "｛COUGAR Poseidon Vistek Pro ARGB 360(黑) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Poseidon Vistek Pro ARGB 360(黑) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 11/30 20:00",
        "price": 3890,
        "list_price": 4290,
        "flags": [
@@ -15932,7 +15923,7 @@
       },
       {
        "id": 75,
-       "name": "｛COUGAR Poseidon Vistek Pro ARGB 360(白) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Poseidon Vistek Pro ARGB 360(白) 水冷｝3.95吋液晶/一體式風扇/5年【WXZ】▼下殺到 11/30 20:00",
        "price": 3990,
        "list_price": 4390,
        "flags": [
@@ -16707,23 +16698,17 @@
       },
       {
        "id": 203,
-       "name": "｛NZXT Kraken Plus 240 RGB 黑 水冷｝1.54吋液晶/一體式風扇/6年【WXZ】▼下殺到 10/31 20:00",
-       "price": 4990,
-       "list_price": 5590,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛NZXT Kraken Plus 240 RGB 黑 水冷｝1.54吋液晶/一體式風扇/6年【WXZ】",
+       "price": 5590,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 204,
-       "name": "｛NZXT Kraken Plus 240 RGB 白 水冷｝1.54吋液晶/一體式風扇/6年【WXZ】▼下殺到 10/31 20:00",
-       "price": 4990,
-       "list_price": 5590,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛NZXT Kraken Plus 240 RGB 白 水冷｝1.54吋液晶/一體式風扇/6年【WXZ】",
+       "price": 5590,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 205,
@@ -19792,13 +19777,10 @@
       },
       {
        "id": 94,
-       "name": "｛PHILIPS 242V8AB｝〈1A1H1P/IPS〉台灣製造▼下殺到 10/31 23:59",
-       "price": 2988,
-       "list_price": 3388,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛PHILIPS 242V8AB｝〈1A1H1P/IPS〉台灣製造",
+       "price": 3388,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 95,
@@ -21118,10 +21100,13 @@
       },
       {
        "id": 297,
-       "name": "｛MSI PRO MP273QP E14｝〈2H1P/IPS/144Hz/含喇叭/HDR400〉可升降旋轉 (獨家款)",
-       "price": 4688,
-       "list_price": null,
-       "flags": []
+       "name": "｛MSI PRO MP273QP E14｝〈2H1P/IPS/144Hz/含喇叭/HDR400〉可升降旋轉 (獨家款)▼下殺到 11/22 23:59",
+       "price": 4111,
+       "list_price": 4688,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 298,
@@ -22646,10 +22631,13 @@
       },
       {
        "id": 514,
-       "name": "｛華碩 ROG Swift PG27UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz 雙模式",
-       "price": 34888,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 ROG Swift PG27UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz 雙模式▼下殺到 11/11 23:59",
+       "price": 29888,
+       "list_price": 34888,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -23454,10 +23442,13 @@
       },
       {
        "id": 651,
-       "name": "｛華碩 ROG Swift PG32UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz",
-       "price": 37888,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 ROG Swift PG32UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz▼下殺到 11/11 23:59",
+       "price": 33888,
+       "list_price": 37888,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 652,
@@ -24309,10 +24300,13 @@
      "items": [
       {
        "id": 792,
-       "name": "｛BenQ GV50｝雷射/1080P/500 ANSI 智慧微型投影機 *送專用收納包",
-       "price": 20900,
-       "list_price": null,
-       "flags": []
+       "name": "｛BenQ GV50｝雷射/1080P/500 ANSI 智慧微型投影機 *送專用收納包▼下殺到 11/15 23:59",
+       "price": 19900,
+       "list_price": 20900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 793,
@@ -24344,15 +24338,18 @@
       },
       {
        "id": 799,
-       "name": "｛BenQ TK705I｝4K/3000 ANSI 智慧調光投影機 *隨貨附專用收納包",
-       "price": 40900,
-       "list_price": null,
-       "flags": []
+       "name": "｛BenQ TK705I｝4K/3000 ANSI 智慧調光投影機 *隨貨附專用收納包▼下殺到 11/15 23:59",
+       "price": 37900,
+       "list_price": 40900,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 801,
-       "name": "｛BenQ TK705STI｝4K/3000 ANSI 短焦智慧調光投影機 *隨貨附專用收納包▼下殺到 10/31 23:59",
-       "price": 41900,
+       "name": "｛BenQ TK705STI｝4K/3000 ANSI 短焦智慧調光投影機 *隨貨附專用收納包▼下殺到 11/15 23:59",
+       "price": 39900,
        "list_price": 43900,
        "flags": [
         "價格異動",
@@ -25661,37 +25658,35 @@
       },
       {
        "id": 86,
-       "name": "｛華碩 ProArt PA401 Wood 黑色 透側版｝卡31.5/U16/玻璃透側/ATX 送 ESD-A1A(灰)外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ProArt PA401 Wood 黑色 透側版 TG｝顯卡長31.5/CPU高16/玻璃透側/ATX",
        "price": 2990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 87,
-       "name": "｛華碩 ProArt PA401 Wood 黑色 網狀版｝卡31.5/U16/網孔側板/ATX 送 ESD-A1A(灰)外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ProArt PA401 Wood 黑色 網狀版 Mesh｝顯卡長31.5/CPU高16/網孔側板/ATX",
        "price": 2890,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 88,
-       "name": "｛華碩 ProArt PA401 Wood 燕麥色 透側版｝卡31.5/U16/玻璃透側/ATX 送 ESD-A1A(灰)外接盒▼下殺到 10/31 20:00",
-       "price": 3290,
-       "list_price": null,
+       "name": "｛華碩 ProArt PA401 Wood 燕麥色 透側版 TG｝顯卡長31.5/CPU高16/玻璃透側/ATX▼下殺到 11/30 20:00",
+       "price": 2990,
+       "list_price": 3290,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
       {
        "id": 89,
-       "name": "｛華碩 ProArt PA401 Wood 燕麥色 網狀版｝卡31.5/U16/網孔側板/ATX 送 ESD-A1A(灰)外接盒▼下殺到 10/31 20:00",
-       "price": 3290,
-       "list_price": null,
+       "name": "｛華碩 ProArt PA401 Wood 燕麥色 網狀版 Mesh｝顯卡長31.5/CPU高16/網孔側板/ATX▼下殺到 11/30 20:00",
+       "price": 2990,
+       "list_price": 3290,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
@@ -25718,39 +25713,34 @@
       },
       {
        "id": 93,
-       "name": "｛華碩 ROG Strix Helios II GX601S 黑｝顯卡長45/雙玻璃透側/E-ATX 送 ESD-S1C(黑)外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG Strix Helios II GX601S 黑｝顯卡長45/CPU高19/雙玻璃透側/E-ATX",
        "price": 9490,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 94,
-       "name": "｛華碩 ROG Strix Helios II GX601S 白｝顯卡長45/雙玻璃透側/E-ATX 送 ESD-S1C(白)外接盒▼下殺到 10/31 20:00",
-       "price": 9890,
-       "list_price": null,
+       "name": "｛華碩 ROG Strix Helios II GX601S 白｝顯卡長45/CPU高19/雙玻璃透側/E-ATX▼下殺到 11/30 20:00",
+       "price": 7990,
+       "list_price": 9890,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
       {
        "id": 95,
-       "name": "｛華碩 ROG Hyperion GR701 創世神 黑｝顯卡長46/玻璃透側/E-ATX 送 ESD-S1C(黑)外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG Hyperion GR701 創世神 黑｝顯卡長46/CPU高19/玻璃透側/E-ATX",
        "price": 13990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 96,
-       "name": "｛華碩 ROG Hyperion GR701 創世神 白｝顯卡長46/玻璃透側/E-ATX 送 ESD-S1C(白)外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG Hyperion GR701 創世神 白｝顯卡長46/CPU高19/玻璃透側/E-ATX",
        "price": 14990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 97,
@@ -26969,7 +26959,7 @@
       },
       {
        "id": 269,
-       "name": "｛COUGAR MX600 RGB 黑｝顯卡長40/CPU高18/玻璃透側/方形進氣孔/E-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR MX600 RGB 黑｝顯卡長40/CPU高18/玻璃透側/方形進氣孔/E-ATX▼下殺到 11/30 20:00",
        "price": 2790,
        "list_price": 3290,
        "flags": [
@@ -26979,7 +26969,7 @@
       },
       {
        "id": 270,
-       "name": "｛COUGAR MX600 RGB 白｝顯卡長40/CPU高18/玻璃透側/方形進氣孔/E-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR MX600 RGB 白｝顯卡長40/CPU高18/玻璃透側/方形進氣孔/E-ATX▼下殺到 11/30 20:00",
        "price": 2890,
        "list_price": 3390,
        "flags": [
@@ -27049,31 +27039,43 @@
       },
       {
        "id": 279,
-       "name": "｛COUGAR CFV235 黑｝顯卡長43/CPU高17.5/懸浮式架構/全景玻璃透側/背插/ATX",
-       "price": 3890,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR CFV235 黑｝顯卡長43/CPU高17.5/懸浮式架構/全景玻璃透側/背插/ATX▼下殺到 11/30 20:00",
+       "price": 2790,
+       "list_price": 3890,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 280,
-       "name": "｛COUGAR CFV235 白｝顯卡長43/CPU高17.5/懸浮式架構/全景玻璃透側/背插/ATX",
-       "price": 3990,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR CFV235 白｝顯卡長43/CPU高17.5/懸浮式架構/全景玻璃透側/背插/ATX▼下殺到 11/30 20:00",
+       "price": 2890,
+       "list_price": 3990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 281,
-       "name": "｛COUGAR CFV235 Mesh 黑｝顯卡長40/CPU高17.5/懸浮式架構/玻璃透側/背插/ATX",
-       "price": 4090,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR CFV235 Mesh 黑｝顯卡長40/CPU高17.5/懸浮式架構/玻璃透側/背插/ATX▼下殺到 11/30 20:00",
+       "price": 2990,
+       "list_price": 4090,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 282,
-       "name": "｛COUGAR CFV235 Mesh 白｝ 顯卡長40/CPU高17.5/懸浮式架構/玻璃透側/背插/ATX",
-       "price": 4190,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR CFV235 Mesh 白｝ 顯卡長40/CPU高17.5/懸浮式架構/玻璃透側/背插/ATX▼下殺到 11/30 20:00",
+       "price": 3090,
+       "list_price": 4190,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 283,
@@ -27095,7 +27097,7 @@
       },
       {
        "id": 285,
-       "name": "｛COUGAR Duoface Pro RGB 黑｝卡39/U高19/雙面板/可拆上蓋,面板架/玻璃透側/E-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Duoface Pro RGB 黑｝卡39/U高19/雙面板/可拆上蓋,面板架/玻璃透側/E-ATX▼下殺到 11/30 20:00",
        "price": 2390,
        "list_price": 2890,
        "flags": [
@@ -27105,7 +27107,7 @@
       },
       {
        "id": 286,
-       "name": "｛COUGAR Duoface Pro RGB 白｝卡39/U高19/雙面板/可拆上蓋,面板架/玻璃透側/E-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Duoface Pro RGB 白｝卡39/U高19/雙面板/可拆上蓋,面板架/玻璃透側/E-ATX▼下殺到 11/30 20:00",
        "price": 2490,
        "list_price": 2990,
        "flags": [
@@ -27115,7 +27117,7 @@
       },
       {
        "id": 287,
-       "name": "｛COUGAR Uniface Mini RGB 黑｝顯卡長34/CPU高16/玻璃透側/M-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Uniface Mini RGB 黑｝顯卡長34/CPU高16/玻璃透側/M-ATX 原價$1790▼下殺到 11/30 20:00",
        "price": 1190,
        "list_price": 1490,
        "flags": [
@@ -27139,7 +27141,7 @@
       },
       {
        "id": 290,
-       "name": "｛COUGAR Uniface RGB 白｝顯卡長40/CPU高18/玻璃透側/E-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR Uniface RGB 白｝顯卡長40/CPU高18/玻璃透側/E-ATX 原價$2690！▼下殺到 11/30 20:00",
        "price": 1890,
        "list_price": 2190,
        "flags": [
@@ -27149,7 +27151,7 @@
       },
       {
        "id": 291,
-       "name": "｛COUGAR FV150 Mini RGB 黑｝顯卡40/U高17/定光扇*3/分艙/全景玻璃/背插/M-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR FV150 Mini RGB 黑｝顯卡40/U高17/定光扇*3/分艙/全景玻璃/背插/M-ATX▼下殺到 11/30 20:00",
        "price": 1190,
        "list_price": 1490,
        "flags": [
@@ -27159,7 +27161,7 @@
       },
       {
        "id": 292,
-       "name": "｛COUGAR FV150 Mini RGB 白｝顯卡40/U高17/定光扇*3/分艙/全景玻璃/背插/M-ATX▼下殺到 10/31 20:00",
+       "name": "｛COUGAR FV150 Mini RGB 白｝顯卡40/U高17/定光扇*3/分艙/全景玻璃/背插/M-ATX▼下殺到 11/30 20:00",
        "price": 1290,
        "list_price": 1590,
        "flags": [
@@ -27176,17 +27178,23 @@
       },
       {
        "id": 294,
-       "name": "｛COUGAR FV150 RGB 黑｝顯卡長40/CPU高18/分艙設計/全景玻璃透側/ATX",
-       "price": 2290,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR FV150 RGB 黑｝顯卡長40/CPU高18/分艙設計/全景玻璃透側/ATX▼下殺到 11/30 20:00",
+       "price": 1990,
+       "list_price": 2290,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 295,
-       "name": "｛COUGAR FV150 RGB 白｝顯卡長40/CPU高18/分艙設計/全景玻璃透側/ATX",
-       "price": 2390,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR FV150 RGB 白｝顯卡長40/CPU高18/分艙設計/全景玻璃透側/ATX▼下殺到 11/30 20:00",
+       "price": 2090,
+       "list_price": 2390,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 296,
@@ -27197,17 +27205,23 @@
       },
       {
        "id": 297,
-       "name": "｛COUGAR OmnyX 黑｝顯卡長38/U高17/玻璃透側/對稱式設計/雙向滑軌I/O/背插/ATX",
-       "price": 4890,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR OmnyX 黑｝顯卡長38/U高17/玻璃透側/對稱式設計/雙向滑軌I/O/背插/ATX▼下殺到 11/30 20:00",
+       "price": 3790,
+       "list_price": 4890,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 298,
-       "name": "｛COUGAR OmnyX 白｝顯卡長38/U高17/玻璃透側/對稱式設計/雙向滑軌I/O/背插/ATX",
-       "price": 4990,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR OmnyX 白｝顯卡長38/U高17/玻璃透側/對稱式設計/雙向滑軌I/O/背插/ATX▼下殺到 11/30 20:00",
+       "price": 3890,
+       "list_price": 4990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 299,
@@ -28069,10 +28083,13 @@
       },
       {
        "id": 422,
-       "name": "｛Fractal Design Epoch TG 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-02)",
-       "price": 3590,
-       "list_price": null,
-       "flags": []
+       "name": "｛Fractal Design Epoch TG 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-02)▼下殺到 11/30 20:00",
+       "price": 2990,
+       "list_price": 3590,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 423,
@@ -28083,11 +28100,12 @@
       },
       {
        "id": 424,
-       "name": "｛Fractal Design Epoch TG RGB 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-04)",
-       "price": 4390,
-       "list_price": null,
+       "name": "｛Fractal Design Epoch TG RGB 黑｝淺色玻璃/顯卡長37.2/CPU高17/ATX(EPO1A-04)▼下殺到 11/30 20:00",
+       "price": 3690,
+       "list_price": 4390,
        "flags": [
-        "酷幣300"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -29743,13 +29761,10 @@
       },
       {
        "id": 666,
-       "name": "｛NZXT H6 Flow 黑｝顯卡36.5/CPU高16.3/全景玻璃/傾斜前風扇/分艙/ATX(H61FB-01)▼下殺到 10/31 20:00",
-       "price": 2990,
-       "list_price": 3490,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛NZXT H6 Flow 黑｝顯卡36.5/CPU高16.3/全景玻璃/傾斜前風扇/分艙/ATX(H61FB-01)",
+       "price": 3490,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 667,
@@ -30860,65 +30875,58 @@
       },
       {
        "id": 55,
-       "name": "｛華碩 TUF GAMING 850W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
+       "name": "｛華碩 TUF GAMING 850W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保",
        "price": 4390,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 56,
-       "name": "｛華碩 TUF GAMING 1000W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
+       "name": "｛華碩 TUF GAMING 1000W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保",
        "price": 4990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 57,
-       "name": "｛華碩 TUF GAMING 1200W 白金｝全模組/ATX3.1(PCIe 5.1)/8年 送 Herculx 顯卡支架(黑)▼下殺到 10/31 20:00",
-       "price": 5990,
-       "list_price": null,
+       "name": "｛華碩 TUF GAMING 1200W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保▼下殺到 11/30 20:00",
+       "price": 4990,
+       "list_price": 5990,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
       {
        "id": 58,
-       "name": "｛華碩 ROG STRIX 1000W 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG STRIX 1000W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保",
        "price": 6490,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 59,
-       "name": "｛華碩 ROG STRIX 1000W(白色) 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG STRIX 1000W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年保",
        "price": 6590,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 60,
-       "name": "｛華碩 ROG STRIX 1200W 白金(Equalizer｝全模/ATX3.1(PCIe 5.1) 送 ESD-T1W外接盒▼下殺到 10/31 20:00",
+       "name": "｛華碩 ROG STRIX 1200W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保",
        "price": 7490,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 62,
-       "name": "｛華碩 ROG THOR III 1000W｝雙8/白金/全模組/OLED監控/ATX3.1(PCIe 5.1)/10年保",
-       "price": 10490,
-       "list_price": null,
+       "name": "｛華碩 ROG THOR III 1000W｝雙8/白金/全模組/OLED監控/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00",
+       "price": 9999,
+       "list_price": 10490,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -31356,14 +31364,17 @@
       },
       {
        "id": 129,
-       "name": "｛COUGAR GR 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/壓紋線/10年保",
-       "price": 3890,
-       "list_price": null,
-       "flags": []
+       "name": "｛COUGAR GR 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/壓紋線/10年保▼下殺到 11/30 20:00",
+       "price": 3590,
+       "list_price": 3890,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 130,
-       "name": "｛COUGAR GEX PRO 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 10/31 20:00",
+       "name": "｛COUGAR GEX PRO 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00",
        "price": 3090,
        "list_price": 3590,
        "flags": [
@@ -31373,7 +31384,7 @@
       },
       {
        "id": 131,
-       "name": "｛COUGAR POLAR X2 1050W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 10/31 20:00",
+       "name": "｛COUGAR POLAR X2 1050W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00",
        "price": 4990,
        "list_price": 5990,
        "flags": [
@@ -31383,7 +31394,7 @@
       },
       {
        "id": 132,
-       "name": "｛COUGAR POLAR X2 1200W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 10/31 20:00",
+       "name": "｛COUGAR POLAR X2 1200W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00",
        "price": 5990,
        "list_price": 6990,
        "flags": [
@@ -32628,33 +32639,24 @@
       },
       {
        "id": 322,
-       "name": "｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保▼下殺到 10/31 20:00",
-       "price": 3790,
-       "list_price": 4790,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保",
+       "price": 4790,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 323,
-       "name": "｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
-       "price": 3690,
-       "list_price": 4390,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年",
+       "price": 4390,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 324,
-       "name": "｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 10/31 20:00",
-       "price": 4590,
-       "list_price": 5290,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年",
+       "price": 5290,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 325,
@@ -33326,7 +33328,7 @@
       },
       {
        "id": 46,
-       "name": "｛華碩 ProArt PF120(黑) 效能扇/三顆裝｝厚28mm/LCP扇葉/獨家串接頭/轉速控制器/5年保▼下殺到 10/31 20:00",
+       "name": "｛華碩 ProArt PF120(黑) 效能扇/三顆裝｝厚28mm/LCP扇葉/獨家串接頭/轉速控制器/5年保▼下殺到 11/30 20:00",
        "price": 2190,
        "list_price": 2590,
        "flags": [
@@ -33343,7 +33345,7 @@
       },
       {
        "id": 48,
-       "name": "｛華碩 ProArt PF120(白) 效能扇/三顆裝｝厚28mm/LCP扇葉/獨家串接頭/轉速控制器/5年保▼下殺到 10/31 20:00",
+       "name": "｛華碩 ProArt PF120(白) 效能扇/三顆裝｝厚28mm/LCP扇葉/獨家串接頭/轉速控制器/5年保▼下殺到 11/30 20:00",
        "price": 2190,
        "list_price": 2590,
        "flags": [
@@ -35474,20 +35476,24 @@
       },
       {
        "id": 14,
-       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb",
-       "price": 2990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb▼下殺到 11/30 23:59",
+       "price": 2790,
+       "list_price": 2990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 15,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -36501,35 +36507,41 @@
       },
       {
        "id": 157,
-       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/白色/茶軸/中文/鋁底/無鋼板",
+       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/白色/茶軸/中文/鋁底/無鋼板▼下殺到 11/30 23:59",
        "price": 1990,
        "list_price": null,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "下殺"
        ]
       },
       {
        "id": 158,
-       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/白色/靜音紅軸/中文/鋁底/無鋼板",
+       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/白色/靜音紅軸/中文/鋁底/無鋼板▼下殺到 11/30 23:59",
        "price": 1990,
        "list_price": null,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "下殺"
        ]
       },
       {
        "id": 159,
-       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/黑色/茶軸/中文/鋁底/無鋼板",
+       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/黑色/茶軸/中文/鋁底/無鋼板▼下殺到 11/30 23:59",
        "price": 1990,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       },
       {
        "id": 160,
-       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/黑色/靜音紅軸/中文/鋁底/無鋼板",
+       "name": "｛Cherry Mx Board 3.0s｝Mx2a 機械式鍵盤/有線/黑色/靜音紅軸/中文/鋁底/無鋼板▼下殺到 11/30 23:59",
        "price": 1990,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       },
       {
        "id": 163,
@@ -36664,75 +36676,97 @@
       },
       {
        "id": 182,
-       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(金箍棒)/有線/無線/藍牙/75%配置/紅軸/中文/熱插拔/Rgb",
-       "price": 2990,
-       "list_price": null,
-       "flags": []
+       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(金箍棒)/有線/無線/藍牙/75%配置/紅軸/中文/熱插拔/Rgb▼下殺到 11/30 23:59",
+       "price": 2790,
+       "list_price": 2990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 183,
-       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(金箍棒)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb",
-       "price": 2990,
-       "list_price": null,
-       "flags": []
+       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(金箍棒)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb▼下殺到 11/30 23:59",
+       "price": 2790,
+       "list_price": 2990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 184,
-       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/紅軸/中文/熱插拔/Rgb",
-       "price": 2990,
-       "list_price": null,
-       "flags": []
+       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/紅軸/中文/熱插拔/Rgb▼下殺到 11/30 23:59",
+       "price": 2790,
+       "list_price": 2990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 185,
-       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb",
-       "price": 2990,
-       "list_price": null,
-       "flags": []
+       "name": "｛Cherry Pixiu75｝Mx2a 三模鍵盤(渾天綾)/有線/無線/藍牙/75%配置/茶軸/中文/熱插拔/Rgb▼下殺到 11/30 23:59",
+       "price": 2790,
+       "list_price": 2990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 186,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 187,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/紅軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(烈焰紅霧)/有線8k/無線4k/藍牙/紅軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 188,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/茶軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 189,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/紅軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/紅軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 190,
-       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/靜音紅軸/中文/熱插拔",
-       "price": 4990,
-       "list_price": null,
+       "name": "｛Cherry Pixiu98｝Rgb Mx2a 三模鍵盤(冰晶雪霧)/有線8k/無線4k/藍牙/靜音紅軸/中文/熱插拔▼下殺到 11/30 23:59",
+       "price": 4690,
+       "list_price": 4990,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -39424,31 +39458,24 @@
       },
       {
        "id": 554,
-       "name": "｛Cougar E-Ares 120｝電競桌-電動升降/四組高度記憶/安全防護設計/承載80公斤/Rgb▼下殺到 10/31 23:59",
-       "price": 9990,
-       "list_price": 12990,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛Cougar E-Ares 120｝電競桌-電動升降/四組高度記憶/安全防護設計/承載80公斤/Rgb",
+       "price": 12990,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 555,
-       "name": "｛Cougar E-Star 120｝電競桌-電動升降(黑色)/2組高度記憶/仿碳纖維桌面/承載60公斤▼下殺到 10/31 23:59",
+       "name": "｛Cougar E-Star 120｝電競桌-電動升降(黑色)/2組高度記憶/仿碳纖維桌面/承載60公斤",
        "price": 8990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 556,
-       "name": "｛Cougar E-Star 120｝電競桌-電動升降(白色)/2組高度記憶/仿碳纖維桌面/承載60公斤▼下殺到 10/31 23:59",
+       "name": "｛Cougar E-Star 120｝電競桌-電動升降(白色)/2組高度記憶/仿碳纖維桌面/承載60公斤",
        "price": 8990,
        "list_price": null,
-       "flags": [
-        "下殺"
-       ]
+       "flags": []
       },
       {
        "id": 557,
@@ -39757,13 +39784,11 @@
       },
       {
        "id": 610,
-       "name": "｛Cougar Overlord Neo｝電競椅-沙發/搖動、傾仰、旋轉/椅背貓耳造型/坐墊採用仿皮質感布料▼下殺到 10/31 23:59",
-       "price": 12990,
-       "list_price": 14990,
+       "name": "｛Cougar Overlord Neo｝電競椅-沙發/搖動、傾仰、旋轉/椅背貓耳造型/坐墊採用仿皮質感布料",
+       "price": 14990,
+       "list_price": null,
        "flags": [
-        "熱賣",
-        "價格異動",
-        "下殺"
+        "熱賣"
        ]
       },
       {
@@ -39777,23 +39802,20 @@
       },
       {
        "id": 612,
-       "name": "｛Cougar Magus｝電競椅-電動沙發(黑)/透氣仿亞麻布料/270° 自由旋轉底座/大尺寸▼下殺到 10/31 23:59",
-       "price": 17990,
-       "list_price": 20990,
+       "name": "｛Cougar Magus｝電競椅-電動沙發(黑)/透氣仿亞麻布料/270° 自由旋轉底座/大尺寸",
+       "price": 20990,
+       "list_price": null,
        "flags": [
-        "熱賣",
-        "價格異動",
-        "下殺"
+        "熱賣"
        ]
       },
       {
        "id": 613,
-       "name": "｛Cougar Magus Gray｝電競椅-電動沙發(灰)/透氣仿亞麻布料/270° 自由旋轉底座/大尺寸▼下殺到 10/31 23:59",
-       "price": 17990,
+       "name": "｛Cougar Magus Gray｝電競椅-電動沙發(灰)/透氣仿亞麻布料/270° 自由旋轉底座/大尺寸",
+       "price": 16990,
        "list_price": null,
        "flags": [
-        "熱賣",
-        "下殺"
+        "熱賣"
        ]
       },
       {
@@ -39812,24 +39834,20 @@
       },
       {
        "id": 617,
-       "name": "｛Cougar Fusion Ex｝電競椅(黑)/類麂皮布料/動態連動扶手/腰靠內建於椅背/5cm靜音滾輪▼下殺到 10/31 23:59",
-       "price": 5990,
-       "list_price": 7990,
+       "name": "｛Cougar Fusion Ex｝電競椅(黑)/類麂皮布料/動態連動扶手/腰靠內建於椅背/5cm靜音滾輪",
+       "price": 7990,
+       "list_price": null,
        "flags": [
-        "熱賣",
-        "價格異動",
-        "下殺"
+        "熱賣"
        ]
       },
       {
        "id": 618,
-       "name": "｛Cougar Fusion Ex｝電競椅(白)/類麂皮布料/動態連動扶手/腰靠內建於椅背/5cm靜音滾輪▼下殺到 10/31 23:59",
-       "price": 5990,
-       "list_price": 7990,
+       "name": "｛Cougar Fusion Ex｝電競椅(白)/類麂皮布料/動態連動扶手/腰靠內建於椅背/5cm靜音滾輪",
+       "price": 7990,
+       "list_price": null,
        "flags": [
-        "熱賣",
-        "價格異動",
-        "下殺"
+        "熱賣"
        ]
       },
       {
@@ -39954,22 +39972,20 @@
       },
       {
        "id": 648,
-       "name": "｛Cougar Speeder One｝電競椅(黑色)/透氣網布/2D可調扶手 頭枕/調整腰部支撐與座椅深度▼下殺到 10/31 23:59",
+       "name": "｛Cougar Speeder One｝電競椅(黑色)/透氣網布/2D可調扶手 頭枕/調整腰部支撐與座椅深度",
        "price": 7990,
        "list_price": null,
        "flags": [
-        "熱賣",
-        "下殺"
+        "熱賣"
        ]
       },
       {
        "id": 650,
-       "name": "｛Cougar Speeder One｝電競椅(白色)/透氣網布/2D可調扶手 頭枕/調整腰部支撐與座椅深度▼下殺到 10/31 23:59",
+       "name": "｛Cougar Speeder One｝電競椅(白色)/透氣網布/2D可調扶手 頭枕/調整腰部支撐與座椅深度",
        "price": 7990,
        "list_price": null,
        "flags": [
-        "熱賣",
-        "下殺"
+        "熱賣"
        ]
       },
       {
@@ -39983,13 +39999,11 @@
       },
       {
        "id": 653,
-       "name": "｛Cougar Speeder NEO｝電競椅-人體工學椅/雪尼爾紗線網布(椅背)/3D扶手/隱藏式伸縮腳托▼下殺到 10/31 23:59",
-       "price": 11990,
-       "list_price": 13990,
+       "name": "｛Cougar Speeder NEO｝電競椅-人體工學椅/雪尼爾紗線網布(椅背)/3D扶手/隱藏式伸縮腳托",
+       "price": 13990,
+       "list_price": null,
        "flags": [
-        "熱賣",
-        "價格異動",
-        "下殺"
+        "熱賣"
        ]
       },
       {
@@ -40954,84 +40968,108 @@
       },
       {
        "id": 808,
-       "name": "｛Turtle Beach Rematch Core｝有線搖桿 黑綠/專利音訊控制/人體工學/雙震動馬達",
-       "price": 749,
-       "list_price": null,
-       "flags": []
+       "name": "｛Turtle Beach Rematch Core｝有線搖桿 黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59",
+       "price": 649,
+       "list_price": 749,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 809,
-       "name": "｛Turtle Beach Rematch Core｝有線搖桿 白綠/專利音訊控制/人體工學/雙震動馬達",
-       "price": 749,
-       "list_price": null,
-       "flags": []
+       "name": "｛Turtle Beach Rematch Core｝有線搖桿 白綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59",
+       "price": 649,
+       "list_price": 749,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 810,
-       "name": "｛Turtle Beach Rematch Core｝有線搖桿 迷彩黑綠/專利音訊控制/人體工學/雙震動馬達",
-       "price": 799,
-       "list_price": null,
-       "flags": []
+       "name": "｛Turtle Beach Rematch Core｝有線搖桿 迷彩黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59",
+       "price": 699,
+       "list_price": 799,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 811,
-       "name": "｛Turtle Beach Rematch Core 有線搖桿 迷彩黑橘/專利音訊控制/人體工學/雙震動馬達",
-       "price": 799,
-       "list_price": null,
-       "flags": []
+       "name": "｛Turtle Beach Rematch Core 有線搖桿 迷彩黑橘/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59",
+       "price": 699,
+       "list_price": 799,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 812,
-       "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 黑暗宇宙/專利音訊控制/可自訂遊戲操作",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 黑暗宇宙/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 813,
-       "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 京都之花/專利音訊控制/可自訂遊戲操作",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Rematch Advanced｝有線搖桿 京都之花/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 814,
-       "name": "｛Turtle Beach Afterglow Ignite｝有線搖桿 時光機/專利音訊控制/雙段霍爾效應板機/Rgb",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Afterglow Ignite｝有線搖桿 時光機/專利音訊控制/雙段霍爾效應板機/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 815,
-       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 黑色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 黑色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 816,
-       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 白色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 白色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 817,
-       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 藍色/專利音訊控制/霍爾效應三段可調式扳機/Rgb",
-       "price": 1290,
-       "list_price": null,
+       "name": "｛Turtle Beach Afterglow Wave｝有線搖桿 藍色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1290,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -42509,56 +42547,68 @@
      "items": [
       {
        "id": 183,
-       "name": "｛Turtle Beach PURE SEL｝(黑)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb",
-       "price": 590,
-       "list_price": null,
+       "name": "｛Turtle Beach PURE SEL｝(黑)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb▼下殺到 11/30 23:59",
+       "price": 499,
+       "list_price": 590,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 185,
-       "name": "｛Turtle Beach PURE SEL｝(白)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb",
-       "price": 590,
-       "list_price": null,
+       "name": "｛Turtle Beach PURE SEL｝(白)電競滑鼠/有線/PAW3318/8000Dpi/49克/Rgb▼下殺到 11/30 23:59",
+       "price": 499,
+       "list_price": 590,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 187,
-       "name": "｛Turtle Beach PURE AIR｝(黑)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb",
-       "price": 1390,
-       "list_price": null,
+       "name": "｛Turtle Beach PURE AIR｝(黑)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1390,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 189,
-       "name": "｛Turtle Beach PURE AIR｝(白)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb",
-       "price": 1390,
-       "list_price": null,
+       "name": "｛Turtle Beach PURE AIR｝(白)無線滑鼠/2.4g/藍牙/26000Dpi/TITAN光學開關/Rgb▼下殺到 11/30 23:59",
+       "price": 1111,
+       "list_price": 1390,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 191,
-       "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸",
-       "price": 1590,
-       "list_price": null,
+       "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(黑)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸▼下殺到 11/30 23:59",
+       "price": 1311,
+       "list_price": 1590,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       },
       {
        "id": 193,
-       "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(白)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸",
-       "price": 1590,
-       "list_price": null,
+       "name": "｛Turtle Beach Burst II Air｝ 輕量化三模滑鼠(白)/有線/無線/藍牙/26000Dpi/47g/TITAN光學軸▼下殺到 11/30 23:59",
+       "price": 1311,
+       "list_price": 1590,
        "flags": [
-        "熱賣"
+        "熱賣",
+        "價格異動",
+        "下殺"
        ]
       }
      ]
@@ -45335,10 +45385,13 @@
       },
       {
        "id": 119,
-       "name": "｛TP-LINK Archer MX700｝AX1500/SIM卡/1Gb/4G LTE無線路由器",
-       "price": 3299,
-       "list_price": null,
-       "flags": []
+       "name": "｛TP-LINK Archer MX700｝AX1500/SIM卡/1Gb/4G LTE無線路由器▼下殺到 11/9 23:59",
+       "price": 2999,
+       "list_price": 3299,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 120,
@@ -45423,10 +45476,13 @@
       },
       {
        "id": 131,
-       "name": "｛華碩 RT-N12+ B1｝300M/雙天線/4*100M/三年換新",
-       "price": 699,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 RT-N12+ B1｝300M/雙天線/4*100M/三年換新▼下殺到 11/15 23:59",
+       "price": 649,
+       "list_price": 699,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -45470,7 +45526,7 @@
       },
       {
        "id": 138,
-       "name": "｛華碩 RT-AC1200 V2｝AC1200/雙頻/四天線/4*100M/三年換新-[內洽驚喜價]▼下殺到 10/31 23:59",
+       "name": "｛華碩 RT-AC1200 V2｝AC1200/雙頻/四天線/4*100M/三年換新-[內洽驚喜價]▼下殺到 11/30 23:59",
        "price": 1199,
        "list_price": 1299,
        "flags": [
@@ -45529,14 +45585,17 @@
       },
       {
        "id": 145,
-       "name": "｛華碩 RT-AX1800S｝AX1800/Wi-Fi 6/4*高功率天線/4*1Gb-[內洽驚喜價]",
-       "price": 2290,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 RT-AX1800S｝AX1800/Wi-Fi 6/4*高功率天線/4*1Gb▼下殺到 11/15 23:59",
+       "price": 2099,
+       "list_price": 2290,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 146,
-       "name": "｛華碩 RT-AX1800HP｝AX1800/Wi-Fi 6/4*高功率大天線/4*1Gb/三年換新▼下殺到 11/1 23:59",
+       "name": "｛華碩 RT-AX1800HP｝AX1800/Wi-Fi 6/4*高功率大天線/4*1Gb/三年換新▼下殺到 11/15 23:59",
        "price": 2299,
        "list_price": 2399,
        "flags": [
@@ -45546,10 +45605,13 @@
       },
       {
        "id": 147,
-       "name": "｛華碩 RT-AX3000S｝1.3GHz雙核心/AX3000/雙頻/4*天線/4*1Gb/三年換新",
-       "price": 2499,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 RT-AX3000S｝1.3GHz雙核心/AX3000/雙頻/4*天線/4*1Gb/三年換新▼下殺到 11/4 23:59",
+       "price": 2411,
+       "list_price": 2499,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 148,
@@ -45625,10 +45687,12 @@
       },
       {
        "id": 159,
-       "name": "｛TP-LINK Archer BE220｝BE3600/Wi-Fi 7/雙頻/4*天線/4*1Gb",
-       "price": 1990,
+       "name": "｛TP-LINK Archer BE220｝BE3600/Wi-Fi 7/雙頻/4*天線/4*1Gb▼下殺到 11/9 23:59",
+       "price": 2099,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       },
       {
        "id": 160,
@@ -45678,10 +45742,13 @@
       },
       {
        "id": 167,
-       "name": "｛TP-LINK Archer GE230｝BE3600/Wi-Fi 7/雙頻/3*1Gb/1*2.5Gb/遊戲加速技術",
-       "price": 2999,
-       "list_price": null,
-       "flags": []
+       "name": "｛TP-LINK Archer GE230｝BE3600/Wi-Fi 7/雙頻/3*1Gb/1*2.5Gb/遊戲加速技術▼下殺到 11/9 23:59",
+       "price": 2799,
+       "list_price": 2999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 168,
@@ -45773,10 +45840,13 @@
       },
       {
        "id": 179,
-       "name": "｛華碩 RT-BE82U｝BE6500/Wi-Fi 7/雙頻/4*2.5Gb/三年換新-[內洽驚喜價]",
-       "price": 4999,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 RT-BE82U｝BE6500/Wi-Fi 7/雙頻/4*2.5Gb/三年換新▼下殺到 11/5 23:59",
+       "price": 4611,
+       "list_price": 4999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 180,
@@ -45822,11 +45892,12 @@
       },
       {
        "id": 186,
-       "name": "｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb",
-       "price": 27990,
-       "list_price": null,
+       "name": "｛華碩 ROG Rapture GT-BE19000AI｝Wi-Fi 7/三頻/8*天線/4*2.5Gb/雙10Gb▼下殺到 11/9 23:59",
+       "price": 21111,
+       "list_price": 27990,
        "flags": [
-        "酷幣500"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -45954,20 +46025,22 @@
       },
       {
        "id": 204,
-       "name": "｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 10/31 23:59",
-       "price": 5499,
-       "list_price": 5699,
+       "name": "｛TP-LINK Deco BE25 兩入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2",
+       "price": 5699,
+       "list_price": null,
        "flags": [
-        "價格異動",
-        "下殺"
+        "酷幣200"
        ]
       },
       {
        "id": 205,
-       "name": "｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2",
-       "price": 7999,
-       "list_price": null,
-       "flags": []
+       "name": "｛TP-LINK Deco BE25 三入組｝BE5000/雙頻/Mesh WiFi 7/隱藏四天線/2.5Gb*2▼下殺到 11/9 23:59",
+       "price": 7299,
+       "list_price": 7999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 206,
@@ -45978,12 +46051,13 @@
       },
       {
        "id": 207,
-       "name": "｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4",
-       "price": 11999,
-       "list_price": null,
+       "name": "｛TP-LINK Deco BE65 兩入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/2.5Gb*4▼下殺到 11/9 23:59",
+       "price": 11111,
+       "list_price": 11999,
        "flags": [
         "熱賣",
-        "酷幣300"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -45997,11 +46071,12 @@
       },
       {
        "id": 209,
-       "name": "｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2",
-       "price": 17999,
-       "list_price": null,
+       "name": "｛TP-LINK Deco BE65-POE 三入組｝BE11000/三頻/Mesh WiFi 7/隱藏四天線/5Gb*2▼下殺到 11/9 23:59",
+       "price": 17111,
+       "list_price": 17999,
        "flags": [
-        "酷幣2000"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -46095,10 +46170,13 @@
       },
       {
        "id": 224,
-       "name": "｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2",
-       "price": 24990,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 ZENWIFI BT10 兩入組｝BE18000/Wi-Fi 7/三頻/MESH/隱藏八天線/10Gb*2▼下殺到 11/5 23:59",
+       "price": 19111,
+       "list_price": 24990,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 225,
@@ -46348,17 +46426,23 @@
       },
       {
        "id": 259,
-       "name": "｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新",
-       "price": 549,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 USB-AC53 Nano｝AC1200/Wi-Fi 5/MU-MIMO/三年換新▼下殺到 11/15 23:59",
+       "price": 499,
+       "list_price": 549,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 260,
-       "name": "｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新",
-       "price": 1299,
-       "list_price": null,
-       "flags": []
+       "name": "｛華碩 USB-AX55 Nano｝AX1800/Wi-Fi 6/迷你外型/隱藏天線/三年換新▼下殺到 11/15 23:59",
+       "price": 999,
+       "list_price": 1299,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 261,
@@ -46372,7 +46456,7 @@
       },
       {
        "id": 262,
-       "name": "｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/1 23:59",
+       "name": "｛華碩 USB-BE92 Nano｝BE6500/Wi-Fi 7/三頻/迷你外型/隱藏天線/三年換新▼下殺到 11/15 23:59",
        "price": 1399,
        "list_price": 1699,
        "flags": [
@@ -46605,13 +46689,10 @@
       },
       {
        "id": 10,
-       "name": "｛TP-LINK Tapo C250｝Wi-Fi 攝影機 / 智慧AI偵測與通知 / 4K 8MP / AI自動變焦追蹤▼下殺到 10/31 23:59",
-       "price": 1299,
-       "list_price": 1499,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛TP-LINK Tapo C250｝Wi-Fi 攝影機 / 智慧AI偵測與通知 / 4K 8MP / AI自動變焦追蹤",
+       "price": 1499,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 11,
@@ -46757,10 +46838,13 @@
       },
       {
        "id": 31,
-       "name": "｛TP-LINK Tapo C660 KIT｝ 旋轉式攝影機套組 /4K 8MP/太陽能板/18 倍數碼變焦/AI追蹤",
-       "price": 5999,
-       "list_price": null,
-       "flags": []
+       "name": "｛TP-LINK Tapo C660 KIT｝ 旋轉式攝影機套組 /4K 8MP/太陽能板/18 倍數碼變焦/AI追蹤▼下殺到 11/9 23:59",
+       "price": 5499,
+       "list_price": 5999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 32,
@@ -46804,8 +46888,8 @@
      "items": [
       {
        "id": 38,
-       "name": "｛TP-LINK Tapo C236｝ Wi-Fi 攝影機 / 2K / 五百萬畫素 /智慧AI偵測 / 彩色夜視 / 旋轉功能▼下殺到 10/31 23:59",
-       "price": 1399,
+       "name": "｛TP-LINK Tapo C236｝ Wi-Fi 攝影機 / 2K / 五百萬畫素 /智慧AI偵測 / 彩色夜視 / 旋轉功能▼下殺到 11/9 23:59",
+       "price": 1099,
        "list_price": 1499,
        "flags": [
         "價格異動",
@@ -46823,11 +46907,12 @@
       },
       {
        "id": 40,
-       "name": "｛TP-LINK Tapo C246D｝ Wi-Fi 攝影機 / 2K 3MP雙鏡頭 / 三百萬畫素 /智慧AI偵測 / 彩色夜視",
-       "price": 1999,
-       "list_price": null,
+       "name": "｛TP-LINK Tapo C246D｝ Wi-Fi 攝影機 / 2K 3MP雙鏡頭 / 三百萬畫素 /智慧AI偵測 / 彩色夜視▼下殺到 11/9 23:59",
+       "price": 1899,
+       "list_price": 1999,
        "flags": [
-        "酷幣400"
+        "價格異動",
+        "下殺"
        ]
       },
       {
@@ -49644,20 +49729,20 @@
       },
       {
        "id": 10,
-       "name": "｛華碩 ESD-S1C 黑｝ROG Strix Arion / NVMe / 附雙USB線",
-       "price": 1790,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 12,
-       "name": "｛華碩 ESD-S1C 白｝ROG Strix Arion / NVMe / 附雙USB線▼下殺到 10/31 23:59",
-       "price": 1590,
-       "list_price": 1890,
+       "name": "｛華碩 ESD-S1C 黑｝ROG Strix Arion / NVMe / 附雙USB線▼下殺到 11/30 23:59",
+       "price": 1411,
+       "list_price": 1790,
        "flags": [
         "價格異動",
         "下殺"
        ]
+      },
+      {
+       "id": 12,
+       "name": "｛華碩 ESD-S1C 白｝ROG Strix Arion / NVMe / 附雙USB線",
+       "price": 1890,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 14,
@@ -49703,13 +49788,10 @@
       },
       {
        "id": 20,
-       "name": "｛銀欣 MS13｝雙模 / 黑 / RGB / USB-A、C▼下殺到 10/31 23:59",
-       "price": 1100,
-       "list_price": 1250,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛銀欣 MS13｝雙模 / 黑 / RGB / USB-A、C",
+       "price": 1250,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 21,
@@ -49734,13 +49816,10 @@
       },
       {
        "id": 25,
-       "name": "｛華碩 ESD-T1W｝TUF Gaming A2 / 雙模 / USB-C to C▼下殺到 10/31 23:59",
-       "price": 1590,
-       "list_price": 1990,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛華碩 ESD-T1W｝TUF Gaming A2 / 雙模 / USB-C to C",
+       "price": 1990,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 27,
@@ -49758,20 +49837,20 @@
       },
       {
        "id": 30,
-       "name": "｛銀欣 MS12｝NVMe / 黑 / 20Gb / USB-C to C▼下殺到 10/31 23:59",
-       "price": 1590,
-       "list_price": 1850,
+       "name": "｛銀欣 MS12｝NVMe / 黑 / 20Gb / USB-C to C",
+       "price": 1850,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 32,
+       "name": "｛華碩 ESD-P1NL｝ProArt PA40SU / 四段式智慧風扇▼下殺到 11/30 23:59",
+       "price": 2211,
+       "list_price": 2790,
        "flags": [
         "價格異動",
         "下殺"
        ]
-      },
-      {
-       "id": 32,
-       "name": "｛華碩 ESD-P1NL｝ProArt PA40SU / 四段式智慧風扇",
-       "price": 2790,
-       "list_price": null,
-       "flags": []
       },
       {
        "id": 33,
@@ -50304,24 +50383,33 @@
       },
       {
        "id": 123,
-       "name": "｛UNITEK V1126A｝【2Port/USB5G】HDMI 4K60Hz / VGA MST轉接器",
-       "price": 599,
-       "list_price": null,
-       "flags": []
+       "name": "｛UNITEK V1126A｝【2Port/USB5G】HDMI 4K60Hz / VGA MST轉接器▼下殺到 12/31 23:59",
+       "price": 499,
+       "list_price": 599,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 124,
-       "name": "｛UNITEK D1049A｝【4Port/USB5G】HDMI / VGA / USB(1A1C(PD))",
-       "price": 699,
-       "list_price": null,
-       "flags": []
+       "name": "｛UNITEK D1049A｝【4Port/USB5G】HDMI / VGA / USB(1A1C(PD))▼下殺到 12/31 23:59",
+       "price": 599,
+       "list_price": 699,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 125,
-       "name": "｛UNITEK V1404B｝【2Port/USB5G】雙HDMI 4K60Hz MST轉接器",
-       "price": 1399,
-       "list_price": null,
-       "flags": []
+       "name": "｛UNITEK V1404B｝【2Port/USB5G】雙HDMI 4K60Hz MST轉接器▼下殺到 12/31 23:59",
+       "price": 1299,
+       "list_price": 1399,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -51859,10 +51947,13 @@
       },
       {
        "id": 112,
-       "name": "｛UNITEK V1423B｝Type-C to HDMI 2.1 轉接線 / 8K60Hz / 1.8米",
-       "price": 1299,
-       "list_price": null,
-       "flags": []
+       "name": "｛UNITEK V1423B｝Type-C to HDMI 2.1 轉接線 / 8K60Hz / 1.8米▼下殺到 12/31 23:59",
+       "price": 999,
+       "list_price": 1299,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       }
      ]
     },
@@ -51983,73 +52074,52 @@
       },
       {
        "id": 130,
-       "name": "｛3C Pig HDMI-100｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 1米▼下殺到 10/31 23:59",
-       "price": 95,
-       "list_price": 150,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-100｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 1米",
+       "price": 150,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 131,
-       "name": "｛3C Pig HDMI-200｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 2米▼下殺到 10/31 23:59",
-       "price": 125,
-       "list_price": 199,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-200｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 2米",
+       "price": 199,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 132,
-       "name": "｛3C Pig HDMI-300｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 3米▼下殺到 10/31 23:59",
-       "price": 165,
-       "list_price": 299,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-300｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 3米",
+       "price": 299,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 133,
-       "name": "｛3C Pig HDMI-500｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 5米▼下殺到 10/31 23:59",
-       "price": 215,
-       "list_price": 359,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-500｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 5米",
+       "price": 359,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 134,
-       "name": "｛3C Pig HDMI-800｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 8米▼下殺到 10/31 23:59",
-       "price": 255,
-       "list_price": 459,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-800｝HDMI 2.0 公-公 / 鍍金頭 / 全銅 / 抗干擾磁環 / 8米",
+       "price": 459,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 135,
-       "name": "｛3C Pig HDMI-280｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 2米▼下殺到 10/31 23:59",
-       "price": 340,
-       "list_price": 399,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-280｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 2米",
+       "price": 399,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 136,
-       "name": "｛3C Pig HDMI-380｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 3米▼下殺到 10/31 23:59",
-       "price": 350,
-       "list_price": 499,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
+       "name": "｛3C Pig HDMI-380｝HDMI 2.1 公-公 / 鍍金頭 / 全銅 / 編織線 / 支援8K60Hz / 3米",
+       "price": 499,
+       "list_price": null,
+       "flags": []
       },
       {
        "id": 138,
