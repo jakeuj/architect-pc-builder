@@ -1,6 +1,6 @@
 # 歐飛先生〈每月電腦組裝說明〉「我建議的菜單」段落, 由 scripts/watch_ofey.py 每日比對更新
 # 來源: https://ofeyhong.pixnet.net/blog/posts/12224315583
-# 月份: 2026年10月
+# 月份: 2026年11月
 我建議的菜單 (目前主流是裝雙SSD，不裝HDD)
 參考如下：
 ．U5文書機： U5-225 +32G+1TB SSD+1TB SSD (無顯卡)
