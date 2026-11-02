@@ -1,4 +1,4 @@
-# 12 顯示卡VGA  (報價日期 2026/11/2 15:37)
+# 12 顯示卡VGA  (報價日期 2026/11/2 19:22)
 # price	id	flags	name
 
 ## NVIDIA / AMD 顯示卡周邊配件
@@ -136,11 +136,11 @@
 28990	128	任搭折190	｛技嘉 RTX5060Ti WINDFORCE OC 16G(2587MHz/21cm/雙風扇/註冊四年保)
 29990	129	任搭折190	｛技嘉 RTX5060Ti EAGLE MAX OC 16G｝2617MHz/28cm/三風扇/註冊五年保
 29990	130	任搭折190	｛技嘉 RTX5060Ti EAGLE OC ICE 16G｝2617MHz/22cm/雙風扇/註五年/冰魄白
-30990	131	任搭折190	｛技嘉 RTX5060Ti AERO OC 16G｝白/2647MHz/28cm/三風扇/註五年
-33990	132	任搭折190	｛技嘉 AORUS RTX5060Ti AI BOX｝2572MHz/外接式顯示卡/Thunderbolt 5隨插即用
-28990	133	熱賣 任搭折190	｛微星 RTX5060Ti 16G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂]
-30990	134	任搭折190	｛微星 RTX5060Ti 16G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年
-24488	136	任搭折188	｛INNO3D RTX5060Ti 16GB TWIN X2｝2572MHz/25cm/註四年/雙風扇
+33990	131	任搭折190	｛技嘉 AORUS RTX5060Ti AI BOX｝2572MHz/外接式顯示卡/Thunderbolt 5隨插即用
+28990	132	熱賣 任搭折190	｛微星 RTX5060Ti 16G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂]
+30990	133	任搭折190	｛微星 RTX5060Ti 16G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年
+24488	135	任搭折188	｛INNO3D RTX5060Ti 16GB TWIN X2｝2572MHz/25cm/註四年/雙風扇
+26900	136		｛INNO3D RTX5060Ti PRO 16GB Single Slot｝2572MHz/27cm/註四年/單風扇.單槽
 
 ## NVIDIA RTX5070-12GB(GDDR7)
 32990	138		｛華碩 T1-RTX5070-O12G-GAMING｝2595MHz/31cm/三風扇/註五年/T1冠軍戰隊版
@@ -235,11 +235,12 @@
 31490	223	任搭折290	｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板
 32990	224	熱賣 任搭折190	｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計
 32990	225	任搭折290	｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板
-34490	226	任搭折290	｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白
-30990	227	任搭折190	｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製
-31090	228	任搭折190	｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製
-31490	229	任搭折190	｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板
-32990	230	任搭折190	｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製
+33990	226	任搭折290	｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年
+34490	227	任搭折290	｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白
+30990	228	任搭折190	｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製
+31090	229	任搭折190	｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製
+31490	230	任搭折190	｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板
+32990	231	任搭折190	｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製
 
 ## AMD 專業級/工作站級 顯卡
-69990	232		｛華碩 TURBO AI PRO R9700｝2920MHz/27cm/鼓風扇/註冊四年保
+69990	233		｛華碩 TURBO AI PRO R9700｝2920MHz/27cm/鼓風扇/註冊四年保
