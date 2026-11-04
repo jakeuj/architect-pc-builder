@@ -1,4 +1,4 @@
-# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/11/4 12:58)
+# 28 網路、傳輸線、轉頭｜KVM  (報價日期 2026/11/4 19:16)
 # price	id	flags	name
 
 ## RJ-45 網路線材
@@ -284,18 +284,17 @@
 
 ## 影音分配器
 799	279		｛LINDY 38157｝迷你型 HDMI1.4 10.2G 一進二出分配器 HDMI 一進二出/需外接USB充電
-899	280		｛LINDY 38339_A｝HDMI 8K@60Hz 雙向影像切換器 HDMI 二進一出/手動按鍵切換
-700	281		｛伽利略 HDS102EAS｝【2埠-HDMI】一進二出/4K60Hz/可音源分離
-950	282		｛伽利略 HDS104EAS｝【4埠-HDMI】一進四出/4K60Hz/可音源分離
-934	283		｛ATEN VS4812｝【2埠-HDMI】/一進二出/4K60Hz/True 4K+HDR/一鍵即開關畫面
-1020	284		｛ATEN VS4814｝【4埠-HDMI】/一進四出/4K60Hz/True 4K+HDR/一鍵即開關畫面
-1190	285		｛ATEN VS5812｝【2埠-HDMI】/一進二出/8K 60Hz/4K 120Hz/48Gpbs超高速影音傳輸
-1000	286		｛銀欣 HS12｝【2埠-HDMI】HDMI2.0 一進二出/4K 60Hz/支援HDCP 2.2/USB Type-C 供電
-1750	287		｛銀欣 HS14｝【4埠-HDMI】HDMI2.0 一進四出/4K 60Hz/支援HDCP 2.2/支援HDR10 Dolby Vision
+700	280		｛伽利略 HDS102EAS｝【2埠-HDMI】一進二出/4K60Hz/可音源分離
+950	281		｛伽利略 HDS104EAS｝【4埠-HDMI】一進四出/4K60Hz/可音源分離
+934	282		｛ATEN VS4812｝【2埠-HDMI】/一進二出/4K60Hz/True 4K+HDR/一鍵即開關畫面
+1020	283		｛ATEN VS4814｝【4埠-HDMI】/一進四出/4K60Hz/True 4K+HDR/一鍵即開關畫面
+1190	284		｛ATEN VS5812｝【2埠-HDMI】/一進二出/8K 60Hz/4K 120Hz/48Gpbs超高速影音傳輸
+1000	285		｛銀欣 HS12｝【2埠-HDMI】HDMI2.0 一進二出/4K 60Hz/支援HDCP 2.2/USB Type-C 供電
+1750	286		｛銀欣 HS14｝【4埠-HDMI】HDMI2.0 一進四出/4K 60Hz/支援HDCP 2.2/支援HDR10 Dolby Vision
 
 ## 影音切換器
-249	289		｛伽利略 H4301R｝HDMI 1.4b【3埠-HDMI】支援4K2K/附遙控器/紅外線延長線接收器
-490	290		｛銀欣 HSW21｝【2埠-HDMI】HDMI2.0 4K 二進一出/4K 60Hz/支援HDCP 2.2
-990	291		｛銀欣 HSW41｝【4埠-HDMI】HDMI2.0 4K 四進一出/4K 60Hz/支援HDCP 2.2/紅外線遙控
-774	292		｛ATEN VS5821｝【2埠-HDMI】8K 影音切換器/二進一出/8K 60Hz/4K 120Hz/自動低延遲模式
-950	293		｛ATEN VS4841｝【4埠-HDMI】4K 影音切換器/四進一出/60Hz/附紅外線搖控器
+249	288		｛伽利略 H4301R｝HDMI 1.4b【3埠-HDMI】支援4K2K/附遙控器/紅外線延長線接收器
+490	289		｛銀欣 HSW21｝【2埠-HDMI】HDMI2.0 4K 二進一出/4K 60Hz/支援HDCP 2.2
+990	290		｛銀欣 HSW41｝【4埠-HDMI】HDMI2.0 4K 四進一出/4K 60Hz/支援HDCP 2.2/紅外線遙控
+774	291		｛ATEN VS5821｝【2埠-HDMI】8K 影音切換器/二進一出/8K 60Hz/4K 120Hz/自動低延遲模式
+950	292		｛ATEN VS4841｝【4埠-HDMI】4K 影音切換器/四進一出/60Hz/附紅外線搖控器
