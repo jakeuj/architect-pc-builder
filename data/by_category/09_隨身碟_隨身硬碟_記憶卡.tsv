@@ -1,4 +1,4 @@
-# 09 隨身碟｜隨身硬碟｜記憶卡  (報價日期 2026/11/4 19:16)
+# 09 隨身碟｜隨身硬碟｜記憶卡  (報價日期 2026/11/5 17:21)
 # price	id	flags	name
 
 ## 隨身碟 Type-C
@@ -26,12 +26,12 @@
 799	23		金士頓 DT Exodia S 256G 旋轉帽蓋 / Type-A / USB3.2 G1 / 5年保｛DTXS/256GB｝
 1655	24		金士頓 DT Exodia S 512G 旋轉帽蓋 / Type-A / USB3.2 G1 / 5年保｛DTXS/512GB｝
 209	25		威剛｛UV128 32G｝藍 / Type-A / USB3.2 G1 / 5年保
-239	26		威剛｛UV128 64G｝藍 / Type-A / USB3.2 G1 / 5年保
+269	26		威剛｛UV128 64G｝藍 / Type-A / USB3.2 G1 / 5年保
 429	27		威剛｛UV128 128G｝藍 / Type-A / USB3.2 G1 / 5年保
 999	28		威剛｛UV128 256G｝藍 / Type-A / USB3.2 G1 / 5年保
-379	29		威剛｛UV320 128G｝白 / Type-A / USB3.2 G1 / 5年保
-239	30		威剛｛UC310 64G｝黑 / Type-A / USB3.2 G1 / 5年保
-239	31		威剛｛UC310 64G｝白 / Type-A / USB3.2 G1 / 5年保
+429	29		威剛｛UV320 128G｝白 / Type-A / USB3.2 G1 / 5年保
+269	30		威剛｛UC310 64G｝黑 / Type-A / USB3.2 G1 / 5年保
+269	31		威剛｛UC310 64G｝白 / Type-A / USB3.2 G1 / 5年保
 429	32		威剛｛UC310 128G｝黑 / Type-A / USB3.2 G1 / 5年保
 429	33		威剛｛UC310 128G｝白 / Type-A / USB3.2 G1 / 5年保
 999	34		威剛｛UC310 256G｝黑 / Type-A / USB3.2 G1 / 5年保
@@ -62,12 +62,12 @@
 5099	58		金士頓 Canvas Go 512G micro SDXC / R:200 W:160 / 終保 / 附轉卡｛SDCG4/512GB｝
 309	59		｛威剛 Premier 32G micro SDHC｝R:100 / 終保 / 附轉卡
 429	60		｛威剛 Premier 64G micro SDXC｝R:100 / 終保 / 附轉卡
-609	61		｛威剛 Premier 128G micro SDXC｝R:100 / 終保 / 附轉卡
+699	61		｛威剛 Premier 128G micro SDXC｝R:100 / 終保 / 附轉卡
 1099	62		｛威剛 Premier 256G micro SDXC｝R:100 / 終保 / 附轉卡
 799	64		｛威剛 High Endurance 64G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡
 1499	65		｛威剛 High Endurance 128G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡
 2099	66		｛威剛 High Endurance 256G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡
-3999	67		｛威剛 High Endurance 512G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡
+3799	67		｛威剛 High Endurance 512G micro SDXC｝R:100 / 高耐用 / 3年保 / 附轉卡
 599	68		創見 300S 32G micro SDHC / R:100 / 5年保 / 附轉卡｛TS32GUSD300S-A｝
 680	69		創見 300S 64G micro SDXC / R:100 / 5年保 / 附轉卡｛TS64GUSD300S-A｝
 489	70		｛Lexar 633x 64G｝High-Performance micro SDXC / R:100 / 10年保 / 附轉卡
@@ -153,82 +153,81 @@
 
 ## Micron 隨身SSD碟 Type-C介面
 3399	150		Micron Crucial X9 SSD碟 1TB Type-C傳輸速度 讀取1050MB/s 三年保
-5999	151	熱賣	Micron Crucial X9 SSD碟 2TB Type-C傳輸速度 讀取1050MB/s 三年保
-4475	152		Micron Crucial X10 SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
-7800(原7888)	153	價格異動 下殺	Micron Crucial X10 SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
-15500	154		Micron Crucial X10 SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
-22380	155		Micron Crucial X10 SSD碟 6TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
-28800	156		Micron Crucial X10 SSD碟 8TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
-5200	157		Micron Crucial X10 Pro SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 五年保
-8450	158		Micron Crucial X10 Pro SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 五年保
-17800	159		Micron Crucial X10 Pro SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 五年保
+4475	151		Micron Crucial X10 SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
+7800(原7888)	152	價格異動 下殺	Micron Crucial X10 SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
+15500	153		Micron Crucial X10 SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
+22380	154		Micron Crucial X10 SSD碟 6TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
+28800	155		Micron Crucial X10 SSD碟 8TB Type-C傳輸速度 讀取2100MB/s 三年保 IP65 防水防塵
+5200	156		Micron Crucial X10 Pro SSD碟 1TB Type-C傳輸速度 讀取2100MB/s 五年保
+8450	157		Micron Crucial X10 Pro SSD碟 2TB Type-C傳輸速度 讀取2100MB/s 五年保
+17800	158		Micron Crucial X10 Pro SSD碟 4TB Type-C傳輸速度 讀取2100MB/s 五年保
 
 ## Seagate 隨身SSD碟 Type-C介面
-4888	162	熱賣	Seagate OneTouch SSD碟 1TB(星鑽銀)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援
-4888	163	熱賣	Seagate OneTouch SSD碟 1TB(冰川藍)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援
+4888	161	熱賣	Seagate OneTouch SSD碟 1TB(星鑽銀)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援
+4888	162	熱賣	Seagate OneTouch SSD碟 1TB(冰川藍)Type-C傳輸 讀取1030MB/s 三年保/三年資料救援
 
 ## 三星 Samsung 隨身SSD碟 Type-C介面
-7588	168		三星 Samsung T7 SSD碟 1TB(靛青藍)Type-C傳輸速度 讀取1050MB/s 三年保
-7688	169	熱賣	三星 Samsung T7 Shield SSD碟 1TB(奶茶棕)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
-7688	170	熱賣	三星 Samsung T7 Shield SSD碟 1TB(靛青藍)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
-7688	171	熱賣	三星 Samsung T7 Shield SSD碟 1TB(星空黑)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
-12988	172		三星 Samsung T7 Shield SSD碟 2TB(奶茶棕)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
-12988	173		三星 Samsung T7 Shield SSD碟 2TB(靛青藍)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
-12988	174		三星 Samsung T7 Shield SSD碟 2TB(星空黑)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
+7588	167		三星 Samsung T7 SSD碟 1TB(靛青藍)Type-C傳輸速度 讀取1050MB/s 三年保
+7688	168	熱賣	三星 Samsung T7 Shield SSD碟 1TB(奶茶棕)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
+7688	169	熱賣	三星 Samsung T7 Shield SSD碟 1TB(靛青藍)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
+7688	170	熱賣	三星 Samsung T7 Shield SSD碟 1TB(星空黑)Type-C傳輸 讀取1050MB/s防塵/防水/耐震
+12988	171		三星 Samsung T7 Shield SSD碟 2TB(奶茶棕)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
+12988	172		三星 Samsung T7 Shield SSD碟 2TB(靛青藍)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
+12988	173		三星 Samsung T7 Shield SSD碟 2TB(星空黑)Type-C傳輸 讀取1050MB/s~加送玻璃杯~
 
 ## 2.5吋 - Toshiba 隨身2.5吋硬碟
-7090	176		｛Toshiba Canvio Ready 4TB｝Type-A / 3年保
-3590	177		｛Toshiba Canvio Advance V10 1TB(綠)｝Type-A / 3年保 / 加密.備份軟體
-3590	178		｛Toshiba Canvio Advance V10 1TB(黑)｝Type-A / 3年保 / 加密.備份軟體
-3590	179		｛Toshiba Canvio Advance V10 1TB(紅)｝Type-A / 3年保 / 加密.備份軟體
-3590	180		｛Toshiba Canvio Advance V10 1TB(米白)｝Type-A / 3年保 / 加密.備份軟體
-4790	181		｛Toshiba Canvio Advance V10 2TB(綠)｝Type-A / 3年保 / 加密.備份軟體
-4790	182		｛Toshiba Canvio Advance V10 2TB(黑)｝Type-A / 3年保 / 加密.備份軟體
-4790	183		｛Toshiba Canvio Advance V10 2TB(紅)｝Type-A / 3年保 / 加密.備份軟體
-4790	184		｛Toshiba Canvio Advance V10 2TB(米白)｝Type-A / 3年保 / 加密.備份軟體
-7390	185		｛Toshiba Canvio Advance V10 4TB(綠)｝Type-A / 3年保 / 加密.備份軟體
-7390	186		｛Toshiba Canvio Advance V10 4TB(黑)｝Type-A / 3年保 / 加密.備份軟體
-7390	187		｛Toshiba Canvio Advance V10 4TB(紅)｝Type-A / 3年保 / 加密.備份軟體
-7390	188		｛Toshiba Canvio Advance V10 4TB(米白)｝Type-A / 3年保 / 加密.備份軟體
-3890	189		｛Toshiba Canvio Flex X2 1TB(銀)｝Type-C / 3年 / PC、行動裝置適用
-4990	190		｛Toshiba Canvio Flex X2 2TB(銀)｝Type-C / 3年 / PC、行動裝置適用
-7690	191		｛Toshiba Canvio Flex X2 4TB(銀)｝Type-C / 3年 / PC、行動裝置適用
+7090	175		｛Toshiba Canvio Ready 4TB｝Type-A / 3年保
+3590	176		｛Toshiba Canvio Advance V10 1TB(綠)｝Type-A / 3年保 / 加密.備份軟體
+3590	177		｛Toshiba Canvio Advance V10 1TB(黑)｝Type-A / 3年保 / 加密.備份軟體
+3590	178		｛Toshiba Canvio Advance V10 1TB(紅)｝Type-A / 3年保 / 加密.備份軟體
+3590	179		｛Toshiba Canvio Advance V10 1TB(米白)｝Type-A / 3年保 / 加密.備份軟體
+4790	180		｛Toshiba Canvio Advance V10 2TB(綠)｝Type-A / 3年保 / 加密.備份軟體
+4790	181		｛Toshiba Canvio Advance V10 2TB(黑)｝Type-A / 3年保 / 加密.備份軟體
+4790	182		｛Toshiba Canvio Advance V10 2TB(紅)｝Type-A / 3年保 / 加密.備份軟體
+4790	183		｛Toshiba Canvio Advance V10 2TB(米白)｝Type-A / 3年保 / 加密.備份軟體
+7390	184		｛Toshiba Canvio Advance V10 4TB(綠)｝Type-A / 3年保 / 加密.備份軟體
+7390	185		｛Toshiba Canvio Advance V10 4TB(黑)｝Type-A / 3年保 / 加密.備份軟體
+7390	186		｛Toshiba Canvio Advance V10 4TB(紅)｝Type-A / 3年保 / 加密.備份軟體
+7390	187		｛Toshiba Canvio Advance V10 4TB(米白)｝Type-A / 3年保 / 加密.備份軟體
+3890	188		｛Toshiba Canvio Flex X2 1TB(銀)｝Type-C / 3年 / PC、行動裝置適用
+4990	189		｛Toshiba Canvio Flex X2 2TB(銀)｝Type-C / 3年 / PC、行動裝置適用
+7690	190		｛Toshiba Canvio Flex X2 4TB(銀)｝Type-C / 3年 / PC、行動裝置適用
 
 ## 2.5吋 - 威剛 隨身2.5吋硬碟
-4090	194		｛威剛 HD710Pro 2TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保
-4090	195		｛威剛 HD710Pro 2TB(藍)｝Type-A / 軍規 / IP68防護 / 3年保
-4090	196		｛威剛 HD710Pro 2TB(紅)｝Type-A / 軍規 / IP68防護 / 3年保
-7190	197		｛威剛 HD710Pro 4TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保
-3090	198		｛威剛 HV300 1TB(黑)｝Type-A / 極輕薄 / 3年保
-3090	199		｛威剛 HV300 1TB(藍)｝Type-A / 極輕薄 / 3年保
-3090	200		｛威剛 HV300 1TB(白)｝Type-A / 極輕薄 / 3年保
-3090	201		｛威剛 HV300 1TB(紅)｝Type-A / 極輕薄 / 3年保
-3790	202		｛威剛 HV300 2TB(黑)｝Type-A / 極輕薄 / 3年保
-3790	203		｛威剛 HV300 2TB(藍)｝Type-A / 極輕薄 / 3年保
-3790	204		｛威剛 HV300 2TB(白)｝Type-A / 極輕薄 / 3年保
-3790	205	熱賣	｛威剛 HV300 2TB(紅)｝Type-A / 極輕薄 / 3年保
+4090	193		｛威剛 HD710Pro 2TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保
+4090	194		｛威剛 HD710Pro 2TB(藍)｝Type-A / 軍規 / IP68防護 / 3年保
+4090	195		｛威剛 HD710Pro 2TB(紅)｝Type-A / 軍規 / IP68防護 / 3年保
+7190	196		｛威剛 HD710Pro 4TB(黑)｝Type-A / 軍規 / IP68防護 / 3年保
+3090	197		｛威剛 HV300 1TB(黑)｝Type-A / 極輕薄 / 3年保
+3090	198		｛威剛 HV300 1TB(藍)｝Type-A / 極輕薄 / 3年保
+3090	199		｛威剛 HV300 1TB(白)｝Type-A / 極輕薄 / 3年保
+3090	200		｛威剛 HV300 1TB(紅)｝Type-A / 極輕薄 / 3年保
+3790	201		｛威剛 HV300 2TB(黑)｝Type-A / 極輕薄 / 3年保
+3790	202		｛威剛 HV300 2TB(藍)｝Type-A / 極輕薄 / 3年保
+3790	203		｛威剛 HV300 2TB(白)｝Type-A / 極輕薄 / 3年保
+3790	204	熱賣	｛威剛 HV300 2TB(紅)｝Type-A / 極輕薄 / 3年保
 
-## AC16251-R1968BTW
-3149(原4090)	208	價格異動 下殺	｛Seagate Expansion 2T黑｝Type-A / 3年保▼下殺到 11/4 23:59
-4288	209	熱賣	｛Seagate One Touch 2T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保
-4288	210		｛Seagate One Touch 2T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保
-4288	211		｛Seagate One Touch 2T太空灰｝Type-A / 硬體加密、自動備份 / 3年保
-6088	212		｛Seagate One Touch 4T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保
-6088	213		｛Seagate One Touch 4T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保
-6088	214		｛Seagate One Touch 4T太空灰｝Type-A / 硬體加密、自動備份 / 3年保
-5400(原6888)	215	熱賣 價格異動 下殺	｛Seagate One Touch 5T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/4 23:59
-5400(原6888)	216	熱賣 價格異動 下殺	｛Seagate One Touch 5T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/4 23:59
-5400(原6888)	217	熱賣 價格異動 下殺	｛Seagate One Touch 5T太空灰｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/4 23:59
+## 2.5吋 - Seagate 隨身2.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請)
+4090	207		｛Seagate Expansion 2T黑｝Type-A / 3年保
+3735(原4288)	208	熱賣 價格異動 下殺	｛Seagate One Touch 2T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/12 23:59
+3735(原4288)	209	價格異動 下殺	｛Seagate One Touch 2T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/12 23:59
+3735(原4288)	210	價格異動 下殺	｛Seagate One Touch 2T太空灰｝Type-A / 硬體加密、自動備份 / 3年保▼下殺到 11/12 23:59
+6088	211		｛Seagate One Touch 4T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保
+6088	212		｛Seagate One Touch 4T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保
+6088	213		｛Seagate One Touch 4T太空灰｝Type-A / 硬體加密、自動備份 / 3年保
+6888	214	熱賣	｛Seagate One Touch 5T極夜黑｝Type-A / 硬體加密、自動備份 / 3年保
+6888	215	熱賣	｛Seagate One Touch 5T冰川藍｝Type-A / 硬體加密、自動備份 / 3年保
+6888	216	熱賣	｛Seagate One Touch 5T太空灰｝Type-A / 硬體加密、自動備份 / 3年保
 
 ## 2.5吋 - 創見 隨身2.5吋硬碟
-3350	219		創見 1TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3P｝
-3350	220		創見 1TB(藍) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3B
-4699	221		創見 2TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS2TSJ25H3P｝
-4699	222		創見 2TB(藍) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS2TSJ25H3B｝
-6929	223		創見 4TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS4TSJ25H3P｝
-6929	224		創見 4TB(鐵灰) 25M3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS4TSJ25M3S｝
+3350	218		創見 1TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3P｝
+3350	219		創見 1TB(藍) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS1TSJ25H3B
+4699	220		創見 2TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS2TSJ25H3P｝
+4699	221		創見 2TB(藍) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS2TSJ25H3B｝
+6929	222		創見 4TB(紫) 25H3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS4TSJ25H3P｝
+6929	223		創見 4TB(鐵灰) 25M3 / Type-A / 軍規 / 單鍵備份 / 3年保｛TS4TSJ25M3S｝
 
 ## 3.5吋 - Seagate 行動3.5吋硬碟 (保固內原廠資料救援-請先至官網登錄申請)
-5990	227		｛Seagate Expansion 4TB｝Type-A / 3.5吋硬碟 / 3年保
-13635(原18490)	228	價格異動 下殺	｛Seagate Expansion 16TB｝Type-A / 3.5吋硬碟 / 3年保▼下殺到 11/4 23:59
-27490	229		｛Seagate Expansion 24TB｝Type-A / 3.5吋硬碟 / 3年保
+5990	226		｛Seagate Expansion 4TB｝Type-A / 3.5吋硬碟 / 3年保
+18490	227		｛Seagate Expansion 16TB｝Type-A / 3.5吋硬碟 / 3年保
+27490	228		｛Seagate Expansion 24TB｝Type-A / 3.5吋硬碟 / 3年保
