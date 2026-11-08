@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/11/7 19:06",
+ "quote_date": "2026/11/8 10:20",
  "categories": [
   {
    "id": 1,
@@ -115,7 +115,7 @@
       {
        "id": 22,
        "name": "｛ASUS ROG GM700TZ-R9800X149W｝R7 9800X3D / 16G / 1T / 850W電供 / 水冷",
-       "price": 50990,
+       "price": 48900,
        "list_price": null,
        "flags": []
       },
@@ -19761,7 +19761,7 @@
       {
        "id": 108,
        "name": "｛ViewSonic VA2408-HDJ｝〈1A1H1P/IPS/100Hz〉可升降旋轉",
-       "price": 4580,
+       "price": 4288,
        "list_price": null,
        "flags": []
       },
@@ -21938,7 +21938,7 @@
       {
        "id": 436,
        "name": "｛華碩 ROG Strix XG27AQWMG｝〈2H1P/WOLED/280Hz/HDR500/HDMI 2.1〉可升降旋轉",
-       "price": 15888,
+       "price": 13888,
        "list_price": null,
        "flags": []
       },
