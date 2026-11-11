@@ -1,6 +1,6 @@
 {
  "source": "evaluate.php",
- "quote_date": "2026/11/10 20:44",
+ "quote_date": "2026/11/11 11:11",
  "categories": [
   {
    "id": 1,
@@ -2453,7 +2453,7 @@
       {
        "id": 177,
        "name": "Lenovo Legion 5 Ultra 7-356H/RTX5060/32G/1T/15.3吋/黑｛83RW0026TW｝",
-       "price": 85990,
+       "price": 84111,
        "list_price": null,
        "flags": []
       }
@@ -3227,7 +3227,7 @@
      "items": [
       {
        "id": 306,
-       "name": "DELL Base Ryzen AI 7 445/32G/1T/14吋 晨霜藍｛DS14265-R1708BTW｝▼下殺到 11/11 23:59",
+       "name": "DELL Base Ryzen AI 7 445/32G/1T/14吋 晨霜藍｛DS14265-R1708BTW｝▼下殺到 11/22 23:59",
        "price": 66911,
        "list_price": 68990,
        "flags": [
@@ -3244,7 +3244,7 @@
       },
       {
        "id": 308,
-       "name": "DELL Base Ultra 5-322/16G/1T/14吋 晨霜藍｛DS14260-R1508BTW｝▼下殺到 11/11 23:59",
+       "name": "DELL Base Ultra 5-322/16G/1T/14吋 晨霜藍｛DS14260-R1508BTW｝▼下殺到 11/22 23:59",
        "price": 50111,
        "list_price": 53900,
        "flags": [
@@ -3254,21 +3254,14 @@
       },
       {
        "id": 309,
-       "name": "DELL Base Ultra 5-225U/16G/512G/14吋 銀河星跡｛D14260-R1508STW｝",
-       "price": 33990,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 310,
        "name": "DELL Base Ultra 7-255U/32G/1T/14吋 銀河星跡｛D14260-R2708STW｝",
        "price": 60990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 311,
-       "name": "DELL Base Core 7-350/16G/512G/14吋 鉑金銀｛D14261-R1708STW｝▼下殺到 11/11 23:59",
+       "id": 310,
+       "name": "DELL Base Core 7-350/16G/512G/14吋 鉑金銀｛D14261-R1708STW｝▼下殺到 11/22 23:59",
        "price": 39911,
        "list_price": 41990,
        "flags": [
@@ -3282,8 +3275,8 @@
      "label": "15吋 戴爾 DELL Base 系列",
      "items": [
       {
-       "id": 314,
-       "name": "DELL Base R5-220/16G/512G/15.3吋 柏金銀｛D15266-R1508STW｝▼下殺到 11/11 23:59",
+       "id": 313,
+       "name": "DELL Base R5-220/16G/512G/15.3吋 柏金銀｛D15266-R1508STW｝▼下殺到 11/22 23:59",
        "price": 35911,
        "list_price": 36990,
        "flags": [
@@ -3292,8 +3285,8 @@
        ]
       },
       {
-       "id": 315,
-       "name": "DELL Base R7-250/16G/512G/15.3吋 柏金銀｛D15266-R1708STW｝▼下殺到 11/11 23:59",
+       "id": 314,
+       "name": "DELL Base R7-250/16G/512G/15.3吋 柏金銀｛D15266-R1708STW｝▼下殺到 11/22 23:59",
        "price": 38911,
        "list_price": 39900,
        "flags": [
@@ -3302,8 +3295,8 @@
        ]
       },
       {
-       "id": 316,
-       "name": "DELL Base Ultra 7-255H/16G/1T/15.6吋 銀河星跡｛D15260-R2808STW｝▼下殺到 11/11 23:59",
+       "id": 315,
+       "name": "DELL Base Ultra 7-255H/16G/1T/15.6吋 銀河星跡｛D15260-R2808STW｝▼下殺到 11/22 23:59",
        "price": 49911,
        "list_price": 52990,
        "flags": [
@@ -3312,8 +3305,8 @@
        ]
       },
       {
-       "id": 317,
-       "name": "DELL Base Core 5-320/16G/512G/15.3吋 柏金銀｛D15261-R1508STW｝▼下殺到 11/11 23:59",
+       "id": 316,
+       "name": "DELL Base Core 5-320/16G/512G/15.3吋 柏金銀｛D15261-R1508STW｝▼下殺到 11/22 23:59",
        "price": 36911,
        "list_price": 38990,
        "flags": [
@@ -3327,8 +3320,8 @@
      "label": "16吋 戴爾 DELL Base 系列",
      "items": [
       {
-       "id": 320,
-       "name": "DELL Base Ultra 5-322/16G/1T/16吋 暮靄藍｛DS16260-R1508BTW｝〈觸控〉▼下殺到 11/11 23:59",
+       "id": 319,
+       "name": "DELL Base Ultra 5-322/16G/1T/16吋 暮靄藍｛DS16260-R1508BTW｝〈觸控〉▼下殺到 11/22 23:59",
        "price": 62911,
        "list_price": 65990,
        "flags": [
@@ -3342,29 +3335,29 @@
      "label": "14吋 戴爾 DELL Pro 系列",
      "items": [
       {
-       "id": 323,
+       "id": 322,
        "name": "DELL Pro R5-PRO 230/8G/512G/14吋 灰｛PC14255-2308G512G｝",
        "price": 34990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 324,
+       "id": 323,
        "name": "DELL Pro Ryzen AI 5 PRO 340/16G/512G/14吋 銀｛PC14255-AI516G512G｝",
        "price": 40990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 325,
+       "id": 324,
        "name": "DELL Pro Ultra 7-265U/16G/512G/14吋 銀｛PC14250-U7616G512G｝",
        "price": 47990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 326,
-       "name": "DELL Pro Ultra 5-335/16G/1T/14吋 灰｛P514260-U516G1T｝▼下殺到 11/11 23:59",
+       "id": 325,
+       "name": "DELL Pro Ultra 5-335/16G/1T/14吋 灰｛P514260-U516G1T｝▼下殺到 11/22 23:59",
        "price": 58911,
        "list_price": 60990,
        "flags": [
@@ -3373,8 +3366,8 @@
        ]
       },
       {
-       "id": 327,
-       "name": "DELL Pro Ultra 7-365/32G/1T/14吋 灰｛P514260-U732G1T｝▼下殺到 11/11 23:59",
+       "id": 326,
+       "name": "DELL Pro Ultra 7-365/32G/1T/14吋 灰｛P514260-U732G1T｝▼下殺到 11/22 23:59",
        "price": 75911,
        "list_price": 77990,
        "flags": [
@@ -3388,8 +3381,8 @@
      "label": "16吋 戴爾 DELL Pro 系列",
      "items": [
       {
-       "id": 330,
-       "name": "DELL Pro Ultra 5-235U/16G/512G/16吋 銀｛PC16250-U5216G512G｝▼下殺到 11/11 23:59",
+       "id": 329,
+       "name": "DELL Pro Ultra 5-235U/16G/512G/16吋 銀｛PC16250-U5216G512G｝▼下殺到 11/22 23:59",
        "price": 35911,
        "list_price": 47990,
        "flags": [
@@ -3398,14 +3391,14 @@
        ]
       },
       {
-       "id": 331,
+       "id": 330,
        "name": "DELL Pro Ultra 5-335/16G/512G/16吋 灰｛P516260-U516G512G｝",
        "price": 57990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 332,
+       "id": 331,
        "name": "DELL Pro Ultra 7-365/32G/512G/16吋 灰｛P516260-U732G512G｝",
        "price": 74990,
        "list_price": null,
@@ -3417,11 +3410,13 @@
      "label": "14吋 戴爾 DELL Pro Essential 系列",
      "items": [
       {
-       "id": 335,
-       "name": "DELL Pro Essential Ultra 5-225U/16G/512G/14吋 黑｛PV14260-R1508BTW｝",
-       "price": 37999,
+       "id": 334,
+       "name": "DELL Pro Essential Ultra 5-225U/16G/512G/14吋 黑｛PV14260-R1508BTW｝▼下殺到 11/22 23:59",
+       "price": 37111,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       }
      ]
     },
@@ -3429,7 +3424,7 @@
      "label": "15吋 戴爾 DELL Pro Essential 系列",
      "items": [
       {
-       "id": 338,
+       "id": 337,
        "name": "DELL Pro Essential Ultra 5-225H/16G/512G/15.6吋 黑｛PV15260-R1508BTW｝",
        "price": 37990,
        "list_price": null,
@@ -3441,14 +3436,14 @@
      "label": "16吋 戴爾 DELL Alienware 系列",
      "items": [
       {
-       "id": 341,
+       "id": 340,
        "name": "DELL Alienware X Ultra 7-270HX+/RTX5060/16G/1T/16吋 靛藍｛AC16251-R1788BTW｝",
        "price": 94990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 342,
+       "id": 341,
        "name": "DELL Alienware X Ultra 9-290HX+/RTX5070/32G/1T/16吋 靛藍｛AC16251-R1968BTW｝",
        "price": 141990,
        "list_price": null,
@@ -3464,21 +3459,21 @@
      "label": "15.6吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 346,
+       "id": 345,
        "name": "Genuine捷元 輕巧可拆卸電池｛15V｝i7-1355U/8G/500G/3年保 黑 J0076616",
        "price": 23999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 348,
+       "id": 347,
        "name": "Genuine捷元｛ZEUS 15H｝i5-13420H/RTX4050/8G/512G/WIN11 PRO/3年保 黑 J0074857",
        "price": 32499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 349,
+       "id": 348,
        "name": "Genuine捷元｛ZEUS 15G｝Core 7-250H/RTX5070/16G/500G 黑 J0076614",
        "price": 48900,
        "list_price": null,
@@ -3490,7 +3485,7 @@
      "label": "16吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 352,
+       "id": 351,
        "name": "Genuine捷元｛16AI Pro｝Ultra 5-226V/16G/512G/16吋 灰 J0071818【Non OS】",
        "price": 29999,
        "list_price": null,
@@ -3502,7 +3497,7 @@
      "label": "18吋 Genuine捷元 系列",
      "items": [
       {
-       "id": 355,
+       "id": 354,
        "name": "Genuine捷元｛ZEUS 18G｝Ultra 9-275HX/RTX 5090/32G/P510 2TB/WIN11 PRO 黑 J0074405",
        "price": 155900,
        "list_price": null,
@@ -3518,7 +3513,7 @@
      "label": "16吋 技嘉 GIGABYTE AERO X16 AI筆電",
      "items": [
       {
-       "id": 358,
+       "id": 357,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
        "price": 6999,
        "list_price": null,
@@ -3527,7 +3522,7 @@
        ]
       },
       {
-       "id": 359,
+       "id": 358,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
        "price": 4599,
        "list_price": null,
@@ -3536,21 +3531,21 @@
        ]
       },
       {
-       "id": 360,
+       "id": 359,
        "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 太空灰｛1VH93TWC94AH｝",
        "price": 56900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 361,
+       "id": 360,
        "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5060/16G/1T/16吋 幻月白｛1VH93TWC94DH｝",
        "price": 56900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 362,
+       "id": 361,
        "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 太空灰｛1WH93TWC94AH｝▼下殺到 11/22 23:59",
        "price": 59911,
        "list_price": 65900,
@@ -3560,7 +3555,7 @@
        ]
       },
       {
-       "id": 363,
+       "id": 362,
        "name": "技嘉 AERO X16 Ryzen AI 7 350/RTX5070/16G/1T/16吋 幻月白｛1WH93TWC94DH｝▼下殺到 11/22 23:59",
        "price": 59911,
        "list_price": 65900,
@@ -3570,7 +3565,7 @@
        ]
       },
       {
-       "id": 364,
+       "id": 363,
        "name": "技嘉 AERO X16 Ryzen AI 9 HX 370/RTX5070/32G/1T/16吋 幻月白｛2WHA3TWC64DH｝",
        "price": 69900,
        "list_price": null,
@@ -3584,7 +3579,7 @@
      "label": "16吋 技嘉 GIGABYTE EAGLE",
      "items": [
       {
-       "id": 366,
+       "id": 365,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
        "price": 6999,
        "list_price": null,
@@ -3593,7 +3588,7 @@
        ]
       },
       {
-       "id": 367,
+       "id": 366,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
        "price": 4599,
        "list_price": null,
@@ -3602,14 +3597,14 @@
        ]
       },
       {
-       "id": 368,
+       "id": 367,
        "name": "技嘉 EAGLE R5-7533HS/RTX4050/16G/512G/16吋 灰｛9MJR2TWF93SH｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 369,
+       "id": 368,
        "name": "【1T特士版】技嘉 EAGLE R5-7533HS/RTX4050/16G/1T/16吋 灰｛9MJR2TWF93SH｝",
        "price": 39999,
        "list_price": null,
@@ -3623,7 +3618,7 @@
      "label": "16吋 技嘉 GIGABYTE GAMING A16",
      "items": [
       {
-       "id": 371,
+       "id": 370,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
        "price": 6999,
        "list_price": null,
@@ -3632,7 +3627,7 @@
        ]
       },
       {
-       "id": 372,
+       "id": 371,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
        "price": 4599,
        "list_price": null,
@@ -3641,7 +3636,7 @@
        ]
       },
       {
-       "id": 373,
+       "id": 372,
        "name": "技嘉 GAMING A16 i5-13420H/RTX5050/16G/512G/16吋 黑｛CTHH3TW893SH｝",
        "price": 39900,
        "list_price": null,
@@ -3650,7 +3645,7 @@
        ]
       },
       {
-       "id": 374,
+       "id": 373,
        "name": "技嘉 GAMING A16 i5-13420H/RTX5060/16G/512G/16吋 黑｛CVHH3TW893SH｝",
        "price": 42900,
        "list_price": null,
@@ -3659,7 +3654,7 @@
        ]
       },
       {
-       "id": 375,
+       "id": 374,
        "name": "技嘉 GAMING A16 i7-13620H/RTX5070/16G/512G/16吋 黑｛CWHI3TW893SH｝▼下殺到 11/22 23:59",
        "price": 48911,
        "list_price": 51900,
@@ -3669,14 +3664,14 @@
        ]
       },
       {
-       "id": 376,
+       "id": 375,
        "name": "技嘉 GAMING A16 Ryzen 7 260/RTX5060/16G/512G/16吋 黑｛3VHK3TW893SH｝",
        "price": 48900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 377,
+       "id": 376,
        "name": "【稀有1T版】技嘉 GAMING A16 Ryzen 7 170/RTX5060/16G/1T/16吋 黑｛5VHP3TW894SH｝",
        "price": 45900,
        "list_price": null,
@@ -3688,7 +3683,7 @@
      "label": "16 吋 技嘉 AORUS MASTER 16",
      "items": [
       {
-       "id": 379,
+       "id": 378,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】創見JetRam 16GB DDR5-5600 NB",
        "price": 6999,
        "list_price": null,
@@ -3697,7 +3692,7 @@
        ]
       },
       {
-       "id": 380,
+       "id": 379,
        "name": "【技嘉筆電限定 / 僅限1:1搭購】金士頓 NV3 1TB (SNV3S/1000G)",
        "price": 4599,
        "list_price": null,
@@ -3706,7 +3701,7 @@
        ]
       },
       {
-       "id": 381,
+       "id": 380,
        "name": "技嘉 AORUS MASTER 16 R9-8940HX/RTX5070Ti/16G/1T/16吋OLED 黑｛8XJJ4TWE94SH｝",
        "price": 78900,
        "list_price": null,
@@ -3722,7 +3717,7 @@
      "label": "13吋 微星 - 輕薄商務系列 Prestige",
      "items": [
       {
-       "id": 387,
+       "id": 386,
        "name": "微星 Prestige 13 Ultra 7-355/32G/1T/13吋/WIN11 PRO 灰｛A3MG-049TW｝極致輕890g",
        "price": 59900,
        "list_price": null,
@@ -3734,42 +3729,42 @@
      "label": "14吋 微星 - 商務系列 Modern S / Prestige / Commercial / Venture",
      "items": [
       {
-       "id": 389,
+       "id": 388,
        "name": "微星 Commercial 14 C5-120U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1005TW ｝",
        "price": 33900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 390,
+       "id": 389,
        "name": "微星 Commercial 14 C7-150U/16G/512G/14吋/WIN11 Pro 灰｛B1MXG-1004TW｝",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 391,
+       "id": 390,
        "name": "微星 Modern 14S Core 5-320/16G/512G/14吋 銀｛G3MG-018TW｝",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 392,
+       "id": 391,
        "name": "微星 Modern 14S AI+ Ultra 5-322/16G/512G/14吋 銀｛G3MG-026TW｝",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 393,
+       "id": 392,
        "name": "微星 Prestige 14 Flip AI+ Ultra X7-358H/32G/1T/14吋/WIN11 Pro 黑｛D3MTG-033TW｝",
        "price": 74900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 394,
+       "id": 393,
        "name": "微星 Prestige 14 Flip AI+ Ultra X9-378H/32G/1T/14吋/WIN11 Pro 梵谷特仕版｛The Starry Night-422TWY｝",
        "price": 74900,
        "list_price": null,
@@ -3781,21 +3776,21 @@
      "label": "15吋 微星 - 輕薄商務系列 Modern / Venture Pro",
      "items": [
       {
-       "id": 396,
+       "id": 395,
        "name": "微星 Modern 15 Core 7-150U/16G/1T/15.6吋 灰｛F1MXG-1023TW｝",
        "price": 39900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 397,
+       "id": 396,
        "name": "微星 Modern 15 Core 5-120U/16G/1T/15.6吋/WIN11 Pro 灰｛F1MXG-1042TW｝",
        "price": 40900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 398,
+       "id": 397,
        "name": "微星 VenturePro 15 Core 7-240H/16G/512G/RTX5050/15.6吋/WIN11 Pro 灰｛A2RWEG-1246TW｝",
        "price": 52900,
        "list_price": null,
@@ -3807,7 +3802,7 @@
      "label": "16吋 微星 - 輕薄商務系列 Prestige / Modern S",
      "items": [
       {
-       "id": 400,
+       "id": 399,
        "name": "微星 Modern 16S AI+ Ultra 7-355/16G/1T/16吋 灰｛G3MG-030TW｝",
        "price": 46900,
        "list_price": null,
@@ -3816,7 +3811,7 @@
        ]
       },
       {
-       "id": 401,
+       "id": 400,
        "name": "微星 Prestige 16 AI+ Ultra X7-358H/32G/1T/16吋 金｛C3MG-233TW｝▼下殺到 11/29 23:59",
        "price": 64999,
        "list_price": 69900,
@@ -3826,7 +3821,7 @@
        ]
       },
       {
-       "id": 402,
+       "id": 401,
        "name": "微星 Prestige 16 Flip AI+ Ultra X9-388H/32G/1T/16吋 灰｛C3MTG-041TW｝【翻轉觸控】",
        "price": 74900,
        "list_price": null,
@@ -3838,7 +3833,7 @@
      "label": "15吋 微星 - 炫彩戰鬥系列 Katana / Cyborg MAX",
      "items": [
       {
-       "id": 404,
+       "id": 403,
        "name": "微星 Katana 15 i7-14650HX/RTX5060/16G/1T/15.6吋 黑｛B14WFK-1071TW｝▼下殺到 11/29 23:59",
        "price": 49999,
        "list_price": 54900,
@@ -3848,7 +3843,7 @@
        ]
       },
       {
-       "id": 405,
+       "id": 404,
        "name": "微星 Katana 15 i7-14650HX/RTX5070/16G/1T/15.6吋 黑｛B14WGK-1070TW｝▼下殺到 11/29 23:59",
        "price": 54999,
        "list_price": 59900,
@@ -3858,21 +3853,21 @@
        ]
       },
       {
-       "id": 406,
+       "id": 405,
        "name": "微星 Cyborg 15 i5-13420H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2475TW｝(全黑機身) 店內促",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 407,
+       "id": 406,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WEO-264TW｝",
        "price": 39900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 409,
+       "id": 408,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/8G/512G/15.6吋 黑｛C13WE-200TW｝▼下殺到 11/29 23:59",
        "price": 34999,
        "list_price": 39900,
@@ -3882,28 +3877,28 @@
        ]
       },
       {
-       "id": 410,
+       "id": 409,
        "name": "微星 Cyborg 15 i5-13420H/RTX5050/16G/512G/15.6吋 玩具總動員｛C13WE-423TW｝",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 411,
+       "id": 410,
        "name": "微星 Cyborg 15 i7-13620H/RTX4050/8G/512G/15.6吋 黑｛A13VE-2468TW｝(全黑機身)",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 412,
+       "id": 411,
        "name": "微星 Cyborg 15 i7-13620H/RTX5060/8G/512G/15.6吋 黑｛C13WFO-288TW｝",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 414,
+       "id": 413,
        "name": "微星 Cyborg 15 Core 5-210H/RTX3050/16G/512G/15.6吋 黑｛A2RUDX-2288TW｝",
        "price": 35900,
        "list_price": null,
@@ -3912,14 +3907,14 @@
        ]
       },
       {
-       "id": 415,
+       "id": 414,
        "name": "微星 Cyborg 15 MAX i7-13620H/RTX5050/16G/512G/15.6吋 灰｛C13WE-054TW｝",
        "price": 42900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 416,
+       "id": 415,
        "name": "微星 Cyborg 15 MAX Core 7-240H/RTX5070/16G/512G/15.6吋 灰｛C2WG-006TW｝",
        "price": 49900,
        "list_price": null,
@@ -3933,7 +3928,7 @@
      "label": "16吋 微星 - 極致龍魂系列 Pulse / Crosshair MAX / Stealth / Raider MAX",
      "items": [
       {
-       "id": 418,
+       "id": 417,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5060/16G/1T/16吋 黑｛E8WFK-015TW｝",
        "price": 53900,
        "list_price": null,
@@ -3942,7 +3937,7 @@
        ]
       },
       {
-       "id": 419,
+       "id": 418,
        "name": "微星 Crosshair A16 HX R9-8940HX/RTX5070/16G/1T/16吋｛E8WGK-017TW｝",
        "price": 62900,
        "list_price": null,
@@ -3951,35 +3946,35 @@
        ]
       },
       {
-       "id": 420,
+       "id": 419,
        "name": "微星 Crosshair A16 HX MLG R9-8940HX/RTX5070/16G/1T/16吋 魔龍姬｛E8WGK-092TWY｝",
        "price": 79900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 421,
+       "id": 420,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5060/16G/1T/16吋 黑｛E14WFK-013TW｝",
        "price": 59900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 422,
+       "id": 421,
        "name": "微星 Crosshair 16 HX i9-14900HX/RTX5060/16G/1T/16吋 黑｛E14WFK-014TW｝",
        "price": 62900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 423,
+       "id": 422,
        "name": "微星 Crosshair 16 HX i7-14650HX/RTX5070/16G/1T/16吋 黑｛E14WGK-002TW｝",
        "price": 64999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 424,
+       "id": 423,
        "name": "微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5060/16G/512G/16吋 黑｛E2WFK-024TW｝",
        "price": 62900,
        "list_price": null,
@@ -3988,21 +3983,21 @@
        ]
       },
       {
-       "id": 425,
+       "id": 424,
        "name": "微星 Crosshair 16 MAX HX Ultra 9-290HX+/RTX5070/16G/1T/16吋 黑｛E2WGXK-016TW｝",
        "price": 84900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 426,
+       "id": 425,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5060/16G/1T/16吋 黑｛B3WF-005TW｝",
        "price": 89900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 427,
+       "id": 426,
        "name": "微星 Stealth 16 AI+ Ultra 9-386H/RTX5080/32G/1T/16吋 黑｛B3WI-006TW｝",
        "price": 129900,
        "list_price": null,
@@ -4011,14 +4006,14 @@
        ]
       },
       {
-       "id": 428,
+       "id": 427,
        "name": "微星 Raider 16 Ultra 9-275HX/RTX5080/16G/1T/16吋 黑｛B2WI-025TW｝",
        "price": 119000,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 429,
+       "id": 428,
        "name": "微星 Raider 16 MAX Ultra 9-290HX+/RTX5080/32G/2T/16吋 黑｛B2WI-028TW｝",
        "price": 144900,
        "list_price": null,
@@ -4032,14 +4027,14 @@
      "label": "17 吋 微星 - 巔峰效能系列 Katana / Cyborg / Crosshair",
      "items": [
       {
-       "id": 431,
+       "id": 430,
        "name": "微星 Cyborg 17 i7-13620H/RTX5050/16G/512G/17.3吋 黑｛B13WEKG-412TW｝",
        "price": 43900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 432,
+       "id": 431,
        "name": "微星 Cyborg 17 i7-13620H/RTX5060/16G/512G/17.3吋 黑｛B13WFKG-411TW｝▼下殺到 11/29 23:59",
        "price": 39999,
        "list_price": 46900,
@@ -4049,21 +4044,21 @@
        ]
       },
       {
-       "id": 433,
+       "id": 432,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5050/16G/512G/17.3吋 黑｛B2RWEKG-425TW｝店內促",
        "price": 41999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 434,
+       "id": 433,
        "name": "微星 Cyborg 17 Core 7-240H/RTX5060/16G/512G/17.3吋 黑｛B2RWFKG-426TW｝店內促",
        "price": 46900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 435,
+       "id": 434,
        "name": "微星 Crosshair 17 HX AI Ultra 7-255HX/RTX5060/16G/1T/17.3吋 黑｛D2XWFKG-010TW｝",
        "price": 57999,
        "list_price": null,
@@ -4075,14 +4070,14 @@
      "label": "18 吋 微星 - 極致炫彩系列 Vector/Crosshair/Stealth/Raider/Titan 電競霸主",
      "items": [
       {
-       "id": 437,
+       "id": 436,
        "name": "微星 Crosshair 18 HX AI Ultra 9-275HX/RTX5060/16G/1T/18吋 黑｛A2XWFKG-058TW｝",
        "price": 64900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 438,
+       "id": 437,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/64G/2T/18吋 黑｛A2WJ-1041TW｝",
        "price": 199900,
        "list_price": null,
@@ -4091,7 +4086,7 @@
        ]
       },
       {
-       "id": 439,
+       "id": 438,
        "name": "微星 Titan 18 HX Ultra 9-290HX+/RTX5090/96G/4T/18吋 天龍座｛A2WJ-1215TW｝",
        "price": 229900,
        "list_price": null,
@@ -4107,7 +4102,7 @@
      "label": "16吋 LG Gram -榮獲金氏世界紀錄最輕16吋筆電",
      "items": [
       {
-       "id": 442,
+       "id": 441,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 白｛16Z90TL-G.AS54C2｝",
        "price": 42900,
        "list_price": null,
@@ -4116,7 +4111,7 @@
        ]
       },
       {
-       "id": 443,
+       "id": 442,
        "name": "LG Gram Ultra 5-226V/16G/512G/16吋 黑｛16Z90TL-G.AS55C2｝",
        "price": 42900,
        "list_price": null,
@@ -4130,23 +4125,23 @@
      "label": "16 吋 LG Gram Pro 最新的處理器，領航著速度的先驅",
      "items": [
       {
-       "id": 445,
+       "id": 444,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/16吋 純淨白｛16Z90U-G.AU87C2｝",
-       "price": 102500,
+       "price": 100278,
+       "list_price": null,
+       "flags": []
+      },
+      {
+       "id": 445,
+       "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝",
+       "price": 110389,
        "list_price": null,
        "flags": []
       },
       {
        "id": 446,
-       "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 極光白｛16Z90U-K.AUB7C2｝",
-       "price": 111500,
-       "list_price": null,
-       "flags": []
-      },
-      {
-       "id": 447,
        "name": "LG Gram Pro Ultra X7-358H/32G/1T/16吋 星曜黑｛16Z90U-K.AUB8C2｝",
-       "price": 111500,
+       "price": 109678,
        "list_price": null,
        "flags": []
       }
@@ -4156,7 +4151,7 @@
      "label": "17 吋 LG Gram 高科技奈米碳鎂通過美國軍規測試",
      "items": [
       {
-       "id": 449,
+       "id": 448,
        "name": "LG Gram Pro Ultra 7-355/32G/1T/17吋 曜石黑｛17Z90U-G.AU88C2｝",
        "price": 106500,
        "list_price": null,
@@ -4172,7 +4167,7 @@
      "label": "14 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 453,
+       "id": 452,
        "name": "HP OmniBook 3 U5-325/16G/512G/14吋 冰川銀｛14-hs0018TU｝",
        "price": 39900,
        "list_price": null,
@@ -4184,7 +4179,7 @@
      "label": "16 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 455,
+       "id": 454,
        "name": "HP OmniBook 3 C5-120U/16G/512G/16吋 冰川銀｛16-bu0029TU｝",
        "price": 34900,
        "list_price": null,
@@ -4196,7 +4191,7 @@
      "label": "17 吋 HP OmniBook 3",
      "items": [
       {
-       "id": 457,
+       "id": 456,
        "name": "HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝",
        "price": 36900,
        "list_price": null,
@@ -4208,7 +4203,7 @@
      "label": "14 吋 HP OmniBook 5 Flip 翻轉觸控筆電",
      "items": [
       {
-       "id": 459,
+       "id": 458,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝",
        "price": 32900,
        "list_price": null,
@@ -4217,7 +4212,7 @@
        ]
       },
       {
-       "id": 460,
+       "id": 459,
        "name": "HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝",
        "price": 32900,
        "list_price": null,
@@ -4226,14 +4221,14 @@
        ]
       },
       {
-       "id": 461,
+       "id": 460,
        "name": "HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝",
        "price": 37900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 462,
+       "id": 461,
        "name": "HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝",
        "price": 41900,
        "list_price": null,
@@ -4245,7 +4240,7 @@
      "label": "14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列",
      "items": [
       {
-       "id": 464,
+       "id": 463,
        "name": "HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝",
        "price": 54900,
        "list_price": null,
@@ -4257,7 +4252,7 @@
      "label": "14 吋 HP OmniBook UltraNGAI 觸控系列",
      "items": [
       {
-       "id": 466,
+       "id": 465,
        "name": "HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝",
        "price": 74900,
        "list_price": null,
@@ -4269,28 +4264,28 @@
      "label": "15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列",
      "items": [
       {
-       "id": 468,
+       "id": 467,
        "name": "HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝",
        "price": 37999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 469,
+       "id": 468,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝",
        "price": 61888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 471,
+       "id": 470,
        "name": "HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝",
        "price": 72900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 472,
+       "id": 471,
        "name": "HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝",
        "price": 79900,
        "list_price": null,
@@ -4302,14 +4297,14 @@
      "label": "16吋 HP HyperX OMEN 潮競系列",
      "items": [
       {
-       "id": 474,
+       "id": 473,
        "name": "HP HyperX OMEN Ryzen AI 7 450/RTX5070/16G/1T/16吋 究極黑｛16-ap1051AX｝",
        "price": 79900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 475,
+       "id": 474,
        "name": "HP HyperX OMEN i9-14900HX/RTX5070/16G/1T/16吋 究極黑｛16-am2090TX｝",
        "price": 83900,
        "list_price": null,
@@ -4325,14 +4320,14 @@
      "label": "14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉",
      "items": [
       {
-       "id": 479,
+       "id": 478,
        "name": "HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝",
        "price": 35900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 480,
+       "id": 479,
        "name": "【升級延保加價購】HP ZBook Firefly G11A 升級3年保",
        "price": 36899,
        "list_price": null,
@@ -4344,7 +4339,7 @@
      "label": "16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列",
      "items": [
       {
-       "id": 483,
+       "id": 482,
        "name": "HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保",
        "price": 57900,
        "list_price": null,
@@ -4356,7 +4351,7 @@
      "label": "筆電周邊",
      "items": [
       {
-       "id": 486,
+       "id": 485,
        "name": "3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒",
        "price": 390,
        "list_price": null,
@@ -4368,119 +4363,119 @@
      "label": "快速充電器",
      "items": [
       {
-       "id": 488,
+       "id": 487,
        "name": "｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線",
        "price": 3390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 489,
+       "id": 488,
        "name": "Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966)",
        "price": 2190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 490,
+       "id": 489,
        "name": "台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固)",
        "price": 299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 491,
+       "id": 490,
        "name": "｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0",
        "price": 990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 494,
+       "id": 493,
        "name": "｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 495,
+       "id": 494,
        "name": "｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 549,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 496,
+       "id": 495,
        "name": "｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑)",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 497,
+       "id": 496,
        "name": "｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白)",
        "price": 899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 498,
+       "id": 497,
        "name": "【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝",
        "price": 1398,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 499,
+       "id": 498,
        "name": "｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 500,
+       "id": 499,
        "name": "｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線",
        "price": 1699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 501,
+       "id": 500,
        "name": "｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 502,
+       "id": 501,
        "name": "｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座",
        "price": 1299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 503,
+       "id": 502,
        "name": "【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器",
        "price": 1299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 504,
+       "id": 503,
        "name": "【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】",
        "price": 2598,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 505,
+       "id": 504,
        "name": "｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 506,
+       "id": 505,
        "name": "｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑)▼下殺到 11/30 23:59",
        "price": 399,
        "list_price": 599,
@@ -4495,98 +4490,98 @@
      "label": "行動電源",
      "items": [
       {
-       "id": 509,
+       "id": 508,
        "name": "｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 429,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 510,
+       "id": 509,
        "name": "｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 511,
+       "id": 510,
        "name": "｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】",
        "price": 999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 513,
+       "id": 512,
        "name": "｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 514,
+       "id": 513,
        "name": "【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 515,
+       "id": 514,
        "name": "【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 516,
+       "id": 515,
        "name": "｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 517,
+       "id": 516,
        "name": "【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 518,
+       "id": 517,
        "name": "【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】",
        "price": 1198,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 519,
+       "id": 518,
        "name": "｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 520,
+       "id": 519,
        "name": "｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】",
        "price": 659,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 521,
+       "id": 520,
        "name": "【兩件優惠】｛Gigastone QP-10200B｝【兩件】",
        "price": 1259,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 522,
+       "id": 521,
        "name": "｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】",
        "price": 399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 523,
+       "id": 522,
        "name": "｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線",
        "price": 1299,
        "list_price": null,
@@ -11047,10 +11042,12 @@
       },
       {
        "id": 80,
-       "name": "微星｛SPATIUM M560 2TB｝/Gen5/讀10300/寫8700/TLC【五年保】",
-       "price": 7878,
+       "name": "微星｛SPATIUM M560 2TB｝/Gen5/讀10300/寫8700/TLC【五年保】▼下殺到 11/11 23:59",
+       "price": 8111,
        "list_price": null,
-       "flags": []
+       "flags": [
+        "下殺"
+       ]
       },
       {
        "id": 81,
@@ -11337,21 +11334,21 @@
       },
       {
        "id": 119,
-       "name": "｛致態 ZhiTai Ti600s 1024G｝/Gen4/PCIe 4.0/讀7400/寫6600/QLC【五年保】~送飲料提袋~",
+       "name": "｛致態 ZhiTai Ti600s 1024G｝/Gen4/PCIe 4.0/讀7400/寫6600/QLC~送疾風暴力吹塵器",
        "price": 5299,
        "list_price": null,
        "flags": []
       },
       {
        "id": 120,
-       "name": "｛致態 ZhiTai Ti600s 2048G｝/Gen4/PCIe 4.0/讀7400/寫6800/QLC【五年保】~送飲料提袋~",
+       "name": "｛致態 ZhiTai Ti600s 2048G｝/Gen4/PCIe 4.0/讀7400/寫6800/QLC~送疾風暴力吹塵器",
        "price": 8499,
        "list_price": null,
        "flags": []
       },
       {
        "id": 121,
-       "name": "｛致態 ZhiTai Ti600s 4096G｝/Gen4/PCIe 4.0/讀7400/寫6900/QLC【五年保】~送飲料提袋~",
+       "name": "｛致態 ZhiTai Ti600s 4096G｝/Gen4/PCIe 4.0/讀7400/寫6900/QLC~送疾風暴力吹塵器",
        "price": 15999,
        "list_price": null,
        "flags": []
@@ -12461,15 +12458,6 @@
       },
       {
        "id": 93,
-       "name": "Seagate 2TB【新梭魚】(2.5吋/5400轉/128M/7mm/2年保)｛ST2000LM015｝【限搭機】",
-       "price": 4390,
-       "list_price": null,
-       "flags": [
-        "限搭機"
-       ]
-      },
-      {
-       "id": 94,
        "name": "WD 2TB【藍標】(2.5吋/5400轉/128M/7mm/2年保)｛WD20SPZX｝【限搭機】",
        "price": 6690,
        "list_price": null,
@@ -21286,10 +21274,13 @@
       },
       {
        "id": 324,
-       "name": "｛Acer Nitro GA271U P｝〈1H1P1C/IPS/180Hz/含喇叭/白色〉智慧螢幕",
-       "price": 6999,
-       "list_price": null,
-       "flags": []
+       "name": "｛Acer Nitro GA271U P｝〈1H1P1C/IPS/180Hz/含喇叭/白色〉智慧螢幕▼下殺到 11/11 23:59",
+       "price": 4888,
+       "list_price": 6999,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
        "id": 325,
@@ -21332,9 +21323,10 @@
       {
        "id": 331,
        "name": "｛Acer Nitro XV272U X1｝〈2H1P/IPS/200Hz/含喇叭HDR400〉可升降旋轉▼下殺到 11/15 23:59",
-       "price": 4488,
-       "list_price": null,
+       "price": 4088,
+       "list_price": 4488,
        "flags": [
+        "價格異動",
         "下殺"
        ]
       },
@@ -21824,72 +21816,62 @@
       },
       {
        "id": 405,
-       "name": "｛技嘉 MO27Q28G｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉▼下殺到 11/29 23:59",
-       "price": 11990,
-       "list_price": 14990,
-       "flags": [
-        "價格異動",
-        "下殺"
-       ]
-      },
-      {
-       "id": 406,
        "name": "｛技嘉 MO27Q2A｝〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 14190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 407,
+       "id": 406,
        "name": "｛技嘉 MO27Q28GR｝〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉",
-       "price": 14990,
+       "price": 14211,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 408,
+       "id": 407,
        "name": "｛技嘉 FO27Q28G｝〈2H1P1C/WOLED/280Hz/HDR10/DP 2.1〉面板四年防烙印",
        "price": 16990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 410,
+       "id": 409,
        "name": "｛華碩 VA27AQ｝〈1A1H1P/IPS/含喇叭/HDR10〉",
        "price": 3688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 411,
+       "id": 410,
        "name": "｛華碩 VA27AQSE｝〈1A1H1P/IPS/含喇叭/HDR10〉可升降旋轉",
        "price": 4550,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 412,
+       "id": 411,
        "name": "｛華碩 ProArt PA278QGV｝〈1H1P/IPS/120Hz/含喇叭/無亮點〉可升降旋轉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 413,
+       "id": 412,
        "name": "｛華碩 ProArt PA278CFRV｝〈1H2P1C/IPS/100Hz/含喇叭/HDR400/無亮點〉可升降旋轉",
        "price": 9888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 414,
+       "id": 413,
        "name": "｛華碩 ProArt PA278CGRV｝〈1H2P1C/IPS/144Hz/含喇叭HDR400〉可升降旋轉",
        "price": 9878,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 415,
+       "id": 414,
        "name": "｛華碩 TUF Gaming VG27AQE5A｝〈2H1P/IPS/165Hz/含喇叭〉",
        "price": 3988,
        "list_price": null,
@@ -21898,161 +21880,161 @@
        ]
       },
       {
-       "id": 416,
+       "id": 415,
        "name": "｛華碩 TUF Gaming VG27AQ5A｝〈2H1P/IPS/210Hz/含喇叭/HDR10〉",
        "price": 4288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 417,
+       "id": 416,
        "name": "｛華碩 TUF Gaming VG27AQL5A｝〈2H1P/IPS/210Hz/含喇叭/HDR400〉可升降旋轉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 418,
+       "id": 417,
        "name": "｛華碩 TUF Gaming VG27AQ5F｝〈2H1P/IPS/220Hz/含喇叭/HDR10〉",
        "price": 4588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 419,
+       "id": 418,
        "name": "｛華碩 TUF Gaming VG27AQL5F｝〈2H1P/IPS/220Hz/含喇叭/HDR400〉",
        "price": 4988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 420,
+       "id": 419,
        "name": "｛華碩 TUF Gaming VG27AQME5F｝〈2H1P/IPS/255Hz/含喇叭/HDR10〉",
        "price": 5111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 421,
+       "id": 420,
        "name": "｛華碩 TUF Gaming VG27WQ5F｝〈2H1P/VA曲面/220Hz/含喇叭/HDR10〉三模切換",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 422,
+       "id": 421,
        "name": "｛華碩 TUF Gaming VG27AQM5A｝〈2H1P/IPS/300Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 423,
+       "id": 422,
        "name": "｛華碩 TUF Gaming VG27AQM5F｝〈2H1P1C/IPS/320Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 6988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 424,
+       "id": 423,
        "name": "｛華碩 ROG Strix XG27ACS｝〈1H1P1C/IPS/180Hz/HDR400〉",
        "price": 5218,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 425,
+       "id": 424,
        "name": "｛華碩 ROG Strix XG27ACS-W｝〈1H1P1C/IPS/180Hz/HDR400/白色〉",
        "price": 5218,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 426,
+       "id": 425,
        "name": "｛華碩 ROG Strix XG27ACSR｝〈1H1P1C/IPS/220Hz/HDR400〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 427,
+       "id": 426,
        "name": "｛華碩 ROG Strix XG27ACSR-W｝〈1H1P1C/IPS/220Hz/HDR400/白色〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 428,
+       "id": 427,
        "name": "｛華碩 ROG Strix XG27ACMES｝〈1H1P1C/IPS/255Hz/HDR400/〉",
        "price": 6618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 429,
+       "id": 428,
        "name": "｛華碩 ROG Strix XG27ACMES-W｝〈1H1P1C/IPS/255Hz/HDR400/白色〉",
        "price": 6618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 430,
+       "id": 429,
        "name": "｛華碩 ROG Strix XG27WCMS｝〈1H1P1C/VA曲面/1500R/280Hz/HDR400/HDMI 2.1〉",
        "price": 9688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 431,
+       "id": 430,
        "name": "｛華碩 ROG Strix XG27AQDMGR｝〈2H1P/WOLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 432,
+       "id": 431,
        "name": "｛華碩 ROG Strix XG27AQDMES｝〈2H1P/OLED/240Hz/HDR10/HDMI2.1〉",
        "price": 9999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 433,
+       "id": 432,
        "name": "｛華碩 ROG Strix XG27AQWMG｝〈2H1P/WOLED/280Hz/HDR500/HDMI 2.1〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 434,
+       "id": 433,
        "name": "｛華碩 ROG Strix XG27ACDMS｝〈1H1P1C/OLED/280Hz/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 435,
+       "id": 434,
        "name": "｛華碩 ROG Strix XG27AQDNG｝〈2H1P/OLED/360Hz/HDR400/HDMI 2.1〉",
        "price": 17888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 436,
+       "id": 435,
        "name": "｛華碩 ROG Strix XG27AQNGV｝〈2H1P/Ultrafast IPS/360Hz/G-Sync Pulsar/電競雙模〉可升降旋轉",
        "price": 16888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 438,
+       "id": 437,
        "name": "｛華碩 ROG Swift PG27AQWP-G 20周年限定版｝〈2H1P/OLED/HDR500〉2K-540Hz/HD-720Hz切換",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 439,
+       "id": 438,
        "name": "｛華碩 ROG Swift PG27AQWP-W｝〈2H1P/OLED/540Hz/HDR500/DP 2.1〉2K-540Hz/HD-720Hz切換",
        "price": 32888,
        "list_price": null,
@@ -22064,56 +22046,56 @@
      "label": "27吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 442,
+       "id": 441,
        "name": "｛MSI PRO MP273UP E6｝〈2H1P/IPS/含喇叭〉",
        "price": 5488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 443,
+       "id": 442,
        "name": "｛MSI Modern MD272UPHW｝〈2H1P1C/IPS/含喇叭/HDR400/白色〉可升降旋轉",
        "price": 7490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 444,
+       "id": 443,
        "name": "｛MSI Modern MD272UPSW｝〈1H1P1C/IPS/含喇叭/白色〉智慧螢幕.可升降旋轉",
        "price": 6490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 446,
+       "id": 445,
        "name": "｛MSI PRO MAX 271UPXW12G｝〈2H1P2C/OLED/120Hz/含喇叭/白色〉可升降旋轉",
        "price": 23900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 447,
+       "id": 446,
        "name": "｛MSI MAG 275UPD E14｝〈2H1P/IPS/含喇叭/HDMI 2.1〉4K-144Hz/FHD-288Hz切換",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 448,
+       "id": 447,
        "name": "｛MSI MAG 274UPDF E16M｝〈2H1P1C/IPS/HDR1000/HDMI 2.1〉Mini-LED.4K-160Hz/FHD-320Hz切換",
        "price": 11111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 449,
+       "id": 448,
        "name": "｛MSI MPG 274URDFW E16M｝〈2H1P1C/IPS/HDR1000/HDMI 2.1/白色〉Mini-LED.4K-160Hz/FHD-320Hz切換",
        "price": 15900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 450,
+       "id": 449,
        "name": "｛MSI MAG 272UP QD-OLED E16｝〈2H1P1C/OLED/165Hz/HDR400/HDMI 2.1〉▼下殺到 11/16 10:00",
        "price": 16900,
        "list_price": null,
@@ -22122,105 +22104,108 @@
        ]
       },
       {
-       "id": 451,
+       "id": 450,
        "name": "｛MSI MAG 272UP QD-OLED X24｝〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1〉",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 452,
+       "id": 451,
        "name": "｛MSI MPG 272URX QD-OLED｝〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/DP 2.1〉可升降旋轉",
        "price": 24888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 453,
+       "id": 452,
        "name": "｛PHILIPS 27M2N8800｝〈2H1P/QD-OLED/240Hz/HDR400〉可升降 客訂廠商直送",
        "price": 20111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 454,
+       "id": 453,
        "name": "｛AOC U27B35｝〈2H1P/IPS/HDR10〉",
        "price": 5190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 455,
+       "id": 454,
        "name": "｛AOC U27B3CF｝〈1H1C/IPS/HDR10/含喇叭〉可升降支架",
        "price": 6399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 456,
+       "id": 455,
        "name": "｛AOC AGON AG277UX｝〈2H1P/IPS/HDR600〉4K-160Hz/FHD-320Hz 雙模 可升降旋轉",
        "price": 12800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 457,
+       "id": 456,
        "name": "｛AOC AGON AG276UZD｝〈2H1P/OLED/240Hz/HDR400/DP 2.1/含喇叭〉",
        "price": 19999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 458,
+       "id": 457,
        "name": "｛Acer SA272K｝〈2H1P/IPS/含喇叭〉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 459,
+       "id": 458,
        "name": "｛Acer Nitro VG270K L1｝〈2H1P/IPS/含喇叭/HDR10〉4K-72Hz/FHD-144Hz切換",
        "price": 4999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 460,
+       "id": 459,
        "name": "｛Acer Nitro VG272K V3｝〈2H1P/IPS/含喇叭/HDR400/HDMI 2.1〉",
        "price": 6590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 461,
-       "name": "｛Acer Nitro VG270K V4｝〈2H1P/IPS/含喇叭/HDR10/HDMI 2.1〉4K-160Hz/FHD-320Hz切換",
-       "price": 6688,
-       "list_price": null,
-       "flags": []
+       "id": 460,
+       "name": "｛Acer Nitro VG270K V4｝〈2H1P/IPS/含喇叭/HDR10/HDMI 2.1〉4K-160Hz/FHD-320Hz切換▼下殺到 11/11 23:59",
+       "price": 6211,
+       "list_price": 6688,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
-       "id": 462,
+       "id": 461,
        "name": "｛Acer Nitro XV272K V5｝〈2H1P/IPS/含喇叭/HDR400/HDMI 2.1〉4K-160Hz/FHD-320Hz搖控器一鍵切換",
        "price": 7699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 463,
+       "id": 462,
        "name": "｛Acer ProCreator PE270K L1｝〈1H1P1C/IPS/含喇叭/HDR400〉4K-72Hz/FHD-144Hz 雙模式",
        "price": 8288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 464,
+       "id": 463,
        "name": "｛Acer ProCreator PE270KT｝〈2H1P1C/IPS/含喇叭/HDR400/觸控〉4K-72Hz/FHD-144Hz 雙模式",
        "price": 15980,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 465,
+       "id": 464,
        "name": "｛Acer Predator X27 G2｝〈2H1P/QD-OLED/120Hz/含喇叭/HDR400〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 17999,
        "list_price": 19999,
@@ -22230,21 +22215,21 @@
        ]
       },
       {
-       "id": 466,
+       "id": 465,
        "name": "｛BenQ EW2790U｝〈3H1C/IPS/含喇叭/HDR400/白色〉光智慧.類瞳孔.可升降旋轉",
        "price": 8988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 467,
+       "id": 466,
        "name": "｛BenQ MOBIUZ EX271UZ｝〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/白色〉",
        "price": 26888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 468,
+       "id": 467,
        "name": "｛BenQ MA270U｝〈2H1C/IPS/含喇叭/HDR400〉可升降旋轉.即插即準的Mac顯色",
        "price": 14888,
        "list_price": null,
@@ -22253,49 +22238,49 @@
        ]
       },
       {
-       "id": 469,
+       "id": 468,
        "name": "｛BenQ MA270UP｝〈2H1C/IPS/含喇叭/HDR400/鏡面面板〉可升降旋轉.即插即準的Mac顯色",
        "price": 14798,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 470,
+       "id": 469,
        "name": "｛BenQ PD2705U｝〈1H1P1C/IPS/含喇叭/HDR10〉可升降旋轉.ICCsync色彩模式調整",
        "price": 10888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 471,
+       "id": 470,
        "name": "｛BenQ PD2706U｝〈1H1P1C/IPS/含喇叭/HDR400〉可升降旋轉",
        "price": 13888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 472,
+       "id": 471,
        "name": "｛BenQ PD2706UA｝〈1H1P1C/IPS/含喇叭/HDR400〉Ergo支架.可升降旋轉",
        "price": 11888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 473,
+       "id": 472,
        "name": "｛BenQ PD2725U｝〈2H1P1C/IPS/含喇叭/HDR400〉可升降旋轉.高度Mac相容色彩",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 474,
+       "id": 473,
        "name": "｛BenQ PD2732U｝〈1H1P1C/IPS/HDR10〉可升降旋轉.高度Mac相容色彩",
        "price": 26888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 475,
+       "id": 474,
        "name": "｛BenQ PD2770U｝〈2H1P1C/IPS/HDR10〉可升降旋轉.內建校色器 (客訂)▼下殺到 11/30 23:59",
        "price": 56111,
        "list_price": 58888,
@@ -22305,7 +22290,7 @@
        ]
       },
       {
-       "id": 476,
+       "id": 475,
        "name": "｛BenQ SW272U｝〈2H1P1C/IPS/HDR10〉數位紙技術.SDI轉HDMI設備兼容性",
        "price": 48888,
        "list_price": null,
@@ -22314,21 +22299,21 @@
        ]
       },
       {
-       "id": 478,
+       "id": 477,
        "name": "｛DELL P2723QE｝〈1H1P1C/IPS/四年保〉RJ-45介面.可升降旋轉",
        "price": 15788,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 479,
+       "id": 478,
        "name": "｛DELL P2725QE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 14111,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 480,
+       "id": 479,
        "name": "｛DELL S2725QS｝〈2H1P/IPS/120Hz/含喇叭/HDMI 2.1/無亮點/四年保〉可升降旋轉",
        "price": 9599,
        "list_price": null,
@@ -22337,224 +22322,224 @@
        ]
       },
       {
-       "id": 481,
+       "id": 480,
        "name": "｛DELL U2725QE｝〈1H1P1C/IPS/120Hz/HDR600/HDMI 2.1/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 24888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 482,
+       "id": 481,
        "name": "｛DELL Alienware AW2725Q｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1/無亮點〉可升降旋轉",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 483,
+       "id": 482,
        "name": "｛LG UltraFine 27UP850K-W｝〈2H1P1C/IPS/含喇叭/HDR400〉可升降旋轉",
        "price": 11900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 484,
+       "id": 483,
        "name": "｛LG 27U730SA-W｝〈2H1C/IPS/含喇叭/HDR10/白色〉智慧螢幕.支援Airplay",
        "price": 9810,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 485,
+       "id": 484,
        "name": "｛LG UltraGear 27G850A-B｝〈2H1P/IPS/HDR600/HDMI 2.1/DP 2.1〉4K-240Hz/FHD-480Hz切換",
        "price": 14900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 486,
+       "id": 485,
        "name": "｛ViewSonic VA2708-4K-MHD｝〈2H1P/IPS/含喇叭/HDR10〉",
        "price": 8200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 487,
+       "id": 486,
        "name": "｛ViewSonic VG2719U-4K｝〈2H1P1C/IPS/含喇叭/HDR10〉可升降旋轉",
        "price": 7790,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 488,
+       "id": 487,
        "name": "｛ViewSonic VX2740D-4K｝〈2H1P1C/IPS/HDR10/無亮點〉4K-160Hz/FHD-320Hz 雙模式",
        "price": 6909,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 489,
+       "id": 488,
        "name": "｛ViewSonic XG275D1-4K｝〈2H1P1C/IPS/含喇叭/HDR10/無亮點/HDMI 2.1〉4K-160Hz/FHD-320Hz切換",
        "price": 12888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 490,
+       "id": 489,
        "name": "｛三星 ViewFinity S7 S27D706EAC｝〈1H1P/IPS/HDR10〉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 491,
+       "id": 490,
        "name": "｛三星 ViewFinity S7 S27H704EAC｝〈1H1P/IPS/HDR10〉",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 492,
+       "id": 491,
        "name": "｛三星 ViewFinity S8 S27D806UAC｝〈1H1P1C/IPS/HDR10〉可升降旋轉",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 493,
+       "id": 492,
        "name": "｛三星 ViewFinity S8 S27H802UAC｝〈1H1P1C/IPS/HDR10〉可升降旋轉",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 494,
+       "id": 493,
        "name": "｛三星 Odyssey G7 S27FG706EC｝〈2H1P/IPS/HDR10/HDMI 2.1〉4K-180Hz/FHD-360Hz切換",
        "price": 13900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 495,
+       "id": 494,
        "name": "｛三星 Odyssey G8 S27HG802SC｝〈2H1P1C/OLED/240Hz/HDR400/DP 2.1〉可升降旋轉",
        "price": 25900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 496,
+       "id": 495,
        "name": "｛三星 Odyssey 3D S27FG900XC｝〈2H1P/IPS/165Hz/HDR10〉3D螢幕 [內洽驚喜價]",
        "price": 39900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 497,
+       "id": 496,
        "name": "｛技嘉 GS27U｝〈2H1P/IPS/160Hz/HDR400/HDMI 2.1〉",
        "price": 7511,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 498,
+       "id": 497,
        "name": "｛技嘉 M27UP｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1〉4K-160Hz/FHD-320Hz切換",
        "price": 8490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 499,
+       "id": 498,
        "name": "｛技嘉 M27UP ICE｝〈2H1P1C/IPS/含喇叭/HDR400/HDMI 2.1/白色〉4K-160Hz/FHD-320Hz切換",
-       "price": 8990,
+       "price": 8868,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 500,
+       "id": 499,
        "name": "｛技嘉 MO27U2｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 501,
+       "id": 500,
        "name": "｛華碩 VA27UQSB｝〈2H1P/IPS/含喇叭/HDR10〉可升降旋轉",
        "price": 8290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 502,
+       "id": 501,
        "name": "｛華碩 ProArt PA279CRV｝〈2H2P1C/IPS/含喇叭/HDR400/無亮點〉可升降旋轉",
        "price": 10618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 503,
+       "id": 502,
        "name": "｛華碩 ProArt PA279CDV｝〈1H2P1C/OLED/120Hz/含喇叭/KVM/HDR10〉可升降旋轉",
        "price": 24900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 504,
+       "id": 503,
        "name": "｛華碩 ProArt PA27USD｝〈2H1P1TB4/OLED/240Hz/HDR400/Thunderbolt 4〉可升降旋轉",
        "price": 59888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 505,
+       "id": 504,
        "name": "｛華碩 ZenScreen MS27UC｝〈1H1P1C/IPS/含喇叭/HDR400〉智慧螢幕",
        "price": 8988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 506,
+       "id": 505,
        "name": "｛華碩 ROG Strix XG27UCSR｝〈1H1P1C/IPS/HDR400/HDMI 2.1〉4K-160Hz/FHD-324Hz切換",
        "price": 7688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 507,
+       "id": 506,
        "name": "｛華碩 ROG Strix XG27UCGR｝〈1H1P1C/IPS/HDR400/HDMI 2.1〉4K-162Hz/FHD-485Hz切換",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 508,
+       "id": 507,
        "name": "｛華碩 ROG Strix XG27UCGR-W｝〈1H1P1C/IPS/HDR400/白色〉4K-162Hz/FHD-485Hz切換",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 509,
+       "id": 508,
        "name": "｛華碩 ROG Strix XG27UCGR-G｝〈1H1P1C/IPS/HDR400〉影之刃零限定版 可升降 雙模",
        "price": 12988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 511,
+       "id": 510,
        "name": "｛華碩 ROG Strix XG27UCMG｝〈1H1P1C/IPS/HDR400〉4K-240Hz/QHD-400Hz/FHD-488Hz",
        "price": 14888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 513,
+       "id": 512,
        "name": "｛華碩 ROG Strix XG27UQDMS｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 514,
+       "id": 513,
        "name": "｛華碩 ROG Swift PG27UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz 雙模式",
        "price": 29888,
        "list_price": null,
@@ -22566,7 +22551,7 @@
      "label": "27吋(5120*2880)(5K 16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 517,
+       "id": 516,
        "name": "｛MSI MAG 271KPD7｝〈2H1P1C/IPS/HDR400/HDMI 2.1〉5K-75Hz/2K-300Hz切換▼下殺到 11/16 10:00",
        "price": 11111,
        "list_price": 13900,
@@ -22576,7 +22561,7 @@
        ]
       },
       {
-       "id": 518,
+       "id": 517,
        "name": "｛Samsung ViewFinity S8 S27H802EFA｝〈1H1P1C/IPS/HDR10〉",
        "price": 19900,
        "list_price": null,
@@ -22586,21 +22571,21 @@
        ]
       },
       {
-       "id": 519,
+       "id": 518,
        "name": "｛三星 Odyssey G8 S27HG806EF｝〈2H1P/IPS/HDR10〉5K-180Hz/QHD-360Hz切換",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 521,
+       "id": 520,
        "name": "｛BenQ MA270S｝〈1H1C/IPS/70Hz/含喇叭/HDR400/Thunderbolt 4/鏡面面板〉可升降旋轉",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 523,
+       "id": 522,
        "name": "｛BenQ PD2730S｝〈1H1P1C/IPS/含喇叭/HDR400/HDMI 2.1〉可升降旋轉",
        "price": 36888,
        "list_price": null,
@@ -22609,21 +22594,21 @@
        ]
       },
       {
-       "id": 524,
+       "id": 523,
        "name": "｛華碩 ProArt PA27JCV｝〈1H1P1C/IPS/含喇叭/HDR500/HDMI 2.1/無亮點〉可升降旋轉\"",
        "price": 18648,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 525,
+       "id": 524,
        "name": "｛華碩 ROG Strix 5K XG27JCG｝〈2H1P1C/IPS/HDR600〉5K-180Hz/QHD-330Hz 雙模式",
        "price": 17800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 527,
+       "id": 526,
        "name": "｛Acer ProCreator PE270XT｝〈2H1P1C/IPS/含喇叭/HDR600/HDMI 2.1/視訊〉",
        "price": 19999,
        "list_price": null,
@@ -22635,7 +22620,7 @@
      "label": "28吋(3840*2160)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 530,
+       "id": 529,
        "name": "｛BenQ RD280U｝〈1H1P1C/IPS/含喇叭/HDR400〉光智慧2.0及智能光技術.Coding模式",
        "price": 14888,
        "list_price": null,
@@ -22647,14 +22632,14 @@
      "label": "29吋(2560*1080)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 534,
+       "id": 533,
        "name": "｛ViewSonic VA2932-MHD｝〈2H1P/IPS/含喇叭/HDR10〉",
        "price": 5488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 535,
+       "id": 534,
        "name": "｛LG 29U511A-B｝〈1H1P/IPS/100Hz/HDR10〉",
        "price": 4690,
        "list_price": null,
@@ -22666,56 +22651,56 @@
      "label": "32吋(1920*1080)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 538,
+       "id": 537,
        "name": "｛MSI MAG 32C6X｝〈2H1P/VA曲面/1500R/250Hz〉",
        "price": 4990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 539,
+       "id": 538,
        "name": "｛MSI G32C4X｝〈2H1P/VA曲面/1500R/250Hz〉",
        "price": 5490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 540,
+       "id": 539,
        "name": "｛PHILIPS 32E1N1100L｝〈1A1H/VA/100Hz〉",
        "price": 4088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 541,
+       "id": 540,
        "name": "｛Acer SA322Q P1｝〈1A1H/IPS/144Hz〉",
        "price": 4299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 542,
+       "id": 541,
        "name": "｛Acer SH322Q P0｝〈1A1H/VA/144Hz〉",
        "price": 4499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 543,
+       "id": 542,
        "name": "｛Acer Nitro ED320QR H｝〈1A1H/VA曲面/1500R/100Hz〉",
        "price": 3999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 544,
+       "id": 543,
        "name": "｛Acer Nitro ED320QR S3｝〈2H1P/VA曲面/1500R/180Hz/含喇叭/HDR10〉",
        "price": 4999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 545,
+       "id": 544,
        "name": "｛Acer Nitro ED320Q W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 4911,
        "list_price": 4999,
@@ -22725,70 +22710,70 @@
        ]
       },
       {
-       "id": 547,
+       "id": 546,
        "name": "｛AOPEN 32HC5QR S3｝〈2H1P/VA曲面/1500R/180Hz/含喇叭〉",
        "price": 4999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 548,
+       "id": 547,
        "name": "｛AOPEN 32HC5QR W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭〉",
        "price": 4799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 549,
+       "id": 548,
        "name": "｛ViewSonic VX3276-MHD-3｝〈1A1H1P/IPS/含喇叭/HDR10/無亮點〉金屬質感底座",
        "price": 4490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 550,
+       "id": 549,
        "name": "｛ViewSonic VA3209-MH｝〈1A1H/IPS/含喇叭〉",
        "price": 4688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 551,
+       "id": 550,
        "name": "｛華碩 VA329HE｝〈1A2H/IPS〉32吋入門款",
        "price": 4540,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 552,
+       "id": 551,
        "name": "｛華碩 VA329QG3｝〈1A2H/VA/180Hz/HDR10〉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 553,
+       "id": 552,
        "name": "｛三星 M5 S32FM500EC｝〈2H/VA/含喇叭/HDR10〉智慧螢幕",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 554,
+       "id": 553,
        "name": "｛三星 M5 S32FM501EC｝〈2H/VA/含喇叭/HDR10/白色〉智慧螢幕",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 555,
+       "id": 554,
        "name": "｛三星 M5 S32FM500EC-FollowMe｝〈2H/VA/含喇叭/HDR10〉移動式智慧聯網螢幕組",
        "price": 11990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 557,
+       "id": 556,
        "name": "｛三星 M5 S32FM501EC-FollowMe｝〈2H/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組",
        "price": 11990,
        "list_price": null,
@@ -22800,63 +22785,66 @@
      "label": "32吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 561,
+       "id": 560,
        "name": "｛MSI MAG 325QF E18V｝〈2H1P/VA/180Hz〉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 562,
+       "id": 561,
        "name": "｛MSI MAG 325CQPF E18｝〈2H1P/VA曲面/1000R/180Hz〉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 563,
+       "id": 562,
        "name": "｛Acer SA322QU P0｝〈1H1P/IPS/144Hz/含喇叭/HDR10〉",
        "price": 5399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 564,
+       "id": 563,
        "name": "｛BenQ GW3290QT｝〈1H1P1C/IPS/含喇叭/白色〉可升降旋轉.降噪麥克風",
        "price": 9988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 565,
+       "id": 564,
        "name": "｛PHILIPS Evnia 32M2C3500L｝〈2H1P/VA曲面/1500R/180Hz/HDR10〉",
        "price": 6388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 566,
+       "id": 565,
        "name": "｛PHILIPS Evnia 32M3C3540W｝〈2H1P/VA曲面/1000R/240Hz/HDR400〉",
        "price": 6911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 567,
+       "id": 566,
        "name": "｛AOC CQ32G4E｝〈1H1P/VA曲面/1500R/180Hz/HDR10〉",
        "price": 5388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 568,
-       "name": "｛AOPEN 32HC5QUR S3｝〈2H1P/VA曲面/1500R/180Hz/HDR10/含喇叭〉",
-       "price": 5811,
-       "list_price": null,
-       "flags": []
+       "id": 567,
+       "name": "｛AOPEN 32HC5QUR S3｝〈2H1P/VA曲面/1500R/180Hz/HDR10/含喇叭〉▼下殺到 11/11 23:59",
+       "price": 5699,
+       "list_price": 5811,
+       "flags": [
+        "價格異動",
+        "下殺"
+       ]
       },
       {
-       "id": 569,
+       "id": 568,
        "name": "｛terra 3285W HA｝〈2H1P1C/VA曲面/1000R/180Hz/含喇叭/HDR10/HDMI 2.1〉",
        "price": 6988,
        "list_price": null,
@@ -22865,42 +22853,42 @@
        ]
       },
       {
-       "id": 570,
+       "id": 569,
        "name": "｛ViewSonic VA3209-2K-MHD｝〈2H1P/IPS/含喇叭/HDR10〉",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 571,
+       "id": 570,
        "name": "｛ViewSonic VX3276-2K-mhd-2｝〈2H2P/IPS/含喇叭/HDR10/無亮點〉金屬質感底座",
        "price": 6588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 572,
+       "id": 571,
        "name": "｛ViewSonic VX3218C-2K｝〈1H1P/VA曲面/1500R/165Hz/含喇叭/HDR10/無亮點〉",
        "price": 4999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 573,
+       "id": 572,
        "name": "｛三星 Odyssey G5 S32CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉[內洽驚喜價]",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 574,
+       "id": 573,
        "name": "｛三星 Odyssey G5 S32HG552EC｝〈1H1P/VA曲面/1000R/180Hz/HDR10〉",
        "price": 6990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 575,
+       "id": 574,
        "name": "｛三星 Odyssey G5 S32FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉",
        "price": 7490,
        "list_price": null,
@@ -22909,7 +22897,7 @@
        ]
       },
       {
-       "id": 576,
+       "id": 575,
        "name": "｛技嘉 GS32QCA｝〈2H1P/VA曲面/1500R/180Hz〉",
        "price": 5990,
        "list_price": null,
@@ -22918,14 +22906,14 @@
        ]
       },
       {
-       "id": 577,
+       "id": 576,
        "name": "｛華碩 TUF Gaming VG32WQ3B｝〈2H1P/VA曲面/1500R/180Hz/含喇叭/HDR10〉",
        "price": 6121,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 578,
+       "id": 577,
        "name": "｛華碩 ROG Strix XG32WCS｝〈1H1P1C/VA曲面/1500R/180Hz/HDR400〉",
        "price": 6988,
        "list_price": null,
@@ -22937,35 +22925,35 @@
      "label": "32吋(3840*2160)(4K 16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 581,
+       "id": 580,
        "name": "｛MSI MAG 321UPD E14｝〈2H1P/IPS/HDMI 2.1〉4K-144Hz/FHD-288Hz切換",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 582,
+       "id": 581,
        "name": "｛MSI MAG 322URDF E16｝〈2H1P/IPS/HDR400/HDMI 2.1〉4K-160Hz/FHD-320Hz切換",
        "price": 13050,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 584,
+       "id": 583,
        "name": "｛MSI MAG 322UP QD-OLED E16｝〈2H1P1C/OLED/165Hz/HDR400/HDMI 2.1〉",
        "price": 16999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 585,
+       "id": 584,
        "name": "｛MSI MPG 321URX QD-OLED｝〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1〉PD 90W",
        "price": 20888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 586,
+       "id": 585,
        "name": "｛MSI MPG 322URX QD-OLED｝〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/DP 2.1〉▼下殺到 11/16 10:00",
        "price": 22900,
        "list_price": null,
@@ -22974,21 +22962,21 @@
        ]
       },
       {
-       "id": 587,
+       "id": 586,
        "name": "｛MSI MPG 321CURX QD-OLED｝〈2H1P1C/OLED曲面/1700R/240Hz/HDR400/HDMI 2.1〉",
        "price": 29900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 588,
+       "id": 587,
        "name": "｛MSI MPG 322UR QD-OLED X24｝〈2H1P1C/OLED/240Hz/HDR500/HDMI 2.1/DP 2.1〉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 589,
+       "id": 588,
        "name": "｛MSI MAG 321UP QD-OLED X24｝〈2H1P1C/OLED/240Hz/HDR500/HDMI 2.1〉▼下殺到 11/16 10:00",
        "price": 25900,
        "list_price": 29900,
@@ -22998,56 +22986,56 @@
        ]
       },
       {
-       "id": 590,
+       "id": 589,
        "name": "｛PHILIPS 32M2N8900｝〈2H1P/QD-OLED/240Hz/HDR400〉可升降 客訂廠商直送",
        "price": 19911,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 591,
+       "id": 590,
        "name": "｛AOC U32V11N｝〈2H1P/VA/HDR10〉",
        "price": 6799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 592,
+       "id": 591,
        "name": "｛AOC AGON AG326UZD｝〈2H1P/OLED/240Hz/HDR400/DP 2.1/含喇叭/可升降旋轉〉",
        "price": 21900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 594,
+       "id": 593,
        "name": "｛AOPEN amadana 32ACA1QK W｝〈1H1C/含喇叭/智慧螢幕/可以移動式支架〉",
        "price": 21900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 595,
+       "id": 594,
        "name": "｛Acer SA322QK｝〈2H1P/VA/含喇叭/HDR10〉",
        "price": 5999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 596,
+       "id": 595,
        "name": "｛Acer Nitro XV320QK V4｝〈2H1P/IPS/含喇叭/HDR10/HDMI 2.1〉4K-160Hz/FHD-320Hz切換",
        "price": 10999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 597,
+       "id": 596,
        "name": "｛Acer Predator X32 X2｝〈2H1P/OLED/240Hz/含喇叭/HDR400/HDMI 2.1/無亮點〉",
        "price": 18811,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 599,
+       "id": 598,
        "name": "｛Acer ProCreator PE320QK P｝〈2H1P1C/OLED/165Hz/含喇叭/HDR400/專業色彩認證〉▼下殺到 11/15 23:59",
        "price": 21111,
        "list_price": 22900,
@@ -23057,7 +23045,7 @@
        ]
       },
       {
-       "id": 600,
+       "id": 599,
        "name": "｛Acer ProCreator PE320QK X｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/專業色彩認證〉▼下殺到 11/15 23:59",
        "price": 28900,
        "list_price": 29900,
@@ -23067,28 +23055,28 @@
        ]
       },
       {
-       "id": 602,
+       "id": 601,
        "name": "｛BenQ RD320U｝〈2H1P1C/IPS/含喇叭/HDR400〉智能光技術.Coding模式",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 604,
+       "id": 603,
        "name": "｛BenQ EW3290U｝〈3H1C/IPS/含喇叭/HDR400/白色〉光智慧.類瞳孔.可升降旋轉",
        "price": 14500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 605,
+       "id": 604,
        "name": "｛BenQ MA320U｝〈2H1C/IPS/含喇叭/HDR600〉可升降旋轉.即插即準的Mac顯色",
        "price": 18888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 607,
+       "id": 606,
        "name": "｛BenQ MA320UP｝〈2H1C/IPS/含喇叭/HDR600/鏡面〉可升降旋轉.即插即準的Mac顯色▼下殺到 11/30 23:59",
        "price": 17888,
        "list_price": 18888,
@@ -23098,168 +23086,168 @@
        ]
       },
       {
-       "id": 609,
+       "id": 608,
        "name": "｛BenQ MA320UG｝〈2H1C/IPS/120Hz/含喇叭/HDR400/鏡面/Thunderbolt 4〉可升降旋轉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 611,
+       "id": 610,
        "name": "｛BenQ PV3200U｝〈3H1C/IPS/含喇叭/HDR400〉可升降旋轉.ICCsync色彩模式調整",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 612,
+       "id": 611,
        "name": "｛BenQ PD3205U｝〈1H1P1C/IPS/含喇叭/HDR10〉可升降旋轉.ICCsync色彩模式調整",
        "price": 15800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 613,
+       "id": 612,
        "name": "｛BenQ PD3220U｝〈2H1P2C/IPS/含喇叭/HDR10〉可升降旋轉.高度Mac相容P3精準色彩",
        "price": 25888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 615,
+       "id": 614,
        "name": "｛BenQ MOBIUZ EX321UZ｝〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉",
        "price": 36888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 617,
+       "id": 616,
        "name": "｛DELL P3225QE｝〈1H1P1C/IPS/100Hz/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 18099,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 618,
+       "id": 617,
        "name": "｛DELL U3225QE｝〈1H1P1C/IPS/120Hz/HDR600/HDMI 2.1/無亮點/四年保〉RJ-45介面.可升降旋轉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 619,
+       "id": 618,
        "name": "｛LG UltraFine 32UN880K-B｝〈2H1P1C/IPS/含喇叭/HDR10〉Ergo人體工學支架 (C 型夾桌式)",
        "price": 12900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 620,
+       "id": 619,
        "name": "｛LG UltraFine 32UQ85RV-W｝〈2H1P1C/IPS/含喇叭/HDR400〉內附可拆卸校色器",
        "price": 18490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 621,
+       "id": 620,
        "name": "｛LG 32U720SA-W｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕.支援Airplay",
        "price": 11390,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 622,
+       "id": 621,
        "name": "｛LG UltraGear 32GS95UV-W｝〈2H1P/OLED/含喇叭/HDR400/HDMI 2.1/白色/二年保〉4K-240Hz/FHD-480Hz單鍵切換",
        "price": 34900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 623,
+       "id": 622,
        "name": "｛ViewSonic VA3208-4K-MHD｝〈2H1P/VA/含喇叭/HDR10〉",
        "price": 9800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 624,
+       "id": 623,
        "name": "｛ViewSonic VG3208U-4K｝〈2H1P1C/VA/含喇叭/HDR10〉",
        "price": 9999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 625,
+       "id": 624,
        "name": "｛三星 Smart M7 S32FM702UC｝〈2H1C/VA/含喇叭/HDR10/〉智慧螢幕",
        "price": 10990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 627,
+       "id": 626,
        "name": "｛三星 Smart M7 S32FM702UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/〉移動式智慧聯網螢幕組",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 629,
+       "id": 628,
        "name": "｛三星 Smart M7 S32FM703UC｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕",
        "price": 10990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 631,
+       "id": 630,
        "name": "｛三星 Smart M7 S32FM703UC-FollowMe｝〈2H1C/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 633,
+       "id": 632,
        "name": "｛三星 Smart M8 S32FM803UC｝〈1H1C/VA/含喇叭/HDR10/白色〉AI智慧螢幕",
        "price": 12900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 635,
+       "id": 634,
        "name": "｛三星 Smart M9 S32FM902SC｝〈1H1P1C/OLED/165Hz/含喇叭/HDR400〉AI智慧螢幕 *客訂",
        "price": 39990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 637,
+       "id": 636,
        "name": "｛三星 ViewFinity S7 S32H704EAC｝〈1H1P/VA/HDR10〉",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 638,
+       "id": 637,
        "name": "｛三星 ViewFinity S8 S32D806UAC｝〈1H1P1C/VA/HDR10〉可升降旋轉",
        "price": 10490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 639,
+       "id": 638,
        "name": "｛三星 ViewFinity S8 S32H802UAC｝〈1H1P1C/VA/HDR10〉可升降旋轉",
        "price": 10990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 640,
+       "id": 639,
        "name": "｛三星 Odyssey G7 S32HG732SC｝〈1H1P/OLED/165Hz/HDR400〉4K-165Hz/FHD-330Hz切換",
        "price": 19990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 642,
+       "id": 641,
        "name": "｛三星 Odyssey G8 S32FG812SC｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉▼下殺到 11/15 23:59",
        "price": 19990,
        "list_price": 22900,
@@ -23270,7 +23258,7 @@
        ]
       },
       {
-       "id": 643,
+       "id": 642,
        "name": "｛三星 Odyssey G8 S32HG802SC｝〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉可升降旋轉▼下殺到 11/29 23:59",
        "price": 25900,
        "list_price": null,
@@ -23279,35 +23267,35 @@
        ]
       },
       {
-       "id": 644,
+       "id": 643,
        "name": "｛技嘉 MO32U2｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉",
        "price": 18888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 645,
+       "id": 644,
        "name": "｛技嘉 MO32U24｝〈2H1P1C/OLED/240Hz/含喇叭/HDR500/HDMI 2.1〉可升降旋轉",
        "price": 27900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 646,
+       "id": 645,
        "name": "｛技嘉 AORUS FO32U2｝〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉",
        "price": 25900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 647,
+       "id": 646,
        "name": "｛華碩 VP327Q｝〈2H1P/VA/含喇叭/HDR10〉",
        "price": 6888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 648,
+       "id": 647,
        "name": "｛華碩 ROG Strix XG32UCG｝〈1H1P1C/IPS/HDR400/HDMI 2.1〉4K-160Hz/FHD-320Hz一鍵切換",
        "price": 12988,
        "list_price": null,
@@ -23316,77 +23304,77 @@
        ]
       },
       {
-       "id": 649,
+       "id": 648,
        "name": "｛華碩 ROG Strix XG32UCWG｝〈2H1P1C/OLED/HDR400/HDMI 2.1〉4K-165Hz/FHD-330Hz一鍵切換",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 650,
+       "id": 649,
        "name": "｛華碩 ROG Strix XG32UCWMG｝〈2H1P1C/OLED/HDR400/HDMI 2.1〉4K-240Hz/FHD-480Hz一鍵切換",
        "price": 22618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 651,
+       "id": 650,
        "name": "｛華碩 ROG Strix XG32UQDMS｝〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 652,
+       "id": 651,
        "name": "｛華碩 ROG Strix XG32UQDS｝〈2H1P/QD-OLED/180Hz/HDR10〉支援PIP / PBP 可升降",
        "price": 19888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 654,
+       "id": 653,
        "name": "｛華碩 ROG Strix XG32UQWMS｝〈2H1P/WOLED/240Hz/HDR500〉4K-240Hz/FHD-480Hz一鍵切換",
        "price": 22888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 655,
+       "id": 654,
        "name": "｛華碩 ROG Swift PG32UCDM3｝〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 656,
+       "id": 655,
        "name": "｛華碩 ROG Swift PG32UCWM｝〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz",
        "price": 32888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 657,
+       "id": 656,
        "name": "｛華碩 ProArt PA329CRV｝〈2H2P1C/IPS/含喇叭/HDR400/無亮點〉可升降旋轉",
        "price": 14988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 658,
+       "id": 657,
        "name": "｛華碩 ProArt PA32UCE｝〈2H2P1C/IPS/含喇叭/HDR600/無亮點〉內建電動翻轉校色器",
        "price": 23600,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 659,
+       "id": 658,
        "name": "｛華碩 ProArt PA329CDV｝〈1H2P1C/OLED/120Hz/含喇叭/KVM/HDR10〉可升降旋轉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 660,
+       "id": 659,
        "name": "｛華碩 ProArt PA32USD｝〈2H1P1TB4/OLED/240Hz/HDR400/Thunderbolt 4〉可升降旋轉",
        "price": 86888,
        "list_price": null,
@@ -23398,21 +23386,21 @@
      "label": "32吋(6016*3384)(6K 16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 663,
+       "id": 662,
        "name": "｛Acer ProCreator PE320QXT｝〈2H1P1C/IPS/含喇叭/HDR600/8M視訊鏡頭/10點觸控/專業色彩認證〉",
        "price": 25980,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 664,
+       "id": 663,
        "name": "｛華碩 ProArt PA32QCV｝〈1H1P2C/IPS/含喇叭/HDR600/無亮點/HDMI 2.1〉可升降旋轉",
        "price": 29888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 665,
+       "id": 664,
        "name": "｛三星 Odyssey G8 S32HG806ES｝〈2H1P/IPS/HDR10〉6K-165Hz/3K-330Hz 雙模式",
        "price": 27900,
        "list_price": null,
@@ -23424,7 +23412,7 @@
      "label": "34吋(2560*1080)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 668,
+       "id": 667,
        "name": "｛LG UltraWide 34U511A-B｝〈1H1P/IPS/100Hz/HDR400〉",
        "price": 6990,
        "list_price": null,
@@ -23436,7 +23424,7 @@
      "label": "34吋(3440*1440)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 671,
+       "id": 670,
        "name": "｛MSI PRO MP341CQW E12｝〈2H1P/VA曲面/1500R/120Hz/含喇叭/白色〉▼下殺到 11/19 23:59",
        "price": 5988,
        "list_price": 6588,
@@ -23447,28 +23435,28 @@
        ]
       },
       {
-       "id": 672,
+       "id": 671,
        "name": "｛MSI Modern MD342CQP｝〈2H1P1C/1ms/VA曲面/1500R/120Hz/含喇叭〉",
        "price": 7590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 673,
+       "id": 672,
        "name": "｛MSI Modern MD342CQPW｝〈2H1P1C/1ms/VA曲面/1500R/120Hz/含喇叭/白色〉",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 674,
+       "id": 673,
        "name": "｛MSI PRO MAX 341QPXW14G｝〈1H1P2C/ QD-OLED/KVM/144Hz/白色〉可升降",
        "price": 26900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 675,
+       "id": 674,
        "name": "｛MSI MAG 346CQ｝〈2H1P/VA曲面/1500R/180Hz〉▼下殺到 11/16 10:00",
        "price": 6666,
        "list_price": 6990,
@@ -23478,14 +23466,14 @@
        ]
       },
       {
-       "id": 676,
+       "id": 675,
        "name": "｛MSI MAG MAG 346CQDF E20｝〈2H1P/VA曲面/1500R〉2K-200Hz/HD-400Hz一鍵切換",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 677,
+       "id": 676,
        "name": "｛MSI MAG 345CQRF E20｝〈2H1P/VA曲面/1000R/200Hz〉",
        "price": 8990,
        "list_price": null,
@@ -23494,14 +23482,14 @@
        ]
       },
       {
-       "id": 678,
+       "id": 677,
        "name": "｛MSI MPG 346CQRF X24｝〈2H1P1C/VA曲面/1500R/240Hz/HDMI2.1〉",
        "price": 9990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 679,
+       "id": 678,
        "name": "｛MSI MAG 341CQP QD-OLED X28｝〈2H1P1C/OLED/280Hz/HDR500/HDMI 2.1〉▼下殺到 11/16 10:00",
        "price": 26900,
        "list_price": 29900,
@@ -23511,7 +23499,7 @@
        ]
       },
       {
-       "id": 680,
+       "id": 679,
        "name": "｛MSI MPG 341CQR QD-OLED X36｝〈2H1P1C/OLED曲面/1800R/360Hz/HDR500〉▼下殺到 11/16 10:00",
        "price": 32888,
        "list_price": 34888,
@@ -23521,14 +23509,14 @@
        ]
       },
       {
-       "id": 681,
+       "id": 680,
        "name": "｛Acer Nitro ED343CUR J0｝〈2H2P/VA曲面/1000R/120Hz/含喇叭/HDR10〉",
        "price": 5999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 682,
+       "id": 681,
        "name": "｛Acer Nitro ED340CUR J0｝〈2H1P/VA曲面/1500R/120Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 5888,
        "list_price": 5999,
@@ -23538,7 +23526,7 @@
        ]
       },
       {
-       "id": 683,
+       "id": 682,
        "name": "｛Acer Nitro ED340CUR X0｝〈2H2P/VA曲面/1500R/200Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 6599,
        "list_price": 6999,
@@ -23548,14 +23536,14 @@
        ]
       },
       {
-       "id": 684,
+       "id": 683,
        "name": "｛Acer Nitro XV345CUR X0｝〈2H2P/VA曲面/1000R/200Hz/含喇叭/HDR10〉",
        "price": 7299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 685,
+       "id": 684,
        "name": "｛Acer Nitro ED340CUR W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 7411,
        "list_price": 8499,
@@ -23565,7 +23553,7 @@
        ]
       },
       {
-       "id": 686,
+       "id": 685,
        "name": "｛Acer Nitro XZ340CUR W0｝〈2H1P/VA曲面/1500R/240Hz/含喇叭/HDR10〉可升降▼下殺到 11/15 23:59",
        "price": 7711,
        "list_price": 8699,
@@ -23575,21 +23563,21 @@
        ]
       },
       {
-       "id": 687,
+       "id": 686,
        "name": "｛AOC CU34G4｝〈2H1P/VA/曲面/1500R/180Hz/HDR10〉",
        "price": 6499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 689,
+       "id": 688,
        "name": "｛AOC CU34G4H｝〈2H1P/VA/曲面/1500R/200Hz〉可升降 支援 PIP/PBP 智慧分割",
        "price": 6888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 690,
+       "id": 689,
        "name": "｛AOC AGON PD34｝〈2H1P1C/OLED曲面/1800R/240Hz/含喇叭/HDR400/HDMI 2.1〉*客訂",
        "price": 28800,
        "list_price": null,
@@ -23598,63 +23586,63 @@
        ]
       },
       {
-       "id": 692,
+       "id": 691,
        "name": "｛DELL P3424WE｝〈1H1P1C/IPS曲面/3800R/無亮點/四年保〉RJ-45介面",
        "price": 26888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 693,
+       "id": 692,
        "name": "｛LG UltraGear 34GX90SA-W｝〈2H1P1C/OLED曲面/800R/240Hz/含喇叭/HDR400/HDMI 2.1/白色/二年保〉智慧螢幕",
        "price": 29610,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 694,
+       "id": 693,
        "name": "｛技嘉 GS34WQCA｝〈2H1P/VA曲面/1500R/120Hz/HDR10〉",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 695,
+       "id": 694,
        "name": "｛技嘉 G34WQC2｝〈2H2P/VA曲面/1500R/200Hz/HDR400/含喇叭〉可升降",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 696,
+       "id": 695,
        "name": "｛ViewSonic VX3480-2K-PRO｝〈2H1P/VA/165Hz/HDR10/無亮點〉",
        "price": 9088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 697,
+       "id": 696,
        "name": "｛三星 ViewFinity S6 S34C652UAC｝〈1H1P1C/VA曲面/1000R/100Hz/含喇叭/HDR10〉",
        "price": 13490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 698,
+       "id": 697,
        "name": "｛三星 Odyssey G5 S34HG552EC｝〈1H1P/VA曲面/1000R/180Hz/HDR10〉",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 699,
+       "id": 698,
        "name": "｛三星 Odyssey G5 C34G55TWWC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉[內洽驚喜價]",
        "price": 9900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 700,
+       "id": 699,
        "name": "｛三星 Odyssey G8 S34DG852SC｝〈2H1P/OLED/曲面/1800R/175Hz/含喇叭〉智慧螢幕▼下殺到 11/29 23:59",
        "price": 22900,
        "list_price": null,
@@ -23663,42 +23651,42 @@
        ]
       },
       {
-       "id": 701,
+       "id": 700,
        "name": "｛華碩 TUF Gaming VG34WQML5A｝〈2H2P/VA曲面/1500R/250Hz/含喇叭/HDR400/HDMI 2.1〉可升降",
        "price": 9977,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 702,
+       "id": 701,
        "name": "｛華碩 TUF Gaming VG34WQ5A｝〈2H2P/VA曲面/含喇叭/HDR400〉WQHD-200Hz/HD-400Hz 雙模式",
        "price": 6988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 703,
+       "id": 702,
        "name": "｛華碩 TUF Gaming VG34WQ5F｝〈2H2P/VA曲面/含喇叭/HDR10〉WQHD-200Hz/HD-400Hz 雙模式",
        "price": 7988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 704,
+       "id": 703,
        "name": "｛華碩 TUF Gaming VG34WQL5A｝〈2H2P/VA曲面/含喇叭/HDR400/可升降〉WQHD-200Hz/HD-400Hz 雙模式",
        "price": 8618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 705,
+       "id": 704,
        "name": "｛華碩 ROG Strix XG34WCDMS｝〈2H1P1C/OLED曲面/1800R/280Hz/HDR500〉",
        "price": 26888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 706,
+       "id": 705,
        "name": "｛華碩 ROG Strix XG34WCDMTG｝〈2H1P1C/OLED曲面/1800R/240Hz/HDR400〉智慧螢幕",
        "price": 29888,
        "list_price": null,
@@ -23710,7 +23698,7 @@
      "label": "34吋(5120*2160)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 709,
+       "id": 708,
        "name": "｛Acer Nitro XZ340CKR P｝〈2H1P/VA曲面/1500R/180Hz/含喇叭/HDR10〉可升降",
        "price": 14900,
        "list_price": null,
@@ -23722,21 +23710,21 @@
      "label": "37吋(3840*2160)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 712,
+       "id": 711,
        "name": "｛三星 ViewFinity S7 S37D702EAC｝〈1H1P/VA/HDR10〉",
        "price": 12900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 713,
+       "id": 712,
        "name": "｛三星 ViewFinity S8 S37D802UAC｝〈1H1P1C/VA/HDR10〉可升降",
        "price": 14900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 714,
+       "id": 713,
        "name": "｛三星 Odyssey G7 S37FG752EC｝〈2H1P/VA曲面/1000R/165Hz/HDR600〉",
        "price": 16888,
        "list_price": null,
@@ -23748,14 +23736,14 @@
      "label": "39吋(5120*2160)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 716,
+       "id": 715,
        "name": "｛LG UltraGear 39GX950B-B ｝〈2H1P1C/OLED曲面/HDR500〉5K-165Hz/2K-330Hz",
        "price": 46900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 717,
+       "id": 716,
        "name": "｛DELL Alienware AW3926QW｝〈2H1P1C/OLED曲面/HDR500〉5K-165Hz/2K-330Hz一鍵切換",
        "price": 42888,
        "list_price": null,
@@ -23767,21 +23755,21 @@
      "label": "40吋(5120*2160)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 719,
+       "id": 718,
        "name": "｛三星 ViewFinity S8 S40H850TAC｝〈1H1P/VA曲面/1000R/144Hz/含喇叭/Thunderbolt 5〉",
        "price": 27900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 720,
+       "id": 719,
        "name": "｛三星 Odyssey G7 S40FG752EC｝〈2H1P/VA曲面/1000R/180Hz/HDR600〉",
        "price": 24900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 721,
+       "id": 720,
        "name": "｛LG UltraFine 40U990A-W｝〈2H1P1C/IPS曲面/2500R/HDR600/Thunderbolt 5〉可升降 客訂",
        "price": 39900,
        "list_price": null,
@@ -23793,21 +23781,21 @@
      "label": "43吋(3840*2160)(16:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 724,
+       "id": 723,
        "name": "｛三星 Smart M7 S43FM702UC｝〈2H1C/VA/含喇叭/HDR10〉智慧螢幕",
        "price": 13990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 725,
+       "id": 724,
        "name": "｛三星 Smart M7 S43FM703UC｝〈2H1C/VA/含喇叭/HDR10/白色〉智慧螢幕",
        "price": 13690,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 726,
+       "id": 725,
        "name": "｛三星 Smart M7 S43FM703UC-FollowMe Pro｝〈2H1C/VA/含喇叭/HDR10/白色〉移動式智慧聯網螢幕組",
        "price": 17600,
        "list_price": null,
@@ -23821,7 +23809,7 @@
      "label": "45吋(5120x2160)(21:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 728,
+       "id": 727,
        "name": "｛LG UltraGear 45GX950A-B｝〈2H1P1C/OLED曲面/800R/含喇叭/HDR400/5K-165Hz/WFHD-330Hz 雙模式",
        "price": 52900,
        "list_price": null,
@@ -23833,7 +23821,7 @@
      "label": "49吋(3840*1080)(32:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 731,
+       "id": 730,
        "name": "｛華碩 ROG Strix XG49VQ｝〈2H1P/VA曲面/1800R/144Hz/含喇叭/HDR400〉",
        "price": 19388,
        "list_price": null,
@@ -23845,28 +23833,28 @@
      "label": "49吋(5120*1440)(32:9)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 734,
+       "id": 733,
        "name": "｛MSI MPG 491CQP QD-OLED｝〈2H1P1C/OLED曲面/1800R/144Hz/HDR400/HDMI 2.1〉",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 735,
+       "id": 734,
        "name": "｛MSI MPG 491CQPX QD-OLED｝〈2H1P1C/OLED曲面/1800R/240Hz/HDR400/HDMI 2.1〉",
        "price": 36700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 736,
+       "id": 735,
        "name": "｛PHILIPS Evnia 49M2C8900L｝〈2H1P1C/OLED曲面/1800R/144Hz/含喇叭/HDR400〉*客訂",
        "price": 33888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 737,
+       "id": 736,
        "name": "｛Acer EI491CUR S ｝〈2H2P/VA曲面/1800R/120Hz/含喇叭/HDR400〉▼下殺到 11/15 23:59",
        "price": 16111,
        "list_price": 18888,
@@ -23876,28 +23864,28 @@
        ]
       },
       {
-       "id": 739,
+       "id": 738,
        "name": "｛AOC AGON PD49｝〈2H1P1C/OLED曲面/1800R/240Hz/含喇叭/HDR400/HDMI 2.1〉*客訂",
        "price": 43800,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 740,
+       "id": 739,
        "name": "｛三星 Odyssey G9 S49FG916EC｝〈2H1P/VA曲面/1000R/144Hz/HDR600/HDMI 2.1〉",
        "price": 22900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 741,
+       "id": 740,
        "name": "｛三星 Odyssey G9 S49DG932SC｝〈2H1P/OLED曲面/1800R/240Hz/HDR10/HDMI 2.1〉",
        "price": 36900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 743,
+       "id": 742,
        "name": "｛三星 Odyssey G9 S49DG952SC｝〈2H1P/OLED曲面/1800R/240Hz/含喇叭/HDR10/HDMI 2.1〉智慧螢幕",
        "price": 39900,
        "list_price": null,
@@ -23909,7 +23897,7 @@
      "label": "57吋(7680*2160)〈亮暗點保固視廠商保固條款而定〉",
      "items": [
       {
-       "id": 747,
+       "id": 746,
        "name": "｛三星 Odyssey G9 S57CG952NC｝〈3H1P/VA曲面/1000R/240Hz/HDR1000/HDMI 2.1/白色〉Mini LED *客訂",
        "price": 67104,
        "list_price": null,
@@ -23921,56 +23909,56 @@
      "label": "觸控式螢幕、可攜式螢幕、遊戲TV",
      "items": [
       {
-       "id": 751,
+       "id": 750,
        "name": "｛BenQ J55-770 55型 Mini LED量子點遊戲Google TV｝〈微距控光&光動態演算技術〉",
        "price": 22900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 752,
+       "id": 751,
        "name": "｛BenQ J65-770 65型 Mini LED量子點遊戲Google TV｝〈微距控光&光動態演算技術〉",
        "price": 32900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 753,
+       "id": 752,
        "name": "｛BenQ J75-770 75型 Mini LED量子點遊戲Google TV｝〈微距控光&光動態演算技術〉",
        "price": 44900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 755,
+       "id": 754,
        "name": "｛BenQ S65-960 65型 Mini LED量子點遊戲Google TV｝〈重低音+天空聲道〉",
        "price": 44900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 757,
+       "id": 756,
        "name": "｛BenQ S85-960 85型 Mini LED量子點遊戲Google TV｝〈重低音+天空聲道〉",
        "price": 74900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 759,
+       "id": 758,
        "name": "｛MSI PRO MP165 E6｝〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 760,
+       "id": 759,
        "name": "｛MSI PRO MP161E6T｝〈15.6吋/1H2C/IPS/含喇叭〉10點觸控",
        "price": 3588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 761,
+       "id": 760,
        "name": "｛Acer PM141W｝〈14吋/1H2C/IPS//含喇叭/HDR10〉▼下殺到 11/15 23:59",
        "price": 2111,
        "list_price": 2388,
@@ -23980,7 +23968,7 @@
        ]
       },
       {
-       "id": 762,
+       "id": 761,
        "name": "｛Acer PD143｝〈14吋/1H3C/IPS//含喇叭/雙摺疊螢幕〉▼下殺到 11/15 23:59",
        "price": 6411,
        "list_price": 6999,
@@ -23990,14 +23978,14 @@
        ]
       },
       {
-       "id": 763,
+       "id": 762,
        "name": "｛Acer PM161W｝〈16吋/1H2C/IPS//含喇叭/HDR10〉",
        "price": 2588,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 764,
+       "id": 763,
        "name": "｛Acer PM161Q J｝〈15.6吋/1H2C/IPS/含喇叭/金色〉▼下殺到 11/15 23:59",
        "price": 2288,
        "list_price": 2477,
@@ -24007,182 +23995,182 @@
        ]
       },
       {
-       "id": 765,
+       "id": 764,
        "name": "｛Acer PG161Q P｝〈15.6吋/1H2C/IPS/165Hz/含喇叭/藍色〉",
        "price": 3388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 766,
+       "id": 765,
        "name": "｛Acer PG161W P1｝〈16吋/1H2C/IPS/144Hz/含喇叭/HDR10〉",
        "price": 3388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 767,
+       "id": 766,
        "name": "｛Acer PD243Y E｝〈23.8吋/1H2C/IPS/100Hz/含喇叭〉可攜式雙螢幕",
        "price": 8999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 768,
+       "id": 767,
        "name": "｛AOC 16T20｝〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 2388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 769,
+       "id": 768,
        "name": "｛AOPEN 16PM1Q J｝〈15.6吋/1H2C/IPS/含喇叭〉【優惠洽門市】",
        "price": 2211,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 770,
+       "id": 769,
        "name": "｛AOPEN 16PM1QT｝〈15.6吋/1H2C/IPS//含喇叭/HDR10〉10點觸控 (不支援APPLE)",
        "price": 3288,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 771,
+       "id": 770,
        "name": "｛AOPEN 16PD3Q｝〈15.6吋/1H2C/IPS/含喇叭〉可攜式雙螢幕",
        "price": 6799,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 772,
+       "id": 771,
        "name": "｛MNN HSP156P4(LT)｝〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 773,
+       "id": 772,
        "name": "｛LG gram+view 16MR70｝〈16吋/2C/IPS〉抗反光面板",
        "price": 9700,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 774,
+       "id": 773,
        "name": "｛LG gram+view 17MT70｝〈17吋/1H2C/IPS〉",
        "price": 11900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 775,
+       "id": 774,
        "name": "｛ViewSonic VA1655-3｝〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 3088,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 776,
+       "id": 775,
        "name": "｛ViewSonic VA1650｝〈15.6吋/1H2C/IPS/含喇叭〉",
        "price": 2687,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 777,
+       "id": 776,
        "name": "｛ViewSonic VG1655｝〈15.6吋/1H1C/IPS/含喇叭/無亮點/五年保〉",
        "price": 5688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 778,
+       "id": 777,
        "name": "｛ViewSonic VX1654｝〈15.6吋/1H2C/IPS/144Hz/含喇叭〉",
        "price": 5280,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 779,
+       "id": 778,
        "name": "｛華碩 ZenScreen MB14AC｝〈14吋/1C/IPS〉",
        "price": 5388,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 780,
+       "id": 779,
        "name": "｛華碩 ZenScreen MB169CK｝〈15.6吋/1H2C/IPS〉360度支架",
        "price": 2888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 781,
+       "id": 780,
        "name": "｛華碩 ZenScreen MB16AHVE｝〈15.6吋/1H2C/IPS〉",
        "price": 3988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 782,
+       "id": 781,
        "name": "｛華碩 ZenScreen MB16AHV｝〈15.6吋/1H2C/IPS〉可折疊支架",
        "price": 5988,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 783,
+       "id": 782,
        "name": "｛華碩 ZenScreen MB16AHG｝〈15.6吋/1H2C/IPS/144Hz〉可折疊支架",
        "price": 6618,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 784,
+       "id": 783,
        "name": "｛華碩 ZenScreen MB16AMTR｝〈15.6吋/1H1C/IPS/含喇叭〉10點觸控.可折疊支架",
        "price": 8488,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 785,
+       "id": 784,
        "name": "｛華碩 ZenScreen MB16FC｝〈16吋/1H2C/IPS〉可折疊支架",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 786,
+       "id": 785,
        "name": "｛華碩 ZenScreen MB16QHG｝〈16吋/1H2C/IPS/120Hz/HDR400〉L形支架",
        "price": 10573,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 787,
+       "id": 786,
        "name": "｛華碩 ZenScreen MB14FCD｝〈14吋/1H2C/IPS/360度摺疊設計〉可攜式雙螢幕",
        "price": 9688,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 788,
+       "id": 787,
        "name": "｛華碩 ZenScreen MB17AHG｝〈17.3吋/1H2C/IPS/144Hz〉L形支架",
        "price": 9592,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 789,
+       "id": 788,
        "name": "｛華碩 ZenScreen OLED MQ16FC｝〈16吋/1H2C/OLED〉三腳支架",
        "price": 8990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 790,
+       "id": 789,
        "name": "｛華碩 ROG Strix XG129C｝〈12.3吋/2C/IPS/75Hz/24:9長寬比/10 點觸控〉可調式支架",
        "price": 6790,
        "list_price": null,
@@ -24198,7 +24186,7 @@
      "label": "ACER 宏碁投影機",
      "items": [
       {
-       "id": 793,
+       "id": 792,
        "name": "｛ACER PL3510ATV｝雷射LED/1080P/5000 ANSI Im/家庭劇院投影機",
        "price": 34500,
        "list_price": null,
@@ -24210,7 +24198,7 @@
      "label": "BenQ 投影機",
      "items": [
       {
-       "id": 795,
+       "id": 794,
        "name": "｛BenQ GV50｝雷射/1080P/500 ANSI 智慧微型投影機 *送專用收納包▼下殺到 11/15 23:59",
        "price": 19900,
        "list_price": 24900,
@@ -24220,35 +24208,35 @@
        ]
       },
       {
-       "id": 796,
+       "id": 795,
        "name": "｛BenQ MX560｝XGA/4000流明/會議投影機",
        "price": 16500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 798,
+       "id": 797,
        "name": "｛BenQ MX560C｝XGA/4000流明/會議投影機",
        "price": 14500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 799,
+       "id": 798,
        "name": "｛BenQ MH560｝1080P/3800流明/商用投影機",
        "price": 19900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 801,
+       "id": 800,
        "name": "｛BenQ TK710｝4K/3200 ANSI 雷射遊戲投影機",
        "price": 49500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 802,
+       "id": 801,
        "name": "｛BenQ TK705I｝4K/3000 ANSI 智慧調光投影機 *隨貨附專用收納包▼下殺到 11/15 23:59",
        "price": 37900,
        "list_price": 44900,
@@ -24258,7 +24246,7 @@
        ]
       },
       {
-       "id": 804,
+       "id": 803,
        "name": "｛BenQ TK705STI｝4K/3000 ANSI 短焦智慧調光投影機 *隨貨附專用收納包▼下殺到 11/15 23:59",
        "price": 39900,
        "list_price": 47900,
@@ -24277,21 +24265,21 @@
      "label": "BenQ 無線投影設備",
      "items": [
       {
-       "id": 808,
+       "id": 807,
        "name": "｛BenQ InstaShow WDC15｝ 4K 無線簡報系統",
        "price": 24900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 809,
+       "id": 808,
        "name": "｛BenQ InstaShow WDC25｝ 4K 無線多人簡報系統",
        "price": 45900,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 810,
+       "id": 809,
        "name": "｛BenQ InstaShow VS25｝ 4K 無線多人會議系統",
        "price": 64900,
        "list_price": null,
@@ -24307,14 +24295,14 @@
      "label": "購買全系列 BenQ 螢幕掛燈 送您 .金士頓 DTXS 128G 隨身碟",
      "items": [
       {
-       "id": 813,
+       "id": 812,
        "name": "｛BenQ ScreenBar｝〈非對稱光型/環境光感應器/一鍵自動調光〉",
        "price": 2990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 814,
+       "id": 813,
        "name": "｛BenQ ScreenBar Pro｝〈非對稱光型/入席偵測自動開關燈/AA級均勻照明/黑色〉▼下殺到 11/16 23:59",
        "price": 3611,
        "list_price": 4290,
@@ -24324,7 +24312,7 @@
        ]
       },
       {
-       "id": 815,
+       "id": 814,
        "name": "｛BenQ ScreenBar Pro｝〈非對稱光型/入席偵測自動開關燈/AA級均勻照明/銀色〉▼下殺到 11/16 23:59",
        "price": 3611,
        "list_price": 4290,
@@ -24334,28 +24322,28 @@
        ]
       },
       {
-       "id": 816,
+       "id": 815,
        "name": "｛BenQ ScreenBar Halo 2｝〈非對稱光型/入席偵測自動開關燈/三區控光/無線控制旋鈕〉",
        "price": 5290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 817,
+       "id": 816,
        "name": "｛BenQ ScreenBar MAX 雙螢幕燈｝〈非對稱光型/夾桌式/入座即亮/全自動護眼〉",
        "price": 9490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 818,
+       "id": 817,
        "name": "｛PHILIPS PAS351｝〈舒視光/手勢感應開關燈/AA級均勻照明/55cm超廣燈體〉",
        "price": 2650,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 819,
+       "id": 818,
        "name": "｛華碩 ROG Aura ALB01｝〈非對稱照明/專利夾具和磁性扣設計/Aura Sync同步技術〉",
        "price": 4588,
        "list_price": null,
@@ -24367,14 +24355,14 @@
      "label": "投影機支撐架",
      "items": [
       {
-       "id": 821,
+       "id": 820,
        "name": "｛Raymii LMC-6-A｝落地式 可升降投影機支架 最大承重6KG",
        "price": 1290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 822,
+       "id": 821,
        "name": "｛Raymii LMC-6-B｝落地式 可升降投影機支架 最大承重6KG",
        "price": 1290,
        "list_price": null,
@@ -24386,42 +24374,42 @@
      "label": "桌上型筆電支架/增高架",
      "items": [
       {
-       "id": 824,
+       "id": 823,
        "name": "｛銀欣 MR03｝螢幕增高架(可拆式手機架、耳機架、收納托盤/承重 20 公斤/黑色)",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 825,
+       "id": 824,
        "name": "｛銀欣 MR03｝螢幕增高架(可拆式手機架、耳機架、收納托盤/承重 20 公斤/白色)",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 826,
+       "id": 825,
        "name": "｛Raymii R17｝六段式隨身折疊鋁合金筆電架/通用於17吋以下筆電/折疊式設計/黑色",
        "price": 449,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 827,
+       "id": 826,
        "name": "｛Raymii R17｝六段式隨身折疊鋁合金筆電架/通用於17吋以下筆電/折疊式設計/銀色",
        "price": 449,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 828,
+       "id": 827,
        "name": "｛Raymii R64｝六段式 鋁合金筆電折疊增高支架/適用15.6吋以下筆電、平板/銀色",
        "price": 599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 829,
+       "id": 828,
        "name": "｛Raymii R64｝六段式 鋁合金筆電折疊增高支架/適用15.6吋以下筆電、平板/灰色",
        "price": 599,
        "list_price": null,
@@ -24433,21 +24421,21 @@
      "label": "周邊支架",
      "items": [
       {
-       "id": 831,
+       "id": 830,
        "name": "｛Raymii LGR-8｝夾桌式旋轉洞洞板 (收納架/耳機＆遊戲手把掛架/杯架)【紅黑色】",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 832,
+       "id": 831,
        "name": "｛Raymii LGR-8｝夾桌式旋轉洞洞板 (收納架/耳機＆遊戲手把掛架/杯架)【全黑色】",
        "price": 699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 833,
+       "id": 832,
        "name": "｛Raymii OA1｝鋁合金電腦桌手臂支撐架 / 六段可調整 / 專業人體工學設計",
        "price": 849,
        "list_price": null,
@@ -24459,49 +24447,49 @@
      "label": "螢幕支撐架 (單螢幕專區)",
      "items": [
       {
-       "id": 840,
+       "id": 839,
        "name": "｛BenQ ERGO ARM BSL01 黑色｝單螢幕/穿夾兩用/承載11KG/三年保",
        "price": 2290,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 841,
+       "id": 840,
        "name": "｛BenQ ERGO ARM BSH01 黑色｝單螢幕/穿夾兩用/內附底座加固板/承載20KG/三年保",
        "price": 3490,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 842,
+       "id": 841,
        "name": "｛BenQ ERGO ARM BSH02 白色｝單螢幕/穿夾兩用/內附底座加固板/承載20KG/三年保",
        "price": 3090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 843,
+       "id": 842,
        "name": "｛華碩 ROG Ergo AAS01｝單螢幕/夾桌/機械彈簧/承載11.5KG/支援最大39吋",
        "price": 5888,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 845,
+       "id": 844,
        "name": "｛華碩 ROG Ergo AAS01R｝單螢幕/夾桌/機械彈簧/承載13.5KG/支援最大49吋",
        "price": 5990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 846,
+       "id": 845,
        "name": "微星｛MPG MT201RG｝單螢幕/穿夾兩用/氣壓彈簧/RGB/承載20KG/支援最大49吋",
        "price": 4590,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 848,
+       "id": 847,
        "name": "｛威世波 WST-MNT001｝電競Style 鋁合金支架 夾桌式/承載9.5KG/17-35吋【暗夜黑】",
        "price": 3280,
        "list_price": null,
@@ -24510,7 +24498,7 @@
        ]
       },
       {
-       "id": 849,
+       "id": 848,
        "name": "｛威世波 WST-MNT002｝電競Style 鋁合金支架 夾桌式/承載9.5KG/17-35吋【冰川銀】",
        "price": 3280,
        "list_price": null,
@@ -24519,7 +24507,7 @@
        ]
       },
       {
-       "id": 850,
+       "id": 849,
        "name": "｛威世波 WST-MNT003｝電競Style 鋁合金支架 夾桌式/承載9.5KG/17-35吋【冰雪白】",
        "price": 3280,
        "list_price": null,
@@ -24528,28 +24516,28 @@
        ]
       },
       {
-       "id": 851,
+       "id": 850,
        "name": "｛Raymii LS-73-A-W｝鋁合金螢幕壁掛支架 (單螢幕/壁掛式/13-42吋/承載15KG)",
        "price": 719,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 852,
+       "id": 851,
        "name": "｛Raymii MH2｝單螢幕/屏風懸掛式/關節式 承載8KG/13-34吋/適合辦公室螢幕支架",
        "price": 949,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 853,
+       "id": 852,
        "name": "｛Raymii MH1｝單螢幕/桌上型/關節式 承載8KG/15-32吋/360度環繞旋轉，方便橫看，豎看",
        "price": 995,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 854,
+       "id": 853,
        "name": "｛Raymii LS10｝黑 單螢幕/穿夾兩用/氣壓式/承載9KG / 17-32吋",
        "price": 890,
        "list_price": null,
@@ -24558,7 +24546,7 @@
        ]
       },
       {
-       "id": 855,
+       "id": 854,
        "name": "｛Raymii LS10 PLUS｝黑 單螢幕/穿夾兩用/氣壓式/可調式傾仰阻尼/承載9KG / 15-32吋",
        "price": 999,
        "list_price": null,
@@ -24567,35 +24555,35 @@
        ]
       },
       {
-       "id": 856,
-       "name": "｛Raymii LS10｝白 單螢幕/穿夾兩用/氣壓式/承載9KG / 17-32吋",
-       "price": 999,
+       "id": 855,
+       "name": "｛Raymii LS10｝白 單螢幕/穿夾兩用/氣壓式/承載9KG / 17-32吋 支架有色差",
+       "price": 890,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 857,
+       "id": 856,
        "name": "｛Raymii LSU4｝單螢幕/穿夾兩用/機械彈簧 承載9KG/15-32吋/USB3.0/銀色",
        "price": 1090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 858,
+       "id": 857,
        "name": "｛Raymii LSU4｝單螢幕/穿夾兩用/機械彈簧 承載9KG/15-32吋/USB3.0/灰色",
        "price": 1090,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 859,
+       "id": 858,
        "name": "｛Raymii L-U9-1M｝單螢幕/穿夾兩用/機械彈簧 承載10KG/17-32吋/USB3.0/TYPE C",
        "price": 1200,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 860,
+       "id": 859,
        "name": "｛Raymii KORE LS-137-U1｝黑 單螢幕/穿夾兩用/彈簧式/17-40吋/承載12KG/usb3.0/ TYPE C",
        "price": 1349,
        "list_price": null,
@@ -24604,7 +24592,7 @@
        ]
       },
       {
-       "id": 861,
+       "id": 860,
        "name": "｛Raymii KORE LS-137-U1｝白 單螢幕/穿夾兩用/彈簧式/17-40吋/承載12KG/usb3.0/ TYPE C",
        "price": 1349,
        "list_price": null,
@@ -24613,98 +24601,98 @@
        ]
       },
       {
-       "id": 862,
+       "id": 861,
        "name": "｛Raymii VS5｝黑 單螢幕/穿夾兩用/關節式/中柱設計高低好調整 承載8KG/15-32吋",
        "price": 1349,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 863,
+       "id": 862,
        "name": "｛Raymii VS1｝單螢幕/鎖牆面/氣壓式/雙延伸臂 承載8KG/15-32吋",
        "price": 1599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 864,
+       "id": 863,
        "name": "｛Raymii BEAR VS-91-M1 ｝黑 單螢幕/氣壓式/單向軸承/承載12KG/最大42吋",
        "price": 1399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 866,
+       "id": 865,
        "name": "｛Raymii LS5U｝黑 單螢幕/穿夾兩用/高負重氣壓/USB3.0*2/17-43吋/承載18KG",
        "price": 1499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 867,
+       "id": 866,
        "name": "｛Raymii VS59｝黑 單螢幕/穿夾兩用/氣壓式/承載12KG/13-36吋/鋁合金支架",
        "price": 1599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 868,
+       "id": 867,
        "name": "｛Raymii VS59｝白 單螢幕/穿夾兩用/氣壓式/承載12KG/13-36吋/鋁合金支架",
        "price": 1599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 869,
+       "id": 868,
        "name": "｛Raymii BEAR VS-90-M1 ｝黑 單螢幕/氣壓式/單向軸承/承載18KG/最大49吋",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 871,
+       "id": 870,
        "name": "｛Raymii BEAR VS-90-W1｝黑 單螢幕/壁掛氣壓式/單向軸承/承載18KG/最大49吋",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 873,
+       "id": 872,
        "name": "｛Raymii BEAR VS-90-P1｝黑 單螢幕/立柱型氣壓式/單向軸承/承載18KG最大45吋",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 875,
+       "id": 874,
        "name": "｛Raymii HALO-1M1 ｝黑 單螢幕/穿夾兩用/氣壓式/承載20KG/15-42吋/ USB3.0*2",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 876,
+       "id": 875,
        "name": "｛Raymii HALO-1M1 ｝白 單螢幕/穿夾兩用/氣壓式/承載20KG/15-42吋/ USB3.0*2",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 877,
+       "id": 876,
        "name": "｛Raymii VS59 V2｝黑 單螢幕/穿夾兩用/氣壓式/單向軸承/承載15KG/最大49吋",
        "price": 1999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 878,
+       "id": 877,
        "name": "｛Raymii LS-96-M1｝白色 單螢幕/穿夾兩用/氣壓式/承載20KG/17-49吋/USB3.0＆TYPE C",
        "price": 2499,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 879,
+       "id": 878,
        "name": "｛Raymii HALO-MAX2-1M｝白色 單螢幕/穿夾兩用/氣壓式承載27KG/15-57吋/USB3.0*2)",
        "price": 2799,
        "list_price": null,
@@ -24713,7 +24701,7 @@
        ]
       },
       {
-       "id": 880,
+       "id": 879,
        "name": "｛Raymii HALO-MAX2-1M｝黑色 單螢幕/穿夾兩用/氣壓式承載27KG/15-57吋/USB3.0*2",
        "price": 2799,
        "list_price": null,
@@ -24722,7 +24710,7 @@
        ]
       },
       {
-       "id": 881,
+       "id": 880,
        "name": "｛Raymii LS8-PRO｝單螢幕/穿夾兩用/氣壓式)承載15KG/17-35吋/PD快充/TYPE-C/USB-A",
        "price": 2890,
        "list_price": null,
@@ -24731,42 +24719,42 @@
        ]
       },
       {
-       "id": 882,
+       "id": 881,
        "name": "｛Raymii LS-140-M1 RGB｝黑色 單螢幕/氣壓式 承載12KG/17-35吋/可與主板同步燈效",
        "price": 2399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 883,
+       "id": 882,
        "name": "｛Raymii VADER LS61-M1｝RGB 白色 單螢幕/穿夾兩用/氣壓式 承載20KG/17-49吋",
        "price": 2650,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 884,
+       "id": 883,
        "name": "｛Raymii LS-116-M1｝黑灰色 單螢幕/穿夾兩用/氣壓式/承載30KG/24-57吋 高承重電競款",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 885,
+       "id": 884,
        "name": "｛Raymii LS-116-M1｝白藍色 單螢幕/穿夾兩用/氣壓式/承載30KG/24-57吋 高承重電競款",
        "price": 2999,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 886,
+       "id": 885,
        "name": "｛Raymii VS30-NB｝單螢幕+筆電托盤/穿夾兩用/氣壓式 每隻承載8KG/15-32吋/筆電19吋",
        "price": 2464,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 887,
+       "id": 886,
        "name": "｛銀欣 SST-ARM13｝單螢幕/機械彈簧設計/穿夾兩用/最大32吋 or 9公斤",
        "price": 1990,
        "list_price": null,
@@ -24775,7 +24763,7 @@
        ]
       },
       {
-       "id": 888,
+       "id": 887,
        "name": "｛銀欣 SST-ARM14 白色｝單螢幕/氣壓彈簧設計/穿夾兩用/最大49吋 or 20KG",
        "price": 2990,
        "list_price": null,
@@ -24784,7 +24772,7 @@
        ]
       },
       {
-       "id": 889,
+       "id": 888,
        "name": "｛銀欣 SST-ARM14B 黑色｝單螢幕/氣壓彈簧設計/穿夾兩用/最大49吋 or 20KG",
        "price": 2990,
        "list_price": null,
@@ -24793,14 +24781,14 @@
        ]
       },
       {
-       "id": 890,
+       "id": 889,
        "name": "｛銀欣 SST-ARM15 黑色｝單螢幕 / 氣壓彈簧設計 / 穿夾兩用 / 最大57吋 or 27KG",
        "price": 2699,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 891,
+       "id": 890,
        "name": "｛irocks MS01 銀色｝ (單螢幕/夾桌式/中柱設計高低好調整/承載9KG/17-32吋 ) 客訂指送",
        "price": 3290,
        "list_price": null,
@@ -24812,28 +24800,28 @@
      "label": "螢幕支撐架 (雙螢幕專區)",
      "items": [
       {
-       "id": 893,
+       "id": 892,
        "name": "微星｛MPG MT201DRG｝雙螢幕/穿夾兩用/氣壓彈簧/RGB/承載20KG/支援最大49吋",
        "price": 7990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 894,
+       "id": 893,
        "name": "｛Raymii LS57-2M｝銀 雙螢幕/鋁合金懸臂/中柱設計高低好調整/承載8KG/17-32吋",
        "price": 1599,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 895,
+       "id": 894,
        "name": "｛Raymii LS11 PLUS｝黑 雙螢幕/穿夾兩用/氣壓式/可調式傾仰阻尼/承載9KG / 15-32吋",
        "price": 1899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 896,
+       "id": 895,
        "name": "｛Raymii KORE LS-137-U2｝雙螢幕/穿夾兩用/彈簧式/17-35吋/承載12KG/usb3.0/ TYPE C",
        "price": 2249,
        "list_price": null,
@@ -24842,70 +24830,70 @@
        ]
       },
       {
-       "id": 897,
+       "id": 896,
        "name": "｛Raymii VS31｝雙螢幕/穿夾兩用/氣壓式 每隻承載8KG/15-32吋",
        "price": 2299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 898,
+       "id": 897,
        "name": "｛Raymii BEAR VS-90-M2｝黑 雙螢幕/氣壓式/單向軸承/承載18KG/最大45吋",
        "price": 3399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 900,
+       "id": 899,
        "name": "｛Raymii BEAR VS-90-M2｝白 雙螢幕/氣壓式/單向軸承/承載18KG/最大45吋",
        "price": 3399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 902,
+       "id": 901,
        "name": "｛Raymii BEAR VS-90-P2｝黑 雙螢幕/立柱型氣壓式/單向軸承/承載18KG/最大45吋",
        "price": 3399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 904,
+       "id": 903,
        "name": "｛Raymii BEAR VS-90-P2｝白 雙螢幕/立柱型氣壓式/單向軸承/承載18KG/最大45吋",
        "price": 3399,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 906,
+       "id": 905,
        "name": "｛Raymii VS60｝白色 雙螢幕/穿夾兩用/氣壓式 單隻承載9KG/13-32吋/鋁合金支架",
        "price": 3500,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 907,
+       "id": 906,
        "name": "｛Raymii LS-140-M2 RGB｝黑 雙螢幕/氣壓式 承載12KG/17-35吋/可與主板同步燈效",
        "price": 3899,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 908,
+       "id": 907,
        "name": "｛Raymii HALO-1M2-PRO｝黑 雙螢幕/穿夾兩用/氣壓式 承載20KG/15-42吋/USB3.0*2",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 909,
+       "id": 908,
        "name": "｛Raymii HALO-1M2-PRO｝白 雙螢幕/穿夾兩用/氣壓式 承載20KG/15-42吋/USB3.0*2",
        "price": 3990,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 910,
+       "id": 909,
        "name": "｛Raymii VADER LS61-M2 RGB｝黑色 雙螢幕/穿夾兩用/氣壓式 承載20KG/17-35吋",
        "price": 4590,
        "list_price": null,
@@ -24914,7 +24902,7 @@
        ]
       },
       {
-       "id": 911,
+       "id": 910,
        "name": "｛Raymii VADER LS61-M2 RGB｝白色 雙螢幕/穿夾兩用/氣壓式 承載20KG/17-35吋",
        "price": 4590,
        "list_price": null,
@@ -24923,21 +24911,21 @@
        ]
       },
       {
-       "id": 912,
+       "id": 911,
        "name": "｛Raymii LS-116-M2｝黑灰色 雙螢幕/中柱設計高低好調整/氣壓式/承載27KG/24-57吋",
        "price": 5299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 913,
+       "id": 912,
        "name": "｛Raymii LS-116-M2｝白藍色 雙螢幕/中柱設計高低好調整/氣壓式/承載27KG/24-57吋",
        "price": 5299,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 914,
+       "id": 913,
        "name": "｛銀欣 SST-ARM25｝雙螢幕/機械彈簧設計/穿夾兩用/最大支援32吋 or 9KG",
        "price": 3290,
        "list_price": null,
@@ -24946,14 +24934,14 @@
        ]
       },
       {
-       "id": 915,
+       "id": 914,
        "name": "｛銀欣 SST-ARM22SC｝雙螢幕桌上型懸掛架/可調扭力式懸臂/銀/台製",
        "price": 4190,
        "list_price": null,
        "flags": []
       },
       {
-       "id": 916,
+       "id": 915,
        "name": "｛irocks MD01 銀色｝ (雙螢幕/夾桌式/中柱設計高低好調整/承載9KG/17-32吋 ) 客訂指送",
        "price": 5990,
        "list_price": null,
@@ -24965,7 +24953,7 @@
      "label": "螢幕支撐架 (三螢幕專區) 廠商直送",
      "items": [
       {
-       "id": 918,
+       "id": 917,
        "name": "｛Raymii VS40｝黑色 三螢幕/穿夾兩用/中柱設計/承載8KG/13-27吋 客訂指送",
        "price": 1999,
        "list_price": null,
@@ -24977,7 +24965,7 @@
      "label": "螢幕支撐架 (六螢幕專區) 廠商直送",
      "items": [
       {
-       "id": 920,
+       "id": 919,
        "name": "｛Raymii VS41｝黑色 六螢幕/穿夾兩用/中柱設計/承載8KG/15-27吋 客訂指送",
        "price": 3999,
        "list_price": null,
