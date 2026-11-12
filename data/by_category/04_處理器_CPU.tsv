@@ -1,4 +1,4 @@
-# 04 處理器 CPU  (報價日期 2026/11/11 19:32)
+# 04 處理器 CPU  (報價日期 2026/11/12 17:54)
 # price	id	flags	name
 
 ## Intel Core Ultra 200S系列1851 腳位【內建 NPU 支援 AI】
@@ -55,10 +55,11 @@
 31450	45		｛AMD R9 9950X3D2｝雙3D-V-Cache技術【16核/32緒】4.3G(↑5.6G)200W /具內顯
 
 ## AMD Ryzen Threadripper TRX50系列 (不含散熱器)
-51960	47		｛AMD Ryzen TR 9960X盒｝【24核/48緒】4.2G(↑5.4G)350W /128M /4nm
-86550	48		｛AMD Ryzen TR 9970X盒｝【32核/64緒】4.0G(↑5.4G)350W /128M /4nm
+86550	47		｛AMD Ryzen TR 9970X盒｝【32核/64緒】4.0G(↑5.4G)350W /128M /4nm
+173550	48		｛AMD Ryzen TR 9980X盒｝【64核/128緒】3.2G(↑5.4G)350W /256M /4nm
 
 ## AMD Ryzen Threadripper WRX90系列 (不含散熱器)
 56750	50		｛AMD Ryzen TR PRO 9955WX盒｝【16核/32緒】4.5G(↑5.4G)350W /64M /4nm
 143250	51		｛AMD Ryzen TR PRO 9975WX盒｝【32核/64緒】4.0G(↑5.4G)350W /128M /4nm
-392000	52		｛AMD Ryzen TR PRO 9995WX盒｝【96核/192緒】2.5G(↑5.4G)350W /384M /4nm
+276850	52		｛AMD Ryzen TR PRO 9985WX盒｝【64核/128緒】3.2G(↑5.4G)350W /256M /4nm
+392000	53		｛AMD Ryzen TR PRO 9995WX盒｝【96核/192緒】2.5G(↑5.4G)350W /384M /4nm
