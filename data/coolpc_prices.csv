@@ -205,7 +205,7 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,43,華碩 ProArt NVIDIA N1X/128G/2T/16吋 皓月銀｛H7607BA-6666WN1X20｝觸控,269999,,
 2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,44,華碩 ProArt NVIDIA N1X/128G/1T/14吋 曜夜黑｛H7407BA-1288KN1X20｝觸控,249999,,
 2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,45,華碩 ProArt NVIDIA N1X/128G/1T/14吋 皓月銀｛H7407BA-1688WN1X20｝觸控,249999,,
-2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,46,微星 Prestige N16 Flip AI+ Spark N1X(6144)/128G/2T/16吋/灰｛C1XMT-209TWY｝【翻轉觸控】,239900,,
+2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,46,微星 Prestige N16 Flip AI+ Spark N1X(6144)/128G/2T/16吋/灰｛C1XMT-209TWY｝【翻轉觸控】,269900,,
 2,筆電｜平板｜穿戴配件,NVIDIA RTX Spark N1X,47,Lenovo Yoga Pro 9 Spark N1X(6144)/64G/1T/15.3吋/雷霆灰｛83SR0039TW｝〈觸控〉,159990,,
 2,筆電｜平板｜穿戴配件,宏碁 Acer 筆電館-全館刷卡分期零利率(3),50,ACER 原廠一年延長保固卡 (Predator & ConceptD系列機種不適用 ),3000,,
 2,筆電｜平板｜穿戴配件,宏碁 Acer 筆電館-全館刷卡分期零利率(3),51,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
@@ -480,51 +480,50 @@ cat_id,category,group,id,name,price,list_price,flags
 2,筆電｜平板｜穿戴配件,17 吋 HP OmniBook 3,455,HP OmniBook 3 AI C5-315/16G/512G/17吋 冰川銀｛17-dg0005TU｝,36900,,
 2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,457,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-fp0043TU｝,32900,,熱賣
 2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,458,HP OmniBook 5 Flip C5-120U/16G/512G/14吋/翻轉觸控 冰川銀｛14-fp0044TU｝,32900,,熱賣
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,459,HP OmniBook 5 Flip C7-150U/16G/1T/14吋/翻轉觸控 匠心銀｛14-fp0042TU｝,37900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,460,HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝,39999,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列,462,HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝,54900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook UltraNGAI 觸控系列,464,HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝,74900,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,466,HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝,37999,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,467,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝,61888,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,469,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝,72900,,
-2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,470,HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝,79900,,
-2,筆電｜平板｜穿戴配件,16吋 HP HyperX OMEN 潮競系列,472,HP HyperX OMEN Ryzen AI 7 450/RTX5070/16G/1T/16吋 究極黑｛16-ap1051AX｝,79900,,
-2,筆電｜平板｜穿戴配件,16吋 HP HyperX OMEN 潮競系列,473,HP HyperX OMEN i9-14900HX/RTX5070/16G/1T/16吋 究極黑｛16-am2090TX｝,83900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,477,HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝,35900,,
-2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,478,【升級延保加價購】HP ZBook Firefly G11A 升級3年保,36899,,
-2,筆電｜平板｜穿戴配件,16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列,481,HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保,57900,,
-2,筆電｜平板｜穿戴配件,筆電周邊,484,3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒,390,,
-2,筆電｜平板｜穿戴配件,快速充電器,486,｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線,3390,,
-2,筆電｜平板｜穿戴配件,快速充電器,487,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
-2,筆電｜平板｜穿戴配件,快速充電器,488,台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固),299,,
-2,筆電｜平板｜穿戴配件,快速充電器,489,｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0,990,,
-2,筆電｜平板｜穿戴配件,快速充電器,492,｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線,599,,
-2,筆電｜平板｜穿戴配件,快速充電器,493,｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),549,,
-2,筆電｜平板｜穿戴配件,快速充電器,494,｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),699,,
-2,筆電｜平板｜穿戴配件,快速充電器,495,｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白),899,,
-2,筆電｜平板｜穿戴配件,快速充電器,496,【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝,1398,,
-2,筆電｜平板｜穿戴配件,快速充電器,497,｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線,999,,
-2,筆電｜平板｜穿戴配件,快速充電器,498,｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線,1699,,
-2,筆電｜平板｜穿戴配件,快速充電器,499,｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線,2499,,
-2,筆電｜平板｜穿戴配件,快速充電器,500,｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座,1299,,
-2,筆電｜平板｜穿戴配件,快速充電器,501,【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器,1299,,
-2,筆電｜平板｜穿戴配件,快速充電器,502,【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】,2598,,
-2,筆電｜平板｜穿戴配件,快速充電器,503,｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座,999,,
-2,筆電｜平板｜穿戴配件,快速充電器,504,｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑)▼下殺到 11/30 23:59,399,599,價格異動 下殺
-2,筆電｜平板｜穿戴配件,行動電源,507,｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,429,,
-2,筆電｜平板｜穿戴配件,行動電源,508,｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】,599,,
-2,筆電｜平板｜穿戴配件,行動電源,509,｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】,999,,
-2,筆電｜平板｜穿戴配件,行動電源,511,｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
-2,筆電｜平板｜穿戴配件,行動電源,512,【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,513,【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,514,｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
-2,筆電｜平板｜穿戴配件,行動電源,515,【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,516,【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】,1198,,
-2,筆電｜平板｜穿戴配件,行動電源,517,｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,399,,
-2,筆電｜平板｜穿戴配件,行動電源,518,｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】,659,,
-2,筆電｜平板｜穿戴配件,行動電源,519,【兩件優惠】｛Gigastone QP-10200B｝【兩件】,1259,,
-2,筆電｜平板｜穿戴配件,行動電源,520,｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】,399,,
-2,筆電｜平板｜穿戴配件,行動電源,521,｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線,1299,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook 5 Flip 翻轉觸控筆電,459,HP OmniBook 5 Flip U5-322/16G/512G/14吋/翻轉觸控 閨蜜粉｛14-km0047TU｝,39999,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook X FlipNGAI 翻轉觸控系列,461,HP OmniBook X FlipNGAI U5-325/16G/1T/14吋/翻轉觸控 職人灰｛14-kb0077TU｝,54900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP OmniBook UltraNGAI 觸控系列,463,HP OmniBook Ultra AI U7-356H/32G/1T/14吋/觸控螢幕 流星金｛14-kd0024TU｝,74900,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,465,HP Victus Gaming i5-14450HX/RTX3050/16G/512G/15.6吋 黑｛15-fa2312TX｝,37999,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,466,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0008TX｝,61888,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,468,HP HyperX OMEN i7-14650HX/RTX5060/16G/1T/15.3吋 究極黑｛15-ga0006TX｝,72900,,
+2,筆電｜平板｜穿戴配件,15吋 HP HyperX OMEN 潮競系列 /Victus 光影系列,469,HP HyperX OMEN U9-386H/RTX5070/16G/1T/15.3吋 究極黑｛15-ga0166TX｝,79900,,
+2,筆電｜平板｜穿戴配件,16吋 HP HyperX OMEN 潮競系列,471,HP HyperX OMEN Ryzen AI 7 450/RTX5070/16G/1T/16吋 究極黑｛16-ap1051AX｝,79900,,
+2,筆電｜平板｜穿戴配件,16吋 HP HyperX OMEN 潮競系列,472,HP HyperX OMEN i9-14900HX/RTX5070/16G/1T/16吋 究極黑｛16-am2090TX｝,83900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,476,HP ZBook Firefly G11A /R7-PRO 8840HS/8G/512G/14吋 灰｛A8NM6PT｝,35900,,
+2,筆電｜平板｜穿戴配件,14 吋 HP惠普 ZBook Firefly 14 系列〈創意行動達人〉,477,【升級延保加價購】HP ZBook Firefly G11A 升級3年保,36899,,
+2,筆電｜平板｜穿戴配件,16 吋 HP惠普 ZBook 8 G1i/G1a 14 系列,480,HP ZBook 8 G1i 16 特仕版 /Ultra 7-255U/16G+16G/512G/16吋 灰｛BR7K6PT｝~限量再送延保,57900,,
+2,筆電｜平板｜穿戴配件,筆電周邊,483,3C Pig 第二顆硬碟托架轉接盒+ USB 筆電光碟機(12.7mm)外接盒,390,,
+2,筆電｜平板｜穿戴配件,快速充電器,485,｛ASUS ROG AC140-01｝140W GaN四孔充電器 1A3C + C to C 充電線,3390,,
+2,筆電｜平板｜穿戴配件,快速充電器,486,Acer 原廠 140W 氮化鎵USB電源充電器/白色 (COT-966),2190,,
+2,筆電｜平板｜穿戴配件,快速充電器,487,台達 45W 筆電變壓器(ADP-45VD BB) / 基本5種筆電接頭 / 一年換新(保固),299,,
+2,筆電｜平板｜穿戴配件,快速充電器,488,｛台達 Innergie C6 Duo 63W 萬用充電器｝USB-C*2 / 摺疊版 / PD3.0 / QC3.0 / QC4.0,990,,
+2,筆電｜平板｜穿戴配件,快速充電器,491,｛Gigastone 33W PD-6330W+CC-7600W｝雙孔充電器 USB(1A1C) + C-C 60W快充線,599,,
+2,筆電｜平板｜穿戴配件,快速充電器,492,｛Gigastone PD-7451B｝45W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),549,,
+2,筆電｜平板｜穿戴配件,快速充電器,493,｛Gigastone PD-7657B｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC4+ (黑),699,,
+2,筆電｜平板｜穿戴配件,快速充電器,494,｛Gigastone PD-7650W｝65W GaN三孔充電器 USB(1A2C) / PD3.0 / QC3.0 (白),899,,
+2,筆電｜平板｜穿戴配件,快速充電器,495,【組合優惠】｛Gigastone PD-7650W｝65W GaN三孔充電器 +｛Gigastone CC-8800W｝,1398,,
+2,筆電｜平板｜穿戴配件,快速充電器,496,｛Gigastone PD-7100B+CC-7800B｝100W GaN四孔充電器 1A3C / 含C-C 100W快充線,999,,
+2,筆電｜平板｜穿戴配件,快速充電器,497,｛Gigastone PD-130B+CC-100B｝130W GaN四孔充電器 1A3C / 含C-C 100W快充線,1699,,
+2,筆電｜平板｜穿戴配件,快速充電器,498,｛Gigastone PD-140B+CC-8801B｝140W GaN四孔充電器 1A3C / 含C-C 240W快充線,2499,,
+2,筆電｜平板｜穿戴配件,快速充電器,499,｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座,1299,,
+2,筆電｜平板｜穿戴配件,快速充電器,500,【組合優惠】｛Gigastone WP-9330G｝+｛Gigastone PD-7451B｝45W GaN三孔充電器,1299,,
+2,筆電｜平板｜穿戴配件,快速充電器,501,【兩件優惠】｛Gigastone WP-9330G｝23W 三合一摺疊式磁吸無線充電座【兩件】,2598,,
+2,筆電｜平板｜穿戴配件,快速充電器,502,｛Gigastone WP-9340W｝20W 三合一摺疊式磁吸無線充電座,999,,
+2,筆電｜平板｜穿戴配件,快速充電器,503,｛3C Pig GaN-65｝65W GaN三孔充電器 USB(1A2C) / 數位顯示 (黑)▼下殺到 11/30 23:59,399,599,價格異動 下殺
+2,筆電｜平板｜穿戴配件,行動電源,506,｛威剛 PC100-14BK｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,429,,
+2,筆電｜平板｜穿戴配件,行動電源,507,｛威剛 PBC20-BK｝黑 / 最大15W / USB(2A1C) / 三孔【20000mAh】,599,,
+2,筆電｜平板｜穿戴配件,行動電源,508,｛威剛 PR100-BK｝黑 / 最大20W / USB(1A1C) / 雙孔無線【10000mAh】,999,,
+2,筆電｜平板｜穿戴配件,行動電源,510,｛Gigastone MP-5000ACB｝黑 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
+2,筆電｜平板｜穿戴配件,行動電源,511,【組合優惠】｛Gigastone MP-5000ACB｝黑 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,512,【兩件優惠】｛Gigastone MP-5000ACB｝【兩件】,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,513,｛Gigastone MP-5000ACM｝奶茶 / 最大15W / USB(2C) / 手錶【5000mAh】,599,,
+2,筆電｜平板｜穿戴配件,行動電源,514,【組合優惠】｛Gigastone MP-5000ACM｝奶茶 + Gigastone｛PD-6330W+CC-7600W｝,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,515,【兩件優惠】｛Gigastone MP-5000ACM｝【兩件】,1198,,
+2,筆電｜平板｜穿戴配件,行動電源,516,｛Gigastone PB-7113B｝黑 / 最大20W / USB(2A1C) / 三孔【10000mAh】,399,,
+2,筆電｜平板｜穿戴配件,行動電源,517,｛Gigastone QP-10200B｝最大20W / USB(1A1C) / 無線 / 兩用【10000mAh】,659,,
+2,筆電｜平板｜穿戴配件,行動電源,518,【兩件優惠】｛Gigastone QP-10200B｝【兩件】,1259,,
+2,筆電｜平板｜穿戴配件,行動電源,519,｛Gigastone QP-10100W｝最大20W / USB(1A1C) / Lightning輸入 無線雙孔【10000mAh】,399,,
+2,筆電｜平板｜穿戴配件,行動電源,520,｛Gigastone PD-7656W｝白 /【5000mAh】行動電源 + 65W 快充頭 + 60W磁吸快充線,1299,,
 3,酷！PC 套裝產線,套裝必搭優惠專區,2,【套裝加購1台限購1】海盜船 Vengeance 16G D4-3200 (CMK16GX4M1E3200C16),4299,,限購
 3,酷！PC 套裝產線,套裝必搭優惠專區,3,微星 戰略組合包(GK20鍵盤+Versa 300無線滑鼠+GD21鼠墊+Maestro 300耳機)原價5109,2890,,
 3,酷！PC 套裝產線,套裝必搭優惠專區,4,【套裝搭購優惠】羅技 G512 機械式鍵盤,1990,,
@@ -1190,7 +1189,7 @@ cat_id,category,group,id,name,price,list_price,flags
 6,記憶體 RAM,筆記型記憶體 DDR5,122,｛UMAX NB 32GB DDR5 5600｝/CL46,14800,,
 6,記憶體 RAM,筆記型記憶體 DDR5,123,威剛 NB 32GB DDR5-4800/CL40｛AD5S480032G-S｝,14500,,熱賣
 6,記憶體 RAM,筆記型記憶體 DDR5,124,威剛 NB 8GB DDR5-5600/CL46｛AD5S56008G-S｝,4199,,
-6,記憶體 RAM,筆記型記憶體 DDR5,125,威剛 NB 16GB DDR5-5600/CL46｛AD5S560016G-S｝,7999,,
+6,記憶體 RAM,筆記型記憶體 DDR5,125,威剛 NB 16GB DDR5-5600/CL46｛AD5S560016G-S｝,7288,,
 6,記憶體 RAM,筆記型記憶體 DDR5,126,威剛 NB 32GB DDR5-5600/CL46｛AD5S560032G-S｝,14999,,
 6,記憶體 RAM,筆記型記憶體 DDR5,127,金士頓 NB 16GB DDR5 5600｛KVR56S46BS8-16｝/CL46,8600,,
 6,記憶體 RAM,筆記型記憶體 DDR5,128,金士頓 NB 32GB DDR5 5600｛KVR56S46BD8-32｝/CL46,18500,,
@@ -1330,92 +1329,91 @@ cat_id,category,group,id,name,price,list_price,flags
 7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,76,美光 Micron Crucial｛T710 2TB｝含散熱片 Gen5 PCIe 5.0 讀14500/寫13800/TLC【五年】,12700,,
 7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,77,美光 Micron Crucial｛T710 4TB｝含散熱片 Gen5 PCIe 5.0 讀14500/寫13800/TLC【五年保】,22200,,熱賣
 7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,79,十銓 T-Force GC PRO(石墨烯)4TB/Gen5 讀12500M/寫11000/DRAM快取【五年保】,17880,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,80,微星｛SPATIUM M560 2TB｝/Gen5/讀10300/寫8700/TLC【五年保】,7878,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,81,三星 Samsung｛9100 PRO 1TB｝/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】,9999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,82,三星 Samsung｛9100 PRO 2TB｝/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】,18888,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,83,三星 Samsung｛9100 PRO 4TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,33000,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,84,三星 Samsung｛9100 PRO 8TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,76000,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,85,三星 Samsung｛9100 PRO 1TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】~限整機~,10499,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,86,三星 Samsung｛9100 PRO 2TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】,21499,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,87,三星 Samsung｛9100 PRO 8TB｝含散熱片/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,80599,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,89,鎧俠｛KIOXIA EXCERIA PLUS G3 2TB｝PCIe 4.0 讀5000/寫3900/TLC【五年保】,9000,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,90,鎧俠｛KIOXIA EXCERIA BASIC 1TB｝PCIe 4.0 讀7200/寫6600/QLC【五年保】,4750,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,91,鎧俠｛KIOXIA EXCERIA BASIC 2TB｝PCIe 4.0 讀7300/寫6800/QLC【五年保】,8300,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,92,威剛｛ADATA LEGEND 860 500GB｝/Gen4/讀5000/寫3000(單面設計)【五年保】,3199,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,93,威剛｛ADATA LEGEND 860 1TB｝/Gen4/讀6000/寫4000(單面設計)【五年保】,5299,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,94,威剛｛ADATA LEGEND 860 2TB｝/Gen4/讀6000/寫:5000(單面設計)【五年保】,9299,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,95,威剛｛ADATA LEGEND 900 512GB｝/Gen4/讀6200/寫2300(單面設計)贈散熱片【五年保】,3299,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,96,威剛｛ADATA LEGEND 900 1TB｝/Gen4/讀7000/寫4700(單面設計)贈散熱片【五年保】,5399,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,97,威剛｛ADATA LEGEND 900 2TB｝/Gen4/讀7000/寫5400(單面設計)贈散熱片【五年保】,9549,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,98,威剛｛XPG S70 BLADE 512G｝/Gen4/讀7200/寫2600/ DRAM快取/贈散熱片【五年保】,3999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,99,威剛｛XPG S70 BLADE 1T｝/Gen4/讀7400/寫5500/ DRAM快取/贈散熱片【五年保】,6099,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,100,威剛｛XPG S70 BLADE 2T｝/Gen4/讀7400/寫6400/ DRAM快取/贈散熱片【五年保】,11199,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,101,宏碁｛Acer FA200 2TB｝/Gen4 /讀7200/寫6200/QLC顆粒【五年保】,9299,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,102,宏碁｛Acer FA200 4TB｝/Gen4 /讀7100/6100/QLC顆粒【五年保】,16500,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,103,宏碁｛Acer Predator GM7 512GB｝/Gen4/讀7200/寫3800/TLC/(單面設計)【五年保】,3199,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,104,宏碁｛Acer Predator GM7 1TB｝/Gen4/讀7200/寫6300/TLC/(單面設計)【五年保】,5599,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,105,宏碁｛Acer Predator GM7 2TB｝/Gen4/讀7200/寫6300/TLC/(單面設計)【五年保】,11099,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,106,宏碁｛Acer Predator GM7 4TB｝/Gen4/讀7400/寫6500/TLC/(單面設計)【五年保】,18799,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,107,宏碁｛Acer Predator GM7000 2TB｝/Gen4/讀7400/寫6700/DRAM/美光顆粒【五年保】,10690,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,108,｛Biwin 佰維 M350 4TB｝/Gen4/讀6000/寫5000/石墨烯散熱片 【五年保】,14990,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,109,｛Biwin 佰維 NV7400 1TB｝/Gen4/讀7400/寫6500/TLC 單面設計 【五年保】,5399,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,110,｛Biwin 佰維 NV7400 2TB｝/Gen4/讀7450/寫6500/TLC 單面設計 【五年保】,10899,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,111,｛Biwin 佰維 NV7400 4TB｝/Gen4/讀7400/寫6500MTLC 單面設計 【五年保】,17800,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,113,｛致態小翼e7 500GB｝/Gen4/PCIe 4.0/讀5500/寫4000/QLC【五年保】~送飲料提袋~,2799,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,114,｛致態小翼e7 1TB｝/Gen4/PCIe 4.0/讀6000/寫5500/QLC【五年保】~送飲料提袋~,4799,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,115,｛致態 ZhiTai Ti600 500G｝/Gen4/PCIe 4.0/讀6000/寫3000/QLC【五年保】~送飲料提袋~,2999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,116,｛致態 ZhiTai Ti600 1TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,4999,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,117,｛致態 ZhiTai Ti600 2TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,7999,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,118,｛致態 ZhiTai Ti600 4TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,14999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,119,｛致態 ZhiTai Ti600s 1024G｝/Gen4/PCIe 4.0/讀7400/寫6600/QLC~送疾風暴力吹塵器,5299,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,120,｛致態 ZhiTai Ti600s 2048G｝/Gen4/PCIe 4.0/讀7400/寫6800/QLC~送疾風暴力吹塵器,8499,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,121,｛致態 ZhiTai Ti600s 4096G｝/Gen4/PCIe 4.0/讀7400/寫6900/QLC~送疾風暴力吹塵器,15999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,122,｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,5399,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,123,｛致態 ZhiTai TiPlus7100s 2TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,9399,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,124,｛致態 ZhiTai TiPlus7100s 4TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,17999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,125,｛KLEVV CRAS C930 2TB｝/Gen4 PCIe 4.0/讀7400/寫6800 DRAM快取鰭狀鋁散熱片【五年】,11088,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,126,MSI 微星｛M470PRO 1TB｝/Gen4/讀6000/寫4500/QLC顆粒【五年保】,7590,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,127,MSI 微星｛M470PRO 2TB｝/Gen4/讀6000/寫5000/QLC顆粒,11690,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,128,MSI 微星｛M480PRO 1TB｝/Gen4/讀7400M寫6000/3D TLC顆粒/DRAM快取【五年保】,8190,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,129,MSI 微星｛M480PRO 4TB｝/Gen4/讀7400/寫7000/3D TLC顆粒/DRAM快取【五年保】,23690,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,130,WD 藍標｛SN5100 1TB｝/Gen4 PCIe 4.0/讀7100/寫6700/QLC【五年保】,5780,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,131,WD 藍標｛SN5100 1TB｝/Gen4 PCIe 4.0/讀7100/寫6700/QLC【五年保】~組裝價~,4990,,熱賣 組裝價
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,132,WD 黑標｛SN850X 1TB｝/Gen4 PCIe 4.0/讀7300/寫6300/TLC/電競級【五年保】,7999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,133,WD 黑標｛SN850X 2TB｝/Gen4 PCIe 4.0/讀7300/寫6600/TLC/電競級【五年保】,12111,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,134,WD 黑標｛SN850X 2TB｝/含散熱片/Gen4 PCIe 4.0/讀7300/寫6600/TLC【五年保】,18500,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,135,｛金士頓 NV3 500G｝/Gen4 PCIe 4.0/讀5000/寫3000【五年保】,3100,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,136,｛金士頓 NV3 1TB｝/Gen4 PCIe 4.0/讀6000/寫4000【五年保】,5100,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,137,｛金士頓 NV3 2TB｝/Gen4 PCIe 4.0/讀6000/寫5000【五年保】,7888,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,138,｛金士頓 NV3 4TB｝/Gen4 PCIe 4.0/讀6000/寫5000【五年保】,16500,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,139,｛金士頓 KC3000 512G｝/Gen4 PCIe 4.0/讀7000/寫3900/TLC【五年保】,3880,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,140,｛金士頓 KC3000 1TB｝/Gen4 PCIe 4.0/讀7000/寫6000/TLC【五年保】,6288,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,141,｛金士頓 KC3000 2TB｝/Gen4 PCIe 4.0/讀7000/寫7000/TLC【五年保】,11000,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,142,｛金士頓 KC3000 4TB｝/Gen4 PCIe 4.0/讀7000/寫7000/TLC【五年保】,21600,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,143,美光 Micron｛E100 2TB｝/Gen4 PCIe 4.0/讀5000/寫4500/QLC【五年保】,8190,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,144,美光 Micron Crucial｛T500 1TB｝含散熱片/Gen4/讀7300/寫6800/3D TLC【五年保】,7229,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,145,美光 Micron Crucial｛T500 4TB｝含散熱片/Gen4/讀7000/寫6900/3D TLC【五年保】,20400,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,146,美光 Micron Crucial｛P310 2TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】,8250,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,147,美光 Micron Crucial｛P310 4TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】,15800,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,148,美光 Micron Crucial｛P310 2TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】,8550,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,149,美光 Micron Crucial｛P310 4TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】,15800,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,150,三星 Samsung｛990 EVO Plus 1TB｝/PCIe 4.0 x4/讀7150/寫6300/TLC【五年保】,6600,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,151,三星 Samsung｛990 EVO Plus 2TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】,11200,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,152,三星 Samsung｛990 EVO Plus 4TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】,20999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,153,三星 Samsung｛990 PRO 1TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,9100,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,154,三星 Samsung｛990 PRO 2TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,16999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,155,三星 Samsung｛990 PRO 4TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,29499,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,156,三星 Samsung｛990 PRO 1TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,9899,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,157,三星 Samsung｛990 PRO 2TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,16800,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,158,三星 Samsung｛990 PRO 4TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,23999,,
-7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,160,威剛｛ADATA LEGEND 710 512G｝/Gen3/讀2400/寫1000/QLC/贈散熱片【三年保】,2999,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,161,Biwin 佰維｛NV3500 512G｝(石墨烯散熱片/Gen3/讀3500/寫2500/TLC【五年保】,2699,,熱賣
-7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,162,Biwin 佰維｛NV3500 1TB｝(石墨烯散熱片/Gen3/讀3500/寫2500/TLC【五年保】,4699,,
-7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,164,｛金士頓 NV3SM 500G｝/Cen4 PCIe 4.0/ 讀5000/寫3000【五年保】/ M.2 2230,4500,,
-7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,165,｛金士頓 NV3SM 1TB｝/Cen4 PCIe 4.0/ 讀:6000/寫:4000【五年保】/ M.2 2230,6888,,
-7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,166,｛金士頓 NV3SM 2TB｝/Cen4 PCIe 4.0/ 讀6000/寫:5000【五年保】/ M.2 2230,9999,,
-7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,167,｛海盜船 Corsair MP600 MINI 1TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2230,7990,,
-7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,168,｛海盜船 Corsair MP600 MINI 2TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2230,13990,,
-7,固態硬碟 M.2｜SSD,M.2 2242 PCIe 4.0 (Gen4) SSD固態硬碟,170,｛海盜船 Corsair MP600 MICRO 1TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2242,9990,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,80,三星 Samsung｛9100 PRO 1TB｝/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】,9999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,81,三星 Samsung｛9100 PRO 2TB｝/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】,18888,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,82,三星 Samsung｛9100 PRO 4TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,33000,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,83,三星 Samsung｛9100 PRO 8TB｝/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,76000,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,84,三星 Samsung｛9100 PRO 1TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13300/TLC【五年保】~限整機~,10499,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,85,三星 Samsung｛9100 PRO 2TB｝含散熱片/PCIe 5.0 x4/讀14700/寫13400/TLC【五年保】,21499,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 5.0 (Gen5) SSD固態硬碟,86,三星 Samsung｛9100 PRO 8TB｝含散熱片/PCIe 5.0 x4/讀14800/寫13400/TLC【五年保】,80599,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,88,鎧俠｛KIOXIA EXCERIA PLUS G3 2TB｝PCIe 4.0 讀5000/寫3900/TLC【五年保】,9000,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,89,鎧俠｛KIOXIA EXCERIA BASIC 1TB｝PCIe 4.0 讀7200/寫6600/QLC【五年保】,4750,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,90,鎧俠｛KIOXIA EXCERIA BASIC 2TB｝PCIe 4.0 讀7300/寫6800/QLC【五年保】,8300,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,91,威剛｛ADATA LEGEND 860 500GB｝/Gen4/讀5000/寫3000(單面設計)【五年保】,3199,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,92,威剛｛ADATA LEGEND 860 1TB｝/Gen4/讀6000/寫4000(單面設計)【五年保】,5299,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,93,威剛｛ADATA LEGEND 860 2TB｝/Gen4/讀6000/寫:5000(單面設計)【五年保】,9299,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,94,威剛｛ADATA LEGEND 900 512GB｝/Gen4/讀6200/寫2300(單面設計)贈散熱片【五年保】,3299,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,95,威剛｛ADATA LEGEND 900 1TB｝/Gen4/讀7000/寫4700(單面設計)贈散熱片【五年保】,5399,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,96,威剛｛ADATA LEGEND 900 2TB｝/Gen4/讀7000/寫5400(單面設計)贈散熱片【五年保】,9549,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,97,威剛｛XPG S70 BLADE 512G｝/Gen4/讀7200/寫2600/ DRAM快取/贈散熱片【五年保】,3999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,98,威剛｛XPG S70 BLADE 1T｝/Gen4/讀7400/寫5500/ DRAM快取/贈散熱片【五年保】,6099,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,99,威剛｛XPG S70 BLADE 2T｝/Gen4/讀7400/寫6400/ DRAM快取/贈散熱片【五年保】,11199,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,100,宏碁｛Acer FA200 2TB｝/Gen4 /讀7200/寫6200/QLC顆粒【五年保】,9299,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,101,宏碁｛Acer FA200 4TB｝/Gen4 /讀7100/6100/QLC顆粒【五年保】,16500,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,102,宏碁｛Acer Predator GM7 512GB｝/Gen4/讀7200/寫3800/TLC/(單面設計)【五年保】,3199,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,103,宏碁｛Acer Predator GM7 1TB｝/Gen4/讀7200/寫6300/TLC/(單面設計)【五年保】,5599,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,104,宏碁｛Acer Predator GM7 2TB｝/Gen4/讀7200/寫6300/TLC/(單面設計)【五年保】,11099,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,105,宏碁｛Acer Predator GM7 4TB｝/Gen4/讀7400/寫6500/TLC/(單面設計)【五年保】,18799,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,106,宏碁｛Acer Predator GM7000 2TB｝/Gen4/讀7400/寫6700/DRAM/美光顆粒【五年保】,10690,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,107,｛Biwin 佰維 M350 4TB｝/Gen4/讀6000/寫5000/石墨烯散熱片 【五年保】,14990,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,108,｛Biwin 佰維 NV7400 1TB｝/Gen4/讀7400/寫6500/TLC 單面設計 【五年保】,5399,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,109,｛Biwin 佰維 NV7400 2TB｝/Gen4/讀7450/寫6500/TLC 單面設計 【五年保】,10899,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,110,｛Biwin 佰維 NV7400 4TB｝/Gen4/讀7400/寫6500MTLC 單面設計 【五年保】,17800,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,112,｛致態小翼e7 500GB｝/Gen4/PCIe 4.0/讀5500/寫4000/QLC【五年保】~送飲料提袋~,2799,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,113,｛致態小翼e7 1TB｝/Gen4/PCIe 4.0/讀6000/寫5500/QLC【五年保】~送飲料提袋~,4799,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,114,｛致態 ZhiTai Ti600 500G｝/Gen4/PCIe 4.0/讀6000/寫3000/QLC【五年保】~送飲料提袋~,2999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,115,｛致態 ZhiTai Ti600 1TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,4999,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,116,｛致態 ZhiTai Ti600 2TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,7999,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,117,｛致態 ZhiTai Ti600 4TB｝/Gen4/PCIe 4.0/讀7000/寫6000/QLC【五年保】~送飲料提袋~,14999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,118,｛致態 ZhiTai Ti600s 1024G｝/Gen4/PCIe 4.0/讀7400/寫6600/QLC~送疾風暴力吹塵器,5299,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,119,｛致態 ZhiTai Ti600s 2048G｝/Gen4/PCIe 4.0/讀7400/寫6800/QLC~送疾風暴力吹塵器,8499,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,120,｛致態 ZhiTai Ti600s 4096G｝/Gen4/PCIe 4.0/讀7400/寫6900/QLC~送疾風暴力吹塵器,15999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,121,｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,5399,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,122,｛致態 ZhiTai TiPlus7100s 2TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,9399,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,123,｛致態 ZhiTai TiPlus7100s 4TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~,17999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,124,｛KLEVV CRAS C930 2TB｝/Gen4 PCIe 4.0/讀7400/寫6800 DRAM快取鰭狀鋁散熱片【五年】,11088,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,125,MSI 微星｛M470PRO 1TB｝/Gen4/讀6000/寫4500/QLC顆粒【五年保】,7590,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,126,MSI 微星｛M470PRO 2TB｝/Gen4/讀6000/寫5000/QLC顆粒,11690,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,127,MSI 微星｛M480PRO 1TB｝/Gen4/讀7400M寫6000/3D TLC顆粒/DRAM快取【五年保】,8190,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,128,MSI 微星｛M480PRO 4TB｝/Gen4/讀7400/寫7000/3D TLC顆粒/DRAM快取【五年保】,23690,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,129,WD 藍標｛SN5100 1TB｝/Gen4 PCIe 4.0/讀7100/寫6700/QLC【五年保】,5780,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,130,WD 藍標｛SN5100 1TB｝/Gen4 PCIe 4.0/讀7100/寫6700/QLC【五年保】~組裝價~,4990,,熱賣 組裝價
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,131,WD 黑標｛SN850X 1TB｝/Gen4 PCIe 4.0/讀7300/寫6300/TLC/電競級【五年保】,7999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,132,WD 黑標｛SN850X 2TB｝/Gen4 PCIe 4.0/讀7300/寫6600/TLC/電競級【五年保】,12111,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,133,WD 黑標｛SN850X 2TB｝/含散熱片/Gen4 PCIe 4.0/讀7300/寫6600/TLC【五年保】,18500,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,134,｛金士頓 NV3 500G｝/Gen4 PCIe 4.0/讀5000/寫3000【五年保】,3100,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,135,｛金士頓 NV3 1TB｝/Gen4 PCIe 4.0/讀6000/寫4000【五年保】,5100,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,136,｛金士頓 NV3 2TB｝/Gen4 PCIe 4.0/讀6000/寫5000【五年保】,7888,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,137,｛金士頓 NV3 4TB｝/Gen4 PCIe 4.0/讀6000/寫5000【五年保】,16500,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,138,｛金士頓 KC3000 512G｝/Gen4 PCIe 4.0/讀7000/寫3900/TLC【五年保】,3880,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,139,｛金士頓 KC3000 1TB｝/Gen4 PCIe 4.0/讀7000/寫6000/TLC【五年保】,6288,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,140,｛金士頓 KC3000 2TB｝/Gen4 PCIe 4.0/讀7000/寫7000/TLC【五年保】,11000,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,141,｛金士頓 KC3000 4TB｝/Gen4 PCIe 4.0/讀7000/寫7000/TLC【五年保】,21600,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,142,美光 Micron｛E100 2TB｝/Gen4 PCIe 4.0/讀5000/寫4500/QLC【五年保】,8190,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,143,美光 Micron Crucial｛T500 1TB｝含散熱片/Gen4/讀7300/寫6800/3D TLC【五年保】,7229,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,144,美光 Micron Crucial｛T500 4TB｝含散熱片/Gen4/讀7000/寫6900/3D TLC【五年保】,20400,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,145,美光 Micron Crucial｛P310 2TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】,8250,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,146,美光 Micron Crucial｛P310 4TB｝/Gen4 PCIe 4.0/讀7100/寫6000/3D QLC【五年保】,15800,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,147,美光 Micron Crucial｛P310 2TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】,8550,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,148,美光 Micron Crucial｛P310 4TB｝含散熱片/Gen4/讀7100/寫6000/3D QLC【五年保】,15800,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,149,三星 Samsung｛990 EVO Plus 1TB｝/PCIe 4.0 x4/讀7150/寫6300/TLC【五年保】,6600,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,150,三星 Samsung｛990 EVO Plus 2TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】,11200,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,151,三星 Samsung｛990 EVO Plus 4TB｝/PCIe 4.0 x4/讀7250/寫6300/TLC【五年保】,20999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,152,三星 Samsung｛990 PRO 1TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,9100,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,153,三星 Samsung｛990 PRO 2TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,16999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,154,三星 Samsung｛990 PRO 4TB｝/Gen4 PCIe 4.0/讀7450/寫6900/TLC【五年保】,29499,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,155,三星 Samsung｛990 PRO 1TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,9899,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,156,三星 Samsung｛990 PRO 2TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,16800,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 4.0 (Gen4) SSD固態硬碟,157,三星 Samsung｛990 PRO 4TB｝含散熱片/Gen4/讀7450/寫6900/TLC【五年保】,23999,,
+7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,159,威剛｛ADATA LEGEND 710 512G｝/Gen3/讀2400/寫1000/QLC/贈散熱片【三年保】,2999,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,160,Biwin 佰維｛NV3500 512G｝(石墨烯散熱片/Gen3/讀3500/寫2500/TLC【五年保】,2699,,熱賣
+7,固態硬碟 M.2｜SSD,M.2 PCIe 3.0 (Gen3) SSD固態硬碟,161,Biwin 佰維｛NV3500 1TB｝(石墨烯散熱片/Gen3/讀3500/寫2500/TLC【五年保】,4699,,
+7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,163,｛金士頓 NV3SM 500G｝/Cen4 PCIe 4.0/ 讀5000/寫3000【五年保】/ M.2 2230,4500,,
+7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,164,｛金士頓 NV3SM 1TB｝/Cen4 PCIe 4.0/ 讀:6000/寫:4000【五年保】/ M.2 2230,6888,,
+7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,165,｛金士頓 NV3SM 2TB｝/Cen4 PCIe 4.0/ 讀6000/寫:5000【五年保】/ M.2 2230,9999,,
+7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,166,｛海盜船 Corsair MP600 MINI 1TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2230,7990,,
+7,固態硬碟 M.2｜SSD,M.2 2230 PCIe 4.0 (Gen4) SSD固態硬碟,167,｛海盜船 Corsair MP600 MINI 2TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2230,13990,,
+7,固態硬碟 M.2｜SSD,M.2 2242 PCIe 4.0 (Gen4) SSD固態硬碟,169,｛海盜船 Corsair MP600 MICRO 1TB｝Gen4/讀7000/寫6200【五年保】/ M.2 2242,9990,,
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 傳統碟,2,Toshiba 2TB (128M/5400轉/3年保)｛DT02ABA200｝裝機版,5890,,
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 傳統碟,3,Toshiba 2TB (128M/5400轉/3年保)｛DT02ABA200｝裝機版【搭機價】,4990,,
 8,2.5/3.5 傳統內接硬碟HDD,3.5吋 SATA3 傳統碟,4,Toshiba 4TB【P300系列】(128M/5400轉/3年保)｛HDWD240UZSVA｝,6890,,
@@ -2018,7 +2016,7 @@ cat_id,category,group,id,name,price,list_price,flags
 11,封閉式｜開放式水冷,安鈦克 ANTEC,180,｛Antec Skeleton 360 ARGB 白 水冷｝幾何骨架造型冷頭/厚:5.2cm/3年【WXZ】,2090,,
 11,封閉式｜開放式水冷,安鈦克 ANTEC,181,｛Antec Skeleton Matrix 360 黑 水冷｝幾何骨架造型冷頭/一體式風扇/3年【WXZ】,2190,,
 11,封閉式｜開放式水冷,安鈦克 ANTEC,182,｛Antec Skeleton Matrix 360 白 水冷｝幾何骨架造型冷頭/一體式風扇/3年【WXZ】,2190,,
-11,封閉式｜開放式水冷,安鈦克 ANTEC,183,｛Antec Vortex View 360 水冷｝5.0吋 360度可旋轉液晶/Asetek 9th泵浦/6年【WXZ】,5990,,
+11,封閉式｜開放式水冷,安鈦克 ANTEC,183,｛Antec Vortex View 360 水冷｝5.0吋 360度可旋轉液晶/Asetek 9th泵浦/6年【WXZ】,3990,,
 11,封閉式｜開放式水冷,快睿 CRYORIG,186,｛快睿 RHEO 360 睿歐 水冷｝無限鏡水冷頭/加大純銅底座/厚:5.2/3年【WXZ】,1690,,
 11,封閉式｜開放式水冷,快睿 CRYORIG,187,｛快睿 CRYO 360 快睿歐(黑) 水冷｝2.8吋液晶/加大純銅底座/厚:5.2/6年【WXZ】,3990,,
 11,封閉式｜開放式水冷,快睿 CRYORIG,188,｛快睿 CRYO 360 快睿歐(白) 水冷｝2.8吋液晶/加大純銅底座/厚:5.2/6年【WXZ】,3990,,
@@ -2175,146 +2173,145 @@ cat_id,category,group,id,name,price,list_price,flags
 12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),78,｛技嘉 AORUS RTX5060 ELITE 8G｝2722MHz/33cm/三風扇/註冊五年,19990,,任搭折190
 12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),79,｛微星 RTX5060 8G CYCLONE OC｝2535MHz/16cm/免註冊五年保 [獨家-雪螳螂],17590,,熱賣
 12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),80,｛微星 RTX5060 8G VENTUS 2X OC｝2535MHz/20cm/雙風扇/註冊四年,17590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),81,｛微星 RTX5060 8G VENTUS 2X OC V1｝2535MHz/20cm/雙風扇/註冊四年,17590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),82,｛微星 RTX5060 8G VENTUS 2X OC WHITE｝2535MHz/20cm/雙風扇/註冊四年/純白,17990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),83,｛微星 RTX5060 8G VENTUS 3X OC｝2550MHz/31cm/三風扇/註冊五年,17990,,任搭折290
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),84,｛微星 RTX5060 8G GAMING TRIO OC｝2640MHz/30cm/三風扇/註冊五年,18590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),85,｛微星 RTX5060 8G GAMING TRIO OC WHITE｝2640MHz/30cm/三風扇/註冊五年,18590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),87,｛ZOTAC RTX5060 8GB 星辰 OC｝2512MHz/24cm/雙風扇/免註冊五年保/白 [獨家款],16990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),88,｛ZOTAC RTX5060 SOLO｝2497MHz/17cm/單風扇/註冊五年,16990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),89,｛ZOTAC RTX5060 Twin Edge OC｝2527MHz/22cm/雙風扇/註冊五年/金屬背板,17490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),90,｛ZOTAC RTX5060 Twin Edge OC White Edition｝2527MHz/22cm/雙風扇/註五年/金屬背板,17990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),91,｛ZOTAC RTX5060 Low Profile｝2497MHz/18.3cm/三風扇/短卡設計/註冊五年,18490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),92,｛ZOTAC RTX5060 AMP｝2550MHz/22cm/雙風扇/註冊五年,18490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),93,｛INNO3D RTX5060 8GB TWIN X2 V2｝2497MHz/23cm/註四年/雙風扇,16888,,任搭折188
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),94,｛INNO3D RTX5060 8GB TWIN X2 OC WHITE｝2527MHz/25cm/超頻雙風扇/映雪,17888,,任搭折188
-12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),95,｛INNO3D RTX5060 X3 LOW PROFILE｝2497MHz/18cm/三風扇/註冊四年/短卡,16888,,任搭折188
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),97,｛華碩 T1-RTX5060TI-O8G-GAMING｝2662MHz/26.7cm/三風扇/註五年/T1冠軍戰隊版,21990,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),98,｛技嘉 RTX5060Ti WINDFORCE 8G｝2572MHz/21cm/雙風扇/註冊四年保,19990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),99,｛技嘉 RTX5060Ti WINDFORCE OC 8G｝2587MHz/21cm/雙風扇/註四年保,19990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),100,｛技嘉 RTX5060Ti WINDFORCE MAX OC 8G｝2587MHz/21cm/雙風扇/註冊四年保,19990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),101,｛技嘉 RTX5060Ti EAGLE OC 8G｝2617MHz/22cm/雙風扇/註冊五年保,20490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),102,｛技嘉 RTX5060Ti EAGLE MAX OC 8G｝2617MHz/28cm/三風扇/註冊五年保,20490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),103,｛技嘉 RTX5060Ti EAGLE OC ICE 8G｝2617MHz/22cm/雙風扇/註冊五年保/白,20490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),104,｛技嘉 RTX5060Ti GAMING OC 8G｝2647MHz/28cm/三風扇/註冊五年保,21990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),105,｛技嘉 RTX5060Ti AERO OC 8G｝2647MHz/28cm/三風扇/註冊五年保/白,22490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),106,｛微星 RTX5060Ti 8G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂],19900,,熱賣 任搭折200
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),107,｛微星 RTX5060Ti 8G VENTUS 2X PLUS｝2587MHz/23cm/雙風扇/註四年,19900,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),108,｛微星 RTX5060Ti 8G SHADOW 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年,19900,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),109,｛微星 RTX5060Ti 8G VENTUS 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年,20500,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),110,｛微星 RTX5060Ti 8G VENTUS 2X OC WHITE PLUS｝2617MHz/23cm/雙風/註四年/白,20590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),111,｛微星 RTX5060Ti 8G VENTUS 3X OC｝2617MHz/31cm/三風扇/註五年,20990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),112,｛微星 RTX5060Ti 8G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年,21990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),113,｛微星 RTX5060Ti 8G GAMING TRIO OC WHITE｝2662MHz/30cm/三風扇/註五年/白,21990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),115,｛ZOTAC RTX5060Ti 8GB 月白 OC｝2602MHz/30cm/三風扇/免註冊五年保/白 [獨家版],19490,,熱賣
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),116,｛ZOTAC RTX5060Ti 8GB Twin Edge OC｝2602MHz/22cm/雙風扇/註五年/金屬背板,19490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),117,｛ZOTAC RTX5060Ti 8GB AMP｝2632MHz/22cm/雙風扇/註五年/金屬背板,19490,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),118,｛INNO3D RTX5060Ti 8GB TWIN X2｝2572MHz/25cm/註四年/雙風扇,19488,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),119,｛INNO3D RTX5060Ti 8GB TWIN X2 OC WHITE｝2602MHz/25cm/註四年/雙風/映雪,20488,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),121,｛華碩 DUAL-RTX5060TI-O16G｝2632MHz/23cm/雙風扇/註冊四年保固,25590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),122,｛華碩 DUAL-RTX5060TI-O16G-WHITE｝2632MHz/23cm/雙風扇/註冊四年保/白,26590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),123,｛華碩 PRIME-RTX5060TI-16G｝2602MHz/31cm/三風扇/註冊五年保固,26590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),124,｛華碩 PRIME-RTX5060TI-O16G｝2647MHz/31cm/三風扇/註冊五年保固,27590,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),125,｛華碩 TUF-RTX5060TI-O16G-GAMING｝2692MHz/30cm/三風扇/註五年,28990,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),126,｛技嘉 RTX5060Ti WINDFORCE OC 16G｝2587MHz/21cm/雙風扇/註冊四年保,28990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),127,｛技嘉 RTX5060Ti WINDFORCE MAX OC 16G｝2587MHz/21cm/雙風扇/註冊四年保,28990,,
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),128,｛技嘉 RTX5060Ti EAGLE OC 16G｝2617MHz/22cm/雙風扇/註冊五年保),29990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),129,｛技嘉 RTX5060Ti EAGLE MAX OC 16G｝2617MHz/28cm/三風扇/註冊五年保,29990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),130,｛技嘉 RTX5060Ti EAGLE OC ICE 16G｝2617MHz/22cm/雙風扇/註五年/冰魄白,29990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),131,｛技嘉 RTX5060Ti GAMING OC 16G｝2647MHz/28cm/三風扇/註五年,30990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),132,｛技嘉 RTX5060Ti AERO OC 16G｝白/2647MHz/28cm/三風扇/註五年,30990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),133,｛技嘉 AORUS RTX5060Ti AI BOX｝2572MHz/外接式顯示卡/Thunderbolt 5隨插即用,33990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),134,｛微星 RTX5060Ti 16G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂],28990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),135,｛微星 RTX5060Ti 16G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年,30990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),137,｛INNO3D RTX5060Ti PRO 16GB Single Slot｝2572MHz/27cm/註四年/單風扇.單槽,30488,,
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),139,｛華碩 T1-RTX5070-O12G-GAMING｝2595MHz/31cm/三風扇/註五年/T1冠軍戰隊版,32990,,
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),140,｛技嘉 RTX5070 EAGLE OC SFF 12G｝2587MHz/29cm/三風扇/註五年,32990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),141,｛技嘉 RTX5070 EAGLE OC ICE SFF 12G｝2587MHz/29cm/三風扇/註五年/冰魄白,33490,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),142,｛技嘉 RTX5070 GAMING OC 12G｝2625MHz/33cm/三風扇/註五年,34990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),143,｛技嘉 RTX5070 AERO OC 12G｝2625MHz/33cm/三風扇/註五年,34990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),144,｛技嘉 AORUS RTX5070 MASTER 12G｝2715MHz/32cm/三風扇/註五年,35990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),145,｛技嘉 AORUS RTX5070 INFINITY 12G｝2715MHz/31cm/渦流雙風扇/註五年,35990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),146,｛微星 RTX5070 12G VENTUS 2X OC｝2557MHz/24cm/雙風扇/註四年,31500,,任搭折200
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),147,｛微星 RTX5070 12G VENTUS 2X OC WHITE｝2557MHz/24cm/雙風扇/雪白,31990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),148,｛微星 RTX5070 12G INSPIRE 3X OC｝2557MHz/29cm/三風扇/註五年,31990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),149,｛微星 RTX5070 12G VENTUS 3X OC｝2557MHz/31cm/三風扇/註五年,32990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),150,｛微星 RTX5070 12G GAMING TRIO OC｝2625MHz/34cm/三風扇/註五年,34990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),152,｛ZOTAC RTX5070 Twin Edge OC｝2542MHz/24cm/雙風扇/註五年,31990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),153,｛ZOTAC RTX5070 SOLID｝2512MHz/31cm/三風扇/註五年,32990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),154,｛ZOTAC RTX5070 SOLID OC｝2542MHz/31cm/三風扇/註五年,33990,,熱賣 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),155,｛ZOTAC RTX5070 AMP White Edition｝2587MHz/31cm/三風扇/註五年,33990,,任搭折190
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),156,｛INNO3D RTX5070 TWIN X2｝2512MHz/25cm/雙風扇/註四年,30888,,
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),157,｛INNO3D RTX5070 TWIN X2 OC WHITE｝2542MHz/25cm/超頻雙風/白註四年,31888,,
-12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),158,｛INNO3D RTX5070 iChill X3｝2572MHz/34cm/ARGB三風扇/註冊五年,32888,,
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),160,限搭機｛華碩 PRIME-RTX5070TI-O16G｝2527MHz/31cm/三風扇/註五年,45990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),161,限搭機｛技嘉 RTX5070Ti WINDFORCE OC SFF 16G｝2497MHz/31cm/三風扇/註四年,47990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),162,限搭機｛技嘉 RTX5070Ti EAGLE OC SFF 16G｝2542MHz/31cm/三風扇/註五年,50990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),163,限搭機｛技嘉 RTX5070Ti EAGLE OC ICE SFF 16G｝2542MHz/31cm/三風扇/註五年,50990,,限搭機 任搭折290
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),164,限搭機｛技嘉 RTX5070Ti GAMING OC 16G｝2588MHz/34cm/三風扇/註五年,51990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),165,限搭機｛技嘉 RTX5070Ti AERO OC 16G｝2588MHz/34cm/三風扇/註五年,51990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),166,限搭機｛技嘉 AORUS RTX5070Ti MASTER 16G｝2670MHz/36cm/三風扇/註五年,53990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),167,限搭機｛技嘉 AORUS RTX5070Ti INFINITY 16G｝2670MHz/33cm/渦流雙風扇/註五年,53990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),168,限搭機｛微星 RTX5070Ti 16G SHADOW 3X OC｝2497MHz/31cm/三風扇/註四年,47990,,限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),169,限搭機｛微星 RTX5070Ti 16G INSPIRE 3X OC｝2497MHz/29cm/三風扇/註五年,47990,,熱賣 限搭機 任搭折290
-12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),171,｛ZOTAC RTX5070Ti 16GB 天啟 OC｝2572MHz/36cm/三風扇/免註冊五年保 [獨家版],52990,,熱賣
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),81,｛微星 RTX5060 8G VENTUS 2X OC WHITE｝2535MHz/20cm/雙風扇/註冊四年/純白,17990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),82,｛微星 RTX5060 8G VENTUS 3X OC｝2550MHz/31cm/三風扇/註冊五年,17990,,任搭折290
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),83,｛微星 RTX5060 8G GAMING TRIO OC｝2640MHz/30cm/三風扇/註冊五年,18590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),84,｛微星 RTX5060 8G GAMING TRIO OC WHITE｝2640MHz/30cm/三風扇/註冊五年,18590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),86,｛ZOTAC RTX5060 8GB 星辰 OC｝2512MHz/24cm/雙風扇/免註冊五年保/白 [獨家款],16990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),87,｛ZOTAC RTX5060 SOLO｝2497MHz/17cm/單風扇/註冊五年,16990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),88,｛ZOTAC RTX5060 Twin Edge OC｝2527MHz/22cm/雙風扇/註冊五年/金屬背板,17490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),89,｛ZOTAC RTX5060 Twin Edge OC White Edition｝2527MHz/22cm/雙風扇/註五年/金屬背板,17990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),90,｛ZOTAC RTX5060 Low Profile｝2497MHz/18.3cm/三風扇/短卡設計/註冊五年,18490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),91,｛ZOTAC RTX5060 AMP｝2550MHz/22cm/雙風扇/註冊五年,18490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),92,｛INNO3D RTX5060 8GB TWIN X2 V2｝2497MHz/23cm/註四年/雙風扇,16888,,任搭折188
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),93,｛INNO3D RTX5060 8GB TWIN X2 OC WHITE｝2527MHz/25cm/超頻雙風扇/映雪,17888,,任搭折188
+12,顯示卡VGA,NVIDIA RTX5060-8GB(GDDR7),94,｛INNO3D RTX5060 X3 LOW PROFILE｝2497MHz/18cm/三風扇/註冊四年/短卡,16888,,任搭折188
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),96,｛華碩 T1-RTX5060TI-O8G-GAMING｝2662MHz/26.7cm/三風扇/註五年/T1冠軍戰隊版,21990,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),97,｛技嘉 RTX5060Ti WINDFORCE 8G｝2572MHz/21cm/雙風扇/註冊四年保,19990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),98,｛技嘉 RTX5060Ti WINDFORCE OC 8G｝2587MHz/21cm/雙風扇/註四年保,19990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),99,｛技嘉 RTX5060Ti WINDFORCE MAX OC 8G｝2587MHz/21cm/雙風扇/註冊四年保,19990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),100,｛技嘉 RTX5060Ti EAGLE OC 8G｝2617MHz/22cm/雙風扇/註冊五年保,20490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),101,｛技嘉 RTX5060Ti EAGLE MAX OC 8G｝2617MHz/28cm/三風扇/註冊五年保,20490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),102,｛技嘉 RTX5060Ti EAGLE OC ICE 8G｝2617MHz/22cm/雙風扇/註冊五年保/白,20490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),103,｛技嘉 RTX5060Ti GAMING OC 8G｝2647MHz/28cm/三風扇/註冊五年保,21990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),104,｛技嘉 RTX5060Ti AERO OC 8G｝2647MHz/28cm/三風扇/註冊五年保/白,22490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),105,｛微星 RTX5060Ti 8G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂],19900,,熱賣 任搭折200
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),106,｛微星 RTX5060Ti 8G VENTUS 2X PLUS｝2587MHz/23cm/雙風扇/註四年,19900,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),107,｛微星 RTX5060Ti 8G SHADOW 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年,19900,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),108,｛微星 RTX5060Ti 8G VENTUS 2X OC PLUS｝2617MHz/23cm/雙風扇/註四年,20500,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),109,｛微星 RTX5060Ti 8G VENTUS 2X OC WHITE PLUS｝2617MHz/23cm/雙風/註四年/白,20590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),110,｛微星 RTX5060Ti 8G VENTUS 3X OC｝2617MHz/31cm/三風扇/註五年,20990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),111,｛微星 RTX5060Ti 8G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年,21990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),112,｛微星 RTX5060Ti 8G GAMING TRIO OC WHITE｝2662MHz/30cm/三風扇/註五年/白,21990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),114,｛ZOTAC RTX5060Ti 8GB 月白 OC｝2602MHz/30cm/三風扇/免註冊五年保/白 [獨家版],19490,,熱賣
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),115,｛ZOTAC RTX5060Ti 8GB Twin Edge OC｝2602MHz/22cm/雙風扇/註五年/金屬背板,19490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),116,｛ZOTAC RTX5060Ti 8GB AMP｝2632MHz/22cm/雙風扇/註五年/金屬背板,19490,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),117,｛INNO3D RTX5060Ti 8GB TWIN X2｝2572MHz/25cm/註四年/雙風扇,19488,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-8GB(GDDR7),118,｛INNO3D RTX5060Ti 8GB TWIN X2 OC WHITE｝2602MHz/25cm/註四年/雙風/映雪,20488,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),120,｛華碩 DUAL-RTX5060TI-O16G｝2632MHz/23cm/雙風扇/註冊四年保固,25590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),121,｛華碩 DUAL-RTX5060TI-O16G-WHITE｝2632MHz/23cm/雙風扇/註冊四年保/白,26590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),122,｛華碩 PRIME-RTX5060TI-16G｝2602MHz/31cm/三風扇/註冊五年保固,26590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),123,｛華碩 PRIME-RTX5060TI-O16G｝2647MHz/31cm/三風扇/註冊五年保固,27590,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),124,｛華碩 TUF-RTX5060TI-O16G-GAMING｝2692MHz/30cm/三風扇/註五年,28990,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),125,｛技嘉 RTX5060Ti WINDFORCE OC 16G｝2587MHz/21cm/雙風扇/註冊四年保,28990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),126,｛技嘉 RTX5060Ti WINDFORCE MAX OC 16G｝2587MHz/21cm/雙風扇/註冊四年保,28990,,
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),127,｛技嘉 RTX5060Ti EAGLE OC 16G｝2617MHz/22cm/雙風扇/註冊五年保),29990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),128,｛技嘉 RTX5060Ti EAGLE MAX OC 16G｝2617MHz/28cm/三風扇/註冊五年保,29990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),129,｛技嘉 RTX5060Ti EAGLE OC ICE 16G｝2617MHz/22cm/雙風扇/註五年/冰魄白,29990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),130,｛技嘉 RTX5060Ti GAMING OC 16G｝2647MHz/28cm/三風扇/註五年,30990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),131,｛技嘉 RTX5060Ti AERO OC 16G｝白/2647MHz/28cm/三風扇/註五年,30990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),132,｛技嘉 AORUS RTX5060Ti AI BOX｝2572MHz/外接式顯示卡/Thunderbolt 5隨插即用,33990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),133,｛微星 RTX5060Ti 16G CYCLONE OC｝2617MHz/16cm/免註冊五年保 [獨家-雪螳螂],28990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),134,｛微星 RTX5060Ti 16G GAMING TRIO OC｝2662MHz/30cm/三風扇/註五年,30990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5060Ti-16GB(GDDR7),136,｛INNO3D RTX5060Ti PRO 16GB Single Slot｝2572MHz/27cm/註四年/單風扇.單槽,30488,,
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),138,｛華碩 T1-RTX5070-O12G-GAMING｝2595MHz/31cm/三風扇/註五年/T1冠軍戰隊版,32990,,
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),139,｛技嘉 RTX5070 EAGLE OC SFF 12G｝2587MHz/29cm/三風扇/註五年,32990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),140,｛技嘉 RTX5070 EAGLE OC ICE SFF 12G｝2587MHz/29cm/三風扇/註五年/冰魄白,33490,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),141,｛技嘉 RTX5070 GAMING OC 12G｝2625MHz/33cm/三風扇/註五年,34990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),142,｛技嘉 RTX5070 AERO OC 12G｝2625MHz/33cm/三風扇/註五年,34990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),143,｛技嘉 AORUS RTX5070 MASTER 12G｝2715MHz/32cm/三風扇/註五年,35990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),144,｛技嘉 AORUS RTX5070 INFINITY 12G｝2715MHz/31cm/渦流雙風扇/註五年,35990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),145,｛微星 RTX5070 12G VENTUS 2X OC｝2557MHz/24cm/雙風扇/註四年,31500,,任搭折200
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),146,｛微星 RTX5070 12G VENTUS 2X OC WHITE｝2557MHz/24cm/雙風扇/雪白,31990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),147,｛微星 RTX5070 12G INSPIRE 3X OC｝2557MHz/29cm/三風扇/註五年,31990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),148,｛微星 RTX5070 12G VENTUS 3X OC｝2557MHz/31cm/三風扇/註五年,32990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),149,｛微星 RTX5070 12G GAMING TRIO OC｝2625MHz/34cm/三風扇/註五年,34990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),151,｛ZOTAC RTX5070 Twin Edge OC｝2542MHz/24cm/雙風扇/註五年,31990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),152,｛ZOTAC RTX5070 SOLID｝2512MHz/31cm/三風扇/註五年,32990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),153,｛ZOTAC RTX5070 SOLID OC｝2542MHz/31cm/三風扇/註五年,33990,,熱賣 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),154,｛ZOTAC RTX5070 AMP White Edition｝2587MHz/31cm/三風扇/註五年,33990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),155,｛INNO3D RTX5070 TWIN X2｝2512MHz/25cm/雙風扇/註四年,30888,,
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),156,｛INNO3D RTX5070 TWIN X2 OC WHITE｝2542MHz/25cm/超頻雙風/白註四年,31888,,
+12,顯示卡VGA,NVIDIA RTX5070-12GB(GDDR7),157,｛INNO3D RTX5070 iChill X3｝2572MHz/34cm/ARGB三風扇/註冊五年,32888,,
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),159,限搭機｛華碩 PRIME-RTX5070TI-O16G｝2527MHz/31cm/三風扇/註五年,45990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),160,限搭機｛技嘉 RTX5070Ti WINDFORCE OC SFF 16G｝2497MHz/31cm/三風扇/註四年,47990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),161,限搭機｛技嘉 RTX5070Ti EAGLE OC SFF 16G｝2542MHz/31cm/三風扇/註五年,50990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),162,限搭機｛技嘉 RTX5070Ti EAGLE OC ICE SFF 16G｝2542MHz/31cm/三風扇/註五年,50990,,限搭機 任搭折290
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),163,限搭機｛技嘉 RTX5070Ti GAMING OC 16G｝2588MHz/34cm/三風扇/註五年,51990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),164,限搭機｛技嘉 RTX5070Ti AERO OC 16G｝2588MHz/34cm/三風扇/註五年,51990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),165,限搭機｛技嘉 AORUS RTX5070Ti MASTER 16G｝2670MHz/36cm/三風扇/註五年,53990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),166,限搭機｛技嘉 AORUS RTX5070Ti INFINITY 16G｝2670MHz/33cm/渦流雙風扇/註五年,53990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),167,限搭機｛微星 RTX5070Ti 16G SHADOW 3X OC｝2497MHz/31cm/三風扇/註四年,47990,,限搭機 任搭折190
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),168,限搭機｛微星 RTX5070Ti 16G INSPIRE 3X OC｝2497MHz/29cm/三風扇/註五年,47990,,熱賣 限搭機 任搭折290
+12,顯示卡VGA,NVIDIA RTX5070Ti-16GB(GDDR7),170,｛ZOTAC RTX5070Ti 16GB 天啟 OC｝2572MHz/36cm/三風扇/免註冊五年保 [獨家版],52990,,熱賣
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),172,限搭機｛技嘉 RTX5080 GAMING OC 16G｝2730MHz/34cm/三風扇/註冊五年保,63990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),173,限搭機｛技嘉 RTX5080 AERO OC SFF 16G｝2730MHz/31cm/三風扇/註冊五年保,64990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),174,限搭機｛技嘉 AORUS RTX5080 MASTER 16G｝2805MHz/36cm/三風扇/註冊五年保,66990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),175,限搭機｛技嘉 AORUS RTX5080 INFINITY 16G｝2805MHz/33cm/渦流雙風扇/註五年,67990,,限搭機 任搭折390
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),176,限搭機｛技嘉 AORUS RTX5080 INFINITY WOOD 16G｝2805MHz/33cm/渦流雙風/註五年/白,69990,,限搭機 任搭折390
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),177,限搭機｛微星 RTX5080 16G INSPIRE 3X OC｝2655MHz/29cm/三風扇/註五年,61990,,限搭機 任搭折190
 12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),178,限搭機｛微星 RTX5080 16G COD MW4 EDITION OC｝決勝時刻：現代戰爭4 限量版,65990,,熱賣 限搭機 任搭折190
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),180,限搭機｛ZOTAC RTX5080 SOLID OC White Edition｝2640MHz/33cm/三風扇/註五年/白色,65990,,限搭機 任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),181,限搭機｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,60888,,限搭機 任搭折1000
-12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),182,限搭機｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,64888,,限搭機 任搭折1000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,185,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,186,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,187,｛麗臺 NVIDIA RTX 6000 Ada 48GB GDDR6｝26.67cm/三年保固,279900,,熱賣 任搭折2000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,188,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,189,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,190,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,191,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,192,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
-12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,193,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,195,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,10590,,
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,196,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10690,,任搭折190
-12,顯示卡VGA,AMD Radeon RX7650GRE-8G,197,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,199,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,17890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-8G,200,藍寶石 脈動 PULSE RX9060XT GAMING OC 8GB(3290MHz/25cm/雙風扇/註五年)金屬背板,14990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,202,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,204,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,205,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,26890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,206,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,207,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,208,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,209,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,210,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9060XT-16G,211,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,213,｛華碩 ATS-RX9070GRE-O12G｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折500
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,214,裝機價｛華碩 ATS-RX9070GRE-O12G｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],18990,,熱賣 裝機價
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,215,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,25890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,216,裝機價｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,19990,,熱賣 裝機價
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,217,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,218,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,219,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,220,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070GRE-12G,221,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070-16G,223,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,26000,,任搭折500
-12,顯示卡VGA,AMD Radeon RX9070-16G,224,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,32890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,226,｛華擎 RX9070XT Challenger 16GB｝2970MHz/29cm/三風扇/註五年保,29890,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,227,｛華擎 RX9070XT Taichi 16GB OC｝3100MHz/33cm/三風扇/註五年,30990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,228,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,229,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,熱賣 搭板專案 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,230,｛藍寶石 脈動 PULSE RX9070XT GAMING 16GB｝2970MHz/32cm/三風/註五年/全鋁背板,30990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,231,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,232,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,233,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,234,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,235,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,236,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,237,｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製,31090,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,238,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,239,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
-12,顯示卡VGA,AMD Radeon RX9070XT-16G,240,｛撼訊 RX9070XT 16G-E/OC/WHITE 白紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),179,限搭機｛INNO3D RTX5080 X3｝2617MHz/30cm/三風扇/Dual Slot/註四年,60888,,限搭機 任搭折1000
+12,顯示卡VGA,NVIDIA RTX5080-16GB(GDDR7),180,限搭機｛INNO3D RTX5080 iChill X3 V2｝2715MHz/34cm/ARGB三風扇/註冊五年,64888,,限搭機 任搭折1000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,183,｛麗臺 NVIDIA RTX A400｝4G GDDR6 64bit/CUDA:768/16.26cm/三年保固,9100,,任搭折300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,184,｛麗臺 NVIDIA RTX A1000｝8G GDDR6 128bit/CUDA:2304/16.26cm/三年保固,20600,,任搭折600
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,185,｛麗臺 NVIDIA RTX 6000 Ada 48GB GDDR6｝26.67cm/三年保固,279900,,熱賣 任搭折2000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,186,｛麗臺 NVIDIA RTX PRO 2000 Blackwell 16GB GDDR7｝工作站繪圖卡,66300,,任搭折2300
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,187,｛麗臺 NVIDIA RTX PRO 4000 Blackwell SFF 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,188,｛麗臺 NVIDIA RTX PRO 4000 Blackwell 24GB GDDR7｝工作站繪圖卡,124000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,189,｛麗臺 NVIDIA RTX PRO 4500 Blackwell 32GB GDDR7｝工作站繪圖卡,189000,,任搭折4000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,190,｛麗臺 NVIDIA RTX PRO 5000 Blackwell 48GB GDDR7｝工作站繪圖卡,325000,,任搭折5000
+12,顯示卡VGA,NVIDIA 專業工作站繪圖卡,191,[加購價]｛麗臺 mini-DP轉DVI-D轉接線｝,190,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,193,｛藍寶石 白金版 PULSE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/金屬背板,10590,,
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,194,｛藍寶石 極地 PURE RX7650GRE GAMING 8GB｝2695MHz/24cm/雙風/註五年/白/金屬背板,10690,,任搭折190
+12,顯示卡VGA,AMD Radeon RX7650GRE-8G,195,｛撼訊 RX7650GRE 8G-L/OC Hellhound 暗黑犬｝2755MHz/24cm/雙風扇/註四年,11990,,
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,197,｛技嘉 RX9060XT GAMING OC 8G｝3320MHz/28cm/三風扇/註冊五年保,17890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-8G,198,藍寶石 脈動 PULSE RX9060XT GAMING OC 8GB(3290MHz/25cm/雙風扇/註五年)金屬背板,14990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,200,｛華碩 DUAL-RX9060XT-16G｝3250MHz/21cm/雙風扇/註冊四年保,21000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,202,｛華碩 PRIME-RX9060XT-O16G｝3330MHz/31cm/三風扇/註冊五年保,20900,,
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,203,｛技嘉 RX9060XT GAMING OC ICE 16G｝3320MHz/28cm/三風扇/註冊五年保/白,26890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,204,｛華擎 RX9060XT Challenger 16GB OC｝3290MHz/25cm/雙風扇/註冊四年保,19490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,205,｛Acer Nitro RX9060XT OC 16GB｝3320MHz/27cm/雙風扇/三年保固,19990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,206,｛藍寶石 脈動 PULSE RX9060XT GAMING OC 16GB｝3290MHz/25cm/雙風/註五年/金屬背板,20490,,熱賣
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,207,｛藍寶石 極地 PURE RX9060XT GAMING OC 16GB｝3290MHz/24cm/雙風/註五年/白/金屬背板,20990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,208,｛藍寶石 氮動 NITRO+ RX9060XT GAMING OC 16GB｝3320MHz/30cm/三風/註五年/金屬背板,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9060XT-16G,209,｛撼訊 RX9060XT 16G-A Reaper 遊蕩者｝3230MHz/22cm/雙風扇/三年保固/MIT台灣製,20990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,211,｛華碩 ATS-RX9070GRE-O12G｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],22000,,任搭折500
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,212,裝機價｛華碩 ATS-RX9070GRE-O12G｝2880MHz/31cm/三風扇/免註冊五年保 [獨家-巨齒鯊],18990,,熱賣 裝機價
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,213,｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,25890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,214,裝機價｛技嘉 RX9070GRE GAMING OC 12G｝2920MHz/29cm/三風扇/註冊五年保,19990,,熱賣 裝機價
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,215,｛華擎 RX9070GRE Steel Legend Dark 12GB OC｝2920MHz/30cm/三風扇/註五保,22000,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,216,｛藍寶石 脈動 PULSE RX9070GRE GAMING OC 12GB｝2920MHz/28cm/雙風/註五年,21490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,217,｛藍寶石 極地 PURE RX9070GRE GAMING OC 12GB｝2920MHz/32cm/三風/註五年/白/金屬背板,21990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,218,｛撼訊 RX9070GRE 12G-A Reaper 遊蕩者｝2790MHz/31cm/三風扇/三年保固,21990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070GRE-12G,219,｛撼訊 RX9070GRE 12G-L/OC Hellhound 暗黑犬｝2860MHz/33cm/三風扇/註四年,22090,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070-16G,221,｛華碩 PRIME-RX9070-O16G-EVO｝2610MHz/32cm/三風扇/五年保,26000,,任搭折500
+12,顯示卡VGA,AMD Radeon RX9070-16G,222,｛技嘉 RX9070 GAMING OC 16G｝2700MHz/29cm/三風扇/五年保,32890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,224,｛華擎 RX9070XT Challenger 16GB｝2970MHz/29cm/三風扇/註五年保,29890,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,225,｛華擎 RX9070XT Taichi 16GB OC｝3100MHz/33cm/三風扇/註五年,30990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,226,｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),31290,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,227,任搭價｛Acer NITRO RX9070XT 16G OC｝3100MHz/30cm/三風扇/三年保),29990,,熱賣 搭板專案 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,228,｛藍寶石 脈動 PULSE RX9070XT GAMING 16GB｝2970MHz/32cm/三風/註五年/全鋁背板,30990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,229,｛藍寶石 極地 PURE RX9070XT GAMING OC 16GB｝3010MHz/32cm/三風/註五年/白/金屬背板,31490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,230,｛藍寶石 氮動 NITRO+ RX9070XT GAMING OC 16GB｝3060MHz/33cm/三風/註五年/隱藏電源設計,32990,,熱賣 任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,231,｛藍寶石 氮動 NITRO+ RX9070XT Crimson Desert｝赤血沙漠版/註五年-附限量塗裝背板,32990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,232,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink｝背插式GC HWPR/註五年,33990,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,233,｛藍寶石 氮動 NITRO+ RX9070XT OC 16GB PhantomLink Polar｝背插式GC HWPR/註五年/白,34490,,任搭折290
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,234,｛撼訊 RX9070XT 16G-A 遊蕩者｝2970MHz/31cm/三風扇/三年保/MIT台灣製,30990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,235,｛撼訊 RX9070XT 16G-L/OC 暗黑犬｝3010MHz/34cm/三風扇/註四年/MIT台灣製,31090,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,236,｛撼訊 RX9070XT 16G-L/OC/REVA 夜嵐紀念版｝3010MHz/35cm/三風扇/附夜嵐磁吸背板,31490,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,237,｛撼訊 RX9070XT 16G-E/OC 紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
+12,顯示卡VGA,AMD Radeon RX9070XT-16G,238,｛撼訊 RX9070XT 16G-E/OC/WHITE 白紅魔｝3060MHz/36cm/三風扇/註五年/MIT台灣製,32990,,任搭折190
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,3,銀欣 SST-ARM13 (單螢幕 / 機械彈簧 / 穿夾兩用 / 最大32吋or9公斤) 省$1000,990,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,4,銀欣 SST-ARM14 白色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
 13,螢幕｜投影機｜壁掛,【主機搭購螢幕促銷專區】,5,銀欣 SST-ARM14B 黑色 (單螢幕 / 氣壓彈簧 / 穿夾兩用 / 最大49吋or20公斤) 省$1400,1599,,
@@ -2656,7 +2653,7 @@ cat_id,category,group,id,name,price,list_price,flags
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,392,｛三星 Odyssey G5 S27CG552EC｝〈1H1P/VA曲面/1000R/165Hz/HDR10〉,4990,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,393,｛三星 Odyssey G5 S27FG532EC｝〈1H1P/IPS/200Hz/HDR10〉,4990,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,394,｛三星 Odyssey G5 S27FG502EC｝〈1H1P/IPS/180Hz/HDR10〉可升降旋轉,5690,,
-13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,395,｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉,9990,,
+13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,395,｛三星 Odyssey G5 S27FG502SC｝〈1H1P/OLED/180Hz/HDR10〉,9900,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,396,｛三星 Odyssey G6 S27DG602SC｝〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉,15900,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,397,｛三星 Odyssey G6 S27FG602SC｝〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉,19900,,
 13,螢幕｜投影機｜壁掛,27吋(2560*1440)(16:9)〈亮暗點保固視廠商保固條款而定〉,398,｛技嘉 G27Q20T｝〈2H1P/IPS/210Hz/HDR10〉▼下殺到 11/29 23:59,3690,4058,熱賣 價格異動 下殺
@@ -3849,296 +3846,304 @@ cat_id,category,group,id,name,price,list_price,flags
 15,電源供應器,華碩 ASUS【0800到府收送】,50,｛華碩 TUF GAMING 850W Gold EVO 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保,3590,,
 15,電源供應器,華碩 ASUS【0800到府收送】,51,｛華碩 TUF GAMING 1000W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保,4390,,
 15,電源供應器,華碩 ASUS【0800到府收送】,52,｛華碩 TUF GAMING 1200W Gold EVO｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/8年保,4990,,
-15,電源供應器,華碩 ASUS【0800到府收送】,53,｛華碩 TUF GAMING 1000W Gold｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/防潮塗層/10年保,4590,,
-15,電源供應器,華碩 ASUS【0800到府收送】,54,｛華碩 TUF GAMING 850W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保,4390,,
-15,電源供應器,華碩 ASUS【0800到府收送】,55,｛華碩 TUF GAMING 1000W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保,4990,,
-15,電源供應器,華碩 ASUS【0800到府收送】,56,｛華碩 TUF GAMING 1200W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保▼下殺到 11/30 20:00,4990,5990,價格異動 下殺
-15,電源供應器,華碩 ASUS【0800到府收送】,57,｛華碩 ROG STRIX 1000W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保,6490,,
-15,電源供應器,華碩 ASUS【0800到府收送】,58,｛華碩 ROG STRIX 1000W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年保,6590,,
-15,電源供應器,華碩 ASUS【0800到府收送】,59,｛華碩 ROG STRIX 1200W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保,7490,,
-15,電源供應器,華碩 ASUS【0800到府收送】,61,｛華碩 ROG THOR III 1000W｝雙8/白金/全模組/OLED監控/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00,9999,10490,熱賣 價格異動 下殺
-15,電源供應器,華碩 ASUS【0800到府收送】,63,｛華碩 ROG THOR III 1200W 白金 ROG Equalizer｝全模/OLED監控/ATX3.1(PCIe 5.1)/10年,13990,,
-15,電源供應器,華碩 ASUS【0800到府收送】,64,｛華碩 ROG THOR III 1200W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年,14590,,
-15,電源供應器,華碩 ASUS【0800到府收送】,65,｛華碩 ROG THOR III EVO 1600W｝鈦金/全模/OLED/ATX3.1(雙PCie 5.1/Equalizer線)10年,23990,,
-15,電源供應器,華碩 ASUS【0800到府收送】,66,｛華碩 Pro WS 2200W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座),19990,,
-15,電源供應器,華碩 ASUS【0800到府收送】,67,｛華碩 Pro WS 3000W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座),29990,,
-15,電源供應器,海韻 Seasonic,70,｛海韻 S12III-500W｝銅牌/智慧溫控風扇/5年保,1550,,
-15,電源供應器,海韻 Seasonic,71,｛海韻 S12III-550W｝銅牌/智慧溫控風扇/5年保,1690,,
-15,電源供應器,海韻 Seasonic,72,｛海韻 S12III-650W｝銅牌/智慧溫控風扇/5年保,1850,,
-15,電源供應器,海韻 Seasonic,73,｛海韻 CORE BC-750(750W)｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1990,,
-15,電源供應器,海韻 Seasonic,74,｛海韻 CORE GX-650 ATX3(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,2990,,
-15,電源供應器,海韻 Seasonic,75,｛海韻 CORE GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3290,,
-15,電源供應器,海韻 Seasonic,76,｛海韻 CORE GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3790,,
-15,電源供應器,海韻 Seasonic,77,｛海韻 FOCUS GX-650(650W)｝雙8/金牌/全模組/10年保,2650,,
-15,電源供應器,海韻 Seasonic,78,｛海韻 FOCUS GX-750(750W)｝雙8/金牌/全模組/10年保,2990,,
-15,電源供應器,海韻 Seasonic,79,｛海韻 FOCUS GX-850(850W)｝雙8/金牌/全模組/10年保,3490,,
-15,電源供應器,海韻 Seasonic,80,｛海韻 FOCUS GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3790,,
-15,電源供應器,海韻 Seasonic,81,｛海韻 FOCUS GX-750 ATX3(750W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4090,,
-15,電源供應器,海韻 Seasonic,82,｛海韻 FOCUS GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4290,,
-15,電源供應器,海韻 Seasonic,83,｛海韻 FOCUS GX-850 ATX3(850W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4490,,
-15,電源供應器,海韻 Seasonic,84,｛海韻 FOCUS GX-1000 ATX3(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,5490,,
-15,電源供應器,海韻 Seasonic,85,｛海韻 FOCUS GX-1000 ATX3(1000W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,5790,,
-15,電源供應器,海韻 Seasonic,86,｛海韻 FOCUS PX-850 ATX3.1(850W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保,4790,,
-15,電源供應器,海韻 Seasonic,87,｛海韻 FOCUS PX-1000 ATX3.1(1000W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保,6090,,
-15,電源供應器,海韻 Seasonic,88,｛海韻 VERTEX GX-1200(1200W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保,6490,,
-15,電源供應器,海韻 Seasonic,89,｛海韻 VERTEX GX-1200(1200W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保,6490,,
-15,電源供應器,海韻 Seasonic,90,｛海韻 VERTEX PX-1200(1200W)｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/12年保,7590,,
-15,電源供應器,海韻 Seasonic,91,｛海韻 PRIME PX-1600 ATX3.0(1600W)｝雙8/白金/全模組/雙PCIe 5.1/12年保,17490,,
-15,電源供應器,海韻 Seasonic,92,｛海韻 PRIME PX-2200 ATX3(2200W)｝雙8/白金/全模組/4*PCIe 5.1/12年(限220V H型插座),18990,,
-15,電源供應器,海韻 Seasonic,93,｛海韻 PRIME TX-1300 ATX3(1300W)｝雙8/鈦金/全模組/PCIe 5.1/12年保,17490,,
-15,電源供應器,海韻 Seasonic,94,｛海韻 PRIME TX-1600 ATX3(1600W)｝雙8/鈦金/全模組/雙PCIe 5.1/12年保,19690,,
-15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,97,｛台達 550W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-550GB A,1990,,
-15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,98,｛台達 650W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-650FB A,2190,,
-15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,99,｛台達 650W 金牌｝雙8/全模組/DC-DC/10年保固/3年換新/GPS-650MB A,2890,,
-15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,100,｛台達 超實在 850W 金牌｝雙8/全模組/ATX3.1(PCIe 5.1)/10年保,3890,,
-15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,101,｛台達 超實在 1100W 白金｝雙8/全模組/ATX3.0(PCIe 5.0)/10年保 原價$6990！,5390,,熱賣
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,103,｛Apexgaming KR-750M(750W)｝雙8/白金/全模/ATX3.0(PCIe 5.0)/全日系/10年【SFX】,3590,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,104,｛Apexgaming KR-850MW(850W) 白色｝雙8/白金/全模/ATX3.0(PCIe 5.0)/10年【SFX】,4490,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,105,｛Apexgaming(首利) A-550(550W)｝銀牌/直出線/主日系/5年保,1390,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,106,｛Apexgaming(首利) A-650(650W)｝雙8/銀牌/直出線/主日系/5年保,1590,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,107,｛Apexgaming(首利) A-750(750W)｝雙8/銀牌/直出線/PCIe 5.1/主日系/5年保,1790,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,108,｛Apexgaming(首利) A-850(850W)｝雙8/銀牌/直出線/ATX3.1(PCIe 5.1)/全日系/5年保,2090,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,109,｛Apexgaming(首利) AJ-650M(650W)｝雙8/金牌/全模/全日系/智慧停轉/10年保,2090,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,110,｛Apexgaming(首利) STR650MW(650W) 白色｝雙8/金牌/全模/全日系/10年保,2290,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,111,｛Apexgaming GTR-750M(750W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年,2690,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,112,｛Apexgaming GTR-750MW(750W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年,2490,,熱賣
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,113,｛Apexgaming GTR-850M(850W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年,2890,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,114,｛Apexgaming GTR-850MW(850W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年,2790,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,115,｛Apexgaming GTR Plus-1000M(1000W)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/10年 原價$5590,3390,,熱賣
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,116,｛Apexgaming(首利) ODIN 1200W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,4390,,
-15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,117,｛Apexgaming(首利) ODIN 1650W｝雙8/白金/全模組/ATX3.0(雙PCIe 5.0)/全日系/10年保,14990,,
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,120,｛COUGAR VTE 400W 銅牌｝主日系/DC-DC/5年保,1290,,
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,121,｛COUGAR ATLAS 550W 銅牌｝主日系/DC-DC/5年保,1590,,
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,122,｛COUGAR ATLAS 650W｝雙8/銅牌/主日系/DC-DC/5年保,1790,,
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,123,｛COUGAR ATLAS 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2090！,1790,,熱賣
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,124,｛COUGAR GR 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2990！,2590,,熱賣
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,125,｛COUGAR GR 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$3290！,2890,,熱賣
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,126,｛COUGAR GR 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/壓紋線/10年保▼下殺到 11/30 20:00,3590,3890,價格異動 下殺
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,127,｛COUGAR GEX PRO 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00,3090,3590,價格異動 下殺
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,128,｛COUGAR POLAR X2 1050W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00,4990,5990,價格異動 下殺
-15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,129,｛COUGAR POLAR X2 1200W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00,5990,6990,價格異動 下殺
-15,電源供應器,振華 Super Flower,132,｛振華 BRONZE KING II 400W｝銅牌/5年保,1250,,
-15,電源供應器,振華 Super Flower,133,｛振華 BRONZE KING II 500W｝雙8/銅牌/5年保,1490,,
-15,電源供應器,振華 Super Flower,134,｛振華 BRONZE KING II PLUS 650W｝雙8/銅牌/5年保,1790,,
-15,電源供應器,振華 Super Flower,135,｛振華 COMBAT DG 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年保,2290,,
-15,電源供應器,振華 Super Flower,136,｛振華 COMBAT DG 1000W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年 原價$3290！,2790,,熱賣
-15,電源供應器,振華 Super Flower,137,｛振華 COMBAT SG PLUS 550W｝雙8/金牌/半模/ATX3.1/主日系/10年保,2190,,
-15,電源供應器,振華 Super Flower,138,｛振華 COMBAT SG PLUS 650W｝雙8/金牌/半模/ATX3.1/主日系/10年保,2390,,
-15,電源供應器,振華 Super Flower,139,｛振華 COMBAT FG 650W 黑色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,2690,,
-15,電源供應器,振華 Super Flower,140,｛振華 COMBAT FG 650W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,2790,,
-15,電源供應器,振華 Super Flower,141,｛振華 COMBAT FG 850W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,3090,,
-15,電源供應器,振華 Super Flower,142,｛振華 LEADEX III 850W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3090,,
-15,電源供應器,振華 Super Flower,143,｛振華 LEADEX III 1000W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,4190,,
-15,電源供應器,振華 Super Flower,144,｛振華 LEADEX III 750W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3390,,
-15,電源供應器,振華 Super Flower,145,｛振華 LEADEX III 750W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3490,,
-15,電源供應器,振華 Super Flower,146,｛振華 LEADEX III 850W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3790,,
-15,電源供應器,振華 Super Flower,147,｛振華 LEADEX III 850W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3890,,
-15,電源供應器,振華 Super Flower,148,｛振華 LEADEX III 1000W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保,4590,,
-15,電源供應器,振華 Super Flower,149,｛振華 LEADEX III 1300W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保,5490,,
-15,電源供應器,振華 Super Flower,150,｛振華 LEADEX VII PRO 850W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,4390,,
-15,電源供應器,振華 Super Flower,151,｛振華 LEADEX VII PRO 850W 白色｝ 雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,4590,,
-15,電源供應器,振華 Super Flower,152,｛振華 LEADEX VII PRO 1200W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,6990,,
-15,電源供應器,振華 Super Flower,153,｛振華 LEADEX VII PRO 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,7190,,
-15,電源供應器,振華 Super Flower,154,｛振華 LEADEX VIII PRO 850W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,4790,,熱賣
-15,電源供應器,振華 Super Flower,156,｛振華 LEADEX VIII PRO 850W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,4990,,熱賣
-15,電源供應器,振華 Super Flower,158,｛振華 LEADEX VIII PRO 1000W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,5390,,熱賣
-15,電源供應器,振華 Super Flower,160,｛振華 LEADEX VIII PRO 1000W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,5590,,熱賣
-15,電源供應器,振華 Super Flower,162,｛振華 LEADEX VIII PRO 1200W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,7490,,熱賣
-15,電源供應器,振華 Super Flower,164,｛振華 LEADEX VIII PRO 1200W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,7690,,熱賣
-15,電源供應器,振華 Super Flower,166,｛振華 LEADEX Titanium 2800W｝鈦金/ATX3.1(4組PCIe 5.1)/全日系/10年(限220V T型插座),22900,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,168,｛Montech BETA 2 550W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1490,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,169,｛Montech BETA 2 650W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1690,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,170,｛Montech BETA 2 750W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1890,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,171,｛Montech BETA 2 850W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/直出壓紋線/5年保,2090,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,172,｛Montech GAMMA 3 650W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,1890,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,173,｛Montech GAMMA 3 750W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,2190,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,174,｛Montech GAMMA 3 850W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,2490,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,175,｛Montech CENTURY II 650W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年,2490,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,176,｛Montech CENTURY II 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,2990,,熱賣 酷幣200
-15,電源供應器,君主 Montech 【原廠兩年換新】,177,｛Montech CENTURY II 1050W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,3990,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,178,｛Montech CENTURY II 1200W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,4790,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,179,｛Montech TITAN GOLD 1200W｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/智慧停轉/10年,4790,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,180,｛Montech TITAN PLA 750W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1) /智慧停轉/10年,3690,,熱賣
-15,電源供應器,君主 Montech 【原廠兩年換新】,181,｛Montech TITAN PLA 850W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,4290,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,182,｛Montech TITAN PLA 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,6290,,
-15,電源供應器,君主 Montech 【原廠兩年換新】,183,｛Montech TITAN PLA 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,7490,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,186,｛銀欣 ST30SF 300W｝銅牌/直出線/5年保 (ST30SF.V2.0)【SFX規格】,1790,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,187,｛銀欣 ST45SF 450W｝銅牌/直出線/5年保 (ST45SF.V3.0)【SFX規格】,2190,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,188,｛銀欣 Extreme 550Rz(550W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】,2490,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,189,｛銀欣 Extreme 650Rz(650W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】,2790,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,190,｛銀欣 ET450-B(450W)｝銅牌/直出線/5年保,1350,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,191,｛銀欣 ET650-B(650W)｝雙8/銅牌/直出線/扁平線/5年保,1690,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,192,｛銀欣 ATTIS 650R(650W) 白｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保,1990,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,193,｛銀欣 ATTIS 750R(750W) 黑｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保,2090,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,194,｛銀欣 Triton 650Rx(650W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2090,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,195,｛銀欣 Triton 750Rx(750W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2290,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,196,｛銀欣 Triton 850Rx(850W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2490,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,197,｛銀欣 DA750R Gold(750W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2590,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,198,｛銀欣 DA750R Gold(750W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2690,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,199,｛銀欣 DA850R Gold(850W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2890,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,200,｛銀欣 DA850R Gold(850W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2990,,
-15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,201,｛銀欣 HELA 850R Platinum(850W)｝雙8/白金/全模組/全日系/ATX3.0(PCIe 5.0)/5年保,3590,,
-15,電源供應器,酷碼 Cooler Master,204,｛酷碼 V SFX GOLD 850W ATX3.1 黑色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】,4690,,
-15,電源供應器,酷碼 Cooler Master,205,｛酷碼V SFX GOLD 850W ATX3.1 白色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】,4690,,
-15,電源供應器,酷碼 Cooler Master,206,｛酷碼 MWE BRONZE V2 450W｝銅牌/DC-DC+LLC/5年保/2020年版,1490,,
-15,電源供應器,酷碼 Cooler Master,207,｛酷碼 MWE GOLD V3 550W 黑色｝雙8/金牌/直出線/ATX3.1/5年,1690,,
-15,電源供應器,酷碼 Cooler Master,208,｛酷碼 MWE GOLD V3 550W 白色｝雙8/金牌/直出線/ATX3.1/5年,1690,,
-15,電源供應器,酷碼 Cooler Master,209,｛酷碼 MWE GOLD V3 650W 黑色｝雙8/金牌/直出線/ATX3.1/5年,1990,,
-15,電源供應器,酷碼 Cooler Master,210,｛酷碼 MWE GOLD V3 650W 白色｝雙8/金牌/直出線/ATX3.1/5年,1990,,
-15,電源供應器,酷碼 Cooler Master,211,｛酷碼 MWE GOLD V3 750W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2290,,
-15,電源供應器,酷碼 Cooler Master,212,｛酷碼 MWE GOLD V3 750W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2290,,
-15,電源供應器,酷碼 Cooler Master,213,｛酷碼 MWE GOLD V3 850W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2490,,
-15,電源供應器,酷碼 Cooler Master,214,｛酷碼 MWE GOLD V3 850W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2490,,
-15,電源供應器,酷碼 Cooler Master,215,｛酷碼 GX II GOLD 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1垂直線)/主日系/10年,2790,,
-15,電源供應器,酷碼 Cooler Master,216,｛酷碼 MWE GOLD V4 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,3390,,
-15,電源供應器,酷碼 Cooler Master,217,｛酷碼 MWE GOLD V4 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,3390,,
-15,電源供應器,酷碼 Cooler Master,218,｛酷碼 MWE GOLD V4 1000W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,4690,,
-15,電源供應器,酷碼 Cooler Master,219,｛酷碼 MWE GOLD V4 1000W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,4690,,
-15,電源供應器,酷碼 Cooler Master,220,｛酷碼 ELITE PLATINUM 850W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年,3890,,
-15,電源供應器,酷碼 Cooler Master,221,｛酷碼 ELITE PLATINUM 1000W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年,4990,,
-15,電源供應器,酷碼 Cooler Master,222,｛酷碼 V Platinum V2 1600W｝雙8/白金/全模組/ATX3.1(PCIe 5.1垂直線)/12年,10750,,
-15,電源供應器,酷碼 Cooler Master,223,｛酷碼 V Platinum 3000W Workstation｝白金/ATX3.1(4組PCIe 5.1)12年(限220V T型插座),28900,,
-15,電源供應器,酷碼 Cooler Master,224,｛酷碼 X Silent Max Platinum 1300W｝雙8/白金/全模組/數位電源/ATX3.1(PCIe 5.0)/15年,11990,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,226,｛XPG CORE PYLON II 550W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1590,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,227,｛XPG CORE PYLON II 650W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1790,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,228,｛XPG CORE PYLON II 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1990,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,229,｛XPG CORE SHIFT II VE 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保,2090,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,230,｛XPG CORE SHIFT II VE 850W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保,2390,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,231,｛XPG KYBER II 750W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保,2290,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,232,｛XPG KYBER II 850W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保,2590,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,233,｛XPG CORE REACTOR II VE 750W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3190,2790,,熱賣
-15,電源供應器,威剛 XPG【保內原廠展服快換】,234,｛XPG CORE REACTOR II VE 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3490,3190,,熱賣
-15,電源供應器,威剛 XPG【保內原廠展服快換】,235,｛XPG CORE REACTOR II 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,3690,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,236,｛XPG CORE REACTOR II 850W 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年保,3990,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,237,｛XPG CORE REACTOR II 1000W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,4590,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,238,｛XPG CORE REACTOR II 1200W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,5590,,
-15,電源供應器,威剛 XPG【保內原廠展服快換】,239,｛XPG FUSION 1600W｝雙8/鈦金/全模組/ATX3.0(雙PCIe 5.0)/全日系/12年,19900,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,242,｛全漢 金鋼彈 650W｝金牌/全模/全日系/DC-DC/10年保【SFX規格】,3290,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,243,｛全漢 金鋼彈 750W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】,3990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,244,｛全漢 金鋼彈 850W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】,4990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,245,｛全漢 金鋼彈 850W ATX3.0(PCIe 5.0) 白色｝雙8/金牌/全模/主日系/10年保【SFX規格】,4590,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,246,｛全漢 DAGGER PM 1200W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年【SFX-L】,7990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,247,｛全漢 HYDRO G PRO 1200W ATX3.0(PCIe 5.0)｝雙8/金牌/全模/全日系/防潮塗層/10年保,4990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,248,｛全漢 VIC GD 650W｝雙8/金牌/直出線/ATX3.1/壓紋線/3+2年(憑發票),1890,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,249,｛全漢 VIC GM 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/5年保,2990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,250,｛全漢 VITA GD 750W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保,2390,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,251,｛全漢 VITA GD 850W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保,2690,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,252,｛全漢 VITA GM 650W(MIT)｝雙8/金牌/全模/ATX3.1/主日系/10年保,2990,,熱賣
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,253,｛全漢 VITA GM 650W(MIT) 白色版｝雙8/金牌/全模/ATX3.1/主日系/10年保,3090,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,254,｛全漢 VITA GM 750W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3490,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,255,｛全漢 VITA GM 850W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3990,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,256,｛全漢 VITA GM 1000W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4890,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,257,｛全漢 VITA PM 750W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3890,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,258,｛全漢 VITA PM 850W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4390,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,259,｛全漢 VITA PM 1000W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,5290,,熱賣
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,261,｛全漢 VITA PM 1000W(MIT) 白色版｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,5290,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,262,｛全漢 MEGA GM 850W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,5290,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,263,｛全漢 MEGA GM 1000W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,6290,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,264,｛全漢 MEGA GM 1200W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,7290,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,265,｛全漢 MEGA TI 1350W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保,17500,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,266,｛全漢 MEGA TI 1650W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保,19500,,
-15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,267,｛全漢 CANNON PRO 2500W(MIT)｝白金/ATX3.1(4組PCIe 5.1)/3年(限220V T型插座)【無快換】,26900,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,270,｛保銳 EB450-C 450W｝銅牌/直出壓紋線/全日系/5年,1090,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,271,｛保銳 EB550-C 550W｝銅牌/直出壓紋線/ATX3.1/全日系/5年,1490,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,272,｛保銳 EB650-C 650W｝雙8/銅牌/直出壓紋線/ATX3.1/全日系/5年,1690,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,273,｛保銳 Cyberbron II 700W｝雙8/銅牌/直出扁線/主日系/5年,1690,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,274,｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年,1790,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,275,｛保銳 CyberG II 750W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年,2090,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,276,｛保銳 CyberG II 850W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年,2390,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,277,｛保銳 Revolution III 650W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2490,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,278,｛保銳 Revolution III 650W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2490,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,279,｛保銳 Revolution III 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2790,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,280,｛保銳 Revolution III 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2790,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,281,｛保銳 Revolution III 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3090,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,282,｛保銳 Revolution III 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3090,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,283,｛保銳 Revolution III 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4290,,熱賣
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,285,｛保銳 Revolution III S 1000W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,4990,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,286,｛保銳 Revolution III S 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,4990,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,287,｛保銳 PlatimaxII 1200DF(1200W) 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,5990,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,288,｛保銳 PlatimaxII 1200DF(1200W) 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,5990,,
-15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,289,｛保銳 PlatiGemini 1200W｝雙8/白金/符合ATX12VO/全模/ATX3.1(PCIe 5.1)/全日系/10年,5990,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,292,｛Antec CSK550DC(550W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保,1590,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,293,｛Antec CSK650DC(650W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保,1790,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,294,｛Antec CSK750DC(750W) 白色｝雙8/銅牌/直出線/PCIe 5.1/DC-DC/5年保,2190,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,295,｛Antec CSK750H(750W)｝雙8/銅牌/半模組/靜音風扇/5年保,1890,,熱賣
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,296,｛Antec GSK 750W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,2790,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,297,｛Antec GSK 850W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,3090,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,298,｛Antec GSK 1000W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,3790,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,299,｛Antec NE750GM(750W)｝雙8/金牌/全模/全日系/智慧溫控風扇/10年保,2290,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,300,｛Antec NE850GM(850W) 白色｝雙8/黑色線材/金牌/全模/全日系/智慧溫控風扇/10年保,2490,,熱賣
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,301,｛Antec NE1300G M ATX3.0(1300W)｝雙8/金牌/全模/PCIe 5.0/全日系/10年保,3990,,熱賣
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,302,｛Antec NE850(850W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3690,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,303,｛Antec NE1000(1000W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4190,,
-15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,304,｛Antec NE1200(1200W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4790,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,307,｛微星 MAG A550BN 550W｝銅牌/DC-DC/5年保,1790,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,308,｛微星 MAG A650BN 650W｝銅牌/DC-DC/5年保,1990,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,309,｛微星 MAG A650BNL WHITE 650W 白｝銅牌/DC-DC/5年保,2090,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,310,｛微星 MAG A750BN PCIE5 III 750W｝雙8/銅牌/ATX3.1/5年保,2290,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,311,｛微星 MAG A650GL 650W｝雙8/金牌/全模組/DC-DC/7年保,3090,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,312,｛微星 MAG A750GL PCIE5 750W｝雙8/金牌/全模組/ATX3.0/7年保,3290,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,313,｛微星 MAG A850GL PCIE5 850W｝雙8/金牌/全模組/ATX3.0/7年保,3690,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,314,｛微星 MAG A850GL PCIE5 WHITE 850W 白｝雙8/金牌/全模組/ATX3.0/7年保▼下殺到 11/15 21:00,2990,3790,價格異動 下殺
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,315,｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保▼下殺到 11/15 21:00,3790,4790,價格異動 下殺
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,316,｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 11/15 21:00,3690,4390,價格異動 下殺
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,317,｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 11/15 21:00,4590,5290,價格異動 下殺
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,318,｛微星 MAG A1000PLS PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/15 21:00,5379,6490,價格異動 下殺
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,319,｛微星 MPG Ai1300TS PCIE5 1300W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年,16490,,
-15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,320,｛微星 MPG Ai1600TS PCIE5 1600W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年,18490,,
-15,電源供應器,DEEPCOOL 九州風神,323,｛九州風神 PK550D(550W)｝雙8/銅牌/DC-DC/5年,1390,,
-15,電源供應器,DEEPCOOL 九州風神,324,｛九州風神 PK650D(650W)｝雙8/銅牌/DC-DC/5年,1590,,
-15,電源供應器,DEEPCOOL 九州風神,325,｛九州風神 PN650D(650W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！,2190,,熱賣
-15,電源供應器,DEEPCOOL 九州風神,326,｛九州風神 PN750D(750W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！,2490,,熱賣
-15,電源供應器,DEEPCOOL 九州風神,327,｛九州風神 PN850D(850W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年,2790,,
-15,電源供應器,DEEPCOOL 九州風神,328,｛九州風神 PN650M(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,2490,,
-15,電源供應器,DEEPCOOL 九州風神,329,｛九州風神 PN750M(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,2790,,
-15,電源供應器,DEEPCOOL 九州風神,330,｛九州風神 PN850M(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,3090,,
-15,電源供應器,DEEPCOOL 九州風神,331,｛九州風神 PN850M WH(850W) 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,3190,,
-15,電源供應器,技嘉 GIGABYTE,334,｛技嘉 P650G PG5(650W)｝ 雙8/金牌/ATX3.1(PCIe 5.1)/主日系/5年保,2690,,
-15,電源供應器,技嘉 GIGABYTE,335,｛技嘉 UD750GM PG5 V2(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3290,,
-15,電源供應器,技嘉 GIGABYTE,336,｛技嘉 UD750GM PG5 V2 ICE(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3390,,
-15,電源供應器,技嘉 GIGABYTE,337,｛技嘉 UD850GM PG5 V2(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3890,,
-15,電源供應器,技嘉 GIGABYTE,338,｛技嘉 UD850GM PG5 V2 ICE(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3990,,
-15,電源供應器,技嘉 GIGABYTE,339,｛技嘉 UD1000GM PG5 V2(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5290,,
-15,電源供應器,技嘉 GIGABYTE,340,｛技嘉 UD1000GM PG5 V2 ICE(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5390,,
-15,電源供應器,技嘉 GIGABYTE,341,｛技嘉 UD1600PM PG5(1600W)｝雙8/白金/全模組/ATX3.1(雙PCIe 5.1)主日系/10年,14990,,
-15,電源供應器,技嘉 GIGABYTE,342,｛技嘉 GAMING 1000GM PG5(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5990,,
-15,電源供應器,技嘉 GIGABYTE,343,｛技嘉 AORUS ELITE 1000W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年,6990,,
-15,電源供應器,技嘉 GIGABYTE,344,｛技嘉 AORUS ELITE 1000W ICE(白色)｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年,6490,,
-15,電源供應器,大飛 darkFlash,347,｛darkFlash PMT 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,2990,,
-15,電源供應器,大飛 darkFlash,348,｛darkFlash PMT 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3090,,
-15,電源供應器,大飛 darkFlash,349,｛darkFlash PMT 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3290,,
-15,電源供應器,大飛 darkFlash,350,｛darkFlash PMT 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3390,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,353,｛NZXT C750(750W) 銅牌｝雙8/直出線/ATX3.1(PCIe 5.1)/5年▼下殺到 11/30 20:00,2090,2490,價格異動 下殺
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,354,｛NZXT C850(850W) CORE 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)壓紋線/7年,3990,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,355,｛NZXT C850(850W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,4290,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,356,｛NZXT C1000(1000W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,5490,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,357,｛NZXT C1000(1000W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,5690,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,358,｛NZXT C1200(1200W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,7390,,
-15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,359,｛NZXT C1500(1500W) ATX3.1｝雙8/白金/數位電源/全模組/雙PCIe 5.1/全日系/10年▼下殺到 11/30 20:00,9999,11990,價格異動 下殺
-15,電源供應器,華擎 ASRock,362,｛ASRock SL-750G(750W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3290,,
-15,電源供應器,華擎 ASRock,363,｛ASRock SL-850GW(850W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3990,,
-15,電源供應器,華擎 ASRock,364,｛ASRock SL-1000G(1000W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4590,,
-15,電源供應器,華擎 ASRock,365,｛ASRock SL-1000GW(1000W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4690,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",368,｛SAMA G750(750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系,2590,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",369,｛SAMA G850(850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系,2790,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",370,｛SAMA P1000(1000W) 黑｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4190,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",371,｛SAMA P1000(1000W) 白｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4190,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",372,｛SAMA P1200(1200W) 黑｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4790,,
-15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",373,｛SAMA P1200(1200W) 白｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4790,,
-15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,376,｛曜越 Toughpower GF A3 750W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保,2690,,
-15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,377,｛曜越 Toughpower GF A3 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保,2990,,
-15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,378,｛曜越 Toughpower GF3 1350W ATX3.0(PCIe 5.0)｝雙8/金牌/全模組/10年保,4990,,
-15,電源供應器,聯力工業 LIAN LI,380,｛聯力 RS1000G(1000W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,4399,,
-15,電源供應器,聯力工業 LIAN LI,381,｛聯力 RS1000G(1000W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,4549,,
-15,電源供應器,聯力工業 LIAN LI,382,｛聯力 RS1200G(1200W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,5299,,
-15,電源供應器,聯力工業 LIAN LI,383,｛聯力 RS1200G(1200W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,5449,,
-15,電源供應器,聯力工業 LIAN LI,384,｛聯力 EDGE 850W V2｝金牌/全模組/ATX3.1(PCIe 5.1)/10年(分艙機殼專用),3199,,
-15,電源供應器,聯力工業 LIAN LI,385,｛聯力 EDGE 1000W V2 黑｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),4449,,
-15,電源供應器,聯力工業 LIAN LI,386,｛聯力 EDGE 1000W V2 白｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),4449,,
-15,電源供應器,聯力工業 LIAN LI,387,｛聯力 EDGE 1200W V2 黑｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),5799,,
-15,電源供應器,聯力工業 LIAN LI,388,｛聯力 EDGE 1200W V2 白｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),5799,,
-15,電源供應器,聯力工業 LIAN LI,389,｛聯力 EDGE 1350W V2 黑｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用),8299,,
-15,電源供應器,聯力工業 LIAN LI,390,｛聯力 EDGE 1350W V2 白｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用),8299,,
+15,電源供應器,華碩 ASUS【0800到府收送】,53,｛華碩 TUF GAMING 850W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保,4390,,
+15,電源供應器,華碩 ASUS【0800到府收送】,54,｛華碩 TUF GAMING 1000W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保,4990,,
+15,電源供應器,華碩 ASUS【0800到府收送】,55,｛華碩 TUF GAMING 1200W 白金｝雙8/全模組/ATX3.1(PCIe 5.1)/防潮塗層/8年保▼下殺到 11/30 20:00,4990,5990,價格異動 下殺
+15,電源供應器,華碩 ASUS【0800到府收送】,56,｛華碩 ROG STRIX 1000W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保,6490,,
+15,電源供應器,華碩 ASUS【0800到府收送】,57,｛華碩 ROG STRIX 1000W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年保,6590,,
+15,電源供應器,華碩 ASUS【0800到府收送】,58,｛華碩 ROG STRIX 1200W 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/智慧停轉/10年保,7490,,
+15,電源供應器,華碩 ASUS【0800到府收送】,60,｛華碩 ROG THOR III 1000W｝雙8/白金/全模組/OLED監控/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00,9999,10490,熱賣 價格異動 下殺
+15,電源供應器,華碩 ASUS【0800到府收送】,62,｛華碩 ROG THOR III 1200W 白金 ROG Equalizer｝全模/OLED監控/ATX3.1(PCIe 5.1)/10年,13990,,
+15,電源供應器,華碩 ASUS【0800到府收送】,63,｛華碩 ROG THOR III 1200W(白色) 白金 ROG Equalizer｝全模/ATX3.1(PCIe 5.1)/10年,14590,,
+15,電源供應器,華碩 ASUS【0800到府收送】,64,｛華碩 ROG THOR III EVO 1600W｝鈦金/全模/OLED/ATX3.1(雙PCie 5.1/Equalizer線)10年,23990,,
+15,電源供應器,華碩 ASUS【0800到府收送】,65,｛華碩 Pro WS 2200W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座),19990,,
+15,電源供應器,華碩 ASUS【0800到府收送】,66,｛華碩 Pro WS 3000W｝雙8/白金/全模組/ATX3.1(4*PCIe 5.1)/10年保(限220V T型插座),29990,,
+15,電源供應器,海韻 Seasonic,69,｛海韻 S12III-500W｝銅牌/智慧溫控風扇/5年保,1550,,
+15,電源供應器,海韻 Seasonic,70,｛海韻 S12III-550W｝銅牌/智慧溫控風扇/5年保,1690,,
+15,電源供應器,海韻 Seasonic,71,｛海韻 S12III-650W｝銅牌/智慧溫控風扇/5年保,1850,,
+15,電源供應器,海韻 Seasonic,72,｛海韻 CORE BC-750(750W)｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1990,,
+15,電源供應器,海韻 Seasonic,73,｛海韻 CORE GX-650 ATX3(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,2990,,
+15,電源供應器,海韻 Seasonic,74,｛海韻 CORE GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3290,,
+15,電源供應器,海韻 Seasonic,75,｛海韻 CORE GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3790,,
+15,電源供應器,海韻 Seasonic,76,｛海韻 FOCUS GX-650(650W)｝雙8/金牌/全模組/10年保,2650,,
+15,電源供應器,海韻 Seasonic,77,｛海韻 FOCUS GX-750(750W)｝雙8/金牌/全模組/10年保,2990,,
+15,電源供應器,海韻 Seasonic,78,｛海韻 FOCUS GX-850(850W)｝雙8/金牌/全模組/10年保,3490,,
+15,電源供應器,海韻 Seasonic,79,｛海韻 FOCUS GX-750 ATX3(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,3790,,
+15,電源供應器,海韻 Seasonic,80,｛海韻 FOCUS GX-750 ATX3(750W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4090,,
+15,電源供應器,海韻 Seasonic,81,｛海韻 FOCUS GX-850 ATX3(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4290,,
+15,電源供應器,海韻 Seasonic,82,｛海韻 FOCUS GX-850 ATX3(850W) 白色版｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,4490,,
+15,電源供應器,海韻 Seasonic,83,｛海韻 FOCUS GX-1000 ATX3(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,5490,,
+15,電源供應器,海韻 Seasonic,84,｛海韻 FOCUS GX-1000 ATX3(1000W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保,5790,,
+15,電源供應器,海韻 Seasonic,85,｛海韻 FOCUS PX-850 ATX3.1(850W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保,4790,,
+15,電源供應器,海韻 Seasonic,86,｛海韻 FOCUS PX-1000 ATX3.1(1000W)｝雙8/白金/全模組/PCIe 5.1/全日系/10年保,6090,,
+15,電源供應器,海韻 Seasonic,87,｛海韻 VERTEX GX-1200(1200W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保,6490,,
+15,電源供應器,海韻 Seasonic,88,｛海韻 VERTEX GX-1200(1200W)｝白色版 雙8/金牌/全模組/ATX3.1(PCIe 5.1)/12年保,6490,,
+15,電源供應器,海韻 Seasonic,89,｛海韻 VERTEX PX-1200(1200W)｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/12年保,7590,,
+15,電源供應器,海韻 Seasonic,90,｛海韻 PRIME PX-1600 ATX3.0(1600W)｝雙8/白金/全模組/雙PCIe 5.1/12年保,17490,,
+15,電源供應器,海韻 Seasonic,91,｛海韻 PRIME PX-2200 ATX3(2200W)｝雙8/白金/全模組/4*PCIe 5.1/12年(限220V H型插座),18990,,
+15,電源供應器,海韻 Seasonic,92,｛海韻 PRIME TX-1300 ATX3(1300W)｝雙8/鈦金/全模組/PCIe 5.1/12年保,17490,,
+15,電源供應器,海韻 Seasonic,93,｛海韻 PRIME TX-1600 ATX3(1600W)｝雙8/鈦金/全模組/雙PCIe 5.1/12年保,19690,,
+15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,96,｛台達 550W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-550GB A,1990,,
+15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,97,｛台達 650W 銅牌｝雙8/DC-DC/5年保固/3年換新/GPS-650FB A,2190,,
+15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,98,｛台達 650W 金牌｝雙8/全模組/DC-DC/10年保固/3年換新/GPS-650MB A,2890,,
+15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,99,｛台達 超實在 850W 金牌｝雙8/全模組/ATX3.1(PCIe 5.1)/10年保,3890,,
+15,電源供應器,台達 DELTA 最穩定的電源【保固憑原價屋發票/保貼】,100,｛台達 超實在 1100W 白金｝雙8/全模組/ATX3.0(PCIe 5.0)/10年保 原價$6990！,5390,,熱賣
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,102,｛Apexgaming KR-750M(750W)｝雙8/白金/全模/ATX3.0(PCIe 5.0)/全日系/10年【SFX】,3590,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,103,｛Apexgaming KR-850MW(850W) 白色｝雙8/白金/全模/ATX3.0(PCIe 5.0)/10年【SFX】,4490,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,104,｛Apexgaming(首利) A-550(550W)｝銀牌/直出線/主日系/5年保,1390,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,105,｛Apexgaming(首利) A-650(650W)｝雙8/銀牌/直出線/主日系/5年保,1590,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,106,｛Apexgaming(首利) A-750(750W)｝雙8/銀牌/直出線/PCIe 5.1/主日系/5年保,1790,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,107,｛Apexgaming(首利) A-850(850W)｝雙8/銀牌/直出線/ATX3.1(PCIe 5.1)/全日系/5年保,2090,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,108,｛Apexgaming(首利) AJ-650M(650W)｝雙8/金牌/全模/全日系/智慧停轉/10年保,2090,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,109,｛Apexgaming(首利) STR650MW(650W) 白色｝雙8/金牌/全模/全日系/10年保,2290,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,110,｛Apexgaming GTR-750M(750W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年,2690,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,111,｛Apexgaming GTR-750MW(750W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年,2490,,熱賣
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,112,｛Apexgaming GTR-850M(850W)｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年,2890,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,113,｛Apexgaming GTR-850MW(850W) 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/10年,2790,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,114,｛Apexgaming GTR Plus-1000M(1000W)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/10年 原價$5590,3390,,熱賣
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,115,｛Apexgaming(首利) ODIN 1200W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,4390,,
+15,電源供應器,Apexgaming 美商艾湃電競【首利100%品牌，原價屋售出 3年快換】,116,｛Apexgaming(首利) ODIN 1650W｝雙8/白金/全模組/ATX3.0(雙PCIe 5.0)/全日系/10年保,14990,,
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,119,｛COUGAR VTE 400W 銅牌｝主日系/DC-DC/5年保,1290,,
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,120,｛COUGAR ATLAS 550W 銅牌｝主日系/DC-DC/5年保,1590,,
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,121,｛COUGAR ATLAS 650W｝雙8/銅牌/主日系/DC-DC/5年保,1790,,
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,122,｛COUGAR ATLAS 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2090！,1790,,熱賣
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,123,｛COUGAR GR 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$2990！,2590,,熱賣
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,124,｛COUGAR GR 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/5年保 原價$3290！,2890,,熱賣
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,125,｛COUGAR GR 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/壓紋線/10年保▼下殺到 11/30 20:00,3590,3890,價格異動 下殺
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,126,｛COUGAR GEX PRO 850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/30 20:00,3090,3590,價格異動 下殺
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,127,｛COUGAR POLAR X2 1050W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00,4990,5990,價格異動 下殺
+15,電源供應器,美洲獅 COUGAR 電源【偉訓30年品質保證】,128,｛COUGAR POLAR X2 1200W｝雙8/白金/全模組/ATX3.1(PCIe 5.0)/全日系/10年▼下殺到 11/30 20:00,5990,6990,價格異動 下殺
+15,電源供應器,振華 Super Flower,131,｛振華 BRONZE KING II 400W｝銅牌/5年保,1250,,
+15,電源供應器,振華 Super Flower,132,｛振華 BRONZE KING II 500W｝雙8/銅牌/5年保,1490,,
+15,電源供應器,振華 Super Flower,133,｛振華 BRONZE KING II PLUS 650W｝雙8/銅牌/5年保,1790,,
+15,電源供應器,振華 Super Flower,134,｛振華 COMBAT DG 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年保,2290,,
+15,電源供應器,振華 Super Flower,135,｛振華 COMBAT DG 1000W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/7年 原價$3290！,2790,,熱賣
+15,電源供應器,振華 Super Flower,136,｛振華 COMBAT SG PLUS 550W｝雙8/金牌/半模/ATX3.1/主日系/10年保,2190,,
+15,電源供應器,振華 Super Flower,137,｛振華 COMBAT SG PLUS 650W｝雙8/金牌/半模/ATX3.1/主日系/10年保,2390,,
+15,電源供應器,振華 Super Flower,138,｛振華 COMBAT FG 650W 黑色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,2690,,
+15,電源供應器,振華 Super Flower,139,｛振華 COMBAT FG 650W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,2790,,
+15,電源供應器,振華 Super Flower,140,｛振華 COMBAT FG 850W 白色｝雙8/金牌/全模/ATX3.1(PCIe 5.0)/全日系/10年保,3090,,
+15,電源供應器,振華 Super Flower,141,｛振華 LEADEX III 850W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3090,,
+15,電源供應器,振華 Super Flower,142,｛振華 LEADEX III 1000W 金牌｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,4190,,
+15,電源供應器,振華 Super Flower,143,｛振華 LEADEX III 750W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3390,,
+15,電源供應器,振華 Super Flower,144,｛振華 LEADEX III 750W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3490,,
+15,電源供應器,振華 Super Flower,145,｛振華 LEADEX III 850W(黑色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3790,,
+15,電源供應器,振華 Super Flower,146,｛振華 LEADEX III 850W(白色) 白金｝雙8/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年保,3890,,
+15,電源供應器,振華 Super Flower,147,｛振華 LEADEX III 1000W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保,4590,,
+15,電源供應器,振華 Super Flower,148,｛振華 LEADEX III 1300W 白金｝雙8/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年保,5490,,
+15,電源供應器,振華 Super Flower,149,｛振華 LEADEX VII PRO 850W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,4390,,
+15,電源供應器,振華 Super Flower,150,｛振華 LEADEX VII PRO 850W 白色｝ 雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,4590,,
+15,電源供應器,振華 Super Flower,151,｛振華 LEADEX VII PRO 1200W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,6990,,
+15,電源供應器,振華 Super Flower,152,｛振華 LEADEX VII PRO 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/10年保,7190,,
+15,電源供應器,振華 Super Flower,153,｛振華 LEADEX VIII PRO 850W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,4790,,熱賣
+15,電源供應器,振華 Super Flower,155,｛振華 LEADEX VIII PRO 850W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,4990,,熱賣
+15,電源供應器,振華 Super Flower,157,｛振華 LEADEX VIII PRO 1000W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,5390,,熱賣
+15,電源供應器,振華 Super Flower,159,｛振華 LEADEX VIII PRO 1000W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,5590,,熱賣
+15,電源供應器,振華 Super Flower,161,｛振華 LEADEX VIII PRO 1200W 黑色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,7490,,熱賣
+15,電源供應器,振華 Super Flower,163,｛振華 LEADEX VIII PRO 1200W 白色｝白金/全模/ATX3.1(PCIe 5.1)12.5cm短機身/10年,7690,,熱賣
+15,電源供應器,振華 Super Flower,165,｛振華 LEADEX Titanium 2800W｝鈦金/ATX3.1(4組PCIe 5.1)/全日系/10年(限220V T型插座),22900,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,167,｛Montech BETA 2 550W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1490,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,168,｛Montech BETA 2 650W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1690,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,169,｛Montech BETA 2 750W｝雙8/銅牌/ATX3.1/主日系/直出壓紋線/5年保,1890,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,170,｛Montech BETA 2 850W｝雙8/銅牌/ATX3.1(PCIe 5.1)/主日系/直出壓紋線/5年保,2090,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,171,｛Montech GAMMA 3 650W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,1890,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,172,｛Montech GAMMA 3 750W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,2190,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,173,｛Montech GAMMA 3 850W｝雙8/金牌/ATX3.1(PCIe 5.1)/主日系/壓紋線/5年保,2490,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,174,｛Montech CENTURY II 650W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/智慧停轉/10年,2490,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,175,｛Montech CENTURY II 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,2990,,熱賣 酷幣200
+15,電源供應器,君主 Montech 【原廠兩年換新】,176,｛Montech CENTURY II 1050W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,3990,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,177,｛Montech CENTURY II 1200W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/智慧停轉/10年,4790,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,178,｛Montech TITAN GOLD 1200W｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/智慧停轉/10年,4790,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,179,｛Montech TITAN PLA 750W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1) /智慧停轉/10年,3690,,熱賣
+15,電源供應器,君主 Montech 【原廠兩年換新】,180,｛Montech TITAN PLA 850W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,4290,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,181,｛Montech TITAN PLA 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,6290,,
+15,電源供應器,君主 Montech 【原廠兩年換新】,182,｛Montech TITAN PLA 1200W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/智慧停轉/10年,7490,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,185,｛銀欣 ST30SF 300W｝銅牌/直出線/5年保 (ST30SF.V2.0)【SFX規格】,1790,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,186,｛銀欣 ST45SF 450W｝銅牌/直出線/5年保 (ST45SF.V3.0)【SFX規格】,2190,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,187,｛銀欣 Extreme 550Rz(550W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】,2490,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,188,｛銀欣 Extreme 650Rz(650W) Gold｝雙8/金牌/全模組/主日系/ATX3.1/5年保【SFX規格】,2790,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,189,｛銀欣 ET450-B(450W)｝銅牌/直出線/5年保,1350,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,190,｛銀欣 ET650-B(650W)｝雙8/銅牌/直出線/扁平線/5年保,1690,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,191,｛銀欣 ATTIS 650R(650W) 白｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保,1990,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,192,｛銀欣 ATTIS 750R(750W) 黑｝雙8/銅牌/直出線/扁平線/主日系/ATX3.1/5年保,2090,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,193,｛銀欣 Triton 650Rx(650W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2090,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,194,｛銀欣 Triton 750Rx(750W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2290,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,195,｛銀欣 Triton 850Rx(850W)｝雙8/金牌/直出線/主日系/ATX3.1(PCIe 5.1)/5年,2490,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,196,｛銀欣 DA750R Gold(750W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2590,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,197,｛銀欣 DA750R Gold(750W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2690,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,198,｛銀欣 DA850R Gold(850W) 黑色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2890,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,199,｛銀欣 DA850R Gold(850W) 白色｝雙8/金牌/全模組/主日系/ATX3.0(PCIe 5.0)/5年,2990,,
+15,電源供應器,銀欣 SilverStone【原價屋售出 2年快換】,200,｛銀欣 HELA 850R Platinum(850W)｝雙8/白金/全模組/全日系/ATX3.0(PCIe 5.0)/5年保,3590,,
+15,電源供應器,幾何未來 Geometric Future,202,｛幾何未來 Alpha 850W 灰黃｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,3790,,
+15,電源供應器,幾何未來 Geometric Future,203,｛幾何未來 Alpha 850W 灰綠｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,3790,,
+15,電源供應器,幾何未來 Geometric Future,204,｛幾何未來 Alpha 850W 灰白｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,3790,,
+15,電源供應器,幾何未來 Geometric Future,205,｛幾何未來 Alpha 1000W 灰黃｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4390,,
+15,電源供應器,幾何未來 Geometric Future,206,｛幾何未來 Alpha 1000W 灰綠｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4390,,
+15,電源供應器,幾何未來 Geometric Future,207,｛幾何未來 Alpha 1000W 灰白｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4390,,
+15,電源供應器,幾何未來 Geometric Future,208,｛幾何未來 Alpha 1200W 灰黃｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4990,,
+15,電源供應器,幾何未來 Geometric Future,209,｛幾何未來 Alpha 1200W 灰綠｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4990,,
+15,電源供應器,幾何未來 Geometric Future,210,｛幾何未來 Alpha 1200W 灰白｝白金/全模/特色壓紋線/ATX3.1(PCIe 5.1)全日系/10年,4990,,
+15,電源供應器,酷碼 Cooler Master,213,｛酷碼 V SFX GOLD 850W ATX3.1 黑色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】,4690,,
+15,電源供應器,酷碼 Cooler Master,214,｛酷碼V SFX GOLD 850W ATX3.1 白色｝雙8/金牌/全模組(PCIe 5.1)/10年【SFX規格】,4690,,
+15,電源供應器,酷碼 Cooler Master,215,｛酷碼 MWE BRONZE V2 450W｝銅牌/DC-DC+LLC/5年保/2020年版,1490,,
+15,電源供應器,酷碼 Cooler Master,216,｛酷碼 MWE GOLD V3 550W 黑色｝雙8/金牌/直出線/ATX3.1/5年,1690,,
+15,電源供應器,酷碼 Cooler Master,217,｛酷碼 MWE GOLD V3 550W 白色｝雙8/金牌/直出線/ATX3.1/5年,1690,,
+15,電源供應器,酷碼 Cooler Master,218,｛酷碼 MWE GOLD V3 650W 黑色｝雙8/金牌/直出線/ATX3.1/5年,1990,,
+15,電源供應器,酷碼 Cooler Master,219,｛酷碼 MWE GOLD V3 650W 白色｝雙8/金牌/直出線/ATX3.1/5年,1990,,
+15,電源供應器,酷碼 Cooler Master,220,｛酷碼 MWE GOLD V3 750W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2290,,
+15,電源供應器,酷碼 Cooler Master,221,｛酷碼 MWE GOLD V3 750W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2290,,
+15,電源供應器,酷碼 Cooler Master,222,｛酷碼 MWE GOLD V3 850W 黑色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2490,,
+15,電源供應器,酷碼 Cooler Master,223,｛酷碼 MWE GOLD V3 850W 白色｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年,2490,,
+15,電源供應器,酷碼 Cooler Master,224,｛酷碼 GX II GOLD 750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1垂直線)/主日系/10年,2790,,
+15,電源供應器,酷碼 Cooler Master,225,｛酷碼 MWE GOLD V4 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,3390,,
+15,電源供應器,酷碼 Cooler Master,226,｛酷碼 MWE GOLD V4 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,3390,,
+15,電源供應器,酷碼 Cooler Master,227,｛酷碼 MWE GOLD V4 1000W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,4690,,
+15,電源供應器,酷碼 Cooler Master,228,｛酷碼 MWE GOLD V4 1000W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)LED警示燈/10年,4690,,
+15,電源供應器,酷碼 Cooler Master,229,｛酷碼 ELITE PLATINUM 850W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年,3890,,
+15,電源供應器,酷碼 Cooler Master,230,｛酷碼 ELITE PLATINUM 1000W 黑色｝雙8/白金牌/全模組/ATX3.1(PCIe 5.1)全日系/12年,4990,,
+15,電源供應器,酷碼 Cooler Master,231,｛酷碼 V Platinum V2 1600W｝雙8/白金/全模組/ATX3.1(PCIe 5.1垂直線)/12年,10750,,
+15,電源供應器,酷碼 Cooler Master,232,｛酷碼 V Platinum 3000W Workstation｝白金/ATX3.1(4組PCIe 5.1)12年(限220V T型插座),28900,,
+15,電源供應器,酷碼 Cooler Master,233,｛酷碼 X Silent Max Platinum 1300W｝雙8/白金/全模組/數位電源/ATX3.1(PCIe 5.0)/15年,11990,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,235,｛XPG CORE PYLON II 550W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1590,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,236,｛XPG CORE PYLON II 650W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1790,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,237,｛XPG CORE PYLON II 750W｝雙8/銅牌/ATX3.1(PCIe 5.1)/5年保,1990,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,238,｛XPG CORE SHIFT II VE 750W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保,2090,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,239,｛XPG CORE SHIFT II VE 850W｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/5年保,2390,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,240,｛XPG KYBER II 750W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保,2290,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,241,｛XPG KYBER II 850W｝雙8/金牌/半模/ATX3.1(PCIe 5.1)/主日系/5年保,2590,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,242,｛XPG CORE REACTOR II VE 750W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3190,2790,,熱賣
+15,電源供應器,威剛 XPG【保內原廠展服快換】,243,｛XPG CORE REACTOR II VE 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/7年保 原價$3490,3190,,熱賣
+15,電源供應器,威剛 XPG【保內原廠展服快換】,244,｛XPG CORE REACTOR II 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,3690,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,245,｛XPG CORE REACTOR II 850W 白色｝雙8/金牌/全模/ATX3.0(PCIe 5.0)/全日系/10年保,3990,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,246,｛XPG CORE REACTOR II 1000W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,4590,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,247,｛XPG CORE REACTOR II 1200W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/全日系/10年保,5590,,
+15,電源供應器,威剛 XPG【保內原廠展服快換】,248,｛XPG FUSION 1600W｝雙8/鈦金/全模組/ATX3.0(雙PCIe 5.0)/全日系/12年,19900,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,251,｛全漢 金鋼彈 650W｝金牌/全模/全日系/DC-DC/10年保【SFX規格】,3290,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,252,｛全漢 金鋼彈 750W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】,3990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,253,｛全漢 金鋼彈 850W ATX3.1(PCIe 5.1)｝雙8/金牌/全模/主日系/10年保【SFX規格】,4990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,254,｛全漢 金鋼彈 850W ATX3.0(PCIe 5.0) 白色｝雙8/金牌/全模/主日系/10年保【SFX規格】,4590,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,255,｛全漢 DAGGER PM 1200W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年【SFX-L】,7990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,256,｛全漢 HYDRO G PRO 1200W ATX3.0(PCIe 5.0)｝雙8/金牌/全模/全日系/防潮塗層/10年保,4990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,257,｛全漢 VIC GD 650W｝雙8/金牌/直出線/ATX3.1/壓紋線/3+2年(憑發票),1890,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,258,｛全漢 VIC GM 850W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/5年保,2990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,259,｛全漢 VITA GD 750W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保,2390,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,260,｛全漢 VITA GD 850W(MIT)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/主日系/5年保,2690,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,261,｛全漢 VITA GM 650W(MIT)｝雙8/金牌/全模/ATX3.1/主日系/10年保,2990,,熱賣
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,262,｛全漢 VITA GM 650W(MIT) 白色版｝雙8/金牌/全模/ATX3.1/主日系/10年保,3090,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,263,｛全漢 VITA GM 750W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3490,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,264,｛全漢 VITA GM 850W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3990,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,265,｛全漢 VITA GM 1000W(MIT) 白色版｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4890,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,266,｛全漢 VITA PM 750W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3890,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,267,｛全漢 VITA PM 850W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4390,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,268,｛全漢 VITA PM 1000W(MIT)｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,5290,,熱賣
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,270,｛全漢 VITA PM 1000W(MIT) 白色版｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,5290,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,271,｛全漢 MEGA GM 850W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,5290,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,272,｛全漢 MEGA GM 1000W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,6290,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,273,｛全漢 MEGA GM 1200W(MIT)｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/全日系/防潮塗層/10年保,7290,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,274,｛全漢 MEGA TI 1350W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保,17500,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,275,｛全漢 MEGA TI 1650W(MIT)｝雙8/鈦金/全模/ATX3.1(雙PCIe 5.1)/全日系/防潮塗層/10年保,19500,,
+15,電源供應器,全漢 FSP 電源供應器【原價屋售出 2年快換 電供就是穩 !!】,276,｛全漢 CANNON PRO 2500W(MIT)｝白金/ATX3.1(4組PCIe 5.1)/3年(限220V T型插座)【無快換】,26900,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,279,｛保銳 EB450-C 450W｝銅牌/直出壓紋線/全日系/5年,1090,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,280,｛保銳 EB550-C 550W｝銅牌/直出壓紋線/ATX3.1/全日系/5年,1490,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,281,｛保銳 EB650-C 650W｝雙8/銅牌/直出壓紋線/ATX3.1/全日系/5年,1690,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,282,｛保銳 Cyberbron II 700W｝雙8/銅牌/直出扁線/主日系/5年,1690,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,283,｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年,1790,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,284,｛保銳 CyberG II 750W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年,2090,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,285,｛保銳 CyberG II 850W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年,2390,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,286,｛保銳 Revolution III 650W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2490,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,287,｛保銳 Revolution III 650W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2490,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,288,｛保銳 Revolution III 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2790,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,289,｛保銳 Revolution III 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,2790,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,290,｛保銳 Revolution III 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3090,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,291,｛保銳 Revolution III 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3090,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,292,｛保銳 Revolution III 1000W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4290,,熱賣
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,294,｛保銳 Revolution III S 1000W 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,4990,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,295,｛保銳 Revolution III S 1000W 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,4990,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,296,｛保銳 PlatimaxII 1200DF(1200W) 黑色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,5990,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,297,｛保銳 PlatimaxII 1200DF(1200W) 白色｝雙8/白金/全模/ATX3.1(PCIe 5.1)/全日系/13年保,5990,,
+15,電源供應器,保銳 ENERMAX【原價屋售出 2年快換】,298,｛保銳 PlatiGemini 1200W｝雙8/白金/符合ATX12VO/全模/ATX3.1(PCIe 5.1)/全日系/10年,5990,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,301,｛Antec CSK550DC(550W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保,1590,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,302,｛Antec CSK650DC(650W)｝雙8/銅牌/直出線/靜音風扇/DC-DC/5年保,1790,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,303,｛Antec CSK750DC(750W) 白色｝雙8/銅牌/直出線/PCIe 5.1/DC-DC/5年保,2190,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,304,｛Antec CSK750H(750W)｝雙8/銅牌/半模組/靜音風扇/5年保,1890,,熱賣
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,305,｛Antec GSK 750W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,2790,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,306,｛Antec GSK 850W V2｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,3090,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,307,｛Antec GSK 1000W｝雙8/金牌/全模/ATX3.1(PCIe 5.1)/溫控風扇/壓紋線/10年保,3790,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,308,｛Antec NE750GM(750W)｝雙8/金牌/全模/全日系/智慧溫控風扇/10年保,2290,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,309,｛Antec NE850GM(850W) 白色｝雙8/黑色線材/金牌/全模/全日系/智慧溫控風扇/10年保,2490,,熱賣
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,310,｛Antec NE1300G M ATX3.0(1300W)｝雙8/金牌/全模/PCIe 5.0/全日系/10年保,3990,,熱賣
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,311,｛Antec NE850(850W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,3690,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,312,｛Antec NE1000(1000W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4190,,
+15,電源供應器,安鈦克 Antec 電源供應器 美國選購率第一【原價屋售出 2年快換!!】,313,｛Antec NE1200(1200W) Platinum｝雙8/白金/全模/ATX3.1(PCIe 5.1)/主日系/10年保,4790,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,316,｛微星 MAG A550BN 550W｝銅牌/DC-DC/5年保,1790,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,317,｛微星 MAG A650BN 650W｝銅牌/DC-DC/5年保,1990,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,318,｛微星 MAG A650BNL WHITE 650W 白｝銅牌/DC-DC/5年保,2090,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,319,｛微星 MAG A750BN PCIE5 III 750W｝雙8/銅牌/ATX3.1/5年保,2290,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,320,｛微星 MAG A650GL 650W｝雙8/金牌/全模組/DC-DC/7年保,3090,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,321,｛微星 MAG A750GL PCIE5 750W｝雙8/金牌/全模組/ATX3.0/7年保,3290,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,322,｛微星 MAG A850GL PCIE5 850W｝雙8/金牌/全模組/ATX3.0/7年保,3690,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,323,｛微星 MAG A850GL PCIE5 WHITE 850W 白｝雙8/金牌/全模組/ATX3.0/7年保▼下殺到 11/15 21:00,2990,3790,價格異動 下殺
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,324,｛微星 MAG A1000GL PCIE5 1000W｝雙8/金牌/全模組/ATX3.1/7年保▼下殺到 11/15 21:00,3790,4790,價格異動 下殺
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,325,｛微星 PRO A850PL PCIE5 850W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 11/15 21:00,3690,4390,價格異動 下殺
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,326,｛微星 PRO A1000PL PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/7年▼下殺到 11/15 21:00,4590,5290,價格異動 下殺
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,327,｛微星 MAG A1000PLS PCIE5 1000W｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/10年保▼下殺到 11/15 21:00,5379,6490,價格異動 下殺
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,328,｛微星 MPG Ai1300TS PCIE5 1300W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年,16490,,
+15,電源供應器,微星 MSI 【到府收件 兩年展服快換】,329,｛微星 MPG Ai1600TS PCIE5 1600W｝雙8/鈦金/全模/ATX3.1(雙PCIe 5)/軟體監控/12年,18490,,
+15,電源供應器,DEEPCOOL 九州風神,332,｛九州風神 PK550D(550W)｝雙8/銅牌/DC-DC/5年,1390,,
+15,電源供應器,DEEPCOOL 九州風神,333,｛九州風神 PK650D(650W)｝雙8/銅牌/DC-DC/5年,1590,,
+15,電源供應器,DEEPCOOL 九州風神,334,｛九州風神 PN650D(650W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！,2190,,熱賣
+15,電源供應器,DEEPCOOL 九州風神,335,｛九州風神 PN750D(750W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年 送 快睿CR401 ARGB散熱器！,2490,,熱賣
+15,電源供應器,DEEPCOOL 九州風神,336,｛九州風神 PN850D(850W)｝雙8/金牌/直出線/ATX3.1(PCIe 5.1)/10年,2790,,
+15,電源供應器,DEEPCOOL 九州風神,337,｛九州風神 PN650M(650W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,2490,,
+15,電源供應器,DEEPCOOL 九州風神,338,｛九州風神 PN750M(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,2790,,
+15,電源供應器,DEEPCOOL 九州風神,339,｛九州風神 PN850M(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,3090,,
+15,電源供應器,DEEPCOOL 九州風神,340,｛九州風神 PN850M WH(850W) 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年,3190,,
+15,電源供應器,技嘉 GIGABYTE,343,｛技嘉 P650G PG5(650W)｝ 雙8/金牌/ATX3.1(PCIe 5.1)/主日系/5年保,2690,,
+15,電源供應器,技嘉 GIGABYTE,344,｛技嘉 UD750GM PG5 V2(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3290,,
+15,電源供應器,技嘉 GIGABYTE,345,｛技嘉 UD750GM PG5 V2 ICE(750W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3390,,
+15,電源供應器,技嘉 GIGABYTE,346,｛技嘉 UD850GM PG5 V2(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3890,,
+15,電源供應器,技嘉 GIGABYTE,347,｛技嘉 UD850GM PG5 V2 ICE(850W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,3990,,
+15,電源供應器,技嘉 GIGABYTE,348,｛技嘉 UD1000GM PG5 V2(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5290,,
+15,電源供應器,技嘉 GIGABYTE,349,｛技嘉 UD1000GM PG5 V2 ICE(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5390,,
+15,電源供應器,技嘉 GIGABYTE,350,｛技嘉 UD1600PM PG5(1600W)｝雙8/白金/全模組/ATX3.1(雙PCIe 5.1)主日系/10年,14990,,
+15,電源供應器,技嘉 GIGABYTE,351,｛技嘉 GAMING 1000GM PG5(1000W)｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)全日系/10年,5990,,
+15,電源供應器,技嘉 GIGABYTE,352,｛技嘉 AORUS ELITE 1000W｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年,6990,,
+15,電源供應器,技嘉 GIGABYTE,353,｛技嘉 AORUS ELITE 1000W ICE(白色)｝雙8/白金/全模組/ATX3.0(PCIe 5.0)全日系/10年,6490,,
+15,電源供應器,大飛 darkFlash,356,｛darkFlash PMT 750W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,2990,,
+15,電源供應器,大飛 darkFlash,357,｛darkFlash PMT 750W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3090,,
+15,電源供應器,大飛 darkFlash,358,｛darkFlash PMT 850W 黑色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3290,,
+15,電源供應器,大飛 darkFlash,359,｛darkFlash PMT 850W 白色｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系/10年保,3390,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,362,｛NZXT C750(750W) 銅牌｝雙8/直出線/ATX3.1(PCIe 5.1)/5年▼下殺到 11/30 20:00,2090,2490,價格異動 下殺
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,363,｛NZXT C850(850W) CORE 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)壓紋線/7年,3990,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,364,｛NZXT C850(850W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,4290,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,365,｛NZXT C1000(1000W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,5490,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,366,｛NZXT C1000(1000W) ATX3.1 白｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,5690,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,367,｛NZXT C1200(1200W) ATX3.1 黑｝雙8/金牌/全模組/PCIe 5.1/全日系/10年,7390,,
+15,電源供應器,恩傑 NZXT【原價屋售出 2年快換】,368,｛NZXT C1500(1500W) ATX3.1｝雙8/白金/數位電源/全模組/雙PCIe 5.1/全日系/10年▼下殺到 11/30 20:00,9999,11990,價格異動 下殺
+15,電源供應器,華擎 ASRock,371,｛ASRock SL-750G(750W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3290,,
+15,電源供應器,華擎 ASRock,372,｛ASRock SL-850GW(850W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,3990,,
+15,電源供應器,華擎 ASRock,373,｛ASRock SL-1000G(1000W) 黑｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4590,,
+15,電源供應器,華擎 ASRock,374,｛ASRock SL-1000GW(1000W) 白｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/全日系/10年,4690,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",377,｛SAMA G750(750W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系,2590,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",378,｛SAMA G850(850W｝雙8/金牌/全模組/ATX3.1(PCIe 5.1)/主日系,2790,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",379,｛SAMA P1000(1000W) 黑｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4190,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",380,｛SAMA P1000(1000W) 白｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4190,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",381,｛SAMA P1200(1200W) 黑｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4790,,
+15,電源供應器,"標註 ""雙8"" 意即代表這顆電供已內建CPU 供電(4+4)X2組",382,｛SAMA P1200(1200W) 白｝雙8/白金/全模組/ATX3.1(PCIe 5.1)/全日系,4790,,
+15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,385,｛曜越 Toughpower GF A3 750W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保,2690,,
+15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,386,｛曜越 Toughpower GF A3 850W｝雙8/金牌/全模組/ATX3.0(PCIe 5.0)/主日系/10年保,2990,,
+15,電源供應器,曜越 Thermaltake【原價屋售出 3年快換 !!】,387,｛曜越 Toughpower GF3 1350W ATX3.0(PCIe 5.0)｝雙8/金牌/全模組/10年保,4990,,
+15,電源供應器,聯力工業 LIAN LI,389,｛聯力 RS1000G(1000W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,4399,,
+15,電源供應器,聯力工業 LIAN LI,390,｛聯力 RS1000G(1000W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,4549,,
+15,電源供應器,聯力工業 LIAN LI,391,｛聯力 RS1200G(1200W) 黑｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,5299,,
+15,電源供應器,聯力工業 LIAN LI,392,｛聯力 RS1200G(1200W) 白｝金牌/全模組/ATX3.1(PCIe 5.1)/USB Hub/雙向安裝/10年,5449,,
+15,電源供應器,聯力工業 LIAN LI,393,｛聯力 EDGE 850W V2｝金牌/全模組/ATX3.1(PCIe 5.1)/10年(分艙機殼專用),3199,,
+15,電源供應器,聯力工業 LIAN LI,394,｛聯力 EDGE 1000W V2 黑｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),4449,,
+15,電源供應器,聯力工業 LIAN LI,395,｛聯力 EDGE 1000W V2 白｝金牌/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),4449,,
+15,電源供應器,聯力工業 LIAN LI,396,｛聯力 EDGE 1200W V2 黑｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),5799,,
+15,電源供應器,聯力工業 LIAN LI,397,｛聯力 EDGE 1200W V2 白｝白金/全模/ATX3.1(PCIe 5.1)/USB Hub/10年(分艙機殼專用),5799,,
+15,電源供應器,聯力工業 LIAN LI,398,｛聯力 EDGE 1350W V2 黑｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用),8299,,
+15,電源供應器,聯力工業 LIAN LI,399,｛聯力 EDGE 1350W V2 白｝白金/全模/ATX3.1(PCIe 5.1溫度監控)/USB Hub/10年(分艙專用),8299,,
 16,機殼風扇｜機殼配件,機殼風扇 超值推薦,2,｛台達 AK-12B 黑｝12cm 效能扇 /SuperFlo軸承/2500RPM/減震襯墊/PWM/六年保,790,,熱賣
 16,機殼風扇｜機殼配件,機殼風扇 超值推薦,3,｛台達 AK-12B-W 白｝12cm 效能扇 /SuperFlo軸承/2500RPM/減震襯墊/PWM/六年保,790,,熱賣
 16,機殼風扇｜機殼配件,機殼風扇 超值推薦,4,｛Acer Predator Frostblade 120｝風扇/HDB軸/1800RPM/ARGB/PWM/一年保,390,,
@@ -5033,107 +5038,106 @@ cat_id,category,group,id,name,price,list_price,flags
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,715,｛irocks T28 Plus｝電競椅-貓抓布 布面(灰色)/防潑水/4D/PU穩重椅輪/特殊編織布料,7911,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,716,｛irocks T28 Plus｝電競椅-貓抓布 布面(米色)/防潑水/4D/PU穩重椅輪/特殊編織布料,7911,,
 17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,717,｛irocks T28 Plus｝電競椅-貓抓布 布面(孔雀綠)/防潑水/4D/PU穩重椅輪/特殊編織布料,7911,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,718,｛irocks T29｝旗艦工學電競椅(灰色)/4D/寬版坐墊/彈性針織布面/防水/防污/防油/磁吸記憶棉頸枕,8911,,
-17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,719,｛iRocks x hololive｝白上吹雪 聯名款 T29 人體工學椅/水盾革皮面 親膚/耐磨/防刮,14900,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],723,｛Razer Iskur V2 X NewGen｝電競椅(綠)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝),11990,,酷幣1200
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],725,｛Razer Iskur V2 X NewGen｝電競椅(粉)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝),11990,,酷幣1200
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],727,｛Razer Iskur V2 NewGen｝電競椅(黑)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],729,｛Razer Iskur V2 NewGen｝電競椅(灰)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],731,｛Razer Iskur V2 NewGen｝電競椅(粉)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],733,｛Razer Iskur V2 NewGen｝電競椅(綠)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],735,｛Razer Enki｝電競椅(綠)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],736,｛Razer Enki Black｝電競椅(黑)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],737,｛Razer Enki Quartz｝電競椅(粉)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],738,｛Razer Fujin Pro｝電競椅-風靈網狀人體工學/4D扶手/後仰136度/鋁合金椅框/頭枕(需自行組裝),28489,,酷幣9999
-17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],740,｛Razer Iskur V2 X EVA ｝新世紀福音戰士 聯名電競椅/2D扶手/纖維布面/內置腰枕(需自行組裝),8888,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,744,｛Marsrhino YO｝電競椅-折疊沙發/加厚減壓泡棉/360度旋轉全方位/折疊式設計/最大承重120公斤,4790,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,745,｛Marsrhino Viper Pro｝電競椅-沙發(魅影)/一鍵控制/PU人造皮革/USB充電座設計,9600,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,746,｛Marsrhino Lander｝電競椅-凳(哨兵)/多功能/獨創紓壓技術/強化框架/椅座360度旋轉,2850,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,747,Marsrhino UL3 超跑人體工學椅/2D/150度椅背傾仰/伸縮式腿托/拆卸式頭枕與腰靠,5900,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,748,Marsrhino ZEN 01 人體工學椅/3D扶手/高彈力透氣網布/可調式腰靠/瀑布式椅座,9900,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,749,Marsrhino Spyder Rs 電競椅(幻影)/無段追背支撐調節系統/4D/PU靜音滑輪/搖椅功能,7100,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,750,｛Marsrhino Infinite One Air｝電競椅(無限)/黑色/透氣高彈力網布/4D扶手/2D紓壓頭枕,6180,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,752,｛Marsrhino Infinite Air｝電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布,8350,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,753,｛Marsrhino Infinite Air Black｝ 電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布,8350,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,754,｛Marsrhino Infinite GT｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔,11100,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,756,｛Marsrhino Infinite GT Black｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔+贈Lander椅凳,11100,,
-17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,758,｛Marsrhino Infinite Max｝電競椅(無限)/2D頭枕/3D腰靠/4D扶手/獨創透氣紓壓椅背,12500,,
-17,鍵盤+鼠｜搖桿｜桌+椅,(隨貨贈)｛Marsrhino Infinite Max｝電競椅 贈Lander椅凳,760,｛Marsrhino Speed R｝電競椅-人體工學(流線)/舒適網布/4D頭枕/3D扶手/瀑布式滑動椅座,9400,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,(隨貨贈)｛Marsrhino Infinite Max｝電競椅 贈Lander椅凳,762,｛Marsrhino Wind｝電競椅(御風)/黑色/高彈力透氣網布設計/8D扶手/PU靜音滑輪/承重120公斤,10300,,
-17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,764,｛海盜船 TC80｝電競椅-辦公椅(黑)布皮款/100mm座椅高度可調/最大可後仰115°,6490,,
-17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,765,｛海盜船 TC500 LUXE｝旗艦電競椅(暗影灰)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝),13990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,766,｛海盜船 TC500 LUXE｝旗艦電競椅(雪白)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝),13990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,767,｛海盜船 Elgato Embrace｝電競椅-人體工學/瀑布式座緣/4D/網布椅背/可調頭枕(不含組裝),17900,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,771,｛ThunderX3 SOLO 360｝電競椅(灰)/LOFT Air多層透氣布/3Dx360度全方向扶手/可調式頭枕,7990,,酷幣1000
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,772,｛ThunderX3 XTC Loft｝電競椅/沙發透氣布面/X型設計3D扶手/動態調整靠背,9990,,酷幣500
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,773,｛ThunderX3 XTC PRO 360｝電競椅/透氣網布/4Dx360度全方向扶手/動態調整座墊,11990,,酷幣600
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,774,｛ThunderX3 Flex Pro Mesh Black｝電競椅(黑)/網布/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,775,｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(灰)/網布/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,776,｛ThunderX3 Flex Pro Loft Dark Grey｝電競椅(深灰布面)/布料/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,777,｛ThunderX3 Flex Pro Mesh Black｝電競椅(附腳拖)(黑)/網布/2D頭枕/3D椅背/5D扶手,19990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,778,｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(附腳拖)(灰)/網布/2D頭枕/3D椅背/5D扶手,19990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,781,｛微軟 Xbox｝無線控制器/搖桿/磨砂黑/無線-藍牙/防滑握把/附電腦連接線(Type-c)(無接收器),1990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,783,｛微軟 Xbox｝無線控制器/搖桿/黑/無線-藍牙/防滑握把/(無接收器),1590,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,784,｛微軟 Xbox｝無線控制器/搖桿/冰雪白/無線-藍牙/防滑握把/(無接收器),1590,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,785,｛微軟 Xbox｝無線控制器(狙擊紅)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,786,｛微軟 Xbox｝無線控制器(衝擊藍)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,787,｛微軟 Xbox｝無線控制器(愛戀粉)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,788,｛華碩 ROG Tessen｝手遊控制器/僅支援Android 手機/可折疊/光環Rgb/Type-C 充電,2990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,789,｛華碩 Raikiri II Pro PC｝無線三模搖桿(黑)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率,7490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,791,｛華碩 Raikiri II Pro PC｝無線三模搖桿(白)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率,7490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,793,｛華碩 ROG Raikiri II Xbox｝無線控制器/三模(有線/2.4g/藍牙)/防飄移TMR搖桿/微動開關按鈕,6490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,794,｛Razer Wolverine V2 Chroma｝有線搖桿(白)/機械觸感動作鍵和方向鍵/適用PC,2488,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,795,｛Razer Prio｝手遊遊戲手把/極致便攜/可摺疊設計/全尺寸控制器按鍵配置/電容式拇指搖桿,3490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,796,｛Razer Wolverine V3 TE 8k｝有線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿,3090,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,797,｛Razer Wolverine V3 Pro 8k｝無線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿,5990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,798,｛Razer Raiju V3 Pro｝無線搖桿(黑)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒,5288,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,799,｛Razer Raiju V3 Pro｝無線搖桿(白)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒,5288,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,800,｛SONY DualSense｝無線控制器(午夜黑)/藍牙+Type-c連接線/觸覺回饋/自適應扳機,2380,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,801,(主機搭購優惠)Turtle Beach Rematch Core 系列手把 原價$990,590,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,802,｛Turtle Beach Rematch Core｝有線搖桿 黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,649,749,價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,803,｛Turtle Beach Rematch Core｝有線搖桿 白綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,649,749,價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,804,｛Turtle Beach Rematch Core｝有線搖桿 迷彩黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,699,799,價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,805,｛Turtle Beach Rematch Core 有線搖桿 迷彩黑橘/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,699,799,價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,806,｛Turtle Beach Rematch Advanced｝有線搖桿 黑暗宇宙/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,807,｛Turtle Beach Rematch Advanced｝有線搖桿 京都之花/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,808,｛Turtle Beach Afterglow Ignite｝有線搖桿 時光機/專利音訊控制/雙段霍爾效應板機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,809,｛Turtle Beach Afterglow Wave｝有線搖桿 黑色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,810,｛Turtle Beach Afterglow Wave｝有線搖桿 白色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,811,｛Turtle Beach Afterglow Wave｝有線搖桿 藍色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,812,｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(黑)/有線-無線-藍牙/動態觸覺回饋,1990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,813,｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(白)/有線-無線-藍牙/動態觸覺回饋,1990,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,814,｛羅技 F310｝遊戲搖桿/有線/浮動式D-Pad舒適防滑握把,679,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,815,｛羅技 F710｝遊戲搖桿/無線/2.4GHz/雙震動馬達回饋,1290,,
-17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,816,｛Varmilo FK2｝全按鍵遊戲控制器(黑)/Cherry電感軸/快速觸發模式/網頁驅動軟體/可調式觸發,2990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,818,｛羅技 G29｝Driving Force方向盤/支援PC.PS4 送Logi Shifter變速器,8490,,熱賣 酷幣500
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,819,｛羅技 G923｝模擬賽車方向盤/Trueforce功能/支援PC.PS4/扭力2.2Nm 送Logi Shifter變速器,8990,,熱賣 酷幣500
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,820,(預購11/2到貨)｛羅技 G RS50｝麥拉倫聯名賽車模擬方向盤(含踏板)/8Nm扭力/支援Trueforce,29900,,熱賣 酷幣500
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,821,｛羅技 G RS50｝賽車模擬方向盤/8Nm扭力/支援Trueforce/支援PC.PS(廠商指送),22990,,熱賣 酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,822,｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 離合器模組(廠商指送),26990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,823,｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 排檔桿+手煞車(廠商指送),29990,,酷幣2000
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,824,｛羅技 G PRO｝模擬賽車方向盤/11nm扭力/支援Trueforce/僅限PC使用/(廠商指送),37900,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,825,｛羅技 G PRO｝模擬賽車方向盤 + 羅技 G PRO 模擬賽車踏板(廠商指送),42900,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,826,｛Thrustmaster T98-P-FERRARI 296GTB｝法拉利聯名方向盤組/7:10 比例復刻版(廠商指送)▼下殺到 11/22 23:59,2711,2980,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,827,｛Thrustmaster T248R｝賽車套裝(方向盤+基座+雙踏板)/3.1Nm扭力(廠商指送)▼下殺到 11/22 23:59,8111,9490,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,828,｛Thrustmaster T598｝賽車套裝(方向盤+基座+雙踏板)/5Nm扭力(廠商指送)▼下殺到 11/22 23:59,13111,15990,熱賣 價格異動 下殺
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,829,｛MOZA R3｝套裝(方向盤+基座+雙踏板)PC版/3.9Nm扭力/鋁合金機身/車規級環保PU(廠商指送),8390,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,830,｛MOZA R5｝卡車套裝(TSW卡車盤+R5基座+SRP-LITE 雙踏板+卡車夾)(廠商指送),16290,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,831,｛MOZA mBooster｝主動踏板/軟體智能調節/雙200KG壓力感測器/真實動態模擬(廠商指送),24990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,832,｛MOZA R9 V3｝基座/9Nm扭力/智慧溫控系統/鋁合金機身/APP雲端控制(廠商指送),9990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,833,｛MOZA R12 V2｝基座/12Nm扭力/智慧溫控系統/NexGen Force 4.0力回饋系統(廠商指送),11990,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,834,｛MOZA R25 Ultra｝基座/25Nm扭力/高精度扭力感測器/600MHz高性能CPU(廠商指送),25490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,835,｛MOZA TSW｝卡車方向盤/400mm標準直徑/超纖皮手工縫線/鋁合金骨架(廠商指送),7390,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,836,｛MOZA Revuelto｝藍寶堅尼模擬賽車方向盤/超纖皮手工縫線/3K斜紋碳纖維撥片(廠商指送),12490,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,837,｛MOZA Mission R｝保時捷模擬賽車方向盤/5.4吋柔性OLED顯示屏/300R超高曲度儀表(廠商指送),38800,,熱賣
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,839,｛Raymii GameArm LGAME-1｝飛行遊戲搖桿支架 飛行模擬器支架(廠商指送),1099,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,840,｛Raymii GameArm LGAME-2｝賽車遊戲支架 夾桌式方向盤/排檔桿/踏板固定座(廠商指送),1999,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,841,｛Raymii GameArm LGAME-3｝賽車遊戲支架/方向盤/落地式折疊可調式賽車架(廠商指送),2499,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,842,｛Raymii GameArm LSA-37｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),2999,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,843,｛Raymii GameArm LSA-36-V2｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),3999,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,844,｛Raymii GameArm LRACE-3｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),4499,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,845,｛Raymii GameArm LRACE-1-RF-SEAT｝賽車遊戲模擬器駕駛艙座椅 (廠商指送),11999,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,846,｛Raymii GameArm LRACE-6｝賽車遊戲模擬器駕駛艙(廠商指送),18999,,
-17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,847,｛Raymii GameArm LRACE-5｝鋁合金RGB賽車遊戲模擬器駕駛艙(廠商指送),22999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,irocks 電競椅【客訂指送】電競椅 無電梯時物流司機商品無法搬運上樓服務 請見諒!!!,718,｛iRocks x hololive｝白上吹雪 聯名款 T29 人體工學椅/水盾革皮面 親膚/耐磨/防刮,14900,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],722,｛Razer Iskur V2 X NewGen｝電競椅(綠)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝),11990,,酷幣1200
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],724,｛Razer Iskur V2 X NewGen｝電競椅(粉)/2D扶手/二代EPU皮革/內建腰部支撐(需自行組裝),11990,,酷幣1200
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],726,｛Razer Iskur V2 NewGen｝電競椅(黑)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],728,｛Razer Iskur V2 NewGen｝電競椅(灰)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],730,｛Razer Iskur V2 NewGen｝電競椅(粉)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],732,｛Razer Iskur V2 NewGen｝電競椅(綠)/4D扶手/二代EPU皮革/記憶頭枕/內置腰部支撐(需自行組裝),20990,,酷幣2300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],734,｛Razer Enki｝電競椅(綠)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],735,｛Razer Enki Black｝電競椅(黑)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],736,｛Razer Enki Quartz｝電競椅(粉)/高密度泡綿軟墊/4D扶手/EPU合成皮革(需自行組裝),14900,,酷幣4300
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],737,｛Razer Fujin Pro｝電競椅-風靈網狀人體工學/4D扶手/後仰136度/鋁合金椅框/頭枕(需自行組裝),28489,,酷幣9999
+17,鍵盤+鼠｜搖桿｜桌+椅,Razer 電競椅 [捷元代理-三年保固],739,｛Razer Iskur V2 X EVA ｝新世紀福音戰士 聯名電競椅/2D扶手/纖維布面/內置腰枕(需自行組裝),8888,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,743,｛Marsrhino YO｝電競椅-折疊沙發/加厚減壓泡棉/360度旋轉全方位/折疊式設計/最大承重120公斤,4790,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,744,｛Marsrhino Viper Pro｝電競椅-沙發(魅影)/一鍵控制/PU人造皮革/USB充電座設計,9600,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,745,｛Marsrhino Lander｝電競椅-凳(哨兵)/多功能/獨創紓壓技術/強化框架/椅座360度旋轉,2850,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,746,Marsrhino UL3 超跑人體工學椅/2D/150度椅背傾仰/伸縮式腿托/拆卸式頭枕與腰靠,5900,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,747,Marsrhino ZEN 01 人體工學椅/3D扶手/高彈力透氣網布/可調式腰靠/瀑布式椅座,9900,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,748,Marsrhino Spyder Rs 電競椅(幻影)/無段追背支撐調節系統/4D/PU靜音滑輪/搖椅功能,7100,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,749,｛Marsrhino Infinite One Air｝電競椅(無限)/黑色/透氣高彈力網布/4D扶手/2D紓壓頭枕,6180,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,751,｛Marsrhino Infinite Air｝電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布,8350,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,752,｛Marsrhino Infinite Air Black｝ 電競椅(無限)/2D紓壓頭枕/3D可調式腰靠/4D扶手/透氣網布,8350,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,753,｛Marsrhino Infinite GT｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔,11100,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,755,｛Marsrhino Infinite GT Black｝電競椅(無限)/獨創紓壓技術/4D/PU靜音滑輪/造型透氣孔+贈Lander椅凳,11100,,
+17,鍵盤+鼠｜搖桿｜桌+椅,Marsrhino 火星犀牛 電競椅/沙發 貨運司機沒有商品搬運上樓服務，請見諒！,757,｛Marsrhino Infinite Max｝電競椅(無限)/2D頭枕/3D腰靠/4D扶手/獨創透氣紓壓椅背,12500,,
+17,鍵盤+鼠｜搖桿｜桌+椅,(隨貨贈)｛Marsrhino Infinite Max｝電競椅 贈Lander椅凳,759,｛Marsrhino Speed R｝電競椅-人體工學(流線)/舒適網布/4D頭枕/3D扶手/瀑布式滑動椅座,9400,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,(隨貨贈)｛Marsrhino Infinite Max｝電競椅 贈Lander椅凳,761,｛Marsrhino Wind｝電競椅(御風)/黑色/高彈力透氣網布設計/8D扶手/PU靜音滑輪/承重120公斤,10300,,
+17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,763,｛海盜船 TC80｝電競椅-辦公椅(黑)布皮款/100mm座椅高度可調/最大可後仰115°,6490,,
+17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,764,｛海盜船 TC500 LUXE｝旗艦電競椅(暗影灰)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝),13990,,
+17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,765,｛海盜船 TC500 LUXE｝旗艦電競椅(雪白)布質款/可拆卸頸枕/4D/內建腰部支撐(不含組裝),13990,,
+17,鍵盤+鼠｜搖桿｜桌+椅,海盜船 電競椅【客訂指送】捷元代理,766,｛海盜船 Elgato Embrace｝電競椅-人體工學/瀑布式座緣/4D/網布椅背/可調頭枕(不含組裝),17900,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,770,｛ThunderX3 SOLO 360｝電競椅(灰)/LOFT Air多層透氣布/3Dx360度全方向扶手/可調式頭枕,7990,,酷幣1000
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,771,｛ThunderX3 XTC Loft｝電競椅/沙發透氣布面/X型設計3D扶手/動態調整靠背,9990,,酷幣500
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,772,｛ThunderX3 XTC PRO 360｝電競椅/透氣網布/4Dx360度全方向扶手/動態調整座墊,11990,,酷幣600
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,773,｛ThunderX3 Flex Pro Mesh Black｝電競椅(黑)/網布/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,774,｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(灰)/網布/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,775,｛ThunderX3 Flex Pro Loft Dark Grey｝電競椅(深灰布面)/布料/2D頭枕/3D椅背/5D扶手,18990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,776,｛ThunderX3 Flex Pro Mesh Black｝電競椅(附腳拖)(黑)/網布/2D頭枕/3D椅背/5D扶手,19990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,ThunderX3 電競椅,777,｛ThunderX3 Flex Pro Mesh Light Grey｝電競椅(附腳拖)(灰)/網布/2D頭枕/3D椅背/5D扶手,19990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,780,｛微軟 Xbox｝無線控制器/搖桿/磨砂黑/無線-藍牙/防滑握把/附電腦連接線(Type-c)(無接收器),1990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,782,｛微軟 Xbox｝無線控制器/搖桿/黑/無線-藍牙/防滑握把/(無接收器),1590,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,783,｛微軟 Xbox｝無線控制器/搖桿/冰雪白/無線-藍牙/防滑握把/(無接收器),1590,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,784,｛微軟 Xbox｝無線控制器(狙擊紅)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,785,｛微軟 Xbox｝無線控制器(衝擊藍)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,786,｛微軟 Xbox｝無線控制器(愛戀粉)/搖桿/無線-藍牙/防滑握把/(無接收器),1690,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,787,｛華碩 ROG Tessen｝手遊控制器/僅支援Android 手機/可折疊/光環Rgb/Type-C 充電,2990,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,788,｛華碩 Raikiri II Pro PC｝無線三模搖桿(黑)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率,7490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,790,｛華碩 Raikiri II Pro PC｝無線三模搖桿(白)/有線/無線/藍牙/熱插拔TMR搖桿/8K輪詢率,7490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,792,｛華碩 ROG Raikiri II Xbox｝無線控制器/三模(有線/2.4g/藍牙)/防飄移TMR搖桿/微動開關按鈕,6490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,793,｛Razer Wolverine V2 Chroma｝有線搖桿(白)/機械觸感動作鍵和方向鍵/適用PC,2488,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,794,｛Razer Prio｝手遊遊戲手把/極致便攜/可摺疊設計/全尺寸控制器按鍵配置/電容式拇指搖桿,3490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,795,｛Razer Wolverine V3 TE 8k｝有線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿,3090,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,796,｛Razer Wolverine V3 Pro 8k｝無線搖桿(黑)/機械式動作鍵/多功能按鍵/TMR類比拇指搖桿,5990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,797,｛Razer Raiju V3 Pro｝無線搖桿(黑)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒,5288,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,798,｛Razer Raiju V3 Pro｝無線搖桿(白)/對稱拇指搖桿/多功能按鍵/8向懸浮方向鍵/附攜帶盒,5288,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,799,｛SONY DualSense｝無線控制器(午夜黑)/藍牙+Type-c連接線/觸覺回饋/自適應扳機,2380,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,800,(主機搭購優惠)Turtle Beach Rematch Core 系列手把 原價$990,590,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,801,｛Turtle Beach Rematch Core｝有線搖桿 黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,649,749,價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,802,｛Turtle Beach Rematch Core｝有線搖桿 白綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,649,749,價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,803,｛Turtle Beach Rematch Core｝有線搖桿 迷彩黑綠/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,699,799,價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,804,｛Turtle Beach Rematch Core 有線搖桿 迷彩黑橘/專利音訊控制/人體工學/雙震動馬達▼下殺到 11/30 23:59,699,799,價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,805,｛Turtle Beach Rematch Advanced｝有線搖桿 黑暗宇宙/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,806,｛Turtle Beach Rematch Advanced｝有線搖桿 京都之花/專利音訊控制/可自訂遊戲操作▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,807,｛Turtle Beach Afterglow Ignite｝有線搖桿 時光機/專利音訊控制/雙段霍爾效應板機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,808,｛Turtle Beach Afterglow Wave｝有線搖桿 黑色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,809,｛Turtle Beach Afterglow Wave｝有線搖桿 白色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,810,｛Turtle Beach Afterglow Wave｝有線搖桿 藍色/專利音訊控制/霍爾效應三段可調式扳機/Rgb▼下殺到 11/30 23:59,1111,1290,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,811,｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(黑)/有線-無線-藍牙/動態觸覺回饋,1990,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,812,｛MSI Force Gc300 W｝無線搖捍控制器遊戲手把(白)/有線-無線-藍牙/動態觸覺回饋,1990,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,813,｛羅技 F310｝遊戲搖桿/有線/浮動式D-Pad舒適防滑握把,679,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,814,｛羅技 F710｝遊戲搖桿/無線/2.4GHz/雙震動馬達回饋,1290,,
+17,鍵盤+鼠｜搖桿｜桌+椅,搖桿 遊戲周邊,815,｛Varmilo FK2｝全按鍵遊戲控制器(黑)/Cherry電感軸/快速觸發模式/網頁驅動軟體/可調式觸發,2990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,817,｛羅技 G29｝Driving Force方向盤/支援PC.PS4 送Logi Shifter變速器,8490,,熱賣 酷幣500
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,818,｛羅技 G923｝模擬賽車方向盤/Trueforce功能/支援PC.PS4/扭力2.2Nm 送Logi Shifter變速器,8990,,熱賣 酷幣500
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,819,(預購11/2到貨)｛羅技 G RS50｝麥拉倫聯名賽車模擬方向盤(含踏板)/8Nm扭力/支援Trueforce,29900,,熱賣 酷幣500
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,820,｛羅技 G RS50｝賽車模擬方向盤/8Nm扭力/支援Trueforce/支援PC.PS(廠商指送),22990,,熱賣 酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,821,｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 離合器模組(廠商指送),26990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,822,｛羅技 G RS50｝賽車模擬方向盤+RS 專業賽車踏板+RS 排檔桿+手煞車(廠商指送),29990,,酷幣2000
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,823,｛羅技 G PRO｝模擬賽車方向盤/11nm扭力/支援Trueforce/僅限PC使用/(廠商指送),37900,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,824,｛羅技 G PRO｝模擬賽車方向盤 + 羅技 G PRO 模擬賽車踏板(廠商指送),42900,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,825,｛Thrustmaster T98-P-FERRARI 296GTB｝法拉利聯名方向盤組/7:10 比例復刻版(廠商指送)▼下殺到 11/22 23:59,2711,2980,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,826,｛Thrustmaster T248R｝賽車套裝(方向盤+基座+雙踏板)/3.1Nm扭力(廠商指送)▼下殺到 11/22 23:59,8111,9490,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,827,｛Thrustmaster T598｝賽車套裝(方向盤+基座+雙踏板)/5Nm扭力(廠商指送)▼下殺到 11/22 23:59,13111,15990,熱賣 價格異動 下殺
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,828,｛MOZA R3｝套裝(方向盤+基座+雙踏板)PC版/3.9Nm扭力/鋁合金機身/車規級環保PU(廠商指送),8390,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,829,｛MOZA R5｝卡車套裝(TSW卡車盤+R5基座+SRP-LITE 雙踏板+卡車夾)(廠商指送),16290,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,830,｛MOZA mBooster｝主動踏板/軟體智能調節/雙200KG壓力感測器/真實動態模擬(廠商指送),24990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,831,｛MOZA R9 V3｝基座/9Nm扭力/智慧溫控系統/鋁合金機身/APP雲端控制(廠商指送),9990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,832,｛MOZA R12 V2｝基座/12Nm扭力/智慧溫控系統/NexGen Force 4.0力回饋系統(廠商指送),11990,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,833,｛MOZA R25 Ultra｝基座/25Nm扭力/高精度扭力感測器/600MHz高性能CPU(廠商指送),25490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,834,｛MOZA TSW｝卡車方向盤/400mm標準直徑/超纖皮手工縫線/鋁合金骨架(廠商指送),7390,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,835,｛MOZA Revuelto｝藍寶堅尼模擬賽車方向盤/超纖皮手工縫線/3K斜紋碳纖維撥片(廠商指送),12490,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,836,｛MOZA Mission R｝保時捷模擬賽車方向盤/5.4吋柔性OLED顯示屏/300R超高曲度儀表(廠商指送),38800,,熱賣
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,838,｛Raymii GameArm LGAME-1｝飛行遊戲搖桿支架 飛行模擬器支架(廠商指送),1099,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,839,｛Raymii GameArm LGAME-2｝賽車遊戲支架 夾桌式方向盤/排檔桿/踏板固定座(廠商指送),1999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,840,｛Raymii GameArm LGAME-3｝賽車遊戲支架/方向盤/落地式折疊可調式賽車架(廠商指送),2499,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,841,｛Raymii GameArm LSA-37｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),2999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,842,｛Raymii GameArm LSA-36-V2｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),3999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,843,｛Raymii GameArm LRACE-3｝遊戲賽車方向盤/排檔桿/油門支架(廠商指送),4499,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,844,｛Raymii GameArm LRACE-1-RF-SEAT｝賽車遊戲模擬器駕駛艙座椅 (廠商指送),11999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,845,｛Raymii GameArm LRACE-6｝賽車遊戲模擬器駕駛艙(廠商指送),18999,,
+17,鍵盤+鼠｜搖桿｜桌+椅,方向盤 方向盤支架 賽車座艙 賽車組套件組,846,｛Raymii GameArm LRACE-5｝鋁合金RGB賽車遊戲模擬器駕駛艙(廠商指送),22999,,
 18,滑鼠｜鼠墊｜數位板,【周邊活動促銷專區】,2,[預購中預計11月底到貨]｛Razer DeathAdder V4 Pro EVA-01｝新世紀福音戰士聯名款 滑鼠,6890,,熱賣
 18,滑鼠｜鼠墊｜數位板,【周邊活動促銷專區】,3,[預購中預計11月底到貨]｛Razer Gigantus V2 EVA-01｝新世紀福音戰士聯名款聯名鼠墊/940x410mm,1490,,熱賣
 18,滑鼠｜鼠墊｜數位板,【周邊活動促銷專區】,4,(預購預計11/20出貨點右邊◆)｛海盜船 Sabre V3 Pro PureVector Ultralight Ergo｝無線滑鼠(黑)/有線/無線/42000dpi/41g,4990,,熱賣
