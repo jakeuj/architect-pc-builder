@@ -1,8 +1,8 @@
-# 原價屋估價單 (報價日期 2026/11/14 11:22)
+# 原價屋估價單 (報價日期 2026/11/14 18:39)
 
-| | 入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲<br>**20,458** | 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作<br>**22,168** | 高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開<br>**126,007** | 入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲<br>**20,558** | 主流遊戲 · Intel — U7-265K／32G／RTX5060，1080p～2K 大作<br>**22,668** | 高階 · Intel — U9-285K／64G／RTX5070Ti，2K～4K 特效全開<br>**123,657** | 文書 · Intel — U5-225／32G／內顯，文書、2D 遊戲、4K 影片<br>**19,568** |
+| | 入門遊戲 · AMD — R5 9600X／32G／RTX5050，1080p 大部分 3D 遊戲<br>**28,608** | 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作<br>**33,718** | 高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開<br>**126,007** | 入門遊戲 · Intel — U5-245KF／32G／RTX5050，1080p 大部分 3D 遊戲<br>**20,558** | 主流遊戲 · Intel — U7-265K／32G／RTX5060，1080p～2K 大作<br>**22,668** | 高階 · Intel — U9-285K／64G／RTX5070Ti，2K～4K 特效全開<br>**123,657** | 文書 · Intel — U5-225／32G／內顯，文書、2D 遊戲、4K 影片<br>**19,568** |
 |---|---|---|---|---|---|---|---|
-| CPU | （不唯一）AMD R5 9600X | （不唯一）AMD R7 9700X | AMD R9 9950X3D 23,950 | （已下架）Intel Core Ultra 5 245KF | （已下架）Intel Core Ultra 7 265K | Intel Core Ultra 9 285K 21,500 | （已下架）Intel Core Ultra 5 225 |
+| CPU | AMD R5 9600X 8,150 | AMD R7 9700X 11,550 | AMD R9 9950X3D 23,950 | （已下架）Intel Core Ultra 5 245KF | （已下架）Intel Core Ultra 7 265K | Intel Core Ultra 9 285K 21,500 | （已下架）Intel Core Ultra 5 225 |
 | MB | 華碩 B850M AYW GAMING WIFI 4,990 | 微星 B850 GAMING PLUS WIFI 5,990 | 華碩 TUF GAMING B850-PLUS WIFI 7,490 | 華碩 B860M AYW GAMING WIFI 4,590 | 微星 B860 GAMING PLUS WIFI 6,590 | 微星 PRO Z890-S WIFI 7,090 | 華碩 B860M AYW GAMING WIFI 4,590 |
 | RAM | （已下架）Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR | （已下架）Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR | Micron Crucial 64GB(雙通32GB*2) DDR5 5600 29,999 | （已下架）Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR | （已下架）Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR | Micron Crucial 64GB(雙通32GB*2) DDR5 5600 29,999 | （已下架）Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR |
 | SSD | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 | 致態 ZhiTai TiPlus7100s 1TB 10,798 ×2 |
@@ -16,7 +16,7 @@
 
 | 項目 | 品名 | 單價 | 數量 | 小計 | 備註 |
 |---|---|---:|---:|---:|---|
-| CPU | （不唯一）｛AMD R5 9600X｝ | – | 1 | – | 不計入總計 |
+| CPU | ｛AMD R5 9600X｝代理盒裝【6核/12緒】3.9G(↑5.4G)65W /具RDNA內顯 | 8,150 | 1 | 8,150 |  |
 | MB | ｛華碩 B850M AYW GAMING WIFI｝M-ATX/2.5G+無線/註五年/8+2+1相 | 4,990 | 1 | 4,990 | 任搭折500 |
 | RAM | （已下架）｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝ | – | 1 | – | 不計入總計 |
 | SSD | ｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~ | 5,399 | 2 | 10,798 | 熱賣 |
@@ -24,15 +24,15 @@
 | PSU | ｛保銳 CyberG II 650W｝雙8/金牌/直出扁線/ATX3.1/全日系/7年 | 1,790 | 1 | 1,790 |  |
 | CASE | ｛Antec P10C 靜音機殼｝顯卡長40.5/CPU高17.5/前置Type-C/內建風速切換/ATX | 2,690 | 1 | 2,690 |  |
 | COOLER | ｛利民 Assassin King 120 SE｝5導管(6mm)/高14.8cm/AGHP 逆重力導管【WXZ】 | 690 | 1 | 690 |  |
-| **總計** | | | | **20,958** | |
-| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -500 | 實付約 20,458 |
+| **總計** | | | | **29,108** | |
+| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -500 | 實付約 28,608 |
 
 ## 主流遊戲 · AMD — R7 9700X／32G／RTX5060，1080p～2K 大作
 > 依歐飛 2026/10〈每月組裝說明〉「U7/R7 遊戲機」：R7 9700X＋32G＋1TB SSD ×2＋RTX5060 以上。9700X 不附風扇，I7/R7 以上建議塔扇。
 
 | 項目 | 品名 | 單價 | 數量 | 小計 | 備註 |
 |---|---|---:|---:|---:|---|
-| CPU | （不唯一）｛AMD R7 9700X｝ | – | 1 | – | 不計入總計 |
+| CPU | ｛AMD R7 9700X｝代理盒裝【8核/16緒】3.8G(↑5.5G)65W /具RDNA內顯 | 11,550 | 1 | 11,550 |  |
 | MB | ｛微星 B850 GAMING PLUS WIFI｝/ATX/5G+Wi-Fi7/註五年/12+2+1相 | 5,990 | 1 | 5,990 | 任搭折90 |
 | RAM | （已下架）｛Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000｝ | – | 1 | – | 不計入總計 |
 | SSD | ｛致態 ZhiTai TiPlus7100s 1TB｝/Gen4/PCIe 4.0/讀7400/寫6900/TLC【五年保】~送飲料提袋~ | 5,399 | 2 | 10,798 | 熱賣 |
@@ -40,8 +40,8 @@
 | PSU | ｛保銳 CyberG II 750W｝雙8/金牌/直出扁線/ATX3.1(PCIe 5.1)/全日系/7年 | 2,090 | 1 | 2,090 |  |
 | CASE | ｛Antec P10C 靜音機殼｝顯卡長40.5/CPU高17.5/前置Type-C/內建風速切換/ATX | 2,690 | 1 | 2,690 |  |
 | COOLER | ｛利民 Assassin King 120 SE｝5導管(6mm)/高14.8cm/AGHP 逆重力導管【WXZ】 | 690 | 1 | 690 |  |
-| **總計** | | | | **22,258** | |
-| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -90 | 實付約 22,168 |
+| **總計** | | | | **33,808** | |
+| 任搭折扣 (估價頁未扣, 結帳時再減) | | | | -90 | 實付約 33,718 |
 
 ## 高階 · AMD — R9 9950X3D／64G／RTX5070Ti，2K～4K 特效全開
 > 依歐飛 2026/10〈每月組裝說明〉「U9/R9 高階機」：R9 9950X3D＋64G＋1TB SSD ×2＋RTX5070TI 以上。配雙塔散熱、850W 金牌電源。
